@@ -51,7 +51,7 @@
     background-image:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);
     background-size:46px 46px;mask-image:radial-gradient(ellipse 80% 70% at 50% 0%,#000,transparent 75%)}
   .hero-deco{position:absolute;right:2%;bottom:-2px;width:min(46%,560px);opacity:.5;pointer-events:none}
-  .hero-inner{position:relative;max-width:1200px;margin:0 auto;padding:60px 24px 92px}
+  .hero-inner{position:relative;max-width:1200px;margin:0 auto;padding:32px 24px 70px}
   .eyebrow{display:inline-flex;align-items:center;gap:9px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.16);color:#cdeef7;padding:7px 16px;border-radius:30px;font-size:.74rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;margin-bottom:22px}
   .eyebrow .led{width:8px;height:8px;border-radius:50%;background:#34e08b;box-shadow:0 0 0 4px rgba(52,224,139,.25)}
   .hero h1{font-size:clamp(2rem,4.4vw,3.1rem);line-height:1.08;font-weight:800;max-width:15ch;margin-bottom:18px}
@@ -187,6 +187,39 @@
   .pn-btn:hover{background:#20c55e;color:#062e1b;transform:translateY(-2px)}
   .pn-btn svg{width:22px;height:22px}
   @media(max-width:600px){.petronews{padding:22px}.pn-btn{width:100%;justify-content:center}}
+  /* ESTADOS (ICMS) */
+  .uf-title{font-family:'Sora';color:var(--petrol);font-size:1.2rem;margin:30px 0 4px;font-weight:700}
+  .uf-sub{color:var(--muted);font-size:.95rem;margin-bottom:16px;max-width:75ch}
+  .uf-grid{display:flex;flex-wrap:wrap;gap:7px;margin-bottom:18px}
+  .uf-chip{border:1px solid var(--line);background:#fff;color:var(--petrol);font-weight:700;font-size:.82rem;padding:7px 11px;border-radius:9px;cursor:pointer;font-family:inherit;min-width:42px;transition:.15s;box-shadow:var(--sh-sm)}
+  .uf-chip:hover{border-color:var(--teal);color:var(--teal-d);transform:translateY(-1px)}
+  .uf-chip.og{border-color:rgba(0,164,95,.45)}
+  .uf-chip.og::after{content:"";display:inline-block;width:5px;height:5px;border-radius:50%;background:var(--pet-green);margin-left:5px;vertical-align:middle}
+  .uf-chip.active{background:linear-gradient(135deg,var(--petrol2),var(--petrol3));border-color:transparent;color:#fff}
+  .uf-card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--sh);padding:22px 24px;border-top:4px solid var(--pet-green)}
+  .uf-head{display:flex;align-items:center;gap:12px;margin-bottom:14px;flex-wrap:wrap}
+  .uf-badge{background:linear-gradient(135deg,var(--petrol2),var(--petrol3));color:#fff;font-family:'Sora';font-weight:800;font-size:1rem;padding:6px 12px;border-radius:10px}
+  .uf-head h4{color:var(--petrol);font-size:1.25rem;font-weight:700;margin:0}
+  .uf-tag{background:#e3f6ec;color:var(--pet-green-d);font-weight:700;font-size:.7rem;text-transform:uppercase;letter-spacing:.04em;padding:3px 10px;border-radius:20px}
+  .uf-list{list-style:none;display:flex;flex-direction:column;gap:8px;margin:0 0 14px}
+  .uf-list li{font-size:.92rem;color:#3a4d56;padding-left:18px;position:relative}
+  .uf-list li::before{content:"\25B8";position:absolute;left:0;color:var(--teal-d)}
+  .uf-list b{color:var(--petrol)}
+  .uf-norma{font-size:.88rem;color:#4a5d66;background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:11px 13px;margin-bottom:14px}
+  .uf-norma.verified{background:#eef7f1;border-color:#bfe3cd}
+  .uf-norma b{color:var(--petrol)}
+  .uf-link{display:inline-flex;align-items:center;gap:6px;font-weight:700;font-size:.88rem}
+  /* REFORMA */
+  .ref-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px;margin-top:6px}
+  .ref-card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:20px 22px;box-shadow:var(--sh-sm);transition:.2s;border-top:3px solid var(--teal)}
+  .ref-card:hover{transform:translateY(-3px);box-shadow:var(--sh)}
+  .ref-card h4{color:var(--petrol);font-size:1.05rem;margin-bottom:6px;font-weight:700}
+  .ref-card p{font-size:.9rem;color:#3a4d56}
+  .ref-news{margin-top:6px;display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px}
+  .ref-news a{display:block;background:var(--card);border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:12px;padding:14px 16px;box-shadow:var(--sh-sm);transition:.18s}
+  .ref-news a:hover{transform:translateY(-2px);box-shadow:var(--sh);text-decoration:none}
+  .ref-news .s{font-size:.72rem;color:var(--gold-d);font-weight:700;text-transform:uppercase;letter-spacing:.04em}
+  .ref-news .t{display:block;color:var(--petrol);font-weight:600;font-size:.95rem;margin-top:4px}
 
   @media(max-width:860px){
     .hero-stats{grid-template-columns:repeat(2,1fr)}
@@ -212,6 +245,7 @@
       <a href="#players">Players</a>
       <a href="#navios">Navios &amp; Equipamentos</a>
       <a href="#legislacao">Legislação</a>
+      <a href="#reforma">Reforma Tributária</a>
       <a href="#petrobras">Petrobras</a>
     </nav>
   </div>
@@ -236,7 +270,6 @@
     </g>
   </svg>
   <div class="hero-inner">
-    <span class="eyebrow"><span class="led"></span> Foco profissional · Petrobras &amp; Repetro-Sped</span>
     <h1>Sua central de inteligência em <span class="hl">Óleo &amp; Gás</span> e regimes aduaneiros especiais</h1>
     <p class="sub">Notícias do setor atualizadas ao vivo (com tradução automática das fontes internacionais), cotações do dia, os principais players do Brasil e do mundo, um guia visual de navios e equipamentos offshore, e a legislação do Repetro-Sped — federal e do Estado do Rio de Janeiro.</p>
     <div class="hero-stats">
@@ -318,28 +351,52 @@
     </div>
 
     <div class="law-col law-rj">
-      <h3>🏛️ Esfera Estadual · Rio de Janeiro (ICMS)</h3>
+      <h3>🏛️ Esfera Estadual · ICMS (base nacional)</h3>
       <div class="law-body">
-      <div class="norm"><b>Convênio ICMS 03/2018 (CONFAZ)</b><span>Autoriza os Estados a conceder isenção e redução de base de cálculo do ICMS nas operações do Repetro-Sped.</span></div>
-      <div class="norm"><b>Convênio ICMS 220/2019</b><span>Ajustes ao 03/2018, incluindo o tratamento do Repetro-Industrialização.</span></div>
-      <div class="norm"><b>Decreto RJ nº 46.233/2018</b><span>Internalização inicial do convênio no Estado (posteriormente substituído).</span></div>
-      <div class="norm"><b>Lei Estadual RJ nº 8.890/2020</b><span>Internaliza definitivamente as regras no RJ: isenção e redução de base de cálculo do ICMS para bens destinados à E&amp;P de petróleo e gás.</span></div>
-      <div class="norm"><b>Resolução SEFAZ RJ nº 169/2020</b><span>Procedimentos operacionais e obrigações acessórias da adesão no Estado.</span></div>
-      <div class="note"><b>Carga efetiva no RJ:</b> importação definitiva e aquisição no mercado interno de <b>bens permanentes</b> → base reduzida para carga equivalente a <span class="pill">3%</span>, <b>sem aproveitamento de crédito</b>. Importação <b>temporária</b> → <span class="pill">isenção</span> (NCM da lista federal). Adesão é <b>opcional</b>, com renúncia a discussões judiciais.</div>
+      <div class="norm"><b>Convênio ICMS 03/2018 (CONFAZ)</b><span>Autoriza os Estados e o DF a conceder isenção e redução de base de cálculo do ICMS no Repetro-Sped. Cada UF internaliza por norma própria.</span></div>
+      <div class="norm"><b>Convênio ICMS 220/2019</b><span>Estende o tratamento ao Repetro-Industrialização.</span></div>
+      <div class="norm"><b>Importação definitiva / aquisição interna</b><span>De bem permanente → base reduzida para carga equivalente a <span class="pill">3%</span>, sem aproveitamento de crédito.</span></div>
+      <div class="norm"><b>Admissão temporária</b><span>Isenção do ICMS (bens da lista de NCM da legislação federal).</span></div>
+      <div class="note">⚠️ A adesão ao convênio e as condições <b>variam por estado</b>. Selecione a sua UF logo abaixo para ver a norma local e o caminho oficial.</div>
       </div>
     </div>
   </div>
 
+  <h3 class="uf-title">ICMS do Repetro por estado</h3>
+  <p class="uf-sub">Selecione a Unidade da Federação para ver o tratamento do ICMS (Repetro-Sped e Repetro-Industrialização) e o caminho para a norma oficial. As UFs com ponto verde têm atividade de óleo &amp; gás.</p>
+  <div class="uf-grid" id="ufGrid"></div>
+  <div class="uf-detail" id="ufDetail"></div>
+
+  <h3 class="uf-title" style="margin-top:34px">Quadro-resumo (base nacional)</h3>
   <table class="law-table">
-    <thead><tr><th>Operação</th><th>Tributos federais (Repetro-Sped)</th><th>ICMS no RJ</th></tr></thead>
+    <thead><tr><th>Operação</th><th>Tributos federais (Repetro-Sped)</th><th>ICMS (Convênio 03/2018)</th></tr></thead>
     <tbody>
       <tr><td><b>Admissão temporária</b> (uso econômico do bem estrangeiro)</td><td>Suspensão de II, IPI, PIS/Cofins</td><td>Isenção (bens da lista de NCM federal)</td></tr>
       <tr><td><b>Importação definitiva</b> de bem permanente</td><td>Suspensão que se converte em isenção / alíquota zero</td><td>Redução de base → carga de <b>3%</b>, sem crédito</td></tr>
       <tr><td><b>Aquisição no mercado interno</b> (Repetro-Industrialização)</td><td>Suspensão de IPI / PIS / Cofins na cadeia</td><td>Redução de base → carga de <b>3%</b>, sem crédito</td></tr>
-      <tr><td><b>Saída para utilização econômica no RJ</b></td><td>—</td><td>ICMS torna-se devido ao Estado quando o uso econômico ocorre em território fluminense</td></tr>
+      <tr><td><b>Saída para utilização econômica</b></td><td>—</td><td>ICMS torna-se devido à UF onde ocorre a utilização econômica do bem</td></tr>
     </tbody>
   </table>
   <div class="note">⚠️ Conteúdo de referência para estudo e trabalho — não substitui a consulta à norma na íntegra nem a orientação jurídica formal. Confira sempre o texto atualizado no site da Receita Federal, do CONFAZ e da SEFAZ-RJ.</div>
+</section>
+
+<section id="reforma">
+  <div class="sec-head"><span class="kicker">Novo modelo tributário</span><h2>Reforma Tributária &amp; o Repetro</h2></div>
+  <p class="sec-sub">Como a Reforma Tributária do Consumo (EC 132/2023 e LC 214/2025) trata o Repetro-Sped e o Repetro-Industrialização na transição do ICMS, PIS, Cofins e IPI para o IBS e a CBS.</p>
+  <div class="ref-grid">
+    <div class="ref-card"><h4>IBS &amp; CBS no lugar de 5 tributos</h4><p>A EC 132/2023 cria o IBS (estadual/municipal) e a CBS (federal), que substituem ICMS, ISS, PIS, Cofins e IPI. A regulamentação veio com a LC 214/2025, com transição entre 2026 e 2033.</p></div>
+    <div class="ref-card"><h4>Art. 93 da LC 214/2025</h4><p>Institui o novo regime aduaneiro especial para petróleo e gás: suspensão de IBS e CBS na importação e na aquisição no mercado interno de bens da cadeia de E&amp;P — equivalente, no novo modelo, ao Repetro-Sped.</p></div>
+    <div class="ref-card"><h4>Repetro-Industrialização</h4><p>Mantém a suspensão de IBS/CBS na aquisição de matérias-primas, produtos intermediários e materiais de embalagem para a fabricação de bens do setor. Novidade: a figura do <i>fabricante intermediário</i> (§ 4º).</p></div>
+    <div class="ref-card"><h4>Vigência até 31/12/2040</h4><p>O prazo para fruição das suspensões do Repetro é mantido até 31 de dezembro de 2040, preservando a segurança jurídica do setor durante a transição.</p></div>
+  </div>
+  <h3 class="uf-title">Notícias &amp; análises · Reforma x Repetro</h3>
+  <div class="ref-news">
+    <a href="https://www.conjur.com.br/2025-jun-02/o-novo-regime-aduaneiro-para-o-setor-de-petroleo-e-gas-na-reforma-tributaria/" target="_blank" rel="noopener"><span class="s">ConJur</span><span class="t">O novo regime aduaneiro para o setor de petróleo e gás na reforma tributária</span></a>
+    <a href="https://www.conjur.com.br/2025-jul-08/repetro-impactos-da-reforma-tributaria-e-da-nova-lei-geral-aduaneira/" target="_blank" rel="noopener"><span class="s">ConJur</span><span class="t">Repetro: impactos da reforma tributária e da nova lei geral aduaneira</span></a>
+    <a href="https://www.migalhas.com.br/depeso/435526/reforma-tributaria-41-repetro-reporto-renaval-e-reide" target="_blank" rel="noopener"><span class="s">Migalhas</span><span class="t">Reforma tributária: Repetro, Reporto, Renaval e Reide</span></a>
+    <a href="https://www.mayerbrown.com/pt/insights/publications/2025/01/brazilian-tax-reform-complementary-law-no-214-2025-sanctioned" target="_blank" rel="noopener"><span class="s">Mayer Brown</span><span class="t">LC 214/2025 sancionada: o que muda na tributação do consumo</span></a>
+  </div>
+  <div class="note">⚠️ Tema em evolução: a regulamentação infralegal (atos do Comitê Gestor do IBS e da Receita Federal) ainda está sendo editada. Acompanhe as atualizações — a aba <b>Notícias › Legislação</b> também traz novidades do Repetro.</div>
 </section>
 
 <section id="petrobras">
@@ -449,6 +506,61 @@ function renderVessels(){
   }).join('');
 }
 renderVessels();
+
+/* ===================== ICMS DO REPETRO POR ESTADO ===================== */
+var UFS=[
+  {uf:"RJ",nome:"Rio de Janeiro",og:true,norma:"Lei Estadual nº 8.890/2020 (revogou o Decreto nº 46.233/2018) e Resolução SEFAZ-RJ nº 169/2020."},
+  {uf:"SP",nome:"São Paulo",og:true,norma:"Decreto nº 63.208/2018, que internaliza o Convênio ICMS 03/2018."},
+  {uf:"ES",nome:"Espírito Santo",og:true,norma:""},
+  {uf:"RN",nome:"Rio Grande do Norte",og:true,norma:""},
+  {uf:"BA",nome:"Bahia",og:true,norma:""},
+  {uf:"SE",nome:"Sergipe",og:true,norma:""},
+  {uf:"AL",nome:"Alagoas",og:true,norma:""},
+  {uf:"AM",nome:"Amazonas",og:true,norma:""},
+  {uf:"CE",nome:"Ceará",og:true,norma:""},
+  {uf:"PR",nome:"Paraná",og:false,norma:""},
+  {uf:"SC",nome:"Santa Catarina",og:false,norma:""},
+  {uf:"RS",nome:"Rio Grande do Sul",og:false,norma:""},
+  {uf:"MA",nome:"Maranhão",og:false,norma:""},
+  {uf:"PA",nome:"Pará",og:false,norma:""},
+  {uf:"PE",nome:"Pernambuco",og:false,norma:""},
+  {uf:"PB",nome:"Paraíba",og:false,norma:""},
+  {uf:"PI",nome:"Piauí",og:false,norma:""},
+  {uf:"MG",nome:"Minas Gerais",og:false,norma:""},
+  {uf:"GO",nome:"Goiás",og:false,norma:""},
+  {uf:"MT",nome:"Mato Grosso",og:false,norma:""},
+  {uf:"MS",nome:"Mato Grosso do Sul",og:false,norma:""},
+  {uf:"DF",nome:"Distrito Federal",og:false,norma:""},
+  {uf:"AC",nome:"Acre",og:false,norma:""},
+  {uf:"AP",nome:"Amapá",og:false,norma:""},
+  {uf:"RO",nome:"Rondônia",og:false,norma:""},
+  {uf:"RR",nome:"Roraima",og:false,norma:""},
+  {uf:"TO",nome:"Tocantins",og:false,norma:""}
+];
+function ufSearch(u){return "https://www.google.com/search?q="+encodeURIComponent("Repetro-Sped ICMS "+u.nome+" Convênio ICMS 03/2018 norma SEFAZ");}
+function showUF(uf){
+  var arr=UFS.filter(function(x){return x.uf===uf;}); if(!arr.length) return; var u=arr[0];
+  var normaHtml = u.norma
+    ? '<div class="uf-norma verified"><b>Norma estadual:</b> '+u.norma+'</div>'
+    : '<div class="uf-norma"><b>Norma estadual:</b> internalização do Convênio ICMS 03/2018 por norma da própria UF — confirme o número e a vigência atual na SEFAZ-'+u.uf+'.'+(u.og?' Estado com atividade de óleo &amp; gás.':'')+'</div>';
+  document.getElementById('ufDetail').innerHTML=
+    '<div class="uf-card"><div class="uf-head"><span class="uf-badge">'+u.uf+'</span><h4>'+u.nome+'</h4>'+(u.og?'<span class="uf-tag">Produtor de O&amp;G</span>':'')+'</div>'+
+    '<ul class="uf-list">'+
+    '<li><b>Importação definitiva / aquisição interna</b> de bem permanente → base reduzida para carga equivalente a <b>3%</b>, sem crédito (Conv. ICMS 03/2018).</li>'+
+    '<li><b>Admissão temporária</b> → <b>isenção</b> do ICMS (bens da lista de NCM federal).</li>'+
+    '<li><b>Repetro-Industrialização</b> → tratamento conforme Conv. ICMS 220/2019, quando internalizado pela UF.</li>'+
+    '</ul>'+normaHtml+
+    '<a class="uf-link" href="'+ufSearch(u)+'" target="_blank" rel="noopener">Buscar norma oficial da SEFAZ-'+u.uf+' ↗</a></div>';
+}
+function renderUFGrid(){
+  document.getElementById('ufGrid').innerHTML=UFS.map(function(u){return '<button class="uf-chip'+(u.og?' og':'')+'" data-uf="'+u.uf+'">'+u.uf+'</button>';}).join('');
+  document.querySelectorAll('[data-uf]').forEach(function(b){b.addEventListener('click',function(){
+    document.querySelectorAll('[data-uf]').forEach(function(x){x.classList.remove('active');});
+    b.classList.add('active'); showUF(b.dataset.uf);
+  });});
+  var rj=document.querySelector('[data-uf="RJ"]'); if(rj) rj.classList.add('active');
+}
+renderUFGrid(); showUF('RJ');
 
 /* ===================== COTAÇÕES (barril, dólar, euro) ===================== */
 var MARKET={brent:"US$ 105,00", usd:"R$ 5,42", eur:"R$ 5,88", updated:"15/06/2026"};
