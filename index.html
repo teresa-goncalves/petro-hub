@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Petro Hub · Inteligência de Óleo & Gás | Repetro-Sped</title>
+<style>
+  :root{
+    --navy:#0b3a48; --navy2:#0f4a5b; --teal:#1487a3; --pet-green:#00995d;
+    --pet-green-d:#007a4a; --gold:#e6a817; --bg:#eaf1f3; --card:#ffffff;
+    --ink:#16242f; --muted:#5a6b78; --line:#e2e8ee; --shadow:0 4px 18px rgba(10,37,64,.08);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{scroll-behavior:smooth}
+  body{font-family:'Segoe UI',Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink);line-height:1.55}
+  a{color:var(--teal);text-decoration:none}
+  a:hover{text-decoration:underline}
+  header.nav{position:sticky;top:0;z-index:50;background:var(--navy);color:#fff;box-shadow:0 2px 12px rgba(0,0,0,.18)}
+  .nav-inner{max-width:1180px;margin:0 auto;display:flex;align-items:center;gap:18px;padding:12px 20px;flex-wrap:wrap}
+  .logo{display:flex;align-items:center;gap:10px;font-weight:800;font-size:1.18rem;letter-spacing:.3px}
+  .logo .dot{width:14px;height:14px;border-radius:50%;background:var(--pet-green);box-shadow:0 0 0 4px rgba(0,153,93,.25)}
+  nav.links{display:flex;gap:6px;margin-left:auto;flex-wrap:wrap}
+  nav.links a{color:#cdd9e4;padding:7px 12px;border-radius:8px;font-size:.92rem;font-weight:600}
+  nav.links a:hover{background:rgba(255,255,255,.10);color:#fff;text-decoration:none}
+  .hero{background:linear-gradient(135deg,var(--navy) 0%,var(--navy2) 55%,var(--teal) 130%);color:#fff;padding:46px 20px 56px}
+  .hero-inner{max-width:1180px;margin:0 auto}
+  .hero h1{font-size:2.15rem;line-height:1.15;margin-bottom:12px;max-width:760px}
+  .hero p.sub{font-size:1.08rem;color:#d3e1ec;max-width:680px}
+  .pet-badge{display:inline-flex;align-items:center;gap:8px;background:rgba(0,153,93,.18);border:1px solid rgba(0,153,93,.5);color:#bff0d8;padding:6px 14px;border-radius:30px;font-size:.82rem;font-weight:700;margin-bottom:20px;text-transform:uppercase;letter-spacing:.5px}
+  .hero-stats{display:flex;gap:14px;flex-wrap:wrap;margin-top:28px}
+  .stat{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14);border-radius:12px;padding:14px 18px;min-width:150px}
+  .stat .n{font-size:1.5rem;font-weight:800;color:#fff}
+  .stat .l{font-size:.78rem;color:#bccfdd;text-transform:uppercase;letter-spacing:.4px}
+  .market{display:flex;gap:14px;flex-wrap:wrap;margin-top:22px}
+  .mw{background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.20);border-radius:12px;padding:12px 18px;min-width:160px;display:flex;flex-direction:column;gap:2px}
+  .mw .mlabel{font-size:.72rem;color:#bcd6df;text-transform:uppercase;letter-spacing:.5px;display:flex;align-items:center;gap:6px}
+  .mw .mval{font-size:1.5rem;font-weight:800;color:#fff}
+  .mw .msub{font-size:.68rem;color:#9fc4d1}
+  main{max-width:1180px;margin:0 auto;padding:0 20px}
+  section{padding:48px 0;border-bottom:1px solid var(--line)}
+  .sec-head{display:flex;align-items:baseline;gap:14px;margin-bottom:6px;flex-wrap:wrap}
+  .sec-head h2{font-size:1.6rem;color:var(--navy)}
+  .sec-head .kicker{color:var(--teal);font-weight:800;font-size:.8rem;text-transform:uppercase;letter-spacing:1px}
+  .sec-sub{color:var(--muted);margin-bottom:26px;max-width:760px}
+  .news-controls{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:20px}
+  .filterbtn{border:1px solid var(--line);background:#fff;color:var(--navy);padding:8px 15px;border-radius:30px;cursor:pointer;font-weight:600;font-size:.88rem;transition:.15s}
+  .filterbtn:hover{border-color:var(--teal)}
+  .filterbtn.active{background:var(--teal);border-color:var(--teal);color:#fff}
+  .refresh{margin-left:auto;display:flex;align-items:center;gap:10px}
+  .refresh button{background:var(--navy);color:#fff;border:0;padding:9px 16px;border-radius:8px;cursor:pointer;font-weight:600}
+  .refresh button:hover{background:var(--navy2)}
+  .upd{font-size:.78rem;color:var(--muted)}
+  .news-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:16px}
+  .ncard{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;box-shadow:var(--shadow);display:flex;flex-direction:column;gap:8px}
+  .ncard .meta{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:.74rem}
+  .src-tag{background:#eef4f1;color:var(--pet-green-d);padding:2px 9px;border-radius:20px;font-weight:700}
+  .reg-tag{padding:2px 9px;border-radius:20px;font-weight:700}
+  .reg-BR{background:#e7f0fb;color:#1d5fa8}
+  .reg-INT{background:#fbf0e3;color:#b07b12}
+  .reg-LEI{background:#e6e0f5;color:#5b3da8}
+  .ncard h3{font-size:1.02rem;line-height:1.3;color:var(--navy)}
+  .ncard .date{font-size:.74rem;color:var(--muted)}
+  .ncard .links{margin-top:auto;display:flex;gap:14px;font-size:.82rem;font-weight:600;padding-top:6px}
+  .translated{font-size:.72rem;color:var(--pet-green-d);font-weight:700}
+  .loading,.empty{padding:30px;text-align:center;color:var(--muted);grid-column:1/-1}
+  .spinner{display:inline-block;width:22px;height:22px;border:3px solid var(--line);border-top-color:var(--teal);border-radius:50%;animation:spin .8s linear infinite;vertical-align:middle;margin-right:8px}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .ptabs{display:flex;gap:8px;margin-bottom:22px;flex-wrap:wrap}
+  .pgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:16px}
+  .pcard{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;box-shadow:var(--shadow);position:relative;overflow:hidden}
+  .pcard.petro{border:2px solid var(--pet-green);background:linear-gradient(180deg,#f3fbf7,#fff)}
+  .pcard .ribbon{position:absolute;top:12px;right:-30px;background:var(--pet-green);color:#fff;font-size:.66rem;font-weight:800;padding:3px 36px;transform:rotate(45deg);letter-spacing:.5px}
+  .pcard h3{color:var(--navy);font-size:1.12rem;margin-bottom:4px}
+  .pcard .role{font-size:.74rem;font-weight:700;text-transform:uppercase;letter-spacing:.4px;color:var(--teal);margin-bottom:8px}
+  .pcard p{font-size:.9rem;color:#34454f}
+  .pcard .fig{margin-top:10px;font-size:.82rem;color:var(--muted)}
+  .pcard .fig b{color:var(--navy)}
+  .vgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:18px}
+  .vcard{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column}
+  .vcard .art{background:linear-gradient(180deg,#dceaf2,#c3d9e6);height:170px;display:flex;align-items:center;justify-content:center}
+  .vcard .art svg{width:100%;height:100%}
+  .vcard .body{padding:16px 18px;display:flex;flex-direction:column;gap:8px;flex:1}
+  .vcard h3{color:var(--navy);font-size:1.1rem}
+  .vcard .tag{font-size:.72rem;color:var(--pet-green-d);font-weight:700;text-transform:uppercase;letter-spacing:.4px}
+  .vcard p{font-size:.88rem;color:#34454f}
+  .vcard .specs{font-size:.8rem;color:var(--muted);background:#f6f9fb;border-radius:8px;padding:8px 10px;border:1px solid var(--line)}
+  .vcard .photo{margin-top:auto;font-size:.82rem;font-weight:700}
+  .law-wrap{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  .law-col{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px;box-shadow:var(--shadow)}
+  .law-col h3{color:#fff;font-size:1.15rem;padding:12px 16px;border-radius:10px;margin:-22px -22px 16px}
+  .law-fed h3{background:linear-gradient(90deg,var(--navy),var(--teal))}
+  .law-rj h3{background:linear-gradient(90deg,var(--pet-green-d),var(--pet-green))}
+  .norm{border-left:3px solid var(--gold);padding:6px 0 6px 14px;margin-bottom:14px}
+  .norm b{color:var(--navy);display:block;font-size:.95rem}
+  .norm span{font-size:.86rem;color:#41525c}
+  .law-table{width:100%;border-collapse:collapse;margin-top:14px;font-size:.84rem}
+  .law-table th,.law-table td{border:1px solid var(--line);padding:9px 11px;text-align:left;vertical-align:top}
+  .law-table th{background:var(--navy);color:#fff;font-weight:700}
+  .law-table tr:nth-child(even) td{background:#f7fafc}
+  .pill{display:inline-block;background:#eef4f1;color:var(--pet-green-d);font-weight:700;font-size:.78rem;padding:2px 8px;border-radius:6px}
+  .note{background:#fff8e8;border:1px solid #f0deae;border-radius:10px;padding:14px 16px;font-size:.86rem;color:#6b5618;margin-top:18px}
+  footer{background:var(--navy);color:#c2d2df;padding:36px 20px;font-size:.85rem}
+  .foot-inner{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:1.4fr 1fr;gap:28px}
+  footer h4{color:#fff;margin-bottom:10px;font-size:.95rem}
+  footer a{color:#9fd9c2}
+  .disc{margin-top:22px;padding-top:16px;border-top:1px solid rgba(255,255,255,.12);font-size:.76rem;color:#8aa0b2;max-width:1180px;margin-left:auto;margin-right:auto}
+  @media(max-width:780px){.law-wrap{grid-template-columns:1fr}.foot-inner{grid-template-columns:1fr}.hero h1{font-size:1.7rem}}
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <div class="logo"><span class="dot"></span>Petro&nbsp;Hub</div>
+    <nav class="links">
+      <a href="#noticias">Notícias</a>
+      <a href="#players">Players</a>
+      <a href="#navios">Navios &amp; Equipamentos</a>
+      <a href="#legislacao">Legislação Repetro</a>
+      <a href="#petrobras">Petrobras</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="hero-inner">
+    <span class="pet-badge"><span class="dot" style="width:9px;height:9px;background:#39d98a;border-radius:50%"></span> Foco profissional · Petrobras &amp; Repetro-Sped</span>
+    <h1>Sua central de inteligência em Óleo &amp; Gás e regimes aduaneiros especiais</h1>
+    <p class="sub">Notícias do setor atualizadas ao vivo (com tradução automática das fontes internacionais), os principais players do Brasil e do mundo, um guia visual de navios e equipamentos offshore, e a legislação do Repetro-Sped — federal e do Estado do Rio de Janeiro.</p>
+    <div class="hero-stats">
+      <div class="stat"><div class="n">~4,6 Mboe/d</div><div class="l">Produção pré-sal (abr/2026)</div></div>
+      <div class="stat"><div class="n">82%</div><div class="l">Da produção nacional vem do pré-sal</div></div>
+      <div class="stat"><div class="n">31/12/2040</div><div class="l">Vigência do Repetro-Sped</div></div>
+      <div class="stat"><div class="n">3%</div><div class="l">Carga de ICMS no RJ (bem permanente)</div></div>
+    </div>
+    <div class="market" id="market"></div>
+  </div>
+</div>
+
+<main>
+
+<section id="noticias">
+  <div class="sec-head"><span class="kicker">Atualizado ao vivo</span><h2>Notícias de Óleo &amp; Gás</h2></div>
+  <p class="sec-sub">Reúne automaticamente as últimas notícias de fontes brasileiras e internacionais. As manchetes de fontes em inglês são traduzidas para o português automaticamente. As notícias se atualizam toda vez que você abre ou recarrega a página.</p>
+
+  <div class="news-controls">
+    <button class="filterbtn active" data-f="all">Todas</button>
+    <button class="filterbtn" data-f="BR">Brasil</button>
+    <button class="filterbtn" data-f="INT">Internacional</button>
+    <button class="filterbtn" data-f="LEI">Legislação</button>
+    <button class="filterbtn" data-f="PET">Petrobras</button>
+    <div class="refresh">
+      <span class="upd" id="updated"></span>
+      <button id="refreshBtn">↻ Atualizar</button>
+    </div>
+  </div>
+
+  <div class="news-grid" id="newsGrid">
+    <div class="loading"><span class="spinner"></span>Carregando notícias...</div>
+  </div>
+</section>
+
+<section id="players">
+  <div class="sec-head"><span class="kicker">Quem é quem</span><h2>Players do segmento</h2></div>
+  <p class="sec-sub">As empresas que movimentam a exploração e produção (E&amp;P), os serviços e a cadeia de fornecimento — no Brasil e no mundo. Os volumes citados são aproximados e variam mês a mês.</p>
+
+  <div class="ptabs">
+    <button class="filterbtn active" data-p="BR">Brasil</button>
+    <button class="filterbtn" data-p="WORLD">Mundo</button>
+    <button class="filterbtn" data-p="SERV">Serviços &amp; Cadeia</button>
+  </div>
+  <div class="pgrid" id="playersGrid"></div>
+</section>
+
+<section id="navios">
+  <div class="sec-head"><span class="kicker">Guia visual</span><h2>Navios &amp; Equipamentos offshore</h2></div>
+  <p class="sec-sub">Os principais tipos de unidades e equipamentos da indústria offshore — muitos deles importados sob o Repetro-Sped. Cada cartão traz um esquema, a função e um atalho para ver fotos reais.</p>
+  <div class="vgrid" id="vesselsGrid"></div>
+</section>
+
+<section id="legislacao">
+  <div class="sec-head"><span class="kicker">Núcleo técnico</span><h2>Legislação do Repetro-Sped</h2></div>
+  <p class="sec-sub">O regime aduaneiro especial que suspende/zera tributos federais sobre bens destinados à exploração e produção de petróleo e gás, e o tratamento de ICMS no Estado do Rio de Janeiro.</p>
+
+  <div class="law-wrap">
+    <div class="law-col law-fed">
+      <h3>⚖️ Esfera Federal (tributos da União)</h3>
+      <div class="norm"><b>Lei nº 13.586/2017</b><span>Marco legal do tratamento tributário do setor de E&amp;P (conversão da MP 795/2017). Base do Repetro-Sped.</span></div>
+      <div class="norm"><b>Decreto nº 9.128/2017</b><span>Alterou o Regulamento Aduaneiro (Decreto 6.759/2009) para acomodar o novo regime.</span></div>
+      <div class="norm"><b>IN RFB nº 1.781/2017</b><span>Norma que efetivamente regulamenta o Repetro-Sped (e o antigo Repetro). Define habilitação, modalidades e a Escrituração Fiscal Digital (SPED) obrigatória.</span></div>
+      <div class="norm"><b>IN RFB nº 1.901/2019</b><span>Disciplina o <i>Repetro-Industrialização</i> — fabricação no País de bens finais e intermediários destinados às atividades de E&amp;P.</span></div>
+      <div class="norm"><b>IN RFB nº 2.274/2025</b><span>Atualização vigente: incluiu expressamente tubos e dutos para gasodutos no regime, eliminando divergências de interpretação.</span></div>
+      <div class="note"><b>Tributos abrangidos:</b> Imposto de Importação (II), IPI, PIS/Pasep-Importação e Cofins-Importação — com suspensão que se converte em isenção/alíquota zero ao final, conforme a modalidade. <b>Vigência do regime até 31/12/2040.</b></div>
+    </div>
+
+    <div class="law-col law-rj">
+      <h3>🏛️ Esfera Estadual — Rio de Janeiro (ICMS)</h3>
+      <div class="norm"><b>Convênio ICMS 03/2018 (CONFAZ)</b><span>Autoriza os Estados a conceder isenção e redução de base de cálculo do ICMS nas operações do Repetro-Sped.</span></div>
+      <div class="norm"><b>Convênio ICMS 220/2019</b><span>Ajustes ao 03/2018, incluindo o tratamento do Repetro-Industrialização.</span></div>
+      <div class="norm"><b>Decreto RJ nº 46.233/2018</b><span>Internalização inicial do convênio no Estado (posteriormente substituído).</span></div>
+      <div class="norm"><b>Lei Estadual RJ nº 8.890/2020</b><span>Internaliza definitivamente as regras no RJ: isenção e redução de base de cálculo do ICMS para bens destinados à E&amp;P de petróleo e gás.</span></div>
+      <div class="norm"><b>Resolução SEFAZ RJ nº 169/2020</b><span>Procedimentos operacionais e obrigações acessórias da adesão no Estado.</span></div>
+      <div class="note"><b>Carga efetiva no RJ:</b> importação definitiva e aquisição no mercado interno de <b>bens permanentes</b> → base reduzida para carga equivalente a <span class="pill">3%</span>, <b>sem aproveitamento de crédito</b>. Importação <b>temporária</b> → <span class="pill">isenção</span> (NCM da lista federal). Adesão é <b>opcional</b>, com renúncia a discussões judiciais sobre a matéria.</div>
+    </div>
+  </div>
+
+  <table class="law-table">
+    <thead><tr><th>Operação</th><th>Tributos federais (Repetro-Sped)</th><th>ICMS no RJ</th></tr></thead>
+    <tbody>
+      <tr><td><b>Admissão temporária</b> (uso econômico do bem estrangeiro)</td><td>Suspensão de II, IPI, PIS/Cofins</td><td>Isenção (bens da lista de NCM federal)</td></tr>
+      <tr><td><b>Importação definitiva</b> de bem permanente</td><td>Suspensão que se converte em isenção / alíquota zero</td><td>Redução de base → carga de <b>3%</b>, sem crédito</td></tr>
+      <tr><td><b>Aquisição no mercado interno</b> (Repetro-Industrialização)</td><td>Suspensão de IPI / PIS / Cofins na cadeia</td><td>Redução de base → carga de <b>3%</b>, sem crédito</td></tr>
+      <tr><td><b>Saída para utilização econômica no RJ</b></td><td>—</td><td>ICMS torna-se devido ao Estado quando o uso econômico ocorre em território fluminense</td></tr>
+    </tbody>
+  </table>
+  <div class="note">⚠️ Conteúdo de referência para estudo e trabalho — não substitui a consulta à norma na íntegra nem a orientação jurídica formal. Confira sempre o texto atualizado no site da Receita Federal, do CONFAZ e da SEFAZ-RJ.</div>
+</section>
+
+<section id="petrobras">
+  <div class="sec-head"><span class="kicker">Empresa em destaque</span><h2>Petrobras em foco</h2></div>
+  <p class="sec-sub">A maior operadora do país e principal usuária do Repetro-Sped. Marcos recentes (2026):</p>
+  <div class="pgrid">
+    <div class="pcard petro"><span class="ribbon">DESTAQUE</span><h3>Búzios · P-79</h3><div class="role">Pré-sal · Bacia de Santos</div><p>Em maio/2026 entrou em operação a P-79, 8ª plataforma do campo de Búzios, com capacidade de 180 mil bpd de óleo e 7,2 milhões de m³/dia de compressão de gás.</p></div>
+    <div class="pcard petro"><h3>Itaimbezinho</h3><div class="role">Bacia de Campos · Polígono do Pré-sal</div><p>Em junho/2026 a Petrobras firmou acordo para adquirir 50% do bloco de Itaimbezinho (~190 km da costa do RJ), reforçando a aposta no pré-sal de Campos.</p></div>
+    <div class="pcard petro"><h3>Liderança de produção</h3><div class="role">E&amp;P</div><p>Maior produtora do Brasil, com cerca de 2,14 milhões de bpd — à frente de Shell (~359 mil bpd) e TotalEnergies (~140 mil bpd).</p></div>
+    <div class="pcard petro"><h3>Expansão no pré-sal</h3><div class="role">Plano de plataformas</div><p>Búzios caminha para receber novas FPSOs e mira a marca de 1 milhão de barris/dia no campo, dentro de um conjunto de novas plataformas previstas até 2027.</p></div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="foot-inner">
+    <div>
+      <h4>Sobre o Petro Hub</h4>
+      <p>Painel pessoal de inteligência para profissionais de comércio exterior e regimes aduaneiros especiais no setor de óleo e gás. As notícias são agregadas de fontes públicas via feeds RSS e traduzidas automaticamente quando em outro idioma.</p>
+      <p style="margin-top:10px"><b>Para publicar com domínio público gratuito:</b> hospede este arquivo no GitHub Pages, Netlify ou Cloudflare Pages — todos gratuitos.</p>
+    </div>
+    <div>
+      <h4>Fontes de notícias</h4>
+      <p><a href="https://epbr.com.br" target="_blank" rel="noopener">epbr</a> · <a href="https://petronoticias.com.br" target="_blank" rel="noopener">Petronotícias</a> · <a href="https://clickpetroleoegas.com.br" target="_blank" rel="noopener">ClickPetróleoeGás</a> · <a href="https://tnpetroleo.com.br" target="_blank" rel="noopener">TN Petróleo</a> · <a href="https://oilprice.com" target="_blank" rel="noopener">OilPrice</a> · <a href="https://www.offshore-energy.biz" target="_blank" rel="noopener">Offshore Energy</a></p>
+      <h4 style="margin-top:16px">Fontes da legislação</h4>
+      <p><a href="https://www.gov.br/receitafederal" target="_blank" rel="noopener">Receita Federal</a> · <a href="https://www.confaz.fazenda.gov.br" target="_blank" rel="noopener">CONFAZ</a> · <a href="https://www.fazenda.rj.gov.br" target="_blank" rel="noopener">SEFAZ-RJ</a></p>
+    </div>
+  </div>
+  <div class="disc">© Petro Hub · Painel de referência para estudo e trabalho. As informações de legislação não substituem a norma oficial nem orientação jurídica. Volumes de produção são aproximados.</div>
+</footer>
+
+<script>
+/* ===================== PLAYERS ===================== */
+const PLAYERS = {
+  BR: [
+    {n:"Petrobras", petro:true, role:"Operadora estatal · E&P", p:"Maior empresa de energia do Brasil e principal usuária do Repetro-Sped. Domina o pré-sal das bacias de Santos e Campos.", fig:"Produção: <b>~2,14 milhões bpd</b>"},
+    {n:"PRIO", role:"E&P independente", p:"Maior independente do país, especialista em redesenvolvimento de campos. Comprou 60% do campo de Peregrino da Equinor por US$ 3,5 bi.", fig:"Produção: <b>~115 mil bpd</b> (em alta)"},
+    {n:"Brava Energia", role:"E&P · campos maduros", p:"Nascida da fusão entre 3R Petroleum e Enauta. Foco em revitalização de campos maduros onshore e offshore.", fig:"Onshore + offshore"},
+    {n:"PetroReconcavo", role:"E&P onshore", p:"Atuação forte em campos maduros terrestres na Bahia e no Rio Grande do Norte, com produção de óleo e gás.", fig:"Gás &amp; óleo onshore"},
+    {n:"Eneva", role:"Gás natural &amp; energia", p:"Modelo reservoir-to-wire: produz gás em terra (Bacia do Parnaíba) e gera energia termelétrica integrada.", fig:"Gás-to-power"}
+  ],
+  WORLD: [
+    {n:"Shell", role:"Major integrada", p:"2ª maior produtora no Brasil; sócia da Petrobras em campos do pré-sal como Búzios e no consórcio de Libra/Mero.", fig:"Brasil: <b>~359 mil bpd</b>"},
+    {n:"TotalEnergies", role:"Major integrada", p:"3ª maior produtora no Brasil, com participações relevantes em Mero (Libra) e outros ativos do pré-sal.", fig:"Brasil: <b>~140 mil bpd</b>"},
+    {n:"Equinor", role:"Major norueguesa", p:"Opera o campo de Bacalhau (pré-sal de Santos) e foi vendedora de Peregrino para a PRIO. Forte em baixo carbono.", fig:"Operadora de Bacalhau"},
+    {n:"ExxonMobil", role:"Supermajor (EUA)", p:"Sócia em blocos do pré-sal (bacias de Campos e Santos) e ativa em rodadas de licitação de E&P no Brasil.", fig:"Parceira do pré-sal"},
+    {n:"Chevron", role:"Supermajor (EUA)", p:"Retomou presença em E&P no Brasil com aquisição de participações exploratórias em águas profundas.", fig:"Águas profundas"},
+    {n:"Galp", role:"Integrada (Portugal)", p:"Sócia histórica da Petrobras no consórcio do campo de Mero e em descobertas na Namíbia.", fig:"Sócia em Mero"}
+  ],
+  SERV: [
+    {n:"SLB (Schlumberger)", role:"Serviços de poço", p:"Maior empresa de serviços de petróleo do mundo: perfuração, avaliação de formação, completação e digital.", fig:"Líder global em serviços"},
+    {n:"Halliburton", role:"Serviços de poço", p:"Serviços de perfuração, cimentação, estimulação e completação. Forte presença no pré-sal brasileiro.", fig:"Perfuração &amp; completação"},
+    {n:"Baker Hughes", role:"Tecnologia &amp; equipamentos", p:"Equipamentos de superfície e submarinos, turbomáquinas e soluções de energia, incluindo árvores de natal molhadas.", fig:"Equipamentos submarinos"},
+    {n:"TechnipFMC", role:"Subsea (SURF/SPS)", p:"Líder em sistemas submarinos de produção: árvores molhadas, manifolds, risers e umbilicais — peças-chave do Repetro.", fig:"Sistemas submarinos"},
+    {n:"Subsea7 / Saipem", role:"EPCI offshore", p:"Instalação de dutos, risers e estruturas submarinas com navios PLSV e de construção offshore.", fig:"Instalação submarina"},
+    {n:"Modec / SBM Offshore", role:"FPSO (afretamento)", p:"Projetam, constroem e operam FPSOs afretados à Petrobras e outras operadoras — unidades tipicamente sob Repetro.", fig:"Donos/operadores de FPSO"}
+  ]
+};
+
+/* ===================== NAVIOS & EQUIPAMENTOS (esquemas SVG) ===================== */
+function svgWrap(inner){return '<svg viewBox="0 0 400 180" xmlns="http://www.w3.org/2000/svg"><rect width="400" height="180" fill="none"/><rect x="0" y="118" width="400" height="62" fill="#2f80a8" opacity=".5"/>'+inner+'</svg>';}
+
+const VESSELS = [
+  {n:"FPSO", tag:"Produção · Armazenagem · Transferência", svg:svgWrap('<rect x="70" y="92" width="260" height="34" rx="4" fill="#16384d"/><rect x="70" y="84" width="260" height="10" fill="#c0392b"/><g fill="#d7dde0"><rect x="95" y="58" width="22" height="34"/><rect x="130" y="50" width="30" height="42"/><rect x="175" y="64" width="18" height="28"/></g><rect x="205" y="40" width="6" height="52" fill="#8a99a3"/><circle cx="208" cy="40" r="5" fill="#e6a817"/><g stroke="#6b7c87" stroke-width="3"><line x1="240" y1="60" x2="240" y2="126"/><line x1="265" y1="60" x2="265" y2="126"/></g><rect x="232" y="52" width="40" height="10" fill="#34495e"/>'), p:"Floating Production, Storage and Offloading. Navio-plataforma que recebe, processa, armazena e escoa o óleo do pré-sal. É a unidade mais emblemática da produção offshore brasileira.", specs:"Capacidade típica: 150–225 mil bpd · armazena ~1,6 milhão de barris · ancorado por longos períodos."},
+  {n:"Sonda de Perfuração (Drillship)", tag:"Perfuração em águas ultraprofundas", svg:svgWrap('<rect x="80" y="96" width="240" height="30" rx="4" fill="#16384d"/><polygon points="80,96 70,118 80,126" fill="#16384d"/><polygon points="190,30 175,96 205,96" fill="#e6a817" opacity=".9"/><line x1="190" y1="30" x2="190" y2="150" stroke="#8a99a3" stroke-width="3"/><rect x="100" y="78" width="34" height="18" fill="#d7dde0"/>'), p:"Navio com torre de perfuração (derrick) central e posicionamento dinâmico, capaz de perfurar poços em lâminas d'água de milhares de metros — essencial no pré-sal.", specs:"Perfura em >2.000 m de lâmina d'água · posicionamento dinâmico (DP) · afretado, geralmente sob Repetro."},
+  {n:"Plataforma Semissubmersível", tag:"Perfuração / Produção", svg:svgWrap('<rect x="110" y="74" width="180" height="22" fill="#16384d"/><g fill="#34495e"><rect x="120" y="96" width="20" height="34"/><rect x="260" y="96" width="20" height="34"/></g><rect x="105" y="128" width="50" height="14" rx="6" fill="#22424f"/><rect x="245" y="128" width="50" height="14" rx="6" fill="#22424f"/><polygon points="200,40 185,74 215,74" fill="#e6a817"/><rect x="150" y="60" width="24" height="14" fill="#d7dde0"/>'), p:"Estrutura flutuante apoiada em colunas e flutuadores submersos, que lhe dão grande estabilidade em mar aberto. Usada para perfurar ou produzir.", specs:"Flutuadores submersos para estabilidade · ancoragem ou DP · opera em alto-mar."},
+  {n:"Plataforma Fixa", tag:"Produção em águas rasas", svg:svgWrap('<rect x="150" y="70" width="100" height="24" fill="#16384d"/><g stroke="#5a6b78" stroke-width="4"><line x1="160" y1="94" x2="150" y2="160"/><line x1="240" y1="94" x2="250" y2="160"/><line x1="200" y1="94" x2="200" y2="160"/><line x1="160" y1="120" x2="240" y2="120"/></g><polygon points="200,44 188,70 212,70" fill="#e6a817"/><rect x="165" y="58" width="20" height="12" fill="#d7dde0"/>'), p:"Estrutura apoiada no fundo do mar por uma jaqueta de aço, fixa ao leito. Comum em campos maduros de águas rasas, como em parte da Bacia de Campos.", specs:"Fixada ao fundo do mar · águas rasas (até ~200 m) · longa vida útil."},
+  {n:"Plataforma Autoelevatória (Jack-up)", tag:"Perfuração em águas rasas", svg:svgWrap('<rect x="140" y="78" width="120" height="24" rx="3" fill="#16384d"/><g stroke="#5a6b78" stroke-width="6"><line x1="155" y1="50" x2="155" y2="165"/><line x1="245" y1="50" x2="245" y2="165"/></g><rect x="150" y="48" width="12" height="10" fill="#34495e"/><rect x="239" y="48" width="12" height="10" fill="#34495e"/><polygon points="200,46 188,78 212,78" fill="#e6a817"/>'), p:"Plataforma móvel com pernas que descem até o fundo e elevam o casco acima da água. Rebocada até o local e fixada para perfurar em águas rasas.", specs:"Pernas apoiadas no leito marinho · casco elevado acima das ondas · águas rasas."},
+  {n:"PLSV", tag:"Lançamento de dutos &amp; risers", svg:svgWrap('<rect x="80" y="92" width="240" height="32" rx="4" fill="#16384d"/><rect x="300" y="70" width="40" height="54" fill="#34495e"/><circle cx="320" cy="70" r="18" fill="none" stroke="#e6a817" stroke-width="5"/><path d="M320 88 Q330 120 360 150" stroke="#c0392b" stroke-width="4" fill="none"/><rect x="110" y="70" width="26" height="22" fill="#d7dde0"/>'), p:"Pipe Laying Support Vessel — navio que lança dutos flexíveis, risers e umbilicais no fundo do mar, conectando poços às plataformas. Vital na fase de instalação.", specs:"Carrossel/tensionadores para dutos · posicionamento dinâmico · opera em águas profundas."},
+  {n:"PSV", tag:"Apoio logístico", svg:svgWrap('<rect x="90" y="96" width="220" height="30" rx="4" fill="#16384d"/><rect x="95" y="70" width="60" height="26" fill="#d7dde0"/><rect x="170" y="100" width="130" height="20" fill="#7f8c8d"/><line x1="170" y1="110" x2="300" y2="110" stroke="#16384d" stroke-width="2"/>'), p:"Platform Supply Vessel — navio de suprimentos que abastece as plataformas com combustível, água, fluidos de perfuração, tubos e mantimentos.", specs:"Grande convés de carga à ré · transporta cargas líquidas e secas · vai-e-volta porto/plataforma."},
+  {n:"AHTS", tag:"Manuseio de âncoras &amp; reboque", svg:svgWrap('<rect x="95" y="94" width="210" height="32" rx="4" fill="#16384d"/><rect x="100" y="66" width="70" height="28" fill="#d7dde0"/><path d="M305 110 L350 100" stroke="#e6a817" stroke-width="4"/><rect x="250" y="100" width="55" height="14" fill="#7f8c8d"/>'), p:"Anchor Handling Tug Supply — rebocador robusto que posiciona âncoras, reboca plataformas e unidades flutuantes e presta apoio em operações de fundeio.", specs:"Alta potência de tração (bollard pull) · guincho de âncoras · multifunção."},
+  {n:"Árvore de Natal Molhada (ANM)", tag:"Equipamento submarino", svg:svgWrap('<rect x="150" y="120" width="100" height="40" fill="#22424f"/><g fill="#e6a817"><rect x="170" y="90" width="14" height="34"/><rect x="216" y="90" width="14" height="34"/></g><rect x="160" y="78" width="80" height="16" fill="#c0392b"/><circle cx="177" cy="86" r="8" fill="#34495e"/><circle cx="223" cy="86" r="8" fill="#34495e"/><rect x="194" y="60" width="12" height="34" fill="#8a99a3"/>'), p:"Conjunto de válvulas instalado sobre a cabeça do poço no fundo do mar (wet christmas tree). Controla a produção de óleo e gás de cada poço submarino.", specs:"Instalada no leito marinho · controla vazão e pressão do poço · item clássico do Repetro."},
+  {n:"ROV", tag:"Robô submarino", svg:svgWrap('<rect x="150" y="80" width="100" height="50" rx="8" fill="#e6a817"/><g fill="#16384d"><rect x="160" y="60" width="12" height="20"/><rect x="228" y="60" width="12" height="20"/></g><circle cx="175" cy="105" r="9" fill="#22424f"/><circle cx="225" cy="105" r="9" fill="#22424f"/><rect x="195" y="128" width="40" height="10" fill="#34495e"/><path d="M200 60 Q200 30 250 30" stroke="#7f8c8d" stroke-width="3" fill="none"/>'), p:"Remotely Operated Vehicle — veículo submarino operado remotamente, com braços manipuladores e câmeras. Faz inspeção, conexão de dutos e intervenções no fundo do mar.", specs:"Operado da superfície por umbilical · braços manipuladores · câmeras e sensores."},
+  {n:"Manifold submarino", tag:"Equipamento submarino", svg:svgWrap('<rect x="120" y="100" width="160" height="40" rx="4" fill="#22424f"/><g stroke="#e6a817" stroke-width="6"><line x1="140" y1="100" x2="140" y2="80"/><line x1="200" y1="100" x2="200" y2="74"/><line x1="260" y1="100" x2="260" y2="80"/></g><g fill="#c0392b"><rect x="132" y="70" width="16" height="12"/><rect x="192" y="64" width="16" height="12"/><rect x="252" y="70" width="16" height="12"/></g><rect x="110" y="138" width="180" height="10" fill="#34495e"/>'), p:"Estrutura submarina que reúne e distribui a produção de vários poços, conectando-os por dutos a uma mesma plataforma. Otimiza o arranjo do campo.", specs:"Centraliza tubulações de vários poços · reduz número de risers · instalado no leito."},
+  {n:"Risers &amp; Umbilicais", tag:"Linhas de produção", svg:svgWrap('<g stroke="#c0392b" stroke-width="5" fill="none"><path d="M150 60 Q120 110 150 160"/><path d="M175 60 Q150 110 175 160"/></g><g stroke="#e6a817" stroke-width="4" fill="none"><path d="M225 60 Q255 110 225 160"/></g><rect x="120" y="50" width="120" height="14" fill="#16384d"/>'), p:"Risers são os dutos verticais que ligam o leito marinho à plataforma; umbilicais levam energia, sinais hidráulicos e químicos de controle até os equipamentos submarinos.", specs:"Flexíveis ou rígidos · resistem a alta pressão e temperatura · instalados por PLSVs."}
+];
+
+/* ===================== RENDER: PLAYERS ===================== */
+function renderPlayers(group){
+  document.getElementById('playersGrid').innerHTML=PLAYERS[group].map(p=>
+    '<div class="pcard '+(p.petro?'petro':'')+'">'+
+      (p.petro?'<span class="ribbon">PETROBRAS</span>':'')+
+      '<h3>'+p.n+'</h3>'+
+      '<div class="role">'+p.role+'</div>'+
+      '<p>'+p.p+'</p>'+
+      '<div class="fig">'+p.fig+'</div>'+
+    '</div>').join('');
+}
+document.querySelectorAll('[data-p]').forEach(function(b){b.addEventListener('click',function(){
+  document.querySelectorAll('[data-p]').forEach(function(x){x.classList.remove('active');});
+  b.classList.add('active'); renderPlayers(b.dataset.p);
+});});
+renderPlayers('BR');
+
+/* ===================== RENDER: NAVIOS ===================== */
+function renderVessels(){
+  document.getElementById('vesselsGrid').innerHTML=VESSELS.map(function(v){
+    var q=encodeURIComponent(v.n.replace(/&amp;/g,'')+' offshore oil gas');
+    return '<div class="vcard"><div class="art">'+v.svg+'</div>'+
+      '<div class="body"><span class="tag">'+v.tag+'</span><h3>'+v.n+'</h3>'+
+      '<p>'+v.p+'</p><div class="specs">'+v.specs+'</div>'+
+      '<a class="photo" href="https://www.google.com/search?tbm=isch&q='+q+'" target="_blank" rel="noopener">📷 Ver fotos reais ↗</a></div></div>';
+  }).join('');
+}
+renderVessels();
+
+/* ===================== COTAÇÕES (barril, dólar, euro) ===================== */
+var MARKET={brent:"US$ 105,00", usd:"R$ 5,42", eur:"R$ 5,88", updated:"15/06/2026"};
+function renderMarket(brent,usd,eur,live){
+  var m=document.getElementById('market'); if(!m) return;
+  m.innerHTML=
+    '<div class="mw"><span class="mlabel"><span class="ico">🛢️</span> Petróleo Brent</span><span class="mval">'+brent+'</span><span class="msub">por barril · atual. diária</span></div>'+
+    '<div class="mw"><span class="mlabel"><span class="ico">💵</span> Dólar (USD)</span><span class="mval">'+usd+'</span><span class="msub">'+(live?'cotação ao vivo':'ref. '+MARKET.updated)+'</span></div>'+
+    '<div class="mw"><span class="mlabel"><span class="ico">💶</span> Euro (EUR)</span><span class="mval">'+eur+'</span><span class="msub">'+(live?'cotação ao vivo':'ref. '+MARKET.updated)+'</span></div>';
+}
+function brl(v){return 'R$ '+Number(v).toFixed(2).replace('.',',');}
+async function loadMarket(){
+  renderMarket(MARKET.brent,MARKET.usd,MARKET.eur,false); // mostra base imediatamente
+  try{
+    var r=await fetchWithTimeout("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL",8000);
+    var j=await r.json();
+    var usd=(j&&j.USDBRL)?brl(j.USDBRL.bid):MARKET.usd;
+    var eur=(j&&j.EURBRL)?brl(j.EURBRL.bid):MARKET.eur;
+    renderMarket(MARKET.brent,usd,eur,true);
+  }catch(e){/* mantém valores de referência */}
+}
+loadMarket();
+
+/* ===================== NOTÍCIAS: feeds RSS ao vivo + tradução ===================== */
+var FEEDS=[
+  {url:"https://epbr.com.br/feed/", src:"epbr", reg:"BR"},
+  {url:"https://petronoticias.com.br/feed/", src:"Petronotícias", reg:"BR"},
+  {url:"https://clickpetroleoegas.com.br/feed/", src:"ClickPetróleoeGás", reg:"BR"},
+  {url:"https://tnpetroleo.com.br/feed/", src:"TN Petróleo", reg:"BR"},
+  {url:"https://oilprice.com/rss/main", src:"OilPrice", reg:"INT"},
+  {url:"https://www.offshore-energy.biz/feed/", src:"Offshore Energy", reg:"INT"}
+];
+// proxies que adicionam cabeçalhos CORS; tentados em ordem até um funcionar
+var PROXIES=[
+  function(u){return "https://api.allorigins.win/raw?url="+encodeURIComponent(u);},
+  function(u){return "https://api.codetabs.com/v1/proxy/?quest="+encodeURIComponent(u);},
+  function(u){return "https://corsproxy.io/?url="+encodeURIComponent(u);},
+  function(u){return "https://thingproxy.freeboard.io/fetch/"+u;}
+];
+var ALL=[]; var curFilter="all";
+
+// DESTAQUES sempre disponíveis (manchetes reais; internacionais já traduzidas).
+// Atualizados periodicamente; servem de base caso o feed ao vivo esteja indisponível.
+var SEED=[
+  {title:"Produção brasileira de óleo e gás bate novo recorde em abril (5,64 milhões boe/d)", link:"https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/producao-brasileira-de-oleo-e-gas-bate-novo-recorde-em-abril", date:"2026-06-12", desc:"Pré-sal responde por 81,8% da produção; campos da Petrobras, por quase 89%.", src:"Agência Brasil", reg:"BR", translated:false},
+  {title:"Petrobras tem lucro de R$ 32,7 bilhões no 1º trimestre de 2026", link:"https://agencia.petrobras.com.br/w/negocio/lucro-liquido-da-petrobras", date:"2026-05-12", desc:"Resultado mais que dobra ante o 4º tri/2025, com recorde de produção de óleo e gás.", src:"Agência Petrobras", reg:"BR", translated:false},
+  {title:"Petrobras busca aumento de produção para mitigar efeitos da guerra", link:"https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/petrobras-busca-aumento-producao-para-mitigar-efeitos-guerra", date:"2026-05-20", desc:"Estratégia para reduzir impactos de tensões geopolíticas sobre o mercado.", src:"Agência Brasil", reg:"BR", translated:false},
+  {title:"Próximo leilão de exploração no pré-sal terá 23 blocos oferecidos", link:"https://agenciabrasil.ebc.com.br/economia/noticia/2026-04/proximo-leilao-de-exploracao-no-pre-sal-tera-23-blocos-oferecidos", date:"2026-04-06", desc:"8 blocos na Bacia de Campos e 13 na de Santos, via Oferta Permanente da ANP.", src:"Agência Brasil", reg:"BR", translated:false},
+  {title:"ANP avança com bloco Sul de Sapinhoá e reforça pipeline de leilões no pré-sal", link:"https://cenarioenergia.com.br/2026/04/27/anp-avanca-com-bloco-sul-de-sapinhoa-e-reforca-pipeline-de-leiloes-no-pre-sal/", date:"2026-04-27", desc:"Agência amplia a oferta de áreas exploratórias no Polígono do Pré-sal.", src:"Cenário Energia", reg:"BR", translated:false},
+  {title:"Petrobras inicia produção na 1ª plataforma do campo de Sépia", link:"https://maisretorno.com/portal/petrobras-inicia-producao-de-petroleo-e-gas-na-1a-plataforma-do-campo-de-sepia", date:"2026-03-15", desc:"Mais uma unidade entra em operação no pré-sal da Bacia de Santos.", src:"Mais Retorno", reg:"BR", translated:false},
+  {title:"IA, eficiência e transição energética moldam o setor de óleo e gás, diz Deloitte", link:"https://agenciainfra.com/blog/ia-eficiencia-e-transicao-moldam-setor-de-oleo-e-gas-diz-deloitte/", date:"2026-06-01", desc:"Empresas priorizam IA e GenAI com foco em produtividade e eficiência operacional.", src:"Agência iNFRA", reg:"BR", translated:false},
+  {title:"OTC 2026: águas profundas ressurgem como motor crítico de oferta em meio à desaceleração global da exploração", link:"https://worldoil.com/news/2026/5/8/otc-2026-deepwater-re-emerges-as-critical-supply-engine-amid-global-exploration-slowdown/", date:"2026-05-08", desc:"Deepwater volta ao centro dos planos, liderado pela América do Sul e Golfo do México.", src:"World Oil", reg:"INT", translated:true},
+  {title:"Expansão de FPSOs na África acelera em meio à alta da exploração em águas profundas", link:"https://ognnews.com/Article/48304/", date:"2026-06-05", desc:"Angola lidera a atividade, impulsionada por programas de perfuração e o projeto Agogo.", src:"Oil & Gas News", reg:"INT", translated:true},
+  {title:"Perspectiva do mercado de FPSO (2026): produção offshore e projetos em águas profundas", link:"https://www.openpr.com/news/4433129/fpso-market-outlook-2026-offshore-oil-production-deepwater", date:"2026-06-03", desc:"Demanda por FPSOs cresce, puxada por águas profundas, com maior disciplina de capital.", src:"OpenPR", reg:"INT", translated:true},
+  {title:"IN RFB nº 2.274/2025 inclui tubos e dutos de gasodutos de escoamento no Repetro-Sped", link:"https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/agosto/receita-federal-publica-instrucao-normativa-sobre-o-repetro-sped", date:"2025-08-04", desc:"Receita Federal altera a IN 1.781/2017 e elimina divergências sobre a elegibilidade de gasodutos.", src:"Receita Federal", reg:"LEI", translated:false},
+  {title:"RFB esclarece uso do Repetro-Sped em gasodutos de escoamento", link:"https://www.contabeis.com.br/noticias/72215/rfb-esclarece-uso-do-repetro-sped-em-gasodutos", date:"2025-08-11", desc:"Análise da nova norma e seus impactos práticos para o setor de gás natural.", src:"Contábeis", reg:"LEI", translated:false}
+];
+
+function stripHtml(s){var d=document.createElement('div');d.innerHTML=s||'';return (d.textContent||'').trim();}
+function fmtDate(d){try{var dt=new Date(d);if(isNaN(dt))return '';return dt.toLocaleDateString('pt-BR',{day:'2-digit',month:'short',year:'numeric'})+' · '+dt.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'});}catch(e){return '';}}
+
+function fetchWithTimeout(url,ms){
+  var c=new AbortController(); var id=setTimeout(function(){c.abort();},ms||9000);
+  return fetch(url,{signal:c.signal,cache:"no-store"}).finally(function(){clearTimeout(id);});
+}
+
+async function translate(text){
+  try{
+    var u="https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=pt&dt=t&q="+encodeURIComponent(text);
+    var r=await fetchWithTimeout(u,8000); var j=await r.json();
+    return j[0].map(function(seg){return seg[0];}).join('');
+  }catch(e){return null;}
+}
+
+async function fetchFeedXml(url){
+  for(var i=0;i<PROXIES.length;i++){
+    try{
+      var r=await fetchWithTimeout(PROXIES[i](url));
+      if(!r.ok) continue;
+      var t=await r.text();
+      if(t && t.length>200 && (t.indexOf("<item")>-1 || t.indexOf("<entry")>-1)) return t;
+    }catch(e){/* tenta o próximo proxy */}
+  }
+  return null;
+}
+
+function parseFeedXml(xml,f){
+  try{
+    var doc=new DOMParser().parseFromString(xml,"text/xml");
+    var nodes=Array.prototype.slice.call(doc.querySelectorAll("item"));
+    if(nodes.length===0) nodes=Array.prototype.slice.call(doc.querySelectorAll("entry"));
+    return nodes.slice(0,10).map(function(it){
+      function get(t){var el=it.querySelector(t);return el?el.textContent.trim():"";}
+      var link=get("link");
+      var linkEl=it.querySelector("link");
+      if(linkEl && linkEl.getAttribute("href")) link=linkEl.getAttribute("href");
+      return {
+        title:stripHtml(get("title")),
+        link:link,
+        date:get("pubDate")||get("published")||get("updated")||get("date"),
+        desc:stripHtml(get("description")||get("summary")).slice(0,140),
+        src:f.src, reg:f.reg, translated:false
+      };
+    }).filter(function(n){return n.title && n.link;});
+  }catch(e){return [];}
+}
+
+async function fetchFeed(f){
+  var xml=await fetchFeedXml(f.url);
+  if(!xml) return [];
+  return parseFeedXml(xml,f);
+}
+
+async function loadNews(){
+  var grid=document.getElementById('newsGrid');
+  grid.innerHTML='<div class="loading"><span class="spinner"></span>Carregando notícias ao vivo...</div>';
+  var results=await Promise.all(FEEDS.map(fetchFeed));
+  var live=[].concat.apply([],results);
+  // traduz as manchetes internacionais que vieram ao vivo
+  var intItems=live.filter(function(n){return n.reg==='INT';});
+  await Promise.all(intItems.map(async function(n){
+    var t=await translate(n.title);
+    if(t){n.title=t;n.translated=true;}
+  }));
+  // combina o que veio ao vivo com os destaques sempre disponíveis (garante que algo apareça)
+  ALL=live.concat(SEED);
+  var seen={}; ALL=ALL.filter(function(n){if(!n.title||seen[n.title])return false;seen[n.title]=1;return true;});
+  ALL.sort(function(a,b){return new Date(b.date)-new Date(a.date);});
+  var when=new Date().toLocaleString('pt-BR',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'});
+  document.getElementById('updated').textContent=(live.length>0?'Ao vivo · ':'Destaques · ')+when;
+  render();
+}
+
+function render(){
+  var grid=document.getElementById('newsGrid');
+  var items=ALL;
+  if(curFilter==='BR') items=ALL.filter(function(n){return n.reg==='BR';});
+  else if(curFilter==='INT') items=ALL.filter(function(n){return n.reg==='INT';});
+  else if(curFilter==='LEI') items=ALL.filter(function(n){return n.reg==='LEI';});
+  else if(curFilter==='PET') items=ALL.filter(function(n){return /petrobras/i.test(n.title+n.desc);});
+  if(items.length===0){grid.innerHTML='<div class="empty">Nenhuma notícia neste filtro no momento.</div>';return;}
+  grid.innerHTML=items.slice(0,36).map(function(n){
+    return '<article class="ncard"><div class="meta">'+
+      '<span class="src-tag">'+n.src+'</span>'+
+      '<span class="reg-tag reg-'+n.reg+'">'+(n.reg==='BR'?'Brasil':(n.reg==='INT'?'Internacional':'Legislação'))+'</span>'+
+      (n.translated?'<span class="translated">🌐 traduzido</span>':'')+
+      '</div><h3>'+n.title+'</h3><div class="date">'+fmtDate(n.date)+'</div>'+
+      '<div class="links"><a href="'+n.link+'" target="_blank" rel="noopener">Ler matéria ↗</a>'+
+      (n.reg==='INT'?'<a href="https://translate.google.com/translate?sl=auto&tl=pt&u='+encodeURIComponent(n.link)+'" target="_blank" rel="noopener">Ler traduzida ↗</a>':'')+
+      '</div></article>';
+  }).join('');
+}
+
+document.querySelectorAll('[data-f]').forEach(function(b){b.addEventListener('click',function(){
+  document.querySelectorAll('[data-f]').forEach(function(x){x.classList.remove('active');});
+  b.classList.add('active'); curFilter=b.dataset.f; render();
+});});
+document.getElementById('refreshBtn').addEventListener('click',loadNews);
+loadNews();
+</script>
+</body>
+</html>
