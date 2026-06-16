@@ -152,6 +152,8 @@
   .vcard .art{position:relative;background:linear-gradient(180deg,#dcebf2 0%,#bcd7e4 100%);height:176px;display:flex;align-items:center;justify-content:center}
   .vcard .art::after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 50% 120%,rgba(255,255,255,.5),transparent 60%)}
   .vcard .art svg{width:100%;height:100%;position:relative;z-index:1}
+  .vcard .art img.art-img{width:100%;height:100%;object-fit:cover;display:block;position:relative;z-index:2}
+  .vcard .art .art-svg{width:100%;height:100%}
   .vcard .body{padding:18px 20px;display:flex;flex-direction:column;gap:9px;flex:1}
   .vcard h3{color:var(--petrol);font-size:1.14rem;font-weight:700}
   .vcard .tag{align-self:flex-start;font-size:.66rem;color:var(--teal-d);font-weight:700;text-transform:uppercase;letter-spacing:.05em;background:#e6f4f8;padding:3px 10px;border-radius:20px}
@@ -364,7 +366,7 @@
 
 <section id="navios">
   <div class="sec-head"><span class="kicker">Guia visual</span><h2>Navios &amp; Equipamentos offshore</h2></div>
-  <p class="sec-sub">Os principais tipos de unidades e equipamentos da indústria offshore — muitos deles importados sob o Repetro-Sped. Cada cartão traz um esquema, a função e um atalho para ver fotos reais.</p>
+  <p class="sec-sub">Os principais tipos de unidades e equipamentos da indústria offshore — muitos deles importados sob o Repetro-Sped. Cada cartão traz uma foto, a função e os principais dados. <small style="opacity:.7">Fotos: Wikimedia Commons.</small></p>
   <div class="vgrid" id="vesselsGrid"></div>
 </section>
 
@@ -570,13 +572,29 @@ document.querySelectorAll('[data-p]').forEach(function(b){b.addEventListener('cl
 renderPlayers('BR');
 
 /* ===================== RENDER: NAVIOS ===================== */
+var VPHOTOS=[
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Terra_Nova_FPSO_08July2006.jpg/960px-Terra_Nova_FPSO_08July2006.jpg",
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Las_Palmas_de_Gran_Canaria_-_drillships_-_2018.jpg/960px-Las_Palmas_de_Gran_Canaria_-_drillships_-_2018.jpg",
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Scarabeo_8.jpg/960px-Scarabeo_8.jpg",
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Troll_A_Platform.jpg/960px-Troll_A_Platform.jpg",
+  "https://upload.wikimedia.org/wikipedia/commons/e/e1/Bawden_Drilling_Oil_Rig-1.jpg",
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Solitaire_%28IMO_7129049%29_and_Toisa_Independent_%28IMO_9255957%29.jpg/960px-Solitaire_%28IMO_7129049%29_and_Toisa_Independent_%28IMO_9255957%29.jpg",
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/2017-10-07_01_MAERSK_DISPATCHER_-_IMO_9298909_in_St._John%27s_NL_CAN.jpg/960px-2017-10-07_01_MAERSK_DISPATCHER_-_IMO_9298909_in_St._John%27s_NL_CAN.jpg",
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/2022-08-21_01_HORIZON_ARCTIC_-_IMO_9732838.jpg/960px-2022-08-21_01_HORIZON_ARCTIC_-_IMO_9732838.jpg",
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Prottes_Ekreuz1.jpg/960px-Prottes_Ekreuz1.jpg",
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Work_class_ROV_at_work_banner.jpg/960px-Work_class_ROV_at_work_banner.jpg",
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Product_lines_in_FMC_Technologies_Subsea.jpg/960px-Product_lines_in_FMC_Technologies_Subsea.jpg",
+  "https://upload.wikimedia.org/wikipedia/commons/9/91/Drilling_Riser.jpg"
+];
+function vimgErr(im){im.style.display='none';var s=im.parentNode.querySelector('.art-svg');if(s)s.style.display='block';}
 function renderVessels(){
-  document.getElementById('vesselsGrid').innerHTML=VESSELS.map(function(v){
+  document.getElementById('vesselsGrid').innerHTML=VESSELS.map(function(v,i){
     var q=encodeURIComponent(v.n.replace(/&amp;/g,'')+' offshore oil gas');
-    return '<div class="vcard"><div class="art">'+v.svg+'</div>'+
+    var art=VPHOTOS[i]?('<img class="art-img" src="'+VPHOTOS[i]+'" alt="'+v.n+'" loading="lazy" referrerpolicy="no-referrer" onerror="vimgErr(this)"><div class="art-svg" style="display:none">'+v.svg+'</div>'):('<div class="art-svg">'+v.svg+'</div>');
+    return '<div class="vcard"><div class="art">'+art+'</div>'+
       '<div class="body"><span class="tag">'+v.tag+'</span><h3>'+v.n+'</h3>'+
       '<p>'+v.p+'</p><div class="specs">'+v.specs+'</div>'+
-      '<a class="photo" href="https://www.google.com/search?tbm=isch&q='+q+'" target="_blank" rel="noopener">📷 Ver fotos reais ↗</a></div></div>';
+      '<a class="photo" href="https://www.google.com/search?tbm=isch&q='+q+'" target="_blank" rel="noopener">📷 Ver mais fotos ↗</a></div></div>';
   }).join('');
 }
 renderVessels();
