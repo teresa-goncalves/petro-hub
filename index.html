@@ -309,6 +309,7 @@
     <button class="filterbtn active" data-f="all">Todas</button>
     <button class="filterbtn" data-f="BR">Brasil</button>
     <button class="filterbtn" data-f="INT">Internacional</button>
+    <button class="filterbtn" data-f="GEO">Geopolítica</button>
     <button class="filterbtn" data-f="LEI">Legislação</button>
     <button class="filterbtn" data-f="PET">Petrobras</button>
     <div class="refresh">
@@ -616,6 +617,7 @@ var PROXIES=[
   function(u){return "https://thingproxy.freeboard.io/fetch/"+u;}
 ];
 var ALL=[]; var curFilter="all"; var query="";
+var GEORX=/trump|ormuz|ucr[âa]ni|ukrain|ir[ãa]\b|iran|teer[ãa]|r[úu]ssia|russo|guerra|\bwar\b|san[çc][õo]|sanction|tarifa|tariff|embargo|\bopep\b|\bopec\b|venezuela|oriente m[ée]dio|middle east|geopol[íi]t|conflito|nord stream|houthi|h[uú]thi|israel|g[áa]za/i;
 
 // DESTAQUES sempre disponíveis (manchetes reais; internacionais já traduzidas).
 // Atualizados periodicamente; servem de base caso o feed ao vivo esteja indisponível.
@@ -631,7 +633,11 @@ var SEED=[
   {title:"Expansão de FPSOs na África acelera em meio à alta da exploração em águas profundas", link:"https://ognnews.com/Article/48304/", date:"2026-06-05", desc:"Angola lidera a atividade, impulsionada por programas de perfuração e o projeto Agogo.", src:"Oil & Gas News", reg:"INT", translated:true},
   {title:"Perspectiva do mercado de FPSO (2026): produção offshore e projetos em águas profundas", link:"https://www.openpr.com/news/4433129/fpso-market-outlook-2026-offshore-oil-production-deepwater", date:"2026-06-03", desc:"Demanda por FPSOs cresce, puxada por águas profundas, com maior disciplina de capital.", src:"OpenPR", reg:"INT", translated:true},
   {title:"IN RFB nº 2.274/2025 inclui tubos e dutos de gasodutos de escoamento no Repetro-Sped", link:"https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/agosto/receita-federal-publica-instrucao-normativa-sobre-o-repetro-sped", date:"2025-08-04", desc:"Receita Federal altera a IN 1.781/2017 e elimina divergências sobre a elegibilidade de gasodutos.", src:"Receita Federal", reg:"LEI", translated:false},
-  {title:"RFB esclarece uso do Repetro-Sped em gasodutos de escoamento", link:"https://www.contabeis.com.br/noticias/72215/rfb-esclarece-uso-do-repetro-sped-em-gasodutos", date:"2025-08-11", desc:"Análise da nova norma e seus impactos práticos para o setor de gás natural.", src:"Contábeis", reg:"LEI", translated:false}
+  {title:"RFB esclarece uso do Repetro-Sped em gasodutos de escoamento", link:"https://www.contabeis.com.br/noticias/72215/rfb-esclarece-uso-do-repetro-sped-em-gasodutos", date:"2025-08-11", desc:"Análise da nova norma e seus impactos práticos para o setor de gás natural.", src:"Contábeis", reg:"LEI", translated:false},
+  {title:"Trump afirma que os EUA vão assumir o controle das reservas de petróleo da Venezuela", link:"https://www.cnn.com/2026/01/03/business/oil-gas-venezuela-maduro", date:"2026-01-03", desc:"Decisão geopolítica dos EUA sobre a Venezuela mexe com o mercado global de petróleo.", src:"CNN", reg:"INT", translated:true},
+  {title:"Venezuela após Maduro: petróleo, poder e os limites da intervenção", link:"https://www.aljazeera.com/news/2026/1/5/venezuela-after-maduro-oil-power-and-the-limits-of-intervention", date:"2026-01-05", desc:"Análise dos impactos do novo cenário venezuelano sobre o setor de óleo e gás.", src:"Al Jazeera", reg:"INT", translated:true},
+  {title:"Petróleo sob tensão: Oriente Médio, Estreito de Ormuz e negociações EUA–Irã pressionam o barril", link:"https://oilprice.com/Geopolitics/International/", date:"2026-06-15", desc:"Risco no Estreito de Ormuz e o impasse com o Irã mantêm o preço do petróleo volátil.", src:"OilPrice", reg:"INT", translated:true},
+  {title:"Guerra na Ucrânia e sanções à Rússia seguem redesenhando o mapa global de energia", link:"https://oilprice.com/Geopolitics/Russia/", date:"2026-06-10", desc:"Fluxos de petróleo e gás russos e novas sanções continuam impactando preços e rotas.", src:"OilPrice", reg:"INT", translated:true}
 ];
 
 function stripHtml(s){var d=document.createElement('div');d.innerHTML=s||'';return (d.textContent||'').trim();}
@@ -733,6 +739,7 @@ function render(){
   var items=ALL;
   if(curFilter==='BR') items=ALL.filter(function(n){return n.reg==='BR';});
   else if(curFilter==='INT') items=ALL.filter(function(n){return n.reg==='INT';});
+  else if(curFilter==='GEO') items=ALL.filter(function(n){return GEORX.test((n.title||'')+' '+(n.desc||''));});
   else if(curFilter==='LEI') items=ALL.filter(function(n){return n.reg==='LEI';});
   else if(curFilter==='PET') items=ALL.filter(function(n){return /petrobras/i.test(n.title+n.desc);});
   if(query){var q=norm(query);items=items.filter(function(n){return norm((n.title||'')+' '+(n.desc||'')+' '+(n.src||'')).indexOf(q)>-1;});}
