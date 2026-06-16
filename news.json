@@ -1,14 +1,452 @@
 [
- {"title":"Produção brasileira de óleo e gás bate novo recorde em abril (5,64 milhões boe/d)","link":"https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/producao-brasileira-de-oleo-e-gas-bate-novo-recorde-em-abril","date":"2026-06-12","desc":"Pré-sal responde por 81,8% da produção; campos da Petrobras, por quase 89%.","src":"Agência Brasil","reg":"BR","translated":false},
- {"title":"Petrobras tem lucro de R$ 32,7 bilhões no 1º trimestre de 2026","link":"https://agencia.petrobras.com.br/w/negocio/lucro-liquido-da-petrobras","date":"2026-05-12","desc":"Resultado mais que dobra ante o 4º tri/2025, com recorde de produção de óleo e gás.","src":"Agência Petrobras","reg":"BR","translated":false},
- {"title":"Petrobras busca aumento de produção para mitigar efeitos da guerra","link":"https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/petrobras-busca-aumento-producao-para-mitigar-efeitos-guerra","date":"2026-05-20","desc":"Estratégia para reduzir impactos de tensões geopolíticas sobre o mercado.","src":"Agência Brasil","reg":"BR","translated":false},
- {"title":"Próximo leilão de exploração no pré-sal terá 23 blocos oferecidos","link":"https://agenciabrasil.ebc.com.br/economia/noticia/2026-04/proximo-leilao-de-exploracao-no-pre-sal-tera-23-blocos-oferecidos","date":"2026-04-06","desc":"8 blocos na Bacia de Campos e 13 na de Santos, via Oferta Permanente da ANP.","src":"Agência Brasil","reg":"BR","translated":false},
- {"title":"ANP avança com bloco Sul de Sapinhoá e reforça pipeline de leilões no pré-sal","link":"https://cenarioenergia.com.br/2026/04/27/anp-avanca-com-bloco-sul-de-sapinhoa-e-reforca-pipeline-de-leiloes-no-pre-sal/","date":"2026-04-27","desc":"Agência amplia a oferta de áreas exploratórias no Polígono do Pré-sal.","src":"Cenário Energia","reg":"BR","translated":false},
- {"title":"Petrobras inicia produção na 1ª plataforma do campo de Sépia","link":"https://maisretorno.com/portal/petrobras-inicia-producao-de-petroleo-e-gas-na-1a-plataforma-do-campo-de-sepia","date":"2026-03-15","desc":"Mais uma unidade entra em operação no pré-sal da Bacia de Santos.","src":"Mais Retorno","reg":"BR","translated":false},
- {"title":"IA, eficiência e transição energética moldam o setor de óleo e gás, diz Deloitte","link":"https://agenciainfra.com/blog/ia-eficiencia-e-transicao-moldam-setor-de-oleo-e-gas-diz-deloitte/","date":"2026-06-01","desc":"Empresas priorizam IA e GenAI com foco em produtividade e eficiência operacional.","src":"Agência iNFRA","reg":"BR","translated":false},
- {"title":"OTC 2026: águas profundas ressurgem como motor crítico de oferta em meio à desaceleração global da exploração","link":"https://worldoil.com/news/2026/5/8/otc-2026-deepwater-re-emerges-as-critical-supply-engine-amid-global-exploration-slowdown/","date":"2026-05-08","desc":"Deepwater volta ao centro dos planos, liderado pela América do Sul e Golfo do México.","src":"World Oil","reg":"INT","translated":true},
- {"title":"Expansão de FPSOs na África acelera em meio à alta da exploração em águas profundas","link":"https://ognnews.com/Article/48304/","date":"2026-06-05","desc":"Angola lidera a atividade, impulsionada por programas de perfuração e o projeto Agogo.","src":"Oil & Gas News","reg":"INT","translated":true},
- {"title":"Perspectiva do mercado de FPSO (2026): produção offshore e projetos em águas profundas","link":"https://www.openpr.com/news/4433129/fpso-market-outlook-2026-offshore-oil-production-deepwater","date":"2026-06-03","desc":"Demanda por FPSOs cresce, puxada por águas profundas, com maior disciplina de capital.","src":"OpenPR","reg":"INT","translated":true},
- {"title":"IN RFB nº 2.274/2025 inclui tubos e dutos de gasodutos de escoamento no Repetro-Sped","link":"https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/agosto/receita-federal-publica-instrucao-normativa-sobre-o-repetro-sped","date":"2025-08-04","desc":"Receita Federal altera a IN 1.781/2017 e elimina divergências sobre a elegibilidade de gasodutos.","src":"Receita Federal","reg":"LEI","translated":false},
- {"title":"RFB esclarece uso do Repetro-Sped em gasodutos de escoamento","link":"https://www.contabeis.com.br/noticias/72215/rfb-esclarece-uso-do-repetro-sped-em-gasodutos","date":"2025-08-11","desc":"Análise da nova norma e seus impactos práticos para o setor de gás natural.","src":"Contábeis","reg":"LEI","translated":false}
+ {
+  "title": "Estrelas exibem cores diferentes no céu e a ciência explica o motivo",
+  "link": "https://clickpetroleoegas.com.br/estrelas-exibem-cores-diferentes-no-ceu-e-a-ciencia-explica-o-motivo-ama01/",
+  "date": "Tue, 16 Jun 2026 00:16:14 +0000",
+  "desc": "O post Estrelas exibem cores diferentes no céu e a ciência explica o motivo apareceu primeiro em CPG Click Petróleo e Gás. Estrelas podem aparecer em diferentes",
+  "src": "ClickPetróleoeGás",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "AI Wars: Why Microsoft, Google and Amazon Are All Fighting Over Power",
+  "link": "https://oilprice.com/Energy/Energy-General/AI-Wars-Why-Microsoft-Google-and-Amazon-Are-All-Fighting-Over-Power.html",
+  "date": "Mon, 15 Jun 2026 19:00:00 -0500",
+  "desc": "In March, Microsoft, Google, Amazon, Meta, OpenAI, Oracle, and Elon Musk’s xAI joined President Trump at the White House. Together, they signed a document that ",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": false
+ },
+ {
+  "title": "Pesquisador da USP cria tese para atrair fundos internacionais para o setor de energia elétrica do país",
+  "link": "https://clickpetroleoegas.com.br/pesquisador-da-usp-cria-tese-para-atrair-fundos-internacionaispara-os-setor-de-energia-eletrica-do-pais-vml97/",
+  "date": "Mon, 15 Jun 2026 23:49:32 +0000",
+  "desc": "O post Pesquisador da USP cria tese para atrair fundos internacionais para o setor de energia elétrica do país apareceu primeiro em CPG Click Petróleo e Gás. O ",
+  "src": "ClickPetróleoeGás",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "Astrônomos chamaram de asteroide um objeto preso perto da Terra, até um cientista de Harvard levantar a hipótese mais curiosa: a “segunda lua” temporária podia ser a Zond-1, sonda soviética lançada rumo a Vênus há mais de 60 anos e perdida no espaço desde a Guerra Fria",
+  "link": "https://clickpetroleoegas.com.br/astronomos-chamaram-de-asteroide-um-objeto-preso-perto-da-terra-ate-um-cientista-de-harvard-levantar-a-hipotese-mais-curiosa-a-segunda-lua-temporaria-vml97/",
+  "date": "Mon, 15 Jun 2026 23:49:05 +0000",
+  "desc": "O post Astrônomos chamaram de asteroide um objeto preso perto da Terra, até um cientista de Harvard levantar a hipótese mais curiosa: a “segunda lua” temporária",
+  "src": "ClickPetróleoeGás",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "An Oil Deal That Ended a War Nobody Won",
+  "link": "https://oilprice.com/Energy/Crude-Oil/An-Oil-Deal-That-Ended-a-War-Nobody-Won.html",
+  "date": "Mon, 15 Jun 2026 18:00:00 -0500",
+  "desc": "What happened today is best described, despite much more dramatic categorizations coming out of Tehran and Washington, is a 60-day ceasefire extension, now repo",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": false
+ },
+ {
+  "title": "Quanto custa construir um poço em 2026? Veja os valores médios da perfuração, os custos de regularização e os gastos extras mais comuns que podem aparecer ao longo do projeto",
+  "link": "https://clickpetroleoegas.com.br/quanto-custa-construir-um-poco-em-2026-veja-os-valores-medios-da-perfuracao-os-custos-de-regularizacao-e-gastos-extras-mais-comuns-rmrm97/",
+  "date": "Mon, 15 Jun 2026 22:36:20 +0000",
+  "desc": "O post Quanto custa construir um poço em 2026? Veja os valores médios da perfuração, os custos de regularização e os gastos extras mais comuns que podem aparece",
+  "src": "ClickPetróleoeGás",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "SLB LANÇA MARKETPLACE PARA AJUDAR A IMPLANTAR INTELIGÊNCIA ARTIFICIAL NO SETOR DE ENERGIA",
+  "link": "https://petronoticias.com.br/slb-lanca-marketplace-para-ajudar-a-implantar-inteligencia-artificial-no-setor-de-energia/",
+  "date": "Mon, 15 Jun 2026 22:00:15 +0000",
+  "desc": "A SLB anunciou o lançamento de uma plataforma digital desenvolvida para ajudar empresas do setor de energia a descobrir e implementar rapidamente agentes especi",
+  "src": "Petronotícias",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "New Estimates Challenge Assumptions About Lost Gulf Oil Supply",
+  "link": "https://oilprice.com/Energy/Energy-General/New-Estimates-Challenge-Assumptions-About-Lost-Gulf-Oil-Supply.html",
+  "date": "Mon, 15 Jun 2026 17:00:00 -0500",
+  "desc": "In the immediate aftermath of the U.S. and Israeli strikes on Iran that prompted the latter to shut down the Strait of Hormuz, most reports dealt with numbers—n",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": false
+ },
+ {
+  "title": "ENERGIA SOLAR POR ASSINATURA FAZ PARTE DO PROGRAMA DA CEMIG E DO GOVERNO DE MINAS GERAIS PARA BARATEAR CONTA DE LUZ EM 26%",
+  "link": "https://petronoticias.com.br/energia-solar-por-assinatura-faz-parte-do-programa-da-cemig-e-do-governo-de-minas-gerais-para-baratear-conta-de-luz-em-26/",
+  "date": "Mon, 15 Jun 2026 21:00:54 +0000",
+  "desc": "O Grupo Cemig está anunciando uma nova ação voltada à economia na conta de luz para consumidores em Minas Gerais. A iniciativa é conduzida pela Cemig SIM, subsi",
+  "src": "Petronotícias",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "U.S. Average Gasoline Prices Slide Below $4 Per Gallon",
+  "link": "https://oilprice.com/Energy/Energy-General/US-Average-Gasoline-Prices-Slide-Below-4-Per-Gallon.html",
+  "date": "Mon, 15 Jun 2026 16:00:00 -0500",
+  "desc": "Patrick De Haan, a petroleum analyst at GasBuddy, wrote on X that the national average price of gasoline has finally slipped below the politically sensitive $4-",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": false
+ },
+ {
+  "title": "DEPOIS DE TER SANCIONADA A CUPET, A ESTATAL DO PETRÓLEO, A DITADURA CUBANA TEM POUQUÍSSIMAS FONTES DE RENDA",
+  "link": "https://petronoticias.com.br/depois-de-ter-sancionada-a-cupet-a-estatal-do-petroleo-a-ditadura-cubana-tem-pouquissimas-fontes-de-renda/",
+  "date": "Mon, 15 Jun 2026 20:00:37 +0000",
+  "desc": "A ditadura sanguinária cubana continua num mato sem cachorro e parece cada vez mais perdida com as ações do Secretário de Estado Marco Rubio. Os Estados Unidos ",
+  "src": "Petronotícias",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "Venezuela’s Oil Exports Hit Seven-Year High as Global Buyers Return",
+  "link": "https://oilprice.com/Energy/Energy-General/Venezuelas-Oil-Exports-Hit-Seven-Year-High-as-Global-Buyers-Return.html",
+  "date": "Mon, 15 Jun 2026 15:00:00 -0500",
+  "desc": "Venezuela’s oil production and exports are set to increase in the coming months as the United States further eases the rules of operating in the world’s biggest",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": false
+ },
+ {
+  "title": "JP Morgan: Falling Oil Prices A Massive Tailwind For Global Stock Markets",
+  "link": "https://oilprice.com/Latest-Energy-News/World-News/JP-Morgan-Falling-Oil-Prices-A-Massive-Tailwind-For-Global-Stock-Markets.html",
+  "date": "Mon, 15 Jun 2026 14:30:00 -0500",
+  "desc": "Tumbling oil prices could provide a massive tailwind for global stock markets by prompting a broader equity rally and clearing a path for central banks to cut i",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": false
+ },
+ {
+  "title": "A EDP ESTÁ INVESTINDO EM SISTEMAS DE BATERIAS PARA ARMAZENAR ENERGIA NO CHILE, ESTADOS UNIDOS E TAMBÉM NO BRASIL",
+  "link": "https://petronoticias.com.br/a-edp-esta-investindo-em-sistemas-de-baterias-para-armazenar-energia-no-chile-estados-unidos-e-tambem-no-brasil/",
+  "date": "Mon, 15 Jun 2026 19:00:04 +0000",
+  "desc": "A EDP, empresa que atua globalmente em todos os segmentos do setor elétrico, iniciou as operações do projeto Punta de Talca BESS, localizado no Chile, município",
+  "src": "Petronotícias",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "From Hormuz to Houston: The U.S. Takeover of Global Energy Flows Ramps Up",
+  "link": "https://oilprice.com/Energy/Crude-Oil/From-Hormuz-to-Houston-The-US-Takeover-of-Global-Energy-Flows-Ramps-Up.html",
+  "date": "Mon, 15 Jun 2026 14:00:00 -0500",
+  "desc": "Oil exports from the U.S. and its ‘Americas’ sphere of influence continue to be the prime beneficiary from the drop in crude output leaving the Middle East. Ind",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": false
+ },
+ {
+  "title": "Danish Energy Trader Eyes U.S. Gas Markets After Trading Profits Collapse",
+  "link": "https://oilprice.com/Latest-Energy-News/World-News/Danish-Energy-Trader-Eyes-US-Gas-Markets-After-Trading-Profits-Collapse.html",
+  "date": "Mon, 15 Jun 2026 14:00:00 -0500",
+  "desc": "Goldman Sachs-backed Danish energy trader InCommodities is expanding into U.S. physical natural gas markets after profits plunged as volatility faded across Eur",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": false
+ },
+ {
+  "title": "CENTRO DE ESTUDOS DA UNICAMP GANHARÁ NOVO LABORATÓRIO DEDICADO A PESQUISAS SÍSMICAS 4D",
+  "link": "https://petronoticias.com.br/centro-de-estudos-da-unicamp-ganhara-novo-laboratorio-dedicado-a-pesquisas-sismicas-4d/",
+  "date": "Mon, 15 Jun 2026 18:00:53 +0000",
+  "desc": "O Centro de Estudos de Petróleo e Energia (Cepetro), da Unicamp, passará a contar com um dos primeiros laboratórios especializados em sísmica 4D do país. A nova",
+  "src": "Petronotícias",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "The Case Against Government Buying Into the AI Giants",
+  "link": "https://oilprice.com/Energy/Energy-General/The-Case-Against-Government-Buying-Into-the-AI-Giants.html",
+  "date": "Mon, 15 Jun 2026 13:00:00 -0500",
+  "desc": "When Bernie Sanders and Donald Trump agree on something, that agreement deserves examination. Both are touting the idea that the federal government should have ",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": false
+ },
+ {
+  "title": "European Gas Prices Tumble 6% On US-Iran Peace Deal",
+  "link": "https://oilprice.com/Latest-Energy-News/World-News/European-Gas-Prices-Tumble-6-On-US-Iran-Peace-Deal.html",
+  "date": "Mon, 15 Jun 2026 12:30:00 -0500",
+  "desc": "European natural gas prices plummeted by roughly 6% following the announcement of a landmark US-Iran framework agreement, with the breakthrough significantly ea",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": false
+ },
+ {
+  "title": "A COPPE/UFRJ VAI INAUGURAR UM MODERNO NÚCLEO DE TECNOLOGIA DE POÇOS DE PETRÓLEO",
+  "link": "https://petronoticias.com.br/a-coppe-ufrj-vai-inaugurar-um-moderno-nucleo-de-tecnologia-de-pocos-de-petroleo/",
+  "date": "Mon, 15 Jun 2026 17:00:45 +0000",
+  "desc": "A Coppe/UFRJ vai inaugurar um importante projeto de modernização e ampliação da sua capacidade de pesquisa e desenvolvimento para a indústria de óleo e gás, em ",
+  "src": "Petronotícias",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "Ukraine’s New Refinery Tactic Is Fueling Russia’s Gasoline Crisis",
+  "link": "https://oilprice.com/Geopolitics/Europe/Ukraines-New-Refinery-Tactic-Is-Fueling-Russias-Gasoline-Crisis.html",
+  "date": "Mon, 15 Jun 2026 12:00:00 -0500",
+  "desc": "Russia’s deputy prime minister kept walking but couldn't shake off a gaggle of reporters with questions about the country’s growing fuel crisis. Aleksandr Novak",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": false
+ },
+ {
+  "title": "FRUSTRAÇÃO, DECEPÇÃO E PREOCUPAÇÃO: OS SENTIMENTOS MAIS EXPRESSADOS APÓS O ANÚNCIO DO ACORDO COM O IRÃ PARA O FIM DA GUERRA",
+  "link": "https://petronoticias.com.br/frustracao-decepcao-e-preocupacao-os-sentimentos-mais-expressados-depois-de-anunciado-o-acordo-com-ira-para-o-fim-da-guerra/",
+  "date": "Mon, 15 Jun 2026 16:00:02 +0000",
+  "desc": "Ainda há muitos detalhes a serem finalizados em relação ao acordo de paz preliminar entre os Estados Unidos e o Irã. Quem afirma isso é o próprio vice-president",
+  "src": "Petronotícias",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "Russia Eases Environmental Rules for Domestic Fuel amid Shortages",
+  "link": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Eases-Environmental-Rules-for-Domestic-Fuel-amid-Shortages.html",
+  "date": "Mon, 15 Jun 2026 10:30:00 -0500",
+  "desc": "Russia’s government has authorized some refineries to produce gasoline and diesel with higher sulfur content and other lower environmental specifications in a b",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": false
+ },
+ {
+  "title": "The $42 Trillion Oil Opportunity Hiding in Plain Sight",
+  "link": "https://oilprice.com/Energy/Energy-General/The-42-Trillion-Oil-Opportunity-Hiding-in-Plain-Sight.html",
+  "date": "Mon, 15 Jun 2026 10:00:00 -0500",
+  "desc": "Without ever discovering another barrel, at today’s prices, there is more than $42 trillion in crude oil trapped in existing oilfields, awaiting the deployment ",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": false
+ },
+ {
+  "title": "Tesla Accused of Inflating Self-Driving Safety Claims",
+  "link": "https://oilprice.com/Energy/Energy-General/Tesla-Accused-of-Inflating-Self-Driving-Safety-Claims.html",
+  "date": "Mon, 15 Jun 2026 10:00:00 -0500",
+  "desc": "Tesla Inc. (NASDAQ:TSLA) presented self-published safety data to regulators in Sweden and the Netherlands in a bid to secure approval of its “Full Self-Driving”",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": false
+ },
+ {
+  "title": "Woodside quashes ExxonMobil merger rumors",
+  "link": "https://www.offshore-energy.biz/woodside-quashes-exxonmobil-merger-rumors/",
+  "date": "Mon, 15 Jun 2026 14:54:21 +0000",
+  "desc": "Australian energy giant Woodside has denied any knowledge of a takeover proposal involving the U.S.-headquartered energy heavyweight ExxonMobil. The post Woodsi",
+  "src": "Offshore Energy",
+  "reg": "INT",
+  "translated": false
+ },
+ {
+  "title": "India Pushes States to Fast-Track Nuclear and Battery Storage Approvals",
+  "link": "https://oilprice.com/Latest-Energy-News/World-News/India-Pushes-States-to-Fast-Track-Nuclear-and-Battery-Storage-Approvals.html",
+  "date": "Mon, 15 Jun 2026 09:30:00 -0500",
+  "desc": "India’s federal government has urged states to accelerate approvals of nuclear and battery energy storage systems on their territories in a push to boost energy",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": false
+ },
+ {
+  "title": "Energos strengthens East Med energy cooperation through GIAC entrance",
+  "link": "https://www.offshore-energy.biz/energos-strengthens-east-med-energy-cooperation-through-giac-entrance/",
+  "date": "Mon, 15 Jun 2026 14:08:34 +0000",
+  "desc": "Energos Infrastructure, a maritime infrastructure company owned by funds managed by Apollo, has joined the Gas Industry Advisory Committee (GIAC) of the East Me",
+  "src": "Offshore Energy",
+  "reg": "INT",
+  "translated": false
+ },
+ {
+  "title": "New first for France as full‑scale wave energy demonstrator kicks off sea trials",
+  "link": "https://www.offshore-energy.biz/new-first-for-france-as-full%e2%80%91scale-wave-energy-demonstrator-kicks-off-sea-trials/",
+  "date": "Mon, 15 Jun 2026 13:16:58 +0000",
+  "desc": "French wave energy technology developer Seaturns has embarked on a full‑scale offshore trial of its wave energy demonstrator off the Gironde estuary on the Fren",
+  "src": "Offshore Energy",
+  "reg": "INT",
+  "translated": false
+ },
+ {
+  "title": "BP, SOCAR employ advanced tech to enhance output at Caspian Sea oil asset",
+  "link": "https://www.offshore-energy.biz/bp-socar-employ-advanced-tech-to-enhance-output-at-caspian-sea-oil-asset/",
+  "date": "Mon, 15 Jun 2026 12:08:08 +0000",
+  "desc": "UK-headquartered energy giant BP and its partner, State Oil Company of the Republic of Azerbaijan (SOCAR), have shed light on the innovative solutions deployed ",
+  "src": "Offshore Energy",
+  "reg": "INT",
+  "translated": false
+ },
+ {
+  "title": "NextGeo wraps up trenching gig at African offshore gas project",
+  "link": "https://www.offshore-energy.biz/nextgeo-wraps-up-trenching-gig-at-african-offshore-gas-project/",
+  "date": "Mon, 15 Jun 2026 10:53:11 +0000",
+  "desc": "Naples-headquartered Next Geosolutions (NextGeo) has finished the post-lay trenching assignment at a gas project off the coast of Libya, which is operated by Me",
+  "src": "Offshore Energy",
+  "reg": "INT",
+  "translated": false
+ },
+ {
+  "title": "BW Offshore’s FPSO tucks ‘important’ milestone under its belt",
+  "link": "https://www.offshore-energy.biz/bw-offshores-fpso-tucks-important-milestone-under-its-belt/",
+  "date": "Mon, 15 Jun 2026 09:47:22 +0000",
+  "desc": "Norway’s floating production solutions provider BW Offshore has revealed a new operational achievement for a floating production storage and offloading (FPSO) v",
+  "src": "Offshore Energy",
+  "reg": "INT",
+  "translated": false
+ },
+ {
+  "title": "Future expansion on horizon for Norway’s giant oil-producing field",
+  "link": "https://www.offshore-energy.biz/future-expansion-on-horizon-for-norways-giant-oil-producing-field/",
+  "date": "Mon, 15 Jun 2026 09:12:35 +0000",
+  "desc": "Norway’s state-owned energy giant Equinor is laying the groundwork to enable a potential new subsea development in the North Sea, which will help maintain produ",
+  "src": "Offshore Energy",
+  "reg": "INT",
+  "translated": false
+ },
+ {
+  "title": "ACORDO DE PAZ GERA EXPECTATIVA POSITIVA NO MERCADO, MAS RETOMADA DE EXPORTAÇÕES DE ÓLEO NO GOLFO SERÁ GRADUAL",
+  "link": "https://petronoticias.com.br/acordo-de-paz-gera-expectativa-positiva-no-mercado-mas-retomada-de-exportacoes-de-oleo-no-golfo-sera-gradual/",
+  "date": "Mon, 15 Jun 2026 08:00:02 +0000",
+  "desc": "As expectativas da semana não ficarão só em torno dos jogos da Copa do Mundo. Na próxima sexta-feira (19), os olhos do mundo estarão voltados para Genebra, na S",
+  "src": "Petronotícias",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "Jacket for EU’s largest offshore gas development sails away from Saipem’s shipyard",
+  "link": "https://www.offshore-energy.biz/jacket-for-eus-largest-offshore-gas-development-sails-away-from-saipems-shipyard/",
+  "date": "Mon, 15 Jun 2026 07:43:13 +0000",
+  "desc": "Italy’s engineering, drilling, and construction services giant Saipem has confirmed the departure of a jacket destined for a giant natural gas project in the Ro",
+  "src": "Offshore Energy",
+  "reg": "INT",
+  "translated": false
+ },
+ {
+  "title": "50Hertz and Elia launch €752 million offshore HV cable jointing and repair logistics tender",
+  "link": "https://www.offshore-energy.biz/50hertz-and-elia-launch-e752-million-offshore-hv-cable-jointing-and-repair-logistics-tender/",
+  "date": "Mon, 15 Jun 2026 07:40:00 +0000",
+  "desc": "50Hertz and Elia have launched a joint procurement for offshore high-voltage (HV) cable repair [&#8230;] The post 50Hertz and Elia launch €752 million offshore ",
+  "src": "Offshore Energy",
+  "reg": "INT",
+  "translated": false
+ },
+ {
+  "title": "EUA E IRÃ CONFIRMAM ACORDO E ASSINATURA DEVE ACONTECER NA PRÓXIMA SEXTA-FEIRA. PREÇOS DO BARRIL COMEÇAM A CAIR",
+  "link": "https://petronoticias.com.br/eua-e-ira-confirmam-acordo-de-paz-e-assinatura-deve-acontecer-na-proxima-sexta-feira-precos-do-barril-comecam-a-cair/",
+  "date": "Sun, 14 Jun 2026 22:30:49 +0000",
+  "desc": "Uma semana que promete uma reviravolta no mapa geopolítico do mundo e no setor mundial de óleo e gás. O presidente Donald Trump anunciou neste domingo (14) que ",
+  "src": "Petronotícias",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "No ‘immediate commercialization’ in sight for gas discovery offshore Japan",
+  "link": "https://www.offshore-energy.biz/no-immediate-commercialization-in-sight-for-gas-discovery-offshore-japan/",
+  "date": "Fri, 12 Jun 2026 13:54:12 +0000",
+  "desc": "Japan Petroleum Exploration Co., Ltd. (JAPEX) has shed light on its exploratory drilling activities in the offshore Hidaka area of Hokkaido. The post No ‘immedi",
+  "src": "Offshore Energy",
+  "reg": "INT",
+  "translated": false
+ },
+ {
+  "title": "Produção brasileira de óleo e gás bate novo recorde em abril (5,64 milhões boe/d)",
+  "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/producao-brasileira-de-oleo-e-gas-bate-novo-recorde-em-abril",
+  "date": "2026-06-12",
+  "desc": "Pré-sal responde por 81,8% da produção; campos da Petrobras, por quase 89%.",
+  "src": "Agência Brasil",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "Expansão de FPSOs na África acelera em meio à alta da exploração em águas profundas",
+  "link": "https://ognnews.com/Article/48304/",
+  "date": "2026-06-05",
+  "desc": "Angola lidera a atividade, impulsionada por programas de perfuração e o projeto Agogo.",
+  "src": "Oil & Gas News",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Perspectiva do mercado de FPSO (2026): produção offshore e projetos em águas profundas",
+  "link": "https://www.openpr.com/news/4433129/fpso-market-outlook-2026-offshore-oil-production-deepwater",
+  "date": "2026-06-03",
+  "desc": "Demanda por FPSOs cresce, puxada por águas profundas, com maior disciplina de capital.",
+  "src": "OpenPR",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "IA, eficiência e transição energética moldam o setor de óleo e gás, diz Deloitte",
+  "link": "https://agenciainfra.com/blog/ia-eficiencia-e-transicao-moldam-setor-de-oleo-e-gas-diz-deloitte/",
+  "date": "2026-06-01",
+  "desc": "Empresas priorizam IA e GenAI com foco em produtividade e eficiência operacional.",
+  "src": "Agência iNFRA",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "Petrobras busca aumento de produção para mitigar efeitos da guerra",
+  "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/petrobras-busca-aumento-producao-para-mitigar-efeitos-guerra",
+  "date": "2026-05-20",
+  "desc": "Estratégia para reduzir impactos de tensões geopolíticas sobre o mercado.",
+  "src": "Agência Brasil",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "Petrobras tem lucro de R$ 32,7 bilhões no 1º trimestre de 2026",
+  "link": "https://agencia.petrobras.com.br/w/negocio/lucro-liquido-da-petrobras",
+  "date": "2026-05-12",
+  "desc": "Resultado mais que dobra ante o 4º tri/2025, com recorde de produção de óleo e gás.",
+  "src": "Agência Petrobras",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "OTC 2026: águas profundas ressurgem como motor crítico de oferta em meio à desaceleração global da exploração",
+  "link": "https://worldoil.com/news/2026/5/8/otc-2026-deepwater-re-emerges-as-critical-supply-engine-amid-global-exploration-slowdown/",
+  "date": "2026-05-08",
+  "desc": "Deepwater volta ao centro dos planos, liderado pela América do Sul e Golfo do México.",
+  "src": "World Oil",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "ANP avança com bloco Sul de Sapinhoá e reforça pipeline de leilões no pré-sal",
+  "link": "https://cenarioenergia.com.br/2026/04/27/anp-avanca-com-bloco-sul-de-sapinhoa-e-reforca-pipeline-de-leiloes-no-pre-sal/",
+  "date": "2026-04-27",
+  "desc": "Agência amplia a oferta de áreas exploratórias no Polígono do Pré-sal.",
+  "src": "Cenário Energia",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "Próximo leilão de exploração no pré-sal terá 23 blocos oferecidos",
+  "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-04/proximo-leilao-de-exploracao-no-pre-sal-tera-23-blocos-oferecidos",
+  "date": "2026-04-06",
+  "desc": "8 blocos na Bacia de Campos e 13 na de Santos, via Oferta Permanente da ANP.",
+  "src": "Agência Brasil",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "Petrobras inicia produção na 1ª plataforma do campo de Sépia",
+  "link": "https://maisretorno.com/portal/petrobras-inicia-producao-de-petroleo-e-gas-na-1a-plataforma-do-campo-de-sepia",
+  "date": "2026-03-15",
+  "desc": "Mais uma unidade entra em operação no pré-sal da Bacia de Santos.",
+  "src": "Mais Retorno",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "RFB esclarece uso do Repetro-Sped em gasodutos de escoamento",
+  "link": "https://www.contabeis.com.br/noticias/72215/rfb-esclarece-uso-do-repetro-sped-em-gasodutos",
+  "date": "2025-08-11",
+  "desc": "Análise da nova norma e seus impactos práticos para o setor de gás natural.",
+  "src": "Contábeis",
+  "reg": "LEI",
+  "translated": false
+ },
+ {
+  "title": "IN RFB nº 2.274/2025 inclui tubos e dutos de gasodutos de escoamento no Repetro-Sped",
+  "link": "https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/agosto/receita-federal-publica-instrucao-normativa-sobre-o-repetro-sped",
+  "date": "2025-08-04",
+  "desc": "Receita Federal altera a IN 1.781/2017 e elimina divergências sobre a elegibilidade de gasodutos.",
+  "src": "Receita Federal",
+  "reg": "LEI",
+  "translated": false
+ }
 ]
