@@ -469,13 +469,15 @@
   </div>
   <h3 class="uf-title">Para acompanhar</h3>
   <div id="launchWrap">
-    <p style="margin:-6px 0 10px;font-size:.82rem;color:var(--muted)">🚀 Próximos lançamentos da SpaceX (datas e horários no seu fuso):</p>
+    <p style="margin:-6px 0 10px;font-size:.82rem;color:var(--muted)">🚀 Próximos lançamentos orbitais — SpaceX e outras empresas (datas no seu fuso):</p>
     <div id="launchList" class="launch-list"><div class="loading"><span class="spinner"></span>Carregando lançamentos...</div></div>
   </div>
   <p style="margin:18px 0 12px;font-size:.82rem;color:var(--muted)">📡 Notícias atualizadas sobre SpaceX, Elon Musk, espaço, IA e novas energias (fontes internacionais, traduzidas):</p>
   <div id="trendNews" class="ref-news"><div class="loading"><span class="spinner"></span>Carregando atualizações...</div></div>
   <p style="margin:20px 0 8px;font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.05em">Leituras selecionadas</p>
   <div class="ref-news">
+    <a href="https://www.cnbc.com/2026/06/12/spacex-ipo-spcx-live-updates.html" target="_blank" rel="noopener"><span class="s">CNBC · 12 jun 2026</span><span class="t">SpaceX estreia na Nasdaq (ticker SPCX) e dispara ~19% no maior IPO da história</span></a>
+    <a href="https://www.infomoney.com.br/business/elon-musk-se-torna-o-primeiro-trilionario-do-mundo-apos-ipo-da-spacex/" target="_blank" rel="noopener"><span class="s">InfoMoney · 12 jun 2026</span><span class="t">Elon Musk se torna o primeiro trilionário da história após o IPO da SpaceX</span></a>
     <a href="https://www.nasa.gov/news-release/nasa-department-of-energy-to-develop-lunar-surface-reactor-by-2030/" target="_blank" rel="noopener"><span class="s">NASA</span><span class="t">NASA e DOE vão desenvolver um reator nuclear na superfície da Lua até 2030</span></a>
     <a href="https://www.ans.org/news/2026-03-25/article-7879/nasa-announces-plan-for-space-nuclear-propulsion-by-2028/" target="_blank" rel="noopener"><span class="s">ANS · Nuclear Newswire</span><span class="t">NASA anuncia plano de propulsão nuclear espacial até 2028</span></a>
     <a href="https://www.cnn.com/science/nuclear-powered-rocket-pulsar-space-spc/index.html" target="_blank" rel="noopener"><span class="s">CNN</span><span class="t">Foguete de propulsão nuclear pode cortar pela metade a viagem até Marte</span></a>
@@ -951,20 +953,22 @@ async function loadLaunches(){
   function hide(){var w=document.getElementById('launchWrap'); if(w) w.style.display='none';}
   try{
     var c=new AbortController(); var id=setTimeout(function(){c.abort();},12000);
-    var r=await fetch("https://ll.thespacedevs.com/2.2.0/launch/upcoming/?limit=6&search=SpaceX&mode=list",{signal:c.signal}); clearTimeout(id);
+    var r=await fetch("https://ll.thespacedevs.com/2.2.0/launch/upcoming/?limit=7&mode=normal",{signal:c.signal}); clearTimeout(id);
     if(!r.ok) throw 0;
-    var j=await r.json(); var res=(j.results||[]).slice(0,6);
+    var j=await r.json(); var res=(j.results||[]).slice(0,7);
     if(res.length===0){ hide(); return; }
+    var SHORT={'China Aerospace Science and Technology Corporation':'CASC','United Launch Alliance':'ULA','Roscosmos State Corporation':'Roscosmos'};
     box.innerHTML=res.map(function(x){
       var parts=(x.name||'').split(' | '); var rocket=parts[0]||''; var mission=parts[1]||x.name||'Missão';
+      var prov=(x.launch_service_provider&&x.launch_service_provider.name)||rocket; prov=SHORT[prov]||prov;
       var dt=new Date(x.net);
       var dd=isNaN(dt)?'--':dt.toLocaleDateString('pt-BR',{day:'2-digit'});
       var mo=isNaN(dt)?'':dt.toLocaleDateString('pt-BR',{month:'short'}).replace('.','').toUpperCase();
       var hm=isNaN(dt)?'':dt.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'});
-      var q=encodeURIComponent('SpaceX '+mission+' launch');
+      var q=encodeURIComponent(prov+' '+mission+' launch');
       return '<a class="launch-item" href="https://www.google.com/search?q='+q+'" target="_blank" rel="noopener">'+
         '<span class="ldate"><span class="d">'+dd+'</span><span class="mo">'+mo+'</span></span>'+
-        '<span class="lmeta"><b>'+mission+'</b><span>'+rocket+(hm?' · '+hm:'')+'</span></span></a>';
+        '<span class="lmeta"><b>'+mission+'</b><span>'+prov+(hm?' · '+hm:'')+'</span></span></a>';
     }).join('');
   }catch(e){ hide(); }
 }
