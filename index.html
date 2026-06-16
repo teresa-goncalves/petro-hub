@@ -94,6 +94,10 @@
   .refresh button{background:var(--petrol);color:#fff;border:0;padding:10px 18px;border-radius:10px;cursor:pointer;font-weight:600;font-family:inherit;display:inline-flex;align-items:center;gap:7px;box-shadow:var(--sh-sm);transition:.16s}
   .refresh button:hover{background:var(--petrol2);transform:translateY(-1px)}
   .upd{font-size:.76rem;color:var(--muted)}
+  .news-search{position:relative;max-width:440px;margin-bottom:16px}
+  .news-search input{width:100%;border:1px solid var(--line);background:#fff;border-radius:30px;padding:10px 16px 10px 40px;font-size:.92rem;font-family:inherit;color:var(--ink);box-shadow:var(--sh-sm)}
+  .news-search input:focus{outline:none;border-color:var(--teal);box-shadow:0 0 0 3px rgba(25,167,196,.15)}
+  .news-search svg{position:absolute;left:14px;top:50%;transform:translateY(-50%);width:16px;height:16px;color:var(--muted)}
   .news-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:18px}
   .ncard{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:20px 22px;box-shadow:var(--sh-sm);display:flex;flex-direction:column;gap:10px;transition:.2s;position:relative;overflow:hidden}
   .ncard::before{content:"";position:absolute;left:0;top:0;height:3px;width:100%;background:linear-gradient(90deg,var(--teal),var(--pet-green));opacity:0;transition:.2s}
@@ -238,7 +242,7 @@
   <div class="nav-inner">
     <div class="logo">
       <span class="mark"><svg viewBox="0 0 24 24" fill="none"><path d="M5 20h14M7 20V9l5-5 5 5v11M10 20v-4h4v4" stroke="#fff" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></svg></span>
-      <span>Petro&nbsp;Hub<small>Óleo &amp; Gás · Repetro</small></span>
+      <span>Petro&nbsp;Hub<small>Óleo &amp; Gás · Comércio Exterior</small></span>
     </div>
     <nav class="links">
       <a href="#noticias">Notícias</a>
@@ -270,8 +274,8 @@
     </g>
   </svg>
   <div class="hero-inner">
-    <h1>Sua central de inteligência em <span class="hl">Óleo &amp; Gás</span> e regimes aduaneiros especiais</h1>
-    <p class="sub">Notícias do setor atualizadas ao vivo (com tradução automática das fontes internacionais), cotações do dia, os principais players do Brasil e do mundo, um guia visual de navios e equipamentos offshore, e a legislação do Repetro-Sped — federal e do Estado do Rio de Janeiro.</p>
+    <h1>Sua central de inteligência em <span class="hl">Óleo &amp; Gás</span></h1>
+    <p class="sub">Notícias do setor atualizadas ao vivo (com tradução automática das fontes internacionais), cotações do dia, os principais players do Brasil e do mundo, um guia visual de navios e equipamentos offshore, e a legislação do Repetro-Sped — federal e estadual.</p>
     <div class="hero-stats">
       <div class="stat"><div class="n">~4,6 Mboe/d</div><div class="l">Produção pré-sal (abr/2026)</div></div>
       <div class="stat"><div class="n">82%</div><div class="l">Da produção nacional vem do pré-sal</div></div>
@@ -298,6 +302,7 @@
   <div class="sec-head"><span class="kicker">Atualizado ao vivo</span><h2>Notícias de Óleo &amp; Gás</h2></div>
   <p class="sec-sub">Reúne automaticamente as últimas notícias de fontes brasileiras e internacionais, além das novidades de legislação do Repetro. As manchetes em inglês são traduzidas para o português. Tudo se atualiza sempre que você abre ou recarrega a página.</p>
 
+  <div class="news-search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.5" y2="16.5"/></svg><input id="newsSearch" type="search" placeholder="Buscar nas notícias (ex.: Búzios, ANP, leilão, FPSO)…"></div>
   <div class="news-controls">
     <button class="filterbtn active" data-f="all">Todas</button>
     <button class="filterbtn" data-f="BR">Brasil</button>
@@ -601,7 +606,7 @@ var PROXIES=[
   function(u){return "https://corsproxy.io/?url="+encodeURIComponent(u);},
   function(u){return "https://thingproxy.freeboard.io/fetch/"+u;}
 ];
-var ALL=[]; var curFilter="all";
+var ALL=[]; var curFilter="all"; var query="";
 
 // DESTAQUES sempre disponíveis (manchetes reais; internacionais já traduzidas).
 // Atualizados periodicamente; servem de base caso o feed ao vivo esteja indisponível.
@@ -621,6 +626,7 @@ var SEED=[
 ];
 
 function stripHtml(s){var d=document.createElement('div');d.innerHTML=s||'';return (d.textContent||'').trim();}
+function norm(s){return (s||'').toLowerCase().normalize('NFD').replace(new RegExp("[\\u0300-\\u036f]","g"),'');}
 function fmtDate(d){try{var dt=new Date(d);if(isNaN(dt))return '';return dt.toLocaleDateString('pt-BR',{day:'2-digit',month:'short',year:'numeric'})+' · '+dt.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'});}catch(e){return '';}}
 
 function fetchWithTimeout(url,ms){
@@ -690,11 +696,19 @@ async function loadNews(){
     if(t){n.title=t;n.translated=true;}
   }));
   // combina o que veio ao vivo com os destaques sempre disponíveis (garante que algo apareça)
-  ALL=live.concat(SEED);
+  var fresh=live.concat(SEED);
+  // ARQUIVO ROLANTE (até 1 ano) — acumula as notícias no navegador (localStorage), removendo o que passa de 365 dias
+  var KEY='petrohub_news_v1', store={};
+  try{store=JSON.parse(localStorage.getItem(KEY)||'{}');}catch(e){store={};}
+  fresh.forEach(function(n){var k=(n.link||n.title); if(!k) return; if(!store[k]){store[k]={title:n.title,link:n.link,date:n.date||new Date().toISOString(),desc:n.desc,src:n.src,reg:n.reg,translated:!!n.translated};}});
+  var lim=Date.now()-365*24*3600*1000;
+  Object.keys(store).forEach(function(k){var d=new Date(store[k].date).getTime(); if(!isNaN(d) && d<lim) delete store[k];});
+  try{localStorage.setItem(KEY,JSON.stringify(store));}catch(e){}
+  ALL=Object.keys(store).map(function(k){return store[k];});
   var seen={}; ALL=ALL.filter(function(n){if(!n.title||seen[n.title])return false;seen[n.title]=1;return true;});
   ALL.sort(function(a,b){return new Date(b.date)-new Date(a.date);});
   var when=new Date().toLocaleString('pt-BR',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'});
-  document.getElementById('updated').textContent=(live.length>0?'Ao vivo · ':'Destaques · ')+when;
+  document.getElementById('updated').textContent=(live.length>0?'Ao vivo · ':'Destaques · ')+when+' · '+ALL.length+' no arquivo (1 ano)';
   render();
 }
 
@@ -705,8 +719,9 @@ function render(){
   else if(curFilter==='INT') items=ALL.filter(function(n){return n.reg==='INT';});
   else if(curFilter==='LEI') items=ALL.filter(function(n){return n.reg==='LEI';});
   else if(curFilter==='PET') items=ALL.filter(function(n){return /petrobras/i.test(n.title+n.desc);});
-  if(items.length===0){grid.innerHTML='<div class="empty">Nenhuma notícia neste filtro no momento.</div>';return;}
-  grid.innerHTML=items.slice(0,36).map(function(n){
+  if(query){var q=norm(query);items=items.filter(function(n){return norm((n.title||'')+' '+(n.desc||'')+' '+(n.src||'')).indexOf(q)>-1;});}
+  if(items.length===0){grid.innerHTML='<div class="empty">'+(query?'Nenhuma notícia encontrada para “'+query+'”. Tente outra palavra.':'Nenhuma notícia neste filtro no momento.')+'</div>';return;}
+  grid.innerHTML=items.slice(0,60).map(function(n){
     return '<article class="ncard"><div class="meta">'+
       '<span class="src-tag">'+n.src+'</span>'+
       '<span class="reg-tag reg-'+n.reg+'">'+(n.reg==='BR'?'Brasil':(n.reg==='INT'?'Internacional':'Legislação'))+'</span>'+
@@ -722,6 +737,7 @@ document.querySelectorAll('[data-f]').forEach(function(b){b.addEventListener('cl
   document.querySelectorAll('[data-f]').forEach(function(x){x.classList.remove('active');});
   b.classList.add('active'); curFilter=b.dataset.f; render();
 });});
+var nsEl=document.getElementById('newsSearch'); if(nsEl) nsEl.addEventListener('input',function(e){query=e.target.value.trim(); render();});
 document.getElementById('refreshBtn').addEventListener('click',loadNews);
 loadNews();
 </script>
