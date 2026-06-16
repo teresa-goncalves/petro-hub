@@ -144,6 +144,15 @@
   .pcard p{font-size:.92rem;color:#3a4d56}
   .pcard .fig{margin-top:12px;padding-top:12px;border-top:1px solid var(--line);font-size:.84rem;color:var(--muted)}
   .pcard .fig b{color:var(--petrol);font-family:'Sora'}
+  .ptable-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--sh-sm);background:var(--card);-webkit-overflow-scrolling:touch}
+  .ptable{width:100%;border-collapse:collapse;font-size:.9rem;min-width:760px}
+  .ptable thead th{background:var(--petrol);color:#fff;text-align:left;padding:12px 14px;font-size:.7rem;text-transform:uppercase;letter-spacing:.05em;font-weight:700;white-space:nowrap}
+  .ptable tbody td{padding:11px 14px;border-top:1px solid var(--line);color:#3a4d56;vertical-align:top}
+  .ptable tbody tr:nth-child(even){background:var(--bg2)}
+  .ptable tbody td b{color:var(--petrol)}
+  .ptable .env{display:inline-block;font-size:.66rem;font-weight:700;padding:2px 9px;border-radius:20px;white-space:nowrap}
+  .ptable .env.off{background:#e6f0fb;color:#1b5e93}
+  .ptable .env.on{background:#eaf6ec;color:#1f7a3a}
 
   /* VESSELS */
   .vgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:20px}
@@ -312,7 +321,7 @@
   </svg>
   <div class="hero-inner">
     <h1>Sua central de inteligência em <span class="hl">Óleo&nbsp;&amp;&nbsp;Gás</span></h1>
-    <p class="sub">Notícias do setor atualizadas ao vivo (com tradução automática das fontes internacionais), cotações do dia, os principais players do Brasil e do mundo, um guia visual de navios e equipamentos offshore, e a legislação do Repetro-Sped — federal e estadual.</p>
+    <p class="sub">Notícias do setor atualizadas ao vivo (com tradução automática das fontes internacionais), cotações do dia, os principais players do Brasil e do mundo, um guia visual de navios e equipamentos offshore, e a legislação do Repetro — federal e estadual.</p>
     <div class="market" id="market"></div>
   </div>
   <svg class="hero-wave" viewBox="0 0 1440 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 60V28C240 8 480 0 720 8s480 28 720 20v12z" fill="#eef3f5"/></svg>
@@ -354,10 +363,12 @@
 
 <section id="players">
   <div class="sec-head"><span class="kicker">Quem é quem</span><h2>Players do segmento</h2></div>
-  <p class="sec-sub">As empresas que movimentam a exploração e produção (E&amp;P), os serviços e a cadeia de fornecimento — no Brasil e no mundo. Os volumes citados são aproximados e variam mês a mês.</p>
+  <p class="sec-sub">Quem explora e produz (E&amp;P), quem distribui o combustível, os serviços e a cadeia de fornecimento — no Brasil e no mundo. A aba <b>Projetos no Brasil</b> traz os principais campos em produção e desenvolvimento, com operadora, estado, ambiente e fase. Volumes aproximados, variam mês a mês.</p>
 
   <div class="ptabs">
-    <button class="filterbtn active" data-p="BR">Brasil</button>
+    <button class="filterbtn active" data-p="BR">Brasil · E&amp;P</button>
+    <button class="filterbtn" data-p="PROJ">Projetos no Brasil</button>
+    <button class="filterbtn" data-p="DIST">Distribuição</button>
     <button class="filterbtn" data-p="WORLD">Mundo</button>
     <button class="filterbtn" data-p="SERV">Serviços &amp; Cadeia</button>
   </div>
@@ -446,6 +457,9 @@
     <div class="ref-card tcard"><div class="t-art"><svg viewBox="0 0 400 132" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="ta4" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#10243f"/><stop offset="1" stop-color="#7a2a1e"/></linearGradient></defs><rect width="400" height="132" fill="url(#ta4)"/><g fill="#fff"><circle cx="40" cy="30" r="1.4" opacity=".8"/><circle cx="110" cy="22" r="1" opacity=".6"/><circle cx="180" cy="40" r="1.2" opacity=".7"/></g><circle cx="330" cy="66" r="42" fill="#c0563c"/><circle cx="315" cy="52" r="8" fill="#a3472f" opacity=".7"/><circle cx="345" cy="80" r="6" fill="#a3472f" opacity=".7"/><path d="M120 34 Q210 50 300 60" stroke="#7fbfe0" stroke-width="2" stroke-dasharray="3 5" fill="none" opacity=".7"/><g transform="rotate(40 120 70)"><rect x="110" y="44" width="18" height="44" rx="9" fill="#e8eef2"/><path d="M110 56 Q119 36 128 56 Z" fill="#c0392b"/><path d="M110 80 l-8 14 8-4 z" fill="#8a99a3"/><path d="M128 80 l8 14 -8-4 z" fill="#8a99a3"/><circle cx="119" cy="62" r="4" fill="#19a7c4"/><path d="M114 88 q5 16 10 0 z" fill="#e6a817"/></g></svg></div><div class="t-body"><h4>SpaceX &amp; viagens a Marte</h4><p>A Starship leva cerca de 200 toneladas à órbita e mira o reabastecimento orbital em 2026; foguetes de propulsão nuclear podem cortar pela metade o tempo de viagem até Marte.</p></div></div>
   </div>
   <h3 class="uf-title">Para acompanhar</h3>
+  <p style="margin:-6px 0 12px;font-size:.82rem;color:var(--muted)">📡 Notícias atualizadas sobre espaço, foguetes, IA e novas energias (fontes internacionais, traduzidas):</p>
+  <div id="trendNews" class="ref-news"><div class="loading"><span class="spinner"></span>Carregando atualizações...</div></div>
+  <p style="margin:20px 0 8px;font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.05em">Leituras selecionadas</p>
   <div class="ref-news">
     <a href="https://www.nasa.gov/news-release/nasa-department-of-energy-to-develop-lunar-surface-reactor-by-2030/" target="_blank" rel="noopener"><span class="s">NASA</span><span class="t">NASA e DOE vão desenvolver um reator nuclear na superfície da Lua até 2030</span></a>
     <a href="https://www.ans.org/news/2026-03-25/article-7879/nasa-announces-plan-for-space-nuclear-propulsion-by-2028/" target="_blank" rel="noopener"><span class="s">ANS · Nuclear Newswire</span><span class="t">NASA anuncia plano de propulsão nuclear espacial até 2028</span></a>
@@ -518,8 +532,31 @@ const PLAYERS = {
     {n:"TechnipFMC", role:"Subsea (SURF/SPS)", p:"Líder em sistemas submarinos de produção: árvores molhadas, manifolds, risers e umbilicais — peças-chave do Repetro.", fig:"Sistemas submarinos"},
     {n:"Subsea7 / Saipem", role:"EPCI offshore", p:"Instalação de dutos, risers e estruturas submarinas com navios PLSV e de construção offshore.", fig:"Instalação submarina"},
     {n:"Modec / SBM Offshore", role:"FPSO (afretamento)", p:"Projetam, constroem e operam FPSOs afretados à Petrobras e outras operadoras — unidades tipicamente sob Repetro.", fig:"Donos/operadores de FPSO"}
+  ],
+  DIST: [
+    {n:"Vibra Energia", role:"Distribuição de combustíveis", p:"Antiga BR Distribuidora. Líder do mercado, com a maior rede de postos do país (bandeira Petrobras). Distribui diesel, gasolina, etanol e lubrificantes — elo final (downstream) da cadeia.", fig:"Líder em diesel · <b>~21%</b> do mercado"},
+    {n:"Raízen", role:"Distribuição (marca Shell) &amp; bioenergia", p:"Joint venture entre Cosan e Shell. Distribui combustíveis sob a marca Shell e é uma das maiores produtoras mundiais de etanol e açúcar.", fig:"<b>~17%</b> do mercado · bioenergia"},
+    {n:"Ipiranga (Ultrapar)", role:"Distribuição de combustíveis", p:"Uma das três maiores distribuidoras do Brasil, com ampla rede de postos e lojas de conveniência am/pm.", fig:"<b>~18%</b> do mercado"},
+    {n:"Visão geral", role:"Downstream no Brasil", p:"Vibra, Raízen e Ipiranga respondem juntas por cerca de 60% do abastecimento nacional. São distribuidoras (não exploram nem produzem) e compram, sobretudo, da Petrobras.", fig:"3 maiores ≈ <b>60%</b> do mercado"}
   ]
 };
+
+/* ===================== PROJETOS NO BRASIL ===================== */
+const PROJECTS = [
+  {proj:"Búzios", op:"Petrobras (c/ CNPC, CNOOC e PPSA)", loc:"Bacia de Santos · RJ/SP", env:"Offshore", envc:"off", prod:"Óleo &amp; gás", phase:"Em produção · maior campo do pré-sal (6 FPSOs até 2027; mira 1 milhão bpd)"},
+  {proj:"Tupi (ex-Lula)", op:"Petrobras (c/ Shell e Petrogal)", loc:"Bacia de Santos · RJ/SP", env:"Offshore", envc:"off", prod:"Óleo &amp; gás", phase:"Em produção desde 2010 · um dos maiores do pré-sal"},
+  {proj:"Mero (Libra)", op:"Petrobras (c/ Shell, TotalEnergies, CNPC, CNOOC)", loc:"Bacia de Santos · RJ", env:"Offshore", envc:"off", prod:"Óleo &amp; gás", phase:"Em produção · 4 FPSOs (MO26 partiu em 2026); ~770 mil bpd"},
+  {proj:"Sépia &amp; Atapu", op:"Petrobras", loc:"Bacia de Santos · RJ/SP", env:"Offshore", envc:"off", prod:"Óleo &amp; gás", phase:"Em produção · novas plataformas ampliando a capacidade"},
+  {proj:"Bacalhau", op:"Equinor (c/ ExxonMobil e Petrogal)", loc:"Bacia de Santos · SP", env:"Offshore", envc:"off", prod:"Óleo", phase:"Em produção desde out/2025 · capacidade de 220 mil bpd"},
+  {proj:"Peregrino", op:"PRIO (c/ Sinochem)", loc:"Bacia de Campos · RJ", env:"Offshore", envc:"off", prod:"Óleo pesado", phase:"Em produção · PRIO comprou 60% da Equinor (US$ 3,5 bi)"},
+  {proj:"Frade · Polvo · Wahoo", op:"PRIO", loc:"Bacia de Campos · RJ", env:"Offshore", envc:"off", prod:"Óleo", phase:"Em produção · Wahoo em fase de interligação ao cluster"},
+  {proj:"Atlanta (Oriente)", op:"Brava Energia", loc:"Bacia de Santos · SP", env:"Offshore", envc:"off", prod:"Óleo", phase:"Em produção · FPSO Atlanta (definitivo) a partir de 2025"},
+  {proj:"Sergipe Águas Profundas (SEAP)", op:"Petrobras", loc:"Bacia Sergipe-Alagoas · SE", env:"Offshore", envc:"off", prod:"Óleo &amp; gás", phase:"Em desenvolvimento · 1º óleo previsto para ~2029–2030"},
+  {proj:"Foz do Amazonas (bloco FZA-M-59)", op:"Petrobras", loc:"Margem Equatorial · AP", env:"Offshore", envc:"off", prod:"Exploração", phase:"Exploração · perfuração do poço Morpho em 2026 (nova fronteira)"},
+  {proj:"Polo Parnaíba", op:"Eneva", loc:"Bacia do Parnaíba · MA", env:"Onshore", envc:"on", prod:"Gás natural", phase:"Em produção · modelo gas-to-wire; descoberta Gaviãozinho (2026)"},
+  {proj:"Polo Recôncavo &amp; Potiguar", op:"PetroReconcavo / Brava", loc:"Recôncavo (BA) &amp; Potiguar (RN)", env:"Onshore", envc:"on", prod:"Óleo &amp; gás", phase:"Em produção · campos maduros revitalizados (ativos da Petrobras)"},
+  {proj:"Polo Urucu", op:"Petrobras", loc:"Bacia do Solimões · AM", env:"Onshore", envc:"on", prod:"Gás &amp; óleo", phase:"Em produção · maior província de gás onshore do país"}
+];
 
 /* ===================== NAVIOS & EQUIPAMENTOS (esquemas SVG) ===================== */
 var __sc=0;
@@ -555,8 +592,26 @@ const VESSELS = [
 ];
 
 /* ===================== RENDER: PLAYERS ===================== */
+function renderProjects(){
+  var rows=PROJECTS.map(function(x){
+    return '<tr>'+
+      '<td><b>'+x.proj+'</b></td>'+
+      '<td>'+x.op+'</td>'+
+      '<td>'+x.loc+'</td>'+
+      '<td><span class="env '+x.envc+'">'+x.env+'</span></td>'+
+      '<td>'+x.prod+'</td>'+
+      '<td>'+x.phase+'</td>'+
+    '</tr>';
+  }).join('');
+  return '<div class="ptable-wrap"><table class="ptable"><thead><tr>'+
+    '<th>Projeto / Campo</th><th>Operadora (responsável)</th><th>Bacia · UF</th><th>Ambiente</th><th>Produto</th><th>Fase / Período</th>'+
+    '</tr></thead><tbody>'+rows+'</tbody></table></div>'+
+    '<div class="note">📊 Fontes: ANP, Petrobras, Equinor, Eneva e imprensa setorial (2025–2026). Dados aproximados — fases, parceiros e datas podem mudar.</div>';
+}
 function renderPlayers(group){
-  document.getElementById('playersGrid').innerHTML=PLAYERS[group].map(p=>
+  var el=document.getElementById('playersGrid');
+  if(group==='PROJ'){ el.innerHTML=renderProjects(); return; }
+  el.innerHTML=PLAYERS[group].map(p=>
     '<div class="pcard '+(p.petro?'petro':'')+'">'+
       (p.petro?'<span class="ribbon">PETROBRAS</span>':'')+
       '<h3>'+p.n+'</h3>'+
@@ -840,6 +895,34 @@ var nsEl=document.getElementById('newsSearch'); if(nsEl) nsEl.addEventListener('
 document.getElementById('newsGrid').addEventListener('click',function(e){var b=e.target.closest?e.target.closest('.react-btn'):null; if(!b) return; var bar=b.parentNode; var link=decodeURIComponent(bar.getAttribute('data-link')); var now=setReact(link,b.getAttribute('data-r')); [].slice.call(bar.querySelectorAll('.react-btn')).forEach(function(x){x.className=(x.getAttribute('data-r')===now)?'react-btn on':'react-btn';});});
 document.getElementById('refreshBtn').addEventListener('click',loadNews);
 loadNews();
+
+/* ===================== NOTÍCIAS AO VIVO: TENDÊNCIAS ===================== */
+var TREND_FEEDS=[
+  {url:"https://www.space.com/feeds/all", src:"Space.com", reg:"INT"},
+  {url:"https://spacenews.com/feed/", src:"SpaceNews", reg:"INT"},
+  {url:"https://feeds.arstechnica.com/arstechnica/index", src:"Ars Technica", reg:"INT"}
+];
+var TRENDRX=/spacex|starship|\brocket|\blaunch|\bnasa\b|artemis|lunar|\bmoon\b|\bmars\b|astronaut|satellite|nuclear|fusion|helium|reactor|data\s?cent|\bai\b|artificial intelligence|machine learning|\benergy\b|hydrogen|\bsolar\b|wind power|renewable|\bgrid\b|battery/i;
+async function loadTrendNews(){
+  var box=document.getElementById('trendNews'); if(!box) return;
+  try{
+    var res=await Promise.all(TREND_FEEDS.map(fetchFeed));
+    var items=[].concat.apply([],res);
+    items=items.filter(function(n){return TRENDRX.test((n.title||'')+' '+(n.desc||''));});
+    var seen={}, uniq=[];
+    items.forEach(function(n){var k=norm(n.title||'').slice(0,55); if(!n.title||seen[k])return; seen[k]=1; uniq.push(n);});
+    uniq.sort(function(a,b){return new Date(b.date)-new Date(a.date);});
+    uniq=uniq.slice(0,8);
+    if(uniq.length===0){ box.style.display='none'; return; }
+    // traduz os títulos (fontes internacionais) para português
+    await Promise.all(uniq.map(async function(n){var t=await translate(n.title); if(t)n.title=t;}));
+    box.innerHTML=uniq.map(function(n){
+      var d=fmtDate(n.date); d=d?d.split(' · ')[0]:'';
+      return '<a href="'+n.link+'" target="_blank" rel="noopener"><span class="s">'+(n.src||'Notícias')+(d?' · '+d:'')+'</span><span class="t">'+n.title+'</span></a>';
+    }).join('');
+  }catch(e){ box.style.display='none'; }
+}
+loadTrendNews();
 (function(){var t=document.querySelector('.nav-toggle'),l=document.querySelector('nav.links');if(t&&l){t.addEventListener('click',function(){var open=l.classList.toggle('open');t.setAttribute('aria-expanded',open?'true':'false');t.textContent=open?'✕':'☰';});l.addEventListener('click',function(e){if(e.target.tagName==='A'){l.classList.remove('open');t.setAttribute('aria-expanded','false');t.textContent='☰';}});}})();
 </script>
 </body>
