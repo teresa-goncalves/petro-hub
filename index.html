@@ -264,7 +264,22 @@
   .t-art svg{width:100%;height:100%;display:block}
   .tcard .t-body{padding:18px 22px}
   a.ref-card{text-decoration:none;color:inherit;display:block;cursor:pointer}
-  a.ref-card.tcard .t-body h4::after{content:" ↗";color:var(--teal-d);font-weight:700}
+  a.ref-card.tcard .t-body h4::after{content:" ＋";color:var(--teal-d);font-weight:700}
+  .tmodal{position:fixed;inset:0;background:rgba(6,28,36,.62);backdrop-filter:blur(3px);display:none;align-items:center;justify-content:center;z-index:200;padding:20px}
+  .tmodal.on{display:flex}
+  .tmodal-box{background:var(--card);border-radius:16px;max-width:620px;width:100%;max-height:86vh;overflow:auto;padding:30px 30px 26px;position:relative;box-shadow:0 20px 60px rgba(0,0,0,.35);border-top:4px solid var(--teal)}
+  .tmodal-x{position:absolute;top:14px;right:16px;border:none;background:var(--bg2);color:var(--petrol);width:32px;height:32px;border-radius:50%;font-size:1rem;cursor:pointer;line-height:1}
+  .tmodal-x:hover{background:#dce8ec}
+  .tm-kicker{color:var(--teal-d);font-weight:700;font-size:.72rem;text-transform:uppercase;letter-spacing:.1em}
+  .tmodal-box h3{color:var(--petrol);font-size:1.4rem;font-weight:800;margin:6px 0 14px;max-width:92%}
+  .tm-text{font-size:.97rem;line-height:1.65;color:#33454d}
+  .tm-src{margin-top:16px;font-size:.86rem;color:var(--muted);background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:11px 14px}
+  .tm-src a{color:var(--teal-d);font-weight:600}
+  .tm-more{margin-top:16px}
+  .tm-more b{color:var(--petrol);font-size:.8rem;text-transform:uppercase;letter-spacing:.05em}
+  .tm-more ul{list-style:none;margin:9px 0 0;padding:0;display:flex;flex-direction:column;gap:8px}
+  .tm-more a{color:var(--teal-d);text-decoration:none;font-size:.93rem;font-weight:500}
+  .tm-more a:hover{text-decoration:underline}
   /* EVENTOS */
   .ev-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:16px}
   .ev-card{display:flex;background:var(--card);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;box-shadow:var(--sh-sm);transition:.2s}
@@ -319,15 +334,40 @@
     <span class="glow g1"></span><span class="glow g2"></span><span class="grid"></span>
   </div>
   <svg class="hero-deco" viewBox="0 0 560 280" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-    <g opacity="0.9" stroke="#7fd6e8" stroke-width="2">
-      <rect x="300" y="120" width="150" height="14" fill="#0e4a5b"/>
-      <line x1="318" y1="134" x2="305" y2="250"/><line x1="432" y1="134" x2="445" y2="250"/>
-      <line x1="356" y1="134" x2="356" y2="250"/><line x1="394" y1="134" x2="394" y2="250"/>
-      <line x1="318" y1="175" x2="432" y2="175"/><line x1="312" y1="215" x2="438" y2="215"/>
-      <polygon points="375,60 360,120 390,120" fill="#19a7c4" opacity=".5"/>
-      <rect x="330" y="100" width="26" height="20" fill="#13647a"/>
+    <g stroke="#7fd6e8" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" opacity="0.92">
+      <!-- jaqueta / pernas -->
+      <line x1="312" y1="172" x2="290" y2="248"/><line x1="362" y1="172" x2="352" y2="248"/>
+      <line x1="430" y1="172" x2="440" y2="248"/><line x1="480" y1="172" x2="502" y2="248"/>
+      <line x1="300" y1="200" x2="494" y2="200"/><line x1="296" y1="226" x2="498" y2="226"/>
+      <path d="M312 172 L352 200 M362 172 L300 200" opacity=".55"/>
+      <path d="M430 172 L498 200 M480 172 L432 200" opacity=".55"/>
+      <path d="M300 200 L352 226 M352 200 L296 226" opacity=".45"/>
+      <path d="M440 200 L498 226 M494 200 L440 226" opacity=".45"/>
+      <!-- convés -->
+      <rect x="296" y="158" width="200" height="14" fill="#0e4a5b"/>
+      <rect x="298" y="151" width="196" height="7" fill="#13647a"/>
+      <!-- módulos do topside -->
+      <rect x="404" y="128" width="42" height="30" fill="#0e4a5b"/>
+      <rect x="450" y="134" width="32" height="24" fill="#13647a"/>
+      <rect x="304" y="134" width="34" height="24" fill="#13647a"/>
+      <!-- helideck -->
+      <ellipse cx="321" cy="120" rx="27" ry="9" fill="#0e4a5b"/>
+      <line x1="314" y1="116" x2="314" y2="125"/><line x1="328" y1="116" x2="328" y2="125"/><line x1="314" y1="120" x2="328" y2="120"/>
+      <!-- torre de perfuração (derrick) -->
+      <path d="M356 158 L366 58 L384 58 L394 158"/>
+      <line x1="361" y1="100" x2="389" y2="100"/><line x1="358" y1="130" x2="392" y2="130"/>
+      <path d="M356 158 L389 100 M394 158 L361 100" opacity=".5"/>
+      <path d="M361 130 L384 100 M389 130 L366 100" opacity=".45"/>
+      <line x1="375" y1="58" x2="375" y2="40"/>
+      <polygon points="375,40 369,52 381,52" fill="#19a7c4" opacity=".65"/>
+      <!-- guindaste -->
+      <line x1="470" y1="158" x2="470" y2="118"/><line x1="470" y1="122" x2="522" y2="92"/>
+      <line x1="470" y1="132" x2="522" y2="92"/><line x1="522" y1="92" x2="522" y2="110"/>
+      <!-- flare boom + chama -->
+      <line x1="298" y1="150" x2="244" y2="100"/>
+      <path d="M244 100 q-7 -11 2 -20 q5 9 11 4 q-2 14 -13 16z" fill="#f2a23a" stroke="#f2a23a" stroke-width="1.5" opacity=".75"/>
     </g>
-    <g stroke="#4fd6f0" stroke-width="2" fill="none" opacity=".55">
+    <g stroke="#4fd6f0" stroke-width="2" fill="none" opacity=".5">
       <path d="M0 250 Q70 235 140 250 T280 250 T420 250 T560 250"/>
       <path d="M0 266 Q70 251 140 266 T280 266 T420 266 T560 266"/>
     </g>
@@ -975,6 +1015,48 @@ async function loadLaunches(){
   }catch(e){ hide(); }
 }
 loadLaunches();
+
+/* ===================== MODAL DAS TENDÊNCIAS (resumo traduzido + fontes) ===================== */
+var TRENDINFO=[
+  {title:"Energia nuclear no espaço",
+   body:"A NASA, em parceria com o Departamento de Energia dos EUA, planeja instalar um pequeno reator nuclear de fissão na superfície da Lua por volta de 2030, dentro do programa Artemis. O objetivo é garantir energia elétrica contínua para futuras bases lunares — a noite lunar dura cerca de 14 dias terrestres, o que inviabiliza depender apenas de energia solar. A tecnologia de microrreatores (SMRs) abre caminho para missões a Marte e reacende o debate sobre o uso de reatores compactos também na Terra.",
+   source:{label:"NASA — comunicado oficial",url:"https://www.nasa.gov/news-release/nasa-department-of-energy-to-develop-lunar-surface-reactor-by-2030/"},
+   more:[{label:"NASA — programa Artemis",url:"https://www.nasa.gov/humans-in-space/artemis/"},{label:"Fission Surface Power (Wikipédia, EN)",url:"https://en.wikipedia.org/wiki/Fission_surface_power"}]},
+  {title:"Hélio-3 lunar & fusão",
+   body:"O hélio-3 é um isótopo raríssimo na Terra, mas relativamente abundante no solo lunar, onde foi depositado pelo vento solar ao longo de bilhões de anos. Ele é cobiçado como combustível para a fusão nuclear \"limpa\" — a reação entre deutério e hélio-3 gera pouquíssimos nêutrons e quase nenhum resíduo radioativo — e também para resfriar computadores quânticos. Estima-se mais de 1 milhão de toneladas na Lua. Algumas empresas já desenvolvem escavadeiras para minerar o regolito lunar, mas a fusão baseada em hélio-3 ainda está distante da viabilidade comercial.",
+   source:{label:"Polytechnique Insights",url:"https://www.polytechnique-insights.com/en/braincamps/space/extraterrestrial-mining/helium-3-from-the-lunar-surface-for-nuclear-fusion/"},
+   more:[{label:"Hélio-3 (Wikipédia)",url:"https://pt.wikipedia.org/wiki/H%C3%A9lio-3"},{label:"NASA — estudo técnico de mineração de hélio-3 (EN, PDF)",url:"https://ntrs.nasa.gov/citations/20210022801"}]},
+  {title:"IA e a nova fome de energia",
+   body:"O avanço da inteligência artificial está disparando a demanda mundial por eletricidade. Segundo a Agência Internacional de Energia (IEA), o consumo dos data centers cresceu cerca de 17% em 2025 — e o dos data centers voltados a IA, cerca de 50%. A projeção é que esse consumo praticamente dobre até 2030, chegando a perto de 3% de toda a eletricidade do planeta. Isso pressiona todas as fontes (gás natural, nuclear e renováveis) e coloca o setor de óleo e gás no centro dessa transição energética.",
+   source:{label:"IEA — Agência Internacional de Energia",url:"https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"},
+   more:[{label:"IEA — relatório \"Energy and AI\"",url:"https://www.iea.org/reports/energy-and-ai"},{label:"BusinessGreen — análise (EN)",url:"https://www.businessgreen.com/news/4528440/iea-electricity-ai-centres-surged-cent-2025"}]},
+  {title:"SpaceX & viagens a Marte",
+   body:"A Starship, da SpaceX, é o maior foguete já construído e foi projetada para ser totalmente reutilizável, capaz de levar mais de 100 toneladas à órbita. A empresa testa o reabastecimento orbital — etapa essencial para missões de longa distância — e mira enviar cargas e, no futuro, pessoas a Marte. Em paralelo, estuda-se a propulsão nuclear térmica, que poderia reduzir significativamente o tempo de viagem até o planeta vermelho.",
+   source:{label:"SpaceX — página oficial da Starship",url:"https://www.spacex.com/vehicles/starship/"},
+   more:[{label:"NASA — exploração de Marte",url:"https://science.nasa.gov/mars/"},{label:"SpaceX Starship (Wikipédia, EN)",url:"https://en.wikipedia.org/wiki/SpaceX_Starship"}]}
+];
+(function initTrendModal(){
+  var cards=document.querySelectorAll('a.ref-card.tcard');
+  if(!cards.length) return;
+  var ov=document.createElement('div'); ov.className='tmodal'; ov.id='trendModal';
+  ov.innerHTML='<div class="tmodal-box" role="dialog" aria-modal="true"><button class="tmodal-x" aria-label="Fechar">✕</button><div id="tmodalBody"></div></div>';
+  document.body.appendChild(ov);
+  var bodyEl=ov.querySelector('#tmodalBody');
+  function open(i){
+    var d=TRENDINFO[i]; if(!d) return;
+    var more=d.more.map(function(m){return '<li><a href="'+m.url+'" target="_blank" rel="noopener">'+m.label+' ↗</a></li>';}).join('');
+    bodyEl.innerHTML='<span class="tm-kicker">Tendências &amp; Novas Energias</span>'+
+      '<h3>'+d.title+'</h3>'+
+      '<p class="tm-text">'+d.body+'</p>'+
+      '<div class="tm-src">📰 Fonte original: <a href="'+d.source.url+'" target="_blank" rel="noopener">'+d.source.label+' ↗</a> <small>— resumo traduzido/adaptado para o português.</small></div>'+
+      '<div class="tm-more"><b>Saiba mais</b><ul>'+more+'</ul></div>';
+    ov.classList.add('on'); document.body.style.overflow='hidden';
+  }
+  function close(){ ov.classList.remove('on'); document.body.style.overflow=''; }
+  cards.forEach(function(c,i){ c.addEventListener('click',function(e){ e.preventDefault(); open(i); }); });
+  ov.addEventListener('click',function(e){ if(e.target===ov || e.target.classList.contains('tmodal-x')) close(); });
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape') close(); });
+})();
 (function(){var t=document.querySelector('.nav-toggle'),l=document.querySelector('nav.links');if(t&&l){t.addEventListener('click',function(){var open=l.classList.toggle('open');t.setAttribute('aria-expanded',open?'true':'false');t.textContent=open?'✕':'☰';});l.addEventListener('click',function(e){if(e.target.tagName==='A'){l.classList.remove('open');t.setAttribute('aria-expanded','false');t.textContent='☰';}});}})();
 </script>
 </body>
