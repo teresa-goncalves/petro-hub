@@ -232,6 +232,22 @@
   .t-art{height:132px;position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
   .t-art svg{width:100%;height:100%;display:block}
   .tcard .t-body{padding:18px 22px}
+  /* EVENTOS */
+  .ev-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:16px}
+  .ev-card{display:flex;background:var(--card);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;box-shadow:var(--sh-sm);transition:.2s}
+  .ev-card:hover{transform:translateY(-3px);box-shadow:var(--sh)}
+  .ev-card.dest{border-color:rgba(0,164,95,.45)}
+  .ev-date{flex:0 0 88px;background:linear-gradient(160deg,var(--petrol2),var(--petrol3));color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:14px 8px;text-align:center}
+  .ev-card.dest .ev-date{background:linear-gradient(160deg,var(--pet-green-d),var(--pet-green))}
+  .ev-date .d{font-family:'Sora';font-weight:800;font-size:1.12rem;line-height:1.1}
+  .ev-date .m{font-size:.64rem;letter-spacing:.06em;margin-top:4px;color:#d4ebf2}
+  .ev-body{padding:14px 16px;flex:1}
+  .ev-tag{display:inline-block;font-size:.62rem;font-weight:800;text-transform:uppercase;letter-spacing:.05em;padding:2px 9px;border-radius:20px;margin-bottom:7px}
+  .ev-tag.br{background:#e3f6ec;color:var(--pet-green-d)}
+  .ev-tag.world{background:#e3eefb;color:#1d5fa8}
+  .ev-body h4{color:var(--petrol);font-size:1.02rem;font-weight:700;margin-bottom:3px}
+  .ev-body p{font-size:.85rem;color:#3a4d56;margin-bottom:8px}
+  .ev-body a{font-size:.83rem;font-weight:700}
 
   @media(max-width:860px){
     .hero-stats{grid-template-columns:repeat(2,1fr)}
@@ -259,6 +275,7 @@
       <a href="#legislacao">Legislação</a>
       <a href="#reforma">Reforma Tributária</a>
       <a href="#tendencias">Tendências</a>
+      <a href="#eventos">Eventos</a>
     </nav>
   </div>
 </header>
@@ -424,6 +441,22 @@
     <a href="https://discoveryalert.com.au/nuclear-fusion-helium-3-clean-energy-solution-2026/" target="_blank" rel="noopener"><span class="s">Discovery Alert</span><span class="t">Mineração de hélio-3 na Lua: a aposta na fusão como energia limpa</span></a>
   </div>
   <div class="note">💡 Por que aqui? São tendências fora da indústria tradicional de óleo e gás, mas conectadas ao futuro da energia — ficam em um espaço separado, para acompanhar sem confundir com o núcleo do setor.</div>
+</section>
+
+<section id="eventos">
+  <div class="sec-head"><span class="kicker">Agenda do setor</span><h2>Eventos &amp; Conferências</h2></div>
+  <p class="sec-sub">Principais feiras, congressos e conferências de óleo e gás no Brasil e no mundo, para acompanhar e fazer networking. Datas e locais conforme divulgação dos organizadores.</p>
+  <div class="ev-grid">
+    <div class="ev-card"><div class="ev-date"><span class="d">14–17</span><span class="m">SET 2026</span></div><div class="ev-body"><span class="ev-tag world">Mundo</span><h4>Gastech 2026</h4><p>Bangkok, Tailândia · maior evento global de gás natural, GNL e energia.</p><a href="https://www.google.com/search?q=Gastech+2026+Bangkok" target="_blank" rel="noopener">Saiba mais ↗</a></div></div>
+    <div class="ev-card dest"><div class="ev-date"><span class="d">21–24</span><span class="m">SET 2026</span></div><div class="ev-body"><span class="ev-tag br">Brasil</span><h4>ROG.e — Rio Oil, Gas and Energy</h4><p>Rio de Janeiro · o maior evento de óleo e gás da América Latina.</p><a href="https://www.google.com/search?q=ROG.e+Rio+Oil+Gas+Energy+2026" target="_blank" rel="noopener">Saiba mais ↗</a></div></div>
+    <div class="ev-card"><div class="ev-date"><span class="d">11–15</span><span class="m">OUT 2026</span></div><div class="ev-body"><span class="ev-tag world">Mundo</span><h4>WPC — 25º Congresso Mundial do Petróleo</h4><p>Riad, Arábia Saudita · o principal congresso global do setor.</p><a href="https://www.google.com/search?q=World+Petroleum+Congress+2026+Riyadh" target="_blank" rel="noopener">Saiba mais ↗</a></div></div>
+    <div class="ev-card"><div class="ev-date"><span class="d">02–05</span><span class="m">NOV 2026</span></div><div class="ev-body"><span class="ev-tag world">Mundo</span><h4>ADIPEC 2026</h4><p>Abu Dhabi, Emirados Árabes · uma das maiores feiras de energia do mundo.</p><a href="https://www.google.com/search?q=ADIPEC+2026" target="_blank" rel="noopener">Saiba mais ↗</a></div></div>
+    <div class="ev-card"><div class="ev-date"><span class="d">24–25</span><span class="m">NOV 2026</span></div><div class="ev-body"><span class="ev-tag world">Mundo</span><h4>OEEC — Offshore Energy</h4><p>Amsterdã, Países Baixos · exposição e conferência de energia offshore.</p><a href="https://www.google.com/search?q=Offshore+Energy+OEEC+2026+Amsterdam" target="_blank" rel="noopener">Saiba mais ↗</a></div></div>
+    <div class="ev-card"><div class="ev-date"><span class="d">12–14</span><span class="m">JAN 2027</span></div><div class="ev-body"><span class="ev-tag world">Mundo</span><h4>WFES 2027</h4><p>Abu Dhabi · World Future Energy Summit, foco em transição energética.</p><a href="https://www.google.com/search?q=World+Future+Energy+Summit+2027" target="_blank" rel="noopener">Saiba mais ↗</a></div></div>
+    <div class="ev-card"><div class="ev-date"><span class="d">16–18</span><span class="m">FEV 2027</span></div><div class="ev-body"><span class="ev-tag world">Mundo</span><h4>Subsea Tieback 2027</h4><p>San Antonio, EUA · referência em sistemas submarinos de produção.</p><a href="https://www.google.com/search?q=Subsea+Tieback+2027" target="_blank" rel="noopener">Saiba mais ↗</a></div></div>
+    <div class="ev-card"><div class="ev-date"><span class="d">24–26</span><span class="m">MAR 2027</span></div><div class="ev-body"><span class="ev-tag world">Mundo</span><h4>IPTC 2027</h4><p>Bangkok, Tailândia · International Petroleum Technology Conference.</p><a href="https://www.google.com/search?q=IPTC+2027+Bangkok" target="_blank" rel="noopener">Saiba mais ↗</a></div></div>
+  </div>
+  <div class="note">📅 Datas e locais sujeitos a alteração — confirme sempre no site oficial de cada evento. O <b>ROG.e</b> (Rio) é o principal evento do setor no Brasil.</div>
 </section>
 
 </main>
