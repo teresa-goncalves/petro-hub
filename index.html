@@ -700,8 +700,9 @@ async function loadNews(){
   var shared=[];
   try{ var rsp=await fetchWithTimeout('news.json?_='+Date.now(),8000); if(rsp.ok){ var jj=await rsp.json(); if(Array.isArray(jj)) shared=jj; } }catch(e){}
   var fresh=live.concat(shared).concat(SEED);
+  fresh=fresh.filter(function(n){return RX.test((n.title||'')+' '+(n.desc||''));}); // relevância (vale p/ todas as origens)
   // ARQUIVO ROLANTE (até 1 ano) — acumula as notícias no navegador (localStorage), removendo o que passa de 365 dias
-  var KEY='petrohub_news_v1', store={};
+  var KEY='petrohub_news_v2', store={};
   try{store=JSON.parse(localStorage.getItem(KEY)||'{}');}catch(e){store={};}
   fresh.forEach(function(n){var k=(n.link||n.title); if(!k) return; if(!store[k]){store[k]={title:n.title,link:n.link,date:n.date||new Date().toISOString(),desc:n.desc,src:n.src,reg:n.reg,translated:!!n.translated};}});
   var lim=Date.now()-365*24*3600*1000;

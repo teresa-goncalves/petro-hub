@@ -53,7 +53,7 @@ async function parseFeed(f) {
 }
 
 const results = await Promise.all(FEEDS.map(parseFeed));
-const fresh = results.flat().filter(n => n.reg === "INT" ? true : RX.test(n.title + " " + n.desc));
+const fresh = results.flat().filter(n => RX.test(n.title + " " + n.desc));
 
 // Carrega o arquivo existente e mescla (sem sobrescrever itens já salvos)
 const store = {};
