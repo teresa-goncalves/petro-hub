@@ -39,6 +39,15 @@
   nav.links{display:flex;gap:4px;margin-left:auto;flex-wrap:wrap}
   nav.links a{color:#c4d6dd;padding:8px 14px;border-radius:9px;font-size:.9rem;font-weight:600}
   nav.links a:hover{background:rgba(255,255,255,.10);color:#fff}
+  .nav-toggle{display:none;background:rgba(255,255,255,.10);border:1px solid rgba(255,255,255,.2);color:#fff;font-size:1.25rem;line-height:1;width:44px;height:40px;border-radius:10px;cursor:pointer;margin-left:auto;padding:0}
+  @media(max-width:760px){
+    .nav-inner{padding:11px 18px}
+    .nav-toggle{display:block}
+    nav.links{display:none;order:3;flex-basis:100%;width:100%;flex-direction:column;gap:2px;margin:10px 0 2px;background:rgba(6,30,38,.97);border:1px solid rgba(255,255,255,.10);border-radius:12px;padding:8px}
+    nav.links.open{display:flex}
+    nav.links a{padding:12px 14px;border-radius:8px;font-size:.96rem}
+    nav.links a:not(:last-child){border-bottom:1px solid rgba(255,255,255,.07)}
+  }
 
   /* HERO */
   .hero{position:relative;overflow:hidden;color:#fff;padding:0;
@@ -268,6 +277,7 @@
       <span class="mark"><svg viewBox="0 0 24 24" fill="none"><path d="M5 20h14M7 20V9l5-5 5 5v11M10 20v-4h4v4" stroke="#fff" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></svg></span>
       <span>Petro&nbsp;Hub<small>Óleo &amp; Gás · Comércio Exterior</small></span>
     </div>
+    <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
     <nav class="links">
       <a href="#noticias">Notícias</a>
       <a href="#players">Players</a>
@@ -359,7 +369,7 @@
 </section>
 
 <section id="legislacao">
-  <div class="sec-head"><span class="kicker">Núcleo técnico</span><h2>Legislação do Repetro-Sped</h2></div>
+  <div class="sec-head"><span class="kicker">Núcleo técnico</span><h2>Legislação do Repetro-Sped e Repetro-Industrialização</h2></div>
   <p class="sec-sub">O regime aduaneiro especial que suspende/zera tributos federais sobre bens destinados à exploração e produção de petróleo e gás, e o tratamento de ICMS no Estado do Rio de Janeiro.</p>
 
   <div class="law-wrap">
@@ -812,6 +822,7 @@ var nsEl=document.getElementById('newsSearch'); if(nsEl) nsEl.addEventListener('
 document.getElementById('newsGrid').addEventListener('click',function(e){var b=e.target.closest?e.target.closest('.react-btn'):null; if(!b) return; var bar=b.parentNode; var link=decodeURIComponent(bar.getAttribute('data-link')); var now=setReact(link,b.getAttribute('data-r')); [].slice.call(bar.querySelectorAll('.react-btn')).forEach(function(x){x.className=(x.getAttribute('data-r')===now)?'react-btn on':'react-btn';});});
 document.getElementById('refreshBtn').addEventListener('click',loadNews);
 loadNews();
+(function(){var t=document.querySelector('.nav-toggle'),l=document.querySelector('nav.links');if(t&&l){t.addEventListener('click',function(){var open=l.classList.toggle('open');t.setAttribute('aria-expanded',open?'true':'false');t.textContent=open?'✕':'☰';});l.addEventListener('click',function(e){if(e.target.tagName==='A'){l.classList.remove('open');t.setAttribute('aria-expanded','false');t.textContent='☰';}});}})();
 </script>
 </body>
 </html>
