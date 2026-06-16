@@ -1,0 +1,31 @@
+name: Atualizar arquivo de notícias (news.json)
+
+on:
+  schedule:
+    - cron: '0 9 * * *'   # todo dia ~06:00 (horário de Brasília)
+  workflow_dispatch:        # permite rodar manualmente pelo botão "Run workflow"
+
+permissions:
+  contents: write
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar o repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Atualizar news.json
+        run: node update-news.mjs
+
+      - name: Commit e push (se houver mudança)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add news.json
+          git diff --staged --quiet || (git commit -m "chore: atualiza news.json" && git push)
