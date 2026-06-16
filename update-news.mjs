@@ -51,6 +51,16 @@ async function parseFeed(f) {
   }
 }
 
+async function translatePt(text) {
+  try {
+    const u = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=pt&dt=t&q=" + encodeURIComponent(text);
+    const r = await fetch(u);
+    if (!r.ok) return null;
+    const j = await r.json();
+    return j[0].map(s => s[0]).join("");
+  } catch (e) { return null; }
+}
+
 const results = await Promise.all(FEEDS.map(parseFeed));
 const fresh = results.flat().filter(n => RX.test(n.title + " " + n.desc));
 
@@ -64,7 +74,17 @@ if (existsSync("news.json")) {
   } catch (e) { console.error("news.json ilegível, recriando."); }
 }
 let novos = 0;
-fresh.forEach(n => { const k = n.link || n.title; if (k && !store[k]) { store[k] = n; novos++; } });
+for (const n of fresh) {
+  const k = n.link || n.title;
+  if (k && !store[k]) {
+    if (n.reg === "INT" && n.title) {
+      const t = await translatePt(n.title);
+      if (t) { n.title = t; n.translated = true; }
+    }
+    store[k] = n;
+    novos++;
+  }
+}
 
 // Remove o que tem mais de 365 dias e ordena
 const lim = Date.now() - 365 * 24 * 3600 * 1000;
