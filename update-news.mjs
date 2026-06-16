@@ -11,7 +11,7 @@ const FEEDS = [
 ];
 
 // Relevância (aplicada às fontes brasileiras, que misturam temas)
-const RX = /petr[oó]le|petrobras|\bg[aá]s\b|[oó]leo|offshore|pr[eé]-?sal|\bANP\b|repetro|fpso|combust|energ[ié]|explora[çc]|barril|\boil\b|petroleum|upstream|refin|po[çc]o|sonda|plataforma|equinor|shell|prio|braskem/i;
+const RX = /petr[oó]le|petrobras|\bg[aá]s\b|[oó]leo|offshore|pr[eé]-?sal|\bANP\b|repetro|fpso|combust|explora[çc]|barril|\boil\b|petroleum|upstream|refin|po[çc]o|sonda|plataforma|equinor|shell|prio|braskem/i;
 
 function decode(s) {
   return (s || "")
