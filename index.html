@@ -510,7 +510,22 @@ const PLAYERS = {
 };
 
 /* ===================== NAVIOS & EQUIPAMENTOS (esquemas SVG) ===================== */
-function svgWrap(inner){return '<svg viewBox="0 0 400 180" xmlns="http://www.w3.org/2000/svg"><rect width="400" height="180" fill="none"/><rect x="0" y="118" width="400" height="62" fill="#2f80a8" opacity=".5"/>'+inner+'</svg>';}
+var __sc=0;
+function svgWrap(inner){var k=++__sc;return '<svg viewBox="0 0 400 180" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">'
++'<defs>'
++'<linearGradient id="sky'+k+'" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0c3d54"/><stop offset=".5" stop-color="#2c7990"/><stop offset="1" stop-color="#74bac7"/></linearGradient>'
++'<linearGradient id="sea'+k+'" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a86a0"/><stop offset="1" stop-color="#093442"/></linearGradient>'
++'<radialGradient id="sun'+k+'" cx="78%" cy="38%" r="55%"><stop offset="0" stop-color="#ffe9bd" stop-opacity=".95"/><stop offset=".35" stop-color="#ffd07e" stop-opacity=".35"/><stop offset="1" stop-color="#ffd07e" stop-opacity="0"/></radialGradient>'
++'<filter id="vsh'+k+'" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="3" stdDeviation="3.5" flood-color="#06222e" flood-opacity=".45"/></filter>'
++'</defs>'
++'<rect width="400" height="180" fill="url(#sky'+k+')"/>'
++'<rect width="400" height="180" fill="url(#sun'+k+')"/>'
++'<circle cx="312" cy="66" r="19" fill="#ffe9bd" opacity=".9"/>'
++'<rect y="118" width="400" height="62" fill="url(#sea'+k+')"/>'
++'<g fill="#ffe6b0" opacity=".22"><rect x="298" y="121" width="28" height="3" rx="1.5"/><rect x="294" y="129" width="36" height="3" rx="1.5"/><rect x="300" y="137" width="24" height="2" rx="1"/><rect x="305" y="145" width="14" height="2" rx="1"/></g>'
++'<g stroke="#ffffff" stroke-opacity=".10" stroke-width="1.2" fill="none"><path d="M0 132 Q50 127 100 132 T200 132 T300 132 T400 132"/><path d="M0 152 Q50 147 100 152 T200 152 T300 152 T400 152"/></g>'
++'<g filter="url(#vsh'+k+')">'+inner+'</g>'
++'</svg>';}
 
 const VESSELS = [
   {n:"FPSO", tag:"Produção · Armazenagem · Transferência", svg:svgWrap('<rect x="70" y="92" width="260" height="34" rx="4" fill="#16384d"/><rect x="70" y="84" width="260" height="10" fill="#c0392b"/><g fill="#d7dde0"><rect x="95" y="58" width="22" height="34"/><rect x="130" y="50" width="30" height="42"/><rect x="175" y="64" width="18" height="28"/></g><rect x="205" y="40" width="6" height="52" fill="#8a99a3"/><circle cx="208" cy="40" r="5" fill="#e6a817"/><g stroke="#6b7c87" stroke-width="3"><line x1="240" y1="60" x2="240" y2="126"/><line x1="265" y1="60" x2="265" y2="126"/></g><rect x="232" y="52" width="40" height="10" fill="#34495e"/>'), p:"Floating Production, Storage and Offloading. Navio-plataforma que recebe, processa, armazena e escoa o óleo do pré-sal. É a unidade mais emblemática da produção offshore brasileira.", specs:"Capacidade típica: 150–225 mil bpd · armazena ~1,6 milhão de barris · ancorado por longos períodos."},
