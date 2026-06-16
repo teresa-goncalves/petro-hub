@@ -57,7 +57,7 @@
   .hero h1{font-size:clamp(2rem,4.4vw,3.1rem);line-height:1.08;font-weight:800;max-width:15ch;margin-bottom:18px}
   .hero h1 .hl{background:linear-gradient(90deg,#4fd6f0,#36e08b);-webkit-background-clip:text;background-clip:text;color:transparent}
   .hero .sub{font-size:1.08rem;color:#cfe2e9;max-width:60ch;font-weight:400}
-  .hero-stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:34px}
+  .hero-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:30px}
   .stat{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);border-radius:14px;padding:16px 18px;backdrop-filter:blur(6px)}
   .stat .n{font-family:'Sora';font-size:1.5rem;font-weight:800;color:#fff;letter-spacing:-.02em}
   .stat .l{font-size:.72rem;color:#aecad4;text-transform:uppercase;letter-spacing:.05em;margin-top:3px;line-height:1.35}
@@ -250,7 +250,7 @@
       <a href="#navios">Navios &amp; Equipamentos</a>
       <a href="#legislacao">Legislação</a>
       <a href="#reforma">Reforma Tributária</a>
-      <a href="#petrobras">Petrobras</a>
+      <a href="#tendencias">Tendências</a>
     </nav>
   </div>
 </header>
@@ -277,10 +277,12 @@
     <h1>Sua central de inteligência em <span class="hl">Óleo &amp; Gás</span></h1>
     <p class="sub">Notícias do setor atualizadas ao vivo (com tradução automática das fontes internacionais), cotações do dia, os principais players do Brasil e do mundo, um guia visual de navios e equipamentos offshore, e a legislação do Repetro-Sped — federal e estadual.</p>
     <div class="hero-stats">
-      <div class="stat"><div class="n">~4,6 Mboe/d</div><div class="l">Produção pré-sal (abr/2026)</div></div>
+      <div class="stat"><div class="n">~3,77 Mi bpd</div><div class="l">Produção de petróleo do Brasil (recorde 2025)</div></div>
       <div class="stat"><div class="n">82%</div><div class="l">Da produção nacional vem do pré-sal</div></div>
+      <div class="stat"><div class="n">1º</div><div class="l">Petróleo: principal produto da pauta de exportação</div></div>
+      <div class="stat"><div class="n">US$ 44,7 bi</div><div class="l">Exportações de petróleo do Brasil (2025)</div></div>
+      <div class="stat"><div class="n">Top 10</div><div class="l">Brasil entre os maiores produtores do mundo</div></div>
       <div class="stat"><div class="n">31/12/2040</div><div class="l">Vigência do Repetro-Sped</div></div>
-      <div class="stat"><div class="n">3%</div><div class="l">Carga de ICMS no RJ (bem permanente)</div></div>
     </div>
     <div class="market" id="market"></div>
   </div>
@@ -293,7 +295,7 @@
   <div class="pn-text">
     <span class="pn-tag">📲 PetroNews</span>
     <h3>Receba as principais notícias do dia no seu WhatsApp</h3>
-    <p>Um resumo diário de óleo &amp; gás — Petrobras, pré-sal, ANP, cotações e Repetro. Grátis.</p>
+    <p>Um resumo diário do setor de óleo &amp; gás — Petrobras, pré-sal, ANP, cotações e legislação do Repetro-Sped e Repetro-Industrialização. Grátis.</p>
   </div>
   <a class="pn-btn" href="https://whatsapp.com/channel/0029VbCuGoLB4hdNj63Tv91w" target="_blank" rel="noopener"><svg viewBox="0 0 32 32" fill="currentColor"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.1.6 4.1 1.6 5.9L4 29l8.3-1.6c1.7.9 3.6 1.4 5.7 1.4 6.6 0 12-5.4 12-12S22.6 3 16 3zm0 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-3.7.7.7-3.6-.2-.4c-1-1.6-1.5-3.4-1.5-5.3C5.9 9.5 10.5 5 16 5s10 4.5 10 10-4.5 9.8-10 9.8zm5.5-7.4c-.3-.2-1.8-.9-2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-.9 1.2-.2.2-.3.2-.6.1-.3-.2-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.2 5 4.5.7.3 1.2.5 1.7.6.7.2 1.3.2 1.8.1.6-.1 1.8-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.2-.3-.2-.6-.4z"/></svg> Assinar no WhatsApp</a>
 </div>
@@ -404,15 +406,23 @@
   <div class="note">⚠️ Tema em evolução: a regulamentação infralegal (atos do Comitê Gestor do IBS e da Receita Federal) ainda está sendo editada. Acompanhe as atualizações — a aba <b>Notícias › Legislação</b> também traz novidades do Repetro.</div>
 </section>
 
-<section id="petrobras">
-  <div class="sec-head"><span class="kicker">Empresa em destaque</span><h2>Petrobras em foco</h2></div>
-  <p class="sec-sub">A maior operadora do país e principal usuária do Repetro-Sped. Marcos recentes (2026):</p>
-  <div class="pgrid">
-    <div class="pcard petro"><span class="ribbon">DESTAQUE</span><h3>Búzios · P-79</h3><div class="role">Pré-sal · Bacia de Santos</div><p>Em maio/2026 entrou em operação a P-79, 8ª plataforma do campo de Búzios, com capacidade de 180 mil bpd de óleo e 7,2 milhões de m³/dia de compressão de gás.</p></div>
-    <div class="pcard petro"><h3>Itaimbezinho</h3><div class="role">Bacia de Campos · Pré-sal</div><p>Em junho/2026 a Petrobras firmou acordo para adquirir 50% do bloco de Itaimbezinho (~190 km da costa do RJ), reforçando a aposta no pré-sal de Campos.</p></div>
-    <div class="pcard petro"><h3>Liderança de produção</h3><div class="role">E&amp;P</div><p>Maior produtora do Brasil, com cerca de 2,14 milhões de bpd — à frente de Shell (~359 mil bpd) e TotalEnergies (~140 mil bpd).</p></div>
-    <div class="pcard petro"><h3>Expansão no pré-sal</h3><div class="role">Plano de plataformas</div><p>Búzios caminha para receber novas FPSOs e mira a marca de 1 milhão de barris/dia no campo, dentro de um conjunto de novas plataformas previstas até 2027.</p></div>
+<section id="tendencias">
+  <div class="sec-head"><span class="kicker">Olhar de futuro</span><h2>Tendências &amp; Novas Energias</h2></div>
+  <p class="sec-sub">Movimentos que ainda não fazem parte do dia a dia do petróleo, mas que vão moldar o futuro da energia: corrida espacial, inteligência artificial e novas fontes. Temas fora do núcleo de óleo e gás — por isso ficam em um espaço próprio — mas que vale a pena acompanhar de perto.</p>
+  <div class="ref-grid">
+    <div class="ref-card"><h4>🌙 Energia nuclear no espaço</h4><p>NASA e o Departamento de Energia dos EUA planejam um reator de fissão na superfície da Lua até 2030 (programa Artemis), pavimentando o caminho para Marte — e reacendendo o debate sobre energia nuclear na Terra.</p></div>
+    <div class="ref-card"><h4>⚛️ Hélio-3 lunar &amp; fusão</h4><p>A Lua guarda mais de 1 milhão de toneladas de hélio-3, combustível para a fusão limpa (sem resíduo radioativo). As primeiras missões de mapeamento começam em 2026.</p></div>
+    <div class="ref-card"><h4>🤖 IA e a nova fome de energia</h4><p>Os data centers de inteligência artificial disparam a demanda mundial por energia, impulsionando gás natural, nuclear e renováveis — e colocam o setor de óleo e gás no centro dessa transição.</p></div>
+    <div class="ref-card"><h4>🚀 SpaceX &amp; viagens a Marte</h4><p>A Starship leva cerca de 200 toneladas à órbita e mira o reabastecimento orbital em 2026; foguetes de propulsão nuclear podem cortar pela metade o tempo de viagem até Marte.</p></div>
   </div>
+  <h3 class="uf-title">Para acompanhar</h3>
+  <div class="ref-news">
+    <a href="https://www.nasa.gov/news-release/nasa-department-of-energy-to-develop-lunar-surface-reactor-by-2030/" target="_blank" rel="noopener"><span class="s">NASA</span><span class="t">NASA e DOE vão desenvolver um reator nuclear na superfície da Lua até 2030</span></a>
+    <a href="https://www.ans.org/news/2026-03-25/article-7879/nasa-announces-plan-for-space-nuclear-propulsion-by-2028/" target="_blank" rel="noopener"><span class="s">ANS · Nuclear Newswire</span><span class="t">NASA anuncia plano de propulsão nuclear espacial até 2028</span></a>
+    <a href="https://www.cnn.com/science/nuclear-powered-rocket-pulsar-space-spc/index.html" target="_blank" rel="noopener"><span class="s">CNN</span><span class="t">Foguete de propulsão nuclear pode cortar pela metade a viagem até Marte</span></a>
+    <a href="https://discoveryalert.com.au/nuclear-fusion-helium-3-clean-energy-solution-2026/" target="_blank" rel="noopener"><span class="s">Discovery Alert</span><span class="t">Mineração de hélio-3 na Lua: a aposta na fusão como energia limpa</span></a>
+  </div>
+  <div class="note">💡 Por que aqui? São tendências fora da indústria tradicional de óleo e gás, mas conectadas ao futuro da energia — ficam em um espaço separado, para acompanhar sem confundir com o núcleo do setor.</div>
 </section>
 
 </main>
