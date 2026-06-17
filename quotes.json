@@ -1,0 +1,117 @@
+{
+ "updated": "2026-06-17T01:51:22.466Z",
+ "quotes": [
+  {
+   "sym": "PBR",
+   "name": "Petrobras (ADR)",
+   "group": "oil",
+   "price": 17.05,
+   "changePct": -1.67,
+   "currency": "USD"
+  },
+  {
+   "sym": "SHEL",
+   "name": "Shell",
+   "group": "oil",
+   "price": 82.25,
+   "changePct": -0.44,
+   "currency": "USD"
+  },
+  {
+   "sym": "XOM",
+   "name": "ExxonMobil",
+   "group": "oil",
+   "price": 141.86,
+   "changePct": 0.67,
+   "currency": "USD"
+  },
+  {
+   "sym": "CVX",
+   "name": "Chevron",
+   "group": "oil",
+   "price": 180.11,
+   "changePct": -0.16,
+   "currency": "USD"
+  },
+  {
+   "sym": "TTE",
+   "name": "TotalEnergies",
+   "group": "oil",
+   "price": 84.17,
+   "changePct": 0.12,
+   "currency": "USD"
+  },
+  {
+   "sym": "BP",
+   "name": "BP",
+   "group": "oil",
+   "price": 41.15,
+   "changePct": -1.06,
+   "currency": "USD"
+  },
+  {
+   "sym": "EQNR",
+   "name": "Equinor",
+   "group": "oil",
+   "price": 33.84,
+   "changePct": -1.23,
+   "currency": "USD"
+  },
+  {
+   "sym": "PRIO3.SA",
+   "name": "PRIO (B3)",
+   "group": "oil",
+   "price": 56.85,
+   "changePct": -0.44,
+   "currency": "BRL"
+  },
+  {
+   "sym": "SPCX",
+   "name": "SpaceX",
+   "group": "new",
+   "price": 201.8,
+   "changePct": 4.83,
+   "currency": "USD"
+  },
+  {
+   "sym": "TSLA",
+   "name": "Tesla",
+   "group": "new",
+   "price": 404.66,
+   "changePct": -1.58,
+   "currency": "USD"
+  },
+  {
+   "sym": "NEE",
+   "name": "NextEra Energy",
+   "group": "new",
+   "price": 86.23,
+   "changePct": 0.13,
+   "currency": "USD"
+  },
+  {
+   "sym": "FSLR",
+   "name": "First Solar",
+   "group": "new",
+   "price": 264.36,
+   "changePct": -3.35,
+   "currency": "USD"
+  },
+  {
+   "sym": "CCJ",
+   "name": "Cameco (urânio)",
+   "group": "new",
+   "price": 107.88,
+   "changePct": 0.8,
+   "currency": "USD"
+  },
+  {
+   "sym": "CEG",
+   "name": "Constellation (nucl.)",
+   "group": "new",
+   "price": 268,
+   "changePct": 2.15,
+   "currency": "USD"
+  }
+ ]
+}
