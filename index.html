@@ -880,6 +880,7 @@ var GEORX=/trump|ormuz|ucr[âa]ni|ukrain|ir[ãa]\b|iran|teer[ãa]|r[úu]ssia|rus
 // DESTAQUES sempre disponíveis (manchetes reais; internacionais já traduzidas).
 // Atualizados periodicamente; servem de base caso o feed ao vivo esteja indisponível.
 var SEED=[
+  {title:"Petrobras projeta antecipar o descomissionamento de plataformas no próximo Plano de Negócios", link:"https://www.dgabc.com.br/Noticia/4292599/petrobras-projeta-antecipar-descomissionamento-de-plataformas-no-proximo-plano-de-negocios", date:"2026-03-31", desc:"Plano 2026-2030 prevê US$ 9,7 bi para descarte sustentável de equipamentos e abandono de mais de 500 poços.", src:"Diário do Grande ABC", reg:"BR", translated:false},
   {title:"Produção brasileira de óleo e gás bate novo recorde em abril (5,64 milhões boe/d)", link:"https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/producao-brasileira-de-oleo-e-gas-bate-novo-recorde-em-abril", date:"2026-06-12", desc:"Pré-sal responde por 81,8% da produção; campos da Petrobras, por quase 89%.", src:"Agência Brasil", reg:"BR", translated:false},
   {title:"Petrobras tem lucro de R$ 32,7 bilhões no 1º trimestre de 2026", link:"https://agencia.petrobras.com.br/w/negocio/lucro-liquido-da-petrobras", date:"2026-05-12", desc:"Resultado mais que dobra ante o 4º tri/2025, com recorde de produção de óleo e gás.", src:"Agência Petrobras", reg:"BR", translated:false},
   {title:"Petrobras busca aumento de produção para mitigar efeitos da guerra", link:"https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/petrobras-busca-aumento-producao-para-mitigar-efeitos-guerra", date:"2026-05-20", desc:"Estratégia para reduzir impactos de tensões geopolíticas sobre o mercado.", src:"Agência Brasil", reg:"BR", translated:false},
@@ -960,7 +961,7 @@ async function loadNews(){
   var results=await Promise.all(FEEDS.map(fetchFeed));
   var live=[].concat.apply([],results);
   // filtro de relevância: mantém só notícias do setor de óleo e gás
-  var RX=/petr[oó]le|petrobras|\bg[aá]s\b|[oó]leo|offshore|pr[eé]-?sal|\bANP\b|repetro|fpso|combust|explora[çc]|barril|\boil\b|petroleum|upstream|refin|po[çc]o|sonda|plataforma|bacia (de|do) (santos|campos|parna)|equinor|shell|prio|braskem/i;
+  var RX=/petr[oó]le|petrobras|\bg[aá]s\b|[oó]leo|offshore|pr[eé]-?sal|\bANP\b|repetro|fpso|combust|explora[çc]|barril|\boil\b|petroleum|upstream|refin|po[çc]o|sonda|plataforma|bacia (de|do) (santos|campos|parna)|equinor|shell|prio|braskem|descomission|decommission|desativa[çc][ãa]o|abandono de po[çc]o|plug.?and.?abandon|well abandon/i;
   live=live.filter(function(n){return RX.test((n.title||'')+' '+(n.desc||''));});
   // traduz as manchetes internacionais que vieram ao vivo
   var intItems=live.filter(function(n){return n.reg==='INT';});
