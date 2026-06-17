@@ -545,6 +545,7 @@
     <button class="filterbtn" data-cat="T3">III · Repetro-Permanente</button>
     <button class="filterbtn" data-cat="T4">IV · Repetro-Entreposto</button>
   </div>
+  <div class="news-search" style="max-width:440px;margin:12px 0 14px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.5" y2="16.5"/></svg><input id="catSearch" type="search" placeholder="Buscar bem ou NCM no catálogo…"></div>
   <div class="cat-grid" id="catGrid"></div>
 
   <h3 class="uf-title" style="margin-top:34px">ICMS do Repetro por estado</h3>
@@ -1217,18 +1218,29 @@ var CATALOG={
     {n:"Navio de suporte de mergulho (DSV)",ncm:"8905",ic:"barco"}
   ]
 };
-function renderCat(c){
+var curCat='T1';
+function renderCat(){
   var g=document.getElementById('catGrid'); if(!g) return;
-  g.innerHTML=(CATALOG[c]||[]).map(function(b){
-    return '<div class="cat-card"><svg viewBox="0 0 48 48" aria-hidden="true">'+(CATICONS[b.ic]||'')+'</svg>'+
-      '<div class="cat-tx"><b>'+b.n+'</b>'+(b.ncm?'<span class="cat-ncm">NCM '+b.ncm+'</span>':'')+'</div></div>';
+  var list=(CATALOG&&CATALOG[curCat])||[];
+  var cs=document.getElementById('catSearch'); var q=cs?norm(cs.value):'';
+  if(q) list=list.filter(function(b){return norm((b.desc||b.n||'')+' '+(b.ncm||'')).indexOf(q)>-1;});
+  if(!list.length){ g.innerHTML='<div class="empty" style="grid-column:1/-1">'+(q?'Nenhum bem encontrado para “'+cs.value+'”.':'Catálogo sendo carregado…')+'</div>'; return; }
+  g.innerHTML=list.map(function(b){
+    var nome=b.desc||b.n||'';
+    return '<div class="cat-card"><svg viewBox="0 0 48 48" aria-hidden="true">'+(CATICONS[b.ic]||CATICONS.tubo)+'</svg>'+
+      '<div class="cat-tx"><b>'+nome+'</b>'+(b.ncm?'<span class="cat-ncm">NCM '+b.ncm+'</span>':'')+'</div></div>';
   }).join('');
+}
+async function loadCatalog(){
+  try{ var r=await fetchWithTimeout('catalog.json?_='+Date.now(),9000); if(r.ok){ var d=await r.json(); if(d&&d.tables&&(d.tables.T1||[]).length) CATALOG=d.tables; } }catch(e){}
+  renderCat();
 }
 document.querySelectorAll('[data-cat]').forEach(function(b){b.addEventListener('click',function(){
   document.querySelectorAll('[data-cat]').forEach(function(x){x.classList.remove('active');});
-  b.classList.add('active'); renderCat(b.dataset.cat);
+  b.classList.add('active'); curCat=b.dataset.cat; renderCat();
 });});
-renderCat('T1');
+var catS=document.getElementById('catSearch'); if(catS) catS.addEventListener('input',renderCat);
+loadCatalog();
 
 /* ===================== MODAL DAS TENDÊNCIAS (resumo traduzido + fontes) ===================== */
 var TRENDINFO=[
