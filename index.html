@@ -1061,9 +1061,11 @@ async function loadLaunches(){
   function hide(){var w=document.getElementById('launchWrap'); if(w) w.style.display='none';}
   try{
     var c=new AbortController(); var id=setTimeout(function(){c.abort();},12000);
-    var r=await fetch("https://ll.thespacedevs.com/2.2.0/launch/upcoming/?limit=7&mode=normal",{signal:c.signal}); clearTimeout(id);
+    var r=await fetch("https://ll.thespacedevs.com/2.2.0/launch/upcoming/?limit=12&mode=normal",{signal:c.signal}); clearTimeout(id);
     if(!r.ok) throw 0;
-    var j=await r.json(); var res=(j.results||[]).slice(0,7);
+    var j=await r.json();
+    var t0=new Date(); t0.setHours(0,0,0,0); // hoje 00:00
+    var res=(j.results||[]).filter(function(x){var d=new Date(x.net); return isNaN(d)?true:d>=t0;}).slice(0,8);
     if(res.length===0){ hide(); return; }
     var SHORT={'China Aerospace Science and Technology Corporation':'CASC','United Launch Alliance':'ULA','Roscosmos State Corporation':'Roscosmos'};
     box.innerHTML=res.map(function(x){
