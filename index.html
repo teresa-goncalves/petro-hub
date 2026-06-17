@@ -188,6 +188,12 @@
   .qcard .qchg.up{color:#1f9d57}
   .qcard .qchg.down{color:#d23b3b}
   .qcard .qchg.flat{color:var(--muted)}
+  .cat-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:12px}
+  .cat-card{display:flex;gap:13px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px;box-shadow:var(--sh-sm);transition:.18s}
+  .cat-card:hover{transform:translateY(-2px);box-shadow:var(--sh)}
+  .cat-card svg{width:44px;height:44px;flex:0 0 auto;color:var(--teal-d);stroke:var(--teal-d);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+  .cat-card .cat-tx b{display:block;color:var(--petrol);font-size:.88rem;font-weight:700;line-height:1.22}
+  .cat-ncm{display:inline-block;margin-top:5px;font-size:.64rem;font-weight:700;color:var(--teal-d);background:#e6f4f8;padding:1px 8px;border-radius:20px}
 
   /* VESSELS */
   .vgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:20px}
@@ -531,7 +537,17 @@
     </div>
   </div>
 
-  <h3 class="uf-title">ICMS do Repetro por estado</h3>
+  <h3 class="uf-title" style="margin-top:34px">Catálogo de bens do Anexo II</h3>
+  <p class="uf-sub">Exemplos ilustrativos de bens admissíveis em cada modalidade do Repetro. A relação completa e oficial está no <a class="norm-t" href="https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2026/decreto/d12955.htm" target="_blank" rel="noopener"><b>Anexo II do Decreto 12.955/2026</b> <span class="ext">↗</span></a>.</p>
+  <div class="ptabs">
+    <button class="filterbtn active" data-cat="T1">I · Repetro-Temporário</button>
+    <button class="filterbtn" data-cat="T2">II · GNL-Temporário</button>
+    <button class="filterbtn" data-cat="T3">III · Repetro-Permanente</button>
+    <button class="filterbtn" data-cat="T4">IV · Repetro-Entreposto</button>
+  </div>
+  <div class="cat-grid" id="catGrid"></div>
+
+  <h3 class="uf-title" style="margin-top:34px">ICMS do Repetro por estado</h3>
   <p class="uf-sub">Selecione a Unidade da Federação para ver o tratamento do ICMS (Repetro-Sped e Repetro-Industrialização) e o caminho para a norma oficial. As UFs com ponto verde têm atividade de óleo &amp; gás.</p>
   <div class="uf-grid" id="ufGrid"></div>
   <div class="uf-detail" id="ufDetail"></div>
@@ -1122,6 +1138,97 @@ async function loadQuotes(){
   }
 }
 loadQuotes();
+
+/* ===================== CATÁLOGO DE BENS — ANEXO II (Decreto 12.955/2026) ===================== */
+var CATICONS={
+  tubo:'<rect x="6" y="19" width="33" height="10" rx="2"/><ellipse cx="39" cy="24" rx="2.6" ry="5"/><line x1="13" y1="19" x2="13" y2="29"/>',
+  cabo:'<path d="M8 18q6 8 12 0t12 0"/><path d="M8 24q6 8 12 0t12 0"/><path d="M8 30q6 8 12 0t12 0"/>',
+  instr:'<circle cx="24" cy="24" r="13"/><line x1="24" y1="24" x2="31" y2="17"/><circle cx="24" cy="24" r="1.8" fill="currentColor" stroke="none"/><line x1="24" y1="11" x2="24" y2="14"/><line x1="37" y1="24" x2="34" y2="24"/>',
+  valvula:'<rect x="18" y="22" width="12" height="13"/><line x1="14" y1="28" x2="18" y2="28"/><line x1="30" y1="28" x2="34" y2="28"/><line x1="24" y1="22" x2="24" y2="13"/><line x1="19" y1="16" x2="29" y2="16"/><circle cx="24" cy="12" r="2.5"/>',
+  rov:'<rect x="12" y="19" width="24" height="13" rx="2"/><line x1="17" y1="19" x2="17" y2="14"/><line x1="31" y1="19" x2="31" y2="14"/><circle cx="18" cy="25.5" r="2.4"/><circle cx="30" cy="25.5" r="2.4"/><path d="M24 19 V13 H33"/>',
+  bomba:'<circle cx="21" cy="24" r="10"/><path d="M21 24 L29 19 M21 24 L29 29 M21 24 L13 24"/><rect x="32" y="21" width="6" height="6"/>',
+  skid:'<rect x="7" y="16" width="34" height="16" rx="2"/><circle cx="16" cy="24" r="3.6"/><circle cx="30" cy="24" r="3.6"/><line x1="19.6" y1="24" x2="26.4" y2="24"/><line x1="11" y1="32" x2="11" y2="35"/><line x1="37" y1="32" x2="37" y2="35"/>',
+  subsea:'<rect x="12" y="18" width="24" height="10" rx="1"/><line x1="16" y1="28" x2="14" y2="34"/><line x1="32" y1="28" x2="34" y2="34"/><line x1="24" y1="28" x2="24" y2="34"/><line x1="17" y1="18" x2="17" y2="13"/><line x1="31" y1="18" x2="31" y2="13"/>',
+  guindaste:'<path d="M13 35 V13 H15"/><line x1="13" y1="13" x2="35" y2="13"/><line x1="35" y1="13" x2="30" y2="22"/><line x1="30" y1="22" x2="30" y2="26"/><path d="M28 26 a2 2 0 0 0 4 0"/><line x1="13" y1="20" x2="22" y2="13"/>',
+  eletrica:'<rect x="14" y="13" width="20" height="22" rx="2"/><path d="M25 17 L21 26 H26 L23 32"/>',
+  barco:'<path d="M8 27 h32 l-4 7 h-24 z"/><rect x="13" y="19" width="9" height="8"/><line x1="24" y1="22" x2="37" y2="22"/><line x1="16" y1="19" x2="16" y2="15"/>',
+  fpso:'<path d="M7 28 h34 l-3 6 h-28 z"/><rect x="13" y="20" width="22" height="8"/><line x1="20" y1="20" x2="20" y2="13"/><path d="M20 14 l4 6"/><rect x="27" y="15" width="5" height="5"/>',
+  plataforma:'<rect x="14" y="22" width="20" height="5"/><line x1="17" y1="27" x2="15" y2="35"/><line x1="31" y1="27" x2="33" y2="35"/><path d="M24 22 L20 10 H28 Z"/><line x1="22" y1="16" x2="26" y2="16"/>',
+  cryo:'<rect x="16" y="14" width="16" height="21" rx="8"/><line x1="24" y1="19" x2="24" y2="30"/><line x1="19.5" y1="22" x2="28.5" y2="27"/><line x1="28.5" y1="22" x2="19.5" y2="27"/>',
+  defensa:'<rect x="18" y="11" width="12" height="26" rx="6"/><line x1="18" y1="18" x2="30" y2="18"/><line x1="18" y1="24" x2="30" y2="24"/><line x1="18" y1="30" x2="30" y2="30"/>',
+  ferramenta:'<path d="M31 13 a6 6 0 0 0 -8 8 L13 31 l4 4 10-10 a6 6 0 0 0 8 -8 l-3.5 3.5 -4 -0.5 -0.5 -4 z"/>',
+  filtro:'<rect x="16" y="15" width="16" height="20" rx="2"/><line x1="16" y1="21" x2="32" y2="21"/><line x1="16" y1="28" x2="32" y2="28"/><path d="M20 15 v-3 h8 v3"/>'
+};
+var CATALOG={
+  T1:[
+    {n:"Fonte radioativa (medição)",ncm:"2844",ic:"instr"},
+    {n:"Cabo de poliéster (trançado)",ncm:"5607",ic:"cabo"},
+    {n:"Tubo de perfuração (drill pipe)",ncm:"7304",ic:"tubo"},
+    {n:"Tubo de produção (coluna/COP)",ncm:"7304",ic:"tubo"},
+    {n:"Ferramenta de instalação de ANM",ncm:"8205",ic:"valvula"},
+    {n:"Bombeamento multifásico submarino",ncm:"8413",ic:"bomba"},
+    {n:"Soprador/resfriador (ar/gás)",ncm:"8414",ic:"skid"},
+    {n:"Secagem/filtração de cascalhos",ncm:"8421",ic:"filtro"},
+    {n:"Elevador (tração da coluna)",ncm:"8428",ic:"guindaste"},
+    {n:"Cortador mecânico de tubos",ncm:"8467",ic:"ferramenta"},
+    {n:"ROV (veículo submarino)",ncm:"8479",ic:"rov"},
+    {n:"Transformador (tipo seco)",ncm:"8504",ic:"eletrica"},
+    {n:"Barco salva-vidas",ncm:"8906",ic:"barco"},
+    {n:"Módulo de controle e aquisição de dados",ncm:"9015",ic:"instr"}
+  ],
+  T2:[
+    {n:"Conexões criogênicas (fittings)",ncm:"3917",ic:"cryo"},
+    {n:"Mangote criogênico para GNL",ncm:"3917",ic:"cryo"},
+    {n:"Mangueira de alta pressão (composite)",ncm:"3917",ic:"tubo"},
+    {n:"Defensas foam-filled (poliuretano)",ncm:"3926",ic:"defensa"},
+    {n:"Difusores de ar para tanques",ncm:"3926",ic:"filtro"},
+    {n:"Tanque de armazenamento (GNL)",ncm:"7309",ic:"cryo"},
+    {n:"Unidade hidráulica de potência (HPU)",ncm:"",ic:"bomba"},
+    {n:"Expander–compressor criogênico (compander)",ncm:"",ic:"skid"},
+    {n:"Atuador de válvula (hidráulico/pneumático)",ncm:"",ic:"valvula"},
+    {n:"Vaporizador / condicionador de amostra",ncm:"",ic:"instr"}
+  ],
+  T3:[
+    {n:"PLET — terminação de duto",ncm:"7307",ic:"subsea"},
+    {n:"Junta de compensação (tubulação)",ncm:"7307",ic:"tubo"},
+    {n:"Gancho/amarra (corrente)",ncm:"7315",ic:"cabo"},
+    {n:"Turbina a gás",ncm:"8411",ic:"skid"},
+    {n:"Compressor de gás natural",ncm:"8414",ic:"skid"},
+    {n:"Injeção submarina de água (RWI)",ncm:"8421",ic:"subsea"},
+    {n:"Mesa/base de perfuração",ncm:"8431",ic:"guindaste"},
+    {n:"Obturador (completação)",ncm:"8479",ic:"valvula"},
+    {n:"Válvulas e módulos valvulados",ncm:"8481",ic:"valvula"},
+    {n:"Painel/quadro elétrico de comando",ncm:"8537",ic:"eletrica"},
+    {n:"Embarcação de apoio (PSV/AHTS)",ncm:"8906",ic:"barco"},
+    {n:"Instrumento de medição (vazão/pressão)",ncm:"9026",ic:"instr"}
+  ],
+  T4:[
+    {n:"Compressão modular de gás principal (skid)",ncm:"8414",ic:"skid"},
+    {n:"Compressão modular de gás de exportação (skid)",ncm:"8414",ic:"skid"},
+    {n:"Compressão modular de gás de injeção (skid)",ncm:"8414",ic:"skid"},
+    {n:"Compressão modular de CO₂ (skid)",ncm:"8414",ic:"skid"},
+    {n:"Redução de sulfato da água (membrana)",ncm:"8421",ic:"filtro"},
+    {n:"Navio aliviador (transbordo)",ncm:"8901",ic:"barco"},
+    {n:"FPSO — produção, armazenagem e transferência",ncm:"8905",ic:"fpso"},
+    {n:"Plataforma flutuante de perfuração/produção",ncm:"8905",ic:"plataforma"},
+    {n:"Navio-sonda (drillship)",ncm:"8905",ic:"plataforma"},
+    {n:"Navio lançador de dutos (PLSV)",ncm:"8905",ic:"barco"},
+    {n:"Navio de pesquisa sísmica",ncm:"8905",ic:"barco"},
+    {n:"Navio de suporte de mergulho (DSV)",ncm:"8905",ic:"barco"}
+  ]
+};
+function renderCat(c){
+  var g=document.getElementById('catGrid'); if(!g) return;
+  g.innerHTML=(CATALOG[c]||[]).map(function(b){
+    return '<div class="cat-card"><svg viewBox="0 0 48 48" aria-hidden="true">'+(CATICONS[b.ic]||'')+'</svg>'+
+      '<div class="cat-tx"><b>'+b.n+'</b>'+(b.ncm?'<span class="cat-ncm">NCM '+b.ncm+'</span>':'')+'</div></div>';
+  }).join('');
+}
+document.querySelectorAll('[data-cat]').forEach(function(b){b.addEventListener('click',function(){
+  document.querySelectorAll('[data-cat]').forEach(function(x){x.classList.remove('active');});
+  b.classList.add('active'); renderCat(b.dataset.cat);
+});});
+renderCat('T1');
 
 /* ===================== MODAL DAS TENDÊNCIAS (resumo traduzido + fontes) ===================== */
 var TRENDINFO=[
