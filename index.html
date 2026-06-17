@@ -1010,7 +1010,7 @@ function render(){
       (n.reg==='INT'?'<a href="https://translate.google.com/translate?sl=auto&tl=pt&u='+encodeURIComponent(n.link)+'" target="_blank" rel="noopener">Ler traduzida ↗</a>':'')+
       '</div></article>';
   }).join('');
-  if(!query){ __cards+='<div class="news-hint">📅 Mostrando as notícias dos últimos 7 dias. Use a busca acima para acessar todo o arquivo (até 1 ano).</div>'; }
+  if(!query){ __cards+='<div class="news-hint">📅 Mostrando as notícias dos últimos 7 dias. Use a busca acima para acessar todo o arquivo.</div>'; }
   grid.innerHTML=__cards;
 }
 
