@@ -4,6 +4,8 @@
 import { writeFileSync } from 'node:fs';
 
 const TICKERS = [
+  // Commodity (usada no widget do topo, não aparece na lista do Mercado)
+  { sym: "BZ=F",     stooq: "cb.f",     name: "Petróleo Brent",       group: "commodity" },
   // Óleo & Gás
   { sym: "PBR",      stooq: "pbr.us",   name: "Petrobras (ADR)",      group: "oil" },
   { sym: "SHEL",     stooq: "shel.us",  name: "Shell",                group: "oil" },

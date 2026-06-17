@@ -795,7 +795,7 @@ function renderUFGrid(){
 renderUFGrid(); showUF('RJ');
 
 /* ===================== COTAÇÕES (barril, dólar, euro) ===================== */
-var MARKET={brent:"US$ 105,00", usd:"R$ 5,42", eur:"R$ 5,88", updated:"15/06/2026"};
+var MARKET={brent:"US$ 79,00", usd:"R$ 5,09", eur:"R$ 5,92", updated:"17/06/2026"};
 function renderMarket(brent,usd,eur,live){
   var m=document.getElementById('market'); if(!m) return;
   var liveTag='<span class="pulse"></span> cotação ao vivo';
@@ -807,13 +807,20 @@ function renderMarket(brent,usd,eur,live){
 function brl(v){return 'R$ '+Number(v).toFixed(2).replace('.',',');}
 async function loadMarket(){
   renderMarket(MARKET.brent,MARKET.usd,MARKET.eur,false); // mostra base imediatamente
+  // Brent ao vivo (mesma fonte do Mercado: quotes.json, atualizado pelo servidor)
+  try{
+    var rq=await fetchWithTimeout('quotes.json?_='+Date.now(),9000);
+    if(rq.ok){ var dq=await rq.json(); var b=((dq&&dq.quotes)||[]).find(function(x){return x.sym==='BZ=F';});
+      if(b&&b.price!=null) MARKET.brent='US$ '+Number(b.price).toFixed(2).replace('.',','); }
+  }catch(e){}
+  var usd=MARKET.usd, eur=MARKET.eur, live=false;
   try{
     var r=await fetchWithTimeout("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL",8000);
     var j=await r.json();
-    var usd=(j&&j.USDBRL)?brl(j.USDBRL.bid):MARKET.usd;
-    var eur=(j&&j.EURBRL)?brl(j.EURBRL.bid):MARKET.eur;
-    renderMarket(MARKET.brent,usd,eur,true);
+    if(j&&j.USDBRL){ usd=brl(j.USDBRL.bid); live=true; }
+    if(j&&j.EURBRL){ eur=brl(j.EURBRL.bid); live=true; }
   }catch(e){/* mantém valores de referência */}
+  renderMarket(MARKET.brent,usd,eur,live);
 }
 loadMarket();
 
