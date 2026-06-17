@@ -188,7 +188,15 @@
   .qcard .qchg.up{color:#1f9d57}
   .qcard .qchg.down{color:#d23b3b}
   .qcard .qchg.flat{color:var(--muted)}
-  .cat-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(232px,1fr));gap:12px}
+  .cat-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+  @media(max-width:880px){.cat-grid{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:520px){.cat-grid{grid-template-columns:1fr}}
+  .cat-pager-wrap{display:flex;justify-content:center;flex-wrap:wrap;gap:6px;margin-top:18px}
+  .cat-pager-wrap .pg{min-width:32px;height:32px;border:1px solid var(--line);background:var(--card);border-radius:8px;color:var(--petrol);font-weight:600;font-size:.85rem;cursor:pointer;padding:0 8px}
+  .cat-pager-wrap .pg:hover:not(:disabled){border-color:var(--teal);color:var(--teal-d)}
+  .cat-pager-wrap .pg.on{background:var(--petrol);color:#fff;border-color:var(--petrol)}
+  .cat-pager-wrap .pg:disabled{opacity:.4;cursor:default}
+  .cat-pager-wrap .pg-dots{color:var(--muted);align-self:center;padding:0 2px}
   .cat-card{display:flex;gap:13px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px;box-shadow:var(--sh-sm);transition:.18s}
   .cat-card:hover{transform:translateY(-2px);box-shadow:var(--sh)}
   .cat-card svg{width:44px;height:44px;flex:0 0 auto;color:var(--teal-d);stroke:var(--teal-d);fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
@@ -547,6 +555,7 @@
   </div>
   <div class="news-search" style="max-width:440px;margin:12px 0 14px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.5" y2="16.5"/></svg><input id="catSearch" type="search" placeholder="Buscar bem ou NCM no catálogo…"></div>
   <div class="cat-grid" id="catGrid"></div>
+  <div class="cat-pager-wrap" id="catPager"></div>
 
   <h3 class="uf-title" style="margin-top:34px">ICMS do Repetro por estado</h3>
   <p class="uf-sub">Selecione a Unidade da Federação para ver o tratamento do ICMS (Repetro-Sped e Repetro-Industrialização) e o caminho para a norma oficial. As UFs com ponto verde têm atividade de óleo &amp; gás.</p>
@@ -1218,18 +1227,30 @@ var CATALOG={
     {n:"Navio de suporte de mergulho (DSV)",ncm:"8905",ic:"barco"}
   ]
 };
-var curCat='T1';
+var curCat='T1', catPage=1, CAT_SIZE=12;
+function catCard(b){
+  var nome=b.desc||b.n||'';
+  return '<div class="cat-card"><svg viewBox="0 0 48 48" aria-hidden="true">'+(CATICONS[b.ic]||CATICONS.tubo)+'</svg>'+
+    '<div class="cat-tx"><b>'+nome+'</b>'+(b.ncm?'<span class="cat-ncm">NCM '+b.ncm+'</span>':'')+'</div></div>';
+}
+function catPagerHTML(total,page){
+  var pages=Math.ceil(total/CAT_SIZE); if(pages<=1) return '';
+  var h='<button class="pg" data-pg="'+(page-1)+'"'+(page<=1?' disabled':'')+'>‹</button>', last=0;
+  for(var p=1;p<=pages;p++){ if(p===1||p===pages||Math.abs(p-page)<=2){ if(p-last>1) h+='<span class="pg-dots">…</span>'; h+='<button class="pg'+(p===page?' on':'')+'" data-pg="'+p+'">'+p+'</button>'; last=p; } }
+  h+='<button class="pg" data-pg="'+(page+1)+'"'+(page>=pages?' disabled':'')+'>›</button>';
+  return h;
+}
 function renderCat(){
   var g=document.getElementById('catGrid'); if(!g) return;
+  var pg=document.getElementById('catPager');
   var list=(CATALOG&&CATALOG[curCat])||[];
   var cs=document.getElementById('catSearch'); var q=cs?norm(cs.value):'';
   if(q) list=list.filter(function(b){return norm((b.desc||b.n||'')+' '+(b.ncm||'')).indexOf(q)>-1;});
-  if(!list.length){ g.innerHTML='<div class="empty" style="grid-column:1/-1">'+(q?'Nenhum bem encontrado para “'+cs.value+'”.':'Catálogo sendo carregado…')+'</div>'; return; }
-  g.innerHTML=list.map(function(b){
-    var nome=b.desc||b.n||'';
-    return '<div class="cat-card"><svg viewBox="0 0 48 48" aria-hidden="true">'+(CATICONS[b.ic]||CATICONS.tubo)+'</svg>'+
-      '<div class="cat-tx"><b>'+nome+'</b>'+(b.ncm?'<span class="cat-ncm">NCM '+b.ncm+'</span>':'')+'</div></div>';
-  }).join('');
+  if(!list.length){ g.innerHTML='<div class="empty" style="grid-column:1/-1">'+(q?'Nenhum bem encontrado para “'+cs.value+'”.':'Catálogo sendo carregado…')+'</div>'; if(pg)pg.innerHTML=''; return; }
+  var pages=Math.ceil(list.length/CAT_SIZE);
+  if(catPage>pages) catPage=pages; if(catPage<1) catPage=1;
+  g.innerHTML=list.slice((catPage-1)*CAT_SIZE, catPage*CAT_SIZE).map(catCard).join('');
+  if(pg) pg.innerHTML=catPagerHTML(list.length,catPage);
 }
 async function loadCatalog(){
   try{ var r=await fetchWithTimeout('catalog.json?_='+Date.now(),9000); if(r.ok){ var d=await r.json(); if(d&&d.tables&&(d.tables.T1||[]).length) CATALOG=d.tables; } }catch(e){}
@@ -1237,9 +1258,11 @@ async function loadCatalog(){
 }
 document.querySelectorAll('[data-cat]').forEach(function(b){b.addEventListener('click',function(){
   document.querySelectorAll('[data-cat]').forEach(function(x){x.classList.remove('active');});
-  b.classList.add('active'); curCat=b.dataset.cat; renderCat();
+  b.classList.add('active'); curCat=b.dataset.cat; catPage=1; renderCat();
 });});
-var catS=document.getElementById('catSearch'); if(catS) catS.addEventListener('input',renderCat);
+var catS=document.getElementById('catSearch'); if(catS) catS.addEventListener('input',function(){catPage=1;renderCat();});
+var catPg=document.getElementById('catPager');
+if(catPg) catPg.addEventListener('click',function(e){var b=e.target.closest?e.target.closest('.pg'):null; if(!b||b.disabled)return; catPage=parseInt(b.getAttribute('data-pg'),10)||1; renderCat(); var t=document.getElementById('catGrid'); if(t)t.scrollIntoView({block:'nearest',behavior:'smooth'});});
 loadCatalog();
 
 /* ===================== MODAL DAS TENDÊNCIAS (resumo traduzido + fontes) ===================== */
