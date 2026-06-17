@@ -133,6 +133,7 @@
   .ncard .links{margin-top:auto;display:flex;gap:16px;font-size:.84rem;font-weight:600;padding-top:8px;border-top:1px solid var(--line)}
   .translated{font-size:.68rem;color:var(--pet-green-d);font-weight:700;background:#e3f6ec;padding:2px 8px;border-radius:20px}
   .loading,.empty{padding:44px;text-align:center;color:var(--muted);grid-column:1/-1;background:#fff;border:1px dashed var(--line);border-radius:var(--r)}
+  .news-hint{grid-column:1/-1;text-align:center;color:var(--muted);font-size:.84rem;padding:8px 0 0}
   .spinner{display:inline-block;width:22px;height:22px;border:3px solid var(--line);border-top-color:var(--teal);border-radius:50%;animation:spin .8s linear infinite;vertical-align:middle;margin-right:10px}
   @keyframes spin{to{transform:rotate(360deg)}}
 
@@ -963,8 +964,9 @@ function render(){
   else if(curFilter==='LEI') items=ALL.filter(function(n){return n.reg==='LEI';});
   else if(curFilter==='PET') items=ALL.filter(function(n){return /petrobras/i.test(n.title+n.desc);});
   if(query){var q=norm(query);items=items.filter(function(n){return norm((n.title||'')+' '+(n.desc||'')+' '+(n.src||'')).indexOf(q)>-1;});}
-  if(items.length===0){grid.innerHTML='<div class="empty">'+(query?'Nenhuma notícia encontrada para “'+query+'”. Tente outra palavra.':'Nenhuma notícia neste filtro no momento.')+'</div>';return;}
-  grid.innerHTML=items.slice(0,60).map(function(n){
+  else{var lim7=Date.now()-7*24*3600*1000;items=items.filter(function(n){var d=new Date(n.date).getTime();return isNaN(d)?true:d>=lim7;});}
+  if(items.length===0){grid.innerHTML='<div class="empty">'+(query?'Nenhuma notícia encontrada para “'+query+'”. Tente outra palavra.':'Nenhuma notícia dos últimos 7 dias neste filtro. 🔎 Use a busca para ver o arquivo completo.')+'</div>';return;}
+  var __cards=items.slice(0,60).map(function(n){
     return '<article class="ncard"><div class="meta">'+
       '<span class="src-tag">'+n.src+'</span>'+
       '<span class="reg-tag reg-'+n.reg+'">'+(n.reg==='BR'?'Brasil':(n.reg==='INT'?'Internacional':'Legislação'))+'</span>'+
@@ -974,6 +976,8 @@ function render(){
       (n.reg==='INT'?'<a href="https://translate.google.com/translate?sl=auto&tl=pt&u='+encodeURIComponent(n.link)+'" target="_blank" rel="noopener">Ler traduzida ↗</a>':'')+
       '</div></article>';
   }).join('');
+  if(!query){ __cards+='<div class="news-hint">📅 Mostrando as notícias dos últimos 7 dias. Use a busca acima para acessar todo o arquivo (até 1 ano).</div>'; }
+  grid.innerHTML=__cards;
 }
 
 document.querySelectorAll('[data-f]').forEach(function(b){b.addEventListener('click',function(){
