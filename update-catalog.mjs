@@ -51,11 +51,11 @@ function parseTable(text, startRe, endRe, hasActivity) {
 const res = await fetch(URL, { headers: { "User-Agent": "Mozilla/5.0 PetroHubBot" } });
 if (!res.ok) { console.error("HTTP", res.status); process.exit(1); }
 const ab = await res.arrayBuffer();
-let charset = ((res.headers.get('content-type') || '').match(/charset=([\w-]+)/i) || [])[1] || 'utf-8';
-let html = new TextDecoder(charset).decode(ab);
-const meta = html.match(/charset=["']?([\w-]+)/i);
-if (meta && meta[1].toLowerCase() !== charset.toLowerCase()) {
-  try { html = new TextDecoder(meta[1]).decode(ab); } catch (e) {}
+// A página do Planalto costuma ser ISO-8859-1/Windows-1252. Tenta UTF-8;
+// se aparecer caractere de substituição, redecodifica como windows-1252.
+let html = new TextDecoder('utf-8', { fatal: false }).decode(ab);
+if (html.includes('�')) {
+  html = new TextDecoder('windows-1252').decode(ab);
 }
 // remove scripts/estilos e tags; decodifica entidades básicas; normaliza espaços
 let t = html.replace(/<(script|style)[\s\S]*?<\/\1>/gi, ' ').replace(/<[^>]+>/g, ' ');
