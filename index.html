@@ -132,10 +132,6 @@
   .ncard .date{font-size:.74rem;color:var(--faint)}
   .ncard .links{margin-top:auto;display:flex;gap:16px;font-size:.84rem;font-weight:600;padding-top:8px;border-top:1px solid var(--line)}
   .translated{font-size:.68rem;color:var(--pet-green-d);font-weight:700;background:#e3f6ec;padding:2px 8px;border-radius:20px}
-  .reacts{display:flex;gap:6px;margin-top:10px}
-  .react-btn{border:1px solid var(--line);background:#fff;border-radius:20px;padding:3px 11px;font-size:.98rem;line-height:1;cursor:pointer;transition:.15s;filter:grayscale(.35);opacity:.7}
-  .react-btn:hover{border-color:var(--teal);transform:translateY(-1px);filter:none;opacity:1}
-  .react-btn.on{border-color:var(--teal);background:#e6f4f8;filter:none;opacity:1;box-shadow:0 0 0 2px rgba(25,167,196,.15)}
   .loading,.empty{padding:44px;text-align:center;color:var(--muted);grid-column:1/-1;background:#fff;border:1px dashed var(--line);border-radius:var(--r)}
   .spinner{display:inline-block;width:22px;height:22px;border:3px solid var(--line);border-top-color:var(--teal);border-radius:50%;animation:spin .8s linear infinite;vertical-align:middle;margin-right:10px}
   @keyframes spin{to{transform:rotate(360deg)}}
@@ -174,6 +170,17 @@
   .launch-item .lmeta{font-size:.85rem;overflow:hidden}
   .launch-item .lmeta b{color:var(--petrol);display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
   .launch-item .lmeta span{color:var(--muted);font-size:.73rem}
+  .qrow{display:grid;grid-template-columns:repeat(auto-fill,minmax(152px,1fr));gap:12px;margin-bottom:6px}
+  .q-group{color:var(--petrol);font-size:1rem;font-weight:700;margin:16px 0 10px}
+  .qcard{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;box-shadow:var(--sh-sm);transition:.18s}
+  .qcard:hover{transform:translateY(-2px);box-shadow:var(--sh)}
+  .qcard .qsym{font-family:'Sora';font-weight:800;color:var(--petrol);font-size:1.02rem}
+  .qcard .qname{font-size:.73rem;color:var(--muted);margin-bottom:9px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .qcard .qprice{font-size:1.12rem;font-weight:700;color:#22333b}
+  .qcard .qchg{font-size:.84rem;font-weight:700;margin-top:3px;display:inline-block}
+  .qcard .qchg.up{color:#1f9d57}
+  .qcard .qchg.down{color:#d23b3b}
+  .qcard .qchg.flat{color:var(--muted)}
 
   /* VESSELS */
   .vgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:20px}
@@ -329,6 +336,7 @@
     <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
     <nav class="links">
       <a href="#noticias">Notícias</a>
+      <a href="#mercado">Mercado</a>
       <a href="#players">Players</a>
       <a href="#navios">Navios &amp; Equipamentos</a>
       <a href="#legislacao">Legislação</a>
@@ -436,6 +444,13 @@
     <button class="filterbtn" data-p="SERV">Serviços &amp; Cadeia</button>
   </div>
   <div class="pgrid" id="playersGrid"></div>
+</section>
+
+<section id="mercado">
+  <div class="sec-head"><span class="kicker">Bolsas em foco</span><h2>Mercado — Ações do setor</h2></div>
+  <p class="sec-sub">Cotações de empresas de óleo &amp; gás e de novas energias (incluindo a SpaceX) em bolsas do mundo. <span id="quotesNote">Carregando…</span></p>
+  <div id="quotesGrid"><div class="loading"><span class="spinner"></span>Carregando cotações...</div></div>
+  <div class="note">📈 Valores em diferentes moedas (US$, R$…), com atraso e apenas informativos — não são recomendação de investimento.</div>
 </section>
 
 <section id="navios">
@@ -843,9 +858,6 @@ var SEED=[
 
 function stripHtml(s){var d=document.createElement('div');d.innerHTML=s||'';return (d.textContent||'').trim();}
 function norm(s){return (s||'').toLowerCase().normalize('NFD').replace(new RegExp("[\\u0300-\\u036f]","g"),'');}
-function getReacts(){try{return JSON.parse(localStorage.getItem('petrohub_reacts')||'{}');}catch(e){return {};}}
-function setReact(link,r){var s=getReacts(); if(s[link]===r){delete s[link];}else{s[link]=r;} try{localStorage.setItem('petrohub_reacts',JSON.stringify(s));}catch(e){} return s[link]||'';}
-function reactBar(link){var s=getReacts(); var mine=s[link]||''; var defs=[['like','👍'],['love','❤️'],['fire','🔝']]; return '<div class="reacts" data-link="'+encodeURIComponent(link)+'">'+defs.map(function(d){return '<button type="button" class="react-btn'+(mine===d[0]?' on':'')+'" data-r="'+d[0]+'">'+d[1]+'</button>';}).join('')+'</div>';}
 function fmtDate(d){try{var dt=new Date(d);if(isNaN(dt))return '';return dt.toLocaleDateString('pt-BR',{day:'2-digit',month:'short',year:'numeric'})+' · '+dt.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'});}catch(e){return '';}}
 
 function fetchWithTimeout(url,ms){
@@ -953,7 +965,7 @@ function render(){
       '</div><h3>'+n.title+'</h3><div class="date">'+fmtDate(n.date)+'</div>'+
       '<div class="links"><a href="'+n.link+'" target="_blank" rel="noopener">Ler matéria ↗</a>'+
       (n.reg==='INT'?'<a href="https://translate.google.com/translate?sl=auto&tl=pt&u='+encodeURIComponent(n.link)+'" target="_blank" rel="noopener">Ler traduzida ↗</a>':'')+
-      '</div>'+reactBar(n.link)+'</article>';
+      '</div></article>';
   }).join('');
 }
 
@@ -962,7 +974,6 @@ document.querySelectorAll('[data-f]').forEach(function(b){b.addEventListener('cl
   b.classList.add('active'); curFilter=b.dataset.f; render();
 });});
 var nsEl=document.getElementById('newsSearch'); if(nsEl) nsEl.addEventListener('input',function(e){query=e.target.value.trim(); render();});
-document.getElementById('newsGrid').addEventListener('click',function(e){var b=e.target.closest?e.target.closest('.react-btn'):null; if(!b) return; var bar=b.parentNode; var link=decodeURIComponent(bar.getAttribute('data-link')); var now=setReact(link,b.getAttribute('data-r')); [].slice.call(bar.querySelectorAll('.react-btn')).forEach(function(x){x.className=(x.getAttribute('data-r')===now)?'react-btn on':'react-btn';});});
 document.getElementById('refreshBtn').addEventListener('click',loadNews);
 loadNews();
 
@@ -1025,6 +1036,35 @@ async function loadLaunches(){
   }catch(e){ hide(); }
 }
 loadLaunches();
+
+/* ===================== MERCADO: cotações de ações (quotes.json) ===================== */
+async function loadQuotes(){
+  var grid=document.getElementById('quotesGrid'); if(!grid) return;
+  function moeda(cur){return cur==='BRL'?'R$ ':cur==='USD'?'US$ ':cur==='GBP'?'£ ':cur==='EUR'?'€ ':cur==='NOK'?'kr ':(cur?cur+' ':'');}
+  function fmtPrice(p,cur){ if(p==null||isNaN(p)) return '—'; return moeda(cur)+Number(p).toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2}); }
+  function card(q){
+    var chg=q.changePct, cls=chg==null?'flat':(chg>=0?'up':'down');
+    var txt=chg==null?'—':((chg>=0?'▲ ':'▼ ')+Math.abs(chg).toFixed(2)+'%');
+    return '<div class="qcard"><div class="qsym">'+String(q.sym||'').replace('.SA','')+'</div>'+
+      '<div class="qname">'+(q.name||'')+'</div>'+
+      '<div class="qprice">'+fmtPrice(q.price,q.currency)+'</div>'+
+      '<div class="qchg '+cls+'">'+txt+'</div></div>';
+  }
+  try{
+    var r=await fetchWithTimeout('quotes.json?_='+Date.now(),9000); if(!r.ok) throw 0;
+    var d=await r.json(); var qs=(d&&d.quotes)||[];
+    if(!qs.length) throw 0;
+    var oil=qs.filter(function(q){return q.group==='oil';}), nw=qs.filter(function(q){return q.group==='new';});
+    grid.innerHTML='<h3 class="q-group">⛽ Óleo &amp; Gás</h3><div class="qrow">'+oil.map(card).join('')+'</div>'+
+      '<h3 class="q-group">⚡ Novas Energias &amp; Espaço</h3><div class="qrow">'+nw.map(card).join('')+'</div>';
+    var note=document.getElementById('quotesNote');
+    if(note){ var w=d.updated?new Date(d.updated).toLocaleString('pt-BR',{day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit'}):''; note.textContent=w?('Atualizado em '+w+'.'):''; }
+  }catch(e){
+    grid.innerHTML='<div class="empty">As cotações estão sendo preparadas pelo servidor. Volte em alguns minutos.</div>';
+    var n2=document.getElementById('quotesNote'); if(n2) n2.textContent='';
+  }
+}
+loadQuotes();
 
 /* ===================== MODAL DAS TENDÊNCIAS (resumo traduzido + fontes) ===================== */
 var TRENDINFO=[
