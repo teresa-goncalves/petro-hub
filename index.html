@@ -69,7 +69,7 @@
   .hero-bg .grid{position:absolute;inset:0;opacity:.5;
     background-image:linear-gradient(rgba(255,255,255,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.05) 1px,transparent 1px);
     background-size:46px 46px;mask-image:radial-gradient(ellipse 80% 70% at 50% 0%,#000,transparent 75%)}
-  .hero-deco{position:absolute;right:2%;bottom:-2px;width:min(46%,560px);opacity:.5;pointer-events:none}
+  .hero-deco{position:absolute;right:0;bottom:0;height:94%;width:min(60%,760px);object-fit:contain;object-position:right bottom;opacity:.95;pointer-events:none}
   .hero-inner{position:relative;max-width:1200px;margin:0 auto;padding:50px 24px 56px}
   .eyebrow{display:inline-flex;align-items:center;gap:9px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.16);color:#cdeef7;padding:7px 16px;border-radius:30px;font-size:.74rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;margin-bottom:22px}
   .eyebrow .led{width:8px;height:8px;border-radius:50%;background:#34e08b;box-shadow:0 0 0 4px rgba(52,224,139,.25)}
@@ -352,39 +352,21 @@
   <div class="hero-bg" aria-hidden="true">
     <span class="glow g1"></span><span class="glow g2"></span><span class="grid"></span>
   </div>
-  <svg class="hero-deco" viewBox="0 0 560 280" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <img class="hero-deco" src="hero-platform.png" alt="Plataforma de petróleo offshore" loading="lazy" onload="var f=document.querySelector('.hero-deco-fallback');if(f)f.style.display='none'" onerror="this.style.display='none'">
+  <svg class="hero-deco-fallback" viewBox="0 0 560 280" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;right:2%;bottom:-2px;width:min(46%,560px);opacity:.5;pointer-events:none">
     <g stroke="#7fd6e8" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" opacity="0.92">
-      <!-- jaqueta / pernas -->
       <line x1="312" y1="172" x2="290" y2="248"/><line x1="362" y1="172" x2="352" y2="248"/>
       <line x1="430" y1="172" x2="440" y2="248"/><line x1="480" y1="172" x2="502" y2="248"/>
       <line x1="300" y1="200" x2="494" y2="200"/><line x1="296" y1="226" x2="498" y2="226"/>
-      <path d="M312 172 L352 200 M362 172 L300 200" opacity=".55"/>
-      <path d="M430 172 L498 200 M480 172 L432 200" opacity=".55"/>
-      <path d="M300 200 L352 226 M352 200 L296 226" opacity=".45"/>
-      <path d="M440 200 L498 226 M494 200 L440 226" opacity=".45"/>
-      <!-- convés -->
       <rect x="296" y="158" width="200" height="14" fill="#0e4a5b"/>
       <rect x="298" y="151" width="196" height="7" fill="#13647a"/>
-      <!-- módulos do topside -->
       <rect x="404" y="128" width="42" height="30" fill="#0e4a5b"/>
-      <rect x="450" y="134" width="32" height="24" fill="#13647a"/>
       <rect x="304" y="134" width="34" height="24" fill="#13647a"/>
-      <!-- helideck -->
       <ellipse cx="321" cy="120" rx="27" ry="9" fill="#0e4a5b"/>
-      <line x1="314" y1="116" x2="314" y2="125"/><line x1="328" y1="116" x2="328" y2="125"/><line x1="314" y1="120" x2="328" y2="120"/>
-      <!-- torre de perfuração (derrick) -->
       <path d="M356 158 L366 58 L384 58 L394 158"/>
       <line x1="361" y1="100" x2="389" y2="100"/><line x1="358" y1="130" x2="392" y2="130"/>
-      <path d="M356 158 L389 100 M394 158 L361 100" opacity=".5"/>
-      <path d="M361 130 L384 100 M389 130 L366 100" opacity=".45"/>
-      <line x1="375" y1="58" x2="375" y2="40"/>
       <polygon points="375,40 369,52 381,52" fill="#19a7c4" opacity=".65"/>
-      <!-- guindaste -->
       <line x1="470" y1="158" x2="470" y2="118"/><line x1="470" y1="122" x2="522" y2="92"/>
-      <line x1="470" y1="132" x2="522" y2="92"/><line x1="522" y1="92" x2="522" y2="110"/>
-      <!-- flare boom + chama -->
-      <line x1="298" y1="150" x2="244" y2="100"/>
-      <path d="M244 100 q-7 -11 2 -20 q5 9 11 4 q-2 14 -13 16z" fill="#f2a23a" stroke="#f2a23a" stroke-width="1.5" opacity=".75"/>
     </g>
     <g stroke="#4fd6f0" stroke-width="2" fill="none" opacity=".5">
       <path d="M0 250 Q70 235 140 250 T280 250 T420 250 T560 250"/>
