@@ -1,6 +1,14 @@
 {
- "updated": "2026-06-17T01:51:22.466Z",
+ "updated": "2026-06-17T10:59:53.550Z",
  "quotes": [
+  {
+   "sym": "BZ=F",
+   "name": "Petróleo Brent",
+   "group": "commodity",
+   "price": 79.03,
+   "changePct": 0.09,
+   "currency": "USD"
+  },
   {
    "sym": "PBR",
    "name": "Petrobras (ADR)",
