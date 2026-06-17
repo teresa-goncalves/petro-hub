@@ -172,7 +172,7 @@
   .launch-item .lmeta span{color:var(--muted);font-size:.73rem}
   .qrow{display:grid;grid-template-columns:repeat(auto-fill,minmax(122px,1fr));gap:10px;margin-bottom:6px}
   .q-group{color:var(--petrol);font-size:1rem;font-weight:700;margin:16px 0 10px}
-  .qcard{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 11px;box-shadow:var(--sh-sm);transition:.18s}
+  .qcard{display:block;text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 11px;box-shadow:var(--sh-sm);transition:.18s}
   .qcard:hover{transform:translateY(-2px);box-shadow:var(--sh)}
   .qcard .qsym{font-family:'Sora';font-weight:800;color:var(--petrol);font-size:1.02rem}
   .qcard .qname{font-size:.73rem;color:var(--muted);margin-bottom:9px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
@@ -1045,10 +1045,11 @@ async function loadQuotes(){
   function card(q){
     var chg=q.changePct, cls=chg==null?'flat':(chg>=0?'up':'down');
     var txt=chg==null?'—':((chg>=0?'▲ ':'▼ ')+Math.abs(chg).toFixed(2)+'%');
-    return '<div class="qcard"><div class="qsym">'+String(q.sym||'').replace('.SA','')+'</div>'+
+    var href='https://finance.yahoo.com/quote/'+encodeURIComponent(q.sym||'');
+    return '<a class="qcard" href="'+href+'" target="_blank" rel="noopener" title="Ver '+(q.name||q.sym)+' na bolsa"><div class="qsym">'+String(q.sym||'').replace('.SA','')+'</div>'+
       '<div class="qname">'+(q.name||'')+'</div>'+
       '<div class="qprice">'+fmtPrice(q.price,q.currency)+'</div>'+
-      '<div class="qchg '+cls+'">'+txt+'</div></div>';
+      '<div class="qchg '+cls+'">'+txt+'</div></a>';
   }
   try{
     var r=await fetchWithTimeout('quotes.json?_='+Date.now(),9000); if(!r.ok) throw 0;
