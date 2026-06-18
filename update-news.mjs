@@ -7,7 +7,9 @@ const FEEDS = [
   { url: "https://petronoticias.com.br/feed/", src: "Petronotícias", reg: "BR" },
   { url: "https://tnpetroleo.com.br/feed/", src: "TN Petróleo", reg: "BR" },
   { url: "https://oilprice.com/rss/main", src: "OilPrice", reg: "INT" },
-  { url: "https://www.offshore-energy.biz/feed/", src: "Offshore Energy", reg: "INT" }
+  { url: "https://www.offshore-energy.biz/feed/", src: "Offshore Energy", reg: "INT" },
+  { url: "https://clickpetroleoegas.com.br/feed/", src: "ClickPetróleoeGás", reg: "BR" },
+  { url: "https://www.cnnbrasil.com.br/feed/", src: "CNN Brasil", reg: "BR" }
 ];
 
 // Relevância (aplicada às fontes brasileiras, que misturam temas)
@@ -58,7 +60,7 @@ async function translatePt(text) {
     if (!r.ok) return null;
     const j = await r.json();
     return j[0].map(s => s[0]).join("");
-  } catch (e) { return null; }
+  } catch (e) { return []; }
 }
 
 const results = await Promise.all(FEEDS.map(parseFeed));
