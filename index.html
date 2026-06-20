@@ -1050,7 +1050,7 @@ async function loadNews(){
 }
 
 var DECRX=/descomission|decommission|abandono de po[\u00e7c]o|desativa[\u00e7c][\u00e3a]o de plataforma|desmobiliza[\u00e7c][\u00e3a]o de plataforma|reciclagem de (plataforma|navio)|reciclagem naval|sucateamento|plataforma desativad/i;
-function render(){
+function render(){ALL=ALL.filter(function(n){return !BLOCKRX.test((n.title||'')+' '+(n.desc||''));});
   var grid=document.getElementById('newsGrid');
   var items=ALL;
   if(curFilter==='BR') items=ALL.filter(function(n){return n.reg==='BR';});
