@@ -934,6 +934,7 @@ var PROXIES=[
 ];
 var ALL=[]; var curFilter="all"; var query="";
 var GEORX=/trump|ormuz|ucr[âa]ni|ukrain|ir[ãa]\b|iran|teer[ãa]|r[úu]ssia|russo|guerra|\bwar\b|san[çc][õo]|sanction|tarifa|tariff|embargo|\bopep\b|\bopec\b|venezuela|oriente m[ée]dio|middle east|geopol[íi]t|conflito|nord stream|houthi|h[uú]thi|israel|g[áa]za/i;
+var BLOCKRX=/c[âa]ncer|cancer|colorretal|colorectal|tumor|oncolog|carcinom|doen[çc]a|disease|\bsa[úu]de\b|\bhealth\b|m[ée]dic|medical|hospital|cl[íi]nic|paciente|patient|sintoma|symptom|diagnost|diagnosis|terapia|therapy|vacina|vaccine|v[íi]rus|epidemi|pandemic|obesidade|obesity|diabetes|alzheimer|nutri|\bdiet\b|est[áa]gi|emprego|\bvaga(s)?\b|contrata[çc]|recrut|hiring|\bjob(s)?\b|vacancy|carreira|concurso|sal[áa]rio|curr[íi]culo/i;
 
 // DESTAQUES sempre disponíveis (manchetes reais; internacionais já traduzidas).
 // Atualizados periodicamente; servem de base caso o feed ao vivo esteja indisponível.
@@ -1020,7 +1021,7 @@ async function loadNews(){
   var live=[].concat.apply([],results);
   // filtro de relevância: mantém só notícias do setor de óleo e gás
   var RX=/petr[oó]le|petrobras|\bg[aá]s\b|[oó]leo|offshore|pr[eé]-?sal|\bANP\b|repetro|fpso|combust|explora[çc]|barril|\boil\b|petroleum|upstream|refin|po[çc]o|sonda|plataforma|bacia (de|do) (santos|campos|parna)|equinor|shell|prio|braskem|descomission|decommission|desativa[çc][ãa]o|abandono de po[çc]o|plug.?and.?abandon|well abandon/i;
-  live=live.filter(function(n){return RX.test((n.title||'')+' '+(n.desc||''));});
+  live=live.filter(function(n){var s=(n.title||'')+' '+(n.desc||'');return RX.test(s)&&!BLOCKRX.test(s);});
   // traduz as manchetes internacionais que vieram ao vivo
   var intItems=live.filter(function(n){return n.reg==='INT';});
   await Promise.all(intItems.map(async function(n){
@@ -1095,7 +1096,7 @@ async function loadTrendNews(){
   try{
     var res=await Promise.all(TREND_FEEDS.map(fetchFeed));
     var items=[].concat.apply([],res);
-    items=items.filter(function(n){return TRENDRX.test((n.title||'')+' '+(n.desc||''));});
+    items=items.filter(function(n){var s=(n.title||'')+' '+(n.desc||'');return TRENDRX.test(s)&&!BLOCKRX.test(s);});
     var seen={}, uniq=[];
     items.forEach(function(n){var k=norm(n.title||'').slice(0,55); if(!n.title||seen[k])return; seen[k]=1; uniq.push(n);});
     var SX=/spacex|starship|elon musk|\bfalcon\b|starlink|\bmusk\b/i;
