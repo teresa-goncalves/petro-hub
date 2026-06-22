@@ -15,6 +15,15 @@ const FEEDS = [
 // Relevância (aplicada às fontes brasileiras, que misturam temas)
 const RX = /petr[oó]le|petrobras|\bg[aá]s\b|[oó]leo|offshore|pr[eé]-?sal|\bANP\b|repetro|fpso|combust|explora[çc]|barril|\boil\b|petroleum|upstream|refin|po[çc]o|sonda|plataforma|equinor|shell|prio|braskem|descomission|decommission|desativa[çc][ãa]o|abandono de po[çc]o|plug.?and.?abandon|well abandon/i;
 
+// Bloqueio de temas fora do setor (mesmo que a fonte cite "óleo e gás" no rodapé): saúde, previdência, vagas, etc.
+const BLOCKRX = /c[âa]ncer|cancer|colorretal|colorectal|tumor|oncolog|carcinom|doen[çc]a|disease|\bsa[úu]de\b|\bhealth\b|m[ée]dic|medical|hospital|cl[íi]nic|paciente|patient|sintoma|symptom|diagnost|diagnosis|terapia|therapy|tratamento m[ée]dic|vacina|vaccine|v[íi]rus|viral|epidemi|pandemic|obesidade|obesity|diabetes|alzheimer|cardíac|cardiac|nutri|dieta|\bdiet\b|\binss\b|aposentador|aposentadoria|previd[êe]nci|\bbpc\b|pens[ãa]o|pens[õo]es|sal[áa]rio[- ]?m[íi]nimo|abono salarial|bolsa fam[íi]lia|aux[íi]lio|\bfgts\b|13[ºo] sal[áa]rio|concurso p[úu]blico|\bvaga\b|\bvagas\b|emprego|contrata[çc][ãa]o de pessoal|loteria|mega-?sena|hor[óo]scopo|celebridad|novela|\bbbb\b|futebol|campeonato/i;
+
+// Mantém só notícias do setor: legislação sempre entra; demais precisam casar RX e não casar BLOCKRX.
+const ok = (n) => {
+  const s = (n.title || "") + " " + (n.desc || "");
+  return n.reg === "LEI" || (RX.test(s) && !BLOCKRX.test(s));
+};
+
 function decode(s) {
   return (s || "")
     .replace(/<!\[CDATA\[/g, "").replace(/\]\]>/g, "")
@@ -60,11 +69,11 @@ async function translatePt(text) {
     if (!r.ok) return null;
     const j = await r.json();
     return j[0].map(s => s[0]).join("");
-  } catch (e) { return []; }
+  } catch (e) { return null; }
 }
 
 const results = await Promise.all(FEEDS.map(parseFeed));
-const fresh = results.flat().filter(n => RX.test(n.title + " " + n.desc));
+const fresh = results.flat().filter(ok);
 
 // Carrega o arquivo existente e mescla (sem sobrescrever itens já salvos)
 const store = {};
@@ -88,9 +97,10 @@ for (const n of fresh) {
   }
 }
 
-// Remove o que tem mais de 365 dias e ordena
+// Remove itens fora do tema (ex.: INSS/previdência/vagas) e o que tem mais de 365 dias; ordena
 const lim = Date.now() - 365 * 24 * 3600 * 1000;
 let all = Object.values(store).filter(n => {
+  if (!ok(n)) return false; // limpa itens fora do tema que ficaram salvos em execuções anteriores
   const d = new Date(n.date).getTime();
   return isNaN(d) ? true : d >= lim;
 });
