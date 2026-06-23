@@ -650,6 +650,7 @@
   <div class="sec-head"><span class="kicker">Agenda do setor</span><h2>Eventos &amp; Conferências</h2></div>
   <p class="sec-sub">Principais feiras, congressos e conferências de óleo e gás no Brasil e no mundo, para acompanhar e fazer networking. Datas e locais conforme divulgação dos organizadores.</p>
   <div class="ev-grid">
+    <div class="ev-card dest"><div class="ev-date"><span class="d">23–25</span><span class="m">JUN 2026</span></div><div class="ev-body"><span class="ev-tag br">Brasil</span><h4>Energy Summit 2026</h4><p>Rio de Janeiro (Marina da Glória) · transição energética, inovação e sustentabilidade — os 5Ds da energia.</p><a href="https://www.google.com/search?q=Energy+Summit+2026+Rio+de+Janeiro" target="_blank" rel="noopener">Saiba mais ↗</a></div></div>
     <div class="ev-card"><div class="ev-date"><span class="d">14–17</span><span class="m">SET 2026</span></div><div class="ev-body"><span class="ev-tag world">Mundo</span><h4>Gastech 2026</h4><p>Bangkok, Tailândia · maior evento global de gás natural, GNL e energia.</p><a href="https://www.google.com/search?q=Gastech+2026+Bangkok" target="_blank" rel="noopener">Saiba mais ↗</a></div></div>
     <div class="ev-card dest"><div class="ev-date"><span class="d">21–24</span><span class="m">SET 2026</span></div><div class="ev-body"><span class="ev-tag br">Brasil</span><h4>ROG.e — Rio Oil, Gas and Energy</h4><p>Rio de Janeiro · o maior evento de óleo e gás da América Latina.</p><a href="https://www.google.com/search?q=ROG.e+Rio+Oil+Gas+Energy+2026" target="_blank" rel="noopener">Saiba mais ↗</a></div></div>
     <div class="ev-card"><div class="ev-date"><span class="d">11–15</span><span class="m">OUT 2026</span></div><div class="ev-body"><span class="ev-tag world">Mundo</span><h4>WPC — 25º Congresso Mundial do Petróleo</h4><p>Riad, Arábia Saudita · o principal congresso global do setor.</p><a href="https://www.google.com/search?q=World+Petroleum+Congress+2026+Riyadh" target="_blank" rel="noopener">Saiba mais ↗</a></div></div>
@@ -1035,7 +1036,7 @@ async function loadNews(){
   var fresh=live.concat(shared).concat(SEED);
   fresh=fresh.filter(function(n){return RX.test((n.title||'')+' '+(n.desc||''));}); // relevância (vale p/ todas as origens)
   // ARQUIVO ROLANTE (até 1 ano) — acumula as notícias no navegador (localStorage), removendo o que passa de 365 dias
-  var KEY='petrohub_news_v3', store={};
+  var KEY='petrohub_news_v4', store={};
   try{store=JSON.parse(localStorage.getItem(KEY)||'{}');}catch(e){store={};}
   fresh.forEach(function(n){var k=(n.link||n.title); if(!k) return; store[k]={title:n.title,link:n.link,date:(store[k]&&store[k].date)||n.date||new Date().toISOString(),desc:n.desc,src:n.src,reg:n.reg,translated:!!n.translated};});
   var lim=Date.now()-365*24*3600*1000;
