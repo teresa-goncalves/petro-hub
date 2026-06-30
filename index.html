@@ -159,6 +159,9 @@
   .pcard p{font-size:.92rem;color:#3a4d56}
   .pcard .fig{margin-top:12px;padding-top:12px;border-top:1px solid var(--line);font-size:.84rem;color:var(--muted)}
   .pcard .fig b{color:var(--petrol);font-family:'Sora'}
+  .pcard .plink{margin-top:12px}
+  .pcard .plink a{display:inline-flex;align-items:center;gap:5px;font-size:.8rem;font-weight:700;color:var(--teal-d);text-decoration:none;border:1px solid var(--line);background:var(--bg2);padding:6px 12px;border-radius:20px;transition:.2s}
+  .pcard .plink a:hover{background:var(--pet-green);color:#fff;border-color:var(--pet-green)}
   .ptable-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--sh-sm);background:var(--card);-webkit-overflow-scrolling:touch}
   .ptable{width:100%;border-collapse:collapse;font-size:.9rem;min-width:760px}
   .ptable thead th{background:var(--petrol);color:#fff;text-align:left;padding:12px 14px;font-size:.7rem;text-transform:uppercase;letter-spacing:.05em;font-weight:700;white-space:nowrap}
@@ -294,8 +297,6 @@
   /* REFORMA */
   .ref-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px;margin-top:6px}
   .ref-card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:20px 22px;box-shadow:var(--sh-sm);transition:.2s;border-top:3px solid var(--teal)}
-  a.ref-card{display:block;text-decoration:none;color:inherit}
-  a.ref-card:hover{transform:translateY(-3px);box-shadow:var(--sh);border-top-color:var(--gold)}
   .ref-card:hover{transform:translateY(-3px);box-shadow:var(--sh)}
   .ref-card h4{color:var(--petrol);font-size:1.05rem;margin-bottom:6px;font-weight:700}
   .ref-card p{font-size:.9rem;color:#3a4d56}
@@ -304,7 +305,6 @@
   .ref-news a:hover{transform:translateY(-2px);box-shadow:var(--sh);text-decoration:none}
   .ref-news .s{font-size:.72rem;color:var(--gold-d);font-weight:700;text-transform:uppercase;letter-spacing:.04em}
   .ref-news .t{display:block;color:var(--petrol);font-weight:600;font-size:.95rem;margin-top:4px}
-  .ref-news .d{display:block;font-size:.74rem;color:var(--muted);font-weight:600;margin-top:7px}
   .ref-card.tcard{padding:0;overflow:hidden}
   .t-art{height:132px;position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
   .t-art svg{width:100%;height:100%;display:block}
@@ -481,6 +481,7 @@
     <button class="filterbtn" data-f="INT">Internacional</button>
     <button class="filterbtn" data-f="GEO">Geopolítica</button>
     <button class="filterbtn" data-f="LEI">Legislação</button>
+    <button class="filterbtn" data-f="PET">Petrobras</button>
     <div class="refresh">
       <span class="upd" id="updated"></span>
       <button id="refreshBtn">↻ Atualizar</button>
@@ -549,7 +550,7 @@
   <div class="note">⚠️ Conteúdo de referência para estudo e trabalho; confirme sempre dados e prazos nas fontes oficiais.</div>
 </section>
 
-  <section id="legislacao">
+<section id="legislacao">
   <div class="sec-head"><span class="kicker">Núcleo técnico</span><h2>Legislação do Repetro-Sped e Repetro-Industrialização</h2></div>
   <p class="sec-sub">O regime aduaneiro especial que suspende/zera tributos federais sobre bens destinados à exploração e produção de petróleo e gás, e o tratamento de ICMS nos Estados.</p>
 
@@ -596,7 +597,17 @@
   <div class="uf-grid" id="ufGrid"></div>
   <div class="uf-detail" id="ufDetail"></div>
 
-    <div class="note">⚠️ Conteúdo de referência para estudo e trabalho — não substitui a consulta à norma na íntegra nem a orientação jurídica formal. Confira sempre o texto atualizado no site da Receita Federal, do CONFAZ e da SEFAZ-RJ.</div>
+  <h3 class="uf-title" style="margin-top:34px">Quadro-resumo (base nacional)</h3>
+  <table class="law-table">
+    <thead><tr><th>Operação</th><th>Tributos federais (Repetro-Sped)</th><th>ICMS (Convênio 03/2018)</th></tr></thead>
+    <tbody>
+      <tr><td><b>Admissão temporária</b> (uso econômico do bem estrangeiro)</td><td>Suspensão de II, IPI, PIS/Cofins</td><td>Isenção (bens da lista de NCM federal)</td></tr>
+      <tr><td><b>Importação definitiva</b> de bem permanente</td><td>Suspensão que se converte em isenção / alíquota zero</td><td>Redução de base → carga de <b>3%</b>, sem crédito</td></tr>
+      <tr><td><b>Aquisição no mercado interno</b> (Repetro-Industrialização)</td><td>Suspensão de IPI / PIS / Cofins na cadeia</td><td>Redução de base → carga de <b>3%</b>, sem crédito</td></tr>
+      <tr><td><b>Saída para utilização econômica</b></td><td>—</td><td>ICMS torna-se devido à UF onde ocorre a utilização econômica do bem</td></tr>
+    </tbody>
+  </table>
+  <div class="note">⚠️ Conteúdo de referência para estudo e trabalho — não substitui a consulta à norma na íntegra nem a orientação jurídica formal. Confira sempre o texto atualizado no site da Receita Federal, do CONFAZ e da SEFAZ-RJ.</div>
 </section>
 
 <section id="reforma">
@@ -650,7 +661,7 @@
   <div class="sec-head"><span class="kicker">Agenda do setor</span><h2>Eventos &amp; Conferências</h2></div>
   <p class="sec-sub">Principais feiras, congressos e conferências de óleo e gás no Brasil e no mundo, para acompanhar e fazer networking. Datas e locais conforme divulgação dos organizadores.</p>
   <div class="ev-grid">
-    <div class="ev-card dest"><div class="ev-date"><span class="d">23–25</span><span class="m">JUN 2026</span></div><div class="ev-body"><span class="ev-tag br">Brasil</span><h4>Energy Summit 2026</h4><p>Rio de Janeiro (Marina da Glória) · transição energética, inovação e sustentabilidade — os 5Ds da energia.</p><a href="https://www.google.com/search?q=Energy+Summit+2026+Rio+de+Janeiro" target="_blank" rel="noopener">Saiba mais ↗</a></div></div>
+    <div class="ev-card dest"><div class="ev-date"><span class="d">30–01</span><span class="m">JUN/JUL 2026</span></div><div class="ev-body"><span class="ev-tag br">Brasil</span><h4>Amazon Energy 2026</h4><p>Belém (PA) · 2ª edição (FIEPA) · transição energética, novas matrizes energéticas e desenvolvimento da Amazônia.</p><a href="https://www.google.com/search?q=Amazon+Energy+2026+Belem+FIEPA" target="_blank" rel="noopener">Saiba mais ↗</a></div></div>
     <div class="ev-card"><div class="ev-date"><span class="d">14–17</span><span class="m">SET 2026</span></div><div class="ev-body"><span class="ev-tag world">Mundo</span><h4>Gastech 2026</h4><p>Bangkok, Tailândia · maior evento global de gás natural, GNL e energia.</p><a href="https://www.google.com/search?q=Gastech+2026+Bangkok" target="_blank" rel="noopener">Saiba mais ↗</a></div></div>
     <div class="ev-card dest"><div class="ev-date"><span class="d">21–24</span><span class="m">SET 2026</span></div><div class="ev-body"><span class="ev-tag br">Brasil</span><h4>ROG.e — Rio Oil, Gas and Energy</h4><p>Rio de Janeiro · o maior evento de óleo e gás da América Latina.</p><a href="https://www.google.com/search?q=ROG.e+Rio+Oil+Gas+Energy+2026" target="_blank" rel="noopener">Saiba mais ↗</a></div></div>
     <div class="ev-card"><div class="ev-date"><span class="d">11–15</span><span class="m">OUT 2026</span></div><div class="ev-body"><span class="ev-tag world">Mundo</span><h4>WPC — 25º Congresso Mundial do Petróleo</h4><p>Riad, Arábia Saudita · o principal congresso global do setor.</p><a href="https://www.google.com/search?q=World+Petroleum+Congress+2026+Riyadh" target="_blank" rel="noopener">Saiba mais ↗</a></div></div>
@@ -689,32 +700,39 @@
 /* ===================== PLAYERS ===================== */
 const PLAYERS = {
   BR: [
-    {n:"Petrobras", petro:true, role:"Operadora estatal · E&P", p:"Maior empresa de energia do Brasil e principal usuária do Repetro-Sped. Domina o pré-sal das bacias de Santos e Campos.", fig:"Produção: <b>~2,14 milhões bpd</b>"},
-    {n:"PRIO", role:"E&P independente", p:"Maior independente do país, especialista em redesenvolvimento de campos. Comprou 60% do campo de Peregrino da Equinor por US$ 3,5 bi.", fig:"Produção: <b>~115 mil bpd</b> (em alta)"},
-    {n:"Brava Energia", role:"E&P · campos maduros", p:"Nascida da fusão entre 3R Petroleum e Enauta. Foco em revitalização de campos maduros onshore e offshore.", fig:"Onshore + offshore"},
-    {n:"PetroReconcavo", role:"E&P onshore", p:"Atuação forte em campos maduros terrestres na Bahia e no Rio Grande do Norte, com produção de óleo e gás.", fig:"Gás &amp; óleo onshore"},
-    {n:"Eneva", role:"Gás natural &amp; energia", p:"Modelo reservoir-to-wire: produz gás em terra (Bacia do Parnaíba) e gera energia termelétrica integrada.", fig:"Gás-to-power"}
+    {n:"Petrobras", petro:true, role:"Operadora estatal · E&P", p:"Maior empresa de energia do Brasil e principal usuária do Repetro-Sped. Domina o pré-sal das bacias de Santos e Campos.", fig:"Produção: <b>~2,14 milhões bpd</b>", url:"https://petrobras.com.br"},
+    {n:"PRIO", role:"E&P independente", p:"Maior independente do país, especialista em redesenvolvimento de campos. Comprou 60% do campo de Peregrino da Equinor por US$ 3,5 bi.", fig:"Produção: <b>~115 mil bpd</b> (em alta)", url:"https://www.prio3.com.br"},
+    {n:"Brava Energia", role:"E&P · campos maduros", p:"Nascida da fusão entre 3R Petroleum e Enauta. Foco em revitalização de campos maduros onshore e offshore.", fig:"Onshore + offshore", url:"https://bravaenergia.com"},
+    {n:"PetroReconcavo", role:"E&P onshore", p:"Atuação forte em campos maduros terrestres na Bahia e no Rio Grande do Norte, com produção de óleo e gás.", fig:"Gás &amp; óleo onshore", url:"https://www.petroreconcavo.com.br"},
+    {n:"Eneva", role:"Gás natural &amp; energia", p:"Modelo reservoir-to-wire: produz gás em terra (Bacia do Parnaíba) e gera energia termelétrica integrada.", fig:"Gás-to-power", url:"https://www.eneva.com.br"},
+    {n:"Karoon Energy", role:"E&P independente (Austrália)", p:"Petroleira australiana que opera o campo de Baúna, na Bacia de Santos, e investe na revitalização de campos em águas rasas no Brasil.", fig:"Opera o campo de Baúna", url:"https://www.karoonenergy.com.au"},
+    {n:"Perenco", role:"E&P · campos maduros offshore", p:"Independente anglo-francesa especializada em campos maduros; no Brasil opera ativos offshore na Bacia de Campos (Polo Nordeste).", fig:"Campos maduros na Bacia de Campos", url:"https://www.perenco.com"}
   ],
   WORLD: [
-    {n:"Shell", role:"Major integrada", p:"2ª maior produtora no Brasil; sócia da Petrobras em campos do pré-sal como Búzios e no consórcio de Libra/Mero.", fig:"Brasil: <b>~359 mil bpd</b>"},
-    {n:"TotalEnergies", role:"Major integrada", p:"3ª maior produtora no Brasil, com participações relevantes em Mero (Libra) e outros ativos do pré-sal.", fig:"Brasil: <b>~140 mil bpd</b>"},
-    {n:"Equinor", role:"Major norueguesa", p:"Opera o campo de Bacalhau (pré-sal de Santos) e foi vendedora de Peregrino para a PRIO. Forte em baixo carbono.", fig:"Operadora de Bacalhau"},
-    {n:"ExxonMobil", role:"Supermajor (EUA)", p:"Sócia em blocos do pré-sal (bacias de Campos e Santos) e ativa em rodadas de licitação de E&P no Brasil.", fig:"Parceira do pré-sal"},
-    {n:"Chevron", role:"Supermajor (EUA)", p:"Retomou presença em E&P no Brasil com aquisição de participações exploratórias em águas profundas.", fig:"Águas profundas"},
-    {n:"Galp", role:"Integrada (Portugal)", p:"Sócia histórica da Petrobras no consórcio do campo de Mero e em descobertas na Namíbia.", fig:"Sócia em Mero"}
+    {n:"Shell", role:"Major integrada", p:"2ª maior produtora no Brasil; sócia da Petrobras em campos do pré-sal como Búzios e no consórcio de Libra/Mero.", fig:"Brasil: <b>~359 mil bpd</b>", url:"https://www.shell.com.br"},
+    {n:"TotalEnergies", role:"Major integrada", p:"3ª maior produtora no Brasil, com participações relevantes em Mero (Libra) e outros ativos do pré-sal.", fig:"Brasil: <b>~140 mil bpd</b>", url:"https://totalenergies.com"},
+    {n:"Equinor", role:"Major norueguesa", p:"Opera o campo de Bacalhau (pré-sal de Santos) e foi vendedora de Peregrino para a PRIO. Forte em baixo carbono.", fig:"Operadora de Bacalhau", url:"https://www.equinor.com"},
+    {n:"ExxonMobil", role:"Supermajor (EUA)", p:"Sócia em blocos do pré-sal (bacias de Campos e Santos) e ativa em rodadas de licitação de E&P no Brasil.", fig:"Parceira do pré-sal", url:"https://www.exxonmobil.com"},
+    {n:"Chevron", role:"Supermajor (EUA)", p:"Retomou presença em E&P no Brasil com aquisição de participações exploratórias em águas profundas.", fig:"Águas profundas", url:"https://www.chevron.com"},
+    {n:"Galp", role:"Integrada (Portugal)", p:"Sócia histórica da Petrobras no consórcio do campo de Mero e em descobertas na Namíbia.", fig:"Sócia em Mero", url:"https://www.galp.com"},
+    {n:"BP", role:"Supermajor (Reino Unido)", p:"Uma das maiores petroleiras do mundo, com participações em blocos exploratórios no Brasil e atuação em bioenergia via BP Bunge.", fig:"Exploração + bioenergia", url:"https://www.bp.com"},
+    {n:"Repsol Sinopec", role:"JV Espanha–China", p:"Joint venture (Repsol 60% / Sinopec 40%) sócia da Petrobras em campos do pré-sal como Sapinhoá e Lapa, além de Albacora Leste.", fig:"Sócia em Sapinhoá e Lapa", url:"https://repsolsinopec.com.br"},
+    {n:"CNOOC", role:"Major chinesa", p:"Estatal chinesa sócia da Petrobras nos megacampos do pré-sal de Búzios e Mero (Libra), na Bacia de Santos.", fig:"Sócia em Búzios e Mero", url:"https://www.cnoocltd.com"}
   ],
   SERV: [
-    {n:"SLB (Schlumberger)", role:"Serviços de poço", p:"Maior empresa de serviços de petróleo do mundo: perfuração, avaliação de formação, completação e digital.", fig:"Líder global em serviços"},
-    {n:"Halliburton", role:"Serviços de poço", p:"Serviços de perfuração, cimentação, estimulação e completação. Forte presença no pré-sal brasileiro.", fig:"Perfuração &amp; completação"},
-    {n:"Baker Hughes", role:"Tecnologia &amp; equipamentos", p:"Equipamentos de superfície e submarinos, turbomáquinas e soluções de energia, incluindo árvores de natal molhadas.", fig:"Equipamentos submarinos"},
-    {n:"TechnipFMC", role:"Subsea (SURF/SPS)", p:"Líder em sistemas submarinos de produção: árvores molhadas, manifolds, risers e umbilicais — peças-chave do Repetro.", fig:"Sistemas submarinos"},
-    {n:"Subsea7 / Saipem", role:"EPCI offshore", p:"Instalação de dutos, risers e estruturas submarinas com navios PLSV e de construção offshore.", fig:"Instalação submarina"},
-    {n:"Modec / SBM Offshore", role:"FPSO (afretamento)", p:"Projetam, constroem e operam FPSOs afretados à Petrobras e outras operadoras — unidades tipicamente sob Repetro.", fig:"Donos/operadores de FPSO"}
+    {n:"SLB (Schlumberger)", role:"Serviços de poço", p:"Maior empresa de serviços de petróleo do mundo: perfuração, avaliação de formação, completação e digital.", fig:"Líder global em serviços", url:"https://www.slb.com"},
+    {n:"Halliburton", role:"Serviços de poço", p:"Serviços de perfuração, cimentação, estimulação e completação. Forte presença no pré-sal brasileiro.", fig:"Perfuração &amp; completação", url:"https://www.halliburton.com"},
+    {n:"Baker Hughes", role:"Tecnologia &amp; equipamentos", p:"Equipamentos de superfície e submarinos, turbomáquinas e soluções de energia, incluindo árvores de natal molhadas.", fig:"Equipamentos submarinos", url:"https://www.bakerhughes.com"},
+    {n:"TechnipFMC", role:"Subsea (SURF/SPS)", p:"Líder em sistemas submarinos de produção: árvores molhadas, manifolds, risers e umbilicais — peças-chave do Repetro.", fig:"Sistemas submarinos", url:"https://www.technipfmc.com"},
+    {n:"Subsea7 / Saipem", role:"EPCI offshore", p:"Instalação de dutos, risers e estruturas submarinas com navios PLSV e de construção offshore.", fig:"Instalação submarina", url:"https://www.subsea7.com"},
+    {n:"Modec / SBM Offshore", role:"FPSO (afretamento)", p:"Projetam, constroem e operam FPSOs afretados à Petrobras e outras operadoras — unidades tipicamente sob Repetro.", fig:"Donos/operadores de FPSO", url:"https://www.sbmoffshore.com"},
+    {n:"BW Offshore", role:"FPSO (afretamento)", p:"Proprietária e operadora de FPSOs afretados a operadoras de E&P, com longa atuação em águas brasileiras.", fig:"Donos/operadores de FPSO", url:"https://www.bwoffshore.com"},
+    {n:"Yinson", role:"FPSO (afretamento)", p:"Operadora malaia de FPSOs afretados à Petrobras, como os FPSOs Anna Nery (Marlim) e Maria Quitéria (Jubarte/Parque das Baleias).", fig:"FPSOs Anna Nery e Maria Quitéria", url:"https://www.yinson.com"}
   ],
   DIST: [
-    {n:"Vibra Energia", role:"Distribuição de combustíveis", p:"Antiga BR Distribuidora. Líder do mercado, com a maior rede de postos do país (bandeira Petrobras). Distribui diesel, gasolina, etanol e lubrificantes — elo final (downstream) da cadeia.", fig:"Líder em diesel · <b>~21%</b> do mercado"},
-    {n:"Raízen", role:"Distribuição (marca Shell) &amp; bioenergia", p:"Joint venture entre Cosan e Shell. Distribui combustíveis sob a marca Shell e é uma das maiores produtoras mundiais de etanol e açúcar.", fig:"<b>~17%</b> do mercado · bioenergia"},
-    {n:"Ipiranga (Ultrapar)", role:"Distribuição de combustíveis", p:"Uma das três maiores distribuidoras do Brasil, com ampla rede de postos e lojas de conveniência am/pm.", fig:"<b>~18%</b> do mercado"},
+    {n:"Vibra Energia", role:"Distribuição de combustíveis", p:"Antiga BR Distribuidora. Líder do mercado, com a maior rede de postos do país (bandeira Petrobras). Distribui diesel, gasolina, etanol e lubrificantes — elo final (downstream) da cadeia.", fig:"Líder em diesel · <b>~21%</b> do mercado", url:"https://www.vibraenergia.com.br"},
+    {n:"Raízen", role:"Distribuição (marca Shell) &amp; bioenergia", p:"Joint venture entre Cosan e Shell. Distribui combustíveis sob a marca Shell e é uma das maiores produtoras mundiais de etanol e açúcar.", fig:"<b>~17%</b> do mercado · bioenergia", url:"https://www.raizen.com.br"},
+    {n:"Ipiranga (Ultrapar)", role:"Distribuição de combustíveis", p:"Uma das três maiores distribuidoras do Brasil, com ampla rede de postos e lojas de conveniência am/pm.", fig:"<b>~18%</b> do mercado", url:"https://www.ipiranga.com.br"},
     {n:"Visão geral", role:"Downstream no Brasil", p:"Vibra, Raízen e Ipiranga respondem juntas por cerca de 60% do abastecimento nacional. São distribuidoras (não exploram nem produzem) e compram, sobretudo, da Petrobras.", fig:"3 maiores ≈ <b>60%</b> do mercado"}
   ]
 };
@@ -796,7 +814,7 @@ function renderPlayers(group){
       '<h3>'+p.n+'</h3>'+
       '<div class="role">'+p.role+'</div>'+
       '<p>'+p.p+'</p>'+
-      '<div class="fig">'+p.fig+'</div>'+
+      '<div class="fig">'+p.fig+'</div>'+(p.url?'<div class="plink"><a href="'+p.url+'" target="_blank" rel="noopener">🔗 Site oficial ↗</a></div>':'')+
     '</div>').join('');
 }
 document.querySelectorAll('[data-p]').forEach(function(b){b.addEventListener('click',function(){
@@ -889,7 +907,7 @@ function renderUFGrid(){
 renderUFGrid(); showUF('RJ');
 
 /* ===================== COTAÇÕES (barril, dólar, euro) ===================== */
-var MARKET={brent:"US$ 79,00", usd:"R$ 5,09", eur:"R$ 5,92", updated:"17/06/2026"};
+var MARKET={brent:"US$ 74,01", usd:"R$ 5,17", eur:"R$ 5,89", updated:"30/06/2026"};
 function renderMarket(brent,usd,eur,live){
   var m=document.getElementById('market'); if(!m) return;
   var liveTag='<span class="pulse"></span> cotação ao vivo';
@@ -935,28 +953,26 @@ var PROXIES=[
 ];
 var ALL=[]; var curFilter="all"; var query="";
 var GEORX=/trump|ormuz|ucr[âa]ni|ukrain|ir[ãa]\b|iran|teer[ãa]|r[úu]ssia|russo|guerra|\bwar\b|san[çc][õo]|sanction|tarifa|tariff|embargo|\bopep\b|\bopec\b|venezuela|oriente m[ée]dio|middle east|geopol[íi]t|conflito|nord stream|houthi|h[uú]thi|israel|g[áa]za/i;
-var BLOCKRX=/c[âa]ncer|cancer|colorretal|colorectal|tumor|oncolog|carcinom|doen[çc]a|disease|\bsa[úu]de\b|\bhealth\b|m[ée]dic|medical|hospital|cl[íi]nic|paciente|patient|sintoma|symptom|diagnost|diagnosis|terapia|therapy|vacina|vaccine|v[íi]rus|epidemi|pandemic|obesidade|obesity|diabetes|alzheimer|nutri|\bdiet\b|est[áa]gi|emprego|\bvaga(s)?\b|contrata[çc]|recrut|hiring|\bjob(s)?\b|vacancy|carreira|concurso|sal[áa]rio|curr[íi]culo/i;
+// BLOCKRX: descarta notícias fora do tema (saúde/medicina/etc.) que entram pelas
+// fontes gerais de "Tendências" só porque citam IA, energia, etc.
+var BLOCKRX=/c[âa]ncer|cancer|colorretal|colorectal|tumor|oncolog|carcinom|doen[çc]a|disease|\bsa[úu]de\b|\bhealth\b|m[ée]dic|medical|hospital|cl[íi]nic|paciente|patient|sintoma|symptom|diagnost|diagnosis|terapia|therapy|tratamento m[ée]dic|vacina|vaccine|v[íi]rus|viral|epidemi|pandemic|obesidade|obesity|diabetes|alzheimer|cardíac|cardiac|nutri|dieta|\bdiet\b|\binss\b|aposentador|aposentadoria|previd[êe]nci|\bbpc\b|pens[ãa]o|pens[õo]es|sal[áa]rio[- ]?m[íi]nimo|abono salarial|bolsa fam[íi]lia|aux[íi]lio|\bfgts\b|13[ºo] sal[áa]rio|concurso p[úu]blico|loteria|mega-?sena|hor[óo]scopo|celebridad|novela|\bbbb\b|pouca gente sabe|voc[êe] sabia|\b[áa]rvore|tronco barrigudo|curiosidad|ningu[ée]m imagina|cientistas (descobr|revel)|\bplanta sul-americana|empr[ée]stimo|consignad|dinheiro esquecido|valores esquecidos|valores a receber|advogado alerta|nome limpo|nome sujo|score de cr[ée]dito|serasa|\bspc\b|golpe do|benef[íi]cio esquecido|d[íi]vida limpa|maracuj[áa]|\bmanga\b|agricultor|lavoura|colheita|planta[çc][ãa]o|pomar|\bhorta\b|\bro[çc]a\b|flores de goi[áa]s|futebol|campeonato/i;
 
 // DESTAQUES sempre disponíveis (manchetes reais; internacionais já traduzidas).
 // Atualizados periodicamente; servem de base caso o feed ao vivo esteja indisponível.
 var SEED=[
-  {title:"Petrobras projeta antecipar o descomissionamento de plataformas no próximo Plano de Negócios", link:"https://www.dgabc.com.br/Noticia/4292599/petrobras-projeta-antecipar-descomissionamento-de-plataformas-no-proximo-plano-de-negocios", date:"2026-03-31", desc:"Plano 2026-2030 prevê US$ 9,7 bi para descarte sustentável de equipamentos e abandono de mais de 500 poços.", src:"Diário do Grande ABC", reg:"BR", translated:false},
-  {title:"Produção brasileira de óleo e gás bate novo recorde em abril (5,64 milhões boe/d)", link:"https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/producao-brasileira-de-oleo-e-gas-bate-novo-recorde-em-abril", date:"2026-06-12", desc:"Pré-sal responde por 81,8% da produção; campos da Petrobras, por quase 89%.", src:"Agência Brasil", reg:"BR", translated:false},
-  {title:"Petrobras tem lucro de R$ 32,7 bilhões no 1º trimestre de 2026", link:"https://agencia.petrobras.com.br/w/negocio/lucro-liquido-da-petrobras", date:"2026-05-12", desc:"Resultado mais que dobra ante o 4º tri/2025, com recorde de produção de óleo e gás.", src:"Agência Petrobras", reg:"BR", translated:false},
-  {title:"Petrobras busca aumento de produção para mitigar efeitos da guerra", link:"https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/petrobras-busca-aumento-producao-para-mitigar-efeitos-guerra", date:"2026-05-20", desc:"Estratégia para reduzir impactos de tensões geopolíticas sobre o mercado.", src:"Agência Brasil", reg:"BR", translated:false},
-  {title:"Próximo leilão de exploração no pré-sal terá 23 blocos oferecidos", link:"https://agenciabrasil.ebc.com.br/economia/noticia/2026-04/proximo-leilao-de-exploracao-no-pre-sal-tera-23-blocos-oferecidos", date:"2026-04-06", desc:"8 blocos na Bacia de Campos e 13 na de Santos, via Oferta Permanente da ANP.", src:"Agência Brasil", reg:"BR", translated:false},
-  {title:"ANP avança com bloco Sul de Sapinhoá e reforça pipeline de leilões no pré-sal", link:"https://cenarioenergia.com.br/2026/04/27/anp-avanca-com-bloco-sul-de-sapinhoa-e-reforca-pipeline-de-leiloes-no-pre-sal/", date:"2026-04-27", desc:"Agência amplia a oferta de áreas exploratórias no Polígono do Pré-sal.", src:"Cenário Energia", reg:"BR", translated:false},
-  {title:"Petrobras inicia produção na 1ª plataforma do campo de Sépia", link:"https://maisretorno.com/portal/petrobras-inicia-producao-de-petroleo-e-gas-na-1a-plataforma-do-campo-de-sepia", date:"2026-03-15", desc:"Mais uma unidade entra em operação no pré-sal da Bacia de Santos.", src:"Mais Retorno", reg:"BR", translated:false},
-  {title:"IA, eficiência e transição energética moldam o setor de óleo e gás, diz Deloitte", link:"https://agenciainfra.com/blog/ia-eficiencia-e-transicao-moldam-setor-de-oleo-e-gas-diz-deloitte/", date:"2026-06-01", desc:"Empresas priorizam IA e GenAI com foco em produtividade e eficiência operacional.", src:"Agência iNFRA", reg:"BR", translated:false},
-  {title:"OTC 2026: águas profundas ressurgem como motor crítico de oferta em meio à desaceleração global da exploração", link:"https://worldoil.com/news/2026/5/8/otc-2026-deepwater-re-emerges-as-critical-supply-engine-amid-global-exploration-slowdown/", date:"2026-05-08", desc:"Deepwater volta ao centro dos planos, liderado pela América do Sul e Golfo do México.", src:"World Oil", reg:"INT", translated:true},
-  {title:"Expansão de FPSOs na África acelera em meio à alta da exploração em águas profundas", link:"https://ognnews.com/Article/48304/", date:"2026-06-05", desc:"Angola lidera a atividade, impulsionada por programas de perfuração e o projeto Agogo.", src:"Oil & Gas News", reg:"INT", translated:true},
-  {title:"Perspectiva do mercado de FPSO (2026): produção offshore e projetos em águas profundas", link:"https://www.openpr.com/news/4433129/fpso-market-outlook-2026-offshore-oil-production-deepwater", date:"2026-06-03", desc:"Demanda por FPSOs cresce, puxada por águas profundas, com maior disciplina de capital.", src:"OpenPR", reg:"INT", translated:true},
-  {title:"IN RFB nº 2.274/2025 inclui tubos e dutos de gasodutos de escoamento no Repetro-Sped", link:"https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/agosto/receita-federal-publica-instrucao-normativa-sobre-o-repetro-sped", date:"2025-08-04", desc:"Receita Federal altera a IN 1.781/2017 e elimina divergências sobre a elegibilidade de gasodutos.", src:"Receita Federal", reg:"LEI", translated:false},
-  {title:"RFB esclarece uso do Repetro-Sped em gasodutos de escoamento", link:"https://www.contabeis.com.br/noticias/72215/rfb-esclarece-uso-do-repetro-sped-em-gasodutos", date:"2025-08-11", desc:"Análise da nova norma e seus impactos práticos para o setor de gás natural.", src:"Contábeis", reg:"LEI", translated:false},
-  {title:"Trump afirma que os EUA vão assumir o controle das reservas de petróleo da Venezuela", link:"https://www.cnn.com/2026/01/03/business/oil-gas-venezuela-maduro", date:"2026-01-03", desc:"Decisão geopolítica dos EUA sobre a Venezuela mexe com o mercado global de petróleo.", src:"CNN", reg:"INT", translated:true},
-  {title:"Venezuela após Maduro: petróleo, poder e os limites da intervenção", link:"https://www.aljazeera.com/news/2026/1/5/venezuela-after-maduro-oil-power-and-the-limits-of-intervention", date:"2026-01-05", desc:"Análise dos impactos do novo cenário venezuelano sobre o setor de óleo e gás.", src:"Al Jazeera", reg:"INT", translated:true},
-  {title:"Petróleo sob tensão: Oriente Médio, Estreito de Ormuz e negociações EUA–Irã pressionam o barril", link:"https://oilprice.com/Geopolitics/International/", date:"2026-06-15", desc:"Risco no Estreito de Ormuz e o impasse com o Irã mantêm o preço do petróleo volátil.", src:"OilPrice", reg:"INT", translated:true},
-  {title:"Guerra na Ucrânia e sanções à Rússia seguem redesenhando o mapa global de energia", link:"https://oilprice.com/Geopolitics/Russia/", date:"2026-06-10", desc:"Fluxos de petróleo e gás russos e novas sanções continuam impactando preços e rotas.", src:"OilPrice", reg:"INT", translated:true}
+  {title:"'Vamos atrás de todo o óleo possível', diz diretora de E&P da Petrobras", link:"https://www.fecombustiveis.org.br/noticia/vamos-atras-de-todo-o-oleo-possivel-diz-diretora-da-petrobras-sobre-ofensiva-por-novas-reservas/263511", date:"2026-06-18", desc:"Sylvia Anjos cita Solimões, Margem Equatorial, Campos e Santos na ofensiva da Petrobras por novas reservas em 2026.", src:"Fecombustíveis", reg:"BR", translated:false},
+  {title:"ANP divulga lista de empresas habilitadas para os leilões de petróleo e gás de outubro", link:"https://www.dgabc.com.br/Noticia/4331724/anp-divulga-lista-de-empresas-habilitadas-para-leiloes-de-petroleo-e-gas-em-outubro", date:"2026-06-26", desc:"Reguladora confirma participantes da Oferta Permanente de Partilha e de Concessão, com sessão pública marcada para 7 de outubro.", src:"Diário do Grande ABC", reg:"BR", translated:false},
+  {title:"ANP amplia oferta do pré-sal com 23 blocos e marca leilão para 7 de outubro de 2026", link:"https://timesbrasil.com.br/empresas-e-negocios/energia/anp-amplia-oferta-do-pre-sal-com-23-blocos-e-prepara-leilao-ainda-em-2026/", date:"2026-04-27", desc:"Oito blocos na Bacia de Campos e 13 na de Santos entram na Oferta Permanente de Partilha de Produção.", src:"Times Brasil", reg:"BR", translated:false},
+  {title:"ANP prevê US$ 1,2 bilhão em investimentos em exploração entre 2026 e 2033, com foco offshore", link:"https://clickpetroleoegas.com.br/anp-preve-us-12-bilhao-em-investimentos-em-exploracao-de-petroleo-e-gas-no-brasil-entre-2026-e-2033-com-foco-em-perfuracao-offshore-hl1402/", date:"2026-06-22", desc:"Agência projeta forte ciclo de perfuração em águas profundas para sustentar a produção brasileira na próxima década.", src:"CPG Click Petróleo e Gás", reg:"BR", translated:false},
+  {title:"Petrobras instalará 11 novas plataformas no pré-sal até 2027; P-80 e P-82 chegam a Búzios em 2026", link:"https://agencia.petrobras.com.br/w/negocio/petrobras-instalara-11-novas-plataformas-no-pre-sal-ate-2027", date:"2026-06-10", desc:"FPSOs P-80 e P-82, de 225 mil barris/dia cada, entram em operação em Búzios em 2026, rumo a 2 milhões de bpd no campo.", src:"Agência Petrobras", reg:"BR", translated:false},
+  {title:"IA, eficiência e transição energética moldam o setor de óleo e gás, diz Deloitte", link:"https://agenciainfra.com/blog/ia-eficiencia-e-transicao-moldam-setor-de-oleo-e-gas-diz-deloitte/", date:"2026-06-16", desc:"Empresas priorizam IA e IA generativa para elevar produtividade, reduzir custos e otimizar ativos offshore.", src:"Agência iNFRA", reg:"BR", translated:false},
+  {title:"Petrobras busca aumento de produção para mitigar efeitos da guerra", link:"https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/petrobras-busca-aumento-producao-para-mitigar-efeitos-guerra", date:"2026-05-20", desc:"Estatal acelera produção no pré-sal diante da volatilidade dos preços e dos riscos geopolíticos no Oriente Médio.", src:"Agência Brasil", reg:"BR", translated:false},
+  {title:"Primeiro óleo flui do novo FPSO da Petrobras em um dos maiores campos de águas profundas do mundo", link:"https://www.offshore-energy.biz/first-oil-flows-from-petrobras-new-fpso-at-one-of-worlds-largest-deepwater-fields/", date:"2026-06-24", desc:"Nova unidade flutuante entra em operação no pré-sal de Búzios, reforçando a capacidade de produção em águas ultraprofundas.", src:"Offshore Energy", reg:"INT", translated:true},
+  {title:"Perspectivas do mercado de FPSOs em 2026 apontam expansão em águas profundas", link:"https://www.openpr.com/news/4433129/fpso-market-outlook-2026-offshore-oil-production-deepwater", date:"2026-06-19", desc:"Relatório projeta crescimento de projetos de produção offshore, serviços de campo e investimentos em energia até o fim da década.", src:"OpenPR", reg:"INT", translated:true},
+  {title:"IN RFB nº 2.312/2026 atualiza regras do Repetro-Sped", link:"https://www.legisweb.com.br/legislacao/?id=492395", date:"2026-03-13", desc:"Nova instrução normativa da Receita Federal ajusta procedimentos do regime aduaneiro especial de Repetro-Sped.", src:"Receita Federal / LegisWeb", reg:"LEI", translated:false},
+  {title:"IN RFB nº 2.308/2026 aperta requisitos de habilitação do Repetro-Industrialização", link:"https://www.thomsonreuters.com.br/pt/tax-accounting/comercio-exterior/blog/o-que-voce-precisa-saber-sobre-a-nova-in-do-repetro-industrializacao.html", date:"2026-02-27", desc:"Altera a IN 1.901/2019 e exige objeto social, CNAE compatível e contrato com beneficiário do regime.", src:"Thomson Reuters", reg:"LEI", translated:false},
+  {title:"SEFAZ-RJ esclarece dúvidas operacionais sobre Repetro-Sped e Repetro-Industrialização", link:"https://www.mattosfilho.com.br/unico/sefaz-rj-duvidas-operacionais-repetro-sped/", date:"2026-06-12", desc:"Fisco fluminense detalha aplicação dos benefícios de ICMS e procedimentos para fabricantes intermediários e finais no RJ.", src:"Mattos Filho", reg:"LEI", translated:false},
+  {title:"IN RFB nº 2.274/2025 inclui tubos e dutos de gasodutos de escoamento no Repetro-Sped", link:"https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/agosto/receita-federal-publica-instrucao-normativa-sobre-o-repetro-sped", date:"2025-08-04", desc:"Receita Federal altera a IN 1.781/2017 e elimina ambiguidades sobre a elegibilidade de gasodutos.", src:"Receita Federal", reg:"LEI", translated:false}
 ];
 
 function stripHtml(s){var d=document.createElement('div');d.innerHTML=s||'';return (d.textContent||'').trim();}
@@ -1034,13 +1050,15 @@ async function loadNews(){
   var shared=[];
   try{ var rsp=await fetchWithTimeout('news.json?_='+Date.now(),8000); if(rsp.ok){ var jj=await rsp.json(); if(Array.isArray(jj)) shared=jj; } }catch(e){}
   var fresh=live.concat(shared).concat(SEED);
-  fresh=fresh.filter(function(n){return RX.test((n.title||'')+' '+(n.desc||''));}); // relevância (vale p/ todas as origens)
+  fresh=fresh.filter(function(n){var s=(n.title||'')+' '+(n.desc||'');return !BLOCKRX.test(s)&&(n.reg==='LEI'||RX.test(s));}); // relevância + bloqueio de temas fora do setor (vale p/ todas as origens)
   // ARQUIVO ROLANTE (até 1 ano) — acumula as notícias no navegador (localStorage), removendo o que passa de 365 dias
-  var KEY='petrohub_news_v4', store={};
+  var KEY='petrohub_news_v5', store={};
   try{store=JSON.parse(localStorage.getItem(KEY)||'{}');}catch(e){store={};}
   fresh.forEach(function(n){var k=(n.link||n.title); if(!k) return; store[k]={title:n.title,link:n.link,date:(store[k]&&store[k].date)||n.date||new Date().toISOString(),desc:n.desc,src:n.src,reg:n.reg,translated:!!n.translated};});
   var lim=Date.now()-365*24*3600*1000;
   Object.keys(store).forEach(function(k){var d=new Date(store[k].date).getTime(); if(!isNaN(d) && d<lim) delete store[k];});
+  // remove do arquivo local itens fora do tema (ex.: INSS/previdência) que entraram em versões anteriores
+  Object.keys(store).forEach(function(k){var it=store[k]||{};var s=(it.title||'')+' '+(it.desc||'');if(BLOCKRX.test(s)||(it.reg!=='LEI'&&!RX.test(s))) delete store[k];});
   try{localStorage.setItem(KEY,JSON.stringify(store));}catch(e){}
   ALL=Object.keys(store).map(function(k){return store[k];});
   var seen={}; ALL=ALL.filter(function(n){if(!n.title||seen[n.title])return false;seen[n.title]=1;return true;});
@@ -1050,8 +1068,7 @@ async function loadNews(){
   render();
 }
 
-var DECRX=/descomission|decommission|abandono de po[\u00e7c]o|desativa[\u00e7c][\u00e3a]o de plataforma|desmobiliza[\u00e7c][\u00e3a]o de plataforma|reciclagem de (plataforma|navio)|reciclagem naval|sucateamento|plataforma desativad/i;
-function render(){ALL=ALL.filter(function(n){return !BLOCKRX.test((n.title||'')+' '+(n.desc||''));});
+function render(){
   var grid=document.getElementById('newsGrid');
   var items=ALL;
   if(curFilter==='BR') items=ALL.filter(function(n){return n.reg==='BR';});
@@ -1059,7 +1076,6 @@ function render(){ALL=ALL.filter(function(n){return !BLOCKRX.test((n.title||'')+
   else if(curFilter==='GEO') items=ALL.filter(function(n){return GEORX.test((n.title||'')+' '+(n.desc||''));});
   else if(curFilter==='LEI') items=ALL.filter(function(n){return n.reg==='LEI';});
   else if(curFilter==='PET') items=ALL.filter(function(n){return /petrobras/i.test(n.title+n.desc);});
-  else if(curFilter==='DEC') items=ALL.filter(function(n){return DECRX.test((n.title||'')+' '+(n.desc||''));});
   if(query){var q=norm(query);items=items.filter(function(n){return norm((n.title||'')+' '+(n.desc||'')+' '+(n.src||'')).indexOf(q)>-1;});}
   else{var lim7=Date.now()-7*24*3600*1000;items=items.filter(function(n){var d=new Date(n.date).getTime();return isNaN(d)?true:d>=lim7;});}
   if(items.length===0){grid.innerHTML='<div class="empty">'+(query?'Nenhuma notícia encontrada para “'+query+'”. Tente outra palavra.':'Nenhuma notícia dos últimos 7 dias neste filtro. 🔎 Use a busca para ver o arquivo completo.')+'</div>';return;}
@@ -1091,251 +1107,32 @@ var TREND_FEEDS=[
   {url:"https://spacenews.com/feed/", src:"SpaceNews", reg:"INT"},
   {url:"https://feeds.arstechnica.com/arstechnica/index", src:"Ars Technica", reg:"INT"}
 ];
-var TRENDRX=/spacex|starship|\brocket|\blaunch|\bnasa\b|artemis|lunar|\bmoon\b|\bmars\b|astronaut|satellite|nuclear|fusion|helium|reactor|data\s?cent|\bai\b|artificial intelligence|machine learning|\benergy\b|hydrogen|\bsolar\b|wind power|renewable|\bgrid\b|battery/i;
-async function loadTrendNews(){
-  var box=document.getElementById('trendNews'); if(!box) return;
+var TRENDRX=/spacex|starship|\brocket|\blaunch|\bnasa\b|artemis|lunar|\bmoon\b|\bmars\b|astronaut|sat[ée]lite|satellite|nuclear|fus[ãa]o nuclear|fusion|helium|\bh[ée]lio\b|reactor|reator|\bsmr\b|hydrogen|hidrog[êe]nio|geothermal|geot[ée]rmic|carbon capture|captura de carbono|renewable|renov[áa]vel|\bsolar\b|e[óo]lic|wind power|battery|bateria|electric vehicle|ve[íi]culo el[ée]tric|\bev\b|energy transition|transi[çc][ãa]o energ[ée]tic|clean energy|energia limpa|quantum|qu[âa]ntic|intelig[êe]ncia artificial|\bia\b|\bai\b/i;
+
+async function loadTrends(){
+  var box=document.getElementById('trendNews');
+  if(!box) return;
   try{
-    var res=await Promise.all(TREND_FEEDS.map(fetchFeed));
-    var items=[].concat.apply([],res);
+    var results=await Promise.all(TREND_FEEDS.map(fetchFeed));
+    var items=[].concat.apply([],results);
     items=items.filter(function(n){var s=(n.title||'')+' '+(n.desc||'');return TRENDRX.test(s)&&!BLOCKRX.test(s);});
-    var seen={}, uniq=[];
-    items.forEach(function(n){var k=norm(n.title||'').slice(0,55); if(!n.title||seen[k])return; seen[k]=1; uniq.push(n);});
-    var SX=/spacex|starship|elon musk|\bfalcon\b|starlink|\bmusk\b/i;
-    uniq.sort(function(a,b){
-      var as=SX.test(a.title+' '+(a.desc||''))?1:0, bs=SX.test(b.title+' '+(b.desc||''))?1:0;
-      if(as!==bs) return bs-as; // notícias da SpaceX/Elon Musk primeiro
-      return new Date(b.date)-new Date(a.date);
-    });
-    uniq=uniq.slice(0,8);
-    if(uniq.length===0){ box.style.display='none'; return; }
-    // traduz os títulos (fontes internacionais) para português
-    await Promise.all(uniq.map(async function(n){var t=await translate(n.title); if(t)n.title=t;}));
-    box.innerHTML=uniq.map(function(n){
-      var d=fmtDate(n.date); d=d?d.split(' · ')[0]:'';
-      return '<a href="'+n.link+'" target="_blank" rel="noopener"><span class="s">'+(n.src||'Notícias')+(d?' · '+d:'')+'</span><span class="t">'+n.title+'</span></a>';
+    var seen={}; items=items.filter(function(n){if(!n.title||seen[n.title])return false;seen[n.title]=1;return true;});
+    items.sort(function(a,b){return new Date(b.date)-new Date(a.date);});
+    items=items.slice(0,9);
+    await Promise.all(items.map(async function(n){var t=await translate(n.title);if(t){n.title=t;n.translated=true;}}));
+    if(items.length===0){box.innerHTML='<div class="empty">Sem atualizações de tendências no momento.</div>';return;}
+    box.innerHTML=items.map(function(n){
+      return '<article class="ncard"><div class="meta">'+
+        '<span class="src-tag">'+n.src+'</span>'+
+        (n.translated?'<span class="translated">🌐 traduzido</span>':'')+
+        '</div><h3>'+n.title+'</h3><div class="date">'+fmtDate(n.date)+'</div>'+
+        '<div class="links"><a href="'+n.link+'" target="_blank" rel="noopener">Ler matéria ↗</a>'+
+        '<a href="https://translate.google.com/translate?sl=auto&tl=pt&u='+encodeURIComponent(n.link)+'" target="_blank" rel="noopener">Ler traduzida ↗</a>'+
+        '</div></article>';
     }).join('');
-  }catch(e){ box.style.display='none'; }
+  }catch(e){ box.innerHTML='<div class="empty">Não foi possível carregar as tendências agora.</div>'; }
 }
-loadTrendNews();
-
-/* ===================== PRÓXIMOS LANÇAMENTOS (SpaceX) ===================== */
-async function loadLaunches(){
-  var box=document.getElementById('launchList'); if(!box) return;
-  function hide(){var w=document.getElementById('launchWrap'); if(w) w.style.display='none';}
-  try{
-    var c=new AbortController(); var id=setTimeout(function(){c.abort();},12000);
-    var r=await fetch("https://ll.thespacedevs.com/2.2.0/launch/upcoming/?limit=12&mode=normal",{signal:c.signal}); clearTimeout(id);
-    if(!r.ok) throw 0;
-    var j=await r.json();
-    var t0=new Date(); t0.setHours(0,0,0,0); // hoje 00:00
-    var res=(j.results||[]).filter(function(x){var d=new Date(x.net); return isNaN(d)?true:d>=t0;}).slice(0,8);
-    if(res.length===0){ hide(); return; }
-    var SHORT={'China Aerospace Science and Technology Corporation':'CASC','United Launch Alliance':'ULA','Roscosmos State Corporation':'Roscosmos'};
-    box.innerHTML=res.map(function(x){
-      var parts=(x.name||'').split(' | '); var rocket=parts[0]||''; var mission=parts[1]||x.name||'Missão';
-      var prov=(x.launch_service_provider&&x.launch_service_provider.name)||rocket; prov=SHORT[prov]||prov;
-      var dt=new Date(x.net);
-      var dd=isNaN(dt)?'--':dt.toLocaleDateString('pt-BR',{day:'2-digit'});
-      var mo=isNaN(dt)?'':dt.toLocaleDateString('pt-BR',{month:'short'}).replace('.','').toUpperCase();
-      var hm=isNaN(dt)?'':dt.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'});
-      var q=encodeURIComponent(prov+' '+mission+' launch');
-      return '<a class="launch-item" href="https://www.google.com/search?q='+q+'" target="_blank" rel="noopener">'+
-        '<span class="ldate"><span class="d">'+dd+'</span><span class="mo">'+mo+'</span></span>'+
-        '<span class="lmeta"><b>'+mission+'</b><span>'+prov+(hm?' · '+hm:'')+'</span></span></a>';
-    }).join('');
-  }catch(e){ hide(); }
-}
-loadLaunches();
-
-/* ===================== MERCADO: cotações de ações (quotes.json) ===================== */
-async function loadQuotes(){
-  var grid=document.getElementById('quotesGrid'); if(!grid) return;
-  function moeda(cur){return cur==='BRL'?'R$ ':cur==='USD'?'US$ ':cur==='GBP'?'£ ':cur==='EUR'?'€ ':cur==='NOK'?'kr ':(cur?cur+' ':'');}
-  function fmtPrice(p,cur){ if(p==null||isNaN(p)) return '—'; return moeda(cur)+Number(p).toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2}); }
-  function card(q){
-    var chg=q.changePct, cls=chg==null?'flat':(chg>=0?'up':'down');
-    var txt=chg==null?'—':((chg>=0?'▲ ':'▼ ')+Math.abs(chg).toFixed(2)+'%');
-    var href='https://finance.yahoo.com/quote/'+encodeURIComponent(q.sym||'');
-    return '<a class="qcard" href="'+href+'" target="_blank" rel="noopener" title="Ver '+(q.name||q.sym)+' na bolsa"><div class="qsym">'+String(q.sym||'').replace('.SA','')+'</div>'+
-      '<div class="qname">'+(q.name||'')+'</div>'+
-      '<div class="qprice">'+fmtPrice(q.price,q.currency)+'</div>'+
-      '<div class="qchg '+cls+'">'+txt+'</div></a>';
-  }
-  try{
-    var r=await fetchWithTimeout('quotes.json?_='+Date.now(),9000); if(!r.ok) throw 0;
-    var d=await r.json(); var qs=(d&&d.quotes)||[];
-    if(!qs.length) throw 0;
-    var oil=qs.filter(function(q){return q.group==='oil';}), nw=qs.filter(function(q){return q.group==='new';});
-    grid.innerHTML='<h3 class="q-group">⛽ Óleo &amp; Gás</h3><div class="qrow">'+oil.map(card).join('')+'</div>'+
-      '<h3 class="q-group">⚡ Novas Energias &amp; Espaço</h3><div class="qrow">'+nw.map(card).join('')+'</div>';
-    var note=document.getElementById('quotesNote');
-    if(note){ var w=d.updated?new Date(d.updated).toLocaleString('pt-BR',{day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit'}):''; note.textContent=w?('Atualizado em '+w+'.'):''; }
-  }catch(e){
-    grid.innerHTML='<div class="empty">As cotações estão sendo preparadas pelo servidor. Volte em alguns minutos.</div>';
-    var n2=document.getElementById('quotesNote'); if(n2) n2.textContent='';
-  }
-}
-loadQuotes();
-
-/* ===================== CATÁLOGO DE BENS — ANEXO II (Decreto 12.955/2026) ===================== */
-var CATICONS={
-  tubo:'<rect x="6" y="19" width="33" height="10" rx="2"/><ellipse cx="39" cy="24" rx="2.6" ry="5"/><line x1="13" y1="19" x2="13" y2="29"/>',
-  cabo:'<path d="M8 18q6 8 12 0t12 0"/><path d="M8 24q6 8 12 0t12 0"/><path d="M8 30q6 8 12 0t12 0"/>',
-  instr:'<circle cx="24" cy="24" r="13"/><line x1="24" y1="24" x2="31" y2="17"/><circle cx="24" cy="24" r="1.8" fill="currentColor" stroke="none"/><line x1="24" y1="11" x2="24" y2="14"/><line x1="37" y1="24" x2="34" y2="24"/>',
-  valvula:'<rect x="18" y="22" width="12" height="13"/><line x1="14" y1="28" x2="18" y2="28"/><line x1="30" y1="28" x2="34" y2="28"/><line x1="24" y1="22" x2="24" y2="13"/><line x1="19" y1="16" x2="29" y2="16"/><circle cx="24" cy="12" r="2.5"/>',
-  rov:'<rect x="12" y="19" width="24" height="13" rx="2"/><line x1="17" y1="19" x2="17" y2="14"/><line x1="31" y1="19" x2="31" y2="14"/><circle cx="18" cy="25.5" r="2.4"/><circle cx="30" cy="25.5" r="2.4"/><path d="M24 19 V13 H33"/>',
-  bomba:'<circle cx="21" cy="24" r="10"/><path d="M21 24 L29 19 M21 24 L29 29 M21 24 L13 24"/><rect x="32" y="21" width="6" height="6"/>',
-  skid:'<rect x="7" y="16" width="34" height="16" rx="2"/><circle cx="16" cy="24" r="3.6"/><circle cx="30" cy="24" r="3.6"/><line x1="19.6" y1="24" x2="26.4" y2="24"/><line x1="11" y1="32" x2="11" y2="35"/><line x1="37" y1="32" x2="37" y2="35"/>',
-  subsea:'<rect x="12" y="18" width="24" height="10" rx="1"/><line x1="16" y1="28" x2="14" y2="34"/><line x1="32" y1="28" x2="34" y2="34"/><line x1="24" y1="28" x2="24" y2="34"/><line x1="17" y1="18" x2="17" y2="13"/><line x1="31" y1="18" x2="31" y2="13"/>',
-  guindaste:'<path d="M13 35 V13 H15"/><line x1="13" y1="13" x2="35" y2="13"/><line x1="35" y1="13" x2="30" y2="22"/><line x1="30" y1="22" x2="30" y2="26"/><path d="M28 26 a2 2 0 0 0 4 0"/><line x1="13" y1="20" x2="22" y2="13"/>',
-  eletrica:'<rect x="14" y="13" width="20" height="22" rx="2"/><path d="M25 17 L21 26 H26 L23 32"/>',
-  barco:'<path d="M8 27 h32 l-4 7 h-24 z"/><rect x="13" y="19" width="9" height="8"/><line x1="24" y1="22" x2="37" y2="22"/><line x1="16" y1="19" x2="16" y2="15"/>',
-  fpso:'<path d="M7 28 h34 l-3 6 h-28 z"/><rect x="13" y="20" width="22" height="8"/><line x1="20" y1="20" x2="20" y2="13"/><path d="M20 14 l4 6"/><rect x="27" y="15" width="5" height="5"/>',
-  plataforma:'<rect x="14" y="22" width="20" height="5"/><line x1="17" y1="27" x2="15" y2="35"/><line x1="31" y1="27" x2="33" y2="35"/><path d="M24 22 L20 10 H28 Z"/><line x1="22" y1="16" x2="26" y2="16"/>',
-  cryo:'<rect x="16" y="14" width="16" height="21" rx="8"/><line x1="24" y1="19" x2="24" y2="30"/><line x1="19.5" y1="22" x2="28.5" y2="27"/><line x1="28.5" y1="22" x2="19.5" y2="27"/>',
-  defensa:'<rect x="18" y="11" width="12" height="26" rx="6"/><line x1="18" y1="18" x2="30" y2="18"/><line x1="18" y1="24" x2="30" y2="24"/><line x1="18" y1="30" x2="30" y2="30"/>',
-  ferramenta:'<path d="M31 13 a6 6 0 0 0 -8 8 L13 31 l4 4 10-10 a6 6 0 0 0 8 -8 l-3.5 3.5 -4 -0.5 -0.5 -4 z"/>',
-  filtro:'<rect x="16" y="15" width="16" height="20" rx="2"/><line x1="16" y1="21" x2="32" y2="21"/><line x1="16" y1="28" x2="32" y2="28"/><path d="M20 15 v-3 h8 v3"/>'
-};
-var CATALOG={
-  T1:[
-    {n:"Fonte radioativa (medição)",ncm:"2844",ic:"instr"},
-    {n:"Cabo de poliéster (trançado)",ncm:"5607",ic:"cabo"},
-    {n:"Tubo de perfuração (drill pipe)",ncm:"7304",ic:"tubo"},
-    {n:"Tubo de produção (coluna/COP)",ncm:"7304",ic:"tubo"},
-    {n:"Ferramenta de instalação de ANM",ncm:"8205",ic:"valvula"},
-    {n:"Bombeamento multifásico submarino",ncm:"8413",ic:"bomba"},
-    {n:"Soprador/resfriador (ar/gás)",ncm:"8414",ic:"skid"},
-    {n:"Secagem/filtração de cascalhos",ncm:"8421",ic:"filtro"},
-    {n:"Elevador (tração da coluna)",ncm:"8428",ic:"guindaste"},
-    {n:"Cortador mecânico de tubos",ncm:"8467",ic:"ferramenta"},
-    {n:"ROV (veículo submarino)",ncm:"8479",ic:"rov"},
-    {n:"Transformador (tipo seco)",ncm:"8504",ic:"eletrica"},
-    {n:"Barco salva-vidas",ncm:"8906",ic:"barco"},
-    {n:"Módulo de controle e aquisição de dados",ncm:"9015",ic:"instr"}
-  ],
-  T2:[
-    {n:"Conexões criogênicas (fittings)",ncm:"3917",ic:"cryo"},
-    {n:"Mangote criogênico para GNL",ncm:"3917",ic:"cryo"},
-    {n:"Mangueira de alta pressão (composite)",ncm:"3917",ic:"tubo"},
-    {n:"Defensas foam-filled (poliuretano)",ncm:"3926",ic:"defensa"},
-    {n:"Difusores de ar para tanques",ncm:"3926",ic:"filtro"},
-    {n:"Tanque de armazenamento (GNL)",ncm:"7309",ic:"cryo"},
-    {n:"Unidade hidráulica de potência (HPU)",ncm:"",ic:"bomba"},
-    {n:"Expander–compressor criogênico (compander)",ncm:"",ic:"skid"},
-    {n:"Atuador de válvula (hidráulico/pneumático)",ncm:"",ic:"valvula"},
-    {n:"Vaporizador / condicionador de amostra",ncm:"",ic:"instr"}
-  ],
-  T3:[
-    {n:"PLET — terminação de duto",ncm:"7307",ic:"subsea"},
-    {n:"Junta de compensação (tubulação)",ncm:"7307",ic:"tubo"},
-    {n:"Gancho/amarra (corrente)",ncm:"7315",ic:"cabo"},
-    {n:"Turbina a gás",ncm:"8411",ic:"skid"},
-    {n:"Compressor de gás natural",ncm:"8414",ic:"skid"},
-    {n:"Injeção submarina de água (RWI)",ncm:"8421",ic:"subsea"},
-    {n:"Mesa/base de perfuração",ncm:"8431",ic:"guindaste"},
-    {n:"Obturador (completação)",ncm:"8479",ic:"valvula"},
-    {n:"Válvulas e módulos valvulados",ncm:"8481",ic:"valvula"},
-    {n:"Painel/quadro elétrico de comando",ncm:"8537",ic:"eletrica"},
-    {n:"Embarcação de apoio (PSV/AHTS)",ncm:"8906",ic:"barco"},
-    {n:"Instrumento de medição (vazão/pressão)",ncm:"9026",ic:"instr"}
-  ],
-  T4:[
-    {n:"Compressão modular de gás principal (skid)",ncm:"8414",ic:"skid"},
-    {n:"Compressão modular de gás de exportação (skid)",ncm:"8414",ic:"skid"},
-    {n:"Compressão modular de gás de injeção (skid)",ncm:"8414",ic:"skid"},
-    {n:"Compressão modular de CO₂ (skid)",ncm:"8414",ic:"skid"},
-    {n:"Redução de sulfato da água (membrana)",ncm:"8421",ic:"filtro"},
-    {n:"Navio aliviador (transbordo)",ncm:"8901",ic:"barco"},
-    {n:"FPSO — produção, armazenagem e transferência",ncm:"8905",ic:"fpso"},
-    {n:"Plataforma flutuante de perfuração/produção",ncm:"8905",ic:"plataforma"},
-    {n:"Navio-sonda (drillship)",ncm:"8905",ic:"plataforma"},
-    {n:"Navio lançador de dutos (PLSV)",ncm:"8905",ic:"barco"},
-    {n:"Navio de pesquisa sísmica",ncm:"8905",ic:"barco"},
-    {n:"Navio de suporte de mergulho (DSV)",ncm:"8905",ic:"barco"}
-  ]
-};
-var curCat='T1', catPage=1, CAT_SIZE=12;
-function catCard(b){
-  var nome=b.desc||b.n||'';
-  return '<div class="cat-card"><svg viewBox="0 0 48 48" aria-hidden="true">'+(CATICONS[b.ic]||CATICONS.tubo)+'</svg>'+
-    '<div class="cat-tx"><b>'+nome+'</b>'+(b.ncm?'<span class="cat-ncm">NCM '+b.ncm+'</span>':'')+'</div></div>';
-}
-function catPagerHTML(total,page){
-  var pages=Math.ceil(total/CAT_SIZE); if(pages<=1) return '';
-  var h='<button class="pg" data-pg="'+(page-1)+'"'+(page<=1?' disabled':'')+'>‹</button>', last=0;
-  for(var p=1;p<=pages;p++){ if(p===1||p===pages||Math.abs(p-page)<=2){ if(p-last>1) h+='<span class="pg-dots">…</span>'; h+='<button class="pg'+(p===page?' on':'')+'" data-pg="'+p+'">'+p+'</button>'; last=p; } }
-  h+='<button class="pg" data-pg="'+(page+1)+'"'+(page>=pages?' disabled':'')+'>›</button>';
-  return h;
-}
-function renderCat(){
-  var g=document.getElementById('catGrid'); if(!g) return;
-  var pg=document.getElementById('catPager');
-  var list=(CATALOG&&CATALOG[curCat])||[];
-  var cs=document.getElementById('catSearch'); var q=cs?norm(cs.value):'';
-  if(q) list=list.filter(function(b){return norm((b.desc||b.n||'')+' '+(b.ncm||'')).indexOf(q)>-1;});
-  if(!list.length){ g.innerHTML='<div class="empty" style="grid-column:1/-1">'+(q?'Nenhum bem encontrado para “'+cs.value+'”.':'Catálogo sendo carregado…')+'</div>'; if(pg)pg.innerHTML=''; return; }
-  var pages=Math.ceil(list.length/CAT_SIZE);
-  if(catPage>pages) catPage=pages; if(catPage<1) catPage=1;
-  g.innerHTML=list.slice((catPage-1)*CAT_SIZE, catPage*CAT_SIZE).map(catCard).join('');
-  if(pg) pg.innerHTML=catPagerHTML(list.length,catPage);
-}
-async function loadCatalog(){
-  try{ var r=await fetchWithTimeout('catalog.json?_='+Date.now(),9000); if(r.ok){ var d=await r.json(); if(d&&d.tables&&(d.tables.T1||[]).length) CATALOG=d.tables; } }catch(e){}
-  renderCat();
-}
-document.querySelectorAll('[data-cat]').forEach(function(b){b.addEventListener('click',function(){
-  document.querySelectorAll('[data-cat]').forEach(function(x){x.classList.remove('active');});
-  b.classList.add('active'); curCat=b.dataset.cat; catPage=1; renderCat();
-});});
-var catS=document.getElementById('catSearch'); if(catS) catS.addEventListener('input',function(){catPage=1;renderCat();});
-var catPg=document.getElementById('catPager');
-if(catPg) catPg.addEventListener('click',function(e){var b=e.target.closest?e.target.closest('.pg'):null; if(!b||b.disabled)return; catPage=parseInt(b.getAttribute('data-pg'),10)||1; renderCat(); var t=document.getElementById('catGrid'); if(t)t.scrollIntoView({block:'nearest',behavior:'smooth'});});
-loadCatalog();
-
-/* ===================== MODAL DAS TENDÊNCIAS (resumo traduzido + fontes) ===================== */
-var TRENDINFO=[
-  {title:"Energia nuclear no espaço",
-   body:"A NASA, em parceria com o Departamento de Energia dos EUA, planeja instalar um pequeno reator nuclear de fissão na superfície da Lua por volta de 2030, dentro do programa Artemis. O objetivo é garantir energia elétrica contínua para futuras bases lunares — a noite lunar dura cerca de 14 dias terrestres, o que inviabiliza depender apenas de energia solar. A tecnologia de microrreatores (SMRs) abre caminho para missões a Marte e reacende o debate sobre o uso de reatores compactos também na Terra.",
-   source:{label:"NASA — comunicado oficial",url:"https://www.nasa.gov/news-release/nasa-department-of-energy-to-develop-lunar-surface-reactor-by-2030/"},
-   more:[{label:"NASA — programa Artemis",url:"https://www.nasa.gov/humans-in-space/artemis/"},{label:"Fission Surface Power (Wikipédia, EN)",url:"https://en.wikipedia.org/wiki/Fission_surface_power"}]},
-  {title:"Hélio-3 lunar & fusão",
-   body:"O hélio-3 é um isótopo raríssimo na Terra, mas relativamente abundante no solo lunar, onde foi depositado pelo vento solar ao longo de bilhões de anos. Ele é cobiçado como combustível para a fusão nuclear \"limpa\" — a reação entre deutério e hélio-3 gera pouquíssimos nêutrons e quase nenhum resíduo radioativo — e também para resfriar computadores quânticos. Estima-se mais de 1 milhão de toneladas na Lua. Algumas empresas já desenvolvem escavadeiras para minerar o regolito lunar, mas a fusão baseada em hélio-3 ainda está distante da viabilidade comercial.",
-   source:{label:"Polytechnique Insights",url:"https://www.polytechnique-insights.com/en/braincamps/space/extraterrestrial-mining/helium-3-from-the-lunar-surface-for-nuclear-fusion/"},
-   more:[{label:"Hélio-3 (Wikipédia)",url:"https://pt.wikipedia.org/wiki/H%C3%A9lio-3"},{label:"NASA — estudo técnico de mineração de hélio-3 (EN, PDF)",url:"https://ntrs.nasa.gov/citations/20210022801"}]},
-  {title:"IA e a nova fome de energia",
-   body:"O avanço da inteligência artificial está disparando a demanda mundial por eletricidade. Segundo a Agência Internacional de Energia (IEA), o consumo dos data centers cresceu cerca de 17% em 2025 — e o dos data centers voltados a IA, cerca de 50%. A projeção é que esse consumo praticamente dobre até 2030, chegando a perto de 3% de toda a eletricidade do planeta. Isso pressiona todas as fontes (gás natural, nuclear e renováveis) e coloca o setor de óleo e gás no centro dessa transição energética.",
-   source:{label:"IEA — Agência Internacional de Energia",url:"https://www.iea.org/news/data-centre-electricity-use-surged-in-2025-even-with-tightening-bottlenecks-driving-a-scramble-for-solutions"},
-   more:[{label:"IEA — relatório \"Energy and AI\"",url:"https://www.iea.org/reports/energy-and-ai"},{label:"BusinessGreen — análise (EN)",url:"https://www.businessgreen.com/news/4528440/iea-electricity-ai-centres-surged-cent-2025"}]},
-  {title:"SpaceX & viagens a Marte",
-   body:"A Starship, da SpaceX, é o maior foguete já construído e foi projetada para ser totalmente reutilizável, capaz de levar mais de 100 toneladas à órbita. A empresa testa o reabastecimento orbital — etapa essencial para missões de longa distância — e mira enviar cargas e, no futuro, pessoas a Marte. Em paralelo, estuda-se a propulsão nuclear térmica, que poderia reduzir significativamente o tempo de viagem até o planeta vermelho.",
-   source:{label:"SpaceX — página oficial da Starship",url:"https://www.spacex.com/vehicles/starship/"},
-   more:[{label:"NASA — exploração de Marte",url:"https://science.nasa.gov/mars/"},{label:"SpaceX Starship (Wikipédia, EN)",url:"https://en.wikipedia.org/wiki/SpaceX_Starship"}]}
-];
-(function initTrendModal(){
-  var cards=document.querySelectorAll('a.ref-card.tcard');
-  if(!cards.length) return;
-  var ov=document.createElement('div'); ov.className='tmodal'; ov.id='trendModal';
-  ov.innerHTML='<div class="tmodal-box" role="dialog" aria-modal="true"><button class="tmodal-x" aria-label="Fechar">✕</button><div id="tmodalBody"></div></div>';
-  document.body.appendChild(ov);
-  var bodyEl=ov.querySelector('#tmodalBody');
-  function open(i){
-    var d=TRENDINFO[i]; if(!d) return;
-    var more=d.more.map(function(m){return '<li><a href="'+m.url+'" target="_blank" rel="noopener">'+m.label+' ↗</a></li>';}).join('');
-    bodyEl.innerHTML='<span class="tm-kicker">Tendências &amp; Novas Energias</span>'+
-      '<h3>'+d.title+'</h3>'+
-      '<p class="tm-text">'+d.body+'</p>'+
-      '<div class="tm-src">📰 Fonte original: <a href="'+d.source.url+'" target="_blank" rel="noopener">'+d.source.label+' ↗</a> <small>— resumo traduzido/adaptado para o português.</small></div>'+
-      '<div class="tm-more"><b>Saiba mais</b><ul>'+more+'</ul></div>';
-    ov.classList.add('on'); document.body.style.overflow='hidden';
-  }
-  function close(){ ov.classList.remove('on'); document.body.style.overflow=''; }
-  cards.forEach(function(c,i){ c.addEventListener('click',function(e){ e.preventDefault(); open(i); }); });
-  ov.addEventListener('click',function(e){ if(e.target===ov || e.target.classList.contains('tmodal-x')) close(); });
-  document.addEventListener('keydown',function(e){ if(e.key==='Escape') close(); });
-})();
-(function(){var t=document.querySelector('.nav-toggle'),l=document.querySelector('nav.links');if(t&&l){t.addEventListener('click',function(){var open=l.classList.toggle('open');t.setAttribute('aria-expanded',open?'true':'false');t.textContent=open?'✕':'☰';});l.addEventListener('click',function(e){if(e.target.tagName==='A'){l.classList.remove('open');t.setAttribute('aria-expanded','false');t.textContent='☰';}});}})();
+loadTrends();
 </script>
-<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "9620fe57cd6d461396a8f125094c7a89"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
