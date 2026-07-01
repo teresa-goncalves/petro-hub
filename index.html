@@ -907,7 +907,7 @@ function renderUFGrid(){
 renderUFGrid(); showUF('RJ');
 
 /* ===================== COTAÇÕES (barril, dólar, euro) ===================== */
-var MARKET={brent:"US$ 74,01", usd:"R$ 5,17", eur:"R$ 5,89", updated:"30/06/2026"};
+var MARKET={brent:"US$ 73,41", usd:"R$ 5,17", eur:"R$ 5,92", updated:"01/07/2026"};
 function renderMarket(brent,usd,eur,live){
   var m=document.getElementById('market'); if(!m) return;
   var liveTag='<span class="pulse"></span> cotação ao vivo';
@@ -961,18 +961,18 @@ var BLOCKRX=/c[âa]ncer|cancer|colorretal|colorectal|tumor|oncolog|carcinom|doen
 // Atualizados periodicamente; servem de base caso o feed ao vivo esteja indisponível.
 var SEED=[
   {title:"'Vamos atrás de todo o óleo possível', diz diretora de E&P da Petrobras", link:"https://www.fecombustiveis.org.br/noticia/vamos-atras-de-todo-o-oleo-possivel-diz-diretora-da-petrobras-sobre-ofensiva-por-novas-reservas/263511", date:"2026-06-18", desc:"Sylvia Anjos cita Solimões, Margem Equatorial, Campos e Santos na ofensiva da Petrobras por novas reservas em 2026.", src:"Fecombustíveis", reg:"BR", translated:false},
-  {title:"ANP divulga lista de empresas habilitadas para os leilões de petróleo e gás de outubro", link:"https://www.dgabc.com.br/Noticia/4331724/anp-divulga-lista-de-empresas-habilitadas-para-leiloes-de-petroleo-e-gas-em-outubro", date:"2026-06-26", desc:"Reguladora confirma participantes da Oferta Permanente de Partilha e de Concessão, com sessão pública marcada para 7 de outubro.", src:"Diário do Grande ABC", reg:"BR", translated:false},
+  {title:"ANP divulga lista de empresas habilitadas para os leilões de petróleo e gás de outubro", link:"https://www.dgabc.com.br/Noticia/4331724/anp-divulga-lista-de-empresas-habilitadas-para-leiloes-de-petroleo-e-gas-em-outubro", date:"2026-06-26", desc:"Reguladora confirma participantes da Oferta Permanente de Partilha e de Concessão, com sessão pública marcada para 7 de outubro; blocos definidos até 6 de agosto.", src:"Diário do Grande ABC", reg:"BR", translated:false},
   {title:"ANP amplia oferta do pré-sal com 23 blocos e marca leilão para 7 de outubro de 2026", link:"https://timesbrasil.com.br/empresas-e-negocios/energia/anp-amplia-oferta-do-pre-sal-com-23-blocos-e-prepara-leilao-ainda-em-2026/", date:"2026-04-27", desc:"Oito blocos na Bacia de Campos e 13 na de Santos entram na Oferta Permanente de Partilha de Produção.", src:"Times Brasil", reg:"BR", translated:false},
   {title:"ANP prevê US$ 1,2 bilhão em investimentos em exploração entre 2026 e 2033, com foco offshore", link:"https://clickpetroleoegas.com.br/anp-preve-us-12-bilhao-em-investimentos-em-exploracao-de-petroleo-e-gas-no-brasil-entre-2026-e-2033-com-foco-em-perfuracao-offshore-hl1402/", date:"2026-06-22", desc:"Agência projeta forte ciclo de perfuração em águas profundas para sustentar a produção brasileira na próxima década.", src:"CPG Click Petróleo e Gás", reg:"BR", translated:false},
-  {title:"Petrobras instalará 11 novas plataformas no pré-sal até 2027; P-80 e P-82 chegam a Búzios em 2026", link:"https://agencia.petrobras.com.br/w/negocio/petrobras-instalara-11-novas-plataformas-no-pre-sal-ate-2027", date:"2026-06-10", desc:"FPSOs P-80 e P-82, de 225 mil barris/dia cada, entram em operação em Búzios em 2026, rumo a 2 milhões de bpd no campo.", src:"Agência Petrobras", reg:"BR", translated:false},
-  {title:"IA, eficiência e transição energética moldam o setor de óleo e gás, diz Deloitte", link:"https://agenciainfra.com/blog/ia-eficiencia-e-transicao-moldam-setor-de-oleo-e-gas-diz-deloitte/", date:"2026-06-16", desc:"Empresas priorizam IA e IA generativa para elevar produtividade, reduzir custos e otimizar ativos offshore.", src:"Agência iNFRA", reg:"BR", translated:false},
+  {title:"Petrobras instalará 11 novas plataformas no pré-sal até 2027; P-80 e P-82 chegam a Búzios em 2026", link:"https://agencia.petrobras.com.br/w/negocio/petrobras-instalara-11-novas-plataformas-no-pre-sal-ate-2027", date:"2026-06-10", desc:"FPSOs P-80 e P-82 entram em operação em Búzios em 2026, rumo a cerca de 2 milhões de bpd no campo.", src:"Agência Petrobras", reg:"BR", translated:false},
+  {title:"Petrobras inicia produção da P-79 em Búzios com antecedência e amplia capacidade no pré-sal", link:"https://br.advfn.com/jornal/2026/05/petrobras-inicia-producao-da-p-79-em-buzios-com-antecedencia-e-amplia-a-capacidade-no-pre-sal", date:"2026-05-27", desc:"Nova plataforma no pré-sal da Bacia de Santos entra em operação antes do previsto no plano de negócios 2026-2030.", src:"ADVFN", reg:"BR", translated:false},
   {title:"Petrobras busca aumento de produção para mitigar efeitos da guerra", link:"https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/petrobras-busca-aumento-producao-para-mitigar-efeitos-guerra", date:"2026-05-20", desc:"Estatal acelera produção no pré-sal diante da volatilidade dos preços e dos riscos geopolíticos no Oriente Médio.", src:"Agência Brasil", reg:"BR", translated:false},
-  {title:"Primeiro óleo flui do novo FPSO da Petrobras em um dos maiores campos de águas profundas do mundo", link:"https://www.offshore-energy.biz/first-oil-flows-from-petrobras-new-fpso-at-one-of-worlds-largest-deepwater-fields/", date:"2026-06-24", desc:"Nova unidade flutuante entra em operação no pré-sal de Búzios, reforçando a capacidade de produção em águas ultraprofundas.", src:"Offshore Energy", reg:"INT", translated:true},
-  {title:"Perspectivas do mercado de FPSOs em 2026 apontam expansão em águas profundas", link:"https://www.openpr.com/news/4433129/fpso-market-outlook-2026-offshore-oil-production-deepwater", date:"2026-06-19", desc:"Relatório projeta crescimento de projetos de produção offshore, serviços de campo e investimentos em energia até o fim da década.", src:"OpenPR", reg:"INT", translated:true},
+  {title:"Petrobras e SBM Offshore dão vida a par de projetos de US$ 12 bilhões, com dois FPSOs", link:"https://www.offshore-energy.biz/petrobras-bringing-12-billion-oil-gas-project-pair-to-life-with-sbm-offshore-on-fpso-duty-for-both/", date:"2026-05-14", desc:"Decisão final de investimento na Bacia de Sergipe-Alagoas prevê mais de 1 bilhão de boe e cerca de R$ 60 bilhões em aportes.", src:"Offshore Energy", reg:"INT", translated:true},
+  {title:"Águas profundas ressurgem como motor crítico de oferta em meio à desaceleração global da exploração", link:"https://worldoil.com/news/2026/5/8/otc-2026-deepwater-re-emerges-as-critical-supply-engine-amid-global-exploration-slowdown/", date:"2026-05-08", desc:"Na OTC 2026, produção em águas ultraprofundas ganha protagonismo e pode chegar a cerca de 10 milhões de bpd no início dos anos 2030.", src:"World Oil", reg:"INT", translated:true},
   {title:"IN RFB nº 2.312/2026 atualiza regras do Repetro-Sped", link:"https://www.legisweb.com.br/legislacao/?id=492395", date:"2026-03-13", desc:"Nova instrução normativa da Receita Federal ajusta procedimentos do regime aduaneiro especial de Repetro-Sped.", src:"Receita Federal / LegisWeb", reg:"LEI", translated:false},
   {title:"IN RFB nº 2.308/2026 aperta requisitos de habilitação do Repetro-Industrialização", link:"https://www.thomsonreuters.com.br/pt/tax-accounting/comercio-exterior/blog/o-que-voce-precisa-saber-sobre-a-nova-in-do-repetro-industrializacao.html", date:"2026-02-27", desc:"Altera a IN 1.901/2019 e exige objeto social, CNAE compatível e contrato com beneficiário do regime.", src:"Thomson Reuters", reg:"LEI", translated:false},
-  {title:"SEFAZ-RJ esclarece dúvidas operacionais sobre Repetro-Sped e Repetro-Industrialização", link:"https://www.mattosfilho.com.br/unico/sefaz-rj-duvidas-operacionais-repetro-sped/", date:"2026-06-12", desc:"Fisco fluminense detalha aplicação dos benefícios de ICMS e procedimentos para fabricantes intermediários e finais no RJ.", src:"Mattos Filho", reg:"LEI", translated:false},
-  {title:"IN RFB nº 2.274/2025 inclui tubos e dutos de gasodutos de escoamento no Repetro-Sped", link:"https://www.gov.br/receitafederal/pt-br/assuntos/noticias/2025/agosto/receita-federal-publica-instrucao-normativa-sobre-o-repetro-sped", date:"2025-08-04", desc:"Receita Federal altera a IN 1.781/2017 e elimina ambiguidades sobre a elegibilidade de gasodutos.", src:"Receita Federal", reg:"LEI", translated:false}
+  {title:"Ajuste no Repetro-Industrialização e avanços do IBS no RJ, aponta Mattos Filho", link:"https://www.mattosfilho.com.br/unico/repetro-industrializacao-ibs-rj/", date:"2026-06-05", desc:"Boletim tributário detalha mudanças no Repetro-Industrialização e os primeiros passos do IBS no Rio de Janeiro.", src:"Mattos Filho", reg:"LEI", translated:false},
+  {title:"RJ atualiza tabela de códigos de benefícios fiscais do ICMS (cBenef) por Portaria SUPDIEF nº 15/2026", link:"https://tagdlaw.com.br/rj-atualiza-tabela-de-codigos-de-beneficios-fiscais-do-icms/", date:"2026-05-07", desc:"SEFAZ-RJ revisa códigos cBenef, com reflexos na fruição dos benefícios de ICMS aplicáveis ao Repetro no estado.", src:"TAGD Advogados", reg:"LEI", translated:false}
 ];
 
 function stripHtml(s){var d=document.createElement('div');d.innerHTML=s||'';return (d.textContent||'').trim();}
@@ -1133,6 +1133,39 @@ async function loadTrends(){
   }catch(e){ box.innerHTML='<div class="empty">Não foi possível carregar as tendências agora.</div>'; }
 }
 loadTrends();
+
+/* ===================== PRÓXIMOS LANÇAMENTOS ORBITAIS ===================== */
+async function loadLaunches(){
+  var box=document.getElementById('launchList');
+  if(!box) return;
+  var API="https://lldev.thespacedevs.com/2.2.0/launch/upcoming/?limit=6&hide_recent_previous=true";
+  async function getJSON(u){var r=await fetchWithTimeout(u,9000);if(!r.ok)throw new Error('HTTP '+r.status);return r.json();}
+  var data=null;
+  try{ data=await getJSON(API); }catch(e){ data=null; }
+  if(!data){ for(var i=0;i<PROXIES.length && !data;i++){ try{ data=await getJSON(PROXIES[i](API)); }catch(_){ } } }
+  var list=(data&&data.results)||[];
+  if(!list.length){
+    box.innerHTML='<div class="empty">Nao foi possivel carregar os lancamentos agora. '+
+      '<a href="https://nextspaceflight.com/launches/" target="_blank" rel="noopener">Ver agenda no NextSpaceflight &#8599;</a></div>';
+    return;
+  }
+  var MES=['JAN','FEV','MAR','ABR','MAI','JUN','JUL','AGO','SET','OUT','NOV','DEZ'];
+  box.innerHTML=list.slice(0,6).map(function(l){
+    var dt=new Date(l.net); var ok=!isNaN(dt);
+    var d=ok?String(dt.getDate()).padStart(2,'0'):'--';
+    var mo=ok?MES[dt.getMonth()]:'';
+    var nome=(l.name||'Lancamento').split('|');
+    var foguete=(nome.length>1?nome[0]:'').trim();
+    var missao=(nome.length>1?nome[1]:(nome[0]||'Lancamento')).trim();
+    var prov=(l.launch_service_provider&&l.launch_service_provider.name)||'';
+    var quando=ok?(dt.toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit'})+' \u00b7 '+dt.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'})):'Data a confirmar';
+    var sub=[foguete,prov,quando].filter(Boolean).join(' \u00b7 ');
+    return '<a class="launch-item" href="https://nextspaceflight.com/launches/" target="_blank" rel="noopener">'+
+      '<span class="ldate"><span class="d">'+d+'</span><span class="mo">'+mo+'</span></span>'+
+      '<span class="lmeta"><b>'+missao+'</b><span>'+sub+'</span></span></a>';
+  }).join('');
+}
+loadLaunches();
 </script>
 </body>
 </html>
