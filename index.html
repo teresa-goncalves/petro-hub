@@ -1166,6 +1166,7 @@ async function loadLaunches(){
   }).join('');
 }
 loadLaunches();
+  (function(){var b=document.querySelector('.nav-toggle'),l=document.querySelector('nav.links');if(!b||!l)return;b.addEventListener('click',function(){var o=l.classList.toggle('open');b.setAttribute('aria-expanded',o?'true':'false');b.textContent=o?'✕':'☰';});l.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){l.classList.remove('open');b.setAttribute('aria-expanded','false');b.textContent='☰';});});})();
 </script>
 </body>
 </html>
