@@ -1,12 +1,12 @@
 {
- "updated": "2026-07-03T15:59:52.477Z",
+ "updated": "2026-07-03T20:34:25.727Z",
  "quotes": [
   {
    "sym": "BZ=F",
    "name": "Petróleo Brent",
    "group": "commodity",
-   "price": 72,
-   "changePct": 0.28,
+   "price": 72.13,
+   "changePct": 0.46,
    "currency": "USD"
   },
   {
@@ -69,8 +69,8 @@
    "sym": "PRIO3.SA",
    "name": "PRIO (B3)",
    "group": "oil",
-   "price": 52.55,
-   "changePct": -0.04,
+   "price": 52.96,
+   "changePct": 0.74,
    "currency": "BRL"
   },
   {
