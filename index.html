@@ -1248,4 +1248,13 @@ async function loadLaunches(){
     var prov=(l.launch_service_provider&&l.launch_service_provider.name)||'';
     var quando=ok?(dt.toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit'})+' \u00b7 '+dt.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'})):'Data a confirmar';
     var sub=[foguete,prov,quando].filter(Boolean).join(' \u00b7 ');
-    return '<a class="launch-item" href="https://nextspaceflight.com/launches/" target="_blank" rel="noop
+    return '<a class="launch-item" href="https://nextspaceflight.com/launches/" target="_blank" rel="noopener">'+
+      '<span class="ldate"><span class="d">'+d+'</span><span class="mo">'+mo+'</span></span>'+
+      '<span class="lmeta"><b>'+missao+'</b><span>'+sub+'</span></span>'+
+    '</a>';
+  }).join('');
+}
+loadLaunches();
+</script>
+</body>
+</html>

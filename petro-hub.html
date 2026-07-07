@@ -1098,4 +1098,163 @@ function parseFeedXml(xml,f){
     var nodes=Array.prototype.slice.call(doc.querySelectorAll("item"));
     if(nodes.length===0) nodes=Array.prototype.slice.call(doc.querySelectorAll("entry"));
     return nodes.slice(0,10).map(function(it){
-      f
+      function get(t){var el=it.querySelector(t);return el?el.textContent.trim():"";}
+      var link=get("link");
+      var linkEl=it.querySelector("link");
+      if(linkEl && linkEl.getAttribute("href")) link=linkEl.getAttribute("href");
+      return {
+        title:stripHtml(get("title")),
+        link:link,
+        date:get("pubDate")||get("published")||get("updated")||get("date"),
+        desc:stripHtml(get("description")||get("summary")).slice(0,140),
+        src:f.src, reg:f.reg, translated:false
+      };
+    }).filter(function(n){return n.title && n.link;});
+  }catch(e){return [];}
+}
+
+async function fetchFeed(f){
+  var xml=await fetchFeedXml(f.url);
+  if(!xml) return [];
+  return parseFeedXml(xml,f);
+}
+
+async function loadNews(){
+  var grid=document.getElementById('newsGrid');
+  grid.innerHTML='<div class="loading"><span class="spinner"></span>Carregando notícias ao vivo...</div>';
+  var results=await Promise.all(FEEDS.map(fetchFeed));
+  var live=[].concat.apply([],results);
+  // filtro de relevância: mantém só notícias do setor de óleo e gás
+  var RX=/petr[oó]le|petrobras|\bg[aá]s\b|[oó]leo|offshore|pr[eé]-?sal|\bANP\b|repetro|fpso|combust|explora[çc]|barril|\boil\b|petroleum|upstream|refin|po[çc]o|sonda|plataforma|bacia (de|do) (santos|campos|parna)|equinor|shell|prio|braskem|descomission|decommission|desativa[çc][ãa]o|abandono de po[çc]o|plug.?and.?abandon|well abandon/i;
+  live=live.filter(function(n){var s=(n.title||'')+' '+(n.desc||'');return RX.test(s)&&!BLOCKRX.test(s);});
+  // traduz as manchetes internacionais que vieram ao vivo
+  var intItems=live.filter(function(n){return n.reg==='INT';});
+  await Promise.all(intItems.map(async function(n){
+    var t=await translate(n.title);
+    if(t){n.title=t;n.translated=true;}
+  }));
+  // combina o que veio ao vivo com os destaques sempre disponíveis (garante que algo apareça)
+  // arquivo COMPARTILHADO no repositório (atualizado diariamente pelo GitHub Actions)
+  var shared=[];
+  try{ var rsp=await fetchWithTimeout('news.json?_='+Date.now(),8000); if(rsp.ok){ var jj=await rsp.json(); if(Array.isArray(jj)) shared=jj; } }catch(e){}
+  var fresh=live.concat(shared).concat(SEED);
+  fresh=fresh.filter(function(n){var s=(n.title||'')+' '+(n.desc||'');return !BLOCKRX.test(s)&&(n.reg==='LEI'||RX.test(s));}); // relevância + bloqueio de temas fora do setor (vale p/ todas as origens)
+  // ARQUIVO ROLANTE (até 1 ano) — acumula as notícias no navegador (localStorage), removendo o que passa de 365 dias
+  var KEY='petrohub_news_v5', store={};
+  try{store=JSON.parse(localStorage.getItem(KEY)||'{}');}catch(e){store={};}
+  fresh.forEach(function(n){var k=(n.link||n.title); if(!k) return; store[k]={title:n.title,link:n.link,date:(store[k]&&store[k].date)||n.date||new Date().toISOString(),desc:n.desc,src:n.src,reg:n.reg,translated:!!n.translated};});
+  var lim=Date.now()-365*24*3600*1000;
+  Object.keys(store).forEach(function(k){var d=new Date(store[k].date).getTime(); if(!isNaN(d) && d<lim) delete store[k];});
+  // remove do arquivo local itens fora do tema (ex.: INSS/previdência) que entraram em versões anteriores
+  Object.keys(store).forEach(function(k){var it=store[k]||{};var s=(it.title||'')+' '+(it.desc||'');if(BLOCKRX.test(s)||(it.reg!=='LEI'&&!RX.test(s))) delete store[k];});
+  try{localStorage.setItem(KEY,JSON.stringify(store));}catch(e){}
+  ALL=Object.keys(store).map(function(k){return store[k];});
+  var seen={}; ALL=ALL.filter(function(n){if(!n.title||seen[n.title])return false;seen[n.title]=1;return true;});
+  ALL.sort(function(a,b){return new Date(b.date)-new Date(a.date);});
+  var when=new Date().toLocaleString('pt-BR',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'});
+  document.getElementById('updated').textContent=(live.length>0?'Ao vivo · ':'Destaques · ')+when;
+  render();
+}
+
+function render(){
+  var grid=document.getElementById('newsGrid');
+  var items=ALL;
+  if(curFilter==='BR') items=ALL.filter(function(n){return n.reg==='BR';});
+  else if(curFilter==='INT') items=ALL.filter(function(n){return n.reg==='INT';});
+  else if(curFilter==='GEO') items=ALL.filter(function(n){return GEORX.test((n.title||'')+' '+(n.desc||''));});
+  else if(curFilter==='LEI') items=ALL.filter(function(n){return n.reg==='LEI';});
+  else if(curFilter==='PET') items=ALL.filter(function(n){return /petrobras/i.test(n.title+n.desc);});
+  if(query){var q=norm(query);items=items.filter(function(n){return norm((n.title||'')+' '+(n.desc||'')+' '+(n.src||'')).indexOf(q)>-1;});}
+  else{var lim7=Date.now()-7*24*3600*1000;items=items.filter(function(n){var d=new Date(n.date).getTime();return isNaN(d)?true:d>=lim7;});}
+  if(items.length===0){grid.innerHTML='<div class="empty">'+(query?'Nenhuma notícia encontrada para “'+query+'”. Tente outra palavra.':'Nenhuma notícia dos últimos 7 dias neste filtro. 🔎 Use a busca para ver o arquivo completo.')+'</div>';return;}
+  var __cards=items.slice(0,60).map(function(n){
+    return '<article class="ncard"><div class="meta">'+
+      '<span class="src-tag">'+n.src+'</span>'+
+      '<span class="reg-tag reg-'+n.reg+'">'+(n.reg==='BR'?'Brasil':(n.reg==='INT'?'Internacional':'Legislação'))+'</span>'+
+      (n.translated?'<span class="translated">🌐 traduzido</span>':'')+
+      '</div><h3>'+n.title+'</h3><div class="date">'+fmtDate(n.date)+'</div>'+
+      '<div class="links"><a href="'+n.link+'" target="_blank" rel="noopener">Ler matéria ↗</a>'+
+      (n.reg==='INT'?'<a href="https://translate.google.com/translate?sl=auto&tl=pt&u='+encodeURIComponent(n.link)+'" target="_blank" rel="noopener">Ler traduzida ↗</a>':'')+
+      '</div></article>';
+  }).join('');
+  if(!query){ __cards+='<div class="news-hint">📅 Mostrando as notícias dos últimos 7 dias. Use a busca acima para acessar todo o arquivo.</div>'; }
+  grid.innerHTML=__cards;
+}
+
+document.querySelectorAll('[data-f]').forEach(function(b){b.addEventListener('click',function(){
+  document.querySelectorAll('[data-f]').forEach(function(x){x.classList.remove('active');});
+  b.classList.add('active'); curFilter=b.dataset.f; render();
+});});
+var nsEl=document.getElementById('newsSearch'); if(nsEl) nsEl.addEventListener('input',function(e){query=e.target.value.trim(); render();});
+document.getElementById('refreshBtn').addEventListener('click',loadNews);
+loadNews();
+
+/* ===================== NOTÍCIAS AO VIVO: TENDÊNCIAS ===================== */
+var TREND_FEEDS=[
+  {url:"https://www.space.com/feeds/all", src:"Space.com", reg:"INT"},
+  {url:"https://spacenews.com/feed/", src:"SpaceNews", reg:"INT"},
+  {url:"https://feeds.arstechnica.com/arstechnica/index", src:"Ars Technica", reg:"INT"}
+];
+var TRENDRX=/spacex|starship|\brocket|\blaunch|\bnasa\b|artemis|lunar|\bmoon\b|\bmars\b|astronaut|sat[ée]lite|satellite|nuclear|fus[ãa]o nuclear|fusion|helium|\bh[ée]lio\b|reactor|reator|\bsmr\b|hydrogen|hidrog[êe]nio|geothermal|geot[ée]rmic|carbon capture|captura de carbono|renewable|renov[áa]vel|\bsolar\b|e[óo]lic|wind power|battery|bateria|electric vehicle|ve[íi]culo el[ée]tric|\bev\b|energy transition|transi[çc][ãa]o energ[ée]tic|clean energy|energia limpa|quantum|qu[âa]ntic|intelig[êe]ncia artificial|\bia\b|\bai\b/i;
+
+async function loadTrends(){
+  var box=document.getElementById('trendNews');
+  if(!box) return;
+  try{
+    var results=await Promise.all(TREND_FEEDS.map(fetchFeed));
+    var items=[].concat.apply([],results);
+    items=items.filter(function(n){var s=(n.title||'')+' '+(n.desc||'');return TRENDRX.test(s)&&!BLOCKRX.test(s);});
+    var seen={}; items=items.filter(function(n){if(!n.title||seen[n.title])return false;seen[n.title]=1;return true;});
+    items.sort(function(a,b){return new Date(b.date)-new Date(a.date);});
+    items=items.slice(0,9);
+    await Promise.all(items.map(async function(n){var t=await translate(n.title);if(t){n.title=t;n.translated=true;}}));
+    if(items.length===0){box.innerHTML='<div class="empty">Sem atualizações de tendências no momento.</div>';return;}
+    box.innerHTML=items.map(function(n){
+      return '<article class="ncard"><div class="meta">'+
+        '<span class="src-tag">'+n.src+'</span>'+
+        (n.translated?'<span class="translated">🌐 traduzido</span>':'')+
+        '</div><h3>'+n.title+'</h3><div class="date">'+fmtDate(n.date)+'</div>'+
+        '<div class="links"><a href="'+n.link+'" target="_blank" rel="noopener">Ler matéria ↗</a>'+
+        '<a href="https://translate.google.com/translate?sl=auto&tl=pt&u='+encodeURIComponent(n.link)+'" target="_blank" rel="noopener">Ler traduzida ↗</a>'+
+        '</div></article>';
+    }).join('');
+  }catch(e){ box.innerHTML='<div class="empty">Não foi possível carregar as tendências agora.</div>'; }
+}
+loadTrends();
+
+/* ===================== PRÓXIMOS LANÇAMENTOS ORBITAIS ===================== */
+async function loadLaunches(){
+  var box=document.getElementById('launchList');
+  if(!box) return;
+  var API="https://lldev.thespacedevs.com/2.2.0/launch/upcoming/?limit=6&hide_recent_previous=true";
+  async function getJSON(u){var r=await fetchWithTimeout(u,9000);if(!r.ok)throw new Error('HTTP '+r.status);return r.json();}
+  var data=null;
+  try{ data=await getJSON(API); }catch(e){ data=null; }
+  if(!data){ for(var i=0;i<PROXIES.length && !data;i++){ try{ data=await getJSON(PROXIES[i](API)); }catch(_){ } } }
+  var list=(data&&data.results)||[];
+  if(!list.length){
+    box.innerHTML='<div class="empty">Nao foi possivel carregar os lancamentos agora. '+
+      '<a href="https://nextspaceflight.com/launches/" target="_blank" rel="noopener">Ver agenda no NextSpaceflight &#8599;</a></div>';
+    return;
+  }
+  var MES=['JAN','FEV','MAR','ABR','MAI','JUN','JUL','AGO','SET','OUT','NOV','DEZ'];
+  box.innerHTML=list.slice(0,6).map(function(l){
+    var dt=new Date(l.net); var ok=!isNaN(dt);
+    var d=ok?String(dt.getDate()).padStart(2,'0'):'--';
+    var mo=ok?MES[dt.getMonth()]:'';
+    var nome=(l.name||'Lancamento').split('|');
+    var foguete=(nome.length>1?nome[0]:'').trim();
+    var missao=(nome.length>1?nome[1]:(nome[0]||'Lancamento')).trim();
+    var prov=(l.launch_service_provider&&l.launch_service_provider.name)||'';
+    var quando=ok?(dt.toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit'})+' \u00b7 '+dt.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'})):'Data a confirmar';
+    var sub=[foguete,prov,quando].filter(Boolean).join(' \u00b7 ');
+    return '<a class="launch-item" href="https://nextspaceflight.com/launches/" target="_blank" rel="noopener">'+
+      '<span class="ldate"><span class="d">'+d+'</span><span class="mo">'+mo+'</span></span>'+
+      '<span class="lmeta"><b>'+missao+'</b><span>'+sub+'</span></span>'+
+    '</a>';
+  }).join('');
+}
+loadLaunches();
+</script>
+</body>
+</html>
