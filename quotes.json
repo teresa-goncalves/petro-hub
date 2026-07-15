@@ -1,12 +1,12 @@
 {
- "updated": "2026-07-15T07:30:00.805Z",
+ "updated": "2026-07-15T12:09:20.667Z",
  "quotes": [
   {
    "sym": "BZ=F",
    "name": "Petróleo Brent",
    "group": "commodity",
-   "price": 85.9,
-   "changePct": 1.38,
+   "price": 84.84,
+   "changePct": 0.13,
    "currency": "USD"
   },
   {
@@ -21,9 +21,9 @@
    "sym": "SHEL",
    "name": "Shell",
    "group": "oil",
-   "price": 84.41,
-   "changePct": 0.51,
-   "currency": "USD"
+   "price": null,
+   "changePct": null,
+   "currency": null
   },
   {
    "sym": "XOM",
