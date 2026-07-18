@@ -1,21 +1,21 @@
 {
- "updated": "2026-07-18T20:12:33.148Z",
+ "updated": "2026-07-18T21:24:35.015Z",
  "quotes": [
   {
    "sym": "BZ=F",
    "name": "Petróleo Brent",
    "group": "commodity",
-   "price": 88.1,
-   "changePct": 4.59,
-   "currency": "USD"
+   "price": null,
+   "changePct": null,
+   "currency": null
   },
   {
    "sym": "PBR",
    "name": "Petrobras (ADR)",
    "group": "oil",
-   "price": 17.97,
-   "changePct": 2.86,
-   "currency": "USD"
+   "price": null,
+   "changePct": null,
+   "currency": null
   },
   {
    "sym": "SHEL",
