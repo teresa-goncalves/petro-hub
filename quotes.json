@@ -1,12 +1,12 @@
 {
- "updated": "2026-07-23T20:14:31.639Z",
+ "updated": "2026-07-23T21:35:27.729Z",
  "quotes": [
   {
    "sym": "BZ=F",
    "name": "Petróleo Brent",
    "group": "commodity",
-   "price": 99.83,
-   "changePct": 6.12,
+   "price": 100.55,
+   "changePct": 6.89,
    "currency": "USD"
   },
   {
@@ -14,14 +14,14 @@
    "name": "Petrobras (ADR)",
    "group": "oil",
    "price": 19,
-   "changePct": 0.56,
+   "changePct": 0.58,
    "currency": "USD"
   },
   {
    "sym": "SHEL",
    "name": "Shell",
    "group": "oil",
-   "price": 87.96,
+   "price": 87.95,
    "changePct": 0.21,
    "currency": "USD"
   },
@@ -29,16 +29,16 @@
    "sym": "XOM",
    "name": "ExxonMobil",
    "group": "oil",
-   "price": 156.86,
-   "changePct": 1.56,
+   "price": 156.89,
+   "changePct": 1.58,
    "currency": "USD"
   },
   {
    "sym": "CVX",
    "name": "Chevron",
    "group": "oil",
-   "price": 194.4,
-   "changePct": 0.74,
+   "price": 194.42,
+   "changePct": 0.75,
    "currency": "USD"
   },
   {
@@ -53,24 +53,24 @@
    "sym": "BP",
    "name": "BP",
    "group": "oil",
-   "price": 43.94,
-   "changePct": 1.42,
+   "price": 43.93,
+   "changePct": 1.41,
    "currency": "USD"
   },
   {
    "sym": "EQNR",
    "name": "Equinor",
    "group": "oil",
-   "price": 40.96,
-   "changePct": 2.49,
+   "price": 40.99,
+   "changePct": 2.58,
    "currency": "USD"
   },
   {
    "sym": "PRIO3.SA",
    "name": "PRIO (B3)",
    "group": "oil",
-   "price": 60.78,
-   "changePct": 1.69,
+   "price": 60.54,
+   "changePct": 1.29,
    "currency": "BRL"
   },
   {
@@ -109,8 +109,8 @@
    "sym": "CCJ",
    "name": "Cameco (urânio)",
    "group": "new",
-   "price": 89.38,
-   "changePct": -1.1,
+   "price": 89.33,
+   "changePct": -1.15,
    "currency": "USD"
   },
   {
