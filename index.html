@@ -729,7 +729,7 @@
   </div>
   <h3 class="uf-title">Para acompanhar</h3>
   <div id="launchWrap">
-    <p style="margin:-6px 0 10px;font-size:.82rem;color:var(--muted)">🚀 Próximos lançamentos orbitais — SpaceX e outras empresas (datas no seu fuso):</p>
+    <p style="margin:-6px 0 10px;font-size:.82rem;color:var(--muted)">🚀 Próximos lançamentos orbitais — agenda do Spaceflight Now, traduzida (atualizada em 23/07/2026):</p>
     <div id="launchList" class="launch-list"><div class="loading"><span class="spinner"></span>Carregando lançamentos...</div></div>
   </div>
   <p style="margin:18px 0 12px;font-size:.82rem;color:var(--muted)">📡 Notícias atualizadas sobre SpaceX, Elon Musk, espaço, IA e novas energias (fontes internacionais, traduzidas):</p>
@@ -1247,6 +1247,8 @@ function renderFallbackLaunches(box){
 async function loadLaunches(){
   var box=document.getElementById('launchList');
   if(!box) return;
+  /* Exibe SEMPRE a agenda traduzida do Spaceflight Now (fixa), em vez da API ao vivo. */
+  renderFallbackLaunches(box); return;
   var API="https://lldev.thespacedevs.com/2.2.0/launch/upcoming/?limit=6&hide_recent_previous=true";
   async function getJSON(u){var r=await fetchWithTimeout(u,9000);if(!r.ok)throw new Error('HTTP '+r.status);return r.json();}
   var data=null;
