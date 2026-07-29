@@ -1,124 +1,124 @@
 {
- "updated": "2026-07-29T12:29:23.131Z",
+ "updated": "2026-07-29T14:54:36.353Z",
  "quotes": [
   {
    "sym": "BZ=F",
    "name": "Petróleo Brent",
    "group": "commodity",
-   "price": 89.6,
-   "changePct": 6.55,
+   "price": 90.31,
+   "changePct": 7.4,
    "currency": "USD"
   },
   {
    "sym": "PBR",
    "name": "Petrobras (ADR)",
    "group": "oil",
-   "price": 18.07,
-   "changePct": 0.39,
+   "price": 18.58,
+   "changePct": 2.79,
    "currency": "USD"
   },
   {
    "sym": "SHEL",
    "name": "Shell",
    "group": "oil",
-   "price": 86.2,
-   "changePct": -0.2,
+   "price": 88.54,
+   "changePct": 2.71,
    "currency": "USD"
   },
   {
    "sym": "XOM",
    "name": "ExxonMobil",
    "group": "oil",
-   "price": 153.04,
-   "changePct": -1.12,
+   "price": 158.27,
+   "changePct": 3.42,
    "currency": "USD"
   },
   {
    "sym": "CVX",
    "name": "Chevron",
    "group": "oil",
-   "price": 187.58,
-   "changePct": -1.27,
+   "price": 192.37,
+   "changePct": 2.55,
    "currency": "USD"
   },
   {
    "sym": "TTE",
    "name": "TotalEnergies",
    "group": "oil",
-   "price": 84.18,
-   "changePct": 0.02,
+   "price": 86.42,
+   "changePct": 2.66,
    "currency": "USD"
   },
   {
    "sym": "BP",
    "name": "BP",
    "group": "oil",
-   "price": 41.67,
-   "changePct": -1.51,
+   "price": 43.34,
+   "changePct": 4.01,
    "currency": "USD"
   },
   {
    "sym": "EQNR",
    "name": "Equinor",
    "group": "oil",
-   "price": 38.27,
-   "changePct": -0.55,
+   "price": 40.82,
+   "changePct": 6.65,
    "currency": "USD"
   },
   {
    "sym": "PRIO3.SA",
    "name": "PRIO (B3)",
    "group": "oil",
-   "price": 56.77,
-   "changePct": 1.9,
+   "price": 58.68,
+   "changePct": 3.36,
    "currency": "BRL"
   },
   {
    "sym": "SPCX",
    "name": "SpaceX",
    "group": "new",
-   "price": 116.41,
-   "changePct": 2.56,
+   "price": 112.67,
+   "changePct": -3.21,
    "currency": "USD"
   },
   {
    "sym": "TSLA",
    "name": "Tesla",
    "group": "new",
-   "price": 307.44,
-   "changePct": -0.58,
+   "price": 303.15,
+   "changePct": -1.4,
    "currency": "USD"
   },
   {
    "sym": "NEE",
    "name": "NextEra Energy",
    "group": "new",
-   "price": 89.28,
-   "changePct": 0.51,
+   "price": 89.16,
+   "changePct": -0.13,
    "currency": "USD"
   },
   {
    "sym": "FSLR",
    "name": "First Solar",
    "group": "new",
-   "price": 202.59,
-   "changePct": -1.57,
+   "price": 200.22,
+   "changePct": -1.17,
    "currency": "USD"
   },
   {
    "sym": "CCJ",
    "name": "Cameco (urânio)",
    "group": "new",
-   "price": 86.96,
-   "changePct": -2.67,
+   "price": 84.72,
+   "changePct": -2.58,
    "currency": "USD"
   },
   {
    "sym": "CEG",
    "name": "Constellation (nucl.)",
    "group": "new",
-   "price": 259.82,
-   "changePct": -3.77,
+   "price": 258.38,
+   "changePct": -0.55,
    "currency": "USD"
   }
  ]
