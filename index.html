@@ -1056,8 +1056,10 @@ function renderCat(){
   var grid=document.getElementById('catGrid'); if(!grid) return;
   if(!CAT_DATA){grid.innerHTML='<div class="loading"><span class="spinner"></span>Carregando catálogo...</div>';return;}
   var items=catItems();
+  var hint0=document.getElementById('catHint');
   if(items.length===0){
     grid.innerHTML='<div class="empty">'+(catQuery?'Nenhum bem encontrado para “'+catEsc(catQuery)+'”. Tente outra palavra ou os 4 primeiros dígitos da NCM.':'Nenhum bem nesta tabela.')+'</div>';
+    if(hint0) hint0.textContent='0 resultado nas 4 tabelas do Anexo II';
     document.getElementById('catPager').innerHTML=''; return;
   }
   var pages=Math.ceil(items.length/CAT_PER); if(catPage>pages) catPage=1;
