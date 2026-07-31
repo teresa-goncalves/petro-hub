@@ -1,0 +1,62 @@
+{
+ "updated": "2026-07-31T16:54:39.277Z",
+ "source": "https://ll.thespacedevs.com",
+ "items": [
+  {
+   "d": "--",
+   "mo": "",
+   "missao": "Falcon 9 · Starlink 17-52",
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · data a confirmar · comunicações",
+   "net": "2026-08-01T02:59:28Z"
+  },
+  {
+   "d": "04",
+   "mo": "AGO",
+   "missao": "Long March 8A · carga não divulgada",
+   "sub": "CASC · Wenchang (China) · 04/08, 05:50 (Brasília)",
+   "net": "2026-08-04T08:50:00Z"
+  },
+  {
+   "d": "04",
+   "mo": "AGO",
+   "missao": "Falcon 9 · Starlink 17-53",
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 04/08, 11:00 (Brasília) · comunicações",
+   "net": "2026-08-04T14:00:00Z"
+  },
+  {
+   "d": "04",
+   "mo": "AGO",
+   "missao": "Smart Dragon 3 · carga não divulgada",
+   "sub": "China Rocket Co. Ltd. · Haiyang · plataforma marítima (China) · 04/08, 23:35 (Brasília)",
+   "net": "2026-08-05T02:35:00Z"
+  },
+  {
+   "d": "05",
+   "mo": "AGO",
+   "missao": "Falcon 9 · BlueBird 11-13 (Block 2 #6-8)",
+   "sub": "SpaceX · Cabo Canaveral, Flórida (EUA) · 05/08, 04:42 (Brasília) · comunicações",
+   "net": "2026-08-05T07:42:00Z"
+  },
+  {
+   "d": "05",
+   "mo": "AGO",
+   "missao": "Spectrum · Onward and Upward",
+   "sub": "Isar Aerospace · Andøya (Noruega) · 05/08, 21:00 (Brasília) · voo de teste",
+   "net": "2026-08-06T00:00:00Z"
+  },
+  {
+   "d": "06",
+   "mo": "AGO",
+   "missao": "H3-22 · Michibiki 7 (QZS-7)",
+   "sub": "MHI · Tanegashima (Japão) · 06/08, 16:30 (Brasília) · navegação",
+   "net": "2026-08-06T19:30:00Z"
+  },
+  {
+   "d": "08",
+   "mo": "AGO",
+   "missao": "Falcon 9 · Starlink 17-38",
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 08/08, 11:00 (Brasília) · comunicações",
+   "net": "2026-08-08T14:00:00Z"
+  }
+ ]
+}
