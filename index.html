@@ -730,7 +730,7 @@
   </div>
   <h3 class="uf-title">Para acompanhar</h3>
   <div id="launchWrap">
-    <p style="margin:-6px 0 10px;font-size:.82rem;color:var(--muted)">🚀 Próximos lançamentos orbitais — agenda do Spaceflight Now, traduzida (atualizada em 23/07/2026):</p>
+    <p style="margin:-6px 0 10px;font-size:.82rem;color:var(--muted)">🚀 Próximos lançamentos orbitais — agenda do The Space Devs (Launch Library), traduzida <span id="launchUpd"></span>:</p>
     <div id="launchList" class="launch-list"><div class="loading"><span class="spinner"></span>Carregando lançamentos...</div></div>
   </div>
   <p style="margin:18px 0 12px;font-size:.82rem;color:var(--muted)">📡 Notícias atualizadas sobre SpaceX, Elon Musk, espaço, IA e novas energias (fontes internacionais, traduzidas):</p>
@@ -739,7 +739,7 @@
   <div class="ref-news">
     <a href="https://spaceflightnow.com/2026/07/21/live-coverage-spacex-to-launch-novel-geosynchronous-robotic-servicing-satellite-on-decade-long-mission/" target="_blank" rel="noopener"><span class="s">Spaceflight Now · 21 jul 2026</span><span class="t">SpaceX lança inédito satélite robótico de manutenção em órbita geoestacionária para missão de uma década</span></a>
     <a href="https://spaceflightnow.com/2026/07/16/live-coverage-spacex-to-deploy-first-starlink-v3-satellites-on-suborbital-starship-super-heavy-flight/" target="_blank" rel="noopener"><span class="s">Spaceflight Now · 16 jul 2026</span><span class="t">Anomalia após a ignição provoca o aborto do Voo 13 da Starship da SpaceX</span></a>
-    <a href="https://spaceflightnow.com/launch-schedule/" target="_blank" rel="noopener"><span class="s">Spaceflight Now · Agenda</span><span class="t">Agenda de lançamentos orbitais: Starship Voo 13, Starlink 17-51 e 17-52, e a missão classificada NROL-95</span></a>
+    <a href="https://spaceflightnow.com/launch-schedule/" target="_blank" rel="noopener"><span class="s">Spaceflight Now · Agenda</span><span class="t">Agenda completa de lançamentos orbitais — atualizada continuamente pela fonte</span></a>
     <a href="https://www.cnbc.com/2026/06/12/spacex-ipo-spcx-live-updates.html" target="_blank" rel="noopener"><span class="s">CNBC · 12 jun 2026</span><span class="t">SpaceX estreia na Nasdaq (ticker SPCX) e dispara ~19% no maior IPO da história</span></a>
     <a href="https://www.infomoney.com.br/business/elon-musk-se-torna-o-primeiro-trilionario-do-mundo-apos-ipo-da-spacex/" target="_blank" rel="noopener"><span class="s">InfoMoney · 12 jun 2026</span><span class="t">Elon Musk se torna o primeiro trilionário da história após o IPO da SpaceX</span></a>
     <a href="https://www.nasa.gov/news-release/nasa-department-of-energy-to-develop-lunar-surface-reactor-by-2030/" target="_blank" rel="noopener"><span class="s">NASA</span><span class="t">NASA e DOE vão desenvolver um reator nuclear na superfície da Lua até 2030</span></a>
@@ -1327,52 +1327,69 @@ async function loadTrends(){
 loadTrends();
 
 /* ===================== PRÓXIMOS LANÇAMENTOS ORBITAIS ===================== */
-/* Agenda de reserva (fonte: Spaceflight Now — Launch Schedule, atualizada em 23/07/2026).
-   Usada quando a API ao vivo não responde, para a seção sempre mostrar a agenda real. */
+/* A agenda vem de launches.json, gerado todo dia pelo GitHub Actions (update-launches.mjs).
+   Se o arquivo falhar, o site consulta a API ao vivo; se ela também falhar, mostra o aviso de reserva. */
+var LAUNCH_SRC="https://spaceflightnow.com/launch-schedule/";
 var LAUNCH_FALLBACK=[
-  {d:"23",mo:"JUL",missao:"Starship · Voo 13",sub:"SpaceX · Starbase, Texas · teste suborbital (20 Starlink V3)"},
-  {d:"25",mo:"JUL",missao:"Falcon 9 · Starlink 17-51",sub:"SpaceX · Vandenberg, Califórnia · 24 satélites"},
-  {d:"27",mo:"JUL",missao:"Falcon 9 · Starlink 17-52",sub:"SpaceX · Vandenberg, Califórnia · 24 satélites"},
-  {d:"30",mo:"JUL",missao:"Falcon 9 · NROL-95",sub:"SpaceX · Cabo Canaveral, Flórida · carga classificada (NRO)"},
-  {d:"--",mo:"",missao:"Spectrum · 'Onward and Upward'",sub:"Isar Aerospace · Andøya, Noruega · data a confirmar"},
-  {d:"--",mo:"",missao:"Alpha · FLTA008",sub:"Firefly · Vandenberg, Califórnia · fim do verão (Bloco 2)"}
+  {d:"--",mo:"",missao:"Agenda temporariamente indisponível",sub:"Consulte o calendário de lançamentos na fonte original"}
 ];
-function renderFallbackLaunches(box){
-  box.innerHTML=LAUNCH_FALLBACK.map(function(l){
-    return '<a class="launch-item" href="https://spaceflightnow.com/launch-schedule/" target="_blank" rel="noopener">'+
+function renderLaunches(box,list){
+  box.innerHTML=list.map(function(l){
+    return '<a class="launch-item" href="'+LAUNCH_SRC+'" target="_blank" rel="noopener">'+
       '<span class="ldate"><span class="d">'+l.d+'</span><span class="mo">'+l.mo+'</span></span>'+
       '<span class="lmeta"><b>'+l.missao+'</b><span>'+l.sub+'</span></span>'+
     '</a>';
   }).join('');
 }
+function setLaunchUpd(iso){
+  var el=document.getElementById('launchUpd'); if(!el) return;
+  var dt=new Date(iso);
+  el.textContent=isNaN(dt)?'':'(atualizada em '+dt.toLocaleDateString('pt-BR')+')';
+}
+/* Converte a resposta crua da API para o mesmo formato do launches.json. */
+function mapLaunchApi(list){
+  var MES=['JAN','FEV','MAR','ABR','MAI','JUN','JUL','AGO','SET','OUT','NOV','DEZ'];
+  return list.slice(0,8).map(function(l){
+    var dt=new Date(l.net);
+    var prec=(l.net_precision&&l.net_precision.abbrev)||'';
+    var exata=!isNaN(dt)&&['MIN','HR','DAY'].indexOf(prec)>-1;
+    var nome=String(l.name||'Lançamento').split('|');
+    var foguete=(nome.length>1?nome[0]:'').replace(/\bBlock 5\b/,'').trim();
+    var missao=(nome.length>1?nome.slice(1).join('|'):(nome[0]||'Lançamento')).replace(/\bGroup\b/,'').replace(/\s+/g,' ').trim();
+    var prov=l.lsp_name||(l.launch_service_provider&&l.launch_service_provider.name)||'';
+    var d='--', mo='', quando='data a confirmar';
+    if(exata){
+      var p={};
+      new Intl.DateTimeFormat('pt-BR',{timeZone:'America/Sao_Paulo',day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false})
+        .formatToParts(dt).forEach(function(x){p[x.type]=x.value;});
+      d=p.day; mo=MES[Number(p.month)-1];
+      quando=p.day+'/'+p.month+', '+p.hour+':'+p.minute+' (Brasília)';
+    }
+    return {d:d,mo:mo,missao:[foguete,missao].filter(Boolean).join(' · '),
+            sub:[prov,l.location||'',quando].filter(Boolean).join(' · ')};
+  });
+}
 async function loadLaunches(){
   var box=document.getElementById('launchList');
   if(!box) return;
-  /* Exibe SEMPRE a agenda traduzida do Spaceflight Now (fixa), em vez da API ao vivo. */
-  renderFallbackLaunches(box); return;
-  var API="https://lldev.thespacedevs.com/2.2.0/launch/upcoming/?limit=6&hide_recent_previous=true";
+  /* 1) arquivo gerado pelo robô diário */
+  try{
+    var rf=await fetchWithTimeout('launches.json?_='+Date.now(),8000);
+    if(rf.ok){
+      var jf=await rf.json();
+      if(jf&&jf.items&&jf.items.length){ renderLaunches(box,jf.items); setLaunchUpd(jf.updated); return; }
+    }
+  }catch(e){}
+  /* 2) API ao vivo, direta ou via proxy */
+  var API="https://ll.thespacedevs.com/2.2.0/launch/upcoming/?limit=12&hide_recent_previous=true&mode=list";
   async function getJSON(u){var r=await fetchWithTimeout(u,9000);if(!r.ok)throw new Error('HTTP '+r.status);return r.json();}
   var data=null;
   try{ data=await getJSON(API); }catch(e){ data=null; }
   if(!data){ for(var i=0;i<PROXIES.length && !data;i++){ try{ data=await getJSON(PROXIES[i](API)); }catch(_){ } } }
   var list=(data&&data.results)||[];
-  if(!list.length){ renderFallbackLaunches(box); return; }
-  var MES=['JAN','FEV','MAR','ABR','MAI','JUN','JUL','AGO','SET','OUT','NOV','DEZ'];
-  box.innerHTML=list.slice(0,6).map(function(l){
-    var dt=new Date(l.net); var ok=!isNaN(dt);
-    var d=ok?String(dt.getDate()).padStart(2,'0'):'--';
-    var mo=ok?MES[dt.getMonth()]:'';
-    var nome=(l.name||'Lancamento').split('|');
-    var foguete=(nome.length>1?nome[0]:'').trim();
-    var missao=(nome.length>1?nome[1]:(nome[0]||'Lancamento')).trim();
-    var prov=(l.launch_service_provider&&l.launch_service_provider.name)||'';
-    var quando=ok?(dt.toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit'})+' \u00b7 '+dt.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'})):'Data a confirmar';
-    var sub=[foguete,prov,quando].filter(Boolean).join(' \u00b7 ');
-    return '<a class="launch-item" href="https://nextspaceflight.com/launches/" target="_blank" rel="noopener">'+
-      '<span class="ldate"><span class="d">'+d+'</span><span class="mo">'+mo+'</span></span>'+
-      '<span class="lmeta"><b>'+missao+'</b><span>'+sub+'</span></span>'+
-    '</a>';
-  }).join('');
+  if(list.length){ renderLaunches(box,mapLaunchApi(list)); setLaunchUpd(new Date().toISOString()); return; }
+  /* 3) ultimo recurso */
+  renderLaunches(box,LAUNCH_FALLBACK);
 }
 loadLaunches();
 </script>
