@@ -1,0 +1,31 @@
+name: Atualizar agenda de lançamentos (launches.json)
+
+on:
+  schedule:
+    - cron: '20 9 * * *'   # todo dia ~06:20 (horário de Brasília)
+  workflow_dispatch:        # permite rodar manualmente pelo botão "Run workflow"
+
+permissions:
+  contents: write
+
+jobs:
+  update-launches:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar o repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Atualizar launches.json
+        run: node update-launches.mjs
+
+      - name: Commit e push (se houver mudança)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add launches.json
+          git diff --staged --quiet || (git commit -m "chore: atualiza launches.json" && git push)
