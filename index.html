@@ -678,6 +678,7 @@
     <button class="filterbtn" data-cat="T4">IV · Repetro-Entreposto</button>
   </div>
   <div class="news-search" style="max-width:440px;margin:12px 0 14px"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.5" y2="16.5"/></svg><input id="catSearch" type="search" placeholder="Buscar bem ou NCM no catálogo…"></div>
+  <p id="catHint" class="uf-sub" style="margin:-6px 0 12px;font-size:.78rem"></p>
   <div class="cat-grid" id="catGrid"></div>
   <div class="cat-pager-wrap" id="catPager"></div>
 
@@ -997,6 +998,104 @@ function renderUFGrid(){
   var rj=document.querySelector('[data-uf="RJ"]'); if(rj) rj.classList.add('active');
 }
 renderUFGrid(); showUF('RJ');
+
+/* ===================== CATÁLOGO DE BENS (Anexo II · catalog.json) ===================== */
+var CAT_ICONS={
+  rov:'<rect x="3" y="8" width="18" height="9" rx="2"/><path d="M7 8V5M17 8V5"/><circle cx="8" cy="12.5" r="1.6"/><circle cx="16" cy="12.5" r="1.6"/><path d="M9 17v2h6v-2"/>',
+  valvula:'<path d="M12 3v7M8 3h8"/><circle cx="12" cy="14" r="4"/><path d="M4 20h16"/>',
+  skid:'<rect x="3" y="7" width="12" height="9" rx="2"/><path d="M15 10h4a2 2 0 0 1 2 2v4"/><path d="M6 16v4M12 16v4"/><path d="M7 11h4"/>',
+  bomba:'<circle cx="10" cy="13" r="5"/><path d="M10 8V4h5"/><path d="M15 13h6"/><path d="M4 20h14"/>',
+  subsea:'<path d="M3 5h18"/><path d="M8 5v6M16 5v6"/><rect x="5" y="11" width="14" height="6" rx="2"/><path d="M3 21h18"/>',
+  eletrica:'<path d="M13 2 4 14h7l-1 8 9-12h-7z"/>',
+  fpso:'<path d="M3 16h18l-2 4H5z"/><path d="M6 16v-5h12v5"/><path d="M9 11V8h4v3"/><path d="M15 8V4"/>',
+  plataforma:'<path d="M4 20h16"/><path d="M7 20 9 9M17 20l-2-11"/><path d="M8 9h8"/><path d="M12 9V3"/><path d="M9.5 6h5"/>',
+  barco:'<path d="M3 17h18l-3 4H6z"/><path d="M6 17V9h12v8"/><path d="M12 9V4"/>',
+  cryo:'<rect x="6" y="4" width="12" height="16" rx="6"/><path d="M12 8v8M9 11l6 2M15 11l-6 2"/>',
+  defensa:'<circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/>',
+  ferramenta:'<path d="M14 7a4 4 0 1 0 4 4l3 3-3 3-3-3a4 4 0 0 0-4-4z"/><path d="M10 11 3 18l3 3 7-7"/>',
+  filtro:'<path d="M3 5h18l-7 8v6l-4 2v-8z"/>',
+  guindaste:'<path d="M4 20h8"/><path d="M8 20V4h12"/><path d="M8 4 20 12"/><path d="M20 4v4"/><rect x="17" y="8" width="6" height="4" rx="1"/>',
+  cabo:'<path d="M4 6c4 0 4 12 8 12s4-12 8-12"/><path d="M4 18h4M16 6h4"/>',
+  instr:'<circle cx="12" cy="12" r="8"/><path d="M12 12l4-3"/><path d="M12 4v2M20 12h-2M12 20v-2M4 12h2"/>',
+  tubo:'<path d="M3 8h13a4 4 0 0 1 0 8H3"/><path d="M3 6v4M3 14v4"/>'
+};
+var CAT_TABS={T1:{n:'Tabela I',m:'Repetro-Temporário'},T2:{n:'Tabela II',m:'GNL-Temporário'},T3:{n:'Tabela III',m:'Repetro-Permanente'},T4:{n:'Tabela IV',m:'Repetro-Entreposto'}};
+var CAT_DATA=null, catTab='T1', catQuery='', catPage=1, CAT_PER=40;
+function catEsc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+function catIcon(k){return '<svg viewBox="0 0 24 24" aria-hidden="true">'+(CAT_ICONS[k]||CAT_ICONS.tubo)+'</svg>';}
+function catItems(){
+  if(!CAT_DATA) return [];
+  if(catQuery){
+    var q=norm(catQuery), nq=catQuery.replace(/[^\d.]/g,''), out=[];
+    Object.keys(CAT_TABS).forEach(function(t){
+      (CAT_DATA.tables[t]||[]).forEach(function(it){
+        var hitTxt=norm(it.desc).indexOf(q)>-1;
+        var hitNcm=nq.length>=2 && String(it.ncm).indexOf(nq)===0;
+        if(hitTxt||hitNcm) out.push({ncm:it.ncm,desc:it.desc,ic:it.ic,t:t});
+      });
+    });
+    return out;
+  }
+  return (CAT_DATA.tables[catTab]||[]).map(function(it){return {ncm:it.ncm,desc:it.desc,ic:it.ic,t:catTab};});
+}
+function renderCatPager(total){
+  var wrap=document.getElementById('catPager'); if(!wrap) return;
+  var pages=Math.ceil(total/CAT_PER);
+  if(pages<=1){wrap.innerHTML=''; return;}
+  var nums=[];
+  for(var p=1;p<=pages;p++){ if(p===1||p===pages||Math.abs(p-catPage)<=1) nums.push(p); else if(nums[nums.length-1]!=='...') nums.push('...'); }
+  wrap.innerHTML='<button class="pg" data-pg="'+(catPage-1)+'"'+(catPage===1?' disabled':'')+'>‹</button>'+
+    nums.map(function(p){return p==='...'?'<span class="pg-dots">…</span>':'<button class="pg'+(p===catPage?' on':'')+'" data-pg="'+p+'">'+p+'</button>';}).join('')+
+    '<button class="pg" data-pg="'+(catPage+1)+'"'+(catPage===pages?' disabled':'')+'>›</button>';
+  wrap.querySelectorAll('[data-pg]').forEach(function(b){b.addEventListener('click',function(){
+    catPage=Number(b.dataset.pg); renderCat();
+    var h=document.getElementById('catGrid'); if(h) h.scrollIntoView({behavior:'smooth',block:'start'});
+  });});
+}
+function renderCat(){
+  var grid=document.getElementById('catGrid'); if(!grid) return;
+  if(!CAT_DATA){grid.innerHTML='<div class="loading"><span class="spinner"></span>Carregando catálogo...</div>';return;}
+  var items=catItems();
+  if(items.length===0){
+    grid.innerHTML='<div class="empty">'+(catQuery?'Nenhum bem encontrado para “'+catEsc(catQuery)+'”. Tente outra palavra ou os 4 primeiros dígitos da NCM.':'Nenhum bem nesta tabela.')+'</div>';
+    document.getElementById('catPager').innerHTML=''; return;
+  }
+  var pages=Math.ceil(items.length/CAT_PER); if(catPage>pages) catPage=1;
+  var slice=items.slice((catPage-1)*CAT_PER,catPage*CAT_PER);
+  grid.innerHTML=slice.map(function(it){
+    return '<div class="cat-card">'+catIcon(it.ic)+'<div class="cat-tx"><b>'+catEsc(it.desc)+'</b>'+
+      '<span class="cat-ncm">NCM '+catEsc(it.ncm)+'</span>'+
+      (catQuery?' <span class="cat-ncm" style="background:#eef2f4;color:var(--petrol)">'+CAT_TABS[it.t].n+' · '+CAT_TABS[it.t].m+'</span>':'')+
+      '</div></div>';
+  }).join('');
+  renderCatPager(items.length);
+  var hint=document.getElementById('catHint');
+  if(hint) hint.textContent=catQuery
+    ? items.length+' resultado(s) nas 4 tabelas do Anexo II'
+    : items.length+' bens na '+CAT_TABS[catTab].n+' ('+CAT_TABS[catTab].m+')';
+}
+async function loadCatalog(){
+  renderCat();
+  try{
+    var r=await fetchWithTimeout('catalog.json?_='+Date.now(),9000);
+    if(r.ok){ var j=await r.json(); if(j&&j.tables) CAT_DATA=j; }
+  }catch(e){}
+  if(!CAT_DATA){
+    var g=document.getElementById('catGrid');
+    if(g) g.innerHTML='<div class="empty">Não foi possível carregar o catálogo agora. Consulte o Anexo II do Decreto 12.955/2026 no link acima.</div>';
+    return;
+  }
+  renderCat();
+}
+document.querySelectorAll('[data-cat]').forEach(function(b){b.addEventListener('click',function(){
+  document.querySelectorAll('[data-cat]').forEach(function(x){x.classList.remove('active');});
+  b.classList.add('active'); catTab=b.dataset.cat; catPage=1;
+  var s=document.getElementById('catSearch'); if(s&&catQuery){s.value='';catQuery='';}
+  renderCat();
+});});
+var csEl=document.getElementById('catSearch');
+if(csEl) csEl.addEventListener('input',function(e){catQuery=e.target.value.trim(); catPage=1; renderCat();});
+loadCatalog();
 
 /* ===================== COTAÇÕES (barril, dólar, euro) ===================== */
 var MARKET={brent:"US$ 71,90", usd:"R$ 5,98", eur:"R$ 6,10", updated:"06/07/2026"};
