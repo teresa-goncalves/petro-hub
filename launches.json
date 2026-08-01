@@ -1,14 +1,7 @@
 {
- "updated": "2026-07-31T16:54:39.277Z",
+ "updated": "2026-08-01T10:50:13.800Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
-  {
-   "d": "--",
-   "mo": "",
-   "missao": "Falcon 9 · Starlink 17-52",
-   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · data a confirmar · comunicações",
-   "net": "2026-08-01T02:59:28Z"
-  },
   {
    "d": "04",
    "mo": "AGO",
@@ -57,6 +50,13 @@
    "missao": "Falcon 9 · Starlink 17-38",
    "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 08/08, 11:00 (Brasília) · comunicações",
    "net": "2026-08-08T14:00:00Z"
+  },
+  {
+   "d": "09",
+   "mo": "AGO",
+   "missao": "Long March 7A · carga não divulgada",
+   "sub": "CASC · Wenchang (China) · 09/08, 08:00 (Brasília)",
+   "net": "2026-08-09T11:00:00Z"
   }
  ]
 }
