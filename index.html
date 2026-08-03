@@ -766,7 +766,7 @@
     <div class="ev-card dest"><div class="ev-date"><span class="d">13–15</span><span class="m">ABR 2027</span></div><div class="ev-body"><span class="ev-tag br">Brasil</span><h4>Intermodal South America 2027</h4><p>São Paulo (Distrito Anhembi) · maior feira de logística, transporte de carga e comércio exterior da América Latina.</p><a href="https://www.intermodal.com.br/" target="_blank" rel="noopener">Site oficial ↗</a></div></div>
     <div class="ev-card"><div class="ev-date"><span class="d">03–05</span><span class="m">MAI 2027</span></div><div class="ev-body"><span class="ev-tag world">Mundo</span><h4>OTC 2027 — Offshore Technology Conference</h4><p>Houston, EUA (Reliant Park) · principal conferência de tecnologia offshore, desta vez junto com a URTeC.</p><a href="https://2027.otcnet.org/" target="_blank" rel="noopener">Site oficial ↗</a></div></div>
   </div>
-  <div class="note">📅 Agenda conferida em 02/08/2026 nos sites oficiais; datas e locais podem mudar — confirme sempre na fonte. Além do <b>ROG.e</b>, principal evento do setor no Brasil, a lista traz dois encontros de interesse direto para quem atua com comércio exterior: o <b>Congresso Nacional de Direito Marítimo, Portuário e Aduaneiro</b> e a <b>Intermodal South America</b>.</div>
+  <div class="note">📅 <span id="evUpd">Agenda conferida em 02/08/2026</span> nos sites oficiais; datas e locais podem mudar — confirme sempre na fonte. Além do <b>ROG.e</b>, principal evento do setor no Brasil, a lista traz dois encontros de interesse direto para quem atua com comércio exterior: o <b>Congresso Nacional de Direito Marítimo, Portuário e Aduaneiro</b> e a <b>Intermodal South America</b>.</div>
 </section>
 
 </main>
@@ -1130,6 +1130,51 @@ async function loadMarket(){
   renderMarket(MARKET.brent,usd,eur,live);
 }
 loadMarket();
+
+/* ===================== EVENTOS (events.json, mantido pelo update-events.mjs) ===================== */
+/* Os cartões já vêm escritos no HTML e servem de reserva: se o arquivo carregar,
+   a grade é redesenhada a partir dele; se não carregar, fica o que está na página. */
+var EV_MES=['JAN','FEV','MAR','ABR','MAI','JUN','JUL','AGO','SET','OUT','NOV','DEZ'];
+function evData(s){var d=new Date(String(s||'')+'T00:00:00Z');return isNaN(d)?null:d;}
+/* 14–17 · SET 2026 · e também 30–01 · JUN/JUL 2026 quando vira o mes */
+function evSelo(ini,fim){
+  var a=evData(ini), b=evData(fim)||a;
+  if(!a) return {d:'--',m:'a confirmar'};
+  var dd=String(a.getUTCDate()).padStart(2,'0');
+  if(b&&b.getTime()!==a.getTime()) dd+='–'+String(b.getUTCDate()).padStart(2,'0');
+  var m=EV_MES[a.getUTCMonth()], ano=a.getUTCFullYear();
+  if(b&&b.getUTCMonth()!==a.getUTCMonth()) m+='/'+EV_MES[b.getUTCMonth()];
+  if(b&&b.getUTCFullYear()!==ano) ano+='/'+b.getUTCFullYear();
+  return {d:dd,m:m+' '+ano};
+}
+function evEsc(t){return String(t||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+function renderEventos(lista){
+  var g=document.querySelector('.ev-grid'); if(!g||!lista.length) return;
+  g.innerHTML=lista.map(function(e){
+    var s=evSelo(e.inicio,e.fim);
+    var reg=(e.reg==='BR')?{cls:'br',txt:'Brasil'}:{cls:'world',txt:'Mundo'};
+    return '<div class="ev-card'+(e.dest?' dest':'')+'">'+
+      '<div class="ev-date"><span class="d">'+s.d+'</span><span class="m">'+s.m+'</span></div>'+
+      '<div class="ev-body"><span class="ev-tag '+reg.cls+'">'+reg.txt+'</span>'+
+      '<h4>'+evEsc(e.nome)+'</h4><p>'+evEsc(e.local)+' · '+evEsc(e.desc)+'</p>'+
+      (e.url?'<a href="'+evEsc(e.url)+'" target="_blank" rel="noopener">Site oficial ↗</a>':'')+
+      '</div></div>';
+  }).join('');
+}
+async function loadEventos(){
+  try{
+    var r=await fetchWithTimeout('events.json?_='+Date.now(),8000);
+    if(!r.ok) return;
+    var j=await r.json();
+    if(j&&Array.isArray(j.items)&&j.items.length){
+      renderEventos(j.items);
+      var n=document.getElementById('evUpd');
+      var dt=new Date(j.updated);
+      if(n&&!isNaN(dt)) n.textContent='Agenda conferida em '+dt.toLocaleDateString('pt-BR');
+    }
+  }catch(e){/* mantem os cartoes do HTML */}
+}
+loadEventos();
 
 /* ===================== NOTÍCIAS: feeds RSS ao vivo + tradução ===================== */
 var FEEDS=[
