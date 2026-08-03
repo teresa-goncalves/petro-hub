@@ -191,6 +191,17 @@
   .qcard .qchg.up{color:#1f9d57}
   .qcard .qchg.down{color:#d23b3b}
   .qcard .qchg.flat{color:var(--muted)}
+  /* Mercado — ações do setor */
+  .q-group{margin-top:18px}
+  .q-group h4{font-family:'Sora';font-size:.82rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin:0 0 10px}
+  .q-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(178px,1fr));gap:12px}
+  .q-card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:13px 15px;box-shadow:var(--sh-sm);transition:.18s}
+  .q-card:hover{transform:translateY(-2px);box-shadow:var(--sh)}
+  .q-card .q-sym{font-size:.63rem;font-weight:800;letter-spacing:.06em;color:var(--teal-d);background:#e6f4f8;padding:1px 7px;border-radius:20px;display:inline-block}
+  .q-card .q-name{display:block;margin-top:7px;font-size:.79rem;font-weight:700;color:var(--petrol);line-height:1.25;overflow-wrap:anywhere}
+  .q-card .q-price{font-family:'Sora';font-size:1.16rem;font-weight:800;color:var(--petrol);margin-top:5px;letter-spacing:-.02em}
+  .q-card .q-chg{font-size:.72rem;font-weight:700;margin-top:2px}
+  .q-card .q-chg.up{color:#0e8a4f} .q-card .q-chg.down{color:#c0392b} .q-card .q-chg.flat{color:var(--muted)}
   .cat-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
   @media(max-width:880px){.cat-grid{grid-template-columns:repeat(2,1fr)}}
   @media(max-width:520px){.cat-grid{grid-template-columns:1fr}}
@@ -1200,6 +1211,56 @@ async function loadEventos(){
   }catch(e){/* mantem os cartoes do HTML */}
 }
 loadEventos();
+
+/* ===================== MERCADO: AÇÕES DO SETOR (quotes.json) ===================== */
+var Q_GRUPOS=[
+  {id:'commodity', t:'Commodity de referência'},
+  {id:'oil',       t:'Petroleiras'},
+  {id:'new',       t:'Novas energias'}
+];
+function qPreco(v,moeda){
+  if(v==null||isNaN(v)) return '—';
+  var n=Number(v).toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2});
+  return (moeda==='BRL'?'R$ ':'US$ ')+n;
+}
+function qVar(p){
+  if(p==null||isNaN(p)) return '<span class="q-chg flat">sem variação informada</span>';
+  var n=Number(p);
+  if(n===0) return '<span class="q-chg flat">estável</span>';
+  var cls=n>0?'up':'down', sinal=n>0?'▲ +':'▼ ';
+  return '<span class="q-chg '+cls+'">'+sinal+n.toFixed(2).replace('.',',')+'%</span>';
+}
+function renderQuotes(dados){
+  var box=document.getElementById('quotesGrid'); if(!box) return;
+  var lista=(dados&&dados.quotes)||[];
+  if(!lista.length){
+    box.innerHTML='<div class="empty">Não foi possível carregar as cotações agora. Tente recarregar a página em alguns minutos.</div>';
+    return;
+  }
+  box.innerHTML=Q_GRUPOS.map(function(g){
+    var itens=lista.filter(function(q){return q.group===g.id;});
+    if(!itens.length) return '';
+    return '<div class="q-group"><h4>'+g.t+'</h4><div class="q-grid">'+itens.map(function(q){
+      return '<div class="q-card"><span class="q-sym">'+catEsc(q.sym)+'</span>'+
+        '<span class="q-name">'+catEsc(q.name)+'</span>'+
+        '<div class="q-price">'+qPreco(q.price,q.currency)+'</div>'+
+        qVar(q.changePct)+'</div>';
+    }).join('')+'</div></div>';
+  }).join('');
+  var nota=document.getElementById('quotesNote');
+  var dt=dados&&dados.updated?new Date(dados.updated):null;
+  if(nota) nota.textContent=(dt&&!isNaN(dt))
+    ? 'Atualizado em '+dt.toLocaleString('pt-BR',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'})+'.'
+    : '';
+}
+async function loadQuotes(){
+  try{
+    var r=await fetchWithTimeout('quotes.json?_='+Date.now(),9000);
+    if(r.ok){ renderQuotes(await r.json()); return; }
+  }catch(e){}
+  renderQuotes(null);
+}
+loadQuotes();
 
 /* ===================== NOTÍCIAS: feeds RSS ao vivo + tradução ===================== */
 var FEEDS=[
