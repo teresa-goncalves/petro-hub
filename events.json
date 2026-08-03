@@ -1,0 +1,116 @@
+{
+ "updated": "2026-08-02T00:00:00.000Z",
+ "avisos": [],
+ "items": [
+  {
+   "nome": "Gastech 2026",
+   "inicio": "2026-09-14",
+   "fim": "2026-09-17",
+   "local": "Bangkok, Tailândia (BITEC)",
+   "desc": "maior evento global de gás natural, GNL, hidrogênio e energia.",
+   "url": "https://www.gastechevent.com/",
+   "reg": "INT",
+   "dest": false
+  },
+  {
+   "nome": "ROG.e — Rio Oil, Gas and Energy",
+   "inicio": "2026-09-21",
+   "fim": "2026-09-24",
+   "local": "Rio de Janeiro (Riocentro)",
+   "desc": "o maior evento de óleo e gás da América Latina, agora em formato de festival de energia.",
+   "url": "https://roge.energy/",
+   "reg": "BR",
+   "dest": true
+  },
+  {
+   "nome": "WPC — 25º Congresso Mundial do Petróleo",
+   "inicio": "2026-10-11",
+   "fim": "2026-10-15",
+   "local": "Riad, Arábia Saudita",
+   "desc": "o principal congresso global do setor, pela 1ª vez no país.",
+   "url": "https://wpcenergy2026.org/",
+   "reg": "INT",
+   "dest": false
+  },
+  {
+   "nome": "ADIPEC 2026",
+   "inicio": "2026-11-02",
+   "fim": "2026-11-05",
+   "local": "Abu Dhabi, Emirados Árabes (ADNEC)",
+   "desc": "uma das maiores feiras de energia do mundo.",
+   "url": "https://www.adipec.com/",
+   "reg": "INT",
+   "dest": false
+  },
+  {
+   "nome": "XIV Congresso Nacional de Direito Marítimo, Portuário e Aduaneiro",
+   "inicio": "2026-11-11",
+   "fim": "2026-11-13",
+   "local": "Florianópolis (SC), Costão do Santinho",
+   "desc": "OAB · direito aduaneiro, comércio exterior, tarifas internacionais e regulação portuária.",
+   "url": "https://www.oabsc.com/maritimo-portuario-aduaneiro",
+   "reg": "BR",
+   "dest": true
+  },
+  {
+   "nome": "OEEC — Offshore Energy",
+   "inicio": "2026-11-24",
+   "fim": "2026-11-25",
+   "local": "Amsterdã, Países Baixos (RAI)",
+   "desc": "exposição e conferência de energia offshore.",
+   "url": "https://oeec.biz/",
+   "reg": "INT",
+   "dest": false
+  },
+  {
+   "nome": "WFES 2027",
+   "inicio": "2027-01-12",
+   "fim": "2027-01-14",
+   "local": "Abu Dhabi (ADNEC)",
+   "desc": "World Future Energy Summit, foco em transição energética.",
+   "url": "https://www.worldfutureenergysummit.com/",
+   "reg": "INT",
+   "dest": false
+  },
+  {
+   "nome": "Subsea Tieback 2027",
+   "inicio": "2027-02-16",
+   "fim": "2027-02-18",
+   "local": "San Antonio, EUA",
+   "desc": "referência em sistemas submarinos de produção.",
+   "url": "https://www.subseatiebackforum.com/2027/begin",
+   "reg": "INT",
+   "dest": false
+  },
+  {
+   "nome": "IPTC 2027",
+   "inicio": "2027-03-24",
+   "fim": "2027-03-26",
+   "local": "Bangkok, Tailândia",
+   "desc": "International Petroleum Technology Conference.",
+   "url": "https://www.iptcnet.org/",
+   "reg": "INT",
+   "dest": false
+  },
+  {
+   "nome": "Intermodal South America 2027",
+   "inicio": "2027-04-13",
+   "fim": "2027-04-15",
+   "local": "São Paulo (Distrito Anhembi)",
+   "desc": "maior feira de logística, transporte de carga e comércio exterior da América Latina.",
+   "url": "https://www.intermodal.com.br/",
+   "reg": "BR",
+   "dest": true
+  },
+  {
+   "nome": "OTC 2027 — Offshore Technology Conference",
+   "inicio": "2027-05-03",
+   "fim": "2027-05-05",
+   "local": "Houston, EUA (Reliant Park)",
+   "desc": "principal conferência de tecnologia offshore, desta vez junto com a URTeC.",
+   "url": "https://2027.otcnet.org/",
+   "reg": "INT",
+   "dest": false
+  }
+ ]
+}
