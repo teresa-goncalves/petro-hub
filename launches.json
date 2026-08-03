@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-02T10:51:59.874Z",
+ "updated": "2026-08-03T12:37:10.017Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
   {
@@ -31,13 +31,6 @@
    "net": "2026-08-05T07:42:00Z"
   },
   {
-   "d": "05",
-   "mo": "AGO",
-   "missao": "Spectrum · Onward and Upward",
-   "sub": "Isar Aerospace · Andøya (Noruega) · 05/08, 21:00 (Brasília) · voo de teste",
-   "net": "2026-08-06T00:00:00Z"
-  },
-  {
    "d": "06",
    "mo": "AGO",
    "missao": "H3-22 · Michibiki 7 (QZS-7)",
@@ -57,6 +50,13 @@
    "missao": "Long March 7A · carga não divulgada",
    "sub": "CASC · Wenchang (China) · 09/08, 08:00 (Brasília)",
    "net": "2026-08-09T11:00:00Z"
+  },
+  {
+   "d": "10",
+   "mo": "AGO",
+   "missao": "Falcon 9 · Starlink 10-19",
+   "sub": "SpaceX · Cabo Canaveral, Flórida (EUA) · 10/08, 11:49 (Brasília) · comunicações",
+   "net": "2026-08-10T14:49:00Z"
   }
  ]
 }
