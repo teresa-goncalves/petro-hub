@@ -362,7 +362,7 @@
       <span class="mark"><svg viewBox="0 0 24 24" fill="none"><path d="M5 20h14M7 20V9l5-5 5 5v11M10 20v-4h4v4" stroke="#fff" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></svg></span>
       <span>Petro&nbsp;Hub<small>Óleo &amp; Gás · Comércio Exterior</small></span>
     </div>
-    <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <button type="button" class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
     <nav class="links">
       <a href="#noticias">Notícias</a>
       <a href="#mercado">Mercado</a>
@@ -792,6 +792,31 @@
 </footer>
 
 <script>
+/* ===================== MENU DE HAMBÚRGUER (celular) ===================== */
+(function(){
+  var btn=document.querySelector('.nav-toggle');
+  var menu=document.querySelector('nav.links');
+  if(!btn||!menu) return;
+  function abrir(sim){
+    menu.classList.toggle('open',sim);
+    btn.setAttribute('aria-expanded',sim?'true':'false');
+    btn.setAttribute('aria-label',sim?'Fechar menu':'Abrir menu');
+    btn.textContent=sim?'✕':'☰';
+  }
+  btn.addEventListener('click',function(e){
+    e.stopPropagation();
+    abrir(!menu.classList.contains('open'));
+  });
+  /* fecha ao escolher uma seção, senão o menu tapa o conteúdo */
+  menu.addEventListener('click',function(e){ if(e.target.closest('a')) abrir(false); });
+  /* fecha ao tocar fora, ao apertar Esc e ao girar para o modo paisagem */
+  document.addEventListener('click',function(e){
+    if(menu.classList.contains('open') && !menu.contains(e.target) && e.target!==btn) abrir(false);
+  });
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape') abrir(false); });
+  window.addEventListener('resize',function(){ if(window.innerWidth>760) abrir(false); });
+})();
+
 /* ===================== PLAYERS ===================== */
 const PLAYERS = {
   BR: [
