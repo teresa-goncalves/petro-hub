@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-06T11:34:32.234Z",
+ "updated": "2026-08-07T10:12:25.615Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
   {
@@ -40,6 +40,13 @@
   {
    "d": "15",
    "mo": "AGO",
+   "missao": "Falcon 9 · R-1",
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 15/08, 18:52 (Brasília)",
+   "net": "2026-08-15T21:52:00Z"
+  },
+  {
+   "d": "15",
+   "mo": "AGO",
    "missao": "Falcon 9 · Globalstar 2-R Mission 1 (x 9)",
    "sub": "SpaceX · Cabo Canaveral, Flórida (EUA) · 15/08, 22:12 (Brasília) · comunicações",
    "net": "2026-08-16T01:12:00Z"
@@ -50,13 +57,6 @@
    "missao": "Long March 12 · carga não divulgada",
    "sub": "CASC · Wenchang (China) · 16/08, 23:00 (Brasília)",
    "net": "2026-08-17T02:00:00Z"
-  },
-  {
-   "d": "23",
-   "mo": "AGO",
-   "missao": "Long March 5 · Chang'e 7",
-   "sub": "CASC · Wenchang (China) · 23/08, 21:00 (Brasília) · ciência planetária",
-   "net": "2026-08-24T00:00:00Z"
   }
  ]
 }
