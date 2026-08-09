@@ -1,14 +1,7 @@
 {
- "updated": "2026-08-08T09:55:59.349Z",
+ "updated": "2026-08-09T09:58:43.555Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
-  {
-   "d": "--",
-   "mo": "",
-   "missao": "Falcon 9 · Starlink 17-38",
-   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · data a confirmar · comunicações",
-   "net": "2026-08-08T16:23:41Z"
-  },
   {
    "d": "10",
    "mo": "AGO",
@@ -24,11 +17,11 @@
    "net": "2026-08-10T14:49:00Z"
   },
   {
-   "d": "10",
-   "mo": "AGO",
+   "d": "--",
+   "mo": "",
    "missao": "H3-22 · Michibiki 7 (QZS-7)",
-   "sub": "MHI · Tanegashima (Japão) · 10/08, 16:00 (Brasília) · navegação",
-   "net": "2026-08-10T19:00:00Z"
+   "sub": "MHI · Tanegashima (Japão) · data a confirmar · navegação",
+   "net": "2026-08-10T19:23:31Z"
   },
   {
    "d": "10",
@@ -57,6 +50,13 @@
    "missao": "Falcon 9 · Globalstar 2-R Mission 1 (x 9)",
    "sub": "SpaceX · Cabo Canaveral, Flórida (EUA) · 15/08, 22:12 (Brasília) · comunicações",
    "net": "2026-08-16T01:12:00Z"
+  },
+  {
+   "d": "16",
+   "mo": "AGO",
+   "missao": "Long March 12 · carga não divulgada",
+   "sub": "CASC · Wenchang (China) · 16/08, 23:00 (Brasília)",
+   "net": "2026-08-17T02:00:00Z"
   }
  ]
 }
