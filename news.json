@@ -1,5 +1,23 @@
 [
  {
+  "title": "Energia dos EUA ajuda a amortecer choque de oferta global causado por Ormuz",
+  "link": "https://oilprice.com/Energy/Energy-General/US-Energy-Helps-Cushion-Global-Supply-Shock-From-Hormuz.html",
+  "date": "Sat, 08 Aug 2026 18:00:00 -0500",
+  "desc": "The U.S. energy system has helped mitigate the shock loss of oil and LNG supply from the Middle East when the Strait of Hormuz closed to traffic and sent refine",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "A SCANIA E A CAIO LANÇARÃO UM NOVO ÔNIBUS A BIOMETANO NA LAT.BUS, A MAIOR FEIRA DE TRANSPORTES DA AMÉRICA LATINA",
+  "link": "https://petronoticias.com.br/a-scania-e-a-caio-lancarao-um-novo-onibus-a-biometano-na-lat-bus-a-maior-feira-de-transportes-da-america-latina/",
+  "date": "Sat, 08 Aug 2026 20:00:34 +0000",
+  "desc": "Um novo ônibus movido a gás natural e/ou biometano, fruto de uma parceria entre a Scania e a Caio, o K 280 4&#215;2 gMillennium, será uma das novidades da Scani",
+  "src": "Petronotícias",
+  "reg": "BR",
+  "translated": false
+ },
+ {
   "title": "Traders de petróleo permanecem pessimistas apesar do aprofundamento das perturbações no Oriente Médio",
   "link": "https://oilprice.com/Energy/Oil-Prices/Oil-Traders-Stay-Bearish-Despite-Deepening-Middle-East-Disruptions.html",
   "date": "Fri, 07 Aug 2026 18:00:00 -0500",
@@ -7,6 +25,33 @@
   "src": "OilPrice",
   "reg": "INT",
   "translated": true
+ },
+ {
+  "title": "ABEGÁS E ABRACE SAEM EM DEFESA DA PROPOSTA DE GAS RELEASE APRESENTADA HOJE PELA ANP",
+  "link": "https://petronoticias.com.br/abegas-e-abrace-saem-em-defesa-da-proposta-de-gas-release-apresentada-hoje-pela-anp/",
+  "date": "Fri, 07 Aug 2026 21:00:38 +0000",
+  "desc": "Mais repercussões sobre a proposta de programa de Gas Release apresentada hoje pela Agência Nacional do Petróleo (ANP). A Associação Brasileira das Empresas Dis",
+  "src": "Petronotícias",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "AO RESPONDER SOBRE GAS RELEASE, MAGDA DIZ QUE “PETROBRÁS NÃO É ONG” E LEVANTA HIPÓTESE DE REVISAR PROJETOS",
+  "link": "https://petronoticias.com.br/ao-responder-sobre-gas-release-magda-diz-que-petrobras-nao-e-ong-e-levanta-hipotese-de-revisar-projetos/",
+  "date": "Fri, 07 Aug 2026 20:00:13 +0000",
+  "desc": "Poucas horas depois de Agência Nacional do Petróleo (ANP) aprovar a consulta pública sobre o programa Gas Release, a Petrobrás deu o seu recado. “Não somos uma ",
+  "src": "Petronotícias",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "PETROBRÁS PLANEJA ANTECIPAR PRIMEIRO ÓLEO DA P-80 PARA O PRIMEIRO TRIMESTRE DE 2027",
+  "link": "https://petronoticias.com.br/petrobras-planeja-antecipar-primeiro-oleo-da-p-80-para-o-primeiro-trimestre-de-2027/",
+  "date": "Fri, 07 Aug 2026 19:00:49 +0000",
+  "desc": "A Petrobrás está trabalhando para antecipar o início da produção da plataforma P-80, prevista para o campo de Búzios, na Bacia de Santos. Segundo a diretora de ",
+  "src": "Petronotícias",
+  "reg": "BR",
+  "translated": false
  },
  {
   "title": "Citi eleva perspectiva para o Brent, mas ainda vê queda do petróleo em 2027",
