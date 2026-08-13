@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-12T10:27:56.532Z",
+ "updated": "2026-08-13T10:29:29.824Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
   {
@@ -20,8 +20,15 @@
    "d": "16",
    "mo": "AGO",
    "missao": "Long March 12 · carga não divulgada",
-   "sub": "CASC · Wenchang (China) · 16/08, 23:00 (Brasília)",
-   "net": "2026-08-17T02:00:00Z"
+   "sub": "CASC · Wenchang (China) · 16/08, 01:10 (Brasília)",
+   "net": "2026-08-16T04:10:00Z"
+  },
+  {
+   "d": "17",
+   "mo": "AGO",
+   "missao": "Long March 2C · carga não divulgada",
+   "sub": "CASC · Taiyuan (China) · 17/08, 00:00 (Brasília)",
+   "net": "2026-08-17T03:00:00Z"
   },
   {
    "d": "18",
@@ -45,18 +52,11 @@
    "net": "2026-08-24T00:00:00Z"
   },
   {
-   "d": "27",
+   "d": "25",
    "mo": "AGO",
-   "missao": "Ariane 62 · MTG-I2",
-   "sub": "Arianespace · Centro Espacial de Kourou (Guiana Francesa) · 27/08, 17:10 (Brasília) · observação da Terra",
-   "net": "2026-08-27T20:10:00Z"
-  },
-  {
-   "d": "30",
-   "mo": "AGO",
-   "missao": "Falcon Heavy · Nancy Grace Roman Space Telescope",
-   "sub": "SpaceX · Centro Espacial Kennedy, Flórida (EUA) · 30/08, 08:26 (Brasília) · astrofísica",
-   "net": "2026-08-30T11:26:00Z"
+   "missao": "Falcon 9 · Starlink 10-49",
+   "sub": "SpaceX · Cabo Canaveral, Flórida (EUA) · 25/08, 08:00 (Brasília) · comunicações",
+   "net": "2026-08-25T11:00:00Z"
   }
  ]
 }
