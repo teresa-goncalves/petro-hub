@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-13T10:29:29.824Z",
+ "updated": "2026-08-14T10:18:20.640Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
   {
@@ -45,18 +45,18 @@
    "net": "2026-08-20T15:19:00Z"
   },
   {
+   "d": "22",
+   "mo": "AGO",
+   "missao": "Falcon 9 · Starlink 15-20",
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 22/08, 04:25 (Brasília) · comunicações",
+   "net": "2026-08-22T07:25:00Z"
+  },
+  {
    "d": "23",
    "mo": "AGO",
    "missao": "Long March 5 · Chang'e 7",
    "sub": "CASC · Wenchang (China) · 23/08, 21:00 (Brasília) · ciência planetária",
    "net": "2026-08-24T00:00:00Z"
-  },
-  {
-   "d": "25",
-   "mo": "AGO",
-   "missao": "Falcon 9 · Starlink 10-49",
-   "sub": "SpaceX · Cabo Canaveral, Flórida (EUA) · 25/08, 08:00 (Brasília) · comunicações",
-   "net": "2026-08-25T11:00:00Z"
   }
  ]
 }
