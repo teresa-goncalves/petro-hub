@@ -3,9 +3,9 @@
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 
 const FEEDS = [
-  { url: "https://epbr.com.br/feed/", src: "epbr", reg: "BR" },
+  { url: "https://agenciabrasil.ebc.com.br/rss/economia/feed.xml", src: "Agência Brasil", reg: "BR" },
   { url: "https://petronoticias.com.br/feed/", src: "Petronotícias", reg: "BR" },
-  { url: "https://tnpetroleo.com.br/feed/", src: "TN Petróleo", reg: "BR" },
+  { url: "https://www.rigzone.com/news/rss/rigzone_latest.aspx", src: "Rigzone", reg: "INT" },
   { url: "https://oilprice.com/rss/main", src: "OilPrice", reg: "INT" },
   { url: "https://www.offshore-energy.biz/feed/", src: "Offshore Energy", reg: "INT" },
   { url: "https://clickpetroleoegas.com.br/feed/", src: "ClickPetróleoeGás", reg: "BR" },
