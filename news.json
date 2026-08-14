@@ -1,5 +1,14 @@
 [
  {
+  "title": "Seatrium alinha terceira tarefa de conversão de FLNG com Golar LNG",
+  "link": "https://www.offshore-energy.biz/seatrium-lines-up-third-flng-conversion-assignment-with-golar-lng/",
+  "date": "Fri, 14 Aug 2026 09:51:28 +0000",
+  "desc": "Golar LNG, a Bermuda-headquartered liquefied natural gas (LNG) midstream infrastructure owner and operator, has booked Seatrium, a Singapore-headquartered offsh",
+  "src": "Offshore Energy",
+  "reg": "INT",
+  "translated": true
+ },
+ {
   "title": "Vance afirma que petróleo e gás baratos são a principal prioridade dos EUA na guerra com o Irã",
   "link": "https://oilprice.com/Latest-Energy-News/World-News/Vance-Says-Cheap-Oil-and-Gas-Is-Top-US-Priority-in-Iran-War.html",
   "date": "Fri, 14 Aug 2026 04:20:00 -0500",
@@ -54,6 +63,15 @@
   "translated": true
  },
  {
+  "title": "Mais de 5 milhões de brasileiros estão impedidos de apostar em bets",
+  "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/mais-de-5-milhoes-de-brasileiros-estao-impedidos-de-apostar-em-bets",
+  "date": "Thu, 13 Aug 2026 17:51:00 -0300",
+  "desc": "Mais de cinco milhões de brasileiros estão impedidos de fazer apostas em plataformas online, as chamadas bets, disse o ministro da Fazenda, Dario Durigan, nesta",
+  "src": "Agência Brasil",
+  "reg": "BR",
+  "translated": false
+ },
+ {
   "title": "TUPI É O PRIMEIRO CAMPO DA PETROBRÁS A ATINGIR PRODUÇÃO ACUMULADA DE 4 BILHÕES DE BARRIS DE ÓLEO EQUIVALENTE",
   "link": "https://petronoticias.com.br/tupi-e-o-primeiro-campo-da-petrobras-a-atingir-producao-acumulada-de-4-bilhoes-de-barris-de-oleo-equivalente/",
   "date": "Thu, 13 Aug 2026 20:00:16 +0000",
@@ -61,6 +79,33 @@
   "src": "Petronotícias",
   "reg": "BR",
   "translated": false
+ },
+ {
+  "title": "Índia busca mais GLP nos EUA",
+  "link": "https://www.rigzone.com/news/wire/india_seeks_more_usa_lpg-13-aug-2026-184371-article/?rss=true",
+  "date": "Thu, 13 Aug 2026 20:00:00 GMT",
+  "desc": "India's state-owned refiners are in talks to secure more U.S. liquefied petroleum gas under annual contracts for next year.",
+  "src": "Rigzone",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Segunda maior refinaria do país reduz preço da gasolina em 11,3%",
+  "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/segunda-maior-refinaria-do-pais-reduz-preco-da-gasolina-em-113",
+  "date": "Thu, 13 Aug 2026 16:41:00 -0300",
+  "desc": "A Refinaria de Mataripe, segunda maior do país, anunciou que reduziu o preço da gasolina em cerca de 11,3%. A refinaria fica em São Francisco do Conde, Região M",
+  "src": "Agência Brasil",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "Petróleo cai enquanto negociações com o Irã permanecem paralisadas",
+  "link": "https://www.rigzone.com/news/wire/oil_falls_as_iran_talks_remain_stalled-13-aug-2026-184373-article/?rss=true",
+  "date": "Thu, 13 Aug 2026 19:34:52 GMT",
+  "desc": "Crude retreated as traders assessed Hormuz shipments and rising US inventories.",
+  "src": "Rigzone",
+  "reg": "INT",
+  "translated": true
  },
  {
   "title": "As exportações de diesel da Rússia atingem o mínimo de vários anos em meio ao mercado global apertado",
@@ -90,6 +135,15 @@
   "translated": true
  },
  {
+  "title": "Tupi, pioneiro do pré-sal, chega ao recorde de 4 bilhões de barris",
+  "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/tupi-pioneiro-do-pre-sal-chega-ao-recorde-de-4-bilhoes-de-barris",
+  "date": "Thu, 13 Aug 2026 14:11:00 -0300",
+  "desc": "A Petrobras informou que o ativo de Tupi, no pré-sal da Bacia de Santos, chegou à marca recorde de 4 bilhões de barris de óleo equivalente (boe). É a primeira v",
+  "src": "Agência Brasil",
+  "reg": "BR",
+  "translated": false
+ },
+ {
   "title": "Jefferies: Rachaduras no diesel revelam a verdadeira pressão no mercado de petróleo",
   "link": "https://oilprice.com/Energy/Crude-Oil/Jefferies-Diesel-Cracks-Reveal-the-Real-Oil-Market-Squeeze.html",
   "date": "Thu, 13 Aug 2026 12:00:00 -0500",
@@ -117,6 +171,15 @@
   "translated": true
  },
  {
+  "title": "EIA prevê produção anual recorde de petróleo nos EUA em 2026",
+  "link": "https://www.rigzone.com/news/eia_predicts_record_annual_usa_oil_output_in_2026-13-aug-2026-184372-article/?rss=true",
+  "date": "Thu, 13 Aug 2026 14:31:01 GMT",
+  "desc": "The U.S. Energy Information Administration projected that annual U.S. oil production will hit a record this year.",
+  "src": "Rigzone",
+  "reg": "INT",
+  "translated": true
+ },
+ {
   "title": "MOL dá início ao programa de construção de seis navios com entrega final do transportador de GNL",
   "link": "https://www.offshore-energy.biz/mol-puts-bow-on-six-vessel-newbuilding-program-with-final-lng-carrier-delivery/",
   "date": "Thu, 13 Aug 2026 13:31:01 +0000",
@@ -126,11 +189,29 @@
   "translated": true
  },
  {
+  "title": "Presidio forma equipe de engenharia de IA",
+  "link": "https://www.rigzone.com/news/presidio_forms_ai_engineering_team-13-aug-2026-184366-article/?rss=true",
+  "date": "Thu, 13 Aug 2026 13:00:00 GMT",
+  "desc": "Presidio assembled an engineering team dedicated to developing and deploying artificial intelligence workflows tailored to oil and gas producers.",
+  "src": "Rigzone",
+  "reg": "INT",
+  "translated": true
+ },
+ {
   "title": "TotalEnergies escolhe a Daewoo E&C para trabalhar no projeto de GNL na Oceania",
   "link": "https://www.offshore-energy.biz/totalenergies-handpicks-daewoo-ec-for-work-on-lng-project-in-oceania/",
   "date": "Thu, 13 Aug 2026 12:29:06 +0000",
   "desc": "France’s energy giant TotalEnergies has selected Seoul-based Daewoo Engineering &#38; Construction (Daewoo E&#38;C) as the preferred bidder for a major package ",
   "src": "Offshore Energy",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "O sistema global de refino tem pouco espaço sobrando",
+  "link": "https://www.rigzone.com/news/global_refining_system_has_little_spare_room_left-13-aug-2026-184369-article/?rss=true",
+  "date": "Thu, 13 Aug 2026 11:39:04 GMT",
+  "desc": "The global refining system has little spare room left to respond, Daniel Evans, Global Head of Fuels and Refining Research at S&P Global Energy, said in analysi",
+  "src": "Rigzone",
   "reg": "INT",
   "translated": true
  },
@@ -149,6 +230,15 @@
   "date": "Thu, 13 Aug 2026 11:16:12 +0000",
   "desc": "Singapore’s offshore marine solutions company PACC Offshore Services Holdings (POSH) has won a contract with [&#8230;] The post Singaporean firm gets to work wi",
   "src": "Offshore Energy",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Preço da gasolina nos EUA quebra recordes",
+  "link": "https://www.rigzone.com/news/usa_gasoline_price_breaks_records-13-aug-2026-184368-article/?rss=true",
+  "date": "Thu, 13 Aug 2026 10:55:58 GMT",
+  "desc": "Patrick De Haan, Head of Petroleum Analysis at GasBuddy, announced that the U.S. gasoline price had broken a couple of records.",
+  "src": "Rigzone",
   "reg": "INT",
   "translated": true
  },
@@ -234,11 +324,29 @@
   "translated": false
  },
  {
+  "title": "Petróleo estável enquanto os riscos do Irão persistem",
+  "link": "https://www.rigzone.com/news/wire/crude_steady_as_iran_risks_persist-12-aug-2026-184362-article/?rss=true",
+  "date": "Wed, 12 Aug 2026 20:29:26 GMT",
+  "desc": "Crude prices were little changed as stalled Hormuz negotiations offset a massive increase in US oil inventories.",
+  "src": "Rigzone",
+  "reg": "INT",
+  "translated": true
+ },
+ {
   "title": "Ataques a refinarias aprofundam crise global no fornecimento de diesel",
   "link": "https://oilprice.com/Energy/Energy-General/Refinery-Attacks-Deepen-Global-Diesel-Supply-Crunch.html",
   "date": "Wed, 12 Aug 2026 15:00:00 -0500",
   "desc": "Diesel prices surged earlier this week on news about yet another Ukrainian attack on a Russian refinery and a Houthi attack on a Saudi refining facility. Global",
   "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Produção diária de petróleo na Rússia quase 1 milhão de barris abaixo da cota OPEP+",
+  "link": "https://www.rigzone.com/news/wire/russia_daily_oil_production_almost_1mm_barrels_below_opec_quota-12-aug-2026-184360-article/?rss=true",
+  "date": "Wed, 12 Aug 2026 20:00:00 GMT",
+  "desc": "Russia's crude-only production lagged behind its OPEC+ quota by almost a million barrels a day in July.",
+  "src": "Rigzone",
   "reg": "INT",
   "translated": true
  },
@@ -275,6 +383,15 @@
   "date": "Wed, 12 Aug 2026 10:30:00 -0500",
   "desc": "The Trump administration will put oil and gas leases covering more than 81 million acres in the Gulf of Mexico up for auction on Wednesday, August 12, in the th",
   "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Força de trabalho de petróleo e gás dos EUA atinge nível mais baixo em anos",
+  "link": "https://www.rigzone.com/news/usa_oil_gas_workforce_hits_lowest_level_in_years-12-aug-2026-184361-article/?rss=true",
+  "date": "Wed, 12 Aug 2026 15:06:11 GMT",
+  "desc": "The number of employees in the oil and gas extraction industry hit its lowest level so far in 2026, and the lowest level in years, data on the BLS website showe",
+  "src": "Rigzone",
   "reg": "INT",
   "translated": true
  },
