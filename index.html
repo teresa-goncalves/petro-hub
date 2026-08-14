@@ -1264,17 +1264,17 @@ loadQuotes();
 
 /* ===================== NOTÍCIAS: feeds RSS ao vivo + tradução ===================== */
 var FEEDS=[
-  {url:"https://epbr.com.br/feed/", src:"epbr", reg:"BR"},
+  {url:"https://agenciabrasil.ebc.com.br/rss/economia/feed.xml", src:"Agência Brasil", reg:"BR"},
   {url:"https://petronoticias.com.br/feed/", src:"Petronotícias", reg:"BR"},
-  {url:"https://tnpetroleo.com.br/feed/", src:"TN Petróleo", reg:"BR"},
+  {url:"https://www.rigzone.com/news/rss/rigzone_latest.aspx", src:"Rigzone", reg:"INT"},
   {url:"https://oilprice.com/rss/main", src:"OilPrice", reg:"INT"},
   {url:"https://www.offshore-energy.biz/feed/", src:"Offshore Energy", reg:"INT"}
 ];
 // proxies que adicionam cabeçalhos CORS; tentados em ordem até um funcionar
 var PROXIES=[
+  function(u){return "https://corsproxy.io/?url="+encodeURIComponent(u);},
   function(u){return "https://api.allorigins.win/raw?url="+encodeURIComponent(u);},
   function(u){return "https://api.codetabs.com/v1/proxy/?quest="+encodeURIComponent(u);},
-  function(u){return "https://corsproxy.io/?url="+encodeURIComponent(u);},
   function(u){return "https://thingproxy.freeboard.io/fetch/"+u;}
 ];
 var ALL=[]; var curFilter="all"; var query="";
