@@ -1,28 +1,7 @@
 {
- "updated": "2026-08-15T09:42:57.184Z",
+ "updated": "2026-08-16T09:43:57.878Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
-  {
-   "d": "--",
-   "mo": "",
-   "missao": "Falcon 9 · USSF-366",
-   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · data a confirmar · carga militar/classificada",
-   "net": "2026-08-15T21:54:02Z"
-  },
-  {
-   "d": "15",
-   "mo": "AGO",
-   "missao": "Falcon 9 · Globalstar 2-R Mission 1 (x 9)",
-   "sub": "SpaceX · Cabo Canaveral, Flórida (EUA) · 15/08, 22:12 (Brasília) · comunicações",
-   "net": "2026-08-16T01:12:00Z"
-  },
-  {
-   "d": "16",
-   "mo": "AGO",
-   "missao": "Long March 12 · carga não divulgada",
-   "sub": "CASC · Wenchang (China) · 16/08, 01:10 (Brasília)",
-   "net": "2026-08-16T04:10:00Z"
-  },
   {
    "d": "17",
    "mo": "AGO",
@@ -57,6 +36,27 @@
    "missao": "Falcon 9 · Starlink 15-20",
    "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 22/08, 04:25 (Brasília) · comunicações",
    "net": "2026-08-22T07:25:00Z"
+  },
+  {
+   "d": "23",
+   "mo": "AGO",
+   "missao": "Long March 5 · Chang'e 7",
+   "sub": "CASC · Wenchang (China) · 23/08, 21:00 (Brasília) · ciência planetária",
+   "net": "2026-08-24T00:00:00Z"
+  },
+  {
+   "d": "25",
+   "mo": "AGO",
+   "missao": "Falcon 9 · Starlink 10-49",
+   "sub": "SpaceX · Cabo Canaveral, Flórida (EUA) · 25/08, 02:49 (Brasília) · comunicações",
+   "net": "2026-08-25T05:49:00Z"
+  },
+  {
+   "d": "25",
+   "mo": "AGO",
+   "missao": "Falcon 9 · Starlink 15-22",
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 25/08, 13:44 (Brasília) · comunicações",
+   "net": "2026-08-25T16:44:00Z"
   }
  ]
 }
