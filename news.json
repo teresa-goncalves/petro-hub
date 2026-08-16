@@ -1,5 +1,50 @@
 [
  {
+  "title": "A aviação elétrica não eliminará o combustível de aviação - mas poderá seguir primeiro as melhores rotas",
+  "link": "https://oilprice.com/Energy/Energy-General/Electric-Aviation-Wont-Kill-Jet-Fuel-But-It-Could-Take-the-Best-Routes-First.html",
+  "date": "Sat, 15 Aug 2026 18:00:00 -0500",
+  "desc": "Aviation is often treated as one of oil's safest remaining markets. In 2026 that still looks like a reasonable assumption. Airlines are expected to consume arou",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "A batalha pelo petróleo do Mar do Norte está esquentando sob o novo primeiro-ministro britânico",
+  "link": "https://oilprice.com/Energy/Energy-General/The-Battle-Over-North-Sea-Oil-Is-Heating-Up-Under-Britains-New-PM.html",
+  "date": "Sat, 15 Aug 2026 14:00:00 -0500",
+  "desc": "With a new Prime Minister in office, it is uncertain whether the United Kingdom will continue accelerating its green transition or backtrack on climate pledges ",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "A indústria petrolífera da Rússia está a ficar sem espaço para absorver mais choques",
+  "link": "https://oilprice.com/Energy/Crude-Oil/Russias-Oil-Industry-Is-Running-Out-of-Room-to-Absorb-More-Shocks.html",
+  "date": "Sat, 15 Aug 2026 12:00:00 -0500",
+  "desc": "Following a year of tighter sanctions and Ukrainian attacks on refineries, ports and tankers, Russia’s crude output has fallen further in the second half of 202",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "O SUCESSO INICIAL DA PRIMEIRA DESCOBERTA DE PETRÓLEO DA MARGEM EQUATORIAL TEM AS DIGITAIS DA PERSEVERANÇA DE TRÊS MULHERES DA PETROBRÁS",
+  "link": "https://petronoticias.com.br/o-sucesso-inicial-da-primeira-descoberta-de-petroleo-da-margem-equatorial-tem-as-digitais-da-perseveranca-de-tres-mulheres-da-petrobras/",
+  "date": "Sat, 15 Aug 2026 16:10:28 +0000",
+  "desc": "Descobriu-se o que já se sabia nos corredores da Petrobrás: há petróleo e muito petróleo na Margem Equatorial brasileira, uma área gigantesca que vai da costa d",
+  "src": "Petronotícias",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "Shell perde longa disputa judicial pela exploração sul-africana",
+  "link": "https://www.rigzone.com/news/wire/shell_loses_long_court_fight_for_south_african_exploration-15-aug-2026-184381-article/?rss=true",
+  "date": "Sat, 15 Aug 2026 11:00:00 GMT",
+  "desc": "The oil major won't be allowed to renew an exploration right off South Africa's rugged Indian Ocean Wild Coast, the Constitutional Court ruled.",
+  "src": "Rigzone",
+  "reg": "INT",
+  "translated": true
+ },
+ {
   "title": "Aos 70 anos, dono de imóvel contrata serviço para perfurar poço tubular e captar água subterrânea, mas fiscalização descobre dois documentos ignorados, aplica R$ 15 mil em multas e abre dois procedimentos criminais no Paraná",
   "link": "https://clickpetroleoegas.com.br/dono-de-imovel-contrata-servico-para-perfurar-poco-tubular-e-captar-agua-subterranea-mas-fiscalizacao-descobre-dois-documentos-ignorados-aplica-r-15-mil-em-multas-e-abre-dois-procedimen-caes/",
   "date": "Sat, 15 Aug 2026 04:38:27 +0000",
@@ -14,6 +59,33 @@
   "date": "Fri, 14 Aug 2026 20:28:00 -0300",
   "desc": "A Petrobras informou nesta sexta-feira (14) que identificou a presença de hidrocarbonetos em poço exploratório em perfuração no bloco FZA-M-59, em águas profund",
   "src": "Agência Brasil",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "FENASUCRO, AGROCANA E FENABIO ENCERRAM OS DIAS DE DEBATE NO MELHOR ENCONTRO INTERNACIONAL SOBRE BIOCOMBUSTÍVEIS",
+  "link": "https://petronoticias.com.br/fenasucro-agrocana-e-fenabio-encerram-os-dias-de-debate-no-melhor-encontro-internacional-sobre-biocombustiveis/",
+  "date": "Fri, 14 Aug 2026 23:00:18 +0000",
+  "desc": "A Binatural, uma das principais produtoras de biodiesel do Brasil, defendeu a ampliação do uso do biocombustível em diferentes setores da economia durante a Fen",
+  "src": "Petronotícias",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "PETROBRÁS CONFIRMA PRESENÇA DE HIDROCARBONETOS NA BACIA DA FOZ DO AMAZONAS",
+  "link": "https://petronoticias.com.br/petrobras-confirma-presenca-de-hidrocarbonetos-na-bacia-da-foz-do-amazonas/",
+  "date": "Fri, 14 Aug 2026 22:33:51 +0000",
+  "desc": "A semana chega ao fim com a notícia mais aguardada dos últimos anos no setor de óleo e gás do Brasil. A Petrobrás anunciou hoje (14) que identificou a presença ",
+  "src": "Petronotícias",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "GOLFO PÉRSICO VIVE O DRAMA DE VAZAMENTOS DE PETRÓLEO NO PRIMEIRO GRANDE DESASTRE AMBIENTAL DA GUERRA DO IRÃ",
+  "link": "https://petronoticias.com.br/283983-2/",
+  "date": "Fri, 14 Aug 2026 22:00:56 +0000",
+  "desc": "Uma consequência quase que óbvia, mas que demorou a aparecer no Golfo Pérsico, verdadeiro teatro de guerra que se transformou diante dos ataques mútuos entre a ",
+  "src": "Petronotícias",
   "reg": "BR",
   "translated": false
  },
