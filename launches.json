@@ -1,14 +1,7 @@
 {
- "updated": "2026-08-16T09:43:57.878Z",
+ "updated": "2026-08-17T09:59:05.661Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
-  {
-   "d": "17",
-   "mo": "AGO",
-   "missao": "Long March 2C · carga não divulgada",
-   "sub": "CASC · Taiyuan (China) · 17/08, 00:00 (Brasília)",
-   "net": "2026-08-17T03:00:00Z"
-  },
   {
    "d": "18",
    "mo": "AGO",
@@ -57,6 +50,13 @@
    "missao": "Falcon 9 · Starlink 15-22",
    "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 25/08, 13:44 (Brasília) · comunicações",
    "net": "2026-08-25T16:44:00Z"
+  },
+  {
+   "d": "27",
+   "mo": "AGO",
+   "missao": "Ariane 62 · MTG-I2",
+   "sub": "Arianespace · Centro Espacial de Kourou (Guiana Francesa) · 27/08, 17:10 (Brasília) · observação da Terra",
+   "net": "2026-08-27T20:10:00Z"
   }
  ]
 }
