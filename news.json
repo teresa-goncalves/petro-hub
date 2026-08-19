@@ -1,10 +1,235 @@
 [
  {
+  "title": "Brasil projeta alta de 20% nas exportações de etanol",
+  "link": "https://www.cnnbrasil.com.br/agro/brasil-projeta-alta-de-20-nas-exportacoes-de-etanol/",
+  "date": "Wed, 19 Aug 2026 09:00:21 +0000",
+  "desc": "Volume esperado para a safra 2026/27 pode chegar a 1,53 bilhão de litros, impulsionado pela produção recorde",
+  "src": "CNN Brasil",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "Equinor faz estreia na Namíbia com participação em prospecto offshore pronto para perfuração liderado pela Chevron",
+  "link": "https://www.offshore-energy.biz/equinor-makes-namibia-debut-with-stake-in-chevron-led-drill-ready-offshore-prospect/",
+  "date": "Wed, 19 Aug 2026 08:15:31 +0000",
+  "desc": "Norway’s state-owned energy giant Equinor has bolstered its exploration portfolio by joining an exploration license in the Orange Basin offshore Namibia, operat",
+  "src": "Offshore Energy",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Petroleiros chineses recuam à medida que aumentam os riscos de Hormuz",
+  "link": "https://oilprice.com/Latest-Energy-News/World-News/Chinese-Oil-Tankers-Turn-Back-as-Hormuz-Risks-Mount.html",
+  "date": "Wed, 19 Aug 2026 03:15:00 -0500",
+  "desc": "Two Chinese very large crude carriers have made U-turns in the Strait of Hormuz, currently idling in the area, Bloomberg reported today, citing ship-tracking da",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "UM JORNALISTA AMERICANO ESCREVE UM LIVRO CONTANDO TODA A CONSPIRAÇÃO QUE RESULTOU NA EXPLOSÃO DOS GASODUTOS NORD STREAM NO MAR BÁLTICO",
+  "link": "https://petronoticias.com.br/um-jornalista-americano-escreve-um-livro-contando-toda-a-conspiracao-que-resultou-na-explosao-dos-gasodutos-nord-stream-no-mar-baltico/",
+  "date": "Wed, 19 Aug 2026 08:00:06 +0000",
+  "desc": "Está sendo lançado o livro falando sobre a conspiração que resultou nas explosões do maior sistema de gasodutos submarinos do mundo, que transportava gás da Rús",
+  "src": "Petronotícias",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "Amapá prepara infraestrutura para nova fronteira de petróleo e gás no Norte",
+  "link": "https://www.cnnbrasil.com.br/noticias/amapa-prepara-infraestrutura-para-nova-fronteira-de-petroleo-e-gas-no-norte/",
+  "date": "Wed, 19 Aug 2026 07:30:29 +0000",
+  "desc": "Estado amplia planejamento logístico, capacitação e incentivos para atender possível expansão da cadeia de óleo e gás na Margem Equatorial",
+  "src": "CNN Brasil",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "Venezuela assina acordos petrolíferos com SLB e Hunt para aumentar produção",
+  "link": "https://oilprice.com/Latest-Energy-News/World-News/Venezuela-Signs-Oil-Deals-With-SLB-and-Hunt-to-Boost-Production.html",
+  "date": "Wed, 19 Aug 2026 02:00:00 -0500",
+  "desc": "Venezuela has signed deals with oilfield service major SLB and Hunt Oil Co. as part of efforts to boost investment in its key energy industry, Bloomberg reporte",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Preços do petróleo sobem pelo quarto dia com desaceleração do tráfego em Ormuz",
+  "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Rise-for-Fourth-Day-as-Hormuz-Traffic-Slows.html",
+  "date": "Wed, 19 Aug 2026 00:40:00 -0500",
+  "desc": "Crude oil prices extended their gains for the fourth day today as fresh tanker-tracking data suggests traffic via the Strait of Hormuz has slowed further amid h",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "5 ações de energia lucrando com a nova crise energética",
+  "link": "https://oilprice.com/Energy/Energy-General/5-Energy-Stocks-Cashing-In-On-The-New-Energy-Crunch.html",
+  "date": "Tue, 18 Aug 2026 19:00:00 -0500",
+  "desc": "The Iran war has created an extraordinary earnings season for U.S. refiners. Brent crude has fallen to around $90 per barrel from a wartime peak of $126, but th",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Os EUA estão construindo silenciosamente uma nova base energética no Iraque",
+  "link": "https://oilprice.com/Energy/Natural-Gas/The-US-Is-Quietly-Building-a-New-Energy-Foothold-in-Iraq.html",
+  "date": "Tue, 18 Aug 2026 18:00:00 -0500",
+  "desc": "There have been perhaps a handful of events since the end of the Second World War that have fundamentally reshaped the world’s oil markets and consequently its ",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "A IA pode tornar o grande petróleo ainda maior",
+  "link": "https://oilprice.com/Energy/Crude-Oil/AI-Could-Make-Big-Oil-Even-Bigger.html",
+  "date": "Tue, 18 Aug 2026 16:00:00 -0500",
+  "desc": "AI is changing energy systems, but data centers are only a small part of the impact. Much has been written and said about how the data center and AI boom are co",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Os estoques de destilados afundam ainda mais, já que os estoques de petróleo bruto dos EUA mal se movimentam",
+  "link": "https://oilprice.com/Latest-Energy-News/World-News/Distillate-Stocks-Sink-Further-as-US-Crude-Inventories-Barely-Budge.html",
+  "date": "Tue, 18 Aug 2026 15:56:48 -0500",
+  "desc": "The American Petroleum Institute (API) estimated that crude oil inventories in the United States fell by 328,000 barrels in the week ending August 14. In the we",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Petroleiro grego é atacado",
+  "link": "https://www.rigzone.com/news/wire/greekrun_oil_tanker_comes_under_attack-18-aug-2026-184402-article/?rss=true",
+  "date": "Tue, 18 Aug 2026 20:00:00 GMT",
+  "desc": "A Greek-run oil tanker was attacked in the Black Sea after loading a Russian-origin cargo.",
+  "src": "Rigzone",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Petróleo atinge máximo de três semanas devido ao impasse com o Irã",
+  "link": "https://www.rigzone.com/news/wire/oil_hits_threeweek_high_on_iran_standoff-18-aug-2026-184405-article/?rss=true",
+  "date": "Tue, 18 Aug 2026 19:31:31 GMT",
+  "desc": "Crude gained as Hormuz tensions, tanker threats and tight fuel markets supported prices.",
+  "src": "Rigzone",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "As reservas de diesel dos EUA ficam perto dos mínimos de 23 anos",
+  "link": "https://oilprice.com/Energy/Gas-Prices/US-Diesel-Reserves-Sit-Near-23-Year-Lows.html",
+  "date": "Tue, 18 Aug 2026 12:00:00 -0500",
+  "desc": "Brent and WTI futures remain below $100 a barrel on Tuesday morning, partly suppressed by governments releasing strategic oil reserves into global markets. But ",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "ESTUDOS DA PETROBRÁS SOBRE ENERGIA NUCLEAR FOCAM EM APLICAÇÕES NO SUBSEA E NO REFINO",
+  "link": "https://petronoticias.com.br/estudos-da-petrobras-sobre-energia-nuclear-focam-em-aplicacoes-no-subsea-e-no-refino/",
+  "date": "Tue, 18 Aug 2026 16:00:29 +0000",
+  "desc": "A Petrobrás tem avaliado o potencial de aplicação da energia nuclear em suas operações. Segundo o gerente executivo de Programas Estruturantes da Presidência da",
+  "src": "Petronotícias",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "Ecopetrol coloca a Brava Energia sob sua proteção em movimento de expansão de US$ 1,2 bilhão no Brasil",
+  "link": "https://www.offshore-energy.biz/ecopetrol-takes-brava-energia-under-its-wing-in-1-2-billion-brazil-expansion-move/",
+  "date": "Tue, 18 Aug 2026 15:05:04 +0000",
+  "desc": "Ecopetrol Investimentos do Brasil, a wholly owned subsidiary of Colombia’s state-owned oil and gas company Ecopetrol, has broadened its presence in Brazil’s ene",
+  "src": "Offshore Energy",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Equinor comprará participação majoritária em planta CCGT de 1,48 GW no PA",
+  "link": "https://www.rigzone.com/news/equinor_to_buy_majority_stake_in_148gw_ccgt_plant_in_pa-18-aug-2026-184404-article/?rss=true",
+  "date": "Tue, 18 Aug 2026 14:57:32 GMT",
+  "desc": "'Equinor and Invenergy will together explore additional collaboration opportunities that leverage Invenergy's long-standing operating capabilities and position ",
+  "src": "Rigzone",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "ExxonMobil concede contratos de US$ 1,1 bilhão para projeto de GNL em Moçambique",
+  "link": "https://www.rigzone.com/news/exxonmobil_awards_11b_contracts_for_mozambique_lng_project-18-aug-2026-184400-article/?rss=true",
+  "date": "Tue, 18 Aug 2026 13:54:20 GMT",
+  "desc": "ExxonMobil and its Area 4 partners issued around $1.1 billion in engineering, procurement and manufacturing contracts for the pre-FID 18.6-MMtpa Rovuma LNG proj",
+  "src": "Rigzone",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Kongsberg Maritime equipará o novo FPSO da Ásia com pacote de máquinas de convés de alta capacidade",
+  "link": "https://www.offshore-energy.biz/kongsberg-maritime-to-equip-asias-new-fpso-with-high-capacity-deck-machinery-package/",
+  "date": "Tue, 18 Aug 2026 13:48:14 +0000",
+  "desc": "Kongsberg Maritime, a Norway-headquartered marine technology company, has been selected to provide advanced deck machinery equipment for a new floating producti",
+  "src": "Offshore Energy",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "SLB ajuda a Shell a desbloquear petróleo e gás de poços fechados",
+  "link": "https://www.offshore-energy.biz/slb-lends-shell-a-hand-to-unlock-oil-gas-from-shut-in-wells/",
+  "date": "Tue, 18 Aug 2026 12:40:07 +0000",
+  "desc": "U.S.-headquartered technology player SLB has been tasked by Brunei Shell Petroleum (BSP), a joint venture company between the Brunei government and the UK-headq",
+  "src": "Offshore Energy",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "A produção russa de petróleo bruto entra em uma nova era de restrições",
+  "link": "https://www.rigzone.com/news/russian_crude_oil_production_enters_new_era_of_constraint-18-aug-2026-184398-article/?rss=true",
+  "date": "Tue, 18 Aug 2026 11:05:20 GMT",
+  "desc": "Rystad says Russia's crude production has entered 'a new era of constraint'.",
+  "src": "Rigzone",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Chevron faz nova descoberta no Bloco 0 offshore de Angola",
+  "link": "https://www.rigzone.com/news/chevron_makes_new_discovery_in_block_0_offshore_angola-18-aug-2026-184397-article/?rss=true",
+  "date": "Tue, 18 Aug 2026 10:25:43 GMT",
+  "desc": "Chevron and its partners are considering a tieback.",
+  "src": "Rigzone",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "O navio-sonda de 14 anos da Stena Drilling encerra campanha de três poços no mar do Egito antes do plano",
+  "link": "https://www.offshore-energy.biz/stena-drillings-14-year-old-drillship-caps-three-well-campaign-offshore-egypt-ahead-of-plan/",
+  "date": "Tue, 18 Aug 2026 10:05:28 +0000",
+  "desc": "Scotland-headquartered offshore drilling contractor Stena Drilling has brought a multi-well campaign to a close off the coast of Egypt. The post Stena Drilling’",
+  "src": "Offshore Energy",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Os preços do petróleo continuarão subindo?",
+  "link": "https://www.rigzone.com/news/will_oil_prices_keep_rising-18-aug-2026-184396-article/?rss=true",
+  "date": "Tue, 18 Aug 2026 09:36:00 GMT",
+  "desc": "Will oil prices keep rising as Iran tensions threaten global crude supply?",
+  "src": "Rigzone",
+  "reg": "INT",
+  "translated": true
+ },
+ {
   "title": "Chevron obtém lucro na África Subsaariana com descoberta de condensado de petróleo e gás na costa de Angola",
   "link": "https://www.offshore-energy.biz/chevron-hits-pay-in-sub-saharan-africa-with-oil-gas-condensate-discovery-offshore-angola/",
   "date": "Tue, 18 Aug 2026 09:07:03 +0000",
   "desc": "U.S.-headquartered energy giant Chevron has extended its Sub-Saharan Africa exploration streak with a new hydrocarbon discovery off the coast of Angola. The pos",
   "src": "Offshore Energy",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Superpetroleiros na rota do Oriente Médio alcançam US$ 510 mil por dia em ganhos",
+  "link": "https://www.rigzone.com/news/wire/supertankers_on_mideast_route_reach_510k_a_day_in_earnings-18-aug-2026-184395-article/?rss=true",
+  "date": "Tue, 18 Aug 2026 08:17:46 GMT",
+  "desc": "Earnings for a supertanker procuring crude oil from within the Persian Gulf to Asia are nearing a two-month high, as exporters hunt for more vessels to deliver ",
+  "src": "Rigzone",
   "reg": "INT",
   "translated": true
  },
