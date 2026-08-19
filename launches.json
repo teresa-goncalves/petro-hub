@@ -1,21 +1,7 @@
 {
- "updated": "2026-08-18T09:50:01.473Z",
+ "updated": "2026-08-19T09:50:29.656Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
-  {
-   "d": "18",
-   "mo": "AGO",
-   "missao": "Zhuque-3 · Flight 2",
-   "sub": "LandSpace · Jiuquan (China) · 18/08, 20:35 (Brasília) · voo de teste",
-   "net": "2026-08-18T23:35:00Z"
-  },
-  {
-   "d": "--",
-   "mo": "",
-   "missao": "Falcon 9 · Starlink 17-50",
-   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · data a confirmar · comunicações",
-   "net": "2026-08-19T03:45:08Z"
-  },
   {
    "d": "20",
    "mo": "AGO",
@@ -57,6 +43,20 @@
    "missao": "Ariane 62 · MTG-I2",
    "sub": "Arianespace · Centro Espacial de Kourou (Guiana Francesa) · 27/08, 17:10 (Brasília) · observação da Terra",
    "net": "2026-08-27T20:10:00Z"
+  },
+  {
+   "d": "30",
+   "mo": "AGO",
+   "missao": "Falcon Heavy · Nancy Grace Roman Space Telescope",
+   "sub": "SpaceX · Centro Espacial Kennedy, Flórida (EUA) · 30/08, 08:26 (Brasília) · astrofísica",
+   "net": "2026-08-30T11:26:00Z"
+  },
+  {
+   "d": "--",
+   "mo": "",
+   "missao": "Angara 1.2 · Kosmos (Unknown Payload)",
+   "sub": "Russian Space Forces · Plesetsk (Rússia) · data a confirmar · carga militar/classificada",
+   "net": "2026-08-31T00:00:00Z"
   }
  ]
 }
