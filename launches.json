@@ -1,13 +1,20 @@
 {
- "updated": "2026-08-19T09:50:29.656Z",
+ "updated": "2026-08-20T09:51:19.363Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
   {
    "d": "20",
    "mo": "AGO",
+   "missao": "Electron · The Lightning God Defends (iQPS Launch 8)",
+   "sub": "Rocket Lab · Mahia (Nova Zelândia) · 20/08, 10:00 (Brasília) · observação da Terra",
+   "net": "2026-08-20T13:00:00Z"
+  },
+  {
+   "d": "--",
+   "mo": "",
    "missao": "Falcon 9 · Starlink 10-39",
-   "sub": "SpaceX · Cabo Canaveral, Flórida (EUA) · 20/08, 12:19 (Brasília) · comunicações",
-   "net": "2026-08-20T15:19:00Z"
+   "sub": "SpaceX · Cabo Canaveral, Flórida (EUA) · data a confirmar · comunicações",
+   "net": "2026-08-20T15:38:44Z"
   },
   {
    "d": "22",
@@ -50,13 +57,6 @@
    "missao": "Falcon Heavy · Nancy Grace Roman Space Telescope",
    "sub": "SpaceX · Centro Espacial Kennedy, Flórida (EUA) · 30/08, 08:26 (Brasília) · astrofísica",
    "net": "2026-08-30T11:26:00Z"
-  },
-  {
-   "d": "--",
-   "mo": "",
-   "missao": "Angara 1.2 · Kosmos (Unknown Payload)",
-   "sub": "Russian Space Forces · Plesetsk (Rússia) · data a confirmar · carga militar/classificada",
-   "net": "2026-08-31T00:00:00Z"
   }
  ]
 }
