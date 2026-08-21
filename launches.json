@@ -1,20 +1,13 @@
 {
- "updated": "2026-08-20T09:51:19.363Z",
+ "updated": "2026-08-21T09:53:39.969Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
-  {
-   "d": "20",
-   "mo": "AGO",
-   "missao": "Electron · The Lightning God Defends (iQPS Launch 8)",
-   "sub": "Rocket Lab · Mahia (Nova Zelândia) · 20/08, 10:00 (Brasília) · observação da Terra",
-   "net": "2026-08-20T13:00:00Z"
-  },
   {
    "d": "--",
    "mo": "",
    "missao": "Falcon 9 · Starlink 10-39",
    "sub": "SpaceX · Cabo Canaveral, Flórida (EUA) · data a confirmar · comunicações",
-   "net": "2026-08-20T15:38:44Z"
+   "net": "2026-08-21T15:14:22Z"
   },
   {
    "d": "22",
@@ -27,8 +20,15 @@
    "d": "23",
    "mo": "AGO",
    "missao": "Long March 5 · Chang'e 7",
-   "sub": "CASC · Wenchang (China) · 23/08, 21:00 (Brasília) · ciência planetária",
-   "net": "2026-08-24T00:00:00Z"
+   "sub": "CASC · Wenchang (China) · 23/08, 21:05 (Brasília) · ciência planetária",
+   "net": "2026-08-24T00:05:00Z"
+  },
+  {
+   "d": "25",
+   "mo": "AGO",
+   "missao": "Long March 6C · carga não divulgada",
+   "sub": "CASC · Taiyuan (China) · 25/08, 00:20 (Brasília)",
+   "net": "2026-08-25T03:20:00Z"
   },
   {
    "d": "25",
