@@ -1,21 +1,7 @@
 {
- "updated": "2026-08-21T09:53:39.969Z",
+ "updated": "2026-08-22T09:44:52.383Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
-  {
-   "d": "--",
-   "mo": "",
-   "missao": "Falcon 9 · Starlink 10-39",
-   "sub": "SpaceX · Cabo Canaveral, Flórida (EUA) · data a confirmar · comunicações",
-   "net": "2026-08-21T15:14:22Z"
-  },
-  {
-   "d": "22",
-   "mo": "AGO",
-   "missao": "Falcon 9 · Starlink 15-20",
-   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 22/08, 04:25 (Brasília) · comunicações",
-   "net": "2026-08-22T07:25:00Z"
-  },
   {
    "d": "23",
    "mo": "AGO",
@@ -57,6 +43,20 @@
    "missao": "Falcon Heavy · Nancy Grace Roman Space Telescope",
    "sub": "SpaceX · Centro Espacial Kennedy, Flórida (EUA) · 30/08, 08:26 (Brasília) · astrofísica",
    "net": "2026-08-30T11:26:00Z"
+  },
+  {
+   "d": "--",
+   "mo": "",
+   "missao": "Angara 1.2 · Kosmos (Unknown Payload)",
+   "sub": "Russian Space Forces · Plesetsk (Rússia) · data a confirmar · carga militar/classificada",
+   "net": "2026-08-31T00:00:00Z"
+  },
+  {
+   "d": "--",
+   "mo": "",
+   "missao": "Electron · LOXSAT 1",
+   "sub": "Rocket Lab · Mahia (Nova Zelândia) · data a confirmar",
+   "net": "2026-08-31T00:00:00Z"
   }
  ]
 }
