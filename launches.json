@@ -1,14 +1,7 @@
 {
- "updated": "2026-08-23T09:44:47.391Z",
+ "updated": "2026-08-24T10:05:53.652Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
-  {
-   "d": "24",
-   "mo": "AGO",
-   "missao": "Long March 5 · Chang'e 7",
-   "sub": "CASC · Wenchang (China) · 24/08, 21:30 (Brasília) · ciência planetária",
-   "net": "2026-08-25T00:30:00Z"
-  },
   {
    "d": "25",
    "mo": "AGO",
@@ -24,11 +17,11 @@
    "net": "2026-08-25T05:49:00Z"
   },
   {
-   "d": "25",
+   "d": "26",
    "mo": "AGO",
    "missao": "Falcon 9 · Starlink 15-22",
-   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 25/08, 06:42 (Brasília) · comunicações",
-   "net": "2026-08-25T09:42:00Z"
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 26/08, 06:27 (Brasília) · comunicações",
+   "net": "2026-08-26T09:27:00Z"
   },
   {
    "d": "27",
@@ -54,8 +47,15 @@
   {
    "d": "--",
    "mo": "",
-   "missao": "Electron · LOXSAT 1",
-   "sub": "Rocket Lab · Mahia (Nova Zelândia) · data a confirmar",
+   "missao": "Long March 12A · Flight 2",
+   "sub": "CASC · Jiuquan (China) · data a confirmar · voo de teste",
+   "net": "2026-08-31T00:00:00Z"
+  },
+  {
+   "d": "--",
+   "mo": "",
+   "missao": "Mir · Demo Flight",
+   "sub": "Agency for Defense Development · Sea Launch · data a confirmar · voo de teste",
    "net": "2026-08-31T00:00:00Z"
   }
  ]
