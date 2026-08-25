@@ -1,27 +1,13 @@
 {
- "updated": "2026-08-24T10:05:53.652Z",
+ "updated": "2026-08-25T09:52:46.719Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
   {
-   "d": "25",
-   "mo": "AGO",
-   "missao": "Long March 6C · carga não divulgada",
-   "sub": "CASC · Taiyuan (China) · 25/08, 00:20 (Brasília)",
-   "net": "2026-08-25T03:20:00Z"
-  },
-  {
-   "d": "25",
-   "mo": "AGO",
-   "missao": "Falcon 9 · Starlink 10-49",
-   "sub": "SpaceX · Cabo Canaveral, Flórida (EUA) · 25/08, 02:49 (Brasília) · comunicações",
-   "net": "2026-08-25T05:49:00Z"
-  },
-  {
-   "d": "26",
-   "mo": "AGO",
+   "d": "--",
+   "mo": "",
    "missao": "Falcon 9 · Starlink 15-22",
-   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 26/08, 06:27 (Brasília) · comunicações",
-   "net": "2026-08-26T09:27:00Z"
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · data a confirmar · comunicações",
+   "net": "2026-08-26T09:27:09Z"
   },
   {
    "d": "27",
@@ -57,6 +43,20 @@
    "missao": "Mir · Demo Flight",
    "sub": "Agency for Defense Development · Sea Launch · data a confirmar · voo de teste",
    "net": "2026-08-31T00:00:00Z"
+  },
+  {
+   "d": "--",
+   "mo": "",
+   "missao": "Pallas-1 · Demo Flight",
+   "sub": "Galactic Energy · Jiuquan (China) · data a confirmar · voo de teste",
+   "net": "2026-08-31T00:00:00Z"
+  },
+  {
+   "d": "31",
+   "mo": "AGO",
+   "missao": "Electron · Owl Around The World (StriX Launch 11)",
+   "sub": "Rocket Lab · Mahia (Nova Zelândia) · 31/08, 09:00 (Brasília) · observação da Terra",
+   "net": "2026-08-31T12:00:00Z"
   }
  ]
 }
