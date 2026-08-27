@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-26T09:59:22.227Z",
+ "updated": "2026-08-27T19:51:42.212Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
   {
@@ -24,27 +24,6 @@
    "net": "2026-08-31T00:00:00Z"
   },
   {
-   "d": "--",
-   "mo": "",
-   "missao": "Long March 12A · Flight 2",
-   "sub": "CASC · Jiuquan (China) · data a confirmar · voo de teste",
-   "net": "2026-08-31T00:00:00Z"
-  },
-  {
-   "d": "--",
-   "mo": "",
-   "missao": "Mir · Demo Flight",
-   "sub": "Agency for Defense Development · Sea Launch · data a confirmar · voo de teste",
-   "net": "2026-08-31T00:00:00Z"
-  },
-  {
-   "d": "--",
-   "mo": "",
-   "missao": "Pallas-1 · Demo Flight",
-   "sub": "Galactic Energy · Jiuquan (China) · data a confirmar · voo de teste",
-   "net": "2026-08-31T00:00:00Z"
-  },
-  {
    "d": "31",
    "mo": "AGO",
    "missao": "Electron · Owl Around The World (StriX Launch 11)",
@@ -52,11 +31,32 @@
    "net": "2026-08-31T12:05:00Z"
   },
   {
-   "d": "01",
+   "d": "31",
+   "mo": "AGO",
+   "missao": "Pallas-1 · Demo Flight",
+   "sub": "Galactic Energy · Jiuquan (China) · 31/08, 23:00 (Brasília) · voo de teste",
+   "net": "2026-09-01T02:00:00Z"
+  },
+  {
+   "d": "02",
    "mo": "SET",
    "missao": "Falcon 9 · Starlink 15-23",
-   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 01/09, 05:01 (Brasília) · comunicações",
-   "net": "2026-09-01T08:01:00Z"
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 02/09, 04:46 (Brasília) · comunicações",
+   "net": "2026-09-02T07:46:00Z"
+  },
+  {
+   "d": "03",
+   "mo": "SET",
+   "missao": "GSLV Mk II · GISAT-1A (EOS-05)",
+   "sub": "ISRO · Sriharikota (Índia) · 03/09, 18:00 (Brasília) · observação da Terra",
+   "net": "2026-09-03T21:00:00Z"
+  },
+  {
+   "d": "04",
+   "mo": "SET",
+   "missao": "Spectrum · Onward and Upward",
+   "sub": "Isar Aerospace · Andøya (Noruega) · 04/09, 17:00 (Brasília) · voo de teste",
+   "net": "2026-09-04T20:00:00Z"
   }
  ]
 }
