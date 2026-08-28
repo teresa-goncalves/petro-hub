@@ -1,27 +1,13 @@
 {
- "updated": "2026-08-27T19:51:42.212Z",
+ "updated": "2026-08-28T20:55:59.516Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
-  {
-   "d": "27",
-   "mo": "AGO",
-   "missao": "Ariane 62 · MTG-I2",
-   "sub": "Arianespace · Centro Espacial de Kourou (Guiana Francesa) · 27/08, 17:10 (Brasília) · observação da Terra",
-   "net": "2026-08-27T20:10:00Z"
-  },
   {
    "d": "30",
    "mo": "AGO",
    "missao": "Falcon Heavy · Nancy Grace Roman Space Telescope",
    "sub": "SpaceX · Centro Espacial Kennedy, Flórida (EUA) · 30/08, 08:26 (Brasília) · astrofísica",
    "net": "2026-08-30T11:26:00Z"
-  },
-  {
-   "d": "--",
-   "mo": "",
-   "missao": "Angara 1.2 · Kosmos (Unknown Payload)",
-   "sub": "Russian Space Forces · Plesetsk (Rússia) · data a confirmar · carga militar/classificada",
-   "net": "2026-08-31T00:00:00Z"
   },
   {
    "d": "31",
@@ -57,6 +43,20 @@
    "missao": "Spectrum · Onward and Upward",
    "sub": "Isar Aerospace · Andøya (Noruega) · 04/09, 17:00 (Brasília) · voo de teste",
    "net": "2026-09-04T20:00:00Z"
+  },
+  {
+   "d": "06",
+   "mo": "SET",
+   "missao": "Falcon 9 · Starlink 15-24",
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 06/09, 07:59 (Brasília) · comunicações",
+   "net": "2026-09-06T10:59:00Z"
+  },
+  {
+   "d": "--",
+   "mo": "",
+   "missao": "Soyuz 2.1b · Progress MS-35 (96P)",
+   "sub": "Roscosmos · Baikonur (Cazaquistão) · data a confirmar · reabastecimento da estação",
+   "net": "2026-09-09T16:15:03Z"
   }
  ]
 }
