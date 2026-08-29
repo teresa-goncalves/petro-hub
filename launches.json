@@ -1,13 +1,13 @@
 {
- "updated": "2026-08-28T20:55:59.516Z",
+ "updated": "2026-08-29T14:30:43.338Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
   {
-   "d": "30",
-   "mo": "AGO",
+   "d": "--",
+   "mo": "",
    "missao": "Falcon Heavy · Nancy Grace Roman Space Telescope",
-   "sub": "SpaceX · Centro Espacial Kennedy, Flórida (EUA) · 30/08, 08:26 (Brasília) · astrofísica",
-   "net": "2026-08-30T11:26:00Z"
+   "sub": "SpaceX · Centro Espacial Kennedy, Flórida (EUA) · data a confirmar · astrofísica",
+   "net": "2026-08-30T11:25:49Z"
   },
   {
    "d": "31",
@@ -34,8 +34,8 @@
    "d": "03",
    "mo": "SET",
    "missao": "GSLV Mk II · GISAT-1A (EOS-05)",
-   "sub": "ISRO · Sriharikota (Índia) · 03/09, 18:00 (Brasília) · observação da Terra",
-   "net": "2026-09-03T21:00:00Z"
+   "sub": "ISRO · Sriharikota (Índia) · 03/09, 18:25 (Brasília) · observação da Terra",
+   "net": "2026-09-03T21:25:00Z"
   },
   {
    "d": "04",
