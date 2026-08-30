@@ -1,14 +1,7 @@
 {
- "updated": "2026-08-29T14:30:43.338Z",
+ "updated": "2026-08-30T14:25:43.449Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
-  {
-   "d": "--",
-   "mo": "",
-   "missao": "Falcon Heavy · Nancy Grace Roman Space Telescope",
-   "sub": "SpaceX · Centro Espacial Kennedy, Flórida (EUA) · data a confirmar · astrofísica",
-   "net": "2026-08-30T11:25:49Z"
-  },
   {
    "d": "31",
    "mo": "AGO",
@@ -57,6 +50,13 @@
    "missao": "Soyuz 2.1b · Progress MS-35 (96P)",
    "sub": "Roscosmos · Baikonur (Cazaquistão) · data a confirmar · reabastecimento da estação",
    "net": "2026-09-09T16:15:03Z"
+  },
+  {
+   "d": "11",
+   "mo": "SET",
+   "missao": "Long March 8A · carga não divulgada",
+   "sub": "CASC · Wenchang (China) · 11/09, 13:00 (Brasília)",
+   "net": "2026-09-11T16:00:00Z"
   }
  ]
 }
