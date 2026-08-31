@@ -1,20 +1,20 @@
 {
- "updated": "2026-08-30T14:25:43.449Z",
+ "updated": "2026-08-31T17:05:07.528Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
-  {
-   "d": "31",
-   "mo": "AGO",
-   "missao": "Electron · Owl Around The World (StriX Launch 11)",
-   "sub": "Rocket Lab · Mahia (Nova Zelândia) · 31/08, 09:05 (Brasília) · observação da Terra",
-   "net": "2026-08-31T12:05:00Z"
-  },
   {
    "d": "31",
    "mo": "AGO",
    "missao": "Pallas-1 · Demo Flight",
    "sub": "Galactic Energy · Jiuquan (China) · 31/08, 23:00 (Brasília) · voo de teste",
    "net": "2026-09-01T02:00:00Z"
+  },
+  {
+   "d": "01",
+   "mo": "SET",
+   "missao": "Electron · Owl Around The World (StriX Launch 11)",
+   "sub": "Rocket Lab · Mahia (Nova Zelândia) · 01/09, 08:38 (Brasília) · observação da Terra",
+   "net": "2026-09-01T11:38:00Z"
   },
   {
    "d": "02",
