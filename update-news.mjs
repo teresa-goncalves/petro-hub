@@ -63,14 +63,59 @@ async function parseFeed(f) {
   }
 }
 
+// --- Tradução dos títulos internacionais ---
+// O endpoint "gtx" do Google passou a recusar as chamadas vindas dos runners do
+// GitHub Actions (as traduções pararam em 22/08/2026 sem nenhum aviso no log).
+// Agora são tentados vários provedores em cascata e o log avisa quando todos falham.
+let TRAD_OK = 0, TRAD_FALHA = 0, TRAD_ULT_ERRO = "";
+const sleep = ms => new Promise(r => setTimeout(r, ms));
+
+async function getJson(url) {
+  const r = await fetch(url, {
+    headers: { "User-Agent": "Mozilla/5.0 PetroHubBot" },
+    signal: AbortSignal.timeout(15000)
+  });
+  if (!r.ok) throw new Error("HTTP " + r.status);
+  return await r.json();
+}
+
+const TRADUTORES = [
+  { nome: "google-gtx", fn: async t => {
+      const j = await getJson("https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=pt-BR&dt=t&q=" + encodeURIComponent(t));
+      return j[0].map(x => x[0]).join("");
+  } },
+  { nome: "google-chrome-ex", fn: async t => {
+      const j = await getJson("https://clients5.google.com/translate_a/t?client=dict-chrome-ex&sl=en&tl=pt&q=" + encodeURIComponent(t));
+      const v = Array.isArray(j) ? (Array.isArray(j[0]) ? j[0][0] : j[0]) : null;
+      return typeof v === "string" ? v : null;
+  } },
+  { nome: "mymemory", fn: async t => {
+      const j = await getJson("https://api.mymemory.translated.net/get?langpair=en|pt-BR&q=" + encodeURIComponent(t));
+      const v = j && j.responseData && j.responseData.translatedText;
+      if (typeof v !== "string") return null;
+      if (/MYMEMORY WARNING|QUERY LENGTH LIMIT|INVALID/i.test(v)) return null;
+      return v;
+  } },
+  { nome: "lingva", fn: async t => {
+      const j = await getJson("https://lingva.ml/api/v1/en/pt/" + encodeURIComponent(t));
+      return j && typeof j.translation === "string" ? j.translation : null;
+  } }
+];
+
 async function translatePt(text) {
-  try {
-    const u = "https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=pt&dt=t&q=" + encodeURIComponent(text);
-    const r = await fetch(u);
-    if (!r.ok) return null;
-    const j = await r.json();
-    return j[0].map(s => s[0]).join("");
-  } catch (e) { return null; }
+  for (const p of TRADUTORES) {
+    try {
+      const out = await p.fn(text);
+      if (out && out.trim() && out.trim().toLowerCase() !== text.trim().toLowerCase()) {
+        TRAD_OK++;
+        return out.trim();
+      }
+    } catch (e) {
+      TRAD_ULT_ERRO = p.nome + ": " + e.message;
+    }
+  }
+  TRAD_FALHA++;
+  return null;
 }
 
 const results = await Promise.all(FEEDS.map(parseFeed));
@@ -92,10 +137,24 @@ for (const n of fresh) {
     if (n.reg === "INT" && n.title) {
       const t = await translatePt(n.title);
       if (t) { n.title = t; n.translated = true; }
+      await sleep(200);
     }
     store[k] = n;
     novos++;
   }
+}
+
+// Recupera o atraso: retraduz os itens INT que ficaram salvos em inglês porque o
+// tradutor falhou em execuções anteriores (do mais novo para o mais antigo).
+const LIMITE_BACKFILL = 150;
+let retraduzidos = 0;
+const pendentes = Object.values(store)
+  .filter(n => n.reg === "INT" && n.title && !n.translated)
+  .slice(0, LIMITE_BACKFILL);
+for (const n of pendentes) {
+  const t = await translatePt(n.title);
+  if (t) { n.title = t; n.translated = true; retraduzidos++; }
+  await sleep(200);
 }
 
 // Remove itens fora do tema (ex.: INSS/previdência/vagas) e o que tem mais de 365 dias; ordena
@@ -109,4 +168,8 @@ all.sort((a, b) => new Date(b.date) - new Date(a.date));
 all = all.slice(0, 2000);
 
 writeFileSync("news.json", JSON.stringify(all, null, 1));
-console.log(`news.json atualizado: ${all.length} itens no total (${novos} novos nesta execução).`);
+const emIngles = all.filter(n => n.reg === "INT" && !n.translated).length;
+console.log(`news.json atualizado: ${all.length} itens no total (${novos} novos, ${retraduzidos} retraduzidos nesta execução).`);
+console.log(`Tradução: ${TRAD_OK} título(s) traduzido(s), ${TRAD_FALHA} falha(s).`);
+if (TRAD_FALHA > 0) console.log(`::warning::Tradução falhou em ${TRAD_FALHA} título(s). Último erro: ${TRAD_ULT_ERRO}`);
+if (emIngles > 0) console.log(`::warning::${emIngles} notícia(s) internacional(is) continuam em inglês no news.json.`);
