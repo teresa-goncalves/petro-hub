@@ -1,27 +1,20 @@
 {
- "updated": "2026-08-31T17:05:07.528Z",
+ "updated": "2026-09-01T14:10:18.818Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
-  {
-   "d": "31",
-   "mo": "AGO",
-   "missao": "Pallas-1 · Demo Flight",
-   "sub": "Galactic Energy · Jiuquan (China) · 31/08, 23:00 (Brasília) · voo de teste",
-   "net": "2026-09-01T02:00:00Z"
-  },
-  {
-   "d": "01",
-   "mo": "SET",
-   "missao": "Electron · Owl Around The World (StriX Launch 11)",
-   "sub": "Rocket Lab · Mahia (Nova Zelândia) · 01/09, 08:38 (Brasília) · observação da Terra",
-   "net": "2026-09-01T11:38:00Z"
-  },
   {
    "d": "02",
    "mo": "SET",
    "missao": "Falcon 9 · Starlink 15-23",
    "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 02/09, 04:46 (Brasília) · comunicações",
    "net": "2026-09-02T07:46:00Z"
+  },
+  {
+   "d": "02",
+   "mo": "SET",
+   "missao": "Electron · Owl Around The World (StriX Launch 11)",
+   "sub": "Rocket Lab · Mahia (Nova Zelândia) · 02/09, 08:11 (Brasília) · observação da Terra",
+   "net": "2026-09-02T11:11:00Z"
   },
   {
    "d": "03",
@@ -50,6 +43,13 @@
    "missao": "Soyuz 2.1b · Progress MS-35 (96P)",
    "sub": "Roscosmos · Baikonur (Cazaquistão) · data a confirmar · reabastecimento da estação",
    "net": "2026-09-09T16:15:03Z"
+  },
+  {
+   "d": "10",
+   "mo": "SET",
+   "missao": "Falcon 9 · USSF-xxx (\"R-2\")",
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 10/09, 12:37 (Brasília) · carga militar/classificada",
+   "net": "2026-09-10T15:37:00Z"
   },
   {
    "d": "11",
