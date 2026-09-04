@@ -1,20 +1,13 @@
 {
- "updated": "2026-09-03T13:36:49.461Z",
+ "updated": "2026-09-04T13:33:47.755Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
   {
-   "d": "03",
-   "mo": "SET",
-   "missao": "GSLV Mk II · GISAT-1A (EOS-05)",
-   "sub": "ISRO · Sriharikota (Índia) · 03/09, 18:25 (Brasília) · observação da Terra",
-   "net": "2026-09-03T21:25:00Z"
-  },
-  {
-   "d": "04",
+   "d": "05",
    "mo": "SET",
    "missao": "Spectrum · Onward and Upward",
-   "sub": "Isar Aerospace · Andøya (Noruega) · 04/09, 17:00 (Brasília) · voo de teste",
-   "net": "2026-09-04T20:00:00Z"
+   "sub": "Isar Aerospace · Andøya (Noruega) · 05/09, 17:00 (Brasília) · voo de teste",
+   "net": "2026-09-05T20:00:00Z"
   },
   {
    "d": "06",
@@ -57,6 +50,13 @@
    "missao": "Vega-C · Sentinel-3C & FLEX",
    "sub": "Avio S.p.A · Centro Espacial de Kourou (Guiana Francesa) · data a confirmar · observação da Terra",
    "net": "2026-09-15T01:21:07Z"
+  },
+  {
+   "d": "--",
+   "mo": "",
+   "missao": "Electron · LOXSAT 1",
+   "sub": "Rocket Lab · Mahia (Nova Zelândia) · data a confirmar",
+   "net": "2026-09-30T00:00:00Z"
   }
  ]
 }
