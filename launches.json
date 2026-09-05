@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-04T13:33:47.755Z",
+ "updated": "2026-09-05T12:45:23.549Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
   {
@@ -45,18 +45,18 @@
    "net": "2026-09-11T16:00:00Z"
   },
   {
+   "d": "13",
+   "mo": "SET",
+   "missao": "Falcon 9 · O3b mPower 11-13",
+   "sub": "SpaceX · Cabo Canaveral, Flórida (EUA) · 13/09, 15:50 (Brasília) · comunicações",
+   "net": "2026-09-13T18:50:00Z"
+  },
+  {
    "d": "--",
    "mo": "",
    "missao": "Vega-C · Sentinel-3C & FLEX",
    "sub": "Avio S.p.A · Centro Espacial de Kourou (Guiana Francesa) · data a confirmar · observação da Terra",
    "net": "2026-09-15T01:21:07Z"
-  },
-  {
-   "d": "--",
-   "mo": "",
-   "missao": "Electron · LOXSAT 1",
-   "sub": "Rocket Lab · Mahia (Nova Zelândia) · data a confirmar",
-   "net": "2026-09-30T00:00:00Z"
   }
  ]
 }
