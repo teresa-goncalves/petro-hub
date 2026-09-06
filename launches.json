@@ -1,20 +1,13 @@
 {
- "updated": "2026-09-05T12:45:23.549Z",
+ "updated": "2026-09-06T12:53:57.238Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
   {
-   "d": "05",
-   "mo": "SET",
-   "missao": "Spectrum · Onward and Upward",
-   "sub": "Isar Aerospace · Andøya (Noruega) · 05/09, 17:00 (Brasília) · voo de teste",
-   "net": "2026-09-05T20:00:00Z"
-  },
-  {
-   "d": "06",
-   "mo": "SET",
+   "d": "--",
+   "mo": "",
    "missao": "Falcon 9 · Starlink 15-24",
-   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 06/09, 07:59 (Brasília) · comunicações",
-   "net": "2026-09-06T10:59:00Z"
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · data a confirmar · comunicações",
+   "net": "2026-09-06T14:26:54Z"
   },
   {
    "d": "09",
@@ -57,6 +50,13 @@
    "missao": "Vega-C · Sentinel-3C & FLEX",
    "sub": "Avio S.p.A · Centro Espacial de Kourou (Guiana Francesa) · data a confirmar · observação da Terra",
    "net": "2026-09-15T01:21:07Z"
+  },
+  {
+   "d": "--",
+   "mo": "",
+   "missao": "Electron · LOXSAT 1",
+   "sub": "Rocket Lab · Mahia (Nova Zelândia) · data a confirmar",
+   "net": "2026-09-30T00:00:00Z"
   }
  ]
 }
