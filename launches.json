@@ -1,14 +1,7 @@
 {
- "updated": "2026-09-06T12:53:57.238Z",
+ "updated": "2026-09-07T15:04:55.449Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
-  {
-   "d": "--",
-   "mo": "",
-   "missao": "Falcon 9 · Starlink 15-24",
-   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · data a confirmar · comunicações",
-   "net": "2026-09-06T14:26:54Z"
-  },
   {
    "d": "09",
    "mo": "SET",
@@ -56,6 +49,13 @@
    "mo": "",
    "missao": "Electron · LOXSAT 1",
    "sub": "Rocket Lab · Mahia (Nova Zelândia) · data a confirmar",
+   "net": "2026-09-30T00:00:00Z"
+  },
+  {
+   "d": "--",
+   "mo": "",
+   "missao": "Falcon 9 · Crew-13",
+   "sub": "SpaceX · Cabo Canaveral, Flórida (EUA) · data a confirmar · voo tripulado",
    "net": "2026-09-30T00:00:00Z"
   }
  ]
