@@ -1,20 +1,20 @@
 {
- "updated": "2026-09-07T15:04:55.449Z",
+ "updated": "2026-09-08T13:39:54.955Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
-  {
-   "d": "09",
-   "mo": "SET",
-   "missao": "Long March 2D/YZ-3 · carga não divulgada",
-   "sub": "CASC · Jiuquan (China) · 09/09, 06:00 (Brasília)",
-   "net": "2026-09-09T09:00:00Z"
-  },
   {
    "d": "--",
    "mo": "",
    "missao": "Soyuz 2.1b · Progress MS-35 (96P)",
    "sub": "Roscosmos · Baikonur (Cazaquistão) · data a confirmar · reabastecimento da estação",
    "net": "2026-09-09T16:15:03Z"
+  },
+  {
+   "d": "10",
+   "mo": "SET",
+   "missao": "Long March 2D/YZ-3 · carga não divulgada",
+   "sub": "CASC · Jiuquan (China) · 10/09, 06:00 (Brasília)",
+   "net": "2026-09-10T09:00:00Z"
   },
   {
    "d": "10",
