@@ -2,7 +2,7 @@ name: Atualizar arquivo de notícias (news.json)
 
 on:
   schedule:
-    - cron: '0 9 * * *'   # todo dia ~06:00 (horário de Brasília)
+    - cron: '0 9,18 * * *'   # ~06:00 e ~15:00 (Brasília): as fontes internacionais só publicam depois das 11h UTC
   workflow_dispatch:        # permite rodar manualmente pelo botão "Run workflow"
 
 permissions:
