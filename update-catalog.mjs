@@ -58,11 +58,11 @@ if (html.includes('�')) {
   html = new TextDecoder('windows-1252').decode(ab);
 }
 // remove scripts/estilos e tags; decodifica entidades básicas; normaliza espaços
-let t = html.replace(/<(script|style)[\s\S]*?<\/\1>/gi, ' ').replace(/<[^>]+>/g, ' ');
+const C1 = {128:'€',130:'‚',131:'ƒ',132:'„',133:'…',134:'†',135:'‡',136:'ˆ',137:'‰',138:'Š',139:'‹',140:'Œ',142:'Ž',145:'‘',146:'’',147:'“',148:'”',149:'•',150:'–',151:'—',152:'˜',153:'™',154:'š',155:'›',156:'œ',158:'ž',159:'Ÿ'}; html = html.replace(/[\u0080-\u009F]/g, c => C1[c.charCodeAt(0)] || ' '); let t = html.replace(/<(script|style)[\s\S]*?<\/\1>/gi, ' ').replace(/<[^>]+>/g, ' '); // o Planalto veio de windows-1252 sem mapear a faixa C1: o travessao virou U+0097, invisivel
 t = t.replace(/&nbsp;/gi, ' ').replace(/&ordm;|&#186;/gi, 'º').replace(/&ordf;|&#170;/gi, 'ª')
      .replace(/&amp;/gi, '&').replace(/&lt;/gi, '<').replace(/&gt;/gi, '>')
      .replace(/&quot;/gi, '"').replace(/&#39;|&apos;/gi, "'").replace(/&deg;/gi, '°')
-     .replace(/&[a-z0-9#]+;/gi, ' ').replace(/\s+/g, ' ');
+     .replace(/&#x([0-9a-f]+);/gi, (_, h) => String.fromCodePoint(parseInt(h, 16))).replace(/&#(\d+);/g, (_, d) => String.fromCodePoint(Number(d))).replace(/&[a-z0-9#]+;/gi, ' ').replace(/\s+/g, ' ').replace(/[\u2080-\u2089]/g, c => String(c.charCodeAt(0) - 0x2080)); // sem isto os subscritos caiam no catch-all e sumiam ("compressao de CO")
 
 const tables = {
   T1: parseTable(t, /TABELA I\s+LISTA DE BENS\s*\(REPETRO-TEMPOR/i, /TABELA II\s+LISTA DE BENS/i, false),
