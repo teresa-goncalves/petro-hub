@@ -28,4 +28,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add trends.json
-          git diff --staged --quiet || (git commit -m "chore: atualiza trends.json" && git push)
+          # O push simples falha quando outro robo commita entre o checkout e o push
+          # (o de cotacoes roda a cada 30 min). Rebase e tenta de novo antes de desistir.
+          git diff --staged --quiet || (git commit -m "chore: atualiza trends.json" && (git push || (git pull --rebase && git push)))
