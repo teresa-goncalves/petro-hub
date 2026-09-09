@@ -1,12 +1,20 @@
 {
- "updated": "2026-09-09T00:21:07.750Z",
+ "updated": "2026-09-09T11:42:16.969Z",
  "items": [
   {
-   "title": "Vênus comeu sua própria lua?",
-   "link": "https://www.space.com/astronomy/venus/did-venus-eat-its-own-moon",
-   "date": "Tue, 08 Sep 2026 21:00:00 +0000",
-   "desc": "Scientists may finally know why Venus, Earth's twin, lacks a moon, finding that the hottest planet in the solar system may have consumed its own natural satelli",
+   "title": "China a caminho de lançar missão de retorno de amostras de Marte em 2028: ‘Se for preciso, isso representa um momento Sputnik’",
+   "link": "https://www.space.com/astronomy/mars/china-on-track-to-launch-mars-sample-return-mission-in-2028-if-accurate-this-represents-a-sputnik-moment",
+   "date": "Wed, 09 Sep 2026 10:00:00 +0000",
+   "desc": "China is making progress on its Tianwen 3 Mars sample-return mission, which aims to launch in 2028 and return a collection of Red Planet dirt and rock to Earth ",
    "src": "Space.com",
+   "translated": true
+  },
+  {
+   "title": "Por que o lançamento do patch da Microsoft deste mês é confuso",
+   "link": "https://arstechnica.com/security/2026/09/microsoft-patches-a-record-972-vulnerabilities-112-of-them-critical/",
+   "date": "Tue, 08 Sep 2026 21:11:46 +0000",
+   "desc": "Security gnomes are pumping out patches ahead of an expected onslaught of AI-assisted attacks.",
+   "src": "Ars Technica",
    "translated": true
   },
   {
@@ -26,26 +34,10 @@
    "translated": true
   },
   {
-   "title": "Neste dia no espaço! 8 de setembro de 2004: A espaçonave Genesis da NASA caiu no deserto de Utah, destruindo suas amostras de partículas do vento solar do sol.",
-   "link": "https://www.space.com/space-exploration/on-this-day-in-space-september-8-2026",
-   "date": "Tue, 08 Sep 2026 17:17:42 +0000",
-   "desc": "On Sept. 8, 2004, NASA's Genesis spacecraft crash-landed in Utah after its parachutes failed to deploy. Here's why it mattered.",
-   "src": "Space.com",
-   "translated": true
-  },
-  {
    "title": "Dois satélites acabaram de queimar na atmosfera da Terra – e os cientistas estavam assistindo a partir de um jato particular. Aqui está o porquê",
    "link": "https://www.space.com/space-exploration/satellites/2-satellites-just-burned-up-in-earths-atmosphere-and-scientists-were-watching-from-a-private-jet-heres-why",
    "date": "Tue, 08 Sep 2026 16:00:00 +0000",
    "desc": "A team of researchers just chased a pair of reentering satellites in a private jet to learn about the pollution caused by space debris burning up in Earth's atm",
-   "src": "Space.com",
-   "translated": true
-  },
-  {
-   "title": "Táxi-foguete SpaceX retorna após lançamento do Telescópio Romano | Foto espacial do dia 8 de setembro de 2026",
-   "link": "https://www.space.com/space-exploration/missions/spacex-rocket-taxi-returns-after-roman-telescope-launch-space-photo-of-the-day-for-sept-8-2026",
-   "date": "Tue, 08 Sep 2026 14:00:00 +0000",
-   "desc": "The Roman Space Telescope launched beyond Earth on Aug. 30. And one of the most amazing parts of the liftoff was the Falcon Heavy rocket's boosters returning ba",
    "src": "Space.com",
    "translated": true
   },
@@ -58,19 +50,27 @@
    "translated": true
   },
   {
-   "title": "A ascensão da 'gravidade quântica?' A teoria de Einstein vista no reino quântico pela primeira vez",
-   "link": "https://www.space.com/science/particle-physics/the-rise-of-quantum-gravity-einsteins-theory-seen-in-the-quantum-realm-for-1st-time",
-   "date": "Tue, 08 Sep 2026 13:00:00 +0000",
-   "desc": "Scientists have spotted the first hints that Einstein's formulation of gravity operates in the quantum realm.",
+   "title": "O Incidente Vela: Um satélite americano detectou um teste nuclear secreto em 1979?",
+   "link": "https://www.space.com/space-exploration/satellites/the-vela-incident-did-an-american-satellite-detect-a-secret-nuclear-test-in-1979",
+   "date": "Tue, 08 Sep 2026 10:00:00 +0000",
+   "desc": "Was an usual flash detected off the coast of South Africa by an American satellite caused by a secretive atmospheric nuclear test?",
    "src": "Space.com",
    "translated": true
   },
   {
-   "title": "Com outra grande infusão de dinheiro, o Stoke Space fica ainda maior",
-   "link": "https://arstechnica.com/space/2026/09/stoke-space-sets-debut-launch-target-reveals-plans-for-larger-rocket/",
-   "date": "Tue, 08 Sep 2026 12:29:18 +0000",
-   "desc": "The space economy will grow exactly as fast as we can launch rockets.",
-   "src": "Ars Technica",
+   "title": "‘The Last Starship’ é o jogo espacial mais dormido de 2026 – você precisa dar uma olhada nesta joia de estratégia de construção naval tipo ‘FTL’",
+   "link": "https://www.space.com/entertainment/space-games/the-last-starship-is-2026s-most-slept-on-space-game-you-need-to-check-out-this-ftl-like-shipbuilding-strategy-gem",
+   "date": "Mon, 07 Sep 2026 20:00:00 +0000",
+   "desc": "Dive into this diverting sandbox adventure from Introversion before another microsecond lapses.",
+   "src": "Space.com",
+   "translated": true
+  },
+  {
+   "title": "A lua esconderá Júpiter em plena luz do dia hoje – veja como vê-la",
+   "link": "https://www.space.com/stargazing/the-moon-will-hide-jupiter-in-broad-daylight-on-sept-8-2026-here-is-how-to-see-it",
+   "date": "Mon, 07 Sep 2026 16:00:00 +0000",
+   "desc": "The moon and Jupiter will meet before dawn on Sept. 8, before the moon hides the giant planet from view in a rare daytime occultation.",
+   "src": "Space.com",
    "translated": true
   }
  ]
