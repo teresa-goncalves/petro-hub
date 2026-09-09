@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-09T11:47:55.729Z",
+ "updated": "2026-09-09T11:54:07.018Z",
  "items": [
   {
    "title": "Maior eletrificação dos transportes poderá reduzir a dependência das importações da Europa em quase um quarto até 2040",
@@ -7,14 +7,6 @@
    "date": "Wed, 09 Sep 2026 02:02:22 +0000",
    "desc": "Europe is about to decide what its renewable energy framework should look like for the decade after 2030. For transport, the political question is simple: Does ",
    "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "Por que o lançamento do patch da Microsoft deste mês é confuso",
-   "link": "https://arstechnica.com/security/2026/09/microsoft-patches-a-record-972-vulnerabilities-112-of-them-critical/",
-   "date": "Tue, 08 Sep 2026 21:11:46 +0000",
-   "desc": "Security gnomes are pumping out patches ahead of an expected onslaught of AI-assisted attacks.",
-   "src": "Ars Technica",
    "translated": true
   },
   {
@@ -50,27 +42,35 @@
    "translated": true
   },
   {
-   "title": "Ainda mais perguntas giram em torno do lançamento do Tesla Cybercab",
-   "link": "https://cleantechnica.com/2026/09/07/tesla-cybercab-robotaxi-questions/",
-   "date": "Mon, 07 Sep 2026 18:59:00 +0000",
-   "desc": "New questions continue to surface, days after the limited launch of the Tesla Cybercab robotaxi in Austin, Texas on September 3. The post Even More Questions Sw",
-   "src": "CleanTechnica",
+   "title": "O setor espacial comercial da China está abrindo o capital",
+   "link": "https://payloadspace.com/chinas-commercial-space-sector-is-going-public/",
+   "date": "Fri, 04 Sep 2026 12:06:45 +0000",
+   "desc": "A Shanghai listing rule has made orbital flight the price of entry for China's rocket startups. The post China's Commercial Space Sector Is Going Public appeare",
+   "src": "Payload",
    "translated": true
   },
   {
-   "title": "Essas montadoras legadas lideram a transição de EV nos Estados Unidos – participação do BEV nas vendas da marca e do grupo de automóveis",
-   "link": "https://cleantechnica.com/2026/09/07/these-legacy-automakers-lead-the-ev-transition-in-the-united-states-bev-share-of-auto-brand-group-sales/",
-   "date": "Mon, 07 Sep 2026 17:36:11 +0000",
-   "desc": "This is one of my favorite reports we regularly publish here at CleanTechnica. I publish quarterly EV sales reports for the United States regarding the top sell",
-   "src": "CleanTechnica",
+   "title": "Isaacman: Comercial não resolverá todos os problemas da NASA",
+   "link": "https://payloadspace.com/isaacman-commercial-wont-solve-every-nasa-problem/",
+   "date": "Thu, 03 Sep 2026 23:36:07 +0000",
+   "desc": "“If the objective is to force an economy out of every NASA endeavor, then NASA should probably sit inside the Department of Commerce,” Isaacman wrote in a lengt",
+   "src": "Payload",
    "translated": true
   },
   {
-   "title": "ICCT afirma que custos operacionais de veículos elétricos são ⅓ mais baixos na Europa",
-   "link": "https://cleantechnica.com/2026/09/07/icct-claims-ev-operating-costs-%e2%85%93-lower-in-europe/",
-   "date": "Mon, 07 Sep 2026 15:11:14 +0000",
-   "desc": "In a report dated September 6, 2026, the International Council On Clean Transportation (ICCT) claimed that operating an electric car in Europe in 2025 cost one ",
-   "src": "CleanTechnica",
+   "title": "A eletrônica 'sob o capô' das redes espaciais",
+   "link": "https://spacenews.com/the-electronics-under-the-hood-of-space-networking/",
+   "date": "Thu, 27 Aug 2026 14:50:34 +0000",
+   "desc": "In this episode, SpaceNews' Mike Gruss interviews Jeff Janicik, founder and chairman of Innoflight. They discuss Golden Dome, Artemis and working with big numbe",
+   "src": "SpaceNews",
+   "translated": true
+  },
+  {
+   "title": "LatConnect 60 e Phi Earth fazem parceria para conectar espaço e solo",
+   "link": "https://spacenews.com/latconnect-60-and-phi-earth-partner-to-connect-space-and-soil/",
+   "date": "Thu, 27 Aug 2026 01:54:19 +0000",
+   "desc": "Nature-based projects are generating more environmental data than ever before. Satellites observe landscapes from orbit, while field teams capture what is happe",
+   "src": "SpaceNews",
    "translated": true
   }
  ]
