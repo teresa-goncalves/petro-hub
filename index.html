@@ -744,7 +744,7 @@
     <p style="margin:-6px 0 10px;font-size:.82rem;color:var(--muted)">🚀 Próximos lançamentos orbitais — agenda do The Space Devs (Launch Library), traduzida <span id="launchUpd"></span>:</p>
     <div id="launchList" class="launch-list"><div class="loading"><span class="spinner"></span>Carregando lançamentos...</div></div>
   </div>
-  <p style="margin:18px 0 12px;font-size:.82rem;color:var(--muted)">📡 Notícias atualizadas sobre SpaceX, Elon Musk, espaço, IA e novas energias (fontes internacionais, traduzidas):</p>
+  <p style="margin:18px 0 12px;font-size:.82rem;color:var(--muted)">📡 Notícias atualizadas sobre SpaceX, Elon Musk, espaço, IA e novas energias (fontes internacionais, traduzidas, atualizadas todo dia):</p>
   <div id="trendNews" class="ref-news"><div class="loading"><span class="spinner"></span>Carregando atualizações...</div></div>
   <p style="margin:20px 0 8px;font-size:.78rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.05em">Leituras selecionadas</p>
   <div class="ref-news">
@@ -1434,9 +1434,28 @@ var TREND_FEEDS=[
 ];
 var TRENDRX=/spacex|starship|\brocket|\blaunch|\bnasa\b|artemis|lunar|\bmoon\b|\bmars\b|astronaut|sat[ée]lite|satellite|nuclear|fus[ãa]o nuclear|fusion|helium|\bh[ée]lio\b|reactor|reator|\bsmr\b|hydrogen|hidrog[êe]nio|geothermal|geot[ée]rmic|carbon capture|captura de carbono|renewable|renov[áa]vel|\bsolar\b|e[óo]lic|wind power|battery|bateria|electric vehicle|ve[íi]culo el[ée]tric|\bev\b|energy transition|transi[çc][ãa]o energ[ée]tic|clean energy|energia limpa|quantum|qu[âa]ntic|intelig[êe]ncia artificial|\bia\b|\bai\b/i;
 
+function renderTrends(box,items){
+  box.innerHTML=items.map(function(n){
+    return '<article class="ncard"><div class="meta">'+
+      '<span class="src-tag">'+n.src+'</span>'+
+      (n.translated?'<span class="translated">🌐 traduzido</span>':'')+
+      '</div><h3>'+n.title+'</h3><div class="date">'+fmtDate(n.date)+'</div>'+
+      '<div class="links"><a href="'+n.link+'" target="_blank" rel="noopener">Ler matéria ↗</a>'+
+      '<a href="https://translate.google.com/translate?sl=auto&tl=pt&u='+encodeURIComponent(n.link)+'" target="_blank" rel="noopener">Ler traduzida ↗</a>'+
+      '</div></article>';
+  }).join('');
+}
+/* A seção lê o trends.json (gerado todo dia pelo update-trends.mjs no GitHub Actions).
+   Os feeds ao vivo ficam só como reserva: os 4 proxies CORS que os alimentavam caíram
+   todos em 09/2026 (corsproxy.io passou a exigir chave e devolve 401; allorigins e
+   codetabs dão timeout; thingproxy morreu) e a seção ficava vazia. */
 async function loadTrends(){
   var box=document.getElementById('trendNews');
   if(!box) return;
+  try{
+    var rf=await fetchWithTimeout('trends.json?_='+Date.now(),8000);
+    if(rf.ok){ var jf=await rf.json(); if(jf&&jf.items&&jf.items.length){ renderTrends(box,jf.items); return; } }
+  }catch(e){}
   try{
     var results=await Promise.all(TREND_FEEDS.map(fetchFeed));
     var items=[].concat.apply([],results);
@@ -1446,15 +1465,7 @@ async function loadTrends(){
     items=items.slice(0,9);
     await Promise.all(items.map(async function(n){var t=await translate(n.title);if(t){n.title=t;n.translated=true;}}));
     if(items.length===0){box.innerHTML='<div class="empty">Sem atualizações de tendências no momento.</div>';return;}
-    box.innerHTML=items.map(function(n){
-      return '<article class="ncard"><div class="meta">'+
-        '<span class="src-tag">'+n.src+'</span>'+
-        (n.translated?'<span class="translated">🌐 traduzido</span>':'')+
-        '</div><h3>'+n.title+'</h3><div class="date">'+fmtDate(n.date)+'</div>'+
-        '<div class="links"><a href="'+n.link+'" target="_blank" rel="noopener">Ler matéria ↗</a>'+
-        '<a href="https://translate.google.com/translate?sl=auto&tl=pt&u='+encodeURIComponent(n.link)+'" target="_blank" rel="noopener">Ler traduzida ↗</a>'+
-        '</div></article>';
-    }).join('');
+    renderTrends(box,items);
   }catch(e){ box.innerHTML='<div class="empty">Não foi possível carregar as tendências agora.</div>'; }
 }
 loadTrends();
