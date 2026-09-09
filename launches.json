@@ -1,14 +1,7 @@
 {
- "updated": "2026-09-08T13:39:54.955Z",
+ "updated": "2026-09-09T13:45:21.874Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
-  {
-   "d": "--",
-   "mo": "",
-   "missao": "Soyuz 2.1b · Progress MS-35 (96P)",
-   "sub": "Roscosmos · Baikonur (Cazaquistão) · data a confirmar · reabastecimento da estação",
-   "net": "2026-09-09T16:15:03Z"
-  },
   {
    "d": "10",
    "mo": "SET",
@@ -24,18 +17,18 @@
    "net": "2026-09-10T15:37:00Z"
   },
   {
-   "d": "11",
-   "mo": "SET",
-   "missao": "Long March 8A · carga não divulgada",
-   "sub": "CASC · Wenchang (China) · 11/09, 13:00 (Brasília)",
-   "net": "2026-09-11T16:00:00Z"
-  },
-  {
    "d": "13",
    "mo": "SET",
    "missao": "Falcon 9 · O3b mPower 11-13",
    "sub": "SpaceX · Cabo Canaveral, Flórida (EUA) · 13/09, 15:50 (Brasília) · comunicações",
    "net": "2026-09-13T18:50:00Z"
+  },
+  {
+   "d": "14",
+   "mo": "SET",
+   "missao": "Starship · Flight 14",
+   "sub": "SpaceX · Starbase, Texas (EUA) · 14/09, 21:00 (Brasília) · voo de teste",
+   "net": "2026-09-15T00:00:00Z"
   },
   {
    "d": "--",
@@ -45,18 +38,25 @@
    "net": "2026-09-15T01:21:07Z"
   },
   {
-   "d": "--",
-   "mo": "",
-   "missao": "Electron · LOXSAT 1",
-   "sub": "Rocket Lab · Mahia (Nova Zelândia) · data a confirmar",
-   "net": "2026-09-30T00:00:00Z"
+   "d": "15",
+   "mo": "SET",
+   "missao": "Gravity-1 · carga não divulgada",
+   "sub": "Orienspace Technology · Haiyang · plataforma marítima (China) · 15/09, 18:55 (Brasília)",
+   "net": "2026-09-15T21:55:00Z"
   },
   {
-   "d": "--",
-   "mo": "",
-   "missao": "Falcon 9 · Crew-13",
-   "sub": "SpaceX · Cabo Canaveral, Flórida (EUA) · data a confirmar · voo tripulado",
-   "net": "2026-09-30T00:00:00Z"
+   "d": "15",
+   "mo": "SET",
+   "missao": "Soyuz 2.1b · Progress MS-35 (96P)",
+   "sub": "Roscosmos · Baikonur (Cazaquistão) · 15/09, 21:00 (Brasília) · reabastecimento da estação",
+   "net": "2026-09-16T00:00:00Z"
+  },
+  {
+   "d": "16",
+   "mo": "SET",
+   "missao": "Long March 12 · carga não divulgada",
+   "sub": "CASC · Wenchang (China) · 16/09, 21:30 (Brasília)",
+   "net": "2026-09-17T00:30:00Z"
   }
  ]
 }
