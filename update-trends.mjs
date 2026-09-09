@@ -8,9 +8,14 @@
 // Roda no GitHub Actions (Node 20+, fetch nativo, sem dependências).
 import { writeFileSync } from 'node:fs';
 
+// A Space.com (feed "all") saiu em 09/09/2026: e astronomia para consumidor e enchia a
+// secao de curiosidade ("foto do dia", "neste dia no espaco", ocultacao de Jupiter, jogo
+// espacial). Entraram a Payload (negocio espacial) e a CleanTechnica — que cobre a parte
+// de "Novas Energias" do titulo da secao, que ate entao nao tinha fonte nenhuma.
 const FEEDS = [
-  { url: "https://www.space.com/feeds/all", src: "Space.com" },
   { url: "https://spacenews.com/feed/", src: "SpaceNews" },
+  { url: "https://payloadspace.com/feed/", src: "Payload" },
+  { url: "https://cleantechnica.com/feed/", src: "CleanTechnica" },
   { url: "https://feeds.arstechnica.com/arstechnica/index", src: "Ars Technica" }
 ];
 
