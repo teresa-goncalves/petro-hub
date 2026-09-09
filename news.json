@@ -1,5 +1,140 @@
 [
  {
+  "title": "A crise do diesel deve piorar à medida que a capacidade de refino diminui, alerta a indústria",
+  "link": "https://oilprice.com/Latest-Energy-News/World-News/Diesel-Crunch-Set-to-Worsen-as-Refining-Capacity-Falls-Short-Industry-Warns.html",
+  "date": "Wed, 09 Sep 2026 06:30:00 -0500",
+  "desc": "The tight global diesel market is set to further tighten in the coming months and keep fuel prices high, raising the prices of all goods and threatening the inf",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Governo abre crédito extraordinário de R$ 6 bi para subsidiar combustíveis",
+  "link": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/governo-abre-credito-extraordinario-de-r-6-bi-para-subsidiar-combustiveis/",
+  "date": "Wed, 09 Sep 2026 11:14:49 +0000",
+  "desc": "Maior parte dos recursos será aplicada na subvenção à produção e importação de óleo diesel de uso rodoviário",
+  "src": "CNN Brasil",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "Cenário do petróleo e o papel estratégico da química no biodiesel",
+  "link": "https://www.cnnbrasil.com.br/infra/cenario-do-petroleo-e-o-papel-estrategico-da-quimica-no-biodiesel/",
+  "date": "Wed, 09 Sep 2026 11:01:32 +0000",
+  "desc": "Em artigo exclusivo ao CNN Infra, Alejandro Bossio, diretor de Monômeros da Basf na América do Sul, aborda como a química nacional blinda a cadeia de biodiesel ",
+  "src": "CNN Brasil",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "As refinarias da Índia funcionam até 108% à medida que a demanda por diesel aumenta",
+  "link": "https://oilprice.com/Latest-Energy-News/World-News/Indias-Refineries-Run-at-Up-to-108-as-Diesel-Demand-Surges.html",
+  "date": "Wed, 09 Sep 2026 05:30:00 -0500",
+  "desc": "India’s refineries have been running at 105% to 108% capacity utilization in the past six months as demand for diesel soars and international fuel markets tight",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Preço do petróleo Brent ultrapassa US$ 100 por barril",
+  "link": "https://www.rigzone.com/news/brent_oil_price_breaks_100_per_barrel-09-sep-2026-184570-article/?rss=true",
+  "date": "Wed, 09 Sep 2026 09:44:59 GMT",
+  "desc": "The Brent oil price rose above $100 per barrel for the first time since July.",
+  "src": "Rigzone",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Iraque pressiona OPEP por um enorme aumento na sua quota de petróleo",
+  "link": "https://oilprice.com/Latest-Energy-News/World-News/Iraq-Pushes-OPEC-for-a-Huge-Increase-in-Its-Oil-Quota.html",
+  "date": "Wed, 09 Sep 2026 04:30:00 -0500",
+  "desc": "Iraq has asked the OPEC leadership for a significantly higher crude oil production baseline for future quotas, Bloomberg has reported, citing unnamed sources wi",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "ABS certifica projeto de FPSO para águas profundas da América do Sul e da África Ocidental",
+  "link": "https://www.offshore-energy.biz/abs-certifies-fpso-design-for-south-american-and-west-african-deep-waters/",
+  "date": "Wed, 09 Sep 2026 09:00:28 +0000",
+  "desc": "South Korea’s Hanwha Ocean has secured a basic design review (BDR) certification from ABS for [&#8230;] The post ABS certifies FPSO design for South American an",
+  "src": "Offshore Energy",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Iraque pede à OPEP para aumentar quota",
+  "link": "https://www.rigzone.com/news/wire/iraq_asks_opec_to_raise_quota-09-sep-2026-184569-article/?rss=true",
+  "date": "Wed, 09 Sep 2026 07:51:15 GMT",
+  "desc": "Iraq is seeking a significant increase in the country's oil production quota as OPEC and its allies conduct a review of members' capacities aimed at determining",
+  "src": "Rigzone",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Índia: empresa Larsen & Toubro recebe pedido EPCIC da ONGC",
+  "link": "https://www.offshore-energy.biz/india-larsen-toubro-company-gets-epcic-order-from-ongc/",
+  "date": "Wed, 09 Sep 2026 07:49:59 +0000",
+  "desc": "Mumbai-headquartered L&#38;T Energy Hydrocarbon Offshore (LTEH Offshore), a Larsen &#38; Toubro business, has secured [&#8230;] The post India: Larsen & Toubro ",
+  "src": "Offshore Energy",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Brent ultrapassa US$ 100 pela primeira vez em quase dois meses",
+  "link": "https://oilprice.com/Latest-Energy-News/World-News/Brent-Breaks-100-for-the-First-Time-in-Nearly-Two-Months.html",
+  "date": "Wed, 09 Sep 2026 02:42:50 -0500",
+  "desc": "Oil prices hit the $100 per barrel mark early on Wednesday in Asian trade as the ongoing crisis in the Middle East has diminished hopes of U.S.-Iran talks and a",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "O aumento dos preços do petróleo ameaça as refinarias independentes da China",
+  "link": "https://oilprice.com/Latest-Energy-News/World-News/Rising-Oil-Prices-Threaten-Chinas-Independent-Refiners.html",
+  "date": "Wed, 09 Sep 2026 02:05:00 -0500",
+  "desc": "Chinese independent refiners may be about to start reducing their processing rates as international oil prices rise and supply from major exporters such as Vene",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "PROCESSAMENTO GLOBAL DE PETRÓLEO DEVE SOFRER NOVO CORTE CASO GUERRA NO ORIENTE MÉDIO SEJA ESTENDIDA ATÉ O FIM DE 2026",
+  "link": "https://petronoticias.com.br/processamento-global-de-petroleo-deve-sofrer-novo-corte-caso-guerra-no-oriente-medio-seja-estendida-ate-o-fim-de-2026/",
+  "date": "Wed, 09 Sep 2026 07:00:09 +0000",
+  "desc": "A possível extensão do conflito no Oriente Médio até o fim do ano pode reduzir o processamento global de petróleo bruto em cerca de 1,4 milhão de barris por dia",
+  "src": "Petronotícias",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "A crise energética do Paquistão deverá abrandar à medida que o GNL do Qatar atravessa Ormuz",
+  "link": "https://oilprice.com/Latest-Energy-News/World-News/Pakistans-Energy-Crisis-Set-to-Ease-as-Qatari-LNG-Breaks-Through-Hormuz.html",
+  "date": "Wed, 09 Sep 2026 00:55:00 -0500",
+  "desc": "Pakistan is about to get some energy relief with tankers carrying Qatari LNG set to arrive in the country this month. The first cargo is seen arriving as early ",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Preços do petróleo atingem US$ 100 enquanto EUA destroem cinco petroleiros iranianos",
+  "link": "https://oilprice.com/Energy/Oil-Prices/Oil-Nears-100-as-US-Destroys-Five-Iranian-Tankers.html",
+  "date": "Tue, 08 Sep 2026 22:50:00 -0500",
+  "desc": "Oil prices finally hit the $100 mark early on Wednesday morning after the U.S. destroyed five more Iranian crude tankers and Iran targeted U.S. forces in Jordan",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "As exportações de petróleo do Irã entram em colapso à medida que o impasse de Ormuz se arrasta",
+  "link": "https://oilprice.com/Energy/Crude-Oil/Irans-Oil-Exports-Collapse-as-Hormuz-Standoff-Drags-On.html",
+  "date": "Tue, 08 Sep 2026 19:00:00 -0500",
+  "desc": "More than six months after the U.S.-Iran war began, shipping traffic at the Strait of Hormuz remains disrupted, and oil prices are once again closing in on the ",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
   "title": "CEO da Oncorp critica intervenção da ANP em contratos de terminais de GNL",
   "link": "https://www.cnnbrasil.com.br/infra/ceo-da-oncorp-critica-intervencao-da-anp-em-contratos-de-terminais-de-gnl/",
   "date": "Tue, 08 Sep 2026 23:25:33 +0000",
