@@ -1,5 +1,122 @@
 [
  {
+  "title": "A produção bruta da Rússia caiu em agosto",
+  "link": "https://www.rigzone.com/news/wire/russias_crude_output_fell_in_august-10-sep-2026-184586-article/?rss=true",
+  "date": "Thu, 10 Sep 2026 20:00:00 GMT",
+  "desc": "Russia's production of crude oil shrank in August.",
+  "src": "Rigzone",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Petróleo dispara enquanto Hormuz arrisca abalar os mercados",
+  "link": "https://www.rigzone.com/news/wire/oil_soars_as_hormuz_risks_rattle_markets-10-sep-2026-184590-article/?rss=true",
+  "date": "Thu, 10 Sep 2026 19:56:15 GMT",
+  "desc": "Brent surged more than 6% to $107.63 as escalating Middle East tensions heightened global supply concerns.",
+  "src": "Rigzone",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "EXECUTIVOS DA SBM BRASIL ACOMPANHAM NA FÁBRICA SIEMENS AS MONTAGENS DOS SISTEMAS DOS FPSOS PARA O SEAP",
+  "link": "https://petronoticias.com.br/executivos-da-sbm-brasil-acompanham-na-fabrica-siemens-as-montagens-dos-sistemas-dos-fpsos-para-o-seap/",
+  "date": "Thu, 10 Sep 2026 19:01:21 +0000",
+  "desc": "Executivos da SBM Offshore realizaram uma visita à fábrica da Siemens Energy, em Santa Bárbara d’Oeste, São Paulo, (SP), onde serão realizadas a montagem e a in",
+  "src": "Petronotícias",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "Mercado de gás natural dos EUA próximo de crescimento recorde",
+  "link": "https://oilprice.com/Energy/Natural-Gas/US-Natural-Gas-Market-Verging-on-Record-Growth.html",
+  "date": "Thu, 10 Sep 2026 14:00:00 -0500",
+  "desc": "US natural gas production is projected to reach a record high of 111.7 billion cubic feet per day (bcfd) in 2026, up from 107.6 bcfd in 2025, according to the U",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "EIA eleva previsão de produção de petróleo nos EUA para 2027",
+  "link": "https://oilprice.com/Latest-Energy-News/World-News/EIA-Raises-2027-US-Oil-Output-Forecast.html",
+  "date": "Thu, 10 Sep 2026 13:30:00 -0500",
+  "desc": "The U.S. Energy Information Administration has raised its forecast for U.S. crude oil production in 2027 to 14.3 million barrels per day, up from 14.2 million b",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "VALLOUREC E ARAMCO AMPLIAM PARCERIA PARA FORNECIMENTO DE PRODUTOS TUBULARES PARA INDÚSTRIA DE ÓLEO E GÁS",
+  "link": "https://petronoticias.com.br/vallourec-e-aramco-ampliam-parceria-para-fornecimento-de-produtos-tubulares-para-industria-de-oleo-e-gas/",
+  "date": "Thu, 10 Sep 2026 18:00:59 +0000",
+  "desc": "A Vallourec, fornecedora francesa de soluções tubulares, e a Aramco, empresa de energia da Arábia Saudita, ampliaram uma parceria iniciada há mais de 60 anos co",
+  "src": "Petronotícias",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "A BINATURAL AMPLIA O USO DE BIOCOMBUSTÍVEL PURO EM OPERAÇÕES RODOVIÁRIAS EM FROTAS PRÓPRIAS E TRANSPORTADORAS",
+  "link": "https://petronoticias.com.br/a-binatural-amplia-o-uso-de-biocombustivel-puro-em-operacoes-rodoviarias-em-frotas-proprias-e-transportadoras/",
+  "date": "Thu, 10 Sep 2026 17:00:43 +0000",
+  "desc": "A Binatural, uma das maiores produtoras de biodiesel do país, está ampliando o uso do biocombustível puro (B100), em operações rodoviárias que envolvem frota pr",
+  "src": "Petronotícias",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "Os estoques de petróleo bruto dos EUA caem à medida que os preços do Brent disparam",
+  "link": "https://oilprice.com/Energy/Crude-Oil/US-Crude-Inventories-Fall-As-Brent-Prices-Soar.html",
+  "date": "Thu, 10 Sep 2026 11:14:00 -0500",
+  "desc": "Crude oil inventories in the United States saw a decrease of 400,000 barrels during the week ending September 4, according to new data from the U.S. Energy Info",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "O PREÇO DO PETRÓLEO CONTINUA ACIMA DOS 101 DÓLARES COM A GUERRA ENVOLVENDO OS TERRORISTAS HOUTHIS E AS FORÇAS SAUDITAS",
+  "link": "https://petronoticias.com.br/o-preco-do-petroleo-continua-acima-dos-101-dolares-com-a-guerra-envolvendo-os-terroristas-houthis-e-as-forcas-sauditas/",
+  "date": "Thu, 10 Sep 2026 16:00:13 +0000",
+  "desc": "Com o aumento das atividades terroristas financiadas e apoiadas pelo Irã, faz todo sentido o mercado do petróleo estar instável como nunca nesses últimos dias, ",
+  "src": "Petronotícias",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "Senegal oferecerá 109 blocos de petróleo e gás a investidores",
+  "link": "https://oilprice.com/Latest-Energy-News/World-News/Senegal-to-Offer-109-Oil-and-Gas-Blocks-to-Investors.html",
+  "date": "Thu, 10 Sep 2026 10:30:00 -0500",
+  "desc": "Senegal will offer to local and foreign investors as many as 109 oil and gas blocks, Energy and Petroleum Minister, El Hadji Abdourahmane Diouf, has said. Only ",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "O gás Permiano valeu menos que nada durante 118 dias este ano",
+  "link": "https://oilprice.com/Energy/Energy-General/Permian-Gas-Has-Been-Worth-Less-Than-Nothing-for-118-Days-This-Year.html",
+  "date": "Thu, 10 Sep 2026 10:00:00 -0500",
+  "desc": "Outside Pecos, Texas, Chevron is getting ready to build a power plant to solve a problem the Permian Basin has been stuck with for years, which is that it produ",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "AIE: Demanda global de carvão deve atingir recorde enquanto a guerra no Irã sufoca o fornecimento de GNL",
+  "link": "https://oilprice.com/Latest-Energy-News/World-News/IEA-Global-Coal-Demand-Set-to-Hit-Record-High-as-Iran-War-Chokes-LNG-Supply.html",
+  "date": "Thu, 10 Sep 2026 09:30:00 -0500",
+  "desc": "Soaring LNG prices due to the Strait of Hormuz blockage are prompting economies to shift to alternative energy sources, pushing coal demand to a another record ",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "COM REAJUSTE DA PETROBRÁS E PACOTE DO GOVERNO, PREÇO DA GASOLINA SOFRERÁ REDUÇÃO DE R$ 0,19 A PARTIR DE HOJE",
+  "link": "https://petronoticias.com.br/com-reajuste-da-petrobras-e-pacote-do-governo-preco-da-gasolina-sofrera-reducao-de-r-019-a-partir-de-hoje/",
+  "date": "Thu, 10 Sep 2026 14:00:06 +0000",
+  "desc": "O Governo Federal anunciou na quarta-feira (9) novas medidas para conter os efeitos da alta dos preços internacionais dos combustíveis. Entre as ações estão a r",
+  "src": "Petronotícias",
+  "reg": "BR",
+  "translated": false
+ },
+ {
   "title": "Comgás abre uma porta antes restrita às grandes indústrias: biometano chega às PMEs, rede recebe quase R$ 10 bilhões e volume pode saltar para 1 milhão de m³ por dia",
   "link": "https://clickpetroleoegas.com.br/comgas-abre-uma-porta-antes-restrita-as-grandes-industrias-biometano-chega-as-pmes-rede-recebe-quase-r-10-bilhoes-e-volume-pode-saltar-para-1-milhao-de-m%c2%b3-por-dia-phsn84/",
   "date": "Thu, 10 Sep 2026 13:10:57 +0000",
@@ -169,6 +286,15 @@
   "src": "OilPrice",
   "reg": "INT",
   "translated": true
+ },
+ {
+  "title": "MCDERMOTT CONQUISTA CONTRATO COM A ENI PARA DESENVOLVIMENTO SUBMARINO DE CAMPO NO CHIPRE",
+  "link": "https://petronoticias.com.br/mcdermott-conquista-contrato-com-a-eni-para-desenvolvimento-submarino-de-campo-no-chipre/",
+  "date": "Wed, 09 Sep 2026 22:00:16 +0000",
+  "desc": "A McDermott foi contratada pela Eni para executar um projeto submarino de desenvolvimento do campo de gás Cronos, localizado offshore de Chipre. O contrato, com",
+  "src": "Petronotícias",
+  "reg": "BR",
+  "translated": false
  },
  {
   "title": "Estoques de petróleo dos EUA caem com petróleo chegando a US$ 100",
