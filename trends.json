@@ -1,76 +1,76 @@
 {
- "updated": "2026-09-09T13:58:08.419Z",
+ "updated": "2026-09-10T13:52:37.801Z",
  "items": [
+  {
+   "title": "Orbital faz parceria com Reflex Aerospace na plataforma ODC",
+   "link": "https://payloadspace.com/orbital-partners-with-reflex-aerospace-on-odc-platform/",
+   "date": "Thu, 10 Sep 2026 13:00:00 +0000",
+   "desc": "Orbital announced today it has selected German satellite manufacturer Reflex Aerospace as the exclusive platform partner for Orbital-1. The post Orbital Partner",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "Inversion Space ganha contrato da NASA para estudar voo de aerocaptura",
+   "link": "https://payloadspace.com/inversion-space-wins-nasa-contract-to-study-aerocapture-flight/",
+   "date": "Thu, 10 Sep 2026 12:46:43 +0000",
+   "desc": "NASA announced today it awarded Inversion a contract to study a new method of interplanetary travel which uses a planetary body’s atmosphere to slow incoming sp",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "Comandante e piloto do Artemis II tornam-se o primeiro astronauta emérito da NASA",
+   "link": "https://arstechnica.com/space/2026/09/artemis-ii-commander-and-pilot-become-nasas-first-astronaut-emeriti/",
+   "date": "Thu, 10 Sep 2026 11:30:42 +0000",
+   "desc": "\"Artemis II is done.\"",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Silêncio quase mortal sobre veículos elétricos das montadoras nos EUA",
+   "link": "https://cleantechnica.com/2026/09/09/almost-dead-silence-on-electric-vehicles-from-automakers-in-usa/",
+   "date": "Thu, 10 Sep 2026 03:54:26 +0000",
+   "desc": "For a handful of years, legacy automakers were pumping out press releases on electric cars consistently and frequently. The portion of press releases that were ",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Lições da transição da Índia para veículos elétricos",
+   "link": "https://cleantechnica.com/2026/09/09/lessons-from-indias-transition-to-electric-vehicles/",
+   "date": "Thu, 10 Sep 2026 00:30:31 +0000",
+   "desc": "What India’s state-level EV strategies can teach policymakers worldwide. Authored by Swapnil Fulari, clean transportation specialist, NRDC India; Amitosh Gautam",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Quatro grupos capturados usando o mesmo kit de exploração do Chrome e do Windows",
+   "link": "https://arstechnica.com/information-technology/2026/09/4-groups-caught-using-the-same-chrome-and-windows-exploit-kit/",
+   "date": "Wed, 09 Sep 2026 20:55:02 +0000",
+   "desc": "A patch gap and the hastened pace of AI-based vulnerability discovery are likely contributors.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "A Europa pode finalmente ter encontrado um empreendedor espacial que está a enfrentar o momento",
+   "link": "https://arstechnica.com/space/2026/09/as-europe-flounders-in-space-a-rising-french-star-may-show-the-way/",
+   "date": "Wed, 09 Sep 2026 20:27:40 +0000",
+   "desc": "\"We will not be relevant without a massive rocket at a massive cadence.\"",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "A Dinamarca pode produzir 140% de sua demanda de eletricidade a partir da energia eólica...Então, o que acontece com os 40% extras?",
+   "link": "https://cleantechnica.com/2026/09/09/wind-power-denmark-energy-islands-us-trump/",
+   "date": "Wed, 09 Sep 2026 15:28:13 +0000",
+   "desc": "Denmark achieved a record-setting pace for wind power last week, reaching 140% of the nation's entire electricity demand during an early-morning period. The pos",
+   "src": "CleanTechnica",
+   "translated": true
+  },
   {
    "title": "Eclipse Space revela três plataformas de satélite para constelações",
    "link": "https://payloadspace.com/eclipse-space-unveils-three-satellite-platforms-for-constellations/",
    "date": "Wed, 09 Sep 2026 12:09:45 +0000",
    "desc": "Eclipse Space unveiled details of its first three satellite platforms, each targeting a different in-space capability—D2D comms, broadband connectivity, and in-",
    "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "Maior eletrificação dos transportes poderá reduzir a dependência das importações da Europa em quase um quarto até 2040",
-   "link": "https://cleantechnica.com/2026/09/08/greater-transport-electrification-could-cut-europes-import-dependency-by-nearly-a-quarter-by-2040/",
-   "date": "Wed, 09 Sep 2026 02:02:22 +0000",
-   "desc": "Europe is about to decide what its renewable energy framework should look like for the decade after 2030. For transport, the political question is simple: Does ",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "A atualização do modelo meteorológico de IA do Google melhora a precisão das previsões",
-   "link": "https://arstechnica.com/science/2026/09/googles-ai-weather-model-now-uses-more-raw-satellite-data/",
-   "date": "Tue, 08 Sep 2026 18:00:56 +0000",
-   "desc": "Like traditional weather models, it benefits from an expanded set of inputs.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "Qual é a escassez de bateria de lítio EV? O novo reciclador continua de onde os elementos ascendentes pararam",
-   "link": "https://cleantechnica.com/2026/09/08/r3-lithium-ev-battery-recycling-us-supply-chain/",
-   "date": "Tue, 08 Sep 2026 13:31:17 +0000",
-   "desc": "The bankruptcy of Ascend Elements was a hiccup, not a halt, to an advanced battery recycling facility in Georgia, providing EV stakeholders and other industries",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "Isar Aerospace alcança órbita na segunda tentativa",
-   "link": "https://payloadspace.com/isar-aerospace-reaches-orbit-on-second-attempt/",
-   "date": "Tue, 08 Sep 2026 03:24:31 +0000",
-   "desc": "Isar Aerospace became the first European Launcher Challenge startup to reach orbit this weekend, after the second launch attempt of its Spectrum rocket. The pos",
-   "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "XPENG traz IA física para a IFA Berlin",
-   "link": "https://cleantechnica.com/2026/09/07/xpeng-brings-physical-ai-to-ifa-berlin/",
-   "date": "Mon, 07 Sep 2026 22:07:45 +0000",
-   "desc": "IFA Berlin showcases a wide range of innovation. Many companies tout AI as the latest catch phrase. But XPENG brought technical details and insights into physic",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "O setor espacial comercial da China está abrindo o capital",
-   "link": "https://payloadspace.com/chinas-commercial-space-sector-is-going-public/",
-   "date": "Fri, 04 Sep 2026 12:06:45 +0000",
-   "desc": "A Shanghai listing rule has made orbital flight the price of entry for China's rocket startups. The post China's Commercial Space Sector Is Going Public appeare",
-   "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "A eletrônica 'sob o capô' das redes espaciais",
-   "link": "https://spacenews.com/the-electronics-under-the-hood-of-space-networking/",
-   "date": "Thu, 27 Aug 2026 14:50:34 +0000",
-   "desc": "In this episode, SpaceNews' Mike Gruss interviews Jeff Janicik, founder and chairman of Innoflight. They discuss Golden Dome, Artemis and working with big numbe",
-   "src": "SpaceNews",
-   "translated": true
-  },
-  {
-   "title": "LatConnect 60 e Phi Earth fazem parceria para conectar espaço e solo",
-   "link": "https://spacenews.com/latconnect-60-and-phi-earth-partner-to-connect-space-and-soil/",
-   "date": "Thu, 27 Aug 2026 01:54:19 +0000",
-   "desc": "Nature-based projects are generating more environmental data than ever before. Satellites observe landscapes from orbit, while field teams capture what is happe",
-   "src": "SpaceNews",
    "translated": true
   }
  ]
