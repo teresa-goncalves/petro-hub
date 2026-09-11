@@ -1,27 +1,13 @@
 {
- "updated": "2026-09-10T13:38:26.310Z",
+ "updated": "2026-09-11T13:36:59.508Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
-  {
-   "d": "--",
-   "mo": "",
-   "missao": "Falcon 9 · USSF-153",
-   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · data a confirmar · carga militar/classificada",
-   "net": "2026-09-10T15:42:30Z"
-  },
   {
    "d": "13",
    "mo": "SET",
    "missao": "Falcon 9 · O3b mPower 11-13",
    "sub": "SpaceX · Cabo Canaveral, Flórida (EUA) · 13/09, 15:49 (Brasília) · comunicações",
    "net": "2026-09-13T18:49:00Z"
-  },
-  {
-   "d": "14",
-   "mo": "SET",
-   "missao": "Starship · Flight 14",
-   "sub": "SpaceX · Starbase, Texas (EUA) · 14/09, 21:00 (Brasília) · voo de teste",
-   "net": "2026-09-15T00:00:00Z"
   },
   {
    "d": "--",
@@ -57,6 +43,20 @@
    "missao": "Soyuz 2.1b · Progress MS-35 (96P)",
    "sub": "Roscosmos · Baikonur (Cazaquistão) · data a confirmar · reabastecimento da estação",
    "net": "2026-09-16T13:33:53Z"
+  },
+  {
+   "d": "16",
+   "mo": "SET",
+   "missao": "Long March 12 · carga não divulgada",
+   "sub": "CASC · Wenchang (China) · 16/09, 21:30 (Brasília)",
+   "net": "2026-09-17T00:30:00Z"
+  },
+  {
+   "d": "16",
+   "mo": "SET",
+   "missao": "Kuaizhou 11 · carga não divulgada",
+   "sub": "ExPace · Jiuquan (China) · 16/09, 23:35 (Brasília)",
+   "net": "2026-09-17T02:35:00Z"
   }
  ]
 }
