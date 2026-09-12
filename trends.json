@@ -1,19 +1,51 @@
 {
- "updated": "2026-09-11T13:51:39.616Z",
+ "updated": "2026-09-12T13:10:36.184Z",
  "items": [
   {
-   "title": "BLUETTI lança novas soluções energéticas para trabalho, casa e vida em movimento na IFA 2026",
-   "link": "https://cleantechnica.com/2026/09/11/bluetti-launches-new-energy-solutions-for-work-home-life-on-the-move-at-ifa-2026/",
-   "date": "Fri, 11 Sep 2026 13:49:33 +0000",
-   "desc": "BLUETTI* used IFA 2026 to stretch the idea of power stations in several directions. The BLUETTI IFA 2026 lineup covered balcony solar, home energy management, c",
+   "title": "VinFast PH abre mais revendedores, chegando a 60 revendedores no total antes do final do ano",
+   "link": "https://cleantechnica.com/2026/09/12/vinfast-ph-opens-more-dealers-nearing-60-dealer-total-before-year-ends/",
+   "date": "Sat, 12 Sep 2026 11:49:43 +0000",
+   "desc": "Vietnam-based electric vehicle manufacturer VinFast has accelerated its market penetration in the Philippines by signing strategic Memoranda of Understanding wi",
    "src": "CleanTechnica",
    "translated": true
   },
   {
-   "title": "Os usuários do Claude encontraram maneiras de contornar as salvaguardas para a pesquisa de armas biológicas",
-   "link": "https://arstechnica.com/ai/2026/09/claude-users-found-ways-around-safeguards-for-bioweapons-research/",
-   "date": "Fri, 11 Sep 2026 13:02:35 +0000",
-   "desc": "Some dangerous biology looks much like legitimate research, complicating AI safeguards.",
+   "title": "Triciclos elétricos desenvolvidos pela universidade filipina prontos para produção comercial",
+   "link": "https://cleantechnica.com/2026/09/12/philippine-university-developed-electric-tricycles-ready-for-commercial-production/",
+   "date": "Sat, 12 Sep 2026 10:13:45 +0000",
+   "desc": "MANILA, Philippines - Cagayan State University (CSU) has made its locally developed electric vehicle prototypes available to commercial investors, representing ",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "MG Motors Filipinas lança novo EV",
+   "link": "https://cleantechnica.com/2026/09/12/mg-motors-philippines-launches-new-ev/",
+   "date": "Sat, 12 Sep 2026 09:40:06 +0000",
+   "desc": "MANILA, Philippines — SAIC Motor-backed MG Motor Philippines expanded its local electric vehicle lineup late last month with the official launch of the S5 EV, a",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Algumas empresas de satélite ainda têm apetite por serviços boutique de lançamento",
+   "link": "https://arstechnica.com/space/2026/09/some-satellite-companies-still-have-an-appetite-for-boutique-launch-services/",
+   "date": "Fri, 11 Sep 2026 23:34:45 +0000",
+   "desc": "\"Dedicated launch is pretty essential for us for most of our missions.\"",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Castelo inflável lança surto horrível de MRSA, atingindo 48 crianças na Irlanda",
+   "link": "https://arstechnica.com/health/2026/09/bouncy-castle-launches-horrifying-mrsa-outbreak-striking-48-kids-in-ireland/",
+   "date": "Fri, 11 Sep 2026 21:14:26 +0000",
+   "desc": "The strain lurking in the inflatable structure was hypervirulent.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Advogado usuário do ChatGPT punido por citar depoimentos falsos de testemunhas inventadas",
+   "link": "https://arstechnica.com/tech-policy/2026/09/chatgpt-using-lawyer-punished-for-citing-fake-testimony-from-made-up-witnesses/",
+   "date": "Fri, 11 Sep 2026 19:34:09 +0000",
+   "desc": "\"I didn't know that AI could hallucinate facts,\" New Mexico defense lawyer says.",
    "src": "Ars Technica",
    "translated": true
   },
@@ -26,43 +58,11 @@
    "translated": true
   },
   {
-   "title": "O que acontece quando a mecânica quântica e a relatividade se encontram?",
-   "link": "https://arstechnica.com/science/2026/09/what-happens-when-quantum-mechanics-and-relativity-meet/",
-   "date": "Fri, 11 Sep 2026 11:20:02 +0000",
-   "desc": "Experiment put atoms in a superposition of trajectories to find out.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "Os problemas financeiros da United Launch Alliance poderiam finalmente forçar seus proprietários a vender?",
-   "link": "https://arstechnica.com/space/2026/09/could-united-launch-alliances-money-problems-finally-force-its-owners-to-sell/",
-   "date": "Fri, 11 Sep 2026 11:00:44 +0000",
-   "desc": "ULA is preparing to resume launching the Vulcan rocket in the coming weeks.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
    "title": "LatConnect 60 expande presença no mercado indiano para SWIRSAT com acordo NSIL e parceria GeoSyze",
    "link": "https://spacenews.com/latconnect-60-expands-india-market-presence-for-swirsat-with-nsil-agreement-and-geosyze-partnership/",
    "date": "Fri, 11 Sep 2026 05:32:49 +0000",
    "desc": "Australian Earth observation satellite company LatConnect 60 (LC60) has strengthened its position in India with two strategic agreements announced at the Bengal",
    "src": "SpaceNews",
-   "translated": true
-  },
-  {
-   "title": "Energia solar instalada agora é suficiente para 50 milhões de residências nos EUA",
-   "link": "https://cleantechnica.com/2026/09/10/solar-power-now-enough-for-50-million-us-homes/",
-   "date": "Fri, 11 Sep 2026 02:08:18 +0000",
-   "desc": "There's now enough solar power installed in the United States to power approximately one-third of the homes in the nation. There's enough capacity installed to ",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "RGGI está financiando contas domésticas mais baixas à medida que os preços dos data centers aumentam",
-   "link": "https://cleantechnica.com/2026/09/10/rggi-is-funding-lower-household-bills-as-data-centers-spike-prices/",
-   "date": "Thu, 10 Sep 2026 22:33:57 +0000",
-   "desc": "States are investing in clean energy and lowering electricity bills through the Regional Greenhouse Gas Initiative. Demand for energy is growing in the Northeas",
-   "src": "CleanTechnica",
    "translated": true
   },
   {
