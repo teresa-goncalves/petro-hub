@@ -1,6 +1,30 @@
 {
- "updated": "2026-09-13T13:55:51.253Z",
+ "updated": "2026-09-14T16:00:40.964Z",
  "items": [
+  {
+   "title": "Satellogic expande o trabalho do DoD enquanto se prepara para o próximo lançamento",
+   "link": "https://payloadspace.com/satellogic-expands-dod-work-as-it-preps-for-first-next-launch/",
+   "date": "Mon, 14 Sep 2026 12:00:00 +0000",
+   "desc": "Satellogic is gearing up to launch its latest batch of satellites next month, potentially including the company’s first Merlin sat, which is designed to gather ",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "Sophia Space e SLI definem termos para contrato de leasing de satélite de US$ 300 milhões",
+   "link": "https://payloadspace.com/sophia-space-sli-set-terms-for-300m-satellite-leasing-deal/",
+   "date": "Mon, 14 Sep 2026 04:01:00 +0000",
+   "desc": "Orbital compute startup Sophia Space and space asset leasing company SLI have set terms for a $300M asset-financing deal. The post Sophia Space, SLI Set Terms f",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "A bomba-relógio de energia geotérmica de Trump está prestes a explodir",
+   "link": "https://cleantechnica.com/2026/09/13/geothermal-energy-threatens-us-coal-industry/",
+   "date": "Sun, 13 Sep 2026 18:06:31 +0000",
+   "desc": "Geothermal energy has emerged as another up-and-coming existential threat to the US coal industry, with support from the Trump administration. The post Trump's ",
+   "src": "CleanTechnica",
+   "translated": true
+  },
   {
    "title": "A IA pode estar prestes a causar o caos e a catástrofe econômica na Internet – alerta do principal CEO da IA",
    "link": "https://cleantechnica.com/2026/09/13/ai-may-be-on-verge-of-causing-internet-chaos-economic-catastrophe-warning-from-top-ai-ceo/",
@@ -14,14 +38,6 @@
    "link": "https://cleantechnica.com/2026/09/12/integrating-starlink-leo-infrastructure-with-zimbabwes-terrestrial-fibre-networks/",
    "date": "Sat, 12 Sep 2026 15:23:13 +0000",
    "desc": "Conceptualising a twelve-month roadmap for domestic gateway teleports, Q/V band licensing and a Harare Point of Presence. By Willard Shoko The Satellite Evoluti",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "VinFast PH abre mais revendedores, chegando a 60 revendedores no total antes do final do ano",
-   "link": "https://cleantechnica.com/2026/09/12/vinfast-ph-opens-more-dealers-nearing-60-dealer-total-before-year-ends/",
-   "date": "Sat, 12 Sep 2026 11:49:43 +0000",
-   "desc": "Vietnam-based electric vehicle manufacturer VinFast has accelerated its market penetration in the Philippines by signing strategic Memoranda of Understanding wi",
    "src": "CleanTechnica",
    "translated": true
   },
@@ -54,22 +70,6 @@
    "link": "https://payloadspace.com/antares-wins-161m-award-for-space-nuclear-power/",
    "date": "Fri, 11 Sep 2026 13:00:00 +0000",
    "desc": "Antares announced today that it won a $161M DoD contract to advance nuclear power for space—which Antares says is the largest DoD space nuclear award to date. T",
-   "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "LatConnect 60 expande presença no mercado indiano para SWIRSAT com acordo NSIL e parceria GeoSyze",
-   "link": "https://spacenews.com/latconnect-60-expands-india-market-presence-for-swirsat-with-nsil-agreement-and-geosyze-partnership/",
-   "date": "Fri, 11 Sep 2026 05:32:49 +0000",
-   "desc": "Australian Earth observation satellite company LatConnect 60 (LC60) has strengthened its position in India with two strategic agreements announced at the Bengal",
-   "src": "SpaceNews",
-   "translated": true
-  },
-  {
-   "title": "Orbital faz parceria com Reflex Aerospace na plataforma ODC",
-   "link": "https://payloadspace.com/orbital-partners-with-reflex-aerospace-on-odc-platform/",
-   "date": "Thu, 10 Sep 2026 13:00:00 +0000",
-   "desc": "Orbital announced today it has selected German satellite manufacturer Reflex Aerospace as the exclusive platform partner for Orbital-1. The post Orbital Partner",
    "src": "Payload",
    "translated": true
   }
