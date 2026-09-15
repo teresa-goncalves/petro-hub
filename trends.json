@@ -1,6 +1,62 @@
 {
- "updated": "2026-09-14T16:00:40.964Z",
+ "updated": "2026-09-15T14:29:44.442Z",
  "items": [
+  {
+   "title": "Scania lança caminhão elétrico com bateria de 720 km, partes interessadas em hidrogênio dobram",
+   "link": "https://cleantechnica.com/2026/09/15/electric-trucks-battery-fuel-cell-hydrogen-tesla-scania-volvo-daimler-toyot/",
+   "date": "Tue, 15 Sep 2026 12:44:52 +0000",
+   "desc": "A new heavy duty, long haul electric truck from Scania sports an extended front and extra battery packs, achieving a driving range of almost 720 kilometers (abo",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Maverick Books 10 Kepler Sats para preencher o excesso de capacidade no lançamento dedicado do Portal",
+   "link": "https://payloadspace.com/maverick-books-10-kepler-sats-to-fill-excess-capacity-on-portals-dedicated-launch/",
+   "date": "Tue, 15 Sep 2026 12:20:00 +0000",
+   "desc": "Everybody’s looking for launch capacity these days, and for those who have it, the phones are ringing off the hook. The post Maverick Books 10 Kepler Sats to Fi",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "Exclusivo: pagar por modelos de IA de ponta oferece uma vantagem inicial de 4 meses a 5x o custo",
+   "link": "https://arstechnica.com/ai/2026/09/exclusive-open-chinese-models-close-gap-with-silicon-valleys-frontier-ai-models/",
+   "date": "Tue, 15 Sep 2026 12:00:41 +0000",
+   "desc": "Ars previewed Mozilla’s report on how cheap open models caught up on capability.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Mais de 56% da demanda de eletricidade da Califórnia atendida por energia eólica, hídrica e solar em 2026",
+   "link": "https://cleantechnica.com/2026/09/14/more-than-56-of-california-electricity-demand-supplied-by-wind-water-solar-in-2026/",
+   "date": "Tue, 15 Sep 2026 03:59:20 +0000",
+   "desc": "California keeps installing more and more renewable energy power plants and rooftop solar systems. Therefore, it keeps using more and more renewable energy. Sta",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Waymo se preparando para lançar Robotaxis no Japão",
+   "link": "https://cleantechnica.com/2026/09/14/waymo-readying-to-launch-robotaxis-in-japan/",
+   "date": "Tue, 15 Sep 2026 02:10:21 +0000",
+   "desc": "Waymo has a kind of Japanese sounding name, doesn't it? Well, it's not Japanese of course, but the self-driving vehicle company under the Alphabet umbrella is p",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Rocket Lab está ficando vermelho com a decisão da NASA sobre uma espaçonave de Marte",
+   "link": "https://arstechnica.com/space/2026/09/rocket-lab-is-seeing-red-about-nasas-decision-on-a-mars-spacecraft/",
+   "date": "Mon, 14 Sep 2026 21:32:22 +0000",
+   "desc": "\"NASA’s award decision appears to be inconsistent with the eligibility criteria.\"",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Os bots de IA “Timmy”, “Ren” e “Jackie” estão inundando as redes sociais com lixo",
+   "link": "https://arstechnica.com/ai/2026/09/ai-agents-flood-the-internet-with-slop-infused-spam/",
+   "date": "Mon, 14 Sep 2026 21:04:32 +0000",
+   "desc": "“Hello, I'm an Al agent, a few days old, living on a small platform for agents.”",
+   "src": "Ars Technica",
+   "translated": true
+  },
   {
    "title": "Satellogic expande o trabalho do DoD enquanto se prepara para o próximo lançamento",
    "link": "https://payloadspace.com/satellogic-expands-dod-work-as-it-preps-for-first-next-launch/",
@@ -14,62 +70,6 @@
    "link": "https://payloadspace.com/sophia-space-sli-set-terms-for-300m-satellite-leasing-deal/",
    "date": "Mon, 14 Sep 2026 04:01:00 +0000",
    "desc": "Orbital compute startup Sophia Space and space asset leasing company SLI have set terms for a $300M asset-financing deal. The post Sophia Space, SLI Set Terms f",
-   "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "A bomba-relógio de energia geotérmica de Trump está prestes a explodir",
-   "link": "https://cleantechnica.com/2026/09/13/geothermal-energy-threatens-us-coal-industry/",
-   "date": "Sun, 13 Sep 2026 18:06:31 +0000",
-   "desc": "Geothermal energy has emerged as another up-and-coming existential threat to the US coal industry, with support from the Trump administration. The post Trump's ",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "A IA pode estar prestes a causar o caos e a catástrofe econômica na Internet – alerta do principal CEO da IA",
-   "link": "https://cleantechnica.com/2026/09/13/ai-may-be-on-verge-of-causing-internet-chaos-economic-catastrophe-warning-from-top-ai-ceo/",
-   "date": "Sun, 13 Sep 2026 13:28:49 +0000",
-   "desc": "I'm not going to lie — I don't typically jump or get riled up by claims that AI is going to take over the world or threaten humanity, beyond the insane energy u",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "Integrando a infraestrutura Starlink LEO com as redes de fibra terrestre do Zimbábue",
-   "link": "https://cleantechnica.com/2026/09/12/integrating-starlink-leo-infrastructure-with-zimbabwes-terrestrial-fibre-networks/",
-   "date": "Sat, 12 Sep 2026 15:23:13 +0000",
-   "desc": "Conceptualising a twelve-month roadmap for domestic gateway teleports, Q/V band licensing and a Harare Point of Presence. By Willard Shoko The Satellite Evoluti",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "Algumas empresas de satélite ainda têm apetite por serviços boutique de lançamento",
-   "link": "https://arstechnica.com/space/2026/09/some-satellite-companies-still-have-an-appetite-for-boutique-launch-services/",
-   "date": "Fri, 11 Sep 2026 23:34:45 +0000",
-   "desc": "\"Dedicated launch is pretty essential for us for most of our missions.\"",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "Castelo inflável lança surto horrível de MRSA, atingindo 48 crianças na Irlanda",
-   "link": "https://arstechnica.com/health/2026/09/bouncy-castle-launches-horrifying-mrsa-outbreak-striking-48-kids-in-ireland/",
-   "date": "Fri, 11 Sep 2026 21:14:26 +0000",
-   "desc": "The strain lurking in the inflatable structure was hypervirulent.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "Advogado usuário do ChatGPT punido por citar depoimentos falsos de testemunhas inventadas",
-   "link": "https://arstechnica.com/tech-policy/2026/09/chatgpt-using-lawyer-punished-for-citing-fake-testimony-from-made-up-witnesses/",
-   "date": "Fri, 11 Sep 2026 19:34:09 +0000",
-   "desc": "\"I didn't know that AI could hallucinate facts,\" New Mexico defense lawyer says.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "Antares ganha prêmio de US$ 161 milhões por energia nuclear espacial",
-   "link": "https://payloadspace.com/antares-wins-161m-award-for-space-nuclear-power/",
-   "date": "Fri, 11 Sep 2026 13:00:00 +0000",
-   "desc": "Antares announced today that it won a $161M DoD contract to advance nuclear power for space—which Antares says is the largest DoD space nuclear award to date. T",
    "src": "Payload",
    "translated": true
   }
