@@ -1,28 +1,7 @@
 {
- "updated": "2026-09-16T14:13:06.881Z",
+ "updated": "2026-09-17T14:18:33.815Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
-  {
-   "d": "16",
-   "mo": "SET",
-   "missao": "Long March 12 · carga não divulgada",
-   "sub": "CASC · Wenchang (China) · 16/09, 21:30 (Brasília)",
-   "net": "2026-09-17T00:30:00Z"
-  },
-  {
-   "d": "16",
-   "mo": "SET",
-   "missao": "Falcon 9 · USSF-259",
-   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 16/09, 22:00 (Brasília) · carga militar/classificada",
-   "net": "2026-09-17T01:00:00Z"
-  },
-  {
-   "d": "16",
-   "mo": "SET",
-   "missao": "Kuaizhou 11 · carga não divulgada",
-   "sub": "ExPace · Jiuquan (China) · 16/09, 23:35 (Brasília)",
-   "net": "2026-09-17T02:35:00Z"
-  },
   {
    "d": "19",
    "mo": "SET",
@@ -54,9 +33,30 @@
   {
    "d": "22",
    "mo": "SET",
-   "missao": "Starship · Flight 14",
+   "missao": "Starship · Starlink 31-1 (Starship Flight 14)",
    "sub": "SpaceX · Starbase, Texas (EUA) · 22/09, 09:15 (Brasília) · comunicações",
    "net": "2026-09-22T12:15:00Z"
+  },
+  {
+   "d": "26",
+   "mo": "SET",
+   "missao": "Falcon 9 · USSF-385",
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 26/09, 08:56 (Brasília) · carga militar/classificada",
+   "net": "2026-09-26T11:56:00Z"
+  },
+  {
+   "d": "--",
+   "mo": "",
+   "missao": "Electron · LOXSAT 1",
+   "sub": "Rocket Lab · Mahia (Nova Zelândia) · data a confirmar",
+   "net": "2026-09-30T00:00:00Z"
+  },
+  {
+   "d": "--",
+   "mo": "",
+   "missao": "Falcon 9 · SDA Tranche 1 Transport Layer A",
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · data a confirmar · carga militar/classificada",
+   "net": "2026-09-30T00:00:00Z"
   }
  ]
 }
