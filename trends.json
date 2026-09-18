@@ -1,36 +1,68 @@
 {
- "updated": "2026-09-17T14:28:45.952Z",
+ "updated": "2026-09-18T13:54:01.957Z",
  "items": [
   {
-   "title": "Stellantis BOW leva a entrega autônoma ao próximo nível",
-   "link": "https://cleantechnica.com/2026/09/17/stellantis-bow-takes-autonomous-delivery-to-the-next-level/",
-   "date": "Thu, 17 Sep 2026 14:17:56 +0000",
-   "desc": "HANOVER, Germany — Among the many electric vehicles at IAA Transportation 2026, the Stellantis BOW is hard to miss. It is small, green and looks nothing like a ",
+   "title": "Descontos no Kia EV9 dão um preço ridículo",
+   "link": "https://cleantechnica.com/2026/09/17/discounts-on-kia-ev9-give-it-ridiculous-price/",
+   "date": "Fri, 18 Sep 2026 03:59:10 +0000",
+   "desc": "The Kia EV9 is one of the few three-row electric vehicles on the market. It's quite large, and the interior and technology are very nice and high quality despit",
    "src": "CleanTechnica",
    "translated": true
   },
   {
-   "title": "Lynk & Co 08 EM-P atinge 200.000 entregas globais",
-   "link": "https://cleantechnica.com/2026/09/17/lynk-co-08-em-p-reaches-200000-global-deliveries/",
-   "date": "Thu, 17 Sep 2026 14:08:01 +0000",
-   "desc": "Since its official launch in September 2023, the Lynk &#38; Co 08 EM-P has built a strong reputation through its performance, capabilities and customer acclaim.",
+   "title": "Campus NLR sediará Centro de Excelência Geotérmica do Departamento de Energia dos EUA",
+   "link": "https://cleantechnica.com/2026/09/17/nlr-campus-to-host-us-department-of-energy-geothermal-center-of-excellence/",
+   "date": "Fri, 18 Sep 2026 03:57:32 +0000",
+   "desc": "New Center Will Address High-Impact Technical Barriers and Serve as Geothermal Industry’s Gateway to the Expertise of the National Laboratories On Sept. 3, the ",
    "src": "CleanTechnica",
    "translated": true
   },
   {
-   "title": "Nova vida para estações de carregamento de veículos elétricos que Trump tentou matar",
-   "link": "https://cleantechnica.com/2026/09/17/ev-charging-stations-public-nevi-funds-trump/",
-   "date": "Thu, 17 Sep 2026 12:51:13 +0000",
-   "desc": "Trump tried, and failed, to stop states from building new public EV charging stations along major transportation arteries with funds from the federal NEVI progr",
+   "title": "Motivado para servir: como Taylor Searcy transformou o serviço da Marinha em estratégia de energia limpa na GM",
+   "link": "https://cleantechnica.com/2026/09/17/driven-to-serve-how-taylor-searcy-turned-navy-service-into-clean-energy-strategy-at-gm/",
+   "date": "Fri, 18 Sep 2026 02:41:07 +0000",
+   "desc": "Most people don’t think about energy until the lights go out. Or transportation until the road is closed. Or the complex systems that keep people moving until t",
    "src": "CleanTechnica",
    "translated": true
   },
   {
-   "title": "A Apple supostamente está construindo um servidor repleto de chips Ultra da série M para IA",
-   "link": "https://arstechnica.com/ai/2026/09/apple-reportedly-building-server-packed-with-m-series-ultra-chips-for-ai/",
-   "date": "Wed, 16 Sep 2026 22:02:46 +0000",
-   "desc": "Planned 2029 debut could make this Apple’s first enterprise server in decades.",
+   "title": "Pequenos modelos de IA permitem que drones identifiquem e ataquem de forma autônoma alvos no campo de batalha",
+   "link": "https://arstechnica.com/ai/2026/09/nato-backed-startup-adapts-ai-for-autonomous-drone-recon-and-attack-missions/",
+   "date": "Thu, 17 Sep 2026 22:12:58 +0000",
+   "desc": "Scaleout deploys decentralized AI-driven learning to military bases and drones.",
    "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Google anuncia novo agente experimental de IA “CC” para famílias",
+   "link": "https://arstechnica.com/google/2026/09/google-announces-new-experimental-cc-ai-agent-for-families/",
+   "date": "Thu, 17 Sep 2026 20:24:34 +0000",
+   "desc": "Multiple family members can share data to help the agent make plans and complete tasks.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "O executivo da Microsoft chamou a IA de “o maior roubo de mão de obra da história da humanidade”",
+   "link": "https://arstechnica.com/tech-policy/2026/09/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history/",
+   "date": "Thu, 17 Sep 2026 20:10:41 +0000",
+   "desc": "Microsoft, OpenAI emails reveal fear of AI “doom loop” killing news orgs.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Iniciativa Satrec para construir satélites ópticos de classe de 10 centímetros para a constelação de Hanwha",
+   "link": "https://spacenews.com/satrec-initiative-to-build-10-centimeter-class-optical-satellites-for-hanwha-constellation/",
+   "date": "Thu, 17 Sep 2026 15:05:15 +0000",
+   "desc": "PARIS - South Korean company Satrec Initiative is working with parent company Hanwha Systems to provide high-resolution Earth imagery for the synthetic-aperture",
+   "src": "SpaceNews",
+   "translated": true
+  },
+  {
+   "title": "Simera Sense e IDOM fazem parceria para desenvolver e produzir o sistema óptico xScape350 conforme a demanda por imagens EO de alta resolução aumenta",
+   "link": "https://spacenews.com/simera-sense-and-idom-partner-to-develop-and-produce-xscape350-optical-system-as-demand-for-high-resolution-eo-imagery-surges/",
+   "date": "Thu, 17 Sep 2026 14:40:51 +0000",
+   "desc": "LEUVEN, BELGIUM and BILBAO, SPAIN – 17 September 2026—Simera Sense, a leading European provider of optical payload solutions for small satellites, today announc",
+   "src": "SpaceNews",
    "translated": true
   },
   {
@@ -39,30 +71,6 @@
    "date": "Wed, 16 Sep 2026 13:00:00 +0000",
    "desc": "Very rarely can someone offer you the best of both worlds, but Hydrosat’s newest constellation claims to do just that. The post Hydrosat Unveils Osiris Constell",
    "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "SEOPS Livros Cinco Lançamentos no Foguete Spectrum da Isar",
-   "link": "https://payloadspace.com/seops-books-five-launches-on-isars-spectrum-rocket/",
-   "date": "Wed, 16 Sep 2026 12:46:00 +0000",
-   "desc": "Isar Aerospace became the first European launch startup to reach orbit less than two weeks ago, and already the market is demanding more. The post SEOPS Books F",
-   "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "Viasat e Space42 comprometem até US$ 1 bilhão para joint venture Equatys",
-   "link": "https://payloadspace.com/viasat-and-space42-commit-up-to-1b-to-equatys-joint-venture/",
-   "date": "Wed, 16 Sep 2026 12:45:00 +0000",
-   "desc": "Space42 and Viasat agreed to formally establish Equatys, a shared satellite-and-ground-infrastructure company for D2D connectivity and advanced mobile satellite",
-   "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "LatConnect 60 expande presença no mercado indiano para SWIRSAT com acordo NSIL e parceria GeoSyze",
-   "link": "https://spacenews.com/latconnect-60-expands-india-market-presence-for-swirsat-with-nsil-agreement-and-geosyze-partnership/",
-   "date": "Fri, 11 Sep 2026 05:32:49 +0000",
-   "desc": "Australian Earth observation satellite company LatConnect 60 (LC60) has strengthened its position in India with two strategic agreements announced at the Bengal",
-   "src": "SpaceNews",
    "translated": true
   }
  ]
