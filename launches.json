@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-17T14:18:33.815Z",
+ "updated": "2026-09-18T13:37:54.102Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
   {
@@ -31,18 +31,18 @@
    "net": "2026-09-20T04:00:00Z"
   },
   {
-   "d": "22",
-   "mo": "SET",
-   "missao": "Starship · Starlink 31-1 (Starship Flight 14)",
-   "sub": "SpaceX · Starbase, Texas (EUA) · 22/09, 09:15 (Brasília) · comunicações",
-   "net": "2026-09-22T12:15:00Z"
-  },
-  {
    "d": "26",
    "mo": "SET",
    "missao": "Falcon 9 · USSF-385",
    "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 26/09, 08:56 (Brasília) · carga militar/classificada",
    "net": "2026-09-26T11:56:00Z"
+  },
+  {
+   "d": "28",
+   "mo": "SET",
+   "missao": "Starship · Starlink 31-1 (Starship Flight 14)",
+   "sub": "SpaceX · Starbase, Texas (EUA) · 28/09, 09:15 (Brasília) · comunicações",
+   "net": "2026-09-28T12:15:00Z"
   },
   {
    "d": "--",
@@ -54,8 +54,8 @@
   {
    "d": "--",
    "mo": "",
-   "missao": "Falcon 9 · SDA Tranche 1 Transport Layer A",
-   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · data a confirmar · carga militar/classificada",
+   "missao": "Long March 12A · Flight 2",
+   "sub": "CASC · Jiuquan (China) · data a confirmar · voo de teste",
    "net": "2026-09-30T00:00:00Z"
   }
  ]
