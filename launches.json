@@ -1,21 +1,7 @@
 {
- "updated": "2026-09-18T13:37:54.102Z",
+ "updated": "2026-09-19T13:11:38.653Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
-  {
-   "d": "19",
-   "mo": "SET",
-   "missao": "Electron · Owl By The Dozen (StriX Launch 12)",
-   "sub": "Rocket Lab · Mahia (Nova Zelândia) · 19/09, 00:15 (Brasília) · observação da Terra",
-   "net": "2026-09-19T03:15:00Z"
-  },
-  {
-   "d": "19",
-   "mo": "SET",
-   "missao": "Long March 2D · carga não divulgada",
-   "sub": "CASC · Taiyuan (China) · 19/09, 07:50 (Brasília)",
-   "net": "2026-09-19T10:50:00Z"
-  },
   {
    "d": "19",
    "mo": "SET",
@@ -31,6 +17,27 @@
    "net": "2026-09-20T04:00:00Z"
   },
   {
+   "d": "23",
+   "mo": "SET",
+   "missao": "Long March 8A · carga não divulgada",
+   "sub": "CASC · Wenchang (China) · 23/09, 10:30 (Brasília)",
+   "net": "2026-09-23T13:30:00Z"
+  },
+  {
+   "d": "24",
+   "mo": "SET",
+   "missao": "Long March 6A · carga não divulgada",
+   "sub": "CASC · Taiyuan (China) · 24/09, 05:45 (Brasília)",
+   "net": "2026-09-24T08:45:00Z"
+  },
+  {
+   "d": "25",
+   "mo": "SET",
+   "missao": "Electron · Owlright, Owlright, Owlright (StriX Launch 13)",
+   "sub": "Rocket Lab · Mahia (Nova Zelândia) · 25/09, 21:15 (Brasília) · observação da Terra",
+   "net": "2026-09-26T00:15:00Z"
+  },
+  {
    "d": "26",
    "mo": "SET",
    "missao": "Falcon 9 · USSF-385",
@@ -43,13 +50,6 @@
    "missao": "Starship · Starlink 31-1 (Starship Flight 14)",
    "sub": "SpaceX · Starbase, Texas (EUA) · 28/09, 09:15 (Brasília) · comunicações",
    "net": "2026-09-28T12:15:00Z"
-  },
-  {
-   "d": "--",
-   "mo": "",
-   "missao": "Electron · LOXSAT 1",
-   "sub": "Rocket Lab · Mahia (Nova Zelândia) · data a confirmar",
-   "net": "2026-09-30T00:00:00Z"
   },
   {
    "d": "--",
