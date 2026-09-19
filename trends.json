@@ -1,59 +1,67 @@
 {
- "updated": "2026-09-18T13:54:01.957Z",
+ "updated": "2026-09-19T13:29:45.348Z",
  "items": [
   {
-   "title": "Descontos no Kia EV9 dão um preço ridículo",
-   "link": "https://cleantechnica.com/2026/09/17/discounts-on-kia-ev9-give-it-ridiculous-price/",
-   "date": "Fri, 18 Sep 2026 03:59:10 +0000",
-   "desc": "The Kia EV9 is one of the few three-row electric vehicles on the market. It's quite large, and the interior and technology are very nice and high quality despit",
+   "title": "O dia em que meu Swifty morreu… e eu tive que usar a eletricidade com o MG4 EV Urban",
+   "link": "https://cleantechnica.com/2026/09/18/the-day-my-swifty-died-and-i-had-to-go-electric-with-the-mg4-ev-urban/",
+   "date": "Sat, 19 Sep 2026 03:57:08 +0000",
+   "desc": "It was the phone call most fathers dread. “Dad, I’ve blown up the car!” I asked her what had happened to her 20 year old Suzuki Swift (Swifty). “So, the Swift h",
    "src": "CleanTechnica",
    "translated": true
   },
   {
-   "title": "Campus NLR sediará Centro de Excelência Geotérmica do Departamento de Energia dos EUA",
-   "link": "https://cleantechnica.com/2026/09/17/nlr-campus-to-host-us-department-of-energy-geothermal-center-of-excellence/",
-   "date": "Fri, 18 Sep 2026 03:57:32 +0000",
-   "desc": "New Center Will Address High-Impact Technical Barriers and Serve as Geothermal Industry’s Gateway to the Expertise of the National Laboratories On Sept. 3, the ",
+   "title": "Carregadores EV nas regiões turísticas de Queensland",
+   "link": "https://cleantechnica.com/2026/09/18/ev-chargers-in-the-tourist-regions-of-queensland/",
+   "date": "Sat, 19 Sep 2026 02:48:45 +0000",
+   "desc": "Tourist regions need high speed charging to drive local economies. Although there is plenty of access to high-speed charging on the coastal highways and cities ",
    "src": "CleanTechnica",
    "translated": true
   },
   {
-   "title": "Motivado para servir: como Taylor Searcy transformou o serviço da Marinha em estratégia de energia limpa na GM",
-   "link": "https://cleantechnica.com/2026/09/17/driven-to-serve-how-taylor-searcy-turned-navy-service-into-clean-energy-strategy-at-gm/",
-   "date": "Fri, 18 Sep 2026 02:41:07 +0000",
-   "desc": "Most people don’t think about energy until the lights go out. Or transportation until the road is closed. Or the complex systems that keep people moving until t",
+   "title": "Jackery SolarVault 3 mostra potencial para escalar da varanda para toda a casa",
+   "link": "https://cleantechnica.com/2026/09/18/jackery-solarvault-3-shows-potential-to-scale-from-balcony-to-whole-home/",
+   "date": "Fri, 18 Sep 2026 20:42:01 +0000",
+   "desc": "Last week, I wrote about the new Jackery EnergyGuard Max 100 kWh battery at IFA Berlin. This large capacity offers customers home energy storage to easily cover",
    "src": "CleanTechnica",
    "translated": true
   },
   {
-   "title": "Pequenos modelos de IA permitem que drones identifiquem e ataquem de forma autônoma alvos no campo de batalha",
-   "link": "https://arstechnica.com/ai/2026/09/nato-backed-startup-adapts-ai-for-autonomous-drone-recon-and-attack-missions/",
-   "date": "Thu, 17 Sep 2026 22:12:58 +0000",
-   "desc": "Scaleout deploys decentralized AI-driven learning to military bases and drones.",
+   "title": "A alucinação da IA ​​​​com componentes nucleares chineses quase levou a um ataque militar dos EUA",
+   "link": "https://arstechnica.com/ai/2026/09/report-us-almost-boarded-chinese-ship-over-hallucinated-ai-arms-report/",
+   "date": "Fri, 18 Sep 2026 20:26:33 +0000",
+   "desc": "But the military's overall use of AI seems to be accelerating.",
    "src": "Ars Technica",
    "translated": true
   },
   {
-   "title": "Google anuncia novo agente experimental de IA “CC” para famílias",
-   "link": "https://arstechnica.com/google/2026/09/google-announces-new-experimental-cc-ai-agent-for-families/",
-   "date": "Thu, 17 Sep 2026 20:24:34 +0000",
-   "desc": "Multiple family members can share data to help the agent make plans and complete tasks.",
+   "title": "FAA oferece ferramenta de IA de US$ 875 milhões para ajudar a gerenciar congestionamentos de tráfego aéreo",
+   "link": "https://arstechnica.com/ai/2026/09/faa-tees-up-875m-ai-tool-to-help-manage-air-traffic-congestion/",
+   "date": "Fri, 18 Sep 2026 19:20:50 +0000",
+   "desc": "FAA plans for AI tool to help manage DC air traffic before a nationwide rollout.",
    "src": "Ars Technica",
    "translated": true
   },
   {
-   "title": "O executivo da Microsoft chamou a IA de “o maior roubo de mão de obra da história da humanidade”",
-   "link": "https://arstechnica.com/tech-policy/2026/09/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history/",
-   "date": "Thu, 17 Sep 2026 20:10:41 +0000",
-   "desc": "Microsoft, OpenAI emails reveal fear of AI “doom loop” killing news orgs.",
+   "title": "Site do governo dos EUA usou modelo chinês que o FBI chamou de “malicioso”",
+   "link": "https://arstechnica.com/tech-policy/2026/09/us-government-website-used-chinese-model-the-fbi-called-malicious/",
+   "date": "Fri, 18 Sep 2026 17:28:50 +0000",
+   "desc": "The Federal Register website briefly used an open source Chinese AI search tool.",
    "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Terran Orbital promove Margherita Cardi a vice-presidente de operações europeias e chefe de programas estratégicos",
+   "link": "https://spacenews.com/terran-orbital-promotes-margherita-cardi-to-vice-president-of-european-operations-head-of-strategic-programs/",
+   "date": "Fri, 18 Sep 2026 14:47:38 +0000",
+   "desc": "IRVINE, Calif. and TORINO, Italy – Sept. 17, 2026 – Terran Orbital, a Lockheed Martin company and a global leader in satellite-based solutions primarily serving",
+   "src": "SpaceNews",
    "translated": true
   },
   {
    "title": "Iniciativa Satrec para construir satélites ópticos de classe de 10 centímetros para a constelação de Hanwha",
    "link": "https://spacenews.com/satrec-initiative-to-build-10-centimeter-class-optical-satellites-for-hanwha-constellation/",
    "date": "Thu, 17 Sep 2026 15:05:15 +0000",
-   "desc": "PARIS - South Korean company Satrec Initiative is working with parent company Hanwha Systems to provide high-resolution Earth imagery for the synthetic-aperture",
+   "desc": "PARIS - South Korean company Satrec Initiative is working with parent company Hanwha Aerospace to provide high-resolution Earth imagery for the synthetic-apertu",
    "src": "SpaceNews",
    "translated": true
   },
@@ -63,14 +71,6 @@
    "date": "Thu, 17 Sep 2026 14:40:51 +0000",
    "desc": "LEUVEN, BELGIUM and BILBAO, SPAIN – 17 September 2026—Simera Sense, a leading European provider of optical payload solutions for small satellites, today announc",
    "src": "SpaceNews",
-   "translated": true
-  },
-  {
-   "title": "Hydrosat revela constelação Osiris antes do lançamento em 2027",
-   "link": "https://payloadspace.com/hydrosat-unveils-osiris-constellation-ahead-of-2027-launch/",
-   "date": "Wed, 16 Sep 2026 13:00:00 +0000",
-   "desc": "Very rarely can someone offer you the best of both worlds, but Hydrosat’s newest constellation claims to do just that. The post Hydrosat Unveils Osiris Constell",
-   "src": "Payload",
    "translated": true
   }
  ]
