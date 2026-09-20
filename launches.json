@@ -1,21 +1,7 @@
 {
- "updated": "2026-09-19T13:11:38.653Z",
+ "updated": "2026-09-20T13:35:40.047Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
-  {
-   "d": "19",
-   "mo": "SET",
-   "missao": "Falcon 9 · Starlink 15-27",
-   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 19/09, 22:47 (Brasília) · comunicações",
-   "net": "2026-09-20T01:47:00Z"
-  },
-  {
-   "d": "20",
-   "mo": "SET",
-   "missao": "Kinetica 1 · carga não divulgada",
-   "sub": "CAS Space · Jiuquan (China) · 20/09, 01:00 (Brasília)",
-   "net": "2026-09-20T04:00:00Z"
-  },
   {
    "d": "23",
    "mo": "SET",
@@ -52,11 +38,25 @@
    "net": "2026-09-28T12:15:00Z"
   },
   {
+   "d": "30",
+   "mo": "SET",
+   "missao": "Falcon 9 · Starlink 15-25",
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 30/09, 11:00 (Brasília) · comunicações",
+   "net": "2026-09-30T14:00:00Z"
+  },
+  {
    "d": "--",
    "mo": "",
-   "missao": "Long March 12A · Flight 2",
-   "sub": "CASC · Jiuquan (China) · data a confirmar · voo de teste",
-   "net": "2026-09-30T00:00:00Z"
+   "missao": "Falcon 9 · Crew-13",
+   "sub": "SpaceX · Cabo Canaveral, Flórida (EUA) · data a confirmar · voo tripulado",
+   "net": "2026-10-01T15:10:06Z"
+  },
+  {
+   "d": "04",
+   "mo": "OUT",
+   "missao": "SR75 · Flight 2",
+   "sub": "HyImpulse · SaxaVord (Escócia) · 04/10, 21:00 (Brasília) · voo de teste",
+   "net": "2026-10-05T00:00:00Z"
   }
  ]
 }
