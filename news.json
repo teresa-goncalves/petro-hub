@@ -1,5 +1,221 @@
 [
  {
+  "title": "Agroindústria recua 2,9% em julho e mantém ritmo de desaceleração",
+  "link": "https://www.cnnbrasil.com.br/agro/agroindustria-recua-29-em-julho-e-mantem-ritmo-de-desaceleracao/",
+  "date": "Mon, 21 Sep 2026 14:42:03 +0000",
+  "desc": "Queda foi puxada por produtos não alimentícios, enquanto biocombustíveis e bebidas tiveram alta no mês; setor acumula retração de 0,8% nos sete primeiros meses ",
+  "src": "CNN Brasil",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "Os preços do gás no atacado estão chegando aos consumidores mais rapidamente, afirma o BCE",
+  "link": "https://oilprice.com/Latest-Energy-News/World-News/Wholesale-Gas-Prices-Are-Reaching-Consumers-Faster-ECB-Says.html",
+  "date": "Mon, 21 Sep 2026 09:30:00 -0500",
+  "desc": "The surge in wholesale natural gas prices is set to pass through the retail and electricity inflation in the Eurozone faster than in the past, the European Cent",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Magda reitera autossuficiência em diesel e fala em descoberta na Colômbia",
+  "link": "https://www.cnnbrasil.com.br/infra/magda-reitera-autossuficiencia-em-diesel-e-fala-em-descoberta-na-colombia/",
+  "date": "Mon, 21 Sep 2026 14:23:22 +0000",
+  "desc": "Presidente da Petrobras disse que novo plano estratégico da estatal, para o período 2027-2031, deve contemplar refino de 100% das necessidades internas do combu",
+  "src": "CNN Brasil",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "AI-Like Mania domina ações de refino de petróleo",
+  "link": "https://www.rigzone.com/news/wire/ailike_mania_grips_oil_refining_stocks-21-sep-2026-184662-article/?rss=true",
+  "date": "Mon, 21 Sep 2026 14:20:03 GMT",
+  "desc": "AI companies and old-economy refiner stocks have at least one thing in common.",
+  "src": "Rigzone",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "PRESIDENTE DA PETROBRÁS DESTACA MARGEM EQUATORIAL, GÁS NA COLÔMBIA E PRODUÇÃO DE DIESEL NA ABERTURA DA ROG.e",
+  "link": "https://petronoticias.com.br/presidente-da-petrobras-destaca-margem-equatorial-gas-na-colombia-e-producao-de-diesel-na-abertura-da-rog-e/",
+  "date": "Mon, 21 Sep 2026 14:19:30 +0000",
+  "desc": "Começou oficialmente a ROG.e 2026, no Riocentro. A abertura do evento, com plenária lotada, teve alguns indicativos daqueles temas que deverão ditar os debates ",
+  "src": "Petronotícias",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "Arábia Saudita redireciona exportações de petróleo enquanto Houthi ataca Yanbu",
+  "link": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Reroutes-Oil-Exports-as-Houthi-Strikes-Target-Yanbu.html",
+  "date": "Mon, 21 Sep 2026 08:51:13 -0500",
+  "desc": "Satellite images gathered by Bloomberg show supertankers with capacity for 14 million barrels at Saudi Arabia's Gulf export terminals over the weekend, the high",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Nova descoberta de gás surge na bacia de águas profundas da fronteira da Índia",
+  "link": "https://www.offshore-energy.biz/new-gas-discovery-springs-up-from-indias-frontier-deepwater-basin/",
+  "date": "Mon, 21 Sep 2026 13:31:32 +0000",
+  "desc": "India’s government-owned energy giant Oil and Natural Gas Corporation (ONGC) has found a new natural gas discovery in the deep waters of Mahanadi Basin off the ",
+  "src": "Offshore Energy",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Trafigura lança Volare Shipping para lucrar com taxas recordes de petroleiros",
+  "link": "https://oilprice.com/Latest-Energy-News/World-News/Trafigura-Launches-Volare-Shipping-to-Cash-In-on-Record-Tanker-Rates.html",
+  "date": "Mon, 21 Sep 2026 07:30:00 -0500",
+  "desc": "One of the world’s biggest oil traders, Trafigura, is spinning off its supertanker business in a new company. Trafigura on Monday said it had established a new,",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Confronto legal em andamento enquanto a Cotemar se move para congelar quase US$ 60 milhões em ativos da subsidiária American Bureau of Shipping",
+  "link": "https://www.offshore-energy.biz/legal-showdown-underway-as-cotemar-moves-to-freeze-almost-60m-in-american-bureau-of-shipping-subsidiarys-assets/",
+  "date": "Mon, 21 Sep 2026 12:14:31 +0000",
+  "desc": "The long-running financial standoff between Mexico’s offshore specialist Cotemar and ABSG Consulting, a subsidiary of American Bureau of Shipping (ABS), has int",
+  "src": "Offshore Energy",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "A produção de petróleo no Ártico da Noruega cai estagnada em Bruxelas",
+  "link": "https://oilprice.com/Latest-Energy-News/World-News/Norways-Arctic-Oil-Pitch-Falls-Flat-in-Brussels.html",
+  "date": "Mon, 21 Sep 2026 06:30:00 -0500",
+  "desc": "The European Commission is expected to keep its current ban on oil and gas drilling in the Arctic despite months-long campaigning from Norway to lift the morato",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Naftogaz garante acordos poloneses para fornecimento de energia à Ucrânia",
+  "link": "https://www.rigzone.com/news/naftogaz_secures_polish_deals_for_energy_supply_to_ukraine-21-sep-2026-184661-article/?rss=true",
+  "date": "Mon, 21 Sep 2026 11:15:32 GMT",
+  "desc": "Poland's ORLEN agreed to continue supplying liquefied natural gas to Ukraine's Naftogaz, as well as committed to supplying oil products to Ukraine.",
+  "src": "Rigzone",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "O mercado petrolífero mudou para sempre?",
+  "link": "https://www.rigzone.com/news/has_the_oil_market_changed_forever-21-sep-2026-184660-article/?rss=true",
+  "date": "Mon, 21 Sep 2026 10:33:37 GMT",
+  "desc": "Has the oil market changed forever following the U.S.-Iran conflict?",
+  "src": "Rigzone",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Diesel dos EUA atinge recorde de US$ 6,50 à medida que a crise global de combustível se aprofunda",
+  "link": "https://oilprice.com/Latest-Energy-News/World-News/US-Diesel-Hits-Record-650-as-Global-Fuel-Crunch-Deepens.html",
+  "date": "Mon, 21 Sep 2026 05:30:00 -0500",
+  "desc": "The average retail price of diesel in the United States topped $6.50 per gallon this weekend amid a worsening global fuel crunch that threatens to hit economies",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Depois da Equinor, Njord Survey assina acordo de três anos com a RWE",
+  "link": "https://www.offshore-energy.biz/after-equinor-njord-survey-inks-three-year-agreement-with-rwe/",
+  "date": "Mon, 21 Sep 2026 10:08:22 +0000",
+  "desc": "RWE has awarded Swedish offshore survey company Njord Survey a three-year framework agreement for [&#8230;] The post After Equinor, Njord Survey inks three-year",
+  "src": "Offshore Energy",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Orlen e Naftogaz aprofundam laços energéticos com dois memorandos de entendimento",
+  "link": "https://www.offshore-energy.biz/orlen-and-naftogaz-deepen-energy-ties-with-two-mous/",
+  "date": "Mon, 21 Sep 2026 10:04:37 +0000",
+  "desc": "Ukraine’s state-owned energy company Naftogaz Group and Poland’s Orlen have strengthened cooperation in liquefied natural gas (LNG) and petroleum product suppli",
+  "src": "Offshore Energy",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Paquistão garante segunda carga de GNL do Catar através de Ormuz após acordo com o Irã",
+  "link": "https://oilprice.com/Latest-Energy-News/World-News/Pakistan-Secures-Second-Qatari-LNG-Cargo-Through-Hormuz-After-Iran-Deal.html",
+  "date": "Mon, 21 Sep 2026 04:30:00 -0500",
+  "desc": "Pakistan is set to receive an LNG cargo from Qatar after having negotiated with Iran the safe passage of the shipment through the Strait of Hormuz, sources fami",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Flylogix expande manual de metano de baixa emissão com voo transfronteiriço de drone na plataforma de petróleo do Mar do Norte",
+  "link": "https://www.offshore-energy.biz/flylogix-expands-low-emission-methane-playbook-with-cross-border-north-sea-oil-platform-drone-flight/",
+  "date": "Mon, 21 Sep 2026 09:03:06 +0000",
+  "desc": "Low-emission uncrewed aviation specialist Flylogix has crossed an international maritime boundary to survey an oil platform for methane emissions, marking the U",
+  "src": "Offshore Energy",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "BP venderá ainda mais participação no projeto para Osaka Gas",
+  "link": "https://www.rigzone.com/news/bp_to_further_sell_down_browse_project_stake_to_osaka_gas-21-sep-2026-184659-article/?rss=true",
+  "date": "Mon, 21 Sep 2026 08:59:10 GMT",
+  "desc": "BP has now agreed to farm down to East Asian LNG buyers a total of 10 percent in an Australian project that would unlock new feed gas for the Karratha Gas Plant",
+  "src": "Rigzone",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Refinaria de Moscou atingida em grande ataque de drones pela Ucrânia",
+  "link": "https://www.rigzone.com/news/wire/moscow_refinery_hit_in_major_drone_attack_by_ukraine-21-sep-2026-184658-article/?rss=true",
+  "date": "Mon, 21 Sep 2026 08:18:18 GMT",
+  "desc": "The Moscow Oil Refinery was hit during drone attacks that were part of the largest overnight Ukrainian barrage this year, as Russia entered the final day of vot",
+  "src": "Rigzone",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "A crise dos combustíveis na Europa estende-se do diesel ao combustível de aviação",
+  "link": "https://oilprice.com/Latest-Energy-News/World-News/Europes-Fuel-Crisis-Spreads-From-Diesel-to-Jet-Fuel.html",
+  "date": "Mon, 21 Sep 2026 03:15:00 -0500",
+  "desc": "Europe is reeling from a diesel supply crunch, and now another squeeze is looming on the horizon, as jet fuel supply tightens ahead of the final quarter of the ",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "MAIOR EDIÇÃO DA ROG.e COMEÇA HOJE NA ESTEIRA DA DESCOBERTA DA PETROBRÁS NA MARGEM EQUATORIAL",
+  "link": "https://petronoticias.com.br/maior-edicao-da-rog-e-comeca-hoje-na-esteira-da-descoberta-da-petrobras-na-margem-equatorial/",
+  "date": "Mon, 21 Sep 2026 07:00:32 +0000",
+  "desc": "A principal feira de óleo e gás do Brasil está prestes a entrar em um novo patamar. A ROG.e 2026 começa nesta segunda-feira (21), no Rio de Janeiro, em um momen",
+  "src": "Petronotícias",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "O tráfego marítimo no Estreito de Ormuz cai ainda mais à medida que os fluxos de petróleo sauditas aumentam",
+  "link": "https://oilprice.com/Latest-Energy-News/World-News/Strait-of-Hormuz-Shipping-Traffic-Falls-Further-as-Saudi-Oil-Flows-Rise.html",
+  "date": "Mon, 21 Sep 2026 02:00:00 -0500",
+  "desc": "Commodity vessels traversing the Strait of Hormuz declined further, with just a dozen commodity vessels in total making the passage this weekend, Reuters has re",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Preços do petróleo caem enquanto comerciantes apostam na diplomacia iraniana",
+  "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Slide-as-Traders-Bet-on-Iran-Diplomacy.html",
+  "date": "Mon, 21 Sep 2026 00:45:00 -0500",
+  "desc": "Crude oil prices started the week with a slide, moving down to the lowest in a week on renewed hopes about a diplomatic resolution of the war in the Middle East",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "A produção das grandes petrolíferas continua a crescer apesar dos profundos cortes nos gastos",
+  "link": "https://oilprice.com/Energy/Crude-Oil/Big-Oils-Production-Keeps-Soaring-Despite-Deep-Spending-Cuts.html",
+  "date": "Sun, 20 Sep 2026 18:00:00 -0500",
+  "desc": "Some of the world’s largest oil and gas companies have adopted a new modus operandi ever since the historic oil price crash of 2020 devastated energy companies,",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
   "title": "Crise de Ormuz levará a demanda global de carvão a níveis recordes",
   "link": "https://oilprice.com/Energy/Coal/Hormuz-Crisis-to-Push-Global-Coal-Demand-to-Record-High.html",
   "date": "Sun, 20 Sep 2026 14:00:00 -0500",
@@ -7,6 +223,24 @@
   "src": "OilPrice",
   "reg": "INT",
   "translated": true
+ },
+ {
+  "title": "INSTITUTO DE PESQUISAS DE PERNAMBUCO DESEMBARCA NA ROG.e TRAZENDO TRABALHOS INÉDITOS PARA O SETOR DE COMBUSTÍVEIS",
+  "link": "https://petronoticias.com.br/instituto-de-pesquisas-de-pernambuco-desembarca-na-roge-trazendo-trabalhos-ineditos-para-o-setor-de-combustiveis/",
+  "date": "Sun, 20 Sep 2026 16:00:23 +0000",
+  "desc": "A edição da ROGe deste ano terá muitas coisas diferentes das anteriores e uma delas é uma delas será a apresentação de dez tecnologias desenvolvidas em Pernambu",
+  "src": "Petronotícias",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "TENARIS SE ORGANIZOU PARA LEVAR À ROGe O CONHECIMENTO PARA CONSTRUÇÃO DE POÇOS EM ÁGUAS ULTRAPROFUNDAS",
+  "link": "https://petronoticias.com.br/tenaris-se-organizou-para-levar-a-roge-o-conhecimento-para-construcao-de-pocos-em-aguas-ultraprofundas/",
+  "date": "Sun, 20 Sep 2026 14:00:08 +0000",
+  "desc": "A Tenaris também vai participar participa da ROG.e 2026 com uma programação de painéis técnicos e institucionais em seu estande, no Pavilhão 4, V26. Os executiv",
+  "src": "Petronotícias",
+  "reg": "BR",
+  "translated": false
  },
  {
   "title": "Petrobras faz algo inédito, supera Saudi Aramco pela 1ª vez e transforma R$ 29 de cada R$ 100 faturados em lucro",
