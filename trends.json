@@ -1,6 +1,46 @@
 {
- "updated": "2026-09-20T13:43:41.844Z",
+ "updated": "2026-09-21T16:02:13.382Z",
  "items": [
+  {
+   "title": "O Googlebooks será lançado em 4 de outubro a partir de US$ 899 – aqui estão os cinco modelos que você pode encomendar hoje",
+   "link": "https://arstechnica.com/gadgets/2026/09/googlebook-laptops-launch-october-4-starting-at-899-preorders-for-five-models-live-today/",
+   "date": "Mon, 21 Sep 2026 13:00:11 +0000",
+   "desc": "Googlebooks offer premium hardware and deep smartphone integration, but you may not like the price.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Exclusivo: Exolaunch Books sua primeira missão Starfall",
+   "link": "https://payloadspace.com/exclusive-exolaunch-books-its-first-starfall-mission/",
+   "date": "Mon, 21 Sep 2026 12:16:56 +0000",
+   "desc": "Exolaunch signed an agreement to support customer payloads on a SpaceX Starfall reentry mission scheduled to launch on a Starship NET 2029. The post Exclusive: ",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "A economia lunar pode valer US$ 566 bilhões até 2050. Primeiro, temos que construí-la.",
+   "link": "https://payloadspace.com/the-lunar-economy-could-be-worth-566b-by-2050-first-we-have-to-build-it/",
+   "date": "Mon, 21 Sep 2026 12:00:00 +0000",
+   "desc": "The return to the Moon is an infrastructure story, and Deloitte has created numbers to back it up. The number: A new report from Deloitte, Building the Lunar Ec",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "Vendas de EV em 32% - Não, faça isso em 38%! - Até 2030",
+   "link": "https://cleantechnica.com/2026/09/20/ev-sales-us-trump-vehicle-electrification-harvard-study/",
+   "date": "Sun, 20 Sep 2026 22:11:47 +0000",
+   "desc": "Harvard economists calculate that EV sales will accelerate rapidly in the US, despite last year's sharp U-turn in federal energy policy. The post EV Sales At 32",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Ziroth está errado: a bateria do Donut Lab não é NMC",
+   "link": "https://cleantechnica.com/2026/09/20/ziroth-is-wrong-donut-labs-battery-is-not-nmc/",
+   "date": "Sun, 20 Sep 2026 14:41:53 +0000",
+   "desc": "Can you spot which battery is NMC? The one that looks like a pillow is NMC. The one that looks like a Pop-Tart is not. How do we know this? Because the puffed u",
+   "src": "CleanTechnica",
+   "translated": true
+  },
   {
    "title": "A ascensão imparável do Leapmotor – Relatório de vendas de veículos elétricos na China de agosto (45% de participação de BEV)",
    "link": "https://cleantechnica.com/2026/09/19/the-unstoppable-rise-of-leapmotor-augusts-china-ev-sales-report-45-bev-share/",
@@ -10,23 +50,7 @@
    "translated": true
   },
   {
-   "title": "Um EV não é o mesmo que um carro convencional. Quem sabia?",
-   "link": "https://cleantechnica.com/2026/09/19/an-ev-is-not-the-same-as-a-conventional-car-who-knew/",
-   "date": "Sat, 19 Sep 2026 14:24:29 +0000",
-   "desc": "Electric, shmetric. A car is a car, right? You get in, start it up, and go where you need to go. What's the big deal? That sort of thinking is what nearly kille",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "O dia em que meu Swifty morreu… e eu tive que usar a eletricidade com o MG4 EV Urban",
-   "link": "https://cleantechnica.com/2026/09/18/the-day-my-swifty-died-and-i-had-to-go-electric-with-the-mg4-ev-urban/",
-   "date": "Sat, 19 Sep 2026 03:57:08 +0000",
-   "desc": "It was the phone call most fathers dread. “Dad, I’ve blown up the car!” I asked her what had happened to her 20 year old Suzuki Swift (Swifty). “So, the Swift h",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "A alucinação da IA ​​​​com componentes nucleares chineses quase levou a um ataque militar dos EUA",
+   "title": "A alucinação da IA ​​sobre componentes nucleares chineses quase levou a um ataque militar dos EUA",
    "link": "https://arstechnica.com/ai/2026/09/report-us-almost-boarded-chinese-ship-over-hallucinated-ai-arms-report/",
    "date": "Fri, 18 Sep 2026 20:26:33 +0000",
    "desc": "But the military's overall use of AI seems to be accelerating.",
@@ -42,34 +66,10 @@
    "translated": true
   },
   {
-   "title": "Site do governo dos EUA usou modelo chinês que o FBI chamou de “malicioso”",
-   "link": "https://arstechnica.com/tech-policy/2026/09/us-government-website-used-chinese-model-the-fbi-called-malicious/",
-   "date": "Fri, 18 Sep 2026 17:28:50 +0000",
-   "desc": "The Federal Register website briefly used an open source Chinese AI search tool.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
    "title": "Terran Orbital promove Margherita Cardi a vice-presidente de operações europeias e chefe de programas estratégicos",
    "link": "https://spacenews.com/terran-orbital-promotes-margherita-cardi-to-vice-president-of-european-operations-head-of-strategic-programs/",
    "date": "Fri, 18 Sep 2026 14:47:38 +0000",
    "desc": "IRVINE, Calif. and TORINO, Italy – Sept. 17, 2026 – Terran Orbital, a Lockheed Martin company and a global leader in satellite-based solutions primarily serving",
-   "src": "SpaceNews",
-   "translated": true
-  },
-  {
-   "title": "Iniciativa Satrec para construir satélites ópticos de classe de 10 centímetros para a constelação de Hanwha",
-   "link": "https://spacenews.com/satrec-initiative-to-build-10-centimeter-class-optical-satellites-for-hanwha-constellation/",
-   "date": "Thu, 17 Sep 2026 15:05:15 +0000",
-   "desc": "PARIS - South Korean company Satrec Initiative is working with parent company Hanwha Aerospace to provide high-resolution Earth imagery for the synthetic-apertu",
-   "src": "SpaceNews",
-   "translated": true
-  },
-  {
-   "title": "Simera Sense e IDOM fazem parceria para desenvolver e produzir o sistema óptico xScape350 conforme a demanda por imagens EO de alta resolução aumenta",
-   "link": "https://spacenews.com/simera-sense-and-idom-partner-to-develop-and-produce-xscape350-optical-system-as-demand-for-high-resolution-eo-imagery-surges/",
-   "date": "Thu, 17 Sep 2026 14:40:51 +0000",
-   "desc": "LEUVEN, BELGIUM and BILBAO, SPAIN – 17 September 2026—Simera Sense, a leading European provider of optical payload solutions for small satellites, today announc",
    "src": "SpaceNews",
    "translated": true
   }
