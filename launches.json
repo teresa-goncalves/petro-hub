@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-21T15:54:42.095Z",
+ "updated": "2026-09-22T14:03:23.285Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
   {
@@ -38,18 +38,18 @@
    "net": "2026-09-28T12:15:00Z"
   },
   {
-   "d": "30",
-   "mo": "SET",
-   "missao": "Falcon 9 · Starlink 15-25",
-   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 30/09, 13:00 (Brasília) · comunicações",
-   "net": "2026-09-30T16:00:00Z"
-  },
-  {
    "d": "--",
    "mo": "",
    "missao": "Falcon 9 · Crew-13",
    "sub": "SpaceX · Cabo Canaveral, Flórida (EUA) · data a confirmar · voo tripulado",
    "net": "2026-10-01T15:10:06Z"
+  },
+  {
+   "d": "01",
+   "mo": "OUT",
+   "missao": "Falcon 9 · Transporter 18 (Dedicated SSO Rideshare)",
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 01/10, 15:08 (Brasília) · carona compartilhada",
+   "net": "2026-10-01T18:08:00Z"
   },
   {
    "d": "04",
