@@ -1,75 +1,75 @@
 {
- "updated": "2026-09-22T14:12:25.206Z",
+ "updated": "2026-09-23T14:27:55.043Z",
  "items": [
+  {
+   "title": "A batalha eólica offshore esquenta, agora com uma reviravolta na energia geotérmica",
+   "link": "https://cleantechnica.com/2026/09/23/geothermal-energy-offshore-wind-lawsuits-illegal-payoffs/",
+   "date": "Wed, 23 Sep 2026 13:55:06 +0000",
+   "desc": "Trump is transferring money from allegedly illegal offshore wind deals to support geothermal energy projects, and nine coastal states are fighting back in court",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Vast anuncia nova divisão de programas lunares",
+   "link": "https://payloadspace.com/vast-announces-new-lunar-programs/",
+   "date": "Wed, 23 Sep 2026 13:00:00 +0000",
+   "desc": "Vast announced a Lunar Programs division, building on its commercial space station and satellite development work to support NASA’s Moon Base ambitions. The pos",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "Exclusivo: Astrolab, Caça ao Mapeamento Interestelar Água Lunar",
+   "link": "https://payloadspace.com/exclusive-astrolab-interstellar-mapping-team-on-lunar-water-hunt/",
+   "date": "Wed, 23 Sep 2026 12:30:00 +0000",
+   "desc": "A new partnership between Astrolab and Interstellar Mapping is one giant leap for mapkind. The post Exclusive: Astrolab, Interstellar Mapping Hunt Lunar Water a",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "BYD lança grande caminhão elétrico de 44 toneladas métricas na IAA Transport",
+   "link": "https://cleantechnica.com/2026/09/23/byd-launches-major-44-metric-ton-electric-truck-in-iaa-transport/",
+   "date": "Wed, 23 Sep 2026 05:17:16 +0000",
+   "desc": "HANNOVER, Germany — BYD launched an aggressive push into Europe's heavy-duty freight market at the IAA Transportation show, revealing a flagship 44-metric-ton e",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Novos modelos Antrópicos e OpenAI fazem a mesma promessa: um pouco mais por muito menos dinheiro",
+   "link": "https://arstechnica.com/ai/2026/09/new-anthropic-openai-models-make-same-promise-a-little-more-for-a-lot-less-money/",
+   "date": "Tue, 22 Sep 2026 21:25:18 +0000",
+   "desc": "The frontier AI model race has entered its comparison shopping phase.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Microsoft interrompe plataforma assistida por IA que comprometeu 12.000 contas",
+   "link": "https://arstechnica.com/security/2026/09/microsoft-disrupts-ai-assisted-platform-that-compromised-12000/",
+   "date": "Tue, 22 Sep 2026 19:45:47 +0000",
+   "desc": "EvilTokens provided an end-to-end platform that makes mass compromises faster and easier.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Adobe Premiere finalmente traz edição de vídeo poderosa para Android e é grátis",
+   "link": "https://arstechnica.com/gadgets/2026/09/adobe-premiere-finally-brings-powerful-video-editing-to-android-and-its-free/",
+   "date": "Tue, 22 Sep 2026 19:08:58 +0000",
+   "desc": "You don't even need a Creative Cloud login to edit clips, but AI features cost extra.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Por que os rebocadores ajustam as baterias melhor do que sugerem suas classificações de potência",
+   "link": "https://cleantechnica.com/2026/09/22/electric-tugboats-battery-duty-cycle/",
+   "date": "Tue, 22 Sep 2026 15:55:15 +0000",
+   "desc": "Tugboats do not initially look like good candidates for battery propulsion. A harbour tug has to shove, pull and control ships weighing tens or hundreds of thou",
+   "src": "CleanTechnica",
+   "translated": true
+  },
   {
    "title": "TRL11 construirá tecnologia de imagem para liberdade SR-1",
    "link": "https://payloadspace.com/trl11-will-build-imaging-tech-for-sr-1-freedom/",
    "date": "Tue, 22 Sep 2026 12:30:00 +0000",
    "desc": "TRL11 has received a NASA contract to provide imaging systems for the Space Reactor-1 (SR-1) Freedom mission to Mars. The post TRL11 Will Build Imaging Tech for",
-   "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "Chefe da NASA: Só estou interessado em “bons negócios” de parceiros internacionais",
-   "link": "https://arstechnica.com/space/2026/09/nasa-chief-im-only-interested-in-good-deals-from-international-partners/",
-   "date": "Tue, 22 Sep 2026 11:00:37 +0000",
-   "desc": "\"There was absolutely a time where we were trying to make everyone happy.\"",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "As Filipinas estão levando seu ônibus elétrico do amor para além da região metropolitana de Manila",
-   "link": "https://cleantechnica.com/2026/09/22/the-philippines-is-taking-its-electric-love-bus-beyond-metro-manila/",
-   "date": "Tue, 22 Sep 2026 10:38:11 +0000",
-   "desc": "Electric Love Bus Expands Across Philippine Cities as Test for Public EV Adoption THE Philippines is expanding its electric Love Bus program beyond its initial ",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "Presidente das Filipinas impulsiona produção local de triciclos elétricos, Jeepneys",
-   "link": "https://cleantechnica.com/2026/09/22/philippine-president-pushes-local-production-of-electric-tricycles-jeepneys/",
-   "date": "Tue, 22 Sep 2026 09:31:40 +0000",
-   "desc": "President Marcos continues to energize the country's renewable and clean energy directions MANILA, Philippines — President Ferdinand Marcos Jr. is pushing for l",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "Irizar conclui entrega de 31 ônibus elétricos à rede GZM da Polônia",
-   "link": "https://cleantechnica.com/2026/09/21/irizar-completes-delivery-of-31-electric-buses-to-polands-gzm-network/",
-   "date": "Tue, 22 Sep 2026 03:52:49 +0000",
-   "desc": "SPANISH electric bus manufacturer Irizar e-mobility has completed delivery of 31 battery-electric buses to Górnośląsko-Zagłębiowska Metropolia (GZM), adding a s",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "Muse, o assistente de IA extraordinariamente privilegiado do Meta, tem um sério problema de 0 dias",
-   "link": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
-   "date": "Mon, 21 Sep 2026 22:24:38 +0000",
-   "desc": "A simple ClickFix attack is only one way to completely hijack the new agent.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "Arábia Saudita quer indústria automobilística, lança Ceer com dois EVs",
-   "link": "https://arstechnica.com/cars/2026/09/saudi-arabia-wants-a-car-industry-launches-ceer-with-two-evs/",
-   "date": "Mon, 21 Sep 2026 20:55:36 +0000",
-   "desc": "The new carmaker is a joint venture between the Saudi PIF and Foxconn.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "Exclusivo: Exolaunch Books sua primeira missão Starfall",
-   "link": "https://payloadspace.com/exclusive-exolaunch-books-its-first-starfall-mission/",
-   "date": "Mon, 21 Sep 2026 12:16:56 +0000",
-   "desc": "Exolaunch signed an agreement to support customer payloads on a SpaceX Starfall reentry mission scheduled to launch on a Starship NET 2029. The post Exclusive: ",
-   "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "A economia lunar pode valer US$ 566 bilhões até 2050. Primeiro, temos que construí-la.",
-   "link": "https://payloadspace.com/the-lunar-economy-could-be-worth-566b-by-2050-first-we-have-to-build-it/",
-   "date": "Mon, 21 Sep 2026 12:00:00 +0000",
-   "desc": "The return to the Moon is an infrastructure story, and Deloitte has created numbers to back it up. The number: A new report from Deloitte, Building the Lunar Ec",
    "src": "Payload",
    "translated": true
   }
