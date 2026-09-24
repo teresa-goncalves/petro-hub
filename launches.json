@@ -1,14 +1,7 @@
 {
- "updated": "2026-09-23T14:15:19.104Z",
+ "updated": "2026-09-24T14:13:49.101Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
-  {
-   "d": "24",
-   "mo": "SET",
-   "missao": "Long March 6A · carga não divulgada",
-   "sub": "CASC · Taiyuan (China) · 24/09, 05:45 (Brasília)",
-   "net": "2026-09-24T08:45:00Z"
-  },
   {
    "d": "25",
    "mo": "SET",
@@ -57,6 +50,13 @@
    "missao": "Ariane 64 Block 2 · Amazon Leo (LE-04)",
    "sub": "Arianespace · Centro Espacial de Kourou (Guiana Francesa) · 06/10, 21:00 (Brasília) · comunicações",
    "net": "2026-10-07T00:00:00Z"
+  },
+  {
+   "d": "07",
+   "mo": "OUT",
+   "missao": "Nuri · NeonSat-2 to 6",
+   "sub": "Korea Aerospace Research Institute · Naro (Coreia do Sul) · 07/10, 00:23 (Brasília) · observação da Terra",
+   "net": "2026-10-07T03:23:00Z"
   }
  ]
 }
