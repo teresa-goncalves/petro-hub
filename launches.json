@@ -1,20 +1,20 @@
 {
- "updated": "2026-09-24T14:13:49.101Z",
+ "updated": "2026-09-25T14:37:24.794Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
   {
    "d": "25",
    "mo": "SET",
    "missao": "Electron · Owlright, Owlright, Owlright (StriX Launch 13)",
-   "sub": "Rocket Lab · Mahia (Nova Zelândia) · 25/09, 21:15 (Brasília) · observação da Terra",
-   "net": "2026-09-26T00:15:00Z"
+   "sub": "Rocket Lab · Mahia (Nova Zelândia) · 25/09, 21:26 (Brasília) · observação da Terra",
+   "net": "2026-09-26T00:26:00Z"
   },
   {
-   "d": "26",
-   "mo": "SET",
+   "d": "--",
+   "mo": "",
    "missao": "Falcon 9 · USSF-385",
-   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 26/09, 08:56 (Brasília) · carga militar/classificada",
-   "net": "2026-09-26T11:56:00Z"
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · data a confirmar · carga militar/classificada",
+   "net": "2026-09-26T12:56:13Z"
   },
   {
    "d": "28",
@@ -34,8 +34,15 @@
    "d": "01",
    "mo": "OUT",
    "missao": "Falcon 9 · Transporter 18 (Dedicated SSO Rideshare)",
-   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 01/10, 15:08 (Brasília) · carona compartilhada",
-   "net": "2026-10-01T18:08:00Z"
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 01/10, 15:18 (Brasília) · carona compartilhada",
+   "net": "2026-10-01T18:18:00Z"
+  },
+  {
+   "d": "02",
+   "mo": "OUT",
+   "missao": "Falcon Heavy · NROL-97",
+   "sub": "SpaceX · Centro Espacial Kennedy, Flórida (EUA) · 02/10, 00:53 (Brasília) · carga militar/classificada",
+   "net": "2026-10-02T03:53:00Z"
   },
   {
    "d": "04",
@@ -43,13 +50,6 @@
    "missao": "SR75 · Flight 2",
    "sub": "HyImpulse · SaxaVord (Escócia) · 04/10, 21:00 (Brasília) · voo de teste",
    "net": "2026-10-05T00:00:00Z"
-  },
-  {
-   "d": "06",
-   "mo": "OUT",
-   "missao": "Ariane 64 Block 2 · Amazon Leo (LE-04)",
-   "sub": "Arianespace · Centro Espacial de Kourou (Guiana Francesa) · 06/10, 21:00 (Brasília) · comunicações",
-   "net": "2026-10-07T00:00:00Z"
   },
   {
    "d": "07",
