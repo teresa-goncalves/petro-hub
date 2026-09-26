@@ -1,20 +1,13 @@
 {
- "updated": "2026-09-25T14:37:24.794Z",
+ "updated": "2026-09-26T13:45:31.802Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
-  {
-   "d": "25",
-   "mo": "SET",
-   "missao": "Electron · Owlright, Owlright, Owlright (StriX Launch 13)",
-   "sub": "Rocket Lab · Mahia (Nova Zelândia) · 25/09, 21:26 (Brasília) · observação da Terra",
-   "net": "2026-09-26T00:26:00Z"
-  },
   {
    "d": "--",
    "mo": "",
    "missao": "Falcon 9 · USSF-385",
    "sub": "SpaceX · Vandenberg, Califórnia (EUA) · data a confirmar · carga militar/classificada",
-   "net": "2026-09-26T12:56:13Z"
+   "net": "2026-09-26T14:00:54Z"
   },
   {
    "d": "28",
@@ -50,6 +43,13 @@
    "missao": "SR75 · Flight 2",
    "sub": "HyImpulse · SaxaVord (Escócia) · 04/10, 21:00 (Brasília) · voo de teste",
    "net": "2026-10-05T00:00:00Z"
+  },
+  {
+   "d": "05",
+   "mo": "OUT",
+   "missao": "Falcon 9 · SDA Tranche 1 Transport Layer A",
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 05/10, 05:06 (Brasília) · carga militar/classificada",
+   "net": "2026-10-05T08:06:00Z"
   },
   {
    "d": "07",
