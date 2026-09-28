@@ -1,32 +1,64 @@
 {
- "updated": "2026-09-27T14:50:32.838Z",
+ "updated": "2026-09-28T17:49:58.872Z",
  "items": [
   {
-   "title": "O SsangYong CCR-1: um dos primeiros experimentos EV coreanos",
-   "link": "https://cleantechnica.com/2026/09/27/the-ssangyong-ccr-1-an-early-korean-ev-experiment/",
-   "date": "Sun, 27 Sep 2026 14:02:01 +0000",
-   "desc": "SEOUL, South Korea — Long before SsangYong Motor became part of the electric-vehicle transition now reshaping South Korea's automotive industry, it built an ele",
+   "title": "O espaço é assunto de todos: o 4º Encontro Anual de Economia Espacial da Economist Enterprise retorna a Orlando",
+   "link": "https://spacenews.com/space-is-everyones-business-economist-enterprises-4th-annual-space-economy-summit-returns-to-orlando/",
+   "date": "Mon, 28 Sep 2026 14:57:21 +0000",
+   "desc": "ORLANDO, FL — September 28th, 2026 — Space is rapidly becoming a practical business tool for industries far beyond aerospace, as satellite intelligence, resilie",
+   "src": "SpaceNews",
+   "translated": true
+  },
+  {
+   "title": "Os caminhões de lixo a hidrogênio de Leipzig falham no teste de terça-feira",
+   "link": "https://cleantechnica.com/2026/09/28/leipzig-hydrogen-garbage-trucks-availability/",
+   "date": "Mon, 28 Sep 2026 14:24:23 +0000",
+   "desc": "Garbage collection is not a technology demonstration. Municipalities need trucks that leave the depot every working morning, finish predictable routes, operate ",
    "src": "CleanTechnica",
    "translated": true
   },
   {
-   "title": "A campanha de veículos elétricos das Filipinas não pode se dar ao luxo de ignorar a ASEAN",
-   "link": "https://cleantechnica.com/2026/09/27/the-philippines-electric-vehicle-push-cannot-afford-to-ignore-asean/",
-   "date": "Sun, 27 Sep 2026 13:59:45 +0000",
-   "desc": "MANILA, Philippines — On the surface, the transition to electric mobility looks like an intensely domestic fight. Commuters in Metro Manila complain about errat",
+   "title": "Nave estelar chega à órbita no 14º voo de teste",
+   "link": "https://payloadspace.com/starship-reaches-orbit-on-14th-test-flight/",
+   "date": "Mon, 28 Sep 2026 14:06:05 +0000",
+   "desc": "After reaching orbit, Starship deployed 26 V3 Starlink sats over about 30 minutes using its ‘Pez dispenser’ system. The post Starship Reaches Orbit on 14th Test",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "Exclusivo: Meridian Space gira fora do SpinLaunch",
+   "link": "https://payloadspace.com/exclusive-meridian-space-spins-out-from-spinlaunch/",
+   "date": "Mon, 28 Sep 2026 12:59:00 +0000",
+   "desc": "“Meridian will carry forward the satcom infrastructure business… SpinLaunch will continue to build on its vision for a lower-cost approach to launch, with furth",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "A demonstração de transmissão de energia orbital do Star Catcher está pronta para lançamento",
+   "link": "https://payloadspace.com/star-catchers-orbital-power-beaming-demo-is-ready-for-launch/",
+   "date": "Mon, 28 Sep 2026 12:15:00 +0000",
+   "desc": "Star Catcher announced today that its prototype power node is prepped and ready for launch NET Oct. 1. The post Star Catcher’s Orbital Power-Beaming Demo is Rea",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "Trilionário Tone-Deaf lança carro elétrico de US$ 200 mil no mercado azedo dos EUA",
+   "link": "https://cleantechnica.com/2026/09/28/tesla-roadster-electric-sports-car-expensive-aspirational-elections2026/",
+   "date": "Mon, 28 Sep 2026 04:39:38 +0000",
+   "desc": "The long-awaited unveiling of the new $200,000 Tesla Roadster electric sports car is set for October 1, just in time to stoke the fires of the affordability cri",
    "src": "CleanTechnica",
    "translated": true
   },
   {
-   "title": "CATL revela plataforma de bateria TECTRANS II na IAA Transport Show",
-   "link": "https://cleantechnica.com/2026/09/27/catl-unveils-tectrans-ii-battery-platform-with-1000-kilometer-range-for-commercial-vehicles/",
-   "date": "Sun, 27 Sep 2026 08:46:28 +0000",
-   "desc": "Capable of 1,000-kilometer range for commercial vehicles HANOVER, Germany — Chinese battery maker Contemporary Amperex Technology Co. Ltd. unveiled a new modula",
+   "title": "Space Squeeze força desenvolvedores solares a serem criativos",
+   "link": "https://cleantechnica.com/2026/09/27/community-solar-power-plants-tight-spaces-high-density/",
+   "date": "Sun, 27 Sep 2026 21:07:02 +0000",
+   "desc": "A high density racking system enables a new 11-megawatt solar power plant to fit inside a constrained, irregular parcel of land in the city of Elgin, Illinois. ",
    "src": "CleanTechnica",
    "translated": true
   },
   {
-   "title": "Tribunal determina que Pentágono pode colocar Antrópico na lista negra por se recusar a habilitar recursos de Claude",
+   "title": "Tribunal decide que Pentágono pode colocar Antrópico na lista negra por se recusar a habilitar recursos de Claude",
    "link": "https://arstechnica.com/tech-policy/2026/09/court-rules-trump-can-blacklist-anthropic-for-refusing-to-enable-claude-features/",
    "date": "Fri, 25 Sep 2026 21:36:20 +0000",
    "desc": "\"Overly constrained AI models\" could cause military operations to fail, judges say.",
@@ -39,38 +71,6 @@
    "date": "Fri, 25 Sep 2026 19:34:42 +0000",
    "desc": "Better thermals and battery life make this iterative update nicer to use.",
    "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "A IA deveria atingir fortemente os recém-formados. Até agora, os dados sobre o desemprego dizem o contrário.",
-   "link": "https://arstechnica.com/ai/2026/09/ai-was-supposed-to-hit-new-grads-hard-so-far-unemployment-data-says-otherwise/",
-   "date": "Fri, 25 Sep 2026 19:11:05 +0000",
-   "desc": "\"There is no evidence of any significant, widespread displacement or reduction in hiring.”",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "Adam Spice, CFO da Rocket Lab, prevê mais negócios de fusões e aquisições no horizonte",
-   "link": "https://payloadspace.com/rocket-lab-cfo-adam-spice-predicts-more-ma-deals-on-the-horizon/",
-   "date": "Fri, 25 Sep 2026 12:51:00 +0000",
-   "desc": "Iridium shareholders voted overwhelmingly to approve the company’s acquisition by Rocket Lab. According to Rocket Lab CFO Adam Spice, there’s more M&#038;A on t",
-   "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "Isaacman dobra o novo modelo da NASA para parcerias internacionais",
-   "link": "https://payloadspace.com/isaacman-doubles-down-on-new-nasa-model-for-international-partnerships/",
-   "date": "Fri, 25 Sep 2026 05:55:00 +0000",
-   "desc": "Isaacman is less than a year on the job, but he’s already upended the way the agency interacts with the rest of the world. The post Isaacman Doubles Down on New",
-   "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "A primeira lontra operacional da Starfish irá orbitar no próximo mês",
-   "link": "https://payloadspace.com/starfishs-first-operational-otter-heading-to-orbit-next-month/",
-   "date": "Thu, 24 Sep 2026 13:00:00 +0000",
-   "desc": "During the Small Spacecraft Propulsion and Inspection Capability, aka SSPICY, mission, Otter will approach and inspect multiple US defunct satellites, whose ope",
-   "src": "Payload",
    "translated": true
   }
  ]
