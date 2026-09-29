@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-28T17:40:45.021Z",
+ "updated": "2026-09-29T15:55:15.482Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
   {
@@ -52,11 +52,11 @@
    "net": "2026-10-10T16:00:00Z"
   },
   {
-   "d": "14",
+   "d": "13",
    "mo": "OUT",
    "missao": "GSLV Mk II · IRNSS-1L (NVS-03)",
-   "sub": "ISRO · Sriharikota (Índia) · 14/10, 21:00 (Brasília) · navegação",
-   "net": "2026-10-15T00:00:00Z"
+   "sub": "ISRO · Sriharikota (Índia) · 13/10, 14:00 (Brasília) · navegação",
+   "net": "2026-10-13T17:00:00Z"
   }
  ]
 }
