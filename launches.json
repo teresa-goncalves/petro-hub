@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-29T15:55:15.482Z",
+ "updated": "2026-09-30T15:56:34.900Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
   {
@@ -45,18 +45,18 @@
    "net": "2026-10-07T03:23:00Z"
   },
   {
+   "d": "09",
+   "mo": "OUT",
+   "missao": "Long March 12 · carga não divulgada",
+   "sub": "CASC · Wenchang (China) · 09/10, 16:25 (Brasília)",
+   "net": "2026-10-09T19:25:00Z"
+  },
+  {
    "d": "10",
    "mo": "OUT",
    "missao": "Falcon 9 · Starlink 15-25",
    "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 10/10, 13:00 (Brasília) · comunicações",
    "net": "2026-10-10T16:00:00Z"
-  },
-  {
-   "d": "13",
-   "mo": "OUT",
-   "missao": "GSLV Mk II · IRNSS-1L (NVS-03)",
-   "sub": "ISRO · Sriharikota (Índia) · 13/10, 14:00 (Brasília) · navegação",
-   "net": "2026-10-13T17:00:00Z"
   }
  ]
 }
