@@ -1,5 +1,140 @@
 [
  {
+  "title": "Wall Street sobe impulsionada por tech e alívio nos juros dos Treasuries",
+  "link": "https://www.cnnbrasil.com.br/economia/money/mercado/wall-street-sobe-impulsionada-por-tech-e-alivio-nos-juros-dos-treasuries/",
+  "date": "Thu, 01 Oct 2026 21:36:21 +0000",
+  "desc": "Índice Dow Jones subiu 0,04%, S&#038;P 500 avançou 0,2% e o Nasdaq teve alta de 0,04%; avanço foi de certa forma mitigado pela alta do petróleo e incertezas sob",
+  "src": "CNN Brasil",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "As exportações de petróleo da Venezuela caem 9% com a redução dos custos de frete",
+  "link": "https://oilprice.com/Energy/Crude-Oil/Venezuelas-Oil-Exports-Drop-9-as-Freight-Costs-Bite.html",
+  "date": "Thu, 01 Oct 2026 16:00:00 -0500",
+  "desc": "Venezuela’s oil exports fell nearly 9% in September to 1.08 million barrels per day as soaring tanker costs forced traders to demand steeper discounts and delay",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "China interrompe exportações de combustível em outubro à medida que crise global de diesel se aprofunda",
+  "link": "https://oilprice.com/Latest-Energy-News/World-News/China-Halts-October-Fuel-Exports-as-Global-Diesel-Crunch-Deepens.html",
+  "date": "Thu, 01 Oct 2026 15:40:00 -0500",
+  "desc": "China’s major refiners have suspended most refined fuel exports for October as Beijing prioritizes domestic supply security, removing another source of diesel, ",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "EXXONMOBIL E TOTALENERGIES ARREMATAM CARGAS DE PETRÓLEO DA UNIÃO EM LEILÃO DA PPSA",
+  "link": "https://petronoticias.com.br/exxonmobil-e-totalenergies-arrematam-cargas-de-petroleo-da-uniao-em-leilao-da-ppsa/",
+  "date": "Thu, 01 Oct 2026 20:00:39 +0000",
+  "desc": "A ExxonMobil e a TotalEnergies foram as vencedoras do 9º Leilão Spot de Petróleo da União, realizado pela Pré-Sal Petróleo (PPSA). A ExxonMobil arrematou uma ca",
+  "src": "Petronotícias",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "Táticas de mudança das refinarias de petróleo da Índia",
+  "link": "https://www.rigzone.com/news/wire/india_oil_refiners_shift_tactics-01-oct-2026-184750-article/?rss=true",
+  "date": "Thu, 01 Oct 2026 20:00:00 GMT",
+  "desc": "Indian oil refiners are hiring tankers to sail through the Strait of Hormuz to pick up crude from within the Persian Gulf.",
+  "src": "Rigzone",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Reino Unido mantém conversações de emergência com os EUA à medida que a crise do diesel aumenta",
+  "link": "https://oilprice.com/Energy/Energy-General/UK-Holds-Emergency-Talks-With-US-as-Diesel-Crisis-Escalates.html",
+  "date": "Thu, 01 Oct 2026 15:00:00 -0500",
+  "desc": "Energy secretary Miatta Fahnbulleh is holding crunch talks with her American counterpart over Donald Trump’s threat to curb diesel exports to Europe. City AM un",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Petróleo salta com novos receios de conflito",
+  "link": "https://www.rigzone.com/news/wire/oil_jumps_on_renewed_conflict_fears-01-oct-2026-184754-article/?rss=true",
+  "date": "Thu, 01 Oct 2026 19:42:58 GMT",
+  "desc": "Oil surged above $100 as renewed US-Iran tensions heightened concerns about Middle East supply disruptions.",
+  "src": "Rigzone",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "A AGÊNCIA DE PROTEÇÃO AMBIENTAL AMERICANA DÁ SINAL VERDE PARA A CONSTRUÇÃO DO TÚNEL DA LINHA 5 SOB O LAGO DE MICHIGAN QUE VAI ABRIGAR UM OLEODUTO",
+  "link": "https://petronoticias.com.br/a-agencia-de-protecao-ambiental-americana-da-sinal-verde-para-a-construcao-do-tunel-da-linha-5-sob-o-lago-de-michigan-que-vai-abrigar-um-oleoduto/",
+  "date": "Thu, 01 Oct 2026 19:00:14 +0000",
+  "desc": "Orlando- Por Fabiana Rocha – A obra do túnel sob o lago de Michigan ganhou um superaliado. O administrador da Agência de Proteção Ambiental dos EUA (EPA), Lee Z",
+  "src": "Petronotícias",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "As exportações de petróleo do Médio Oriente registam um regresso notável",
+  "link": "https://oilprice.com/Energy/Energy-General/Middle-East-Oil-Exports-Stage-a-Remarkable-Comeback.html",
+  "date": "Thu, 01 Oct 2026 14:00:00 -0500",
+  "desc": "Exports of crude oil from the Middle East hit their highest level in September since the war with Iran began, reinforcing a trend of increased supplies despite ",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "A MELBANA, PARCEIRA DA SONANGOL EM CUBA, REPORTA PERDAS MILIONÁRIAS E ABANDONA INVESTIMENTOS EM PETRÓLEO NO PAÍS",
+  "link": "https://petronoticias.com.br/a-melbana-parceira-da-sonangol-em-cuba-reporta-perdas-milionarias-e-abandona-investimentos-em-petroleo-no-pais/",
+  "date": "Thu, 01 Oct 2026 18:00:28 +0000",
+  "desc": "A empresa petrolífera australiana Melbana Energy, que encontrou petróleo de qualidade em Cuba e anunciou em dezembro de 2024 que começaria a exporta-lo, registr",
+  "src": "Petronotícias",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "BLM abre 35.000 acres na Califórnia para venda de arrendamento de petróleo e gás em dezembro",
+  "link": "https://oilprice.com/Latest-Energy-News/World-News/BLM-Opens-35000-California-Acres-to-December-Oil-and-Gas-Lease-Sale.html",
+  "date": "Thu, 01 Oct 2026 12:30:00 -0500",
+  "desc": "The Bureau of Land Management will offer roughly 35,000 acres in California for oil and gas leasing on December 1, putting 43 parcels in Kern, Kings, Fresno and",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "A ANP DIZ QUE A PRODUÇÃO NO BRASIL PASSOU DE 6 MILHÕES DE BARRIS DE ÓLEO EQUIVALENTE POR DIA E A PETROBRÁS ANUNCIA ALTA DE 11,8% NO QUEROSENE DE AVIAÇÃO",
+  "link": "https://petronoticias.com.br/a-anp-diz-que-a-producao-de-petroleo-no-brasil-passou-de-6-milhoes-de-barris-por-dia-e-a-petrobras-informa-um-aumento-de-118-no-querosene-de-aviacao/",
+  "date": "Thu, 01 Oct 2026 17:00:24 +0000",
+  "desc": "No mesmo momento em que a ANP divulgou que a produção média diária no Brasil passou de 6 milhões de barris de óleo equivalente (isto é, petróleo mais gás natura",
+  "src": "Petronotícias",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "Canadá acelera oleoduto de ligação do Pacífico de 1 milhão de bpd para a Ásia",
+  "link": "https://oilprice.com/Latest-Energy-News/World-News/Canada-Fast-Tracks-1-Million-Bpd-Pacific-Link-Oil-Pipeline-to-Asia.html",
+  "date": "Thu, 01 Oct 2026 11:30:00 -0500",
+  "desc": "Canada is fast-tracking a proposed 1 million-barrel-per-day oil pipeline to the Pacific coast, giving Alberta another route to Asian buyers and another way arou",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "ALÉM DE USAR A SAFRA DE CANA PARA PRODUZIR BIOCOMBUSTÍVEIS, A APLUS SE VOLTA PARA O MILHO PARA APROVEITAR A ENTRESSAFRA",
+  "link": "https://petronoticias.com.br/alem-de-usar-a-safra-de-cana-para-produzir-biocombustiveis-a-aplus-se-volta-para-o-milho-para-aproveitar-a-entresafra/",
+  "date": "Thu, 01 Oct 2026 16:00:46 +0000",
+  "desc": "Usinas produtoras de etanol de cana-de-açúcar estão buscando no milho uma alternativa para rodar também na entressafra, diluir custos fixos e aumentar a rentabi",
+  "src": "Petronotícias",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "OneSubsea entregará sistemas de produção para o Rovuma LNG",
+  "link": "https://www.rigzone.com/news/onesubsea_to_deliver_production_systems_for_rovuma_lng-01-oct-2026-184753-article/?rss=true",
+  "date": "Thu, 01 Oct 2026 15:37:27 GMT",
+  "desc": "The SLB joint venture received a contract from ExxonMobil to deliver subsea production systems for phase 1 of the planned Rovuma LNG project in Mozambique.",
+  "src": "Rigzone",
+  "reg": "INT",
+  "translated": true
+ },
+ {
   "title": "Como encontrar o primeiro trabalho embarcado?",
   "link": "https://clickpetroleoegas.com.br/como-encontrar-o-primeiro-trabalho-embarcado-flpc96/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=como-encontrar-o-primeiro-trabalho-embarcado-flpc96",
   "date": "Thu, 01 Oct 2026 15:37:13 +0000",
@@ -17860,141 +17995,6 @@
   "link": "https://www.offshore-energy.biz/technipfmc-brings-integrated-approach-to-var-energis-north-sea-subsea-projects/",
   "date": "Fri, 26 Jun 2026 09:01:03 +0000",
   "desc": "Norway’s oil &#38; gas player Vår Energi has awarded TechnipFMC with an integrated engineering, [&#8230;] The post TechnipFMC brings integrated approach to Vår ",
-  "src": "Offshore Energy",
-  "reg": "INT",
-  "translated": true
- },
- {
-  "title": "GNL e descarbonização na agenda da colaboração Orlen-Naftogaz",
-  "link": "https://www.offshore-energy.biz/lng-and-decarbonization-on-orlen-naftogaz-collaborations-agenda/",
-  "date": "Fri, 26 Jun 2026 08:26:29 +0000",
-  "desc": "Ukraine’s state-owned energy company Naftogaz Group and Poland’s Orlen have teamed up to fortify the liquefied natural gas (LNG) arsenal and efforts to curb gre",
-  "src": "Offshore Energy",
-  "reg": "INT",
-  "translated": true
- },
- {
-  "title": "Petróleo caminha para perdas semanais com recuperação do tráfego de petroleiros Hormuz",
-  "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Heads-for-Weekly-Loss-as-Hormuz-Tanker-Traffic-Rebounds.html",
-  "date": "Fri, 26 Jun 2026 00:00:00 -0500",
-  "desc": "Crude oil prices were on course for a sharp weekly loss amid multiple reports about a strong rebound in tanker traffic in the Strait of Hormuz. At the time of w",
-  "src": "OilPrice",
-  "reg": "INT",
-  "translated": true
- },
- {
-  "title": "EDGE, GREEN CARGO E NIMOFAST ANUNCIAM PLATAFORMA DE TRANSPORTE MOVIDA POR GNL",
-  "link": "https://petronoticias.com.br/edge-green-cargo-e-nimofast-anunciam-plataforma-de-transporte-movida-por-gnl/",
-  "date": "Thu, 25 Jun 2026 22:00:43 +0000",
-  "desc": "O Grupo Nimofast, a Edge e a Green Cargo anunciam o lançamento do Projeto GreenTech Logística Integrada, plataforma de transporte rodoviário de longa distância ",
-  "src": "Petronotícias",
-  "reg": "BR",
-  "translated": false
- },
- {
-  "title": "NINA KOCH É A NOVA PRESIDENTE DA EQUINOR NO BRASIL, ENQUANTO VERONICA COELHO ASSUME OPERAÇÃO EM ANGOLA",
-  "link": "https://petronoticias.com.br/nina-koch-e-a-nova-presidente-da-equinor-no-brasil-enquanto-veronica-coelho-assume-operacao-em-angola/",
-  "date": "Thu, 25 Jun 2026 20:00:30 +0000",
-  "desc": "Mudanças importantes no alto comando da Equinor. Nina Koch (foto principal), atualmente vice-presidente sênior da petroleira na África, assumirá o cargo de pres",
-  "src": "Petronotícias",
-  "reg": "BR",
-  "translated": false
- },
- {
-  "title": "A ACELEN E A TRAFIGURA FAZEM PARCERIA PARA FORNECER E COMERCIALIZAR ÓLEOS COMBUSTÍVEIS RENOVÁVEIS",
-  "link": "https://petronoticias.com.br/a-acelen-e-a-trafigura-fazem-parceria-para-fornecer-e-comercializar-oleos-combustiveis-renovaveis/",
-  "date": "Thu, 25 Jun 2026 19:00:18 +0000",
-  "desc": "A Acelen Renováveis, empresa de energia da Mubadala Capital, e a Trafigura, uma das maiores empresas independentes de comércio de commodities, assinaram um acor",
-  "src": "Petronotícias",
-  "reg": "BR",
-  "translated": false
- },
- {
-  "title": "A DELTA AIRLINES PASSA A USAR NOVA TECNOLOGIA AERODINÂMICAS EM PARTE DA FROTA PARA ECONOMIZAR COMBUSTÍVEIS",
-  "link": "https://petronoticias.com.br/a-delta-airlines-passa-a-usar-nova-tecnologia-aerodinamicas-em-parte-da-frota-para-economizar-combustiveis/",
-  "date": "Thu, 25 Jun 2026 18:00:22 +0000",
-  "desc": "A Delta Air Lines instalará um pacote de modificações de finlets (dispositivos aerodinâmicos instalados na parte traseira da fuselagem das aeronaves) em toda a ",
-  "src": "Petronotícias",
-  "reg": "BR",
-  "translated": false
- },
- {
-  "title": "Principal terminal petrolífero saudita volta à vida à medida que a recuperação da oferta do Golfo acelera",
-  "link": "https://oilprice.com/Latest-Energy-News/World-News/Major-Saudi-Oil-Terminal-Roars-Back-to-Life-as-Gulf-Supply-Recovery-Accelerates.html",
-  "date": "Thu, 25 Jun 2026 11:30:00 -0500",
-  "desc": "Saudi Arabia's biggest oil export terminal is finally stirring back to life, and that's a much bigger deal than another headline about the Strait of Hormuz reop",
-  "src": "OilPrice",
-  "reg": "INT",
-  "translated": true
- },
- {
-  "title": "AI Boom força Tennessee a planejar expansão massiva de gás natural",
-  "link": "https://oilprice.com/Energy/Energy-General/AI-Boom-Forces-Tennessee-to-Plan-Massive-Natural-Gas-Expansion.html",
-  "date": "Thu, 25 Jun 2026 11:00:00 -0500",
-  "desc": "The Tennessee Valley Authority released its preliminary 2026 integrated resource plan on Monday, saying load growth in its footprint is already outpacing the re",
-  "src": "OilPrice",
-  "reg": "INT",
-  "translated": true
- },
- {
-  "title": "Secretário de Energia do Reino Unido vetou plano para aumentar a produção de petróleo para fundos de defesa",
-  "link": "https://oilprice.com/Latest-Energy-News/World-News/UK-Energy-Secretary-Vetoed-Plan-to-Boost-Oil-Output-for-Defense-Funds.html",
-  "date": "Thu, 25 Jun 2026 10:30:00 -0500",
-  "desc": "UK Energy Secretary Ed Miliband has vetoed a plan by the Treasury to boost North Sea oil and gas drilling in order to fund part of Britain’s increased defense f",
-  "src": "OilPrice",
-  "reg": "INT",
-  "translated": true
- },
- {
-  "title": "Exportações de óleo combustível do Oriente Médio devem atingir o maior nível em quatro meses",
-  "link": "https://oilprice.com/Latest-Energy-News/World-News/Middle-East-Fuel-Oil-Exports-Set-to-Hit-Four-Month-High.html",
-  "date": "Thu, 25 Jun 2026 09:30:00 -0500",
-  "desc": "Fuel oil exports from the Middle East are expected to rebound to a four-month high this month as tanker traffic through the Strait of Hormuz picks up and key fu",
-  "src": "OilPrice",
-  "reg": "INT",
-  "translated": true
- },
- {
-  "title": "Rússia enfrenta crescente crise de combustível enquanto ataques ucranianos destroem refinarias",
-  "link": "https://oilprice.com/Energy/Energy-General/Russia-Faces-Growing-Fuel-Crunch-as-Ukrainian-Strikes-Knock-Out-Refineries.html",
-  "date": "Thu, 25 Jun 2026 09:00:00 -0500",
-  "desc": "Russia is facing its worst nationwide fuel shortages in years, with at least 17 regions imposing mandatory restrictions on gasoline and diesel sales, and dozens",
-  "src": "OilPrice",
-  "reg": "INT",
-  "translated": true
- },
- {
-  "title": "Equinor espera a decisão final sobre a maior descoberta de petróleo não desenvolvida da Noruega até o final de 2027",
-  "link": "https://www.offshore-energy.biz/equinor-eyes-final-call-on-norways-largest-undeveloped-oil-discovery-by-2027-end/",
-  "date": "Thu, 25 Jun 2026 13:36:07 +0000",
-  "desc": "Norway’s state-owned energy giant Equinor has submitted a proposed program for the environmental impact assessment (EIA) of a possible field development in the ",
-  "src": "Offshore Energy",
-  "reg": "INT",
-  "translated": true
- },
- {
-  "title": "ADNOC reduz o preço do petróleo bruto de Murban para US$ 101,48 à medida que as tensões em Hormuz diminuem",
-  "link": "https://oilprice.com/Latest-Energy-News/World-News/ADNOC-Cuts-Murban-Crude-Price-to-10148-as-Hormuz-Tensions-Ease.html",
-  "date": "Thu, 25 Jun 2026 08:30:00 -0500",
-  "desc": "ADNOC, the national oil company of Abu Dhabi, has cut the official selling price for July for its flagship Murban crude to $101.48 per barrel, down from $104.44",
-  "src": "OilPrice",
-  "reg": "INT",
-  "translated": true
- },
- {
-  "title": "China aumentará permissões para exportação de combustíveis em julho",
-  "link": "https://oilprice.com/Latest-Energy-News/World-News/China-to-Increase-Fuel-Export-Allowances-for-July.html",
-  "date": "Thu, 25 Jun 2026 07:30:00 -0500",
-  "desc": "China is raising the volume of fuels it is allowing state refiners to export, in a move that would alleviate concerns about tight refined petroleum supplies in ",
-  "src": "OilPrice",
-  "reg": "INT",
-  "translated": true
- },
- {
-  "title": "Perenco fecha acordo de gás para projeto offshore no Sudeste Asiático",
-  "link": "https://www.offshore-energy.biz/perenco-pens-gas-deal-for-southeast-asian-offshore-project/",
-  "date": "Thu, 25 Jun 2026 12:20:08 +0000",
-  "desc": "Perenco Vietnam, part of Anglo-French oil and gas player Perenco, has inked a gas sales and purchase agreement (GSPA) for a project off the coast of Vietnam, So",
   "src": "Offshore Energy",
   "reg": "INT",
   "translated": true
