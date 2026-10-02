@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-01T16:28:26.213Z",
+ "updated": "2026-10-02T15:51:01.123Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
-  {
-   "d": "--",
-   "mo": "",
-   "missao": "Falcon 9 · Transporter 18 (Dedicated SSO Rideshare)",
-   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · data a confirmar · carona compartilhada",
-   "net": "2026-10-01T18:22:00Z"
-  },
-  {
-   "d": "02",
-   "mo": "OUT",
-   "missao": "Falcon Heavy · NROL-97",
-   "sub": "SpaceX · Centro Espacial Kennedy, Flórida (EUA) · 02/10, 00:53 (Brasília) · carga militar/classificada",
-   "net": "2026-10-02T03:53:00Z"
-  },
   {
    "d": "05",
    "mo": "OUT",
    "missao": "Falcon 9 · SDA Tranche 1 Transport Layer A",
-   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 05/10, 05:16 (Brasília) · carga militar/classificada",
-   "net": "2026-10-05T08:16:00Z"
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 05/10, 05:17 (Brasília) · carga militar/classificada",
+   "net": "2026-10-05T08:17:00Z"
   },
   {
    "d": "07",
@@ -47,9 +33,9 @@
   {
    "d": "13",
    "mo": "OUT",
-   "missao": "GSLV Mk II · IRNSS-1L (NVS-03)",
-   "sub": "ISRO · Sriharikota (Índia) · 13/10, 14:00 (Brasília) · navegação",
-   "net": "2026-10-13T17:00:00Z"
+   "missao": "Falcon 9 · Dragon CRS-2 SpX-35",
+   "sub": "SpaceX · Cabo Canaveral, Flórida (EUA) · 13/10, 07:33 (Brasília) · reabastecimento da estação",
+   "net": "2026-10-13T10:33:00Z"
   },
   {
    "d": "--",
@@ -57,6 +43,20 @@
    "missao": "H3-24 · Martian Moon eXplorer (MMX)",
    "sub": "MHI · Tanegashima (Japão) · data a confirmar · ciência planetária",
    "net": "2026-10-19T19:41:03Z"
+  },
+  {
+   "d": "--",
+   "mo": "",
+   "missao": "Ariane 64 Block 2 · Amazon Leo (LE-04)",
+   "sub": "Arianespace · Centro Espacial de Kourou (Guiana Francesa) · data a confirmar · comunicações",
+   "net": "2026-10-31T00:00:00Z"
+  },
+  {
+   "d": "--",
+   "mo": "",
+   "missao": "Falcon 9 · Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
+   "sub": "SpaceX · Cabo Canaveral, Flórida (EUA) · data a confirmar · carona compartilhada",
+   "net": "2026-10-31T00:00:00Z"
   }
  ]
 }
