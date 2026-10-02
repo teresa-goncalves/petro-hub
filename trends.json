@@ -1,20 +1,68 @@
 {
- "updated": "2026-10-01T16:43:11.915Z",
+ "updated": "2026-10-02T15:58:45.266Z",
  "items": [
   {
-   "title": "Nova lista de verificação de carregamento de EV: estilo, conforto e um lugar legal para pendurar",
-   "link": "https://cleantechnica.com/2026/10/01/public-ev-charging-us-ionna-rechargery-tesla-supercharger/",
-   "date": "Thu, 01 Oct 2026 16:20:50 +0000",
-   "desc": "The IONNA consortium is scaling up its plans for public EV charging stations in the US, anticipating future growth in EV sales despite last year's sharp U-turn ",
+   "title": "A TV Nvidia Shield de 7 anos agora é US$ 100 mais cara graças à IA",
+   "link": "https://arstechnica.com/gadgets/2026/10/the-7-year-old-nvidia-shield-tv-is-now-100-more-expensive-thanks-to-ai/",
+   "date": "Fri, 02 Oct 2026 14:52:16 +0000",
+   "desc": "Initially launched in 2019, the Nvidia Shield TV Pro now retails for $299.99.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Relatório de foguete: SpaceX conclui lançamento triplo; Rocket Lab consegue grande contrato",
+   "link": "https://arstechnica.com/space/2026/10/rocket-report-spacex-completes-launch-triple-header-rocket-lab-nets-big-contract/",
+   "date": "Fri, 02 Oct 2026 13:54:34 +0000",
+   "desc": "Blue Origin seeks FAA approval for up to 50 New Glenn launches and 50 booster landings per year.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "A Revolução Invisível da Energia Solar em África",
+   "link": "https://cleantechnica.com/2026/10/02/solar-energy-africa-wildlife-national-geographic-documentary/",
+   "date": "Fri, 02 Oct 2026 12:09:23 +0000",
+   "desc": "The larger-than-life continent of Africa has emerged as a hotspot for solar energy developers, especially in the distributed resources sector. The post Africa's",
    "src": "CleanTechnica",
    "translated": true
   },
   {
-   "title": "Reach Stackers parecem um caso de uso de hidrogênio. As portas estão comprando baterias.",
-   "link": "https://cleantechnica.com/2026/10/01/battery-electric-reach-stackers-ports/",
-   "date": "Thu, 01 Oct 2026 15:33:21 +0000",
-   "desc": "A reach stacker looks like exactly the sort of machine batteries should struggle with. Large models can weigh more than 70 tonnes before picking anything up, th",
+   "title": "Skyrora muda cronograma de lançamento orbital para 2030",
+   "link": "https://payloadspace.com/skyrora-shifts-orbital-launch-timeline-to-2030/",
+   "date": "Fri, 02 Oct 2026 07:34:00 +0000",
+   "desc": "First-mover advantage isn’t all it’s cracked up to be—at least, that’s the thought process for UK launcher Skyrora. The post Skyrora Shifts Orbital Launch Timel",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "Texas PUC dá sinal verde para fechamento de usina de carvão e construção de energias renováveis, economizando milhões de galões de água todos os anos",
+   "link": "https://cleantechnica.com/2026/10/01/texas-puc-greenlights-coal-plant-closure-renewables-construction-saving-millions-of-gallons-of-water-every-year/",
+   "date": "Fri, 02 Oct 2026 03:41:54 +0000",
+   "desc": "AUSTIN, Texas — The Texas Public Utility Commission (PUC) ruled today that Southwestern Public Service Company (SPS) can proceed with closing its Tolk coal plan",
    "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Aproveitar o IAA para construir a cadeia de valor das baterias na Europa",
+   "link": "https://cleantechnica.com/2026/10/01/leveraging-the-iaa-to-build-europes-battery-value-chain/",
+   "date": "Fri, 02 Oct 2026 00:46:52 +0000",
+   "desc": "Why battery incentives in the Industrial Accelerator Act (IAA) are essential and achievable. Europe’s battery value chain has experienced several setbacks over ",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Transporter-18 testa os blocos de construção de data centers orbitais",
+   "link": "https://payloadspace.com/transporter-18-tests-the-building-blocks-of-orbital-data-centers/",
+   "date": "Thu, 01 Oct 2026 22:31:07 +0000",
+   "desc": "Few rideshares come with a theme, but SpaceX's Transporter-18 had one: getting power to compute in orbit. The post Transporter-18 Tests the Building Blocks of O",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "SpaceX descreve intervenção cirúrgica antes do lançamento da última missão da tripulação",
+   "link": "https://arstechnica.com/space/2026/10/spacex-describes-surgical-intervention-before-launch-of-latest-crew-mission/",
+   "date": "Thu, 01 Oct 2026 22:07:33 +0000",
+   "desc": "With Crew-13, Jessica Watkins became the first Black woman to lead a mission into space.",
+   "src": "Ars Technica",
    "translated": true
   },
   {
@@ -23,54 +71,6 @@
    "date": "Thu, 01 Oct 2026 15:06:43 +0000",
    "desc": "HOUSTON, Texas (September 30, 2026)— World Space Week events, beginning October 4 in 100 nations, will celebrate how launch innovation has stimulated the rapidl",
    "src": "SpaceNews",
-   "translated": true
-  },
-  {
-   "title": "Grupo LMT e Novaspace fazem parceria para desenvolver estratégia para centro de comunicações por satélite 5G/6G na Letônia",
-   "link": "https://spacenews.com/lmt-group-and-novaspace-partner-to-develop-strategy-for-5g-6g-satellite-communications-hub-in-latvia/",
-   "date": "Thu, 01 Oct 2026 14:40:51 +0000",
-   "desc": "Noordwijk, the Netherlands &#124; September 22, 2026&#160;- During the international Industry Space Days 2026 event at the European Space Agency’s ESTEC facilit",
-   "src": "SpaceNews",
-   "translated": true
-  },
-  {
-   "title": "XPENG lançará seu SUV G9L de última geração com IA e apresentará sua linha de IA física no Salão Automóvel de Paris de 2026",
-   "link": "https://cleantechnica.com/2026/10/01/xpeng-to-launch-its-next-gen-ai-flagship-g9l-suv-showcase-its-physical-ai-lineup-at-the-2026-paris-motor-show/",
-   "date": "Thu, 01 Oct 2026 13:40:08 +0000",
-   "desc": "XPENG will showcase its Physical AI ecosystem spanning its technology stack, humanoid robots, flying cars and AI-defined vehicles, including the G9L, L03, P7+, ",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "Satlyt levanta US$ 8 milhões para expandir sua rede virtual ODC",
-   "link": "https://payloadspace.com/satlyt-raises-8m-seed-to-expand-its-virtual-odc-network/",
-   "date": "Thu, 01 Oct 2026 13:00:00 +0000",
-   "desc": "Satlyt was founded in 2024 by Afullo, an alum of SpaceX and Google who spent years trying to convince both companies to invest in in-space edge computing opport",
-   "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "Foundational levanta £ 8,2 milhões para alcance de laser por satélite",
-   "link": "https://payloadspace.com/foundational-raises-8-2m-for-satellite-laser-ranging/",
-   "date": "Thu, 01 Oct 2026 12:50:00 +0000",
-   "desc": "Foundational emerged from stealth today with Europe's largest space tech pre-seed round. The post Foundational Raises £8.2M for Satellite Laser Ranging appeared",
-   "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "China lança satélites Guowang e Yaogan-40 e estabelece manifesto movimentado para o quarto trimestre",
-   "link": "https://spacenews.com/china-launches-guowang-yaogan-40-satellites-sets-up-busy-q4-manifest/",
-   "date": "Thu, 01 Oct 2026 12:46:32 +0000",
-   "desc": "HELSINKI — China completed its ninth and tenth launches of September, sending Guowang and Yaogan satellites into orbit, ahead of an intense finish to the year. ",
-   "src": "SpaceNews",
-   "translated": true
-  },
-  {
-   "title": "A NASA apertou o Tesouro, codificou a vibração e quebrou o molde na tentativa de salvar Swift",
-   "link": "https://arstechnica.com/space/2026/10/heres-why-nasa-is-celebrating-the-failed-mission-to-save-the-swift-observatory/",
-   "date": "Thu, 01 Oct 2026 11:15:15 +0000",
-   "desc": "\"We did some really, really cool stuff. I'm absolutely gutted we weren't able to get further.\"",
-   "src": "Ars Technica",
    "translated": true
   }
  ]
