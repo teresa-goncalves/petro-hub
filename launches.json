@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-02T15:51:01.123Z",
+ "updated": "2026-10-03T14:19:35.885Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
   {
@@ -31,11 +31,11 @@
    "net": "2026-10-10T23:00:00Z"
   },
   {
-   "d": "13",
-   "mo": "OUT",
+   "d": "--",
+   "mo": "",
    "missao": "Falcon 9 · Dragon CRS-2 SpX-35",
-   "sub": "SpaceX · Cabo Canaveral, Flórida (EUA) · 13/10, 07:33 (Brasília) · reabastecimento da estação",
-   "net": "2026-10-13T10:33:00Z"
+   "sub": "SpaceX · Cabo Canaveral, Flórida (EUA) · data a confirmar · reabastecimento da estação",
+   "net": "2026-10-13T10:33:44Z"
   },
   {
    "d": "--",
