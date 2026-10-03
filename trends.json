@@ -1,19 +1,35 @@
 {
- "updated": "2026-10-02T15:58:45.266Z",
+ "updated": "2026-10-03T14:26:16.619Z",
  "items": [
   {
-   "title": "A TV Nvidia Shield de 7 anos agora é US$ 100 mais cara graças à IA",
-   "link": "https://arstechnica.com/gadgets/2026/10/the-7-year-old-nvidia-shield-tv-is-now-100-more-expensive-thanks-to-ai/",
-   "date": "Fri, 02 Oct 2026 14:52:16 +0000",
-   "desc": "Initially launched in 2019, the Nvidia Shield TV Pro now retails for $299.99.",
+   "title": "Declaração da SEIA sobre as ações do governador Newsom em relação às contas de energia limpa",
+   "link": "https://cleantechnica.com/2026/10/02/seia-statement-on-governor-newsoms-actions-on-clean-energy-bills/",
+   "date": "Sat, 03 Oct 2026 00:08:09 +0000",
+   "desc": "Following statement on California legislative updates is attributable to Stephanie Doyle, California state affairs director for the Solar Energy Industries Asso",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "A Apple altera as permissões de acesso total ao disco para conter abusos de agentes de IA",
+   "link": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
+   "date": "Fri, 02 Oct 2026 23:03:16 +0000",
+   "desc": "Meta says FDA isn't sufficient to Muse reading messages. Apple begs to differ.",
    "src": "Ars Technica",
    "translated": true
   },
   {
-   "title": "Relatório de foguete: SpaceX conclui lançamento triplo; Rocket Lab consegue grande contrato",
-   "link": "https://arstechnica.com/space/2026/10/rocket-report-spacex-completes-launch-triple-header-rocket-lab-nets-big-contract/",
-   "date": "Fri, 02 Oct 2026 13:54:34 +0000",
-   "desc": "Blue Origin seeks FAA approval for up to 50 New Glenn launches and 50 booster landings per year.",
+   "title": "Resumo de pesquisa: 6 histórias científicas interessantes que quase perdemos",
+   "link": "https://arstechnica.com/science/2026/10/research-roundup-6-cool-science-stories-we-almost-missed-6/",
+   "date": "Fri, 02 Oct 2026 18:17:27 +0000",
+   "desc": "Also: Spooky action at the LHC, Ice Age psychoactive use, yeast for building homes on Mars, and more.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Militares dos EUA encerram programa de longa duração para detectar lançamentos de mísseis nucleares",
+   "link": "https://arstechnica.com/space/2026/10/us-military-ends-long-running-program-to-spot-nuclear-missile-launches/",
+   "date": "Fri, 02 Oct 2026 17:32:14 +0000",
+   "desc": "A newer program has been operational since 2011, and the next generation could launch within 12 months.",
    "src": "Ars Technica",
    "translated": true
   },
@@ -42,27 +58,11 @@
    "translated": true
   },
   {
-   "title": "Aproveitar o IAA para construir a cadeia de valor das baterias na Europa",
-   "link": "https://cleantechnica.com/2026/10/01/leveraging-the-iaa-to-build-europes-battery-value-chain/",
-   "date": "Fri, 02 Oct 2026 00:46:52 +0000",
-   "desc": "Why battery incentives in the Industrial Accelerator Act (IAA) are essential and achievable. Europe’s battery value chain has experienced several setbacks over ",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
    "title": "Transporter-18 testa os blocos de construção de data centers orbitais",
    "link": "https://payloadspace.com/transporter-18-tests-the-building-blocks-of-orbital-data-centers/",
    "date": "Thu, 01 Oct 2026 22:31:07 +0000",
    "desc": "Few rideshares come with a theme, but SpaceX's Transporter-18 had one: getting power to compute in orbit. The post Transporter-18 Tests the Building Blocks of O",
    "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "SpaceX descreve intervenção cirúrgica antes do lançamento da última missão da tripulação",
-   "link": "https://arstechnica.com/space/2026/10/spacex-describes-surgical-intervention-before-launch-of-latest-crew-mission/",
-   "date": "Thu, 01 Oct 2026 22:07:33 +0000",
-   "desc": "With Crew-13, Jessica Watkins became the first Black woman to lead a mission into space.",
-   "src": "Ars Technica",
    "translated": true
   },
   {
