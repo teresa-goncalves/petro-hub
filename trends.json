@@ -1,28 +1,12 @@
 {
- "updated": "2026-10-04T14:59:47.875Z",
+ "updated": "2026-10-05T18:52:05.371Z",
  "items": [
   {
-   "title": "Veículos elétricos mais vendidos no mundo – 27% de participação de EV em agosto!",
-   "link": "https://cleantechnica.com/2026/10/04/top-selling-electric-vehicles-in-the-world-27-ev-share-in-august/",
-   "date": "Sun, 04 Oct 2026 14:17:54 +0000",
-   "desc": "BEVs Up, PHEVs Down Plugin vehicle registrations were up 5% year over year (YoY) globally in August, ending the month at around 1.8 million units. Once again, B",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "O Recon do Jeep não é classificado como fralda de astronauta. É classificado como trilha.",
-   "link": "https://cleantechnica.com/2026/10/03/jeeps-recon-isnt-astronaut-diaper-rated-its-trail-rated/",
-   "date": "Sat, 03 Oct 2026 21:58:12 +0000",
-   "desc": "Back in 2007, an astronaut reportedly put on Maximum Absorbency Garment (aka MAG, a fancy name for the diapers astronauts wear on spacewalks), hopped in her car",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "Governo Australiano Acelera Transição de Energia Renovável",
-   "link": "https://cleantechnica.com/2026/10/03/australian-government-accelerates-renewable-energy-transition/",
-   "date": "Sat, 03 Oct 2026 20:08:26 +0000",
-   "desc": "The Australian Renewable Energy Agency (ARENA) has announced the milestone of 100 community batteries being installed. It has also delivered funding for home co",
-   "src": "CleanTechnica",
+   "title": "Óculos de IA enfrentam sua primeira grande repressão governamental",
+   "link": "https://arstechnica.com/ai/2026/10/ai-glasses-face-their-first-major-government-crackdown/",
+   "date": "Mon, 05 Oct 2026 13:39:30 +0000",
+   "desc": "Norway wants time to write permanent rules for glasses that can record bystanders.",
+   "src": "Ars Technica",
    "translated": true
   },
   {
@@ -38,14 +22,6 @@
    "link": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
    "date": "Fri, 02 Oct 2026 23:03:16 +0000",
    "desc": "Meta says FDA isn't sufficient to Muse reading messages. Apple begs to differ.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "Resumo de pesquisa: 6 histórias científicas interessantes que quase perdemos",
-   "link": "https://arstechnica.com/science/2026/10/research-roundup-6-cool-science-stories-we-almost-missed-6/",
-   "date": "Fri, 02 Oct 2026 18:17:27 +0000",
-   "desc": "Also: Spooky action at the LHC, Ice Age psychoactive use, yeast for building homes on Mars, and more.",
    "src": "Ars Technica",
    "translated": true
   },
@@ -70,6 +46,30 @@
    "link": "https://spacenews.com/world-space-week-2026-celebrates-the-rocket-revolution/",
    "date": "Thu, 01 Oct 2026 15:06:43 +0000",
    "desc": "HOUSTON, Texas (September 30, 2026)— World Space Week events, beginning October 4 in 100 nations, will celebrate how launch innovation has stimulated the rapidl",
+   "src": "SpaceNews",
+   "translated": true
+  },
+  {
+   "title": "Grupo LMT e Novaspace fazem parceria para desenvolver estratégia para centro de comunicações por satélite 5G/6G na Letônia",
+   "link": "https://spacenews.com/lmt-group-and-novaspace-partner-to-develop-strategy-for-5g-6g-satellite-communications-hub-in-latvia/",
+   "date": "Thu, 01 Oct 2026 14:40:51 +0000",
+   "desc": "Noordwijk, the Netherlands &#124; September 22, 2026&#160;- During the international Industry Space Days 2026 event at the European Space Agency’s ESTEC facilit",
+   "src": "SpaceNews",
+   "translated": true
+  },
+  {
+   "title": "Satlyt levanta US$ 8 milhões para expandir sua rede virtual ODC",
+   "link": "https://payloadspace.com/satlyt-raises-8m-seed-to-expand-its-virtual-odc-network/",
+   "date": "Thu, 01 Oct 2026 13:00:00 +0000",
+   "desc": "Satlyt was founded in 2024 by Afullo, an alum of SpaceX and Google who spent years trying to convince both companies to invest in in-space edge computing opport",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "China lança satélites Guowang e Yaogan-40 e estabelece manifesto movimentado para o quarto trimestre",
+   "link": "https://spacenews.com/china-launches-guowang-yaogan-40-satellites-sets-up-busy-q4-manifest/",
+   "date": "Thu, 01 Oct 2026 12:46:32 +0000",
+   "desc": "HELSINKI — China completed its ninth and tenth launches of September, sending Guowang and Yaogan satellites into orbit, ahead of an intense finish to the year. ",
    "src": "SpaceNews",
    "translated": true
   }
