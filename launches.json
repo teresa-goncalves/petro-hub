@@ -1,20 +1,20 @@
 {
- "updated": "2026-10-05T18:31:02.139Z",
+ "updated": "2026-10-06T15:58:55.893Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
-  {
-   "d": "06",
-   "mo": "OUT",
-   "missao": "Falcon 9 · SDA Tranche 1 Transport Layer A",
-   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 06/10, 05:17 (Brasília) · carga militar/classificada",
-   "net": "2026-10-06T08:17:00Z"
-  },
   {
    "d": "07",
    "mo": "OUT",
    "missao": "Nuri · NeonSat-2 to 6",
    "sub": "Korea Aerospace Research Institute · Naro (Coreia do Sul) · 07/10, 00:23 (Brasília) · observação da Terra",
    "net": "2026-10-07T03:23:00Z"
+  },
+  {
+   "d": "08",
+   "mo": "OUT",
+   "missao": "Falcon 9 · SDA Tranche 1 Transport Layer A",
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 08/10, 04:54 (Brasília) · carga militar/classificada",
+   "net": "2026-10-08T07:54:00Z"
   },
   {
    "d": "09",
@@ -38,6 +38,13 @@
    "net": "2026-10-13T10:33:44Z"
   },
   {
+   "d": "15",
+   "mo": "OUT",
+   "missao": "Falcon 9 · USSF-xxx (\"TH-2\")",
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 15/10, 20:44 (Brasília) · carga militar/classificada",
+   "net": "2026-10-15T23:44:00Z"
+  },
+  {
    "d": "--",
    "mo": "",
    "missao": "H3-24 · Martian Moon eXplorer (MMX)",
@@ -49,13 +56,6 @@
    "mo": "",
    "missao": "Ariane 64 Block 2 · Amazon Leo (LE-04)",
    "sub": "Arianespace · Centro Espacial de Kourou (Guiana Francesa) · data a confirmar · comunicações",
-   "net": "2026-10-31T00:00:00Z"
-  },
-  {
-   "d": "--",
-   "mo": "",
-   "missao": "Falcon 9 · Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
-   "sub": "SpaceX · Cabo Canaveral, Flórida (EUA) · data a confirmar · carona compartilhada",
    "net": "2026-10-31T00:00:00Z"
   }
  ]
