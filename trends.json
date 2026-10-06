@@ -1,27 +1,19 @@
 {
- "updated": "2026-10-05T18:52:05.371Z",
+ "updated": "2026-10-06T16:17:47.303Z",
  "items": [
+  {
+   "title": "A competição por recursos se intensifica com o aumento das megaconstelações",
+   "link": "https://spacenews.com/resource-competition-intensifies-with-surge-in-megaconstellations/",
+   "date": "Mon, 05 Oct 2026 19:13:40 +0000",
+   "desc": "Amazon wants more than 5,000 satellites in orbit. Blue Origin has proposed another 5,400. Chinese companies have filed plans encompassing vastly more. Elon Musk",
+   "src": "SpaceNews",
+   "translated": true
+  },
   {
    "title": "Óculos de IA enfrentam sua primeira grande repressão governamental",
    "link": "https://arstechnica.com/ai/2026/10/ai-glasses-face-their-first-major-government-crackdown/",
    "date": "Mon, 05 Oct 2026 13:39:30 +0000",
    "desc": "Norway wants time to write permanent rules for glasses that can record bystanders.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "Milt Windler, diretor de vôo da NASA que ajudou a salvar a Apollo 13, morre aos 94 anos",
-   "link": "https://arstechnica.com/space/2026/10/milt-windler-nasa-flight-director-who-helped-save-apollo-13-dies-at-94/",
-   "date": "Sat, 03 Oct 2026 19:45:17 +0000",
-   "desc": "\"...we were making history.\"",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "A Apple altera as permissões de acesso total ao disco para conter abusos de agentes de IA",
-   "link": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
-   "date": "Fri, 02 Oct 2026 23:03:16 +0000",
-   "desc": "Meta says FDA isn't sufficient to Muse reading messages. Apple begs to differ.",
    "src": "Ars Technica",
    "translated": true
   },
@@ -63,14 +55,6 @@
    "date": "Thu, 01 Oct 2026 13:00:00 +0000",
    "desc": "Satlyt was founded in 2024 by Afullo, an alum of SpaceX and Google who spent years trying to convince both companies to invest in in-space edge computing opport",
    "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "China lança satélites Guowang e Yaogan-40 e estabelece manifesto movimentado para o quarto trimestre",
-   "link": "https://spacenews.com/china-launches-guowang-yaogan-40-satellites-sets-up-busy-q4-manifest/",
-   "date": "Thu, 01 Oct 2026 12:46:32 +0000",
-   "desc": "HELSINKI — China completed its ninth and tenth launches of September, sending Guowang and Yaogan satellites into orbit, ahead of an intense finish to the year. ",
-   "src": "SpaceNews",
    "translated": true
   }
  ]
