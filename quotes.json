@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-06T21:08:38.821Z",
+ "updated": "2026-10-07T00:56:05.083Z",
  "quotes": [
   {
    "sym": "BZ=F",
    "name": "Petróleo Brent",
    "group": "commodity",
-   "price": 101.16,
-   "changePct": 0.84,
+   "price": 101.08,
+   "changePct": 0.5,
    "currency": "USD"
   },
   {
