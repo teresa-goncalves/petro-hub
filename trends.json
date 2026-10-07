@@ -1,6 +1,46 @@
 {
- "updated": "2026-10-06T16:17:47.303Z",
+ "updated": "2026-10-07T17:01:55.779Z",
  "items": [
+  {
+   "title": "Mistral diz que “Le Chonk” pode desafiar os melhores modelos de IA",
+   "link": "https://arstechnica.com/ai/2026/10/mistral-says-le-chonk-can-challenge-the-best-ai-models/",
+   "date": "Wed, 07 Oct 2026 14:12:37 +0000",
+   "desc": "Mistral says Le Chonk can rival top closed models while remaining open-weight.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Google lança detector de conteúdo SynthID AI aprimorado, agora disponível globalmente",
+   "link": "https://arstechnica.com/ai/2026/10/google-rolls-out-improved-synthid-ai-content-detector-now-available-globally/",
+   "date": "Wed, 07 Oct 2026 14:00:08 +0000",
+   "desc": "The new SynthID website can now identify AI content from Google, OpenAI, and more.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "AI/ML está se tornando um fator de desempenho no automobilismo",
+   "link": "https://arstechnica.com/cars/2026/10/ai-ml-setups-became-a-tool-in-indycar-champion-alex-palous-toolbox/",
+   "date": "Wed, 07 Oct 2026 13:56:38 +0000",
+   "desc": "More than just a sponsor: OpenAI has been helping Ganassi with setups.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Exclusivo: Xona aumenta a produção antes do lançamento do Pulsar",
+   "link": "https://payloadspace.com/exclusive-xona-ramps-up-production-ahead-of-pulsar-launch/",
+   "date": "Wed, 07 Oct 2026 13:00:00 +0000",
+   "desc": "With FCC approval in hand and six sats ready for the pad, Xona is turning to its next challenge: building the next 250. The post Exclusive: Xona Ramps Up Produc",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "ArbaLabs lança demonstração de verificação de IA no Nuri Rocket da Coreia do Sul",
+   "link": "https://payloadspace.com/arbalabs-launches-ai-verification-demo-on-south-koreas-nuri-rocket/",
+   "date": "Wed, 07 Oct 2026 12:28:38 +0000",
+   "desc": "“In short, tons of companies are looking at the latest and greatest physical AI deployments,” ArbaLabs CEO Ashley Reeves told Payload. “Nobody is really thinkin",
+   "src": "Payload",
+   "translated": true
+  },
   {
    "title": "A competição por recursos se intensifica com o aumento das megaconstelações",
    "link": "https://spacenews.com/resource-competition-intensifies-with-surge-in-megaconstellations/",
@@ -10,26 +50,10 @@
    "translated": true
   },
   {
-   "title": "Óculos de IA enfrentam sua primeira grande repressão governamental",
-   "link": "https://arstechnica.com/ai/2026/10/ai-glasses-face-their-first-major-government-crackdown/",
-   "date": "Mon, 05 Oct 2026 13:39:30 +0000",
-   "desc": "Norway wants time to write permanent rules for glasses that can record bystanders.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
    "title": "Skyrora muda cronograma de lançamento orbital para 2030",
    "link": "https://payloadspace.com/skyrora-shifts-orbital-launch-timeline-to-2030/",
    "date": "Fri, 02 Oct 2026 07:34:00 +0000",
    "desc": "First-mover advantage isn’t all it’s cracked up to be—at least, that’s the thought process for UK launcher Skyrora. The post Skyrora Shifts Orbital Launch Timel",
-   "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "Transporter-18 testa os blocos de construção de data centers orbitais",
-   "link": "https://payloadspace.com/transporter-18-tests-the-building-blocks-of-orbital-data-centers/",
-   "date": "Thu, 01 Oct 2026 22:31:07 +0000",
-   "desc": "Few rideshares come with a theme, but SpaceX's Transporter-18 had one: getting power to compute in orbit. The post Transporter-18 Tests the Building Blocks of O",
    "src": "Payload",
    "translated": true
   },
@@ -47,14 +71,6 @@
    "date": "Thu, 01 Oct 2026 14:40:51 +0000",
    "desc": "Noordwijk, the Netherlands &#124; September 22, 2026&#160;- During the international Industry Space Days 2026 event at the European Space Agency’s ESTEC facilit",
    "src": "SpaceNews",
-   "translated": true
-  },
-  {
-   "title": "Satlyt levanta US$ 8 milhões para expandir sua rede virtual ODC",
-   "link": "https://payloadspace.com/satlyt-raises-8m-seed-to-expand-its-virtual-odc-network/",
-   "date": "Thu, 01 Oct 2026 13:00:00 +0000",
-   "desc": "Satlyt was founded in 2024 by Afullo, an alum of SpaceX and Google who spent years trying to convince both companies to invest in in-space edge computing opport",
-   "src": "Payload",
    "translated": true
   }
  ]
