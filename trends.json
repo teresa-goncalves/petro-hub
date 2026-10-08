@@ -1,27 +1,43 @@
 {
- "updated": "2026-10-07T17:01:55.779Z",
+ "updated": "2026-10-08T16:58:55.562Z",
  "items": [
   {
-   "title": "Mistral diz que “Le Chonk” pode desafiar os melhores modelos de IA",
-   "link": "https://arstechnica.com/ai/2026/10/mistral-says-le-chonk-can-challenge-the-best-ai-models/",
-   "date": "Wed, 07 Oct 2026 14:12:37 +0000",
-   "desc": "Mistral says Le Chonk can rival top closed models while remaining open-weight.",
+   "title": "O que será necessário para construir uma base lunar?",
+   "link": "https://spacenews.com/what-will-it-take-to-build-a-moon-base/",
+   "date": "Thu, 08 Oct 2026 13:57:38 +0000",
+   "desc": "In this episode, a panel of industry experts discuss what’s needed to build a moon base. During a live event at the Johns Hopkins University Bloomberg Center, l",
+   "src": "SpaceNews",
+   "translated": true
+  },
+  {
+   "title": "DOT propõe alterações nas regras de licenciamento da Parte 450",
+   "link": "https://payloadspace.com/dot-proposes-changes-to-part-450-licensing-rules/",
+   "date": "Thu, 08 Oct 2026 12:19:56 +0000",
+   "desc": "On Tuesday, Transportation Secretary Sean Duffy announced five proposed FAA rules aiming to streamline and modernize commercial space launch and reentry regulat",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "A grande aposta da Nvidia em IA física visa robotáxis e robôs humanóides mais seguros",
+   "link": "https://arstechnica.com/ai/2026/10/nvidias-big-bet-on-physical-ai-aims-for-safer-robotaxis-humanoid-robots/",
+   "date": "Thu, 08 Oct 2026 11:15:33 +0000",
+   "desc": "Full-stack safety solution for physical AI is being used by robotics companies.",
    "src": "Ars Technica",
    "translated": true
   },
   {
-   "title": "Google lança detector de conteúdo SynthID AI aprimorado, agora disponível globalmente",
-   "link": "https://arstechnica.com/ai/2026/10/google-rolls-out-improved-synthid-ai-content-detector-now-available-globally/",
-   "date": "Wed, 07 Oct 2026 14:00:08 +0000",
-   "desc": "The new SynthID website can now identify AI content from Google, OpenAI, and more.",
+   "title": "Evento da Microsoft estreia novo hardware compatível com IA e mudanças no Windows",
+   "link": "https://arstechnica.com/gadgets/2026/10/microsoft-event-debuts-new-ai-friendly-hardware-and-windows-changes/",
+   "date": "Thu, 08 Oct 2026 00:00:24 +0000",
+   "desc": "Get ready for more AI in your Windows and more AI on the desktop.",
    "src": "Ars Technica",
    "translated": true
   },
   {
-   "title": "AI/ML está se tornando um fator de desempenho no automobilismo",
-   "link": "https://arstechnica.com/cars/2026/10/ai-ml-setups-became-a-tool-in-indycar-champion-alex-palous-toolbox/",
-   "date": "Wed, 07 Oct 2026 13:56:38 +0000",
-   "desc": "More than just a sponsor: OpenAI has been helping Ganassi with setups.",
+   "title": "“O software acabou”: ousado desenvolvedor de IA mira na Adobe com clones de código aberto",
+   "link": "https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/",
+   "date": "Wed, 07 Oct 2026 21:56:42 +0000",
+   "desc": "Opus-built Creative Cloud alternatives are ambitious, free, and nowhere near finished.",
    "src": "Ars Technica",
    "translated": true
   },
@@ -50,26 +66,10 @@
    "translated": true
   },
   {
-   "title": "Skyrora muda cronograma de lançamento orbital para 2030",
-   "link": "https://payloadspace.com/skyrora-shifts-orbital-launch-timeline-to-2030/",
-   "date": "Fri, 02 Oct 2026 07:34:00 +0000",
-   "desc": "First-mover advantage isn’t all it’s cracked up to be—at least, that’s the thought process for UK launcher Skyrora. The post Skyrora Shifts Orbital Launch Timel",
-   "src": "Payload",
-   "translated": true
-  },
-  {
    "title": "A Semana Espacial Mundial 2026 celebra a “Revolução dos Foguetes”",
    "link": "https://spacenews.com/world-space-week-2026-celebrates-the-rocket-revolution/",
    "date": "Thu, 01 Oct 2026 15:06:43 +0000",
    "desc": "HOUSTON, Texas (September 30, 2026)— World Space Week events, beginning October 4 in 100 nations, will celebrate how launch innovation has stimulated the rapidl",
-   "src": "SpaceNews",
-   "translated": true
-  },
-  {
-   "title": "Grupo LMT e Novaspace fazem parceria para desenvolver estratégia para centro de comunicações por satélite 5G/6G na Letônia",
-   "link": "https://spacenews.com/lmt-group-and-novaspace-partner-to-develop-strategy-for-5g-6g-satellite-communications-hub-in-latvia/",
-   "date": "Thu, 01 Oct 2026 14:40:51 +0000",
-   "desc": "Noordwijk, the Netherlands &#124; September 22, 2026&#160;- During the international Industry Space Days 2026 event at the European Space Agency’s ESTEC facilit",
    "src": "SpaceNews",
    "translated": true
   }
