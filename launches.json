@@ -1,14 +1,7 @@
 {
- "updated": "2026-10-07T16:33:12.881Z",
+ "updated": "2026-10-08T16:31:40.247Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
-  {
-   "d": "08",
-   "mo": "OUT",
-   "missao": "Falcon 9 · SDA Tranche 1 Transport Layer A",
-   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 08/10, 04:54 (Brasília) · carga militar/classificada",
-   "net": "2026-10-08T07:54:00Z"
-  },
   {
    "d": "09",
    "mo": "OUT",
@@ -19,9 +12,16 @@
   {
    "d": "10",
    "mo": "OUT",
+   "missao": "Falcon 9 · SDA Tranche 1 Transport Layer A",
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 10/10, 04:29 (Brasília) · carga militar/classificada",
+   "net": "2026-10-10T07:29:00Z"
+  },
+  {
+   "d": "12",
+   "mo": "OUT",
    "missao": "Falcon 9 · Starlink 15-25",
-   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 10/10, 20:00 (Brasília) · comunicações",
-   "net": "2026-10-10T23:00:00Z"
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 12/10, 20:00 (Brasília) · comunicações",
+   "net": "2026-10-12T23:00:00Z"
   },
   {
    "d": "--",
@@ -33,7 +33,7 @@
   {
    "d": "15",
    "mo": "OUT",
-   "missao": "Falcon 9 · USSF-xxx (\"TH-2\")",
+   "missao": "Falcon 9 · USSF-481",
    "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 15/10, 20:44 (Brasília) · carga militar/classificada",
    "net": "2026-10-15T23:44:00Z"
   },
