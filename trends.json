@@ -1,6 +1,46 @@
 {
- "updated": "2026-10-08T16:58:55.562Z",
+ "updated": "2026-10-09T16:38:12.549Z",
  "items": [
+  {
+   "title": "NASA assina pacto nuclear espacial e afirma que base lunar está adiantada",
+   "link": "https://payloadspace.com/nasa-signs-space-nuclear-pact-says-moon-base-is-ahead-of-schedule/",
+   "date": "Fri, 09 Oct 2026 12:18:10 +0000",
+   "desc": "Isaacman gave updates at the White House's “Science: A New Golden Age Summit.\" The post NASA Signs Space Nuclear Pact, Says Moon Base Is Ahead of Schedule appea",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "Relatório do foguete: um matagal raro do Falcon 9; é quase hora de Vulcano brilhar?",
+   "link": "https://arstechnica.com/space/2026/10/rocket-report-a-rare-falcon-9-scrub-is-it-just-about-vulcans-time-to-shine/",
+   "date": "Fri, 09 Oct 2026 11:00:57 +0000",
+   "desc": "\"I can say we’re weeks away from launching on Vulcan.\"",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Os provedores europeus de observação da Terra estão de olho no Satcom",
+   "link": "https://payloadspace.com/europes-earth-observation-providers-set-their-sights-on-satcoms/",
+   "date": "Fri, 09 Oct 2026 10:00:00 +0000",
+   "desc": "Open Cosmos recently laid out plans for a 192-satellite comms constellation, and ICEYE announced a partnership with Nokia for its own comms satellite network. T",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "SpaceX pede melhor coordenação em órbita após quase acidentes com Starlink",
+   "link": "https://arstechnica.com/space/2026/10/spacex-calls-for-better-coordination-in-orbit-after-near-misses-with-starlink/",
+   "date": "Thu, 08 Oct 2026 21:37:32 +0000",
+   "desc": "\"These led to conjunctions of tens of meters to hundreds of meters. Way too close to comfort.\"",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "RIP Margaret Hamilton, cujo código salvou o pouso da Apollo 11 na Lua",
+   "link": "https://arstechnica.com/science/2026/10/r-i-p-margaret-hamilton-whose-code-saved-the-apollo-11-moon-landing/",
+   "date": "Thu, 08 Oct 2026 20:15:53 +0000",
+   "desc": "Hamilton also coined the term \"software engineering\" and founded two successful software companies.",
+   "src": "Ars Technica",
+   "translated": true
+  },
   {
    "title": "O que será necessário para construir uma base lunar?",
    "link": "https://spacenews.com/what-will-it-take-to-build-a-moon-base/",
@@ -14,46 +54,6 @@
    "link": "https://payloadspace.com/dot-proposes-changes-to-part-450-licensing-rules/",
    "date": "Thu, 08 Oct 2026 12:19:56 +0000",
    "desc": "On Tuesday, Transportation Secretary Sean Duffy announced five proposed FAA rules aiming to streamline and modernize commercial space launch and reentry regulat",
-   "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "A grande aposta da Nvidia em IA física visa robotáxis e robôs humanóides mais seguros",
-   "link": "https://arstechnica.com/ai/2026/10/nvidias-big-bet-on-physical-ai-aims-for-safer-robotaxis-humanoid-robots/",
-   "date": "Thu, 08 Oct 2026 11:15:33 +0000",
-   "desc": "Full-stack safety solution for physical AI is being used by robotics companies.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "Evento da Microsoft estreia novo hardware compatível com IA e mudanças no Windows",
-   "link": "https://arstechnica.com/gadgets/2026/10/microsoft-event-debuts-new-ai-friendly-hardware-and-windows-changes/",
-   "date": "Thu, 08 Oct 2026 00:00:24 +0000",
-   "desc": "Get ready for more AI in your Windows and more AI on the desktop.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "“O software acabou”: ousado desenvolvedor de IA mira na Adobe com clones de código aberto",
-   "link": "https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/",
-   "date": "Wed, 07 Oct 2026 21:56:42 +0000",
-   "desc": "Opus-built Creative Cloud alternatives are ambitious, free, and nowhere near finished.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "Exclusivo: Xona aumenta a produção antes do lançamento do Pulsar",
-   "link": "https://payloadspace.com/exclusive-xona-ramps-up-production-ahead-of-pulsar-launch/",
-   "date": "Wed, 07 Oct 2026 13:00:00 +0000",
-   "desc": "With FCC approval in hand and six sats ready for the pad, Xona is turning to its next challenge: building the next 250. The post Exclusive: Xona Ramps Up Produc",
-   "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "ArbaLabs lança demonstração de verificação de IA no Nuri Rocket da Coreia do Sul",
-   "link": "https://payloadspace.com/arbalabs-launches-ai-verification-demo-on-south-koreas-nuri-rocket/",
-   "date": "Wed, 07 Oct 2026 12:28:38 +0000",
-   "desc": "“In short, tons of companies are looking at the latest and greatest physical AI deployments,” ArbaLabs CEO Ashley Reeves told Payload. “Nobody is really thinkin",
    "src": "Payload",
    "translated": true
   },
