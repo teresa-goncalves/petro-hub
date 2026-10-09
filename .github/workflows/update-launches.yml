@@ -28,4 +28,4 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add launches.json
-          git diff --staged --quiet || (git commit -m "chore: atualiza launches.json" && git push)
+          git diff --staged --quiet || (git commit -m "chore: atualiza launches.json" && (git push || (git pull --rebase && git push)))
