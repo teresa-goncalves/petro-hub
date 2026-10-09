@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08T16:31:40.247Z",
+ "updated": "2026-10-09T16:15:58.101Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
   {
@@ -13,8 +13,8 @@
    "d": "10",
    "mo": "OUT",
    "missao": "Falcon 9 · SDA Tranche 1 Transport Layer A",
-   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 10/10, 04:29 (Brasília) · carga militar/classificada",
-   "net": "2026-10-10T07:29:00Z"
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 10/10, 04:39 (Brasília) · carga militar/classificada",
+   "net": "2026-10-10T07:39:00Z"
   },
   {
    "d": "12",
@@ -45,17 +45,17 @@
    "net": "2026-10-19T19:41:03Z"
   },
   {
-   "d": "--",
-   "mo": "",
-   "missao": "Ariane 64 Block 2 · Amazon Leo (LE-04)",
-   "sub": "Arianespace · Centro Espacial de Kourou (Guiana Francesa) · data a confirmar · comunicações",
-   "net": "2026-10-31T00:00:00Z"
+   "d": "28",
+   "mo": "OUT",
+   "missao": "Vulcan VC6L · Amazon Leo (LV-01)",
+   "sub": "ULA · Cabo Canaveral, Flórida (EUA) · 28/10, 21:00 (Brasília) · comunicações",
+   "net": "2026-10-29T00:00:00Z"
   },
   {
    "d": "--",
    "mo": "",
-   "missao": "Falcon 9 · Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
-   "sub": "SpaceX · Cabo Canaveral, Flórida (EUA) · data a confirmar · carona compartilhada",
+   "missao": "Ariane 64 Block 2 · Amazon Leo (LE-04)",
+   "sub": "Arianespace · Centro Espacial de Kourou (Guiana Francesa) · data a confirmar · comunicações",
    "net": "2026-10-31T00:00:00Z"
   }
  ]
