@@ -1,5 +1,41 @@
 [
  {
+  "title": "Aumentam as exportações de produtos petrolíferos da Rússia",
+  "link": "https://www.rigzone.com/news/wire/russias_oil_product_exports_rise-10-oct-2026-184813-article/?rss=true",
+  "date": "Sat, 10 Oct 2026 12:00:00 GMT",
+  "desc": "Russia's oil product shipments climbed to a three-month high in September.",
+  "src": "Rigzone",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Subsea7 abre seleção offshore para enfermeiros, eletricistas, mecânicos, marinheiros, almoxarifes e operadores de rádio com prazos até dezembro",
+  "link": "https://clickpetroleoegas.com.br/subsea7-abre-selecao-offshore-para-enfermeiros-eletricistas-mecanicos-marinheiros-almoxarifes-e-operadores-de-radio-com-prazos-ate-dezembro-asaf04/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=subsea7-abre-selecao-offshore-para-enfermeiros-eletricistas-mecanicos-marinheiros-almoxarifes-e-operadores-de-radio-com-prazos-ate-dezembro-asaf04",
+  "date": "Sat, 10 Oct 2026 07:45:55 +0000",
+  "desc": "Companhia mantém oportunidades embarcadas para diferentes áreas técnicas e marítimas, com processos seletivos que começam a encerrar em outubro e seguem até dez",
+  "src": "ClickPetróleoeGás",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "Carro elétrico atrai 87% dos brasileiros com a alta da gasolina, mas preço elevado ainda dificulta a compra; pesquisa revela economia de combustível como principal atrativo",
+  "link": "https://clickpetroleoegas.com.br/carro-eletrico-atrai-87-dos-brasileiros-com-a-alta-da-gasolina-mas-preco-elevado-ainda-dificulta-a-compra-pesquisa-revela-economia-de-combustivel-como-principal-atrativo-vacs75/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=carro-eletrico-atrai-87-dos-brasileiros-com-a-alta-da-gasolina-mas-preco-elevado-ainda-dificulta-a-compra-pesquisa-revela-economia-de-combustivel-como-principal-atrativo-vacs75",
+  "date": "Sat, 10 Oct 2026 03:53:02 +0000",
+  "desc": "Levantamento realizado em julho mostra que motoristas brasileiros enxergam vantagens financeiras na eletrificação, mas o custo de aquisição ainda impede que par",
+  "src": "ClickPetróleoeGás",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "Governo Lula zera impostos federais sobre gasolina, amplia subsídio ao diesel para R$ 3,52 por litro e libera R$ 7,5 bilhões para conter alta dos combustíveis",
+  "link": "https://clickpetroleoegas.com.br/governo-lula-zera-impostos-federais-sobre-gasolina-amplia-subsidio-ao-diesel-para-r-352-por-litro-e-libera-r-75-bilhoes-para-conter-alta-dos-combustiveis-vacs75/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=governo-lula-zera-impostos-federais-sobre-gasolina-amplia-subsidio-ao-diesel-para-r-352-por-litro-e-libera-r-75-bilhoes-para-conter-alta-dos-combustiveis-vacs75",
+  "date": "Sat, 10 Oct 2026 03:37:02 +0000",
+  "desc": "Alta do petróleo provocada pela guerra no Oriente Médio leva equipe econômica a anunciar medidas emergenciais de 30 dias, com expectativa de aliviar os custos p",
+  "src": "ClickPetróleoeGás",
+  "reg": "BR",
+  "translated": false
+ },
+ {
   "title": "ANP APROVA ESTUDOS PARA OFERTA DE NOVO BLOCO NO PRÉ-SAL DA BACIA DE CAMPOS COM ELEVADO PONTENCIAL",
   "link": "https://petronoticias.com.br/anp-aprova-estudos-para-oferta-de-novo-bloco-no-pre-sal-da-bacia-de-campos-com-elevado-pontencial/",
   "date": "Fri, 09 Oct 2026 22:00:17 +0000",
@@ -13,6 +49,15 @@
   "link": "https://oilprice.com/Energy/Crude-Oil/Why-Record-Crude-Output-Cant-Solve-Americas-Diesel-Crisis.html",
   "date": "Fri, 09 Oct 2026 17:00:00 -0500",
   "desc": "The United States is producing more crude oil than ever. According to the Energy Information Administration, U.S. crude production is on track to average a reco",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Rússia e Alemanha aumentam fornecimento de diesel enquanto mercado de combustível luta por barris",
+  "link": "https://oilprice.com/Latest-Energy-News/World-News/Russia-Germany-Add-Diesel-Supply-as-Fuel-Market-Scrambles-for-Barrels.html",
+  "date": "Fri, 09 Oct 2026 16:30:00 -0500",
+  "desc": "Russia and Germany are putting more diesel into a global market that has spent months looking for barrels almost anywhere it can find them. President Donald Tru",
   "src": "OilPrice",
   "reg": "INT",
   "translated": true
@@ -43,6 +88,15 @@
   "src": "ClickPetróleoeGás",
   "reg": "BR",
   "translated": false
+ },
+ {
+  "title": "Furacão Isaias interrompe 71% da produção de petróleo do Golfo dos EUA",
+  "link": "https://oilprice.com/Latest-Energy-News/World-News/Hurricane-Isaias-Shuts-In-71-of-US-Gulf-Oil-Production.html",
+  "date": "Fri, 09 Oct 2026 15:30:00 -0500",
+  "desc": "Hurricane Isaias has now knocked nearly 1.46 million barrels per day of U.S. Gulf oil production offline, extending a rapid shutdown that began with just 185,12",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
  },
  {
   "title": "Petróleo avança em meio a riscos de guerra e furacões",
@@ -17944,59 +17998,5 @@
   "src": "ClickPetróleoeGás",
   "reg": "BR",
   "translated": false
- },
- {
-  "title": "A indiscutível superpotência global do petróleo",
-  "link": "https://oilprice.com/Energy/Energy-General/The-Undisputed-Global-Oil-Superpower.html",
-  "date": "Thu, 16 Jul 2026 09:00:00 -0500",
-  "desc": "The newly released 2026 Statistical Review of World Energy reinforces a point that sometimes gets lost in political discussions about energy: the United States ",
-  "src": "OilPrice",
-  "reg": "INT",
-  "translated": true
- },
- {
-  "title": "Argent LNG e Naftogaz reúnem recursos para analisar o fornecimento e distribuição de GNL multivias",
-  "link": "https://www.offshore-energy.biz/argent-lng-naftogaz-pool-resources-to-look-into-multi-path-lng-supply-and-distribution/",
-  "date": "Thu, 16 Jul 2026 12:35:07 +0000",
-  "desc": "Argent LNG, a U.S.-based liquefied natural gas (LNG) export developer headquartered in Louisiana, has signed off on a cooperation with Ukraine’s state-owned ene",
-  "src": "Offshore Energy",
-  "reg": "INT",
-  "translated": true
- },
- {
-  "title": "Preços spot do GNL na Ásia sobem 10% enquanto crise de Hormuz reacende temores de oferta",
-  "link": "https://oilprice.com/Latest-Energy-News/World-News/Asian-LNG-Spot-Prices-Jump-10-as-Hormuz-Crisis-Reignites-Supply-Fears.html",
-  "date": "Thu, 16 Jul 2026 07:30:00 -0500",
-  "desc": "Spot prices of liquefied natural gas in Asia have surged by 10% in the past week to the highest level since March, as the re-escalation in the Middle East and t",
-  "src": "OilPrice",
-  "reg": "INT",
-  "translated": true
- },
- {
-  "title": "Paquistão paga o preço spot mais alto de GNL em quatro anos enquanto a oferta do Catar vacila",
-  "link": "https://oilprice.com/Latest-Energy-News/World-News/Pakistan-Pays-Highest-Spot-LNG-Price-in-Four-Years-as-Qatar-Supply-Falters.html",
-  "date": "Thu, 16 Jul 2026 06:30:00 -0500",
-  "desc": "State-controlled Pakistan LNG Ltd has bought the most expensive cargo of liquefied natural gas on the spot market in four years as the recent re-escalation of t",
-  "src": "OilPrice",
-  "reg": "INT",
-  "translated": true
- },
- {
-  "title": "TotalEnergies vê lucro mais forte no segundo trimestre com aumento no refino e no comércio de petróleo",
-  "link": "https://oilprice.com/Latest-Energy-News/World-News/TotalEnergies-Sees-Stronger-Q2-Profit-as-Refining-and-Oil-Trading-Surge.html",
-  "date": "Thu, 16 Jul 2026 05:30:00 -0500",
-  "desc": "TotalEnergies expects higher cash flows from its oil production and strong refining margins and oil trading results to boost second-quarter profits compared to ",
-  "src": "OilPrice",
-  "reg": "INT",
-  "translated": true
- },
- {
-  "title": "Delfin dá luz verde à Siemens para os primeiros trabalhos no segundo FLNG, enquanto MidOcean da EIG se inscreve para embarcar",
-  "link": "https://www.offshore-energy.biz/delfin-gives-siemens-go-ahead-for-early-works-on-second-flng-as-eigs-midocean-signs-up-to-come-aboard/",
-  "date": "Thu, 16 Jul 2026 09:03:20 +0000",
-  "desc": "Delfin Midstream, a U.S.-based liquefied natural gas (LNG) export infrastructure development company, has sent a limited notice to proceed (LNTP) to Siemens Ene",
-  "src": "Offshore Energy",
-  "reg": "INT",
-  "translated": true
  }
 ]
