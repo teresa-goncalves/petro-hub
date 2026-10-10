@@ -1,6 +1,30 @@
 {
- "updated": "2026-10-09T16:38:12.549Z",
+ "updated": "2026-10-10T15:35:04.577Z",
  "items": [
+  {
+   "title": "Drones da Ucrânia derrubam data center de IA pertencente ao \"Google da Rússia\"",
+   "link": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
+   "date": "Fri, 09 Oct 2026 22:04:07 +0000",
+   "desc": "One damaged data center has supercomputers used for training Yandex’s AI model.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "NASA emite chamado há muito aguardado à indústria para estações espaciais privadas",
+   "link": "https://arstechnica.com/space/2026/10/nasa-issues-long-awaited-call-to-industry-for-private-space-stations/",
+   "date": "Fri, 09 Oct 2026 21:34:09 +0000",
+   "desc": "\"We’ve made it clear that NASA will never give up its presence in low Earth orbit.\"",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Agentes de codificação de IA geram mais código, mas não mais software",
+   "link": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
+   "date": "Fri, 09 Oct 2026 19:43:50 +0000",
+   "desc": "Study finds coding efficiency gains get \"absorbed\" by human review \"bottleneck.\"",
+   "src": "Ars Technica",
+   "translated": true
+  },
   {
    "title": "NASA assina pacto nuclear espacial e afirma que base lunar está adiantada",
    "link": "https://payloadspace.com/nasa-signs-space-nuclear-pact-says-moon-base-is-ahead-of-schedule/",
@@ -10,35 +34,11 @@
    "translated": true
   },
   {
-   "title": "Relatório do foguete: um matagal raro do Falcon 9; é quase hora de Vulcano brilhar?",
-   "link": "https://arstechnica.com/space/2026/10/rocket-report-a-rare-falcon-9-scrub-is-it-just-about-vulcans-time-to-shine/",
-   "date": "Fri, 09 Oct 2026 11:00:57 +0000",
-   "desc": "\"I can say we’re weeks away from launching on Vulcan.\"",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
    "title": "Os provedores europeus de observação da Terra estão de olho no Satcom",
    "link": "https://payloadspace.com/europes-earth-observation-providers-set-their-sights-on-satcoms/",
    "date": "Fri, 09 Oct 2026 10:00:00 +0000",
    "desc": "Open Cosmos recently laid out plans for a 192-satellite comms constellation, and ICEYE announced a partnership with Nokia for its own comms satellite network. T",
    "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "SpaceX pede melhor coordenação em órbita após quase acidentes com Starlink",
-   "link": "https://arstechnica.com/space/2026/10/spacex-calls-for-better-coordination-in-orbit-after-near-misses-with-starlink/",
-   "date": "Thu, 08 Oct 2026 21:37:32 +0000",
-   "desc": "\"These led to conjunctions of tens of meters to hundreds of meters. Way too close to comfort.\"",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "RIP Margaret Hamilton, cujo código salvou o pouso da Apollo 11 na Lua",
-   "link": "https://arstechnica.com/science/2026/10/r-i-p-margaret-hamilton-whose-code-saved-the-apollo-11-moon-landing/",
-   "date": "Thu, 08 Oct 2026 20:15:53 +0000",
-   "desc": "Hamilton also coined the term \"software engineering\" and founded two successful software companies.",
-   "src": "Ars Technica",
    "translated": true
   },
   {
