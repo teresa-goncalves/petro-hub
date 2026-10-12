@@ -1,6 +1,38 @@
 {
- "updated": "2026-10-11T15:58:49.944Z",
+ "updated": "2026-10-12T19:22:56.325Z",
  "items": [
+  {
+   "title": "Jena-Optronik tem orgulho de fazer parceria com a MDA Space para sua primeira missão ASTRO HP.",
+   "link": "https://spacenews.com/jena-optronik-is-proud-to-partner-with-mda-space-for-its-first-astro-hp-mission/",
+   "date": "Mon, 12 Oct 2026 13:00:00 +0000",
+   "desc": "MDA Space, a global leader in communications satellites, Earth and space observation, space exploration and infrastructure, will utilize Jena-Optronik’s ASTRO H",
+   "src": "SpaceNews",
+   "translated": true
+  },
+  {
+   "title": "Os compradores de ônibus escolheram esmagadoramente a bateria elétrica",
+   "link": "https://cleantechnica.com/2026/10/12/zero-emission-bus-procurement-battery-electric/",
+   "date": "Mon, 12 Oct 2026 05:35:47 +0000",
+   "desc": "Zero-emission bus procurement has moved beyond the stage where battery-electric and hydrogen fuel-cell buses should be treated as two parallel technologies wait",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Trump deve adorar painéis solares, porque eles ajudam os agricultores",
+   "link": "https://cleantechnica.com/2026/10/11/mammoth-solar-panels-agrivoltaic-us-energy-policy-farmers-diesel/",
+   "date": "Sun, 11 Oct 2026 22:49:04 +0000",
+   "desc": "The agrivoltaic movement combines solar panels with agriculture, providing farmers with new opportunities to improve their financial situation at a time of skyr",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Agora você pode adquirir o Kia EV3 nas concessionárias dos EUA – Dream EV!",
+   "link": "https://cleantechnica.com/2026/10/11/you-can-now-get-the-kia-ev3-at-us-dealerships-dream-ev/",
+   "date": "Sun, 11 Oct 2026 13:58:51 +0000",
+   "desc": "When it comes to most things, you pay less for something that's smaller. In the car business, that rule typically holds true as well. Smaller cars typically cos",
+   "src": "CleanTechnica",
+   "translated": true
+  },
   {
    "title": "Drones da Ucrânia derrubam data center de IA pertencente ao \"Google da Rússia\"",
    "link": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
@@ -13,7 +45,7 @@
    "title": "NASA emite chamado há muito aguardado à indústria para estações espaciais privadas",
    "link": "https://arstechnica.com/space/2026/10/nasa-issues-long-awaited-call-to-industry-for-private-space-stations/",
    "date": "Fri, 09 Oct 2026 21:34:09 +0000",
-   "desc": "\"We’ve made it clear that NASA will never give up its presence in low Earth orbit.\"",
+   "desc": "\"We’ve made it clear that NASA will never give up its presence in low-Earth orbit.\"",
    "src": "Ars Technica",
    "translated": true
   },
@@ -39,38 +71,6 @@
    "date": "Fri, 09 Oct 2026 10:00:00 +0000",
    "desc": "Open Cosmos recently laid out plans for a 192-satellite comms constellation, and ICEYE announced a partnership with Nokia for its own comms satellite network. T",
    "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "O que será necessário para construir uma base lunar?",
-   "link": "https://spacenews.com/what-will-it-take-to-build-a-moon-base/",
-   "date": "Thu, 08 Oct 2026 13:57:38 +0000",
-   "desc": "In this episode, a panel of industry experts discuss what’s needed to build a moon base. During a live event at the Johns Hopkins University Bloomberg Center, l",
-   "src": "SpaceNews",
-   "translated": true
-  },
-  {
-   "title": "DOT propõe alterações nas regras de licenciamento da Parte 450",
-   "link": "https://payloadspace.com/dot-proposes-changes-to-part-450-licensing-rules/",
-   "date": "Thu, 08 Oct 2026 12:19:56 +0000",
-   "desc": "On Tuesday, Transportation Secretary Sean Duffy announced five proposed FAA rules aiming to streamline and modernize commercial space launch and reentry regulat",
-   "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "A competição por recursos se intensifica com o aumento das megaconstelações",
-   "link": "https://spacenews.com/resource-competition-intensifies-with-surge-in-megaconstellations/",
-   "date": "Mon, 05 Oct 2026 19:13:40 +0000",
-   "desc": "Amazon wants more than 5,000 satellites in orbit. Blue Origin has proposed another 5,400. Chinese companies have filed plans encompassing vastly more. Elon Musk",
-   "src": "SpaceNews",
-   "translated": true
-  },
-  {
-   "title": "A Semana Espacial Mundial 2026 celebra a “Revolução dos Foguetes”",
-   "link": "https://spacenews.com/world-space-week-2026-celebrates-the-rocket-revolution/",
-   "date": "Thu, 01 Oct 2026 15:06:43 +0000",
-   "desc": "HOUSTON, Texas (September 30, 2026)— World Space Week events, beginning October 4 in 100 nations, will celebrate how launch innovation has stimulated the rapidl",
-   "src": "SpaceNews",
    "translated": true
   }
  ]
