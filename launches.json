@@ -1,13 +1,13 @@
 {
- "updated": "2026-10-11T15:44:45.158Z",
+ "updated": "2026-10-12T19:05:23.840Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
   {
-   "d": "12",
-   "mo": "OUT",
+   "d": "--",
+   "mo": "",
    "missao": "Falcon 9 · Starlink 15-25",
-   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 12/10, 20:00 (Brasília) · comunicações",
-   "net": "2026-10-12T23:00:00Z"
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · data a confirmar · comunicações",
+   "net": "2026-10-13T00:11:44Z"
   },
   {
    "d": "--",
@@ -31,6 +31,13 @@
    "net": "2026-10-19T19:41:03Z"
   },
   {
+   "d": "20",
+   "mo": "OUT",
+   "missao": "Falcon 9 · Starlink 15-15",
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 20/10, 19:14 (Brasília) · comunicações",
+   "net": "2026-10-20T22:14:00Z"
+  },
+  {
    "d": "28",
    "mo": "OUT",
    "missao": "Vulcan VC6L · Amazon Leo (LV-01)",
@@ -49,13 +56,6 @@
    "mo": "",
    "missao": "Falcon 9 · Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
    "sub": "SpaceX · Cabo Canaveral, Flórida (EUA) · data a confirmar · carona compartilhada",
-   "net": "2026-10-31T00:00:00Z"
-  },
-  {
-   "d": "--",
-   "mo": "",
-   "missao": "GSLV Mk II · IRNSS-1L (NVS-03)",
-   "sub": "ISRO · Sriharikota (Índia) · data a confirmar · navegação",
    "net": "2026-10-31T00:00:00Z"
   }
  ]
