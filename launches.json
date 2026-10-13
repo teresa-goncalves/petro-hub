@@ -1,20 +1,13 @@
 {
- "updated": "2026-10-12T19:05:23.840Z",
+ "updated": "2026-10-13T16:58:09.155Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
   {
-   "d": "--",
-   "mo": "",
-   "missao": "Falcon 9 · Starlink 15-25",
-   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · data a confirmar · comunicações",
-   "net": "2026-10-13T00:11:44Z"
-  },
-  {
-   "d": "--",
-   "mo": "",
-   "missao": "Falcon 9 · Dragon CRS-2 SpX-35",
-   "sub": "SpaceX · Cabo Canaveral, Flórida (EUA) · data a confirmar · reabastecimento da estação",
-   "net": "2026-10-13T10:33:44Z"
+   "d": "14",
+   "mo": "OUT",
+   "missao": "Zhuque-2E · carga não divulgada",
+   "sub": "LandSpace · Jiuquan (China) · 14/10, 08:40 (Brasília)",
+   "net": "2026-10-14T11:40:00Z"
   },
   {
    "d": "15",
@@ -22,6 +15,13 @@
    "missao": "Falcon 9 · USSF-481",
    "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 15/10, 20:44 (Brasília) · carga militar/classificada",
    "net": "2026-10-15T23:44:00Z"
+  },
+  {
+   "d": "19",
+   "mo": "OUT",
+   "missao": "Falcon 9 · Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
+   "sub": "SpaceX · Cabo Canaveral, Flórida (EUA) · 19/10, 07:30 (Brasília) · carona compartilhada",
+   "net": "2026-10-19T10:30:00Z"
   },
   {
    "d": "--",
@@ -38,25 +38,25 @@
    "net": "2026-10-20T22:14:00Z"
   },
   {
+   "d": "20",
+   "mo": "OUT",
+   "missao": "Electron · We're Not Hawking Around (3x HawkEye 360)",
+   "sub": "Rocket Lab · Mahia (Nova Zelândia) · 20/10, 21:00 (Brasília) · observação da Terra",
+   "net": "2026-10-21T00:00:00Z"
+  },
+  {
+   "d": "24",
+   "mo": "OUT",
+   "missao": "Falcon 9 · Starlink 15-16",
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 24/10, 02:29 (Brasília) · comunicações",
+   "net": "2026-10-24T05:29:00Z"
+  },
+  {
    "d": "28",
    "mo": "OUT",
    "missao": "Vulcan VC6L · Amazon Leo (LV-01)",
    "sub": "ULA · Cabo Canaveral, Flórida (EUA) · 28/10, 21:00 (Brasília) · comunicações",
    "net": "2026-10-29T00:00:00Z"
-  },
-  {
-   "d": "--",
-   "mo": "",
-   "missao": "Ariane 64 Block 2 · Amazon Leo (LE-04)",
-   "sub": "Arianespace · Centro Espacial de Kourou (Guiana Francesa) · data a confirmar · comunicações",
-   "net": "2026-10-31T00:00:00Z"
-  },
-  {
-   "d": "--",
-   "mo": "",
-   "missao": "Falcon 9 · Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
-   "sub": "SpaceX · Cabo Canaveral, Flórida (EUA) · data a confirmar · carona compartilhada",
-   "net": "2026-10-31T00:00:00Z"
   }
  ]
 }
