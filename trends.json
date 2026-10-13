@@ -1,76 +1,76 @@
 {
- "updated": "2026-10-12T19:22:56.325Z",
+ "updated": "2026-10-13T17:09:43.798Z",
  "items": [
+  {
+   "title": "A Europa deveria aprender com a falha na estação de hidrogénio da Coreia do Sul",
+   "link": "https://cleantechnica.com/2026/10/13/europe-hydrogen-highway-afir/",
+   "date": "Tue, 13 Oct 2026 15:58:16 +0000",
+   "desc": "Europe is building a hydrogen-refuelling network before there is a large hydrogen-truck market to support it. Under the Alternative Fuels Infrastructure Regulat",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Vendas de veículos elétricos usados ​​aumentam nos EUA",
+   "link": "https://cleantechnica.com/2026/10/13/sales-of-used-evs-surge-in-us/",
+   "date": "Tue, 13 Oct 2026 13:00:34 +0000",
+   "desc": "Let's face it. At the beginning of the EV revolution, electric cars were just too damn expensive. A Tesla Model Y cost $66,000 at one point, as the company leve",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Anna Shaposhnik, ORBES",
+   "link": "https://payloadspace.com/anna-shaposhnik-orbes/",
+   "date": "Tue, 13 Oct 2026 12:45:00 +0000",
+   "desc": "Each astronaut hour in orbit costs $130,000. What if robots could help with some of the grunt work—while also giving the world a better view of living in space?",
+   "src": "Payload",
+   "translated": false
+  },
+  {
+   "title": "Kayla Bigham, FAA",
+   "link": "https://payloadspace.com/kayla-bigham-faa/",
+   "date": "Tue, 13 Oct 2026 12:45:00 +0000",
+   "desc": "Kayla Bigham grew up wanting to be an astronaut. Then, after learning about the Apollo 1 and Apollo 13 emergencies in elementary school, her goal shifted—she kn",
+   "src": "Payload",
+   "translated": false
+  },
+  {
+   "title": "Priya Abiram, Vasta",
+   "link": "https://payloadspace.com/priya-abiram-vast/",
+   "date": "Tue, 13 Oct 2026 12:45:00 +0000",
+   "desc": "“I will be the youngest research astronaut, which is very exciting,” Abiram, 22, told Payload. The post Priya Abiram, Vast appeared first on Payload.",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "BYD já produziu 150.000 veículos plug-in comerciais",
+   "link": "https://cleantechnica.com/2026/10/12/byd-has-now-produced-150000-commercial-plugin-vehicles/",
+   "date": "Mon, 12 Oct 2026 23:30:36 +0000",
+   "desc": "Just a week ago, I covered BYD's September commercial electric vehicle growth, which is up tremendously year over year. BYD's commercial vehicle sales increased",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "A Epic Games supostamente está adotando o modelo de desenvolvimento de jogos “AI first”",
+   "link": "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/",
+   "date": "Mon, 12 Oct 2026 20:59:50 +0000",
+   "desc": "\"No more hand-written code\" or AI-free art for delayed Marvel/Star Wars shooter.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Claude AI, da Anthropic, apresentou falsa denúncia de assassinato à polícia da Filadélfia",
+   "link": "https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police/",
+   "date": "Mon, 12 Oct 2026 18:21:36 +0000",
+   "desc": "“I may have information regarding this case,\" Claude AI told Philly police.",
+   "src": "Ars Technica",
+   "translated": true
+  },
   {
    "title": "Jena-Optronik tem orgulho de fazer parceria com a MDA Space para sua primeira missão ASTRO HP.",
    "link": "https://spacenews.com/jena-optronik-is-proud-to-partner-with-mda-space-for-its-first-astro-hp-mission/",
    "date": "Mon, 12 Oct 2026 13:00:00 +0000",
    "desc": "MDA Space, a global leader in communications satellites, Earth and space observation, space exploration and infrastructure, will utilize Jena-Optronik’s ASTRO H",
    "src": "SpaceNews",
-   "translated": true
-  },
-  {
-   "title": "Os compradores de ônibus escolheram esmagadoramente a bateria elétrica",
-   "link": "https://cleantechnica.com/2026/10/12/zero-emission-bus-procurement-battery-electric/",
-   "date": "Mon, 12 Oct 2026 05:35:47 +0000",
-   "desc": "Zero-emission bus procurement has moved beyond the stage where battery-electric and hydrogen fuel-cell buses should be treated as two parallel technologies wait",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "Trump deve adorar painéis solares, porque eles ajudam os agricultores",
-   "link": "https://cleantechnica.com/2026/10/11/mammoth-solar-panels-agrivoltaic-us-energy-policy-farmers-diesel/",
-   "date": "Sun, 11 Oct 2026 22:49:04 +0000",
-   "desc": "The agrivoltaic movement combines solar panels with agriculture, providing farmers with new opportunities to improve their financial situation at a time of skyr",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "Agora você pode adquirir o Kia EV3 nas concessionárias dos EUA – Dream EV!",
-   "link": "https://cleantechnica.com/2026/10/11/you-can-now-get-the-kia-ev3-at-us-dealerships-dream-ev/",
-   "date": "Sun, 11 Oct 2026 13:58:51 +0000",
-   "desc": "When it comes to most things, you pay less for something that's smaller. In the car business, that rule typically holds true as well. Smaller cars typically cos",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "Drones da Ucrânia derrubam data center de IA pertencente ao \"Google da Rússia\"",
-   "link": "https://arstechnica.com/gadgets/2026/10/ukraines-drones-knock-out-ai-data-center-belonging-to-russias-google/",
-   "date": "Fri, 09 Oct 2026 22:04:07 +0000",
-   "desc": "One damaged data center has supercomputers used for training Yandex’s AI model.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "NASA emite chamado há muito aguardado à indústria para estações espaciais privadas",
-   "link": "https://arstechnica.com/space/2026/10/nasa-issues-long-awaited-call-to-industry-for-private-space-stations/",
-   "date": "Fri, 09 Oct 2026 21:34:09 +0000",
-   "desc": "\"We’ve made it clear that NASA will never give up its presence in low-Earth orbit.\"",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "Agentes de codificação de IA geram mais código, mas não mais software",
-   "link": "https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/",
-   "date": "Fri, 09 Oct 2026 19:43:50 +0000",
-   "desc": "Study finds coding efficiency gains get \"absorbed\" by human review \"bottleneck.\"",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "NASA assina pacto nuclear espacial e afirma que base lunar está adiantada",
-   "link": "https://payloadspace.com/nasa-signs-space-nuclear-pact-says-moon-base-is-ahead-of-schedule/",
-   "date": "Fri, 09 Oct 2026 12:18:10 +0000",
-   "desc": "Isaacman gave updates at the White House's “Science: A New Golden Age Summit.\" The post NASA Signs Space Nuclear Pact, Says Moon Base Is Ahead of Schedule appea",
-   "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "Os provedores europeus de observação da Terra estão de olho no Satcom",
-   "link": "https://payloadspace.com/europes-earth-observation-providers-set-their-sights-on-satcoms/",
-   "date": "Fri, 09 Oct 2026 10:00:00 +0000",
-   "desc": "Open Cosmos recently laid out plans for a 192-satellite comms constellation, and ICEYE announced a partnership with Nokia for its own comms satellite network. T",
-   "src": "Payload",
    "translated": true
   }
  ]
