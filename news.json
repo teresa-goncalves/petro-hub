@@ -1,5 +1,248 @@
 [
  {
+  "title": "Dangote alcança lucro de US$ 4,7 bilhões antes do maior IPO da África",
+  "link": "https://oilprice.com/Latest-Energy-News/World-News/Dangote-Swings-to-47-Billion-Profit-Ahead-of-Africas-Biggest-IPO.html",
+  "date": "Tue, 13 Oct 2026 11:30:00 -0500",
+  "desc": "Nigeria’s Dangote refinery has gone from losing money to posting a $4.73 billion profit in less than a year, just as it asks investors for $1.6 billion in what ",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Por que os preços do diesel são muito mais altos que a gasolina",
+  "link": "https://oilprice.com/Energy/Energy-General/Why-Diesel-Prices-Are-So-Much-Higher-Than-Gasoline.html",
+  "date": "Tue, 13 Oct 2026 11:00:00 -0500",
+  "desc": "There was a time when diesel fuel was usually cheaper than gasoline in the United States. That relationship began to change about 20 years ago, and since then d",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Arábia Saudita se torna o maior imprevisto do mercado petrolífero",
+  "link": "https://oilprice.com/Energy/Crude-Oil/Saudi-Arabia-Becomes-the-Oil-Markets-Biggest-Wild-Card.html",
+  "date": "Tue, 13 Oct 2026 10:00:00 -0500",
+  "desc": "Houthi attacks threaten Saudi oil infrastructure and Gulf shipping as Brent hovers near $105 per barrel. Trump’s Fuel-Price Problem Is Becoming a Political One ",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Fed de Dallas examina roubo no campo petrolífero",
+  "link": "https://www.rigzone.com/news/dallas_fed_examines_theft_in_the_oil_field-13-oct-2026-184838-article/?rss=true",
+  "date": "Tue, 13 Oct 2026 14:37:16 GMT",
+  "desc": "The third quarter Dallas Fed Energy Survey examined theft in the oil field.",
+  "src": "Rigzone",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Refinarias japonesas compram petróleo bruto do Oriente Médio por meio de transferências entre navios",
+  "link": "https://oilprice.com/Latest-Energy-News/World-News/Japanese-Refiners-Buy-Middle-East-Crude-Through-Ship-to-Ship-Transfers.html",
+  "date": "Tue, 13 Oct 2026 09:30:00 -0500",
+  "desc": "Several Japanese oil tankers are returning to the Middle East to pick up crude cargoes for Japan’s refineries, but none of these are moving into the Persian Gul",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Shell, GTT e Lloyd’s Register analisam projeto de transportador de GNL híbrido-elétrico",
+  "link": "https://offshore-energy.biz/2026/10/13/shell-gtt-and-lloyds-register-eye-hybrid-electric-lng-carrier-design",
+  "date": "Tue, 13 Oct 2026 14:14:12 GMT",
+  "desc": "The trio has teamed up on a conceptual hybrid-electric tech 200,000-cubic-meter (cbm) LNG carrier to cut emissions without sacrificing cargo space.",
+  "src": "Offshore Energy",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "O PRESIDENTE DO IBP PARTICIPA DO ENCONTRO MUNDIAL DO PETRÓLEO NA ARÁBIA SAUDITA MESMO SOB AMEAÇA DE ATAQUE DOS TERRORISTAS HOUTHIS",
+  "link": "https://petronoticias.com.br/o-presidente-do-ibp-participa-do-encontro-mundial-do-petroleo-na-arabia-saudita-mesmo-sob-ameaca-de-ataque-dos-terroristas-houthis/",
+  "date": "Tue, 13 Oct 2026 14:00:36 +0000",
+  "desc": "Tudo estava organizado para se realizar um dos mais importantes encontros internacionais do setor do petróleo mundial, o 25º Congresso de Energia da WPC, que co",
+  "src": "Petronotícias",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "Trump defende acordo russo sobre diesel enquanto reivindicações de cessar-fogo energético são desfeitas",
+  "link": "https://oilprice.com/Energy/Energy-General/Trump-Defends-Russian-Diesel-Deal-as-Energy-Ceasefire-Claims-Unravel.html",
+  "date": "Tue, 13 Oct 2026 09:00:00 -0500",
+  "desc": "US President Donald Trump, in the face of sharp criticism from officials in Ukraine, Europe, and even his Republican party, defended his decision to allow Russi",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Murphy anuncia novas startups e sucesso em exploração",
+  "link": "https://www.rigzone.com/news/murphy_announces_new_startups_exploration_success-13-oct-2026-184835-article/?rss=true",
+  "date": "Tue, 13 Oct 2026 13:57:03 GMT",
+  "desc": "Murphy Oil began production at two projects in the United States Gulf of America and Vietnam, as well as made another discovery in the Southeast Asian country a",
+  "src": "Rigzone",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Refinarias Chinesas Retardarão Redução de Estoques",
+  "link": "https://www.rigzone.com/news/wire/chinese_refiners_to_slow_inventory_drawdowns-13-oct-2026-184836-article/?rss=true",
+  "date": "Tue, 13 Oct 2026 13:55:59 GMT",
+  "desc": "Chinese refiners will slow drawdowns of oil from reserves this month as crude imports recover, according to Energy Aspects.",
+  "src": "Rigzone",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Super El Niño pode aliviar as preocupações com o fornecimento de GNL na Ásia",
+  "link": "https://oilprice.com/Latest-Energy-News/World-News/Super-El-Nio-Could-Ease-Asias-LNG-Supply-Concerns.html",
+  "date": "Tue, 13 Oct 2026 08:30:00 -0500",
+  "desc": "The super El Niño is expected to raise the winter temperatures in South Korea, Japan, and parts of China, potentially easing the gas supply needs in these key A",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Equinor alimentará a rede holandesa com gás norueguês de baixa emissão até 2031",
+  "link": "https://offshore-energy.biz/2026/10/13/equinor-to-feed-dutch-grid-with-low-emission-norwegian-gas-through-2031",
+  "date": "Tue, 13 Oct 2026 12:52:01 GMT",
+  "desc": "Equinor has secured a multi-year deal to supply Eneco with roughly 0.9 billion cubic meters of Norwegian natural gas annually.",
+  "src": "Offshore Energy",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Paquistão enfrenta conta de GNL de US$ 1 bilhão neste inverno",
+  "link": "https://oilprice.com/Latest-Energy-News/World-News/Pakistan-Faces-1-Billion-LNG-Bill-This-Winter.html",
+  "date": "Tue, 13 Oct 2026 07:30:00 -0500",
+  "desc": "Pakistan will have to pay in excess of $1 billion to secure LNG supply for the winter months, as spot prices soar amid massive disruptions to Qatari term supply",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "BW Energy bloqueia financiamento multimilionário para plataforma offshore e crescimento da produção",
+  "link": "https://offshore-energy.biz/2026/10/13/bw-energy-locks-down-multimillion-dollar-financing-for-offshore-platform-and-production-growth",
+  "date": "Tue, 13 Oct 2026 11:58:27 GMT",
+  "desc": "The path from discovery to first oil is moving at a fast pace for BW Energy, which is laying the groundwork for its expansion offshore Gabon.",
+  "src": "Offshore Energy",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Japão compensará importadores de petróleo pelos altos custos de envio",
+  "link": "https://oilprice.com/Latest-Energy-News/World-News/Japan-to-Compensate-Oil-Importers-for-High-Shipping-Costs.html",
+  "date": "Tue, 13 Oct 2026 06:30:00 -0500",
+  "desc": "The Japanese government on Tuesday approved three bills to boost diversification of oil supplies and energy security, including grants to compensate Japan’s oil",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Murphy Oil obtém vitórias duplas em exploração na África Ocidental e na Ásia, juntamente com startups do Vietnã e do Golfo dos EUA",
+  "link": "https://offshore-energy.biz/2026/10/13/murphy-oil-notches-dual-exploration-wins-in-west-africa-and-asia-alongside-vietnam-and-us-gulf-start-ups",
+  "date": "Tue, 13 Oct 2026 10:41:10 GMT",
+  "desc": "Murphy Oil has paired exploration and appraisal successes with new projects being put into production mode.",
+  "src": "Offshore Energy",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Instalação de cabos entre matrizes prestes a começar em parque eólico offshore de 2,9 GW no Reino Unido",
+  "link": "https://offshore-energy.biz/2026/10/13/inter-array-cable-installation-about-to-start-at-29-gw-uk-offshore-wind-farm",
+  "date": "Tue, 13 Oct 2026 10:20:47 GMT",
+  "desc": "Seaway7 is expected to start installing inter-array cables at the Hornsea 3 offshore wind farm site in the UK in the coming days. According to a...",
+  "src": "Offshore Energy",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Outubro está começando a se parecer muito com abril para o petróleo",
+  "link": "https://www.rigzone.com/news/october_is_beginning_to_look_a_lot_like_april_for_oil-13-oct-2026-184832-article/?rss=true",
+  "date": "Tue, 13 Oct 2026 09:58:20 GMT",
+  "desc": "October is beginning to look a lot like April for the oil market, analysts at J.P. Morgan said.",
+  "src": "Rigzone",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Arábia Saudita planeja expansão massiva de oleoduto para contornar Ormuz",
+  "link": "https://oilprice.com/Latest-Energy-News/World-News/Saudi-Arabia-Plans-Massive-Expansion-of-Oil-Pipeline-to-Bypass-Hormuz.html",
+  "date": "Tue, 13 Oct 2026 04:20:00 -0500",
+  "desc": "Saudi Arabia plans to raise the capacity of its East-West onshore oil pipeline that helps it bypass the Strait of Hormuz to 10 million barrels per day (bpd) wit",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Transportadores de petróleo ligados ao Japão retornam ao Oriente Médio",
+  "link": "https://www.rigzone.com/news/wire/oil_carriers_linked_to_japan_return_to_mideast-13-oct-2026-184831-article/?rss=true",
+  "date": "Tue, 13 Oct 2026 08:44:10 GMT",
+  "desc": "Oil tankers with links to Japan appear to be picking up Middle East cargoes directly in the region once again, a tentative but significant return for the first ",
+  "src": "Rigzone",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "TotalEnergies encomenda soluções tubulares francesas para campo de gás no Azerbaijão",
+  "link": "https://offshore-energy.biz/2026/10/13/totalenergies-orders-french-tubular-solutions-for-gas-field-in-azerbaijan",
+  "date": "Tue, 13 Oct 2026 08:22:26 GMT",
+  "desc": "France’s energy giant TotalEnergies has awarded compatriot Vallourec a contract to deliver over 16,000 tons of tubular products for a gas field...",
+  "src": "Offshore Energy",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Operadora do Mar do Norte nomeia DOF para descomissionamento submarino",
+  "link": "https://offshore-energy.biz/2026/10/13/north-sea-operator-appoints-dof-for-subsea-decommissioning",
+  "date": "Tue, 13 Oct 2026 07:35:14 GMT",
+  "desc": "Norway's DOF Group has been awarded a contract it describes as significant to deliver a subsea decommissioning campaign for a North Sea operator....",
+  "src": "Offshore Energy",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "CARLOS MASTRANGELO APONTA DISPUTA POR EQUIPAMENTOS COM DATA CENTERS E ADOÇÃO DE NOVAS TECNOLOGIAS COMO DESAFIOS DO MERCADO DE FPSOs",
+  "link": "https://petronoticias.com.br/carlos-mastrangelo-aponta-disputa-por-equipamentos-com-data-centers-e-adocao-de-novas-tecnologias-como-desafios-do-mercado-de-fpsos/",
+  "date": "Tue, 13 Oct 2026 07:00:13 +0000",
+  "desc": "Considerado um dos pioneiros na disseminação mundial do uso de plataformas do tipo FPSO, Carlos Mastrangelo escreveu, em parceria com o também experiente execut",
+  "src": "Petronotícias",
+  "reg": "BR",
+  "translated": false
+ },
+ {
+  "title": "Shell critica plano da Austrália para forçar os produtores de GNL a abastecer o mercado interno",
+  "link": "https://oilprice.com/Latest-Energy-News/World-News/Shell-Slams-Australias-Plan-to-Force-LNG-Producers-to-Supply-Domestic-Market.html",
+  "date": "Tue, 13 Oct 2026 02:00:00 -0500",
+  "desc": "Shell has spoken out against a plan by the Australian government to ensure domestic gas supply by mandating LNG producers to reserve certain volumes of their ou",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Os preços do petróleo recuam enquanto a Arábia Saudita se compromete a manter o fluxo das exportações",
+  "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Retreat-as-Saudi-Arabia-Pledges-to-Keep-Exports-Flowing.html",
+  "date": "Tue, 13 Oct 2026 00:38:59 -0500",
+  "desc": "Crude oil prices, which topped $106 per barrel yesterday, have eased today, as traders process the latest Houthi attacks on Saudi Arabia and the related risk to",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Este gás ultra-raro pode se tornar um ás nas mãos do Canadá",
+  "link": "https://oilprice.com/Energy/Energy-General/This-Ultra-Rare-Gas-Could-Become-An-Ace-In-Canadas-Hands.html",
+  "date": "Mon, 12 Oct 2026 19:00:00 -0500",
+  "desc": "Back in July, the U.S. slapped an extra 50% duty on a wide range of Canadian exports, including items like dairy, alcohol and cement, with the Trump administrat",
+  "src": "OilPrice",
+  "reg": "INT",
+  "translated": true
+ },
+ {
+  "title": "Japão pede armazenamento e desenvolvimento de petróleo",
+  "link": "https://www.rigzone.com/news/wire/japan_urges_oil_stockpiling_development-12-oct-2026-184826-article/?rss=true",
+  "date": "Mon, 12 Oct 2026 20:00:00 GMT",
+  "desc": "Japanese Trade Minister Ryosei Akazawa called for stronger cooperation between oil-producing and consuming countries as well as greater oil stockpiling and infr",
+  "src": "Rigzone",
+  "reg": "INT",
+  "translated": true
+ },
+ {
   "title": "Custos do seguro de transporte de petróleo do Mar Negro sobem para US$ 2,5 milhões",
   "link": "https://oilprice.com/Latest-Energy-News/World-News/Black-Sea-Oil-Shipping-Insurance-Costs-Surge-to-25-Million.html",
   "date": "Mon, 12 Oct 2026 12:30:00 -0500",
@@ -17753,249 +17996,6 @@
   "date": "Tue, 21 Jul 2026 13:30:00 -0500",
   "desc": "India's biggest state refiners are no longer willing to gamble on the Strait of Hormuz. Indian Oil Corp. and Mangalore Refinery & Petrochemicals have suspended ",
   "src": "OilPrice",
-  "reg": "INT",
-  "translated": true
- },
- {
-  "title": "EUA afirmam que China reduziu compras de petróleo iraniano em 40%",
-  "link": "https://oilprice.com/Latest-Energy-News/World-News/US-Says-China-Has-Slashed-Iranian-Oil-Purchases-by-40.html",
-  "date": "Tue, 21 Jul 2026 12:45:00 -0500",
-  "desc": "The United States says its campaign to choke off Iran's oil revenue may finally be showing results where it matters most: China. Treasury Secretary Scott Bessen",
-  "src": "OilPrice",
-  "reg": "INT",
-  "translated": true
- },
- {
-  "title": "TERRORISTAS HOUTHIS EXPLODEM PETROLEIRO NO MAR VERMELHO E TRUMP AMEAÇA ELIMINAR MONTANHA COM URÂNIO ENRIQUECIDO NO IRÃ",
-  "link": "https://petronoticias.com.br/terroristas-houthis-explodem-petroleiro-no-mar-vermelho-e-trump-ameaca-eliminar-montanha-com-uranio-enriquecido-no-ira/",
-  "date": "Tue, 21 Jul 2026 16:00:23 +0000",
-  "desc": "A situação no Oriente Médio vai se aprofundando cada vez mais num longo corredor escuro, onde é muito difícil ver a saída. Petroleiros sauditas fazem retorno no",
-  "src": "Petronotícias",
-  "reg": "BR",
-  "translated": false
- },
- {
-  "title": "OS ESTADOS UNIDOS ATACAM PELA DÉCIMA NOITE SEGUIDA O IRÃ E PREÇO DO BARRIL JÁ PASSA DOS US$ 90",
-  "link": "https://petronoticias.com.br/os-estados-unidos-atacam-pela-decima-noite-seguida-o-ira-e-preco-do-barril-ja-passa-dos-us-90/",
-  "date": "Tue, 21 Jul 2026 15:00:36 +0000",
-  "desc": "A escalada da guerra no Oriente Médio traz novos efeitos para o mercado internacional de petróleo. O Comando Central dos Estados Unidos (CENTCOM) informou que r",
-  "src": "Petronotícias",
-  "reg": "BR",
-  "translated": false
- },
- {
-  "title": "FID de US$ 6,2 bilhões permite que ADNOC, TotalEnergies, Eni e CNPC liberem mais gás",
-  "link": "https://www.offshore-energy.biz/6-2-billion-fid-enables-adnoc-totalenergies-eni-and-cnpc-to-unleash-more-gas/",
-  "date": "Tue, 21 Jul 2026 15:00:34 +0000",
-  "desc": "ADNOC Offshore, a subsidiary of Abu Dhabi National Oil Company (ADNOC), and its partners – France’s TotalEnergies, Italy’s Eni, and China National Petroleum Cor",
-  "src": "Offshore Energy",
-  "reg": "INT",
-  "translated": true
- },
- {
-  "title": "Por que o abaixamento de monoestacas está se tornando um caso de carga crítico para elevações",
-  "link": "https://www.offshore-energy.biz/why-monopile-lowering-is-becoming-a-critical-load-case-for-jack-ups/",
-  "date": "Tue, 21 Jul 2026 14:36:02 +0000",
-  "desc": "As offshore wind monopiles continue to increase in size, the installation phase is emerging [&#8230;] The post Why monopile lowering is becoming a critical load",
-  "src": "Offshore Energy",
-  "reg": "INT",
-  "translated": true
- },
- {
-  "title": "Levantamento geofísico começará ao longo do potencial corredor de cabos de exportação para o parque eólico flutuante Bellrock",
-  "link": "https://www.offshore-energy.biz/geophysical-survey-to-begin-along-potential-export-cable-corridor-for-bellrock-floating-wind-farm/",
-  "date": "Tue, 21 Jul 2026 13:36:49 +0000",
-  "desc": "XOCEAN is set to begin a geophysical survey of a potential offshore export cable [&#8230;] The post Geophysical survey to begin along potential export cable cor",
-  "src": "Offshore Energy",
-  "reg": "INT",
-  "translated": true
- },
- {
-  "title": "Gasoduto de 6.900 quilómetros dá um passo em frente enquanto os Estados da África Ocidental selam o acordo",
-  "link": "https://www.offshore-energy.biz/6900-kilometer-gas-pipeline-takes-step-forward-as-west-african-states-seal-the-deal/",
-  "date": "Tue, 21 Jul 2026 13:10:02 +0000",
-  "desc": "Member states of the Economic Community of West African States (ECOWAS) union have signed an [&#8230;] The post 6,900-kilometer gas pipeline takes step forward ",
-  "src": "Offshore Energy",
-  "reg": "INT",
-  "translated": true
- },
- {
-  "title": "Índia continua comprando petróleo russo em ritmo quase recorde, apesar da isenção expirada",
-  "link": "https://oilprice.com/Latest-Energy-News/World-News/India-Keeps-Buying-Russian-Oil-at-Near-Record-Pace-Despite-Expired-Waiver.html",
-  "date": "Tue, 21 Jul 2026 05:29:08 -0500",
-  "desc": "India's crude oil imports have remained close to record-high levels in July despite the end of the U.S. waiver the previous month. The U.S. quietly let the waiv",
-  "src": "OilPrice",
-  "reg": "INT",
-  "translated": true
- },
- {
-  "title": "Fusão Vår Energi-BlueNord forjando o novo produtor independente de petróleo e gás da Europa",
-  "link": "https://www.offshore-energy.biz/var-energi-bluenord-merger-forging-europes-new-independent-oil-gas-producer/",
-  "date": "Tue, 21 Jul 2026 08:56:20 +0000",
-  "desc": "Norwegian oil and gas player Vår Energi has sealed a business combination deal with BlueNord, breathing life into what is described as the largest independent p",
-  "src": "Offshore Energy",
-  "reg": "INT",
-  "translated": true
- },
- {
-  "title": "ADNOC aprova projeto de gás de US$ 6,2 bilhões em Abu Dhabi",
-  "link": "https://oilprice.com/Latest-Energy-News/World-News/ADNOC-Approves-62-Billion-Gas-Project-in-Abu-Dhabi.html",
-  "date": "Tue, 21 Jul 2026 03:49:00 -0500",
-  "desc": "Abu Dhabi’s national oil company ADNOC on Tuesday announced a $6.2 billion final investment decision to develop the Umm Shaif Gas Cap project in Abu Dhabi as pa",
-  "src": "OilPrice",
-  "reg": "INT",
-  "translated": true
- },
- {
-  "title": "PRINCIPAIS DECISÕES DE INVESTIMENTOS DE PROJETOS OFFSHORE NO ÚLTIMO ANO ACONTECERAM NO BRASIL",
-  "link": "https://petronoticias.com.br/principais-decisoes-de-investimentos-de-projetos-offshore-no-ultimo-ano-aconteceram-no-brasil/",
-  "date": "Tue, 21 Jul 2026 08:00:27 +0000",
-  "desc": "O Brasil concentrou os principais projetos offshore de grande porte que receberam decisão final de investimento (FID) em 2025, segundo a terceira edição da séri",
-  "src": "Petronotícias",
-  "reg": "BR",
-  "translated": false
- },
- {
-  "title": "Petróleo reverte ganhos com esperança renovada de paz no Irão",
-  "link": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Reverses-Gains-on-Renewed-Hope-of-Peace-in-Iran.html",
-  "date": "Tue, 21 Jul 2026 01:09:31 -0500",
-  "desc": "Crude oil prices reversed their climb this morning, retreating on reports that efforts are being made to negotiate another ceasefire between the United States a",
-  "src": "OilPrice",
-  "reg": "INT",
-  "translated": true
- },
- {
-  "title": "Goldman alerta que o petróleo pode atingir US$ 120 com o avanço da guerra no Oriente Médio",
-  "link": "https://oilprice.com/Latest-Energy-News/World-News/Goldman-Warns-Oil-Could-Hit-120-as-Middle-East-War-Drags-On.html",
-  "date": "Tue, 21 Jul 2026 00:36:45 -0500",
-  "desc": "Crude oil prices could surge to $120 per barrel towards the end of the year if the war in the Middle East extends and the Strait of Hormuz remains closed for lo",
-  "src": "OilPrice",
-  "reg": "INT",
-  "translated": true
- },
- {
-  "title": "Cenário de petróleo mais alto por mais tempo veio para ficar",
-  "link": "https://oilprice.com/Energy/Crude-Oil/Higher-For-Longer-Oil-Scenario-Is-Here-To-Stay.html",
-  "date": "Mon, 20 Jul 2026 19:00:00 -0500",
-  "desc": "Oil prices have been on a climb for over a week now as hostilities in the Middle East continue, and despite recent talk of a glut, the physical market is flashi",
-  "src": "OilPrice",
-  "reg": "INT",
-  "translated": true
- },
- {
-  "title": "FRANÇA AVANÇA NO LICENCIAMENTO DE FÁBRICA DE COMBUSTÍVEL NUCLEAR PRODUZIDO A PARTIR DE MATERIAL IRRADIADO",
-  "link": "https://petronoticias.com.br/franca-avanca-no-licenciamento-de-fabrica-de-combustivel-nuclear-produzido-a-partir-de-material-irradiado/",
-  "date": "Mon, 20 Jul 2026 22:00:44 +0000",
-  "desc": "A Newcleo deu mais um passo no desenvolvimento de sua tecnologia nuclear na França após receber uma avaliação positiva da Autoridade de Segurança Nuclear e Radi",
-  "src": "Petronotícias",
-  "reg": "BR",
-  "translated": false
- },
- {
-  "title": "O mercado petrolífero perde a sua rede de segurança à medida que o conflito no Irão reacende",
-  "link": "https://oilprice.com/Energy/Energy-General/Oil-Market-Loses-Its-Safety-Net-as-Iran-Conflict-Reignites.html",
-  "date": "Mon, 20 Jul 2026 16:00:00 -0500",
-  "desc": "The global oil market is much more exposed to the latest re-escalation in the Middle East, as most of the buffers that cushioned the initial shock of the Iran w",
-  "src": "OilPrice",
-  "reg": "INT",
-  "translated": true
- },
- {
-  "title": "TERRORISTAS HOUTHIS ANUNCIAM BLOQUEIO NAVAL CONTRA ARÁBIA SAUDITA, AMPLIANDO TENSÃO NO ORIENTE MÉDIO",
-  "link": "https://petronoticias.com.br/terroristas-houthis-anunciam-bloqueio-naval-contra-arabia-saudita-ampliando-tensao-no-oriente-medio/",
-  "date": "Mon, 20 Jul 2026 20:00:32 +0000",
-  "desc": "Os preços do barril de petróleo Brent voltaram a rondar a casa dos US$ 90 neste início de semana, diante dos novos desdobramentos do conflito no Oriente Médio. ",
-  "src": "Petronotícias",
-  "reg": "BR",
-  "translated": false
- },
- {
-  "title": "PPSA MARCA NOVO LEILÃO SPOT PARA COMERCIALIZAR 2,9 MILHÕES DE BARRIS DE PETRÓLEO",
-  "link": "https://petronoticias.com.br/ppsa-marca-novo-leilao-spot-para-comercializar-29-milhoes-de-barris-de-petroleo/",
-  "date": "Mon, 20 Jul 2026 19:00:20 +0000",
-  "desc": "A Pré-Sal Petróleo S.A. (PPSA) realizará, no próximo dia 29 de julho, às 11h, o 7º Leilão Spot para a comercialização de 2,9 milhões de barris de petróleo prove",
-  "src": "Petronotícias",
-  "reg": "BR",
-  "translated": false
- },
- {
-  "title": "Exploradores de petróleo da Nova Zelândia correm para garantir licenças offshore antes das eleições",
-  "link": "https://oilprice.com/Latest-Energy-News/World-News/New-Zealand-Oil-Explorers-Rush-to-Secure-Offshore-Permits-Before-Election.html",
-  "date": "Mon, 20 Jul 2026 12:30:00 -0500",
-  "desc": "Small oil and gas companies are vying to secure exploration permits offshore New Zealand in the coming months before a potential reinstatement of the drilling b",
-  "src": "OilPrice",
-  "reg": "INT",
-  "translated": true
- },
- {
-  "title": "O ATAQUE A DOIS PETROLEIROS EM OMÃ E A BASES AMERICANAS NO KUWAIT, JORDÂNIA E BAHREIN, ALIMENTA O FOGO DA GUERRA DO IRÃ",
-  "link": "https://petronoticias.com.br/o-ataque-a-dois-petroleiros-em-oma-e-a-bases-americanas-no-kuwait-jordania-e-bahrein-alimenta-o-fogo-da-guerra-do-ira/",
-  "date": "Mon, 20 Jul 2026 17:00:22 +0000",
-  "desc": "A paz no Oriente Médio parece muito distante ainda. Dois navios-tanque da empresa grega Dynacom Tankers foram atacados na costa de Omã em meio à escalada das ho",
-  "src": "Petronotícias",
-  "reg": "BR",
-  "translated": false
- },
- {
-  "title": "Nigéria tem como meta produção recorde de petróleo de 3 milhões de barris por dia até 2030",
-  "link": "https://oilprice.com/Energy/Crude-Oil/Nigeria-Targets-Record-3-Million-Bpd-Oil-Output-by-2030.html",
-  "date": "Mon, 20 Jul 2026 12:00:00 -0500",
-  "desc": "Nigeria is set to ramp up crude oil production to 3 million barrels per day by 2030, according to the country’s upstream regulator, which says reforms aimed at ",
-  "src": "OilPrice",
-  "reg": "INT",
-  "translated": true
- },
- {
-  "title": "IBAMA LIBERA LICENÇAS DE INSTALAÇÃO DAS PLATAFORMAS P-80 E P-82, NO CAMPO DE BÚZIOS",
-  "link": "https://petronoticias.com.br/ibama-libera-licencas-de-instalacao-das-plataformas-p-80-e-p-82-no-campo-de-buzios/",
-  "date": "Mon, 20 Jul 2026 16:00:37 +0000",
-  "desc": "O Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais (Ibama) emitiu na última semana as licenças de instalação das plataformas P-80 e P-82, que serão",
-  "src": "Petronotícias",
-  "reg": "BR",
-  "translated": false
- },
- {
-  "title": "A energia offshore do Reino Unido busca uma reviravolta na política de petróleo e gás do Mar do Norte para desbloquear investimentos multibilionários",
-  "link": "https://www.offshore-energy.biz/uks-offshore-energy-seeks-north-sea-oil-gas-policy-u-turn-to-unlock-multi-billion-investments/",
-  "date": "Mon, 20 Jul 2026 14:57:54 +0000",
-  "desc": "Britain’s trade body for the offshore energy industry, Offshore Energies UK (OEUK), has emphasized the importance of a policy reset for the North Sea oil and ga",
-  "src": "Offshore Energy",
-  "reg": "INT",
-  "translated": true
- },
- {
-  "title": "A onda de compras de GNL na China aperta o mercado global de gás",
-  "link": "https://oilprice.com/Latest-Energy-News/World-News/Chinas-LNG-Buying-Spree-Tightens-Global-Gas-Market.html",
-  "date": "Mon, 20 Jul 2026 05:45:00 -0500",
-  "desc": "China raised its liquefied natural gas imports for a second month in a row in June as the world’s top LNG buyer prepares for peak summer power demand. Chinese i",
-  "src": "OilPrice",
-  "reg": "INT",
-  "translated": true
- },
- {
-  "title": "Plataforma do Mar Negro é instalada no projeto europeu de gás offshore de 4 mil milhões de euros",
-  "link": "https://www.offshore-energy.biz/black-sea-platform-slides-into-place-at-europes-e4-billion-offshore-gas-project/",
-  "date": "Mon, 20 Jul 2026 10:25:25 +0000",
-  "desc": "Southeastern Europe’s integrated energy player OMV Petrom and Romgaz, Romania’s largest gas producer and main supplier, are drawing closer to the start of produ",
-  "src": "Offshore Energy",
-  "reg": "INT",
-  "translated": true
- },
- {
-  "title": "Petroleiros temem trânsito de Ormuz enquanto o Irã para navios",
-  "link": "https://oilprice.com/Latest-Energy-News/World-News/Tankers-Fear-Hormuz-Transits-as-Iran-Stops-Vessels.html",
-  "date": "Mon, 20 Jul 2026 04:35:00 -0500",
-  "desc": "An empty Malta-flagged, Greece-managed oil products tanker halted at anchor in the Strait of Hormuz near Oman early on Monday as vessel owners and operators gro",
-  "src": "OilPrice",
-  "reg": "INT",
-  "translated": true
- },
- {
-  "title": "Campanha de perfuração de preenchimento no Sudeste Asiático produz aumento de petróleo com dois poços agora online",
-  "link": "https://www.offshore-energy.biz/southeast-asian-infill-drilling-campaign-yields-oil-uptick-with-two-wells-now-online/",
-  "date": "Mon, 20 Jul 2026 08:50:01 +0000",
-  "desc": "AIM-listed and Singapore-headquartered oil and gas player Jadestone Energy has achieved a production boost at its field off the coast of Malaysia by bringing on",
-  "src": "Offshore Energy",
   "reg": "INT",
   "translated": true
  }
