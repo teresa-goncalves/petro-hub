@@ -1,76 +1,76 @@
 {
- "updated": "2026-10-13T17:09:43.798Z",
+ "updated": "2026-10-14T14:41:43.935Z",
  "items": [
   {
-   "title": "A Europa deveria aprender com a falha na estação de hidrogénio da Coreia do Sul",
-   "link": "https://cleantechnica.com/2026/10/13/europe-hydrogen-highway-afir/",
-   "date": "Tue, 13 Oct 2026 15:58:16 +0000",
-   "desc": "Europe is building a hydrogen-refuelling network before there is a large hydrogen-truck market to support it. Under the Alternative Fuels Infrastructure Regulat",
+   "title": "As pessoas falam: queremos armazenamento de energia, não data centers",
+   "link": "https://cleantechnica.com/2026/10/14/energy-storage-sunrun-distributed-us-rooftop-solar/",
+   "date": "Wed, 14 Oct 2026 14:22:09 +0000",
+   "desc": "The leading US rooftop solar firm Sunrun has made a sharp pivot into the energy storage field, enabling more households to participate in money-saving virtual p",
    "src": "CleanTechnica",
    "translated": true
   },
   {
-   "title": "Vendas de veículos elétricos usados ​​aumentam nos EUA",
-   "link": "https://cleantechnica.com/2026/10/13/sales-of-used-evs-surge-in-us/",
-   "date": "Tue, 13 Oct 2026 13:00:34 +0000",
-   "desc": "Let's face it. At the beginning of the EV revolution, electric cars were just too damn expensive. A Tesla Model Y cost $66,000 at one point, as the company leve",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "Anna Shaposhnik, ORBES",
-   "link": "https://payloadspace.com/anna-shaposhnik-orbes/",
-   "date": "Tue, 13 Oct 2026 12:45:00 +0000",
-   "desc": "Each astronaut hour in orbit costs $130,000. What if robots could help with some of the grunt work—while also giving the world a better view of living in space?",
-   "src": "Payload",
-   "translated": false
-  },
-  {
-   "title": "Kayla Bigham, FAA",
-   "link": "https://payloadspace.com/kayla-bigham-faa/",
-   "date": "Tue, 13 Oct 2026 12:45:00 +0000",
-   "desc": "Kayla Bigham grew up wanting to be an astronaut. Then, after learning about the Apollo 1 and Apollo 13 emergencies in elementary school, her goal shifted—she kn",
-   "src": "Payload",
-   "translated": false
-  },
-  {
-   "title": "Priya Abiram, Vasta",
-   "link": "https://payloadspace.com/priya-abiram-vast/",
-   "date": "Tue, 13 Oct 2026 12:45:00 +0000",
-   "desc": "“I will be the youngest research astronaut, which is very exciting,” Abiram, 22, told Payload. The post Priya Abiram, Vast appeared first on Payload.",
-   "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "BYD já produziu 150.000 veículos plug-in comerciais",
-   "link": "https://cleantechnica.com/2026/10/12/byd-has-now-produced-150000-commercial-plugin-vehicles/",
-   "date": "Mon, 12 Oct 2026 23:30:36 +0000",
-   "desc": "Just a week ago, I covered BYD's September commercial electric vehicle growth, which is up tremendously year over year. BYD's commercial vehicle sales increased",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "A Epic Games supostamente está adotando o modelo de desenvolvimento de jogos “AI first”",
-   "link": "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/",
-   "date": "Mon, 12 Oct 2026 20:59:50 +0000",
-   "desc": "\"No more hand-written code\" or AI-free art for delayed Marvel/Star Wars shooter.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "Claude AI, da Anthropic, apresentou falsa denúncia de assassinato à polícia da Filadélfia",
-   "link": "https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police/",
-   "date": "Mon, 12 Oct 2026 18:21:36 +0000",
-   "desc": "“I may have information regarding this case,\" Claude AI told Philly police.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "Jena-Optronik tem orgulho de fazer parceria com a MDA Space para sua primeira missão ASTRO HP.",
-   "link": "https://spacenews.com/jena-optronik-is-proud-to-partner-with-mda-space-for-its-first-astro-hp-mission/",
-   "date": "Mon, 12 Oct 2026 13:00:00 +0000",
-   "desc": "MDA Space, a global leader in communications satellites, Earth and space observation, space exploration and infrastructure, will utilize Jena-Optronik’s ASTRO H",
+   "title": "Como as miniconstelações poderiam trazer mais rapidamente novas tecnologias para a Europa e colocá-las em órbita",
+   "link": "https://spacenews.com/how-mini-constellations-could-more-quickly-bring-new-tech-to-europe-and-to-orbit/",
+   "date": "Wed, 14 Oct 2026 13:09:21 +0000",
+   "desc": "When the European thermal-imagery company constellr began working with Space Inventor on its next generation of satellites, some of the most important details o",
    "src": "SpaceNews",
+   "translated": true
+  },
+  {
+   "title": "Anthropic alerta que pequenos modelos de IA podem se auto-replicar por meio de dispositivos IoT",
+   "link": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/",
+   "date": "Wed, 14 Oct 2026 12:55:06 +0000",
+   "desc": "\"Small weight-based replicators\" could usher in a new generation of computer worms.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Exclusivo: Pivôs Aeroespaciais em Órbita, de Veículos de Reentrada à Autonomia de Naves Espaciais",
+   "link": "https://payloadspace.com/exclusive-in-orbit-aerospace-pivots-from-re-entry-vehicles-to-spacecraft-autonomy/",
+   "date": "Wed, 14 Oct 2026 12:17:00 +0000",
+   "desc": "In Orbit has won new government contracts for its onboard AI system, which the company says can run a spacecraft’s operations without waiting on ground control.",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "Reflect Orbital compra dois lançamentos aeroespaciais Skyroot",
+   "link": "https://payloadspace.com/reflect-orbital-buys-two-skyroot-aerospace-launches/",
+   "date": "Wed, 14 Oct 2026 12:00:00 +0000",
+   "desc": "Reflect Orbital announced the purchase of two launches today from Indian launcher Skyroot Aerospace. The post Reflect Orbital Buys Two Skyroot Aerospace Launche",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "Como as empresas espaciais podem se preparar para uma potencial lacuna no lançamento",
+   "link": "https://payloadspace.com/how-space-companies-can-prepare-for-a-potential-launch-gap/",
+   "date": "Wed, 14 Oct 2026 11:09:00 +0000",
+   "desc": "Based on conversations we’ve had with both space company executives and investors, there is a clear disconnect in prevailing sentiment on the impending launch c",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "TCA UE-Reino Unido: As regras para ser fabricado na Europa são corretas",
+   "link": "https://cleantechnica.com/2026/10/13/eu-uk-tca-getting-made-in-europe-rules-right/",
+   "date": "Wed, 14 Oct 2026 01:39:22 +0000",
+   "desc": "Debunking ACEA’s proposal concerning EU electric vehicle exports to the United Kingdom The EU-UK TCA rules of origin requirements are the most concrete local co",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Atualização da telha solar Volt",
+   "link": "https://cleantechnica.com/2026/10/13/volt-solar-tile-update/",
+   "date": "Wed, 14 Oct 2026 00:51:40 +0000",
+   "desc": "Volt CEO Peter Leeson and I caught up on Teams this afternoon to discuss the progress of the Volt solar tile. You will have read about his revolutionary product",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Disney oferece US$ 20 milhões pela tecnologia de chatbot atormentada por escândalos da Character.AI",
+   "link": "https://arstechnica.com/tech-policy/2026/10/disney-offers-20m-for-character-ais-scandal-plagued-chatbot-tech/",
+   "date": "Tue, 13 Oct 2026 18:23:33 +0000",
+   "desc": "Disney may acquire tech from one of the first chatbot makers linked to child suicide.",
+   "src": "Ars Technica",
    "translated": true
   }
  ]
