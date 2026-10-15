@@ -1,12 +1,60 @@
 {
- "updated": "2026-10-14T14:41:43.935Z",
+ "updated": "2026-10-15T14:26:29.289Z",
  "items": [
   {
-   "title": "As pessoas falam: queremos armazenamento de energia, não data centers",
-   "link": "https://cleantechnica.com/2026/10/14/energy-storage-sunrun-distributed-us-rooftop-solar/",
-   "date": "Wed, 14 Oct 2026 14:22:09 +0000",
-   "desc": "The leading US rooftop solar firm Sunrun has made a sharp pivot into the energy storage field, enabling more households to participate in money-saving virtual p",
+   "title": "JAXA usa ArkEdge para duas demonstrações de navegação lunar",
+   "link": "https://payloadspace.com/jaxa-taps-arkedge-for-two-lunar-navigation-demos/",
+   "date": "Thu, 15 Oct 2026 08:00:00 +0000",
+   "desc": "Today’s Moon explorers won’t have the luxury of GPS-like tech for navigation. But JAXA is trying to change that for future lunar visitors. The post JAXA Taps Ar",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "Ainda fumando: o escândalo das emissões de PHEV continua",
+   "link": "https://cleantechnica.com/2026/10/14/still-smoking-the-phev-emissions-scandal-continues/",
+   "date": "Thu, 15 Oct 2026 03:05:17 +0000",
+   "desc": "Summary Analysis of official 2024 real-world data reveals that plug-in hybrid electric vehicles (PHEVs) continue to exhibit a widening gap between real-world pe",
    "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "O carro voador de Tesla voa em uma tempestade perfeita de má imprensa (atualizado)",
+   "link": "https://cleantechnica.com/2026/10/14/tesla-ev-roadster-launch-elon-musk-ukraine-starlink-doge/",
+   "date": "Thu, 15 Oct 2026 00:31:35 +0000",
+   "desc": "Tesla CEO Elon Musk has promised that the October 15 launch of the new Tesla Roadster EV will be an exciting event, whether or not things go as planned. The pos",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Serviço de táxi Green GSM agora disponível em Los Angeles",
+   "link": "https://cleantechnica.com/2026/10/14/green-gsm-taxi-service-now-available-in-los-angeles/",
+   "date": "Wed, 14 Oct 2026 21:49:15 +0000",
+   "desc": "PUBLIC transportation company Green SM has entered North America with the official launch of an all-electric taxi service in Los Angeles, California. The move t",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "A Epic diz que seu novo Epic Games Launcher com código de vibração é mais rápido que o Steam",
+   "link": "https://arstechnica.com/gaming/2026/10/programming-is-hard-epic-games-leans-on-vibe-coding-for-its-new-launcher-app/",
+   "date": "Wed, 14 Oct 2026 21:15:56 +0000",
+   "desc": "But the new \"Preview\" app \"will have some bugs,\" Epic warns.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Pesquisadores usam IA para projetar proteínas que cortam outras proteínas",
+   "link": "https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/",
+   "date": "Wed, 14 Oct 2026 17:10:15 +0000",
+   "desc": "AI design tools make proteins that break bonds that are stable for hundreds of years.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Ucrânia pega de surpresa pelas restrições de estrangulamento do Starlink e lacunas de inteligência",
+   "link": "https://arstechnica.com/gadgets/2026/10/ukraine-blindsided-by-starlink-throttling-restrictions-and-intelligence-gaps/",
+   "date": "Wed, 14 Oct 2026 13:56:11 +0000",
+   "desc": "Kyiv’s forces experience connectivity problems on Elon Musk’s satellite network.",
+   "src": "Ars Technica",
    "translated": true
   },
   {
@@ -18,59 +66,11 @@
    "translated": true
   },
   {
-   "title": "Anthropic alerta que pequenos modelos de IA podem se auto-replicar por meio de dispositivos IoT",
-   "link": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/",
-   "date": "Wed, 14 Oct 2026 12:55:06 +0000",
-   "desc": "\"Small weight-based replicators\" could usher in a new generation of computer worms.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
    "title": "Exclusivo: Pivôs Aeroespaciais em Órbita, de Veículos de Reentrada à Autonomia de Naves Espaciais",
    "link": "https://payloadspace.com/exclusive-in-orbit-aerospace-pivots-from-re-entry-vehicles-to-spacecraft-autonomy/",
    "date": "Wed, 14 Oct 2026 12:17:00 +0000",
    "desc": "In Orbit has won new government contracts for its onboard AI system, which the company says can run a spacecraft’s operations without waiting on ground control.",
    "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "Reflect Orbital compra dois lançamentos aeroespaciais Skyroot",
-   "link": "https://payloadspace.com/reflect-orbital-buys-two-skyroot-aerospace-launches/",
-   "date": "Wed, 14 Oct 2026 12:00:00 +0000",
-   "desc": "Reflect Orbital announced the purchase of two launches today from Indian launcher Skyroot Aerospace. The post Reflect Orbital Buys Two Skyroot Aerospace Launche",
-   "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "Como as empresas espaciais podem se preparar para uma potencial lacuna no lançamento",
-   "link": "https://payloadspace.com/how-space-companies-can-prepare-for-a-potential-launch-gap/",
-   "date": "Wed, 14 Oct 2026 11:09:00 +0000",
-   "desc": "Based on conversations we’ve had with both space company executives and investors, there is a clear disconnect in prevailing sentiment on the impending launch c",
-   "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "TCA UE-Reino Unido: As regras para ser fabricado na Europa são corretas",
-   "link": "https://cleantechnica.com/2026/10/13/eu-uk-tca-getting-made-in-europe-rules-right/",
-   "date": "Wed, 14 Oct 2026 01:39:22 +0000",
-   "desc": "Debunking ACEA’s proposal concerning EU electric vehicle exports to the United Kingdom The EU-UK TCA rules of origin requirements are the most concrete local co",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "Atualização da telha solar Volt",
-   "link": "https://cleantechnica.com/2026/10/13/volt-solar-tile-update/",
-   "date": "Wed, 14 Oct 2026 00:51:40 +0000",
-   "desc": "Volt CEO Peter Leeson and I caught up on Teams this afternoon to discuss the progress of the Volt solar tile. You will have read about his revolutionary product",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "Disney oferece US$ 20 milhões pela tecnologia de chatbot atormentada por escândalos da Character.AI",
-   "link": "https://arstechnica.com/tech-policy/2026/10/disney-offers-20m-for-character-ais-scandal-plagued-chatbot-tech/",
-   "date": "Tue, 13 Oct 2026 18:23:33 +0000",
-   "desc": "Disney may acquire tech from one of the first chatbot makers linked to child suicide.",
-   "src": "Ars Technica",
    "translated": true
   }
  ]
