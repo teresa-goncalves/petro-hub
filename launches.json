@@ -1,14 +1,7 @@
 {
- "updated": "2026-10-15T14:11:18.494Z",
+ "updated": "2026-10-16T13:59:08.946Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
-  {
-   "d": "--",
-   "mo": "",
-   "missao": "Falcon 9 · USSF-481",
-   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · data a confirmar · carga militar/classificada",
-   "net": "2026-10-15T23:57:05Z"
-  },
   {
    "d": "19",
    "mo": "OUT",
@@ -31,11 +24,32 @@
    "net": "2026-10-20T22:14:00Z"
   },
   {
-   "d": "20",
+   "d": "21",
+   "mo": "OUT",
+   "missao": "Ceres-1S · carga não divulgada",
+   "sub": "Galactic Energy · Haiyang · plataforma marítima (China) · 21/10, 00:35 (Brasília)",
+   "net": "2026-10-21T03:35:00Z"
+  },
+  {
+   "d": "21",
    "mo": "OUT",
    "missao": "Electron · We're Not Hawking Around (3x HawkEye 360)",
-   "sub": "Rocket Lab · Mahia (Nova Zelândia) · 20/10, 21:00 (Brasília) · observação da Terra",
-   "net": "2026-10-21T00:00:00Z"
+   "sub": "Rocket Lab · Mahia (Nova Zelândia) · 21/10, 02:00 (Brasília) · observação da Terra",
+   "net": "2026-10-21T05:00:00Z"
+  },
+  {
+   "d": "21",
+   "mo": "OUT",
+   "missao": "Long March 8A · carga não divulgada",
+   "sub": "CASC · Wenchang (China) · 21/10, 23:57 (Brasília)",
+   "net": "2026-10-22T02:57:00Z"
+  },
+  {
+   "d": "23",
+   "mo": "OUT",
+   "missao": "Long March 4B · carga não divulgada",
+   "sub": "CASC · Jiuquan (China) · 23/10, 15:00 (Brasília)",
+   "net": "2026-10-23T18:00:00Z"
   },
   {
    "d": "24",
@@ -43,20 +57,6 @@
    "missao": "Falcon 9 · Starlink 15-16",
    "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 24/10, 02:29 (Brasília) · comunicações",
    "net": "2026-10-24T05:29:00Z"
-  },
-  {
-   "d": "28",
-   "mo": "OUT",
-   "missao": "Vulcan VC6L · Amazon Leo (LV-01)",
-   "sub": "ULA · Cabo Canaveral, Flórida (EUA) · 28/10, 21:00 (Brasília) · comunicações",
-   "net": "2026-10-29T00:00:00Z"
-  },
-  {
-   "d": "--",
-   "mo": "",
-   "missao": "GSLV Mk II · IRNSS-1L (NVS-03)",
-   "sub": "ISRO · Sriharikota (Índia) · data a confirmar · navegação",
-   "net": "2026-10-31T00:00:00Z"
   }
  ]
 }
