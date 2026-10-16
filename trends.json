@@ -1,76 +1,76 @@
 {
- "updated": "2026-10-15T14:26:29.289Z",
+ "updated": "2026-10-16T14:20:24.560Z",
  "items": [
   {
-   "title": "JAXA usa ArkEdge para duas demonstrações de navegação lunar",
-   "link": "https://payloadspace.com/jaxa-taps-arkedge-for-two-lunar-navigation-demos/",
-   "date": "Thu, 15 Oct 2026 08:00:00 +0000",
-   "desc": "Today’s Moon explorers won’t have the luxury of GPS-like tech for navigation. But JAXA is trying to change that for future lunar visitors. The post JAXA Taps Ar",
+   "title": "A Europa precisa de corredores elétricos de carga, não apenas de navios elétricos",
+   "link": "https://cleantechnica.com/2026/10/16/china-electric-shipping-freight-infrastructure/",
+   "date": "Fri, 16 Oct 2026 13:56:21 +0000",
+   "desc": "Electric ships attract attention because the vessel is the visible technology. Put a large battery into an inland cargo vessel, replace the diesel propulsion sy",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "O Surface Laptop Ultra cumpre a maioria das promessas da Microsoft",
+   "link": "https://arstechnica.com/reviews/2026/10/the-surface-laptop-ultra-delivers-on-most-of-microsofts-promises/",
+   "date": "Fri, 16 Oct 2026 12:00:05 +0000",
+   "desc": "Microsoft promises one machine for dev, AI, and gaming, and mostly gets there.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "RATLOG quer cortar cerca de 90% das peças de um motor de foguete",
+   "link": "https://payloadspace.com/ratlog-wants-to-cut-90-of-a-rocket-engines-parts/",
+   "date": "Fri, 16 Oct 2026 12:00:00 +0000",
+   "desc": "The heavy-lift rocket startup debuted on Y Combinator as part of the Fall 2026 batch. The post RATLOG Wants to Cut ~90% of a Rocket Engine’s Parts appeared firs",
    "src": "Payload",
    "translated": true
   },
   {
-   "title": "Ainda fumando: o escândalo das emissões de PHEV continua",
-   "link": "https://cleantechnica.com/2026/10/14/still-smoking-the-phev-emissions-scandal-continues/",
-   "date": "Thu, 15 Oct 2026 03:05:17 +0000",
-   "desc": "Summary Analysis of official 2024 real-world data reveals that plug-in hybrid electric vehicles (PHEVs) continue to exhibit a widening gap between real-world pe",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "O carro voador de Tesla voa em uma tempestade perfeita de má imprensa (atualizado)",
-   "link": "https://cleantechnica.com/2026/10/14/tesla-ev-roadster-launch-elon-musk-ukraine-starlink-doge/",
-   "date": "Thu, 15 Oct 2026 00:31:35 +0000",
-   "desc": "Tesla CEO Elon Musk has promised that the October 15 launch of the new Tesla Roadster EV will be an exciting event, whether or not things go as planned. The pos",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "Serviço de táxi Green GSM agora disponível em Los Angeles",
-   "link": "https://cleantechnica.com/2026/10/14/green-gsm-taxi-service-now-available-in-los-angeles/",
-   "date": "Wed, 14 Oct 2026 21:49:15 +0000",
-   "desc": "PUBLIC transportation company Green SM has entered North America with the official launch of an all-electric taxi service in Los Angeles, California. The move t",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "A Epic diz que seu novo Epic Games Launcher com código de vibração é mais rápido que o Steam",
-   "link": "https://arstechnica.com/gaming/2026/10/programming-is-hard-epic-games-leans-on-vibe-coding-for-its-new-launcher-app/",
-   "date": "Wed, 14 Oct 2026 21:15:56 +0000",
-   "desc": "But the new \"Preview\" app \"will have some bugs,\" Epic warns.",
+   "title": "Relatório Rocket: FAA está de olho em mais tráfego de Starbase; Skyroot da Índia atrai cliente dos EUA",
+   "link": "https://arstechnica.com/space/2026/10/rocket-report-faa-eyes-more-starbase-traffic-indias-skyroot-snares-us-customer/",
+   "date": "Fri, 16 Oct 2026 11:00:53 +0000",
+   "desc": "The pioneering reusable upper stage for Stoke Space's Nova rocket ships out for testing.",
    "src": "Ars Technica",
    "translated": true
   },
   {
-   "title": "Pesquisadores usam IA para projetar proteínas que cortam outras proteínas",
-   "link": "https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/",
-   "date": "Wed, 14 Oct 2026 17:10:15 +0000",
-   "desc": "AI design tools make proteins that break bonds that are stable for hundreds of years.",
+   "title": "Blue Origin está apostando tudo no foguete New Glenn",
+   "link": "https://arstechnica.com/space/2026/10/blue-origin-is-going-all-in-on-the-new-glenn-rocket/",
+   "date": "Fri, 16 Oct 2026 10:00:54 +0000",
+   "desc": "The infrastructure is designed to support multiple flights per week by the end of the decade.",
    "src": "Ars Technica",
    "translated": true
   },
   {
-   "title": "Ucrânia pega de surpresa pelas restrições de estrangulamento do Starlink e lacunas de inteligência",
-   "link": "https://arstechnica.com/gadgets/2026/10/ukraine-blindsided-by-starlink-throttling-restrictions-and-intelligence-gaps/",
-   "date": "Wed, 14 Oct 2026 13:56:11 +0000",
-   "desc": "Kyiv’s forces experience connectivity problems on Elon Musk’s satellite network.",
-   "src": "Ars Technica",
+   "title": "Waymo abre para todos em San Antonio, San Diego e Tampa",
+   "link": "https://cleantechnica.com/2026/10/15/waymo-opens-to-everyone-in-san-antonio-san-diego-tampa/",
+   "date": "Fri, 16 Oct 2026 02:46:45 +0000",
+   "desc": "It's hard to keep track of where Waymo robotaxis are going to launch, are testing, are launching, are open to some people but not others, are open to everyone, ",
+   "src": "CleanTechnica",
    "translated": true
   },
   {
-   "title": "Como as miniconstelações poderiam trazer mais rapidamente novas tecnologias para a Europa e colocá-las em órbita",
-   "link": "https://spacenews.com/how-mini-constellations-could-more-quickly-bring-new-tech-to-europe-and-to-orbit/",
-   "date": "Wed, 14 Oct 2026 13:09:21 +0000",
-   "desc": "When the European thermal-imagery company constellr began working with Space Inventor on its next generation of satellites, some of the most important details o",
+   "title": "29 de outubro: Aplicando IA à Missão GEOINT",
+   "link": "https://spacenews.com/applying-ai-to-the-geoint-mission-event/",
+   "date": "Thu, 15 Oct 2026 20:41:50 +0000",
+   "desc": "Join us for a conversation on how machine learning is transforming the GEOINT mission across different markets The post Oct. 29: Applying AI to the GEOINT Missi",
    "src": "SpaceNews",
    "translated": true
   },
   {
-   "title": "Exclusivo: Pivôs Aeroespaciais em Órbita, de Veículos de Reentrada à Autonomia de Naves Espaciais",
-   "link": "https://payloadspace.com/exclusive-in-orbit-aerospace-pivots-from-re-entry-vehicles-to-spacecraft-autonomy/",
-   "date": "Wed, 14 Oct 2026 12:17:00 +0000",
-   "desc": "In Orbit has won new government contracts for its onboard AI system, which the company says can run a spacecraft’s operations without waiting on ground control.",
-   "src": "Payload",
+   "title": "Ghost Of Thanos persiste no momento Howard Stark de Elon Musk (atualizado)",
+   "link": "https://cleantechnica.com/2026/10/15/elon-musk-tesla-roadster-unveil-flying-cars-evtol-vtol/",
+   "date": "Thu, 15 Oct 2026 17:57:29 +0000",
+   "desc": "Tesla CEO Elon Musk aims to recover some of his EV magic from the Cybertruck debacle by showcasing the new Tesla Roadster on October 15, a $200,000 reboot of th",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Como a NASA está pensando em uma base lunar",
+   "link": "https://spacenews.com/how-nasa-is-thinking-about-a-moon-base/",
+   "date": "Thu, 15 Oct 2026 15:14:24 +0000",
+   "desc": "In this episode, SpaceNews’ Mike Gruss talks with NASA’s Shatel Bhakta, the principal systems engineer for Moon Base, about what’s needed between now and 2028 a",
+   "src": "SpaceNews",
    "translated": true
   }
  ]
