@@ -1,6 +1,30 @@
 {
- "updated": "2026-10-16T14:20:24.560Z",
+ "updated": "2026-10-17T13:16:09.191Z",
  "items": [
+  {
+   "title": "A geração solar em pequena escala nos EUA quadruplicou na última década",
+   "link": "https://cleantechnica.com/2026/10/16/u-s-small-scale-solar-generation-has-quadrupled-in-the-last-decade/",
+   "date": "Sat, 17 Oct 2026 01:32:58 +0000",
+   "desc": "We estimate that U.S. generation from small-scale or rooftop solar photovoltaic systems (smaller than 1 megawatt of capacity) has increased from 18,812 gigawatt",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Acordo automóvel franco-alemão é um “erro histórico” que enfraquece a ambição climática e a indústria automóvel europeia",
+   "link": "https://cleantechnica.com/2026/10/16/franco-german-car-deal-a-historic-mistake-that-weakens-climate-ambition-and-europes-car-industry/",
+   "date": "Sat, 17 Oct 2026 00:06:06 +0000",
+   "desc": "Deal to loosen the EU’s car CO₂ standards and IAA requirements a ‘historic mistake’ that puts Europe’s position in the global EV and battery race in jeopardy. T",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Meta pode usar novos Termos de Serviço comerciais abrangentes para evitar milhões em taxas de licenciamento de IA",
+   "link": "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/",
+   "date": "Fri, 16 Oct 2026 15:41:00 +0000",
+   "desc": "Meta “streamlined” its commercial TOS. Legal experts warn it’s an AI power grab.",
+   "src": "Ars Technica",
+   "translated": true
+  },
   {
    "title": "A Europa precisa de corredores elétricos de carga, não apenas de navios elétricos",
    "link": "https://cleantechnica.com/2026/10/16/china-electric-shipping-freight-infrastructure/",
@@ -34,35 +58,11 @@
    "translated": true
   },
   {
-   "title": "Blue Origin está apostando tudo no foguete New Glenn",
-   "link": "https://arstechnica.com/space/2026/10/blue-origin-is-going-all-in-on-the-new-glenn-rocket/",
-   "date": "Fri, 16 Oct 2026 10:00:54 +0000",
-   "desc": "The infrastructure is designed to support multiple flights per week by the end of the decade.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "Waymo abre para todos em San Antonio, San Diego e Tampa",
-   "link": "https://cleantechnica.com/2026/10/15/waymo-opens-to-everyone-in-san-antonio-san-diego-tampa/",
-   "date": "Fri, 16 Oct 2026 02:46:45 +0000",
-   "desc": "It's hard to keep track of where Waymo robotaxis are going to launch, are testing, are launching, are open to some people but not others, are open to everyone, ",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
    "title": "29 de outubro: Aplicando IA à Missão GEOINT",
    "link": "https://spacenews.com/applying-ai-to-the-geoint-mission-event/",
    "date": "Thu, 15 Oct 2026 20:41:50 +0000",
    "desc": "Join us for a conversation on how machine learning is transforming the GEOINT mission across different markets The post Oct. 29: Applying AI to the GEOINT Missi",
    "src": "SpaceNews",
-   "translated": true
-  },
-  {
-   "title": "Ghost Of Thanos persiste no momento Howard Stark de Elon Musk (atualizado)",
-   "link": "https://cleantechnica.com/2026/10/15/elon-musk-tesla-roadster-unveil-flying-cars-evtol-vtol/",
-   "date": "Thu, 15 Oct 2026 17:57:29 +0000",
-   "desc": "Tesla CEO Elon Musk aims to recover some of his EV magic from the Cybertruck debacle by showcasing the new Tesla Roadster on October 15, a $200,000 reboot of th",
-   "src": "CleanTechnica",
    "translated": true
   },
   {
