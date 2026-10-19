@@ -1,20 +1,20 @@
 {
- "updated": "2026-10-18T13:19:55.068Z",
+ "updated": "2026-10-19T16:29:31.422Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
-  {
-   "d": "19",
-   "mo": "OUT",
-   "missao": "Falcon 9 · Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
-   "sub": "SpaceX · Cabo Canaveral, Flórida (EUA) · 19/10, 07:30 (Brasília) · carona compartilhada",
-   "net": "2026-10-19T10:30:00Z"
-  },
   {
    "d": "--",
    "mo": "",
    "missao": "H3-24 · Martian Moons eXploration (MMX)",
    "sub": "MHI · Tanegashima (Japão) · data a confirmar · ciência planetária",
    "net": "2026-10-19T19:41:03Z"
+  },
+  {
+   "d": "20",
+   "mo": "OUT",
+   "missao": "Falcon 9 · Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
+   "sub": "SpaceX · Cabo Canaveral, Flórida (EUA) · 20/10, 07:30 (Brasília) · carona compartilhada",
+   "net": "2026-10-20T10:30:00Z"
   },
   {
    "d": "20",
