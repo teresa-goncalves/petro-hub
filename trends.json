@@ -1,6 +1,62 @@
 {
- "updated": "2026-10-18T13:36:08.959Z",
+ "updated": "2026-10-19T16:39:02.590Z",
  "items": [
+  {
+   "title": "UARX Space soluciona anomalias no primeiro voo OTV",
+   "link": "https://spacenews.com/uarx-space-troubleshoots-anomalies-on-maiden-otv-flight/",
+   "date": "Mon, 19 Oct 2026 16:31:12 +0000",
+   "desc": "SAN FRANCISCO –Spanish startup UARX Space is remedying anomalies identified during the maiden flight of OSSIE-D, an orbital transfer vehicle (OTV) launched Oct.",
+   "src": "SpaceNews",
+   "translated": true
+  },
+  {
+   "title": "A Disney encontrou uma maneira de comprar Character.AI sem comprar seus processos",
+   "link": "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits/",
+   "date": "Mon, 19 Oct 2026 14:45:43 +0000",
+   "desc": "Character.AI faces claims its bots encouraged minors to self-harm and kill their parents.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Um foguete chinês saiu de órbita sobre Minnesota e deixou isso no milharal de um fazendeiro",
+   "link": "https://arstechnica.com/space/2026/10/a-chinese-rocket-deorbited-over-minnesota-and-left-this-in-a-farmers-cornfield/",
+   "date": "Mon, 19 Oct 2026 14:35:01 +0000",
+   "desc": "All the evidence points to the debris being part of a Chinese Zhuque-2E rocket.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Puxa, Whizz Ma, Elon Musk me deu uma ação na SpaceX, ele não é ótimo!",
+   "link": "https://cleantechnica.com/2026/10/19/spacex-ukraine-musk-diesel-us-elections-kids-publicity-stunt/",
+   "date": "Mon, 19 Oct 2026 13:49:12 +0000",
+   "desc": "SpaceX is in hot water over a decision to throttle back its Starlink and Starshield service in Ukraine last week, a decision for which nobody seems to have made",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "WarpWare fecha pré-seed para trazer ferramentas Agentic para software de voo",
+   "link": "https://payloadspace.com/warpware-closes-pre-seed-to-bring-agentic-tools-to-flight-software/",
+   "date": "Mon, 19 Oct 2026 13:00:00 +0000",
+   "desc": "CO-based WarpWare closed its $1.2M pre-seed round today to expand what it calls an AI-enabled engineering platform for space missions. The post WarpWare Closes ",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "XPENG G9L estabelece referência de SUV premium utilizável na Europa",
+   "link": "https://cleantechnica.com/2026/10/18/xpeng-g9l-sets-usable-premium-suv-benchmark-in-europe/",
+   "date": "Mon, 19 Oct 2026 03:12:01 +0000",
+   "desc": "I recently attended the launch of the XPENG G9L at the Paris Motor Show. This represents XPENG bringing their latest tech in a flagship-level vehicle to Europe.",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Anthropic dá acesso externo “semelhante ao de um funcionário” ao cão de guarda da IA",
+   "link": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+   "date": "Sun, 18 Oct 2026 16:25:19 +0000",
+   "desc": "The outside watchdog can publish its findings without Anthropic's approval.",
+   "src": "Ars Technica",
+   "translated": true
+  },
   {
    "title": "Carregadores de veículos elétricos ou carros voadores? Tesla e o estado da Flórida não conseguem decidir",
    "link": "https://cleantechnica.com/2026/10/18/electric-vehicle-chargers-or-flying-cars-tesla-and-the-state-of-florida-cant-decide/",
@@ -10,67 +66,11 @@
    "translated": true
   },
   {
-   "title": "As vendas de veículos ICE caem 49% (!) Enquanto a participação de EV salta para 67% (!) - Relatório de vendas de EV na China de setembro",
-   "link": "https://cleantechnica.com/2026/10/17/ice-vehicle-sales-crash-49-while-ev-share-jumps-to-67-china-ev-sales-report-for-september/",
-   "date": "Sat, 17 Oct 2026 21:12:08 +0000",
-   "desc": "High gas prices and a never-ending wave of new BEVs has allowed September to reach 67% EV market share, a new record! However, while record market share was ach",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "A transição EV da China envolve quatro transições diferentes",
-   "link": "https://cleantechnica.com/2026/10/17/china-ev-transition-use-cases/",
-   "date": "Sat, 17 Oct 2026 16:53:22 +0000",
-   "desc": "China has reached a stage of vehicle electrification that is easy to miss if the only number being watched is national EV market share. New urban buses are now ",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "Meta pode usar novos Termos de Serviço comerciais abrangentes para evitar milhões em taxas de licenciamento de IA",
-   "link": "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/",
-   "date": "Fri, 16 Oct 2026 15:41:00 +0000",
-   "desc": "Meta “streamlined” its commercial TOS. Legal experts warn it’s an AI power grab.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "O Surface Laptop Ultra cumpre a maioria das promessas da Microsoft",
-   "link": "https://arstechnica.com/reviews/2026/10/the-surface-laptop-ultra-delivers-on-most-of-microsofts-promises/",
-   "date": "Fri, 16 Oct 2026 12:00:05 +0000",
-   "desc": "Microsoft promises one machine for dev, AI, and gaming, and mostly gets there.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
    "title": "RATLOG quer cortar cerca de 90% das peças de um motor de foguete",
    "link": "https://payloadspace.com/ratlog-wants-to-cut-90-of-a-rocket-engines-parts/",
    "date": "Fri, 16 Oct 2026 12:00:00 +0000",
    "desc": "The heavy-lift rocket startup debuted on Y Combinator as part of the Fall 2026 batch. The post RATLOG Wants to Cut ~90% of a Rocket Engine’s Parts appeared firs",
    "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "Relatório Rocket: FAA está de olho em mais tráfego de Starbase; Skyroot da Índia atrai cliente dos EUA",
-   "link": "https://arstechnica.com/space/2026/10/rocket-report-faa-eyes-more-starbase-traffic-indias-skyroot-snares-us-customer/",
-   "date": "Fri, 16 Oct 2026 11:00:53 +0000",
-   "desc": "The pioneering reusable upper stage for Stoke Space's Nova rocket ships out for testing.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "29 de outubro: Aplicando IA à Missão GEOINT",
-   "link": "https://spacenews.com/applying-ai-to-the-geoint-mission-event/",
-   "date": "Thu, 15 Oct 2026 20:41:50 +0000",
-   "desc": "Join us for a conversation on how machine learning is transforming the GEOINT mission across different markets The post Oct. 29: Applying AI to the GEOINT Missi",
-   "src": "SpaceNews",
-   "translated": true
-  },
-  {
-   "title": "Como a NASA está pensando em uma base lunar",
-   "link": "https://spacenews.com/how-nasa-is-thinking-about-a-moon-base/",
-   "date": "Thu, 15 Oct 2026 15:14:24 +0000",
-   "desc": "In this episode, SpaceNews’ Mike Gruss talks with NASA’s Shatel Bhakta, the principal systems engineer for Moon Base, about what’s needed between now and 2028 a",
-   "src": "SpaceNews",
    "translated": true
   }
  ]
