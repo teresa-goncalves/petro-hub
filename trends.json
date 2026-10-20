@@ -1,76 +1,76 @@
 {
- "updated": "2026-10-19T16:39:02.590Z",
+ "updated": "2026-10-20T14:31:08.044Z",
  "items": [
+  {
+   "title": "Departamento de Estado convoca trio para impulso de diplomacia espacial de US$ 5 milhões",
+   "link": "https://payloadspace.com/state-department-taps-trio-for-5m-space-diplomacy-push/",
+   "date": "Tue, 20 Oct 2026 12:45:00 +0000",
+   "desc": "At last week’s second annual US Space Forum, the US Mission to the International Organizations in Vienna launched Project Constellation, a $5M effort to build i",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "Reaction Dynamics tem como meta 2031 para o lançamento da Borealis Medium-Lift",
+   "link": "https://payloadspace.com/reaction-dynamics-targets-2031-for-borealis-medium-lift-launch/",
+   "date": "Tue, 20 Oct 2026 12:32:51 +0000",
+   "desc": "In the contest to build up commercial launch capabilities in Canada, Quebec-based startup Reaction Dynamics has entered a new weight class. The post Reaction Dy",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "Os soldados do Partido da Traição continuam, mas pelo menos a guerra contra os EVs está acabando",
+   "link": "https://cleantechnica.com/2026/10/20/ev-sales-us-trump-treason-russia-putin-puppet/",
+   "date": "Tue, 20 Oct 2026 11:55:55 +0000",
+   "desc": "The US EV start up Slate Auto has opened for business in Chicago, in yet another indication that the war on EVs is fizzling out. The post The Treason Party Sold",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Japão lança missão para trazer para casa um pedaço da lua marciana Fobos",
+   "link": "https://arstechnica.com/space/2026/10/japan-launches-mission-to-bring-home-a-piece-of-the-martian-moon-phobos/",
+   "date": "Tue, 20 Oct 2026 05:59:56 +0000",
+   "desc": "The climax for MMX will come in 2029, when the spacecraft will attempt up to two landings on Phobos.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Principais investidores prevêem que a SpaceX comprará Tesla por US$ 420/ação nas próximas semanas",
+   "link": "https://cleantechnica.com/2026/10/19/top-investor-predicts-spacex-will-buy-tesla-at-420-share-in-coming-weeks/",
+   "date": "Tue, 20 Oct 2026 03:55:51 +0000",
+   "desc": "There's been a lot of chatter in recent days, weeks, and months about the possibility that SpaceX and Tesla will merge. Elon Musk has been a fan of merging, swa",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "As vendas de híbridos aumentam, enquanto as vendas de baterias elétricas permanecem mais baixas após o vencimento do crédito fiscal",
+   "link": "https://cleantechnica.com/2026/10/19/hybrid-sales-rise-while-battery-electric-sales-remain-lower-after-tax-credit-expiration-2/",
+   "date": "Mon, 19 Oct 2026 22:56:04 +0000",
+   "desc": "In the third quarter of 2026 (3Q26), 23% of new light-duty vehicles sold in the United States were hybrid electric, battery electric, or plug-in hybrid electric",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Nave espacial russa manobra em “extrema proximidade” de satélite usado pela Ucrânia",
+   "link": "https://arstechnica.com/space/2026/10/russian-spacecraft-maneuvers-in-extreme-proximity-to-satellite-used-by-ukraine/",
+   "date": "Mon, 19 Oct 2026 20:54:17 +0000",
+   "desc": "\"Kosmos 2612 closed from hundreds of kilometers away to extreme proximity to ICEYE-X36.\"",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Startup utiliza vulcão subaquático como fonte de energia em teste de “ponto de prova”",
+   "link": "https://arstechnica.com/science/2026/10/startup-taps-underwater-volcano-as-energy-source-in-proof-point-test/",
+   "date": "Mon, 19 Oct 2026 19:27:24 +0000",
+   "desc": "Can undersea geothermal power help Pacific Rim nations cut down on oil imports?",
+   "src": "Ars Technica",
+   "translated": true
+  },
   {
    "title": "UARX Space soluciona anomalias no primeiro voo OTV",
    "link": "https://spacenews.com/uarx-space-troubleshoots-anomalies-on-maiden-otv-flight/",
    "date": "Mon, 19 Oct 2026 16:31:12 +0000",
    "desc": "SAN FRANCISCO –Spanish startup UARX Space is remedying anomalies identified during the maiden flight of OSSIE-D, an orbital transfer vehicle (OTV) launched Oct.",
    "src": "SpaceNews",
-   "translated": true
-  },
-  {
-   "title": "A Disney encontrou uma maneira de comprar Character.AI sem comprar seus processos",
-   "link": "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits/",
-   "date": "Mon, 19 Oct 2026 14:45:43 +0000",
-   "desc": "Character.AI faces claims its bots encouraged minors to self-harm and kill their parents.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "Um foguete chinês saiu de órbita sobre Minnesota e deixou isso no milharal de um fazendeiro",
-   "link": "https://arstechnica.com/space/2026/10/a-chinese-rocket-deorbited-over-minnesota-and-left-this-in-a-farmers-cornfield/",
-   "date": "Mon, 19 Oct 2026 14:35:01 +0000",
-   "desc": "All the evidence points to the debris being part of a Chinese Zhuque-2E rocket.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "Puxa, Whizz Ma, Elon Musk me deu uma ação na SpaceX, ele não é ótimo!",
-   "link": "https://cleantechnica.com/2026/10/19/spacex-ukraine-musk-diesel-us-elections-kids-publicity-stunt/",
-   "date": "Mon, 19 Oct 2026 13:49:12 +0000",
-   "desc": "SpaceX is in hot water over a decision to throttle back its Starlink and Starshield service in Ukraine last week, a decision for which nobody seems to have made",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "WarpWare fecha pré-seed para trazer ferramentas Agentic para software de voo",
-   "link": "https://payloadspace.com/warpware-closes-pre-seed-to-bring-agentic-tools-to-flight-software/",
-   "date": "Mon, 19 Oct 2026 13:00:00 +0000",
-   "desc": "CO-based WarpWare closed its $1.2M pre-seed round today to expand what it calls an AI-enabled engineering platform for space missions. The post WarpWare Closes ",
-   "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "XPENG G9L estabelece referência de SUV premium utilizável na Europa",
-   "link": "https://cleantechnica.com/2026/10/18/xpeng-g9l-sets-usable-premium-suv-benchmark-in-europe/",
-   "date": "Mon, 19 Oct 2026 03:12:01 +0000",
-   "desc": "I recently attended the launch of the XPENG G9L at the Paris Motor Show. This represents XPENG bringing their latest tech in a flagship-level vehicle to Europe.",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "Anthropic dá acesso externo “semelhante ao de um funcionário” ao cão de guarda da IA",
-   "link": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
-   "date": "Sun, 18 Oct 2026 16:25:19 +0000",
-   "desc": "The outside watchdog can publish its findings without Anthropic's approval.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "Carregadores de veículos elétricos ou carros voadores? Tesla e o estado da Flórida não conseguem decidir",
-   "link": "https://cleantechnica.com/2026/10/18/electric-vehicle-chargers-or-flying-cars-tesla-and-the-state-of-florida-cant-decide/",
-   "date": "Sun, 18 Oct 2026 11:42:09 +0000",
-   "desc": "As a child of the 1960s, I grew up with dreams of a high tech future, so different from my simple rural family lifestyle. In part, that fondness for the future ",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "RATLOG quer cortar cerca de 90% das peças de um motor de foguete",
-   "link": "https://payloadspace.com/ratlog-wants-to-cut-90-of-a-rocket-engines-parts/",
-   "date": "Fri, 16 Oct 2026 12:00:00 +0000",
-   "desc": "The heavy-lift rocket startup debuted on Y Combinator as part of the Fall 2026 batch. The post RATLOG Wants to Cut ~90% of a Rocket Engine’s Parts appeared firs",
-   "src": "Payload",
    "translated": true
   }
  ]
