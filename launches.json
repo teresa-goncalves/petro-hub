@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T14:30:17.028Z",
+ "updated": "2026-10-22T14:32:01.918Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
   {
@@ -7,14 +7,14 @@
    "mo": "",
    "missao": "Falcon 9 · Starlink 15-15",
    "sub": "SpaceX · Vandenberg, Califórnia (EUA) · data a confirmar · comunicações",
-   "net": "2026-10-21T23:02:41Z"
+   "net": "2026-10-22T22:51:18Z"
   },
   {
-   "d": "22",
+   "d": "23",
    "mo": "OUT",
    "missao": "Electron · We're Not Hawking Around (3x HawkEye 360)",
-   "sub": "Rocket Lab · Mahia (Nova Zelândia) · 22/10, 04:00 (Brasília) · observação da Terra",
-   "net": "2026-10-22T07:00:00Z"
+   "sub": "Rocket Lab · Mahia (Nova Zelândia) · 23/10, 04:00 (Brasília) · observação da Terra",
+   "net": "2026-10-23T07:00:00Z"
   },
   {
    "d": "23",
@@ -33,23 +33,16 @@
   {
    "d": "24",
    "mo": "OUT",
-   "missao": "Falcon 9 · Starlink 15-16",
-   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 24/10, 02:29 (Brasília) · comunicações",
-   "net": "2026-10-24T05:29:00Z"
-  },
-  {
-   "d": "24",
-   "mo": "OUT",
    "missao": "Long March 8A · carga não divulgada",
    "sub": "CASC · Wenchang (China) · 24/10, 22:50 (Brasília)",
    "net": "2026-10-25T01:50:00Z"
   },
   {
-   "d": "28",
+   "d": "26",
    "mo": "OUT",
-   "missao": "Falcon 9 · Starlink 15-18",
-   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 28/10, 01:31 (Brasília) · comunicações",
-   "net": "2026-10-28T04:31:00Z"
+   "missao": "Falcon 9 · Starlink 15-16",
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 26/10, 02:00 (Brasília) · comunicações",
+   "net": "2026-10-26T05:00:00Z"
   },
   {
    "d": "28",
@@ -57,6 +50,13 @@
    "missao": "Vulcan VC6L · Amazon Leo (LV-01)",
    "sub": "ULA · Cabo Canaveral, Flórida (EUA) · 28/10, 21:00 (Brasília) · comunicações",
    "net": "2026-10-29T00:00:00Z"
+  },
+  {
+   "d": "29",
+   "mo": "OUT",
+   "missao": "Falcon 9 · Starlink 15-18",
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 29/10, 01:17 (Brasília) · comunicações",
+   "net": "2026-10-29T04:17:00Z"
   }
  ]
 }
