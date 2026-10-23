@@ -1,12 +1,12 @@
 {
- "updated": "2026-10-23T01:45:40.416Z",
+ "updated": "2026-10-23T07:07:48.616Z",
  "quotes": [
   {
    "sym": "BZ=F",
    "name": "Petróleo Brent",
    "group": "commodity",
-   "price": 113.66,
-   "changePct": 0.43,
+   "price": 114.38,
+   "changePct": 1.07,
    "currency": "USD"
   },
   {
@@ -133,8 +133,8 @@
    "sym": "EURBRL=X",
    "name": "Euro (EUR/BRL)",
    "group": "fx",
-   "price": 5.67,
-   "changePct": 0,
+   "price": 5.66,
+   "changePct": -0.04,
    "currency": "BRL"
   }
  ]
