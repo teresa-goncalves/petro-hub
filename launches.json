@@ -1,14 +1,7 @@
 {
- "updated": "2026-10-22T14:32:01.918Z",
+ "updated": "2026-10-23T00:32:35.428Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
-  {
-   "d": "--",
-   "mo": "",
-   "missao": "Falcon 9 · Starlink 15-15",
-   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · data a confirmar · comunicações",
-   "net": "2026-10-22T22:51:18Z"
-  },
   {
    "d": "23",
    "mo": "OUT",
@@ -29,6 +22,13 @@
    "missao": "Long March 4B · carga não divulgada",
    "sub": "CASC · Jiuquan (China) · 23/10, 16:25 (Brasília)",
    "net": "2026-10-23T19:25:00Z"
+  },
+  {
+   "d": "23",
+   "mo": "OUT",
+   "missao": "Falcon 9 · Starlink 15-15",
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 23/10, 18:30 (Brasília) · comunicações",
+   "net": "2026-10-23T21:30:00Z"
   },
   {
    "d": "24",
