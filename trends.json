@@ -1,60 +1,60 @@
 {
- "updated": "2026-10-22T14:42:26.063Z",
+ "updated": "2026-10-23T14:28:37.942Z",
  "items": [
+  {
+   "title": "O reator destinado a mostrar o retorno da energia nuclear continua enfrentando problemas",
+   "link": "https://arstechnica.com/tech-policy/2026/10/safety-concerns-cloud-americas-flagship-nuclear-restart/",
+   "date": "Fri, 23 Oct 2026 13:43:21 +0000",
+   "desc": "A contractor fell into a reactor cavity and a bundle of fuel rods almost fell over.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "A Ucrânia aprende a lutar sem Starlink enquanto Musk faz política com satélites",
+   "link": "https://arstechnica.com/gadgets/2026/10/ukraine-learns-to-fight-without-starlink-as-musk-plays-politics-with-satellites/",
+   "date": "Fri, 23 Oct 2026 11:30:22 +0000",
+   "desc": "Ukraine has changed drone and war-fighting tech to reduce reliance on Starlink.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Relatório de foguetes: SpaceX diz não, obrigado a lançamentos militares; Foguete espanhol quase pronto",
+   "link": "https://arstechnica.com/space/2026/10/rocket-report-spacex-says-no-thanks-to-military-launches-spanish-rocket-nearly-ready/",
+   "date": "Fri, 23 Oct 2026 11:00:57 +0000",
+   "desc": "\"We believe Canada should be able to reach orbit on its own terms.\"",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Optivolt levanta US$ 32 milhões para construir o cérebro dos painéis solares do futuro",
+   "link": "https://cleantechnica.com/2026/10/22/optivolt-raises-32m-to-build-the-brain-for-solar-panels-of-the-future/",
+   "date": "Fri, 23 Oct 2026 03:58:54 +0000",
+   "desc": "Series A led by VXI Capital, with backing from the people who built modern solar, including founding Enphase CEO Paul Nahi, former SunPower CEO Tom Werner and f",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "O que o Battery Show nos contou sobre o próximo capítulo da eletrificação",
+   "link": "https://cleantechnica.com/2026/10/22/what-the-battery-show-told-us-about-the-next-chapter-of-electrification/",
+   "date": "Fri, 23 Oct 2026 03:57:17 +0000",
+   "desc": "The Battery Show North America 2026 in Detroit, Michigan wasn't about the next breakthrough. It was about who can deliver. Each fall you can learn a lot about t",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "ANÁLISE: O crescimento da energia solar e do armazenamento reduz os preços da eletricidade no atacado no verão em 42% no Texas e 51% na Califórnia",
+   "link": "https://cleantechnica.com/2026/10/22/analysis-solar-storage-growth-drives-down-summer-wholesale-electricity-prices-by-42-in-texas-51-in-california/",
+   "date": "Fri, 23 Oct 2026 01:00:34 +0000",
+   "desc": "New analysis shows how solar and storage are lowering electricity costs in red and blue states as affordability takes center stage heading into the midterm elec",
+   "src": "CleanTechnica",
+   "translated": true
+  },
   {
    "title": "Academias Nacionais classificam locais lunares não polares",
    "link": "https://payloadspace.com/national-academies-rank-ideal-nonpolar-moon-sites/",
    "date": "Thu, 22 Oct 2026 12:30:00 +0000",
    "desc": "A new report from the National Academies ranks the top four non-polar sites for future crewed lunar missions. The post National Academies Rank Nonpolar Moon Sit",
    "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "A energia solar continua insistindo em si mesma, estado vermelho ou azul",
-   "link": "https://cleantechnica.com/2026/10/22/solar-power-reduces-electricity-costs-texas-california/",
-   "date": "Thu, 22 Oct 2026 12:29:56 +0000",
-   "desc": "Solar power has helped keep wholesale electricity rates down in Texas and California over the past five years, regardless of partisan politics and heat waves, t",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "Os estados continuam a progredir na infraestrutura de carregamento de veículos elétricos",
-   "link": "https://cleantechnica.com/2026/10/21/states-continue-to-make-progress-on-ev-charging-infrastructure/",
-   "date": "Thu, 22 Oct 2026 03:43:17 +0000",
-   "desc": "Sierra Club Urges Congress to Reauthorize EV Charging Program in Upcoming Funding Deal WASHINGTON, D.C. — The national electric vehicle (EV) charging network is",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "A nova marca Apple Music criada pelo homem é importante em um mundo de IA",
-   "link": "https://arstechnica.com/culture/2026/10/the-new-human-crafted-apple-music-brand-matters-in-an-ai-world/",
-   "date": "Wed, 21 Oct 2026 19:44:40 +0000",
-   "desc": "Opinion: In a world of AI slop, showing the human hands making things helps.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "Os modelos de IA mais recentes da OpenAI estão chegando ao Google Cloud e ao Antigravity",
-   "link": "https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/",
-   "date": "Wed, 21 Oct 2026 18:51:42 +0000",
-   "desc": "Google Cloud will have GPT 6.1 Astra, Sol, and Luna in the coming weeks.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "Juiz rejeita a alegação selvagem de Trump de que a EPA pode rejeitar ações judiciais de poluição de data centers",
-   "link": "https://arstechnica.com/tech-policy/2026/10/judge-rejects-trumps-wild-claim-epa-can-dismiss-data-center-pollution-lawsuits/",
-   "date": "Wed, 21 Oct 2026 18:20:40 +0000",
-   "desc": "Trump’s EPA can't unilaterally dismiss SpaceXAI pollution lawsuit, court rules.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "Nuvem de traição se instala sobre a potencial fusão SpaceX-Tesla",
-   "link": "https://cleantechnica.com/2026/10/21/space-x-tesla-merger-elon-musk-ukraine-ultimate-decider-starlink-starshield/",
-   "date": "Wed, 21 Oct 2026 16:38:19 +0000",
-   "desc": "According to a new report, Elon Musk himself ordered SpaceX satellites to dial down essential services to Ukraine last week, cripping the nation's ability to de",
-   "src": "CleanTechnica",
    "translated": true
   },
   {
