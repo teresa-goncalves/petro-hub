@@ -21,7 +21,10 @@ const TICKERS = [
   { sym: "NEE",      stooq: "nee.us",   name: "NextEra Energy",       group: "new" },
   { sym: "FSLR",     stooq: "fslr.us",  name: "First Solar",          group: "new" },
   { sym: "CCJ",      stooq: "ccj.us",   name: "Cameco (urânio)",      group: "new" },
-  { sym: "CEG",      stooq: "ceg.us",   name: "Constellation (nucl.)", group: "new" }
+  { sym: "CEG",      stooq: "ceg.us",   name: "Constellation (nucl.)", group: "new" },
+  // Câmbio (reserva do widget do topo quando a API de câmbio do navegador falha; não aparece no Mercado)
+  { sym: "USDBRL=X", stooq: "usdbrl",   name: "Dólar (USD/BRL)",      group: "fx" },
+  { sym: "EURBRL=X", stooq: "eurbrl",   name: "Euro (EUR/BRL)",       group: "fx" }
 ];
 
 const UA = { "User-Agent": "Mozilla/5.0 (compatible; PetroHubBot/1.0)" };
