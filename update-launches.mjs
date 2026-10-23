@@ -139,8 +139,8 @@ if (!data || !Array.isArray(data.results)) {
 const itens = data.results.slice(0, 8).map(l => {
   const dt = new Date(l.net);
   const prec = (l.net_precision && l.net_precision.abbrev) || "";
-  // Só mostra dia/mês quando a data é confiável (minuto, hora ou dia).
-  const exata = !isNaN(dt) && ["MIN", "HR", "DAY"].includes(prec);
+  // Só mostra dia/mês quando a data é confiável (segundo, minuto, hora ou dia).
+  const exata = !isNaN(dt) && ["SEC", "MIN", "HR", "DAY"].includes(prec);
   const { foguete, missao } = partes(l.name);
   const tipo = TIPOS[l.mission_type] || "";
   const p = exata ? brasilia(dt) : null;
