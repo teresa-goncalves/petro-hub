@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T10:01:28.342Z",
+ "updated": "2026-10-25T14:29:46.490Z",
  "quotes": [
   {
    "sym": "BZ=F",
@@ -125,8 +125,8 @@
    "sym": "USDBRL=X",
    "name": "Dólar (USD/BRL)",
    "group": "fx",
-   "price": 5,
-   "changePct": -1.11,
+   "price": 4.97,
+   "changePct": -1.73,
    "currency": "BRL"
   },
   {
