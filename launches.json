@@ -1,27 +1,13 @@
 {
- "updated": "2026-10-24T13:21:21.606Z",
+ "updated": "2026-10-25T13:43:56.438Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
-  {
-   "d": "24",
-   "mo": "OUT",
-   "missao": "Long March 8A · carga não divulgada",
-   "sub": "CASC · Wenchang (China) · 24/10, 22:50 (Brasília)",
-   "net": "2026-10-25T01:50:00Z"
-  },
   {
    "d": "27",
    "mo": "OUT",
    "missao": "Falcon 9 · Starlink 15-16",
    "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 27/10, 01:45 (Brasília) · comunicações",
    "net": "2026-10-27T04:45:00Z"
-  },
-  {
-   "d": "28",
-   "mo": "OUT",
-   "missao": "Vulcan VC6L · Amazon Leo (LV-01)",
-   "sub": "ULA · Cabo Canaveral, Flórida (EUA) · 28/10, 21:00 (Brasília) · comunicações",
-   "net": "2026-10-29T00:00:00Z"
   },
   {
    "d": "30",
@@ -57,6 +43,20 @@
    "missao": "Falcon 9 · Starlink 15-21",
    "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 05/11, 02:14 (Brasília) · comunicações",
    "net": "2026-11-05T05:14:00Z"
+  },
+  {
+   "d": "05",
+   "mo": "NOV",
+   "missao": "Falcon 9 · NROL-195",
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 05/11, 19:34 (Brasília) · carga militar/classificada",
+   "net": "2026-11-05T22:34:00Z"
+  },
+  {
+   "d": "09",
+   "mo": "NOV",
+   "missao": "Electron · The Mountain God Rises (iQPS Launch 10)",
+   "sub": "Rocket Lab · Mahia (Nova Zelândia) · 09/11, 21:00 (Brasília) · observação da Terra",
+   "net": "2026-11-10T00:00:00Z"
   }
  ]
 }
