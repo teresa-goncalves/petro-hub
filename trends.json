@@ -1,8 +1,56 @@
 {
- "updated": "2026-10-26T16:19:28.601Z",
+ "updated": "2026-10-27T15:34:01.804Z",
  "items": [
   {
-   "title": "Tesla desistiu da coroa EV. Agora quer vencer a corrida pela autonomia",
+   "title": "Duplicação da produção da BYD no Brasil",
+   "link": "https://cleantechnica.com/2026/10/27/byds-doubling-production-in-brazil/",
+   "date": "Tue, 27 Oct 2026 14:03:58 +0000",
+   "desc": "BYD's big story in the last year or tear and a half has been its rapid growth outside of China. The Chinese electric vehicle company has been selling more and m",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "MP Space levanta AUD $ 23 milhões para expandir a fabricação de baterias de satélite",
+   "link": "https://payloadspace.com/mp-space-raises-aud-23m-to-scale-satellite-battery-manufacturing/",
+   "date": "Tue, 27 Oct 2026 12:29:27 +0000",
+   "desc": "MP Space’s batteries launched for the first time last week with an undisclosed customer on SpaceX’s Bandwagon-5 mission, and already the company has orders to s",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "Não seria engraçado se a Audi fabricasse veículos elétricos nos EUA?",
+   "link": "https://cleantechnica.com/2026/10/26/audi-factory-us-plugin-hybrid-evs-trump-celebrates/",
+   "date": "Tue, 27 Oct 2026 03:48:44 +0000",
+   "desc": "The German automaker Audi has dialed back its full EV plans for the US market, but its strategy still includes plug-in hybrids and a new factory in Georgia, too",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Do barril à bateria: o que decidirá o debate sobre carros limpos na Europa",
+   "link": "https://cleantechnica.com/2026/10/26/from-barrel-to-battery-what-will-europes-clean-car-debate-decide/",
+   "date": "Tue, 27 Oct 2026 03:15:26 +0000",
+   "desc": "The new energy reality: 1 kWh of battery is cheaper than a barrel of oil The EU is fiercely debating the future of the automotive industry and how far the trans",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Cowboy Space revela foguete para data center Big Iron",
+   "link": "https://payloadspace.com/cowboy-space-reveals-big-iron-data-center-rocket/",
+   "date": "Tue, 27 Oct 2026 02:30:00 +0000",
+   "desc": "Cowboy Space pulled back the curtain on Big Iron—a launch vehicle whose upper stage is designed to remain in orbit as a megawatt-class data center. The post Cow",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "A Apple lança iOS e macOS 27.2 com novos recursos Siri AI, novo logotipo Music",
+   "link": "https://arstechnica.com/apple/2026/10/apple-releases-ios-and-macos-27-2-with-new-siri-ai-features-new-music-logo/",
+   "date": "Mon, 26 Oct 2026 20:04:16 +0000",
+   "desc": "Included is the ability to limit which applications Siri can directly access.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Tesla desistiu da coroa EV. Agora quer vencer a corrida pela autonomia.",
    "link": "https://arstechnica.com/cars/2026/10/tesla-wants-ai-and-software-to-be-its-next-profit-engine/",
    "date": "Mon, 26 Oct 2026 14:30:27 +0000",
    "desc": "Tesla hopes autonomy subscriptions can deliver the margins car sales cannot.",
@@ -18,59 +66,11 @@
    "translated": true
   },
   {
-   "title": "Novo Li Auto i6 percorre 811 km (504 milhas)",
-   "link": "https://cleantechnica.com/2026/10/25/new-li-auto-i6-goes-811-km-504-miles/",
-   "date": "Sun, 25 Oct 2026 17:57:54 +0000",
-   "desc": "Li Auto's new i6 electric vehicle has a very interesting look. It makes me think of something out of some futuristic movie or The Jetsons. It certainly has an M",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "Investir em Solar e ganhar US$ 3.000 por dia?",
-   "link": "https://cleantechnica.com/2026/10/25/invest-in-solar-and-earn-3000-a-day/",
-   "date": "Sun, 25 Oct 2026 08:20:44 +0000",
-   "desc": "Driven by the rapid growth of artificial intelligence, data centers, electric vehicles, and industrial electrification, global electricity demand continues to r",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "Uma nuvem de 1.600 quilômetros em Marte pode revelar uma física nunca vista na natureza",
-   "link": "https://arstechnica.com/science/2026/10/a-1000-mile-cloud-on-mars-may-reveal-physics-never-seen-in-nature/",
-   "date": "Sat, 24 Oct 2026 11:50:28 +0000",
-   "desc": "A new model suggests Mars may host ice-forming physics never directly observed before.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "Logitech lança ‘reação em cadeia’ para acelerar a descarbonização da cadeia de suprimentos em direção às metas climáticas para 2030",
-   "link": "https://cleantechnica.com/2026/10/23/logitech-launches-chain-reaction-to-accelerate-supply-chain-decarbonization-towards-2030-climate-goals/",
-   "date": "Sat, 24 Oct 2026 03:55:00 +0000",
-   "desc": "Initiative enables suppliers through renewable energy aggregation and supplier capability building. LAUSANNE, Switzerland &#38; SAN JOSE, California — Logitech ",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "NASA atualiza planos de pouso para pousos na Lua e finalmente resolve problema de longa data de Orion",
-   "link": "https://arstechnica.com/space/2026/10/nasa-updates-lander-plans-for-moon-landings-finally-solves-long-festering-orion-issue/",
-   "date": "Fri, 23 Oct 2026 22:48:25 +0000",
-   "desc": "\"We have the mandate, we have the resources, and the support from our stakeholders.\"",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "NASA descreve os detalhes das missões Artemis III e IV",
-   "link": "https://payloadspace.com/nasa-outlines-the-details-of-artemis-iii-and-iv-missions/",
-   "date": "Fri, 23 Oct 2026 21:13:28 +0000",
-   "desc": "NASA is still on track to return US astronauts to the Moon in 2028. On Friday, officials shared a progress update on their efforts, as well as the finer details",
+   "title": "Nova estrutura de licenciamento Parte 100 da FCC: o que as empresas espaciais precisam saber",
+   "link": "https://payloadspace.com/fccs-new-part-100-licensing-framework-what-space-companies-need-to-know/",
+   "date": "Mon, 26 Oct 2026 10:13:00 +0000",
+   "desc": "In July 2026, the FCC adopted the new Part 100 comms-licensing framework for the authorization of satellite systems and Earth stations in the US. The post FCC’s",
    "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "5 de novembro: Gerenciamento de missão de satélite no limite",
-   "link": "https://spacenews.com/satellite-mission-management-at-the-edge-event/",
-   "date": "Fri, 23 Oct 2026 19:53:25 +0000",
-   "desc": "Join us to explore how emerging technologies and commercial capabilities are transforming satellite operations The post Nov. 5: Satellite Mission Management at ",
-   "src": "SpaceNews",
    "translated": true
   }
  ]
