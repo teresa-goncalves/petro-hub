@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T15:22:59.942Z",
+ "updated": "2026-10-28T16:06:04.637Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
   {
@@ -31,11 +31,11 @@
    "net": "2026-11-03T00:00:00Z"
   },
   {
-   "d": "05",
+   "d": "04",
    "mo": "NOV",
    "missao": "Falcon 9 · Starlink 15-21",
-   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 05/11, 02:14 (Brasília) · comunicações",
-   "net": "2026-11-05T05:14:00Z"
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 04/11, 23:35 (Brasília) · comunicações",
+   "net": "2026-11-05T02:35:00Z"
   },
   {
    "d": "05",
@@ -52,11 +52,11 @@
    "net": "2026-11-10T00:00:00Z"
   },
   {
-   "d": "22",
+   "d": "12",
    "mo": "NOV",
-   "missao": "Ariane 64 Block 2 · Amazon Leo (LE-04)",
-   "sub": "Arianespace · Centro Espacial de Kourou (Guiana Francesa) · 22/11, 21:00 (Brasília) · comunicações",
-   "net": "2026-11-23T00:00:00Z"
+   "missao": "Vulcan VC6L · Amazon Leo (LV-01)",
+   "sub": "ULA · Cabo Canaveral, Flórida (EUA) · 12/11, 21:00 (Brasília) · comunicações",
+   "net": "2026-11-13T00:00:00Z"
   }
  ]
 }
