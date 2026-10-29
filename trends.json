@@ -1,12 +1,68 @@
 {
- "updated": "2026-10-28T16:17:58.991Z",
+ "updated": "2026-10-29T16:25:43.494Z",
  "items": [
   {
-   "title": "China recua na promoção de baterias EV de segunda vida",
-   "link": "https://cleantechnica.com/2026/10/28/china-second-life-ev-battery-reuse-rules/",
-   "date": "Wed, 28 Oct 2026 15:15:36 +0000",
-   "desc": "China spent much of the 2010s electrifying urban bus fleets while most countries were still testing whether battery-electric buses could replace diesel. By the ",
+   "title": "Conselhos para otimizar a indústria espacial com Laura Crabtree",
+   "link": "https://spacenews.com/advice-for-optimizing-the-space-industry-with-laura-crabtree/",
+   "date": "Thu, 29 Oct 2026 15:01:09 +0000",
+   "desc": "In this episode, Mike Gruss speaks with Laura Crabtree, the CEO of Epsilon3, who is also a former SpaceX astronaut trainer. They talk about ways that space comp",
+   "src": "SpaceNews",
+   "translated": true
+  },
+  {
+   "title": "Afinal, parece que Trump adora veículos elétricos",
+   "link": "https://cleantechnica.com/2026/10/29/battman-batteries-evs-energy-storage-us-trump/",
+   "date": "Thu, 29 Oct 2026 14:25:06 +0000",
+   "desc": "Despite Trump's war on EVs, the US Department of Energy has launched the new \"BattMan\" battery innovation accelerator led by experts at the Pacific Northwest Na",
    "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Ampliar a reciclagem europeia de baterias através da Lei da Economia Circular",
+   "link": "https://cleantechnica.com/2026/10/29/scaling-european-battery-recycling-via-the-circular-economy-act/",
+   "date": "Thu, 29 Oct 2026 14:08:52 +0000",
+   "desc": "Ahead of the Circular Economy Act, a joint letter from T&#38;E, Recharge, Clean Tech for Europe and EIES calls for concrete measures to support the effective sc",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "A SpaceX não precisa mais da NASA, e isso é um problema para a agência espacial americana",
+   "link": "https://arstechnica.com/space/2026/10/spacex-no-longer-needs-nasa-and-thats-a-problem-for-americas-space-agency/",
+   "date": "Thu, 29 Oct 2026 11:00:08 +0000",
+   "desc": "\"NASA desperately needs SpaceX, and SpaceX knows it, and Elon knows it.\"",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Seraphim Space lança Academia Espacial",
+   "link": "https://payloadspace.com/seraphim-space-launches-space-academy/",
+   "date": "Thu, 29 Oct 2026 09:00:00 +0000",
+   "desc": "Thinking of going back to school? Seraphim Space is taking applications. The post Seraphim Space Launches Space Academy appeared first on Payload.",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "A verdade sobre a eletricidade renovável: suas perguntas respondidas",
+   "link": "https://cleantechnica.com/2026/10/28/the-truth-about-renewable-electricity-your-questions-answered/",
+   "date": "Thu, 29 Oct 2026 00:26:56 +0000",
+   "desc": "Reliable, affordable electricity is essential for many of the products and services that underpin the modern economy. But the sources of that electricity—and th",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "O foguete Vulcan da ULA deve retornar ao vôo na sexta-feira, 13",
+   "link": "https://arstechnica.com/space/2026/10/ulas-vulcan-rocket-is-set-to-return-to-flight-on-friday-the-13th/",
+   "date": "Wed, 28 Oct 2026 22:51:15 +0000",
+   "desc": "This Vulcan launch will be first to use a full complement of 6 solid rocket boosters.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Google anuncia Gemini 4 Carbon, seu mais recente modelo de IA de fronteira que você não pode usar",
+   "link": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/",
+   "date": "Wed, 28 Oct 2026 18:47:27 +0000",
+   "desc": "Gemini 4 Carbon is essentially a slightly better version of Argon.",
+   "src": "Ars Technica",
    "translated": true
   },
   {
@@ -15,62 +71,6 @@
    "date": "Wed, 28 Oct 2026 14:43:08 +0000",
    "desc": "– Two demonstration missions planned aboard SpaceX Falcon 9, one each in 2027 and 2028 – Satoro to provide “Satellite-as-a-service” solution; Flexell Space to s",
    "src": "SpaceNews",
-   "translated": true
-  },
-  {
-   "title": "A necessidade de manter a estabilidade da Diretiva Energias Renováveis ​​no quadro energético pós-2030",
-   "link": "https://cleantechnica.com/2026/10/28/the-need-for-maintaining-renewable-energy-directive-stability-in-the-post-2030-energy-framework/",
-   "date": "Wed, 28 Oct 2026 13:36:08 +0000",
-   "desc": "NGOs, civil society and industry call on the European Commission to refrain from reopening the RED legislative framework during the negotiation of the post-2030",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "Shield Space lança coalizão de superioridade espacial no Reino Unido",
-   "link": "https://payloadspace.com/shield-space-launches-uk-space-superiority-coalition/",
-   "date": "Wed, 28 Oct 2026 13:00:00 +0000",
-   "desc": "The UK Space Superiority Coalition brings together space companies across the UK in an effort to build a space-based carrier strike force. The post Shield Space",
-   "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "Exclusivo: Rendezvous Robotics levanta US$ 20 milhões para desenvolver espaçonaves automontáveis",
-   "link": "https://payloadspace.com/exclusive-rendezvous-robotics-raises-20m-to-develop-self-assembling-spacecraft/",
-   "date": "Wed, 28 Oct 2026 13:00:00 +0000",
-   "desc": "Rendezvous Robotics is developing technology to allow future satellites to launch in pieces that can self-assemble in space. The post Exclusive: Rendezvous Robo",
-   "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "“Nenhum humano no comando”: o plano de Delaware permitiria que agentes de IA administrassem negócios inteiros",
-   "link": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/",
-   "date": "Tue, 27 Oct 2026 21:50:04 +0000",
-   "desc": "Owners of AI-run firms would evade liability for \"reckless\" AI, US Rep. Comer says.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "Anthropic IPO alerta que sua IA pode chantagear as pessoas, tornar-se senciente e acabar com a humanidade",
-   "link": "https://arstechnica.com/ai/2026/10/anthropic-ipo-warns-its-ai-could-blackmail-people-become-sentient-end-humanity/",
-   "date": "Tue, 27 Oct 2026 21:31:14 +0000",
-   "desc": "Seven potential AI nightmares pulled from Anthropic's 93-page \"Risk Factor\" tome.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "Startup ucraniana, satélite de teste GomSpace para futura rede de comunicações",
-   "link": "https://spacenews.com/ukrainian-startup-gomspace-test-satellite-for-future-communications-network/",
-   "date": "Tue, 27 Oct 2026 20:21:30 +0000",
-   "desc": "The companies said the experimental spacecraft, launched Oct. 1, could lead to a Ukrainian-controlled satellite network The post Ukrainian startup, GomSpace tes",
-   "src": "SpaceNews",
-   "translated": true
-  },
-  {
-   "title": "Olha mãe, sem inversor! Novo Ford Fathom reduz o custo do carregamento bidirecional de veículos elétricos",
-   "link": "https://cleantechnica.com/2026/10/27/ford-fathom-evs-bidirectional-charging-us-market/",
-   "date": "Tue, 27 Oct 2026 19:45:45 +0000",
-   "desc": "Ford's new Fathom electric pickup truck -- which is still under wraps -- comes with a new bidirectional EV charging system that eliminates the cost of an extern",
-   "src": "CleanTechnica",
    "translated": true
   }
  ]
