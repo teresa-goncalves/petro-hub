@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T16:10:49.486Z",
+ "updated": "2026-10-30T15:57:37.854Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
   {
@@ -13,15 +13,15 @@
    "d": "31",
    "mo": "OUT",
    "missao": "Falcon 9 · Starlink 15-18",
-   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 31/10, 00:48 (Brasília) · comunicações",
-   "net": "2026-10-31T03:48:00Z"
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 31/10, 01:02 (Brasília) · comunicações",
+   "net": "2026-10-31T04:02:22Z"
   },
   {
    "d": "02",
    "mo": "NOV",
    "missao": "Electron · The Sea God Surveys (iQPS Launch 9)",
-   "sub": "Rocket Lab · Mahia (Nova Zelândia) · 02/11, 05:45 (Brasília) · observação da Terra",
-   "net": "2026-11-02T08:45:00Z"
+   "sub": "Rocket Lab · Mahia (Nova Zelândia) · 02/11, 13:00 (Brasília) · observação da Terra",
+   "net": "2026-11-02T16:00:00Z"
   },
   {
    "d": "02",
@@ -54,9 +54,9 @@
   {
    "d": "05",
    "mo": "NOV",
-   "missao": "Long March 12 · SatNet LEO TBD?",
-   "sub": "CASC · Wenchang (China) · 05/11, 17:00 (Brasília) · comunicações",
-   "net": "2026-11-05T20:00:00Z"
+   "missao": "Long March 2C · carga não divulgada",
+   "sub": "CASC · Xichang (China) · 05/11, 13:00 (Brasília)",
+   "net": "2026-11-05T16:00:00Z"
   }
  ]
 }
