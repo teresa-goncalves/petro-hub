@@ -1,6 +1,46 @@
 {
- "updated": "2026-10-29T16:25:43.494Z",
+ "updated": "2026-10-30T16:16:41.981Z",
  "items": [
+  {
+   "title": "2027 Nissan Rogue Hybrid: dirige como um EV, mas não há plugue envolvido",
+   "link": "https://arstechnica.com/cars/2026/10/2027-nissan-rogue-hybrid-drives-like-an-ev-but-theres-no-plug-involved/",
+   "date": "Fri, 30 Oct 2026 12:00:18 +0000",
+   "desc": "Nissan’s series hybrid e-Power system has been retuned for American roads.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Relatório Rocket: O inverno está chegando para Themis; Cowboy Space adiciona ferro ao fogo",
+   "link": "https://arstechnica.com/space/2026/10/rocket-report-winter-is-coming-for-themis-cowboy-space-adds-iron-to-the-fire/",
+   "date": "Fri, 30 Oct 2026 11:00:35 +0000",
+   "desc": "It's been a good week for ULA, with big NASA contract, Vulcan nearing return-to-flight.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "A Ford quer que as concessionárias ajudem a tornar o carregamento bidirecional de veículos elétricos mais barato para todos",
+   "link": "https://cleantechnica.com/2026/10/29/ford-fathom-bidirectional-ev-charging-utilites/",
+   "date": "Thu, 29 Oct 2026 21:32:02 +0000",
+   "desc": "The new Ford Fathom electric pickup truck is still under camouflage, but Ford wants everyone to know about its built-in inverter for bidirectional EV charging. ",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "XPENG L05 oferece um pouco mais",
+   "link": "https://cleantechnica.com/2026/10/29/xpeng-l05-offers-a-bit-more/",
+   "date": "Thu, 29 Oct 2026 19:30:54 +0000",
+   "desc": "XPENG recently launched sales of the new L05 in China and began shipments to global markets. Having seen a camouflaged prototype in Munich a few months ago, I h",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Transformando um sistema de energia solar em seu próprio backup",
+   "link": "https://arstechnica.com/science/2026/10/turning-a-solar-power-system-into-its-own-backup/",
+   "date": "Thu, 29 Oct 2026 18:02:26 +0000",
+   "desc": "Plant design allows it to run on either stored solar heat or combustion.",
+   "src": "Ars Technica",
+   "translated": true
+  },
   {
    "title": "Conselhos para otimizar a indústria espacial com Laura Crabtree",
    "link": "https://spacenews.com/advice-for-optimizing-the-space-industry-with-laura-crabtree/",
@@ -18,51 +58,11 @@
    "translated": true
   },
   {
-   "title": "Ampliar a reciclagem europeia de baterias através da Lei da Economia Circular",
-   "link": "https://cleantechnica.com/2026/10/29/scaling-european-battery-recycling-via-the-circular-economy-act/",
-   "date": "Thu, 29 Oct 2026 14:08:52 +0000",
-   "desc": "Ahead of the Circular Economy Act, a joint letter from T&#38;E, Recharge, Clean Tech for Europe and EIES calls for concrete measures to support the effective sc",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "A SpaceX não precisa mais da NASA, e isso é um problema para a agência espacial americana",
-   "link": "https://arstechnica.com/space/2026/10/spacex-no-longer-needs-nasa-and-thats-a-problem-for-americas-space-agency/",
-   "date": "Thu, 29 Oct 2026 11:00:08 +0000",
-   "desc": "\"NASA desperately needs SpaceX, and SpaceX knows it, and Elon knows it.\"",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
    "title": "Seraphim Space lança Academia Espacial",
    "link": "https://payloadspace.com/seraphim-space-launches-space-academy/",
    "date": "Thu, 29 Oct 2026 09:00:00 +0000",
    "desc": "Thinking of going back to school? Seraphim Space is taking applications. The post Seraphim Space Launches Space Academy appeared first on Payload.",
    "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "A verdade sobre a eletricidade renovável: suas perguntas respondidas",
-   "link": "https://cleantechnica.com/2026/10/28/the-truth-about-renewable-electricity-your-questions-answered/",
-   "date": "Thu, 29 Oct 2026 00:26:56 +0000",
-   "desc": "Reliable, affordable electricity is essential for many of the products and services that underpin the modern economy. But the sources of that electricity—and th",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "O foguete Vulcan da ULA deve retornar ao vôo na sexta-feira, 13",
-   "link": "https://arstechnica.com/space/2026/10/ulas-vulcan-rocket-is-set-to-return-to-flight-on-friday-the-13th/",
-   "date": "Wed, 28 Oct 2026 22:51:15 +0000",
-   "desc": "This Vulcan launch will be first to use a full complement of 6 solid rocket boosters.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "Google anuncia Gemini 4 Carbon, seu mais recente modelo de IA de fronteira que você não pode usar",
-   "link": "https://arstechnica.com/ai/2026/10/google-announces-gemini-4-carbon-its-latest-frontier-ai-model-that-you-cant-use/",
-   "date": "Wed, 28 Oct 2026 18:47:27 +0000",
-   "desc": "Gemini 4 Carbon is essentially a slightly better version of Argon.",
-   "src": "Ars Technica",
    "translated": true
   },
   {
