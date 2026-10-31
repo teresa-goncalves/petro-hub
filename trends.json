@@ -1,44 +1,60 @@
 {
- "updated": "2026-10-30T16:16:41.981Z",
+ "updated": "2026-10-31T15:30:43.175Z",
  "items": [
   {
-   "title": "2027 Nissan Rogue Hybrid: dirige como um EV, mas não há plugue envolvido",
-   "link": "https://arstechnica.com/cars/2026/10/2027-nissan-rogue-hybrid-drives-like-an-ev-but-theres-no-plug-involved/",
-   "date": "Fri, 30 Oct 2026 12:00:18 +0000",
-   "desc": "Nissan’s series hybrid e-Power system has been retuned for American roads.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "Relatório Rocket: O inverno está chegando para Themis; Cowboy Space adiciona ferro ao fogo",
-   "link": "https://arstechnica.com/space/2026/10/rocket-report-winter-is-coming-for-themis-cowboy-space-adds-iron-to-the-fire/",
-   "date": "Fri, 30 Oct 2026 11:00:35 +0000",
-   "desc": "It's been a good week for ULA, with big NASA contract, Vulcan nearing return-to-flight.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "A Ford quer que as concessionárias ajudem a tornar o carregamento bidirecional de veículos elétricos mais barato para todos",
-   "link": "https://cleantechnica.com/2026/10/29/ford-fathom-bidirectional-ev-charging-utilites/",
-   "date": "Thu, 29 Oct 2026 21:32:02 +0000",
-   "desc": "The new Ford Fathom electric pickup truck is still under camouflage, but Ford wants everyone to know about its built-in inverter for bidirectional EV charging. ",
+   "title": "O Vale do Silício pode construir um caminhão seguro de classe 8? Os primeiros semi-incêndios EV expõem a lacuna de experiência",
+   "link": "https://cleantechnica.com/2026/10/31/can-silicon-valley-build-a-safe-class-8-truck-early-ev-semi-fires-expose-the-experience-gap/",
+   "date": "Sat, 31 Oct 2026 12:55:58 +0000",
+   "desc": "If you drove through the East Bay area of California on Tuesday night, you probably got caught in a nightmare. A Tesla Semi traveling down Interstate 880 in Hay",
    "src": "CleanTechnica",
    "translated": true
   },
   {
-   "title": "XPENG L05 oferece um pouco mais",
-   "link": "https://cleantechnica.com/2026/10/29/xpeng-l05-offers-a-bit-more/",
-   "date": "Thu, 29 Oct 2026 19:30:54 +0000",
-   "desc": "XPENG recently launched sales of the new L05 in China and began shipments to global markets. Having seen a camouflaged prototype in Munich a few months ago, I h",
+   "title": "A participação da geração solar com armazenamento de bateria co-localizado está aumentando",
+   "link": "https://cleantechnica.com/2026/10/30/the-share-of-solar-generation-with-co-located-battery-storage-is-increasing/",
+   "date": "Sat, 31 Oct 2026 02:27:19 +0000",
+   "desc": "Utility-scale solar developers are increasingly co-locating battery storage with new solar photovoltaic capacity. As of September 2026, over 16% of new utility-",
    "src": "CleanTechnica",
    "translated": true
   },
   {
-   "title": "Transformando um sistema de energia solar em seu próprio backup",
-   "link": "https://arstechnica.com/science/2026/10/turning-a-solar-power-system-into-its-own-backup/",
-   "date": "Thu, 29 Oct 2026 18:02:26 +0000",
-   "desc": "Plant design allows it to run on either stored solar heat or combustion.",
+   "title": "Conselho de Veículos Elétricos Comemorando 10 Anos de Progresso EV na Austrália",
+   "link": "https://cleantechnica.com/2026/10/30/electric-vehicle-council-celebrating-10-years-of-ev-progress-in-australia/",
+   "date": "Sat, 31 Oct 2026 01:22:45 +0000",
+   "desc": "The Electric Vehicle Council has been tracking the progress of electric vehicle uptake in Australia over the last ten years. Their latest report is a celebratio",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Mais uma vez, a NASA está pedindo ideias para resgatar o Hubble da morte certa",
+   "link": "https://arstechnica.com/space/2026/10/think-you-can-save-the-hubble-space-telescope-nasa-wants-to-know/",
+   "date": "Sat, 31 Oct 2026 00:07:22 +0000",
+   "desc": "The space agency solicited ideas for reboosting Hubble four years ago, but they didn't go anywhere.",
    "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Avião supersônico em dúvida enquanto a empresa passa a alimentar data centers de IA",
+   "link": "https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029/",
+   "date": "Fri, 30 Oct 2026 21:41:54 +0000",
+   "desc": "Boom’s airliner may be delayed, and its data center power business lost a customer.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "O reitor de Dartmouth nos alertou sobre trapaça de IA – mas seu próprio uso de IA custou-lhe o emprego",
+   "link": "https://arstechnica.com/tech-policy/2026/10/dartmouths-provost-warned-us-about-ai-cheating-but-his-own-ai-use-cost-him-his-job/",
+   "date": "Fri, 30 Oct 2026 20:40:13 +0000",
+   "desc": "People who love AI don't always love telling others they used it.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "ESI fornece componentes de painéis solares para programas de defesa antimísseis",
+   "link": "https://spacenews.com/esi-supplying-solar-array-components-to-missile-defense-programs/",
+   "date": "Fri, 30 Oct 2026 18:54:34 +0000",
+   "desc": "Oct. 30, 2026 – ESI Motion Inc. is proud to announce that it is supplying the Solar Array Drive Electronics (SADE) to Lockheed Martin for its work on the Space ",
+   "src": "SpaceNews",
    "translated": true
   },
   {
@@ -50,27 +66,11 @@
    "translated": true
   },
   {
-   "title": "Afinal, parece que Trump adora veículos elétricos",
-   "link": "https://cleantechnica.com/2026/10/29/battman-batteries-evs-energy-storage-us-trump/",
-   "date": "Thu, 29 Oct 2026 14:25:06 +0000",
-   "desc": "Despite Trump's war on EVs, the US Department of Energy has launched the new \"BattMan\" battery innovation accelerator led by experts at the Pacific Northwest Na",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
    "title": "Seraphim Space lança Academia Espacial",
    "link": "https://payloadspace.com/seraphim-space-launches-space-academy/",
    "date": "Thu, 29 Oct 2026 09:00:00 +0000",
    "desc": "Thinking of going back to school? Seraphim Space is taking applications. The post Seraphim Space Launches Space Academy appeared first on Payload.",
    "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "Flexell Space e Satoro concordam em colaborar na demonstração em órbita de células solares espaciais de próxima geração",
-   "link": "https://spacenews.com/flexell-space-and-satoro-agree-to-collaborate-on-in-orbit-demonstration-of-next-generation-space-solar-cells/",
-   "date": "Wed, 28 Oct 2026 14:43:08 +0000",
-   "desc": "– Two demonstration missions planned aboard SpaceX Falcon 9, one each in 2027 and 2028 – Satoro to provide “Satellite-as-a-service” solution; Flexell Space to s",
-   "src": "SpaceNews",
    "translated": true
   }
  ]
