@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T09:22:42.947Z",
+ "updated": "2026-10-31T15:28:09.213Z",
  "quotes": [
   {
    "sym": "BZ=F",
@@ -134,7 +134,7 @@
    "name": "Euro (EUR/BRL)",
    "group": "fx",
    "price": 6.07,
-   "changePct": 0.84,
+   "changePct": 0.82,
    "currency": "BRL"
   }
  ]
