@@ -1,27 +1,59 @@
 {
- "updated": "2026-11-01T16:26:49.630Z",
+ "updated": "2026-11-02T19:49:42.584Z",
  "items": [
   {
-   "title": "Cranberry Bogs não eram lucrativos, então a energia solar salvou o dia",
-   "link": "https://cleantechnica.com/2026/11/01/cranberry-bogs-were-unprofitable-then-solar-saved-the-day/",
-   "date": "Sun, 01 Nov 2026 14:40:59 +0000",
-   "desc": "One of the things many people still don't realize is how much solar power and wind power help farmers to be more profitable or to become profitable. Agriculture",
+   "title": "As novas regras de Claude contra a clonagem de jogos não impedirão o boom da cópia de IA",
+   "link": "https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/",
+   "date": "Mon, 02 Nov 2026 18:05:31 +0000",
+   "desc": "The tsunami of imitators is way bigger than any one model maker can stem.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "O gasoduto de hidrogénio da Alemanha atingiu Marl. Seu mercado ainda precisa aumentar.",
+   "link": "https://cleantechnica.com/2026/11/02/germany-hydrogen-backbone-marl-paying-customers/",
+   "date": "Mon, 02 Nov 2026 17:11:57 +0000",
+   "desc": "Germany's hydrogen backbone achieved a genuine milestone on August 4, 2026. RWE and its partners announced that renewable hydrogen produced during commissioning",
    "src": "CleanTechnica",
    "translated": true
   },
   {
-   "title": "Balão de IA na China esvazia meio trilhão de dólares",
-   "link": "https://cleantechnica.com/2026/11/01/ai-balloon-in-china-deflates-by-half-a-trillion-dollars/",
-   "date": "Sun, 01 Nov 2026 14:01:18 +0000",
-   "desc": "There's been a lot of talk this year about a humongous AI bubble. We've written about that many times here on CleanTechnica, but focused on the US market. AI so",
+   "title": "China divulga publicamente plano para pouso lunar dentro de três anos",
+   "link": "https://arstechnica.com/space/2026/11/china-releases-timeline-for-lunar-landing-on-the-moon-targeting-before-2030/",
+   "date": "Mon, 02 Nov 2026 17:09:13 +0000",
+   "desc": "The plan does not include a mission similar to Apollo 8 or Artemis II.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Jackery lança estação de energia portátil Explorer 100D. Capacidade máxima para compatibilidade de transporte",
+   "link": "https://cleantechnica.com/2026/11/02/jackery-launches-explorer-100d-portable-power-station/",
+   "date": "Mon, 02 Nov 2026 16:38:59 +0000",
+   "desc": "Jackery just launched the Explorer 100D portable power station. This is Jackery’s smallest battery, giving a new level of versatility to power many of the devic",
    "src": "CleanTechnica",
    "translated": true
   },
   {
-   "title": "O Vale do Silício pode construir um caminhão seguro de classe 8? Os primeiros semi-incêndios EV expõem a lacuna de experiência",
-   "link": "https://cleantechnica.com/2026/10/31/can-silicon-valley-build-a-safe-class-8-truck-early-ev-semi-fires-expose-the-experience-gap/",
-   "date": "Sat, 31 Oct 2026 12:55:58 +0000",
-   "desc": "If you drove through the East Bay area of California on Tuesday night, you probably got caught in a nightmare. A Tesla Semi traveling down Interstate 880 in Hay",
+   "title": "Como expandir o acesso confiável e flexível ao espaço",
+   "link": "https://spacenews.com/how-to-expand-reliable-flexible-access-to-space/",
+   "date": "Mon, 02 Nov 2026 14:00:00 +0000",
+   "desc": "The space industry launched more rockets into orbit last year than ever before, yet satellite operators are confronting an unexpected problem: There still aren’",
+   "src": "SpaceNews",
+   "translated": true
+  },
+  {
+   "title": "Exclusivo: Stellar Alpina revela Monarch Orbiter e Morpho Lunar Lander",
+   "link": "https://payloadspace.com/exclusive-stellar-alpina-unveils-monarch-orbiter-and-morpho-lunar-lander/",
+   "date": "Mon, 02 Nov 2026 13:42:22 +0000",
+   "desc": "The Swiss startup is unveiling two new vehicles: a high-performance orbiter, Monarch, and a lunar lander, Morpho. The post Exclusive: Stellar Alpina Unveils Mon",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "Baterias superam os graneleiros de hidrogênio da Noruega em custo em duas rotas modeladas",
+   "link": "https://cleantechnica.com/2026/11/01/norway-hydrogen-bulk-carriers-battery-cost-test/",
+   "date": "Sun, 01 Nov 2026 20:52:23 +0000",
+   "desc": "Norwegian shipping company GMI Group is moving ahead with four hydrogen-electric bulk carriers for coastal freight. In October 2026, PowerCell confirmed a follo",
    "src": "CleanTechnica",
    "translated": true
   },
@@ -34,43 +66,11 @@
    "translated": true
   },
   {
-   "title": "Avião supersônico em dúvida enquanto a empresa passa a alimentar data centers de IA",
-   "link": "https://arstechnica.com/gadgets/2026/10/united-airlines-ceo-doubts-supersonic-airliner-from-boom-will-be-ready-by-2029/",
-   "date": "Fri, 30 Oct 2026 21:41:54 +0000",
-   "desc": "Boom’s airliner may be delayed, and its data center power business lost a customer.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "O reitor de Dartmouth nos alertou sobre trapaça de IA – mas seu próprio uso de IA custou-lhe o emprego",
-   "link": "https://arstechnica.com/tech-policy/2026/10/dartmouths-provost-warned-us-about-ai-cheating-but-his-own-ai-use-cost-him-his-job/",
-   "date": "Fri, 30 Oct 2026 20:40:13 +0000",
-   "desc": "People who love AI don't always love telling others they used it.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
    "title": "ESI fornece componentes de painéis solares para programas de defesa antimísseis",
    "link": "https://spacenews.com/esi-supplying-solar-array-components-to-missile-defense-programs/",
    "date": "Fri, 30 Oct 2026 18:54:34 +0000",
    "desc": "Oct. 30, 2026 – ESI Motion Inc. is proud to announce that it is supplying the Solar Array Drive Electronics (SADE) to Lockheed Martin for its work on the Space ",
    "src": "SpaceNews",
-   "translated": true
-  },
-  {
-   "title": "Conselhos para otimizar a indústria espacial com Laura Crabtree",
-   "link": "https://spacenews.com/advice-for-optimizing-the-space-industry-with-laura-crabtree/",
-   "date": "Thu, 29 Oct 2026 15:01:09 +0000",
-   "desc": "In this episode, Mike Gruss speaks with Laura Crabtree, the CEO of Epsilon3, who is also a former SpaceX astronaut trainer. They talk about ways that space comp",
-   "src": "SpaceNews",
-   "translated": true
-  },
-  {
-   "title": "Seraphim Space lança Academia Espacial",
-   "link": "https://payloadspace.com/seraphim-space-launches-space-academy/",
-   "date": "Thu, 29 Oct 2026 09:00:00 +0000",
-   "desc": "Thinking of going back to school? Seraphim Space is taking applications. The post Seraphim Space Launches Space Academy appeared first on Payload.",
-   "src": "Payload",
    "translated": true
   }
  ]
