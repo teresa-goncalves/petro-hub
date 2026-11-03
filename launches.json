@@ -1,21 +1,7 @@
 {
- "updated": "2026-11-02T19:31:21.391Z",
+ "updated": "2026-11-03T17:05:42.063Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
-  {
-   "d": "02",
-   "mo": "NOV",
-   "missao": "Kinetica 2 · SpaceSail Polar TBD?",
-   "sub": "CAS Space · Jiuquan (China) · 02/11, 21:10 (Brasília) · comunicações",
-   "net": "2026-11-03T00:10:00Z"
-  },
-  {
-   "d": "03",
-   "mo": "NOV",
-   "missao": "Falcon 9 · USSF-432",
-   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 03/11, 22:28 (Brasília) · carga militar/classificada",
-   "net": "2026-11-04T01:28:00Z"
-  },
   {
    "d": "04",
    "mo": "NOV",
@@ -31,13 +17,6 @@
    "net": "2026-11-05T16:00:00Z"
   },
   {
-   "d": "05",
-   "mo": "NOV",
-   "missao": "Long March 12 · SatNet LEO TBD?",
-   "sub": "CASC · Wenchang (China) · 05/11, 18:15 (Brasília) · comunicações",
-   "net": "2026-11-05T21:15:00Z"
-  },
-  {
    "d": "06",
    "mo": "NOV",
    "missao": "Ceres-2 · carga não divulgada",
@@ -45,18 +24,39 @@
    "net": "2026-11-06T23:35:00Z"
   },
   {
-   "d": "09",
+   "d": "06",
    "mo": "NOV",
-   "missao": "Falcon 9 · USSF-xxx (\"R-5\")",
-   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 09/11, 00:17 (Brasília) · carga militar/classificada",
-   "net": "2026-11-09T03:17:00Z"
+   "missao": "Falcon 9 · USSF-432",
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 06/11, 21:46 (Brasília) · carga militar/classificada",
+   "net": "2026-11-07T00:46:00Z"
   },
   {
-   "d": "12",
+   "d": "08",
+   "mo": "NOV",
+   "missao": "Long March 12 · SatNet LEO TBD?",
+   "sub": "CASC · Wenchang (China) · 08/11, 17:25 (Brasília) · comunicações",
+   "net": "2026-11-08T20:25:00Z"
+  },
+  {
+   "d": "10",
+   "mo": "NOV",
+   "missao": "Falcon 9 · USSF-xxx (\"R-5\")",
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 10/11, 00:03 (Brasília) · carga militar/classificada",
+   "net": "2026-11-10T03:03:00Z"
+  },
+  {
+   "d": "13",
+   "mo": "NOV",
+   "missao": "Falcon 9 · USSF-xxx (\"R-6\")",
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 13/11, 01:23 (Brasília) · carga militar/classificada",
+   "net": "2026-11-13T04:23:00Z"
+  },
+  {
+   "d": "13",
    "mo": "NOV",
    "missao": "Vulcan VC6L · Amazon Leo (LV-01)",
-   "sub": "ULA · Cabo Canaveral, Flórida (EUA) · 12/11, 21:00 (Brasília) · comunicações",
-   "net": "2026-11-13T00:00:00Z"
+   "sub": "ULA · Cabo Canaveral, Flórida (EUA) · 13/11, 14:54 (Brasília) · comunicações",
+   "net": "2026-11-13T17:54:00Z"
   }
  ]
 }
