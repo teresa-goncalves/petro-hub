@@ -1,6 +1,46 @@
 {
- "updated": "2026-11-02T19:49:42.584Z",
+ "updated": "2026-11-03T17:22:27.956Z",
  "items": [
+  {
+   "title": "Simera Sense e Spacemanic colaborarão em uma nova solução completa de missão de dupla utilização",
+   "link": "https://spacenews.com/simera-sense-and-spacemanic-to-collaborate-on-a-new-complete-dual-use-mission-solution/",
+   "date": "Tue, 03 Nov 2026 16:59:43 +0000",
+   "desc": "Czech company Spacemanic and Belgian optical leader Simera Sense are teaming up to deliver a new dual-use satellite solution that can compete with bigger and he",
+   "src": "SpaceNews",
+   "translated": true
+  },
+  {
+   "title": "Exclusivo: Sceye assina acordo para voar frota HAPS para SoftBank",
+   "link": "https://payloadspace.com/exclusive-sceye-signs-five-year-deal-to-fly-haps-fleet-for-softbank/",
+   "date": "Tue, 03 Nov 2026 14:00:00 +0000",
+   "desc": "Sceye signed a five-year, master-services agreement with SoftBank to manufacture, launch, and operate a fleet of Sceye’s high-altitude platform systems (HAPS) o",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "DETUMBLER: Solução de estabilização passiva de rotação da Airbus",
+   "link": "https://spacenews.com/detumbler-airbus-passive-spin-stabilization-solution/",
+   "date": "Tue, 03 Nov 2026 13:30:00 +0000",
+   "desc": "The tumbling crisis: why dead satellites threaten orbit Every year, hundreds of satellites reach end-of-life, most are deorbited, but some fail abruptly. Yet, e",
+   "src": "SpaceNews",
+   "translated": true
+  },
+  {
+   "title": "À medida que os custos do diesel aumentam para agricultores e empresas rurais, a energia solar oferece uma tábua de salvação",
+   "link": "https://cleantechnica.com/2026/11/02/as-diesel-costs-surge-for-farmers-rural-businesses-solar-offers-a-lifeline/",
+   "date": "Mon, 02 Nov 2026 23:38:46 +0000",
+   "desc": "The cost of diesel fuel rose nearly 33% from 2025 to 2026, with some countries experiencing even higher price spikes. For many of the world’s rural farmers, pro",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Enxame de caminhões elétricos vindo para os EUA (troca de bateria incluída?)",
+   "link": "https://cleantechnica.com/2026/11/02/electric-trucks-us-canada-battery-swapping-trade-wars/",
+   "date": "Mon, 02 Nov 2026 19:52:31 +0000",
+   "desc": "The Australian firm Janus Electric has hooked up with Canada's Electrovaya to accelerate the electric truck conversion field in North America, regardless of the",
+   "src": "CleanTechnica",
+   "translated": true
+  },
   {
    "title": "As novas regras de Claude contra a clonagem de jogos não impedirão o boom da cópia de IA",
    "link": "https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/",
@@ -26,50 +66,10 @@
    "translated": true
   },
   {
-   "title": "Jackery lança estação de energia portátil Explorer 100D. Capacidade máxima para compatibilidade de transporte",
-   "link": "https://cleantechnica.com/2026/11/02/jackery-launches-explorer-100d-portable-power-station/",
-   "date": "Mon, 02 Nov 2026 16:38:59 +0000",
-   "desc": "Jackery just launched the Explorer 100D portable power station. This is Jackery’s smallest battery, giving a new level of versatility to power many of the devic",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
    "title": "Como expandir o acesso confiável e flexível ao espaço",
    "link": "https://spacenews.com/how-to-expand-reliable-flexible-access-to-space/",
    "date": "Mon, 02 Nov 2026 14:00:00 +0000",
    "desc": "The space industry launched more rockets into orbit last year than ever before, yet satellite operators are confronting an unexpected problem: There still aren’",
-   "src": "SpaceNews",
-   "translated": true
-  },
-  {
-   "title": "Exclusivo: Stellar Alpina revela Monarch Orbiter e Morpho Lunar Lander",
-   "link": "https://payloadspace.com/exclusive-stellar-alpina-unveils-monarch-orbiter-and-morpho-lunar-lander/",
-   "date": "Mon, 02 Nov 2026 13:42:22 +0000",
-   "desc": "The Swiss startup is unveiling two new vehicles: a high-performance orbiter, Monarch, and a lunar lander, Morpho. The post Exclusive: Stellar Alpina Unveils Mon",
-   "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "Baterias superam os graneleiros de hidrogênio da Noruega em custo em duas rotas modeladas",
-   "link": "https://cleantechnica.com/2026/11/01/norway-hydrogen-bulk-carriers-battery-cost-test/",
-   "date": "Sun, 01 Nov 2026 20:52:23 +0000",
-   "desc": "Norwegian shipping company GMI Group is moving ahead with four hydrogen-electric bulk carriers for coastal freight. In October 2026, PowerCell confirmed a follo",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "Mais uma vez, a NASA está pedindo ideias para resgatar o Hubble da morte certa",
-   "link": "https://arstechnica.com/space/2026/10/think-you-can-save-the-hubble-space-telescope-nasa-wants-to-know/",
-   "date": "Sat, 31 Oct 2026 00:07:22 +0000",
-   "desc": "The space agency solicited ideas for reboosting Hubble four years ago, but they didn't go anywhere.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "ESI fornece componentes de painéis solares para programas de defesa antimísseis",
-   "link": "https://spacenews.com/esi-supplying-solar-array-components-to-missile-defense-programs/",
-   "date": "Fri, 30 Oct 2026 18:54:34 +0000",
-   "desc": "Oct. 30, 2026 – ESI Motion Inc. is proud to announce that it is supplying the Solar Array Drive Electronics (SADE) to Lockheed Martin for its work on the Space ",
    "src": "SpaceNews",
    "translated": true
   }
