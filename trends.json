@@ -1,6 +1,62 @@
 {
- "updated": "2026-11-04T17:34:44.184Z",
+ "updated": "2026-11-05T17:41:00.986Z",
  "items": [
+  {
+   "title": "Construindo uma ‘estrada para a lua e de volta’ com Winnie Lai",
+   "link": "https://spacenews.com/building-a-highway-to-the-moon-and-back-with-winnie-lai/",
+   "date": "Thu, 05 Nov 2026 14:15:38 +0000",
+   "desc": "In this episode, SpaceNews’ Mike Gruss speaks with Winnie Lai, CEO of Auriga Space. They talk about how electromagnetic launch technology that “catapults” small",
+   "src": "SpaceNews",
+   "translated": true
+  },
+  {
+   "title": "Exclusivo: Orbital Taps Orca Aerospace para software de autonomia a bordo",
+   "link": "https://payloadspace.com/exclusive-orbital-taps-orca-aerospace-for-onboard-autonomy-software/",
+   "date": "Thu, 05 Nov 2026 14:00:00 +0000",
+   "desc": "Satellite autonomy startup Orca Aerospace announced a deal worth up to $20M with LA-based Orbital to put its software on Orbital’s planned data-center fleet. Th",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "Relatório de vendas de veículos elétricos na América Latina: com mais de 200.000 unidades vendidas no terceiro trimestre, os veículos elétricos agora representam 12% de participação de mercado!",
+   "link": "https://cleantechnica.com/2026/11/04/latin-america-ev-sales-report-with-over-200000-units-sold-in-q3-evs-now-stand-at-12-market-share/",
+   "date": "Thu, 05 Nov 2026 04:57:51 +0000",
+   "desc": "Through 2026, EVs have gained significant momentum all over the world (safe for the US), and Latin America has been no exception. Sales grew by almost 140% in t",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Quem controla a bateria na sua garagem?",
+   "link": "https://cleantechnica.com/2026/11/04/who-controls-the-battery-in-your-driveway/",
+   "date": "Thu, 05 Nov 2026 04:51:54 +0000",
+   "desc": "Tesla brought home power backup to America. In Australia, an update is switching it off. North American owners just got Powershare with Powerwall. Australian ow",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Cubos de urânio revelam por que o projeto nuclear alemão falhou",
+   "link": "https://arstechnica.com/science/2026/11/uranium-cubes-reveal-why-the-german-nuclear-project-failed/",
+   "date": "Wed, 04 Nov 2026 21:56:29 +0000",
+   "desc": "\"Our calculations suggest Heisenberg significantly underestimated the materials required.\"",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Big Tech afirma que a reação dos eleitores à IA é “anti-Trump” e não “anti-tecnologia”",
+   "link": "https://arstechnica.com/tech-policy/2026/11/big-tech-claims-voters-ai-backlash-is-anti-trump-not-anti-tech/",
+   "date": "Wed, 04 Nov 2026 20:55:50 +0000",
+   "desc": "Tech industry in denial as US overwhelmingly votes to restrict AI, data centers.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Depois da onda azul do Texas, o que acontece com Elon Musk e a SpaceX?",
+   "link": "https://arstechnica.com/space/2026/11/elon-musk-moved-spacex-to-red-texas-now-its-blue-what-happens-next/",
+   "date": "Wed, 04 Nov 2026 20:36:05 +0000",
+   "desc": "\"Data centers in space looking pretty appealing right now.\"",
+   "src": "Ars Technica",
+   "translated": true
+  },
   {
    "title": "Blue Wave não está relacionada ao clima, mas é crítica para energia limpa e veículos elétricos",
    "link": "https://cleantechnica.com/2026/11/04/blue-wave-not-climate-related-but-critical-to-clean-energy-electric-vehicles/",
@@ -10,66 +66,10 @@
    "translated": true
   },
   {
-   "title": "O que aprendi dirigindo o protótipo do caminhão elétrico Slate",
-   "link": "https://arstechnica.com/cars/2026/11/what-i-learned-driving-the-slate-electric-truck-prototype/",
-   "date": "Wed, 04 Nov 2026 15:42:18 +0000",
-   "desc": "After 45 minutes behind the wheel, I am more optimistic about the $25,000 EV.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
    "title": "Orbital Matter, EnduroSat anunciam uma missão de fabricação no espaço em 2028",
    "link": "https://payloadspace.com/orbital-matter-endurosat-announce-an-in-space-manufacturing-mission-in-2028/",
    "date": "Wed, 04 Nov 2026 14:00:00 +0000",
    "desc": "Orbital Matter announced it would partner with EnduroSat for mission in 2028 to deploy a 5 kW solar array with its 3D printing capabilities. The post Orbital Ma",
-   "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "Cingapura revela plano energético de cinco anos para alimentar data center e Semicon Progress",
-   "link": "https://cleantechnica.com/2026/11/04/singapore-reveals-five-year-energy-plan-to-feed-data-center-semicon-progress/",
-   "date": "Wed, 04 Nov 2026 12:38:12 +0000",
-   "desc": "SINGAPORE — Singapore has launched a sweeping five-year energy infrastructure plan designed to meet surging power needs driven by data centers, semiconductor fa",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "Como Oahu chega a um futuro economicamente resiliente e com energia 100% limpa?",
-   "link": "https://cleantechnica.com/2026/11/03/how-does-oahu-get-to-an-economically-resilient-100-clean-energy-future/",
-   "date": "Wed, 04 Nov 2026 01:47:05 +0000",
-   "desc": "Oahu is a unique place. It's the home of one of the largest clean tech incubators in the world, Elemental Impact, for a reason. Exorbitantly high electricity ra",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "NYT exige que Brave feche seu bloqueador de acesso pago e encerre acordos com empresas de IA",
-   "link": "https://arstechnica.com/tech-policy/2026/11/nyt-demands-brave-shut-down-its-paywall-blocker-and-end-deals-with-ai-firms/",
-   "date": "Tue, 03 Nov 2026 18:30:27 +0000",
-   "desc": "Lawsuit calls Brave \"supplier, dealer, and distributor\" of stolen news content.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "O Google permitirá que as escolas ignorem as ferramentas de IA, mas elas também terão que desistir da pesquisa",
-   "link": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
-   "date": "Tue, 03 Nov 2026 17:54:43 +0000",
-   "desc": "Google will offer schools AI tools that purportedly don't give away the answers.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "Simera Sense e Spacemanic colaborarão em uma nova solução completa de missão de dupla utilização",
-   "link": "https://spacenews.com/simera-sense-and-spacemanic-to-collaborate-on-a-new-complete-dual-use-mission-solution/",
-   "date": "Tue, 03 Nov 2026 16:59:43 +0000",
-   "desc": "Czech company Spacemanic and Belgian optical leader Simera Sense are teaming up to deliver a new dual-use satellite solution that can compete with bigger and he",
-   "src": "SpaceNews",
-   "translated": true
-  },
-  {
-   "title": "Exclusivo: Sceye assina acordo para voar na frota HAPS para SoftBank",
-   "link": "https://payloadspace.com/exclusive-sceye-signs-five-year-deal-to-fly-haps-fleet-for-softbank/",
-   "date": "Tue, 03 Nov 2026 14:00:00 +0000",
-   "desc": "Sceye signed a five-year, master-services agreement with SoftBank to manufacture, launch, and operate a fleet of Sceye’s high-altitude platform systems (HAPS) o",
    "src": "Payload",
    "translated": true
   }
