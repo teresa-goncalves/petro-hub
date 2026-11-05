@@ -1,14 +1,7 @@
 {
- "updated": "2026-11-04T17:17:38.045Z",
+ "updated": "2026-11-05T17:26:14.882Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
-  {
-   "d": "05",
-   "mo": "NOV",
-   "missao": "Long March 2C · carga não divulgada",
-   "sub": "CASC · Xichang (China) · 05/11, 13:00 (Brasília)",
-   "net": "2026-11-05T16:00:00Z"
-  },
   {
    "d": "06",
    "mo": "NOV",
@@ -38,6 +31,20 @@
    "net": "2026-11-10T03:03:00Z"
   },
   {
+   "d": "10",
+   "mo": "NOV",
+   "missao": "Mir · Demo Flight",
+   "sub": "Agency for Defense Development · Sea Launch · 10/11, 03:00 (Brasília) · voo de teste",
+   "net": "2026-11-10T06:00:00Z"
+  },
+  {
+   "d": "11",
+   "mo": "NOV",
+   "missao": "Long March 2D · carga não divulgada",
+   "sub": "CASC · Jiuquan (China) · 11/11, 08:40 (Brasília)",
+   "net": "2026-11-11T11:40:00Z"
+  },
+  {
    "d": "13",
    "mo": "NOV",
    "missao": "Falcon 9 · USSF-317",
@@ -50,13 +57,6 @@
    "missao": "Vulcan VC6L · Amazon Leo (LV-01)",
    "sub": "ULA · Cabo Canaveral, Flórida (EUA) · 13/11, 14:54 (Brasília) · comunicações",
    "net": "2026-11-13T17:54:00Z"
-  },
-  {
-   "d": "13",
-   "mo": "NOV",
-   "missao": "Electron · The Mountain God Rises (iQPS Launch 10)",
-   "sub": "Rocket Lab · Mahia (Nova Zelândia) · 13/11, 21:00 (Brasília) · observação da Terra",
-   "net": "2026-11-14T00:00:00Z"
   }
  ]
 }
