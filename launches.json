@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T17:26:14.882Z",
+ "updated": "2026-11-06T16:47:33.945Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
   {
@@ -13,8 +13,8 @@
    "d": "06",
    "mo": "NOV",
    "missao": "Falcon 9 · USSF-432",
-   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 06/11, 21:46 (Brasília) · carga militar/classificada",
-   "net": "2026-11-07T00:46:00Z"
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 06/11, 21:48 (Brasília) · carga militar/classificada",
+   "net": "2026-11-07T00:48:42Z"
   },
   {
    "d": "08",
@@ -31,11 +31,11 @@
    "net": "2026-11-10T03:03:00Z"
   },
   {
-   "d": "10",
+   "d": "11",
    "mo": "NOV",
    "missao": "Mir · Demo Flight",
-   "sub": "Agency for Defense Development · Sea Launch · 10/11, 03:00 (Brasília) · voo de teste",
-   "net": "2026-11-10T06:00:00Z"
+   "sub": "Agency for Defense Development · Sea Launch · 11/11, 02:00 (Brasília) · voo de teste",
+   "net": "2026-11-11T05:00:00Z"
   },
   {
    "d": "11",
@@ -45,18 +45,18 @@
    "net": "2026-11-11T11:40:00Z"
   },
   {
+   "d": "12",
+   "mo": "NOV",
+   "missao": "Starship · Flight 15",
+   "sub": "SpaceX · Starbase, Texas (EUA) · 12/11, 21:00 (Brasília) · voo de teste",
+   "net": "2026-11-13T00:00:00Z"
+  },
+  {
    "d": "13",
    "mo": "NOV",
    "missao": "Falcon 9 · USSF-317",
    "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 13/11, 01:23 (Brasília) · carga militar/classificada",
    "net": "2026-11-13T04:23:00Z"
-  },
-  {
-   "d": "13",
-   "mo": "NOV",
-   "missao": "Vulcan VC6L · Amazon Leo (LV-01)",
-   "sub": "ULA · Cabo Canaveral, Flórida (EUA) · 13/11, 14:54 (Brasília) · comunicações",
-   "net": "2026-11-13T17:54:00Z"
   }
  ]
 }
