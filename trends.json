@@ -1,6 +1,54 @@
 {
- "updated": "2026-11-06T16:57:20.540Z",
+ "updated": "2026-11-07T15:56:39.087Z",
  "items": [
+  {
+   "title": "Trump está prestes a reacender seu grande impulso EV?",
+   "link": "https://cleantechnica.com/2026/11/06/is-trump-about-to-reignite-his-big-ev-push/",
+   "date": "Sat, 07 Nov 2026 04:57:20 +0000",
+   "desc": "There are so many ironies with the Trump presidency. I remember writing about many of them in his first term. Now, though, we have some additional ones. For exa",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Indústria solar mostra esperança após as eleições nos EUA e se concentra na mensagem principal",
+   "link": "https://cleantechnica.com/2026/11/06/solar-industry-shows-hope-after-us-election-focuses-on-key-message/",
+   "date": "Sat, 07 Nov 2026 02:43:10 +0000",
+   "desc": "Let's be honest — even with humongous, epic control of Congress like we haven't seen in several decades, Democrats can't really do anything legislatively unless",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Chainalysis diz que hackers roubaram credenciais e tokens de todos os seus clientes",
+   "link": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/",
+   "date": "Fri, 06 Nov 2026 20:56:41 +0000",
+   "desc": "Company said a \"multifront cyberattack\" included AI agents and an on-path data snatch.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Infelizmente, pobre Cybertruck, mal te conhecíamos",
+   "link": "https://cleantechnica.com/2026/11/06/tesla-cybertruck-production-halted-elon-musk-2026-elections/",
+   "date": "Fri, 06 Nov 2026 19:57:43 +0000",
+   "desc": "Tesla CEO Elon Musk laid a billion-dollar egg with the Cybertruck, and he is finally putting the ill-fated EV out of its misery. The post Alas, Poor Cybertruck,",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Você sabe que o mercado de lançamento fica difícil quando as empresas de satélite começam a construir foguetes",
+   "link": "https://arstechnica.com/space/2026/11/ast-spacemobile-is-so-desperate-for-launch-theyre-building-their-own-rocket/",
+   "date": "Fri, 06 Nov 2026 18:20:47 +0000",
+   "desc": "\"The Blacklift rocket is the springboard to significantly expand our total addressable market.\"",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "“Meta acha que não sabemos ler?” Meta abandona atualização incompleta dos termos comerciais.",
+   "link": "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/",
+   "date": "Fri, 06 Nov 2026 17:43:02 +0000",
+   "desc": "Meta won't force Facebook page owners to allow AI training on linked content.",
+   "src": "Ars Technica",
+   "translated": true
+  },
   {
    "title": "AST SpaceMobile construirá novo foguete Blacklift",
    "link": "https://payloadspace.com/ast-spacemobile-to-build-new-blacklift-rocket/",
@@ -10,35 +58,11 @@
    "translated": true
   },
   {
-   "title": "Relatório do foguete: Artemis II literalmente rasgou a atmosfera; Novo atraso de Glenn",
-   "link": "https://arstechnica.com/space/2026/11/rocket-report-new-glenn-wont-fly-this-year-china-launches-mini-falcon-heavy/",
-   "date": "Fri, 06 Nov 2026 13:33:20 +0000",
-   "desc": "Interstellar Technologies announces more government funding for the Japanese Zero rocket.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "Os satélites de guarda-costas europeus estão mais próximos, obrigado, você pensa",
+   "title": "Os satélites de guarda-costas europeus estão mais próximos, obrigado, pense",
    "link": "https://payloadspace.com/european-bodyguard-sats-are-closer-thank-you-think/",
    "date": "Fri, 06 Nov 2026 07:15:00 +0000",
    "desc": "PAVE Space announced plans to launch a demo mission of its IBEX spacecraft—a highly maneuverable platform for commercial and defense payloads. But PAVE isn't th",
    "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "Pesquisadores XPENG e parceiros acadêmicos apresentam GroundingPI, um modelo de percepção visual de código aberto para IA física",
-   "link": "https://cleantechnica.com/2026/11/05/xpeng-researchers-and-academic-partners-introduce-groundingpi-an-open-source-visual-perception-model-for-physical-ai/",
-   "date": "Fri, 06 Nov 2026 03:57:27 +0000",
-   "desc": "Developed by researchers affiliated with XPENG, Peking University, The University of Hong Kong and other academic institutions, GroundingPI introduces a percept",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "Você precisa de um carro novo? Vá elétrico! É tecnologia superior. Parte 2",
-   "link": "https://cleantechnica.com/2026/11/05/you-need-a-new-car-go-electric-its-superior-technology-part-2/",
-   "date": "Fri, 06 Nov 2026 02:59:56 +0000",
-   "desc": "Some reasons why you shouldn’t be worried about buying an electric vehicle. Everyone knows that electric cars are much more inconvenient than gas cars. After al",
-   "src": "CleanTechnica",
    "translated": true
   },
   {
@@ -47,30 +71,6 @@
    "date": "Fri, 06 Nov 2026 01:43:16 +0000",
    "desc": "CesiumAstro plans to build and deploy a new constellation—called Synchronicity—consisting of 737 satellites, deployed with the help of a recently closed $730M f",
    "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "Blue Origin diz que está construindo um motor de foguete de alto desempenho por 1/4 do custo",
-   "link": "https://arstechnica.com/space/2026/11/blue-origin-announces-rocket-upgrades-aimed-at-lower-costs-more-performance/",
-   "date": "Fri, 06 Nov 2026 00:17:06 +0000",
-   "desc": "\"This is going to be a game-changer.\"",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "NASA revela misteriosa aeronave experimental X-70 usando imagem gerada por IA",
-   "link": "https://arstechnica.com/gadgets/2026/11/nasas-experimental-x-70-aircraft-is-a-big-question-mark/",
-   "date": "Thu, 05 Nov 2026 22:49:03 +0000",
-   "desc": "NASA’s X-70 Fractal announcement comes as agency aims to grow X-plane fleet.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "CesiumAstro garante US$ 730 milhões na Série D liderada por Janus Henderson com uma avaliação acima de US$ 4,5 bilhões; Revela constelação de satélites de sincronicidade após missão Element-1 totalmente bem-sucedida",
-   "link": "https://spacenews.com/cesiumastro-secures-730-million-in-janus-henderson-led-series-d-at-a-valuation-above-4-5-billion-unveils-synchronicity-satellite-constellation-following-fully-successful-element-1-mission/",
-   "date": "Thu, 05 Nov 2026 21:45:00 +0000",
-   "desc": "CesiumAstro Inc., a global leader in space and defense communications systems and satellites, today announced the closing of $730 million in Series D financing,",
-   "src": "SpaceNews",
    "translated": true
   }
  ]
