@@ -1,19 +1,35 @@
 {
- "updated": "2026-11-07T15:56:39.087Z",
+ "updated": "2026-11-08T16:22:53.934Z",
  "items": [
   {
-   "title": "Trump está prestes a reacender seu grande impulso EV?",
-   "link": "https://cleantechnica.com/2026/11/06/is-trump-about-to-reignite-his-big-ev-push/",
-   "date": "Sat, 07 Nov 2026 04:57:20 +0000",
-   "desc": "There are so many ironies with the Trump presidency. I remember writing about many of them in his first term. Now, though, we have some additional ones. For exa",
+   "title": "NASA divulga prêmios da Base Lunar na MAX POWER",
+   "link": "https://payloadspace.com/nasa-unveils-moon-base-awards-at-max-power/",
+   "date": "Sun, 08 Nov 2026 16:13:33 +0000",
+   "desc": "NASA rolled out a stack of Moon Base awards Saturday during MAX POWER, ranging from new lander contracts to a recycled Mars rover. The post NASA Unveils Moon Ba",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "Mesmo os maiores portos da Califórnia não apostam no hidrogênio para navios",
+   "link": "https://cleantechnica.com/2026/11/08/california-biggest-ports-not-betting-hydrogen-ships/",
+   "date": "Sun, 08 Nov 2026 16:04:03 +0000",
+   "desc": "California has been one of hydrogen's most enthusiastic supporters for two decades. The state has subsidized hydrogen vehicles, backed refueling networks, suppo",
    "src": "CleanTechnica",
    "translated": true
   },
   {
-   "title": "Indústria solar mostra esperança após as eleições nos EUA e se concentra na mensagem principal",
-   "link": "https://cleantechnica.com/2026/11/06/solar-industry-shows-hope-after-us-election-focuses-on-key-message/",
-   "date": "Sat, 07 Nov 2026 02:43:10 +0000",
-   "desc": "Let's be honest — even with humongous, epic control of Congress like we haven't seen in several decades, Democrats can't really do anything legislatively unless",
+   "title": "Tesla não teve um lançamento de novo produto bem-sucedido desde que JB Straubel deixou o cargo de CTO",
+   "link": "https://cleantechnica.com/2026/11/07/tesla-hasnt-had-a-successful-new-product-launch-since-jb-straubel-stepped-down-as-cto/",
+   "date": "Sun, 08 Nov 2026 04:57:46 +0000",
+   "desc": "As has been widely reported, Tesla is about to end Cybertruck production. The Cybertruck has been a shocking failure. I'm sure there are more detailed analyses ",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "GM pisa nos pés do EV da Tesla com a celebração do EV1",
+   "link": "https://cleantechnica.com/2026/11/07/cybertruck-tesla-gm-ev1-ev-sales-us-market-electric-pickups/",
+   "date": "Sat, 07 Nov 2026 16:52:11 +0000",
+   "desc": "General Motors seeks to reclaim the title of EV innovator from Tesla, drawing renewed attention to its work on the 1990's-era Impact concept EV and EV1 sedan. T",
    "src": "CleanTechnica",
    "translated": true
   },
@@ -23,14 +39,6 @@
    "date": "Fri, 06 Nov 2026 20:56:41 +0000",
    "desc": "Company said a \"multifront cyberattack\" included AI agents and an on-path data snatch.",
    "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "Infelizmente, pobre Cybertruck, mal te conhecíamos",
-   "link": "https://cleantechnica.com/2026/11/06/tesla-cybertruck-production-halted-elon-musk-2026-elections/",
-   "date": "Fri, 06 Nov 2026 19:57:43 +0000",
-   "desc": "Tesla CEO Elon Musk laid a billion-dollar egg with the Cybertruck, and he is finally putting the ill-fated EV out of its misery. The post Alas, Poor Cybertruck,",
-   "src": "CleanTechnica",
    "translated": true
   },
   {
@@ -58,18 +66,10 @@
    "translated": true
   },
   {
-   "title": "Os satélites de guarda-costas europeus estão mais próximos, obrigado, pense",
+   "title": "Os satélites de guarda-costas europeus estão mais próximos, obrigado, você pensa",
    "link": "https://payloadspace.com/european-bodyguard-sats-are-closer-thank-you-think/",
    "date": "Fri, 06 Nov 2026 07:15:00 +0000",
    "desc": "PAVE Space announced plans to launch a demo mission of its IBEX spacecraft—a highly maneuverable platform for commercial and defense payloads. But PAVE isn't th",
-   "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "CesiumAstro levanta US$ 730 milhões e atinge avaliação acima de US$ 4,5 bilhões",
-   "link": "https://payloadspace.com/cesiumastro-raises-730m-reaches-valuation-above-4-5b/",
-   "date": "Fri, 06 Nov 2026 01:43:16 +0000",
-   "desc": "CesiumAstro plans to build and deploy a new constellation—called Synchronicity—consisting of 737 satellites, deployed with the help of a recently closed $730M f",
    "src": "Payload",
    "translated": true
   }
