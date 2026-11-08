@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T15:41:26.103Z",
+ "updated": "2026-11-08T15:59:50.229Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
   {
@@ -31,13 +31,6 @@
    "net": "2026-11-11T11:40:00Z"
   },
   {
-   "d": "12",
-   "mo": "NOV",
-   "missao": "Starship · Flight 15",
-   "sub": "SpaceX · Starbase, Texas (EUA) · 12/11, 21:00 (Brasília) · voo de teste",
-   "net": "2026-11-13T00:00:00Z"
-  },
-  {
    "d": "13",
    "mo": "NOV",
    "missao": "Falcon 9 · USSF-317",
@@ -50,6 +43,13 @@
    "missao": "Vulcan VC6L · Amazon Leo (LV-01)",
    "sub": "ULA · Cabo Canaveral, Flórida (EUA) · 13/11, 14:54 (Brasília) · comunicações",
    "net": "2026-11-13T17:54:00Z"
+  },
+  {
+   "d": "13",
+   "mo": "NOV",
+   "missao": "Starship · Starlink 31-2 (Starship Flight 15)",
+   "sub": "SpaceX · Starbase, Texas (EUA) · 13/11, 19:45 (Brasília) · comunicações",
+   "net": "2026-11-13T22:45:00Z"
   },
   {
    "d": "14",
