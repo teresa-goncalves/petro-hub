@@ -1,75 +1,75 @@
 {
- "updated": "2026-11-08T16:22:53.934Z",
+ "updated": "2026-11-09T20:11:03.278Z",
  "items": [
+  {
+   "title": "Pentágono pondera colocar frota de satélites militares ao redor da Lua",
+   "link": "https://arstechnica.com/space/2026/11/us-military-notionally-interested-in-satellite-constellation-around-moon/",
+   "date": "Mon, 09 Nov 2026 19:08:37 +0000",
+   "desc": "\"Please jump on my cislunar bandwagon because I need some more friends here.\"",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "SpaceX agora é fundamentalmente uma “empresa de infraestrutura”, diz alto funcionário",
+   "link": "https://arstechnica.com/space/2026/11/spacex-now-fundamentally-an-infrastructure-company-senior-official-says/",
+   "date": "Mon, 09 Nov 2026 15:39:21 +0000",
+   "desc": "\"Grok analyzing the same video is 99.9 percent perfect.\"",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Os veículos elétricos deslocam 5 vezes mais petróleo globalmente do que há 5 anos – análise",
+   "link": "https://cleantechnica.com/2026/11/09/evs-displace-5-times-more-oil-globally-than-they-did-5-years-ago-analysis/",
+   "date": "Mon, 09 Nov 2026 15:03:14 +0000",
+   "desc": "Five years on from Glasgow, EVs have proved the single most effective way to curb oil use, says T&#38;E. Battery electric vehicles (BEVs) make up about 4.2% of ",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Ford dá dicas sobre a vida útil da bateria do novo Fathom EV",
+   "link": "https://cleantechnica.com/2026/11/09/ford-drops-clue-about-ford-fathom-ev-battery/",
+   "date": "Mon, 09 Nov 2026 14:00:07 +0000",
+   "desc": "Ford is drawing attention to the long lifespan of the 2021 Mustang Mach-E EV battery, setting high expectations for the forthcoming Fathom electric pickup truck",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Relatório da CCIA destaca o potencial da conectividade via satélite para expandir o acesso à Internet e impulsionar o crescimento econômico",
+   "link": "https://spacenews.com/ccia-report-highlights-satellite-connectivitys-potential-to-expand-internet-access-and-drive-economic-growth/",
+   "date": "Mon, 09 Nov 2026 14:00:00 +0000",
+   "desc": "Washington — The Computer &#38; Communications Industry Association today released Connecting the World: Unlocking the Potential of Satellite Connectivity, a ne",
+   "src": "SpaceNews",
+   "translated": true
+  },
+  {
+   "title": "Astronautas Apollo e Artemis dividem o palco na gala",
+   "link": "https://payloadspace.com/apollo-and-artemis-astronauts-share-the-stage-at-gala/",
+   "date": "Mon, 09 Nov 2026 13:45:00 +0000",
+   "desc": "Twenty-eight astronauts—including two Apollo veterans—and one very large Saturn V shared a room at Kennedy Space Center for the Artemis Celebration Gala. The po",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "Ambições de foguetes de médio porte do Canadá confirmadas no orçamento",
+   "link": "https://payloadspace.com/canadas-medium-lift-rocket-ambitions-confirmed-in-budget/",
+   "date": "Mon, 09 Nov 2026 13:30:00 +0000",
+   "desc": "Canada will upgrade its rockets as part of its Launch the North initiative, which is aiming to support sovereign rockets flying from at least two new spaceports",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "Veículos elétricos mais vendidos no mundo – 32% de participação de EV em setembro!",
+   "link": "https://cleantechnica.com/2026/11/08/top-selling-electric-vehicles-in-the-world-32-ev-share-in-september/",
+   "date": "Sun, 08 Nov 2026 18:47:58 +0000",
+   "desc": "BEVs Up, PHEVs Down Plugin vehicle registrations were up 3% year over year (YoY) globally in September, ending the month at around 2.16 million units, pretty da",
+   "src": "CleanTechnica",
+   "translated": true
+  },
   {
    "title": "NASA divulga prêmios da Base Lunar na MAX POWER",
    "link": "https://payloadspace.com/nasa-unveils-moon-base-awards-at-max-power/",
    "date": "Sun, 08 Nov 2026 16:13:33 +0000",
    "desc": "NASA rolled out a stack of Moon Base awards Saturday during MAX POWER, ranging from new lander contracts to a recycled Mars rover. The post NASA Unveils Moon Ba",
-   "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "Mesmo os maiores portos da Califórnia não apostam no hidrogênio para navios",
-   "link": "https://cleantechnica.com/2026/11/08/california-biggest-ports-not-betting-hydrogen-ships/",
-   "date": "Sun, 08 Nov 2026 16:04:03 +0000",
-   "desc": "California has been one of hydrogen's most enthusiastic supporters for two decades. The state has subsidized hydrogen vehicles, backed refueling networks, suppo",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "Tesla não teve um lançamento de novo produto bem-sucedido desde que JB Straubel deixou o cargo de CTO",
-   "link": "https://cleantechnica.com/2026/11/07/tesla-hasnt-had-a-successful-new-product-launch-since-jb-straubel-stepped-down-as-cto/",
-   "date": "Sun, 08 Nov 2026 04:57:46 +0000",
-   "desc": "As has been widely reported, Tesla is about to end Cybertruck production. The Cybertruck has been a shocking failure. I'm sure there are more detailed analyses ",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "GM pisa nos pés do EV da Tesla com a celebração do EV1",
-   "link": "https://cleantechnica.com/2026/11/07/cybertruck-tesla-gm-ev1-ev-sales-us-market-electric-pickups/",
-   "date": "Sat, 07 Nov 2026 16:52:11 +0000",
-   "desc": "General Motors seeks to reclaim the title of EV innovator from Tesla, drawing renewed attention to its work on the 1990's-era Impact concept EV and EV1 sedan. T",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "Chainalysis diz que hackers roubaram credenciais e tokens de todos os seus clientes",
-   "link": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers/",
-   "date": "Fri, 06 Nov 2026 20:56:41 +0000",
-   "desc": "Company said a \"multifront cyberattack\" included AI agents and an on-path data snatch.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "Você sabe que o mercado de lançamento fica difícil quando as empresas de satélite começam a construir foguetes",
-   "link": "https://arstechnica.com/space/2026/11/ast-spacemobile-is-so-desperate-for-launch-theyre-building-their-own-rocket/",
-   "date": "Fri, 06 Nov 2026 18:20:47 +0000",
-   "desc": "\"The Blacklift rocket is the springboard to significantly expand our total addressable market.\"",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "“Meta acha que não sabemos ler?” Meta abandona atualização incompleta dos termos comerciais.",
-   "link": "https://arstechnica.com/tech-policy/2026/11/does-meta-think-we-cant-read-meta-abandons-sketchy-commercial-terms-update/",
-   "date": "Fri, 06 Nov 2026 17:43:02 +0000",
-   "desc": "Meta won't force Facebook page owners to allow AI training on linked content.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "AST SpaceMobile construirá novo foguete Blacklift",
-   "link": "https://payloadspace.com/ast-spacemobile-to-build-new-blacklift-rocket/",
-   "date": "Fri, 06 Nov 2026 15:03:08 +0000",
-   "desc": "Amid a growing launch crunch, AST SpaceMobile ($ASTS) is building its own ride to space. The post AST SpaceMobile To Build New Blacklift Rocket appeared first o",
-   "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "Os satélites de guarda-costas europeus estão mais próximos, obrigado, você pensa",
-   "link": "https://payloadspace.com/european-bodyguard-sats-are-closer-thank-you-think/",
-   "date": "Fri, 06 Nov 2026 07:15:00 +0000",
-   "desc": "PAVE Space announced plans to launch a demo mission of its IBEX spacecraft—a highly maneuverable platform for commercial and defense payloads. But PAVE isn't th",
    "src": "Payload",
    "translated": true
   }
