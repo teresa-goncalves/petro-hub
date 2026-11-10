@@ -1,27 +1,20 @@
 {
- "updated": "2026-11-09T19:51:29.308Z",
+ "updated": "2026-11-10T17:04:39.429Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
-  {
-   "d": "10",
-   "mo": "NOV",
-   "missao": "Falcon 9 · USSF-627",
-   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 10/11, 01:59 (Brasília) · carga militar/classificada",
-   "net": "2026-11-10T04:59:49Z"
-  },
-  {
-   "d": "11",
-   "mo": "NOV",
-   "missao": "Mir · Demo Flight",
-   "sub": "Agency for Defense Development · Sea Launch · 11/11, 02:00 (Brasília) · voo de teste",
-   "net": "2026-11-11T05:00:00Z"
-  },
   {
    "d": "11",
    "mo": "NOV",
    "missao": "Long March 2D · carga não divulgada",
    "sub": "CASC · Jiuquan (China) · 11/11, 08:40 (Brasília)",
    "net": "2026-11-11T11:40:00Z"
+  },
+  {
+   "d": "11",
+   "mo": "NOV",
+   "missao": "Falcon 9 · USSF-627",
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 11/11, 23:35 (Brasília) · carga militar/classificada",
+   "net": "2026-11-12T02:35:00Z"
   },
   {
    "d": "12",
@@ -33,9 +26,9 @@
   {
    "d": "13",
    "mo": "NOV",
-   "missao": "Falcon 9 · USSF-317",
-   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 13/11, 01:23 (Brasília) · carga militar/classificada",
-   "net": "2026-11-13T04:23:00Z"
+   "missao": "Mir · Demo Flight",
+   "sub": "Agency for Defense Development · Sea Launch · 13/11, 02:00 (Brasília) · voo de teste",
+   "net": "2026-11-13T05:00:00Z"
   },
   {
    "d": "13",
@@ -57,6 +50,13 @@
    "missao": "Electron · The Mountain God Rises (iQPS Launch 10)",
    "sub": "Rocket Lab · Mahia (Nova Zelândia) · 14/11, 02:30 (Brasília) · observação da Terra",
    "net": "2026-11-14T05:30:00Z"
+  },
+  {
+   "d": "15",
+   "mo": "NOV",
+   "missao": "Falcon 9 · USSF-317",
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 15/11, 00:55 (Brasília) · carga militar/classificada",
+   "net": "2026-11-15T03:55:00Z"
   }
  ]
 }
