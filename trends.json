@@ -1,76 +1,76 @@
 {
- "updated": "2026-11-09T20:11:03.278Z",
+ "updated": "2026-11-10T17:19:13.366Z",
  "items": [
+  {
+   "title": "Uma empresa de estação espacial processa outra por copiar seu trabalho",
+   "link": "https://arstechnica.com/space/2026/11/one-space-station-company-sues-another-for-copying-its-work/",
+   "date": "Tue, 10 Nov 2026 16:17:51 +0000",
+   "desc": "\"NASA advised that Vast’s submission in some locations substituted 'the PAM Provider' for Axiom\"",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Kratos e Seagate Space fazem parceria para aprimorar capacidades de lançamento offshore móvel para missões de segurança nacional",
+   "link": "https://spacenews.com/kratos-and-seagate-space-partner-to-advance-mobile-offshore-launch-capabilities-for-national-security-missions/",
+   "date": "Tue, 10 Nov 2026 14:00:00 +0000",
+   "desc": "SAN DIEGO, CA, November 10, 2026 - Kratos Defense &#38; Security Solutions, Inc., a technology company in defense, national security, and global markets, today ",
+   "src": "SpaceNews",
+   "translated": true
+  },
+  {
+   "title": "Rocket Lab aumenta o preço de lançamento do Neutron antes da estreia em 27",
+   "link": "https://payloadspace.com/rocket-lab-ups-neutron-launch-price-ahead-of-27-debut/",
+   "date": "Tue, 10 Nov 2026 13:17:39 +0000",
+   "desc": "The cost of launch is on the rise. The post Rocket Lab Ups Neutron Launch Price Ahead of ‘27 Debut appeared first on Payload.",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "Os drones de fibra óptica da Ucrânia são pressionados pela demanda de data centers de IA",
+   "link": "https://arstechnica.com/gadgets/2026/11/ukraines-fiber-optic-drones-get-squeezed-by-ai-data-center-demand/",
+   "date": "Tue, 10 Nov 2026 12:15:32 +0000",
+   "desc": "Ukraine competes with Russia and data centers for China’s optical fiber supply.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Ah, então é quem está comprando todos aqueles novos EVs Subaru Trailseeker…",
+   "link": "https://cleantechnica.com/2026/11/10/subaru-ev-sales-trailseeker-pet-friendly-households/",
+   "date": "Tue, 10 Nov 2026 10:44:52 +0000",
+   "desc": "Subaru has racked up a fairly respectable EV sales record so far this year for its new Trailseeker SUV, with household pets playing a featured role in its overa",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "ESCAPADE a caminho de Marte após sobrevoos pela Terra",
+   "link": "https://spacenews.com/escapade-on-its-way-to-mars-after-earth-flybys/",
+   "date": "Tue, 10 Nov 2026 08:01:39 +0000",
+   "desc": "Two NASA smallsats are headed toward Mars after completing flybys of Earth nearly a year after their launch. The post ESCAPADE on its way to Mars after Earth fl",
+   "src": "SpaceNews",
+   "translated": true
+  },
+  {
+   "title": "Mais de 300 empresas de energia solar e de armazenamento pedem que o Congresso aprove uma reforma bipartidária que permita a reforma para acelerar a implantação de energia limpa e reduzir custos",
+   "link": "https://cleantechnica.com/2026/11/09/more-than-300-solar-storage-companies-urge-congress-to-pass-bipartisan-permitting-reform-to-accelerate-clean-energy-deployment-lower-costs/",
+   "date": "Tue, 10 Nov 2026 04:53:37 +0000",
+   "desc": "WASHINGTON D.C. — More than 300 solar and storage companies are urging Congress to pass the Bipartisan American Affordability and Jobs Act (BAAJA), S. 5653, war",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "5 anos depois, os dados da bateria do Mustang Mach-E mostram como é a durabilidade dos veículos elétricos no mundo real",
+   "link": "https://cleantechnica.com/2026/11/09/5-years-in-mustang-mach-e-battery-data-shows-what-real-world-electric-vehicle-durability-looks-like/",
+   "date": "Tue, 10 Nov 2026 04:50:49 +0000",
+   "desc": "Five years ago, the first Mustang Mach-E customers began adding something important to the Ford electric vehicle battery validation work: real-world ownership a",
+   "src": "CleanTechnica",
+   "translated": true
+  },
   {
    "title": "Pentágono pondera colocar frota de satélites militares ao redor da Lua",
    "link": "https://arstechnica.com/space/2026/11/us-military-notionally-interested-in-satellite-constellation-around-moon/",
    "date": "Mon, 09 Nov 2026 19:08:37 +0000",
    "desc": "\"Please jump on my cislunar bandwagon because I need some more friends here.\"",
    "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "SpaceX agora é fundamentalmente uma “empresa de infraestrutura”, diz alto funcionário",
-   "link": "https://arstechnica.com/space/2026/11/spacex-now-fundamentally-an-infrastructure-company-senior-official-says/",
-   "date": "Mon, 09 Nov 2026 15:39:21 +0000",
-   "desc": "\"Grok analyzing the same video is 99.9 percent perfect.\"",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "Os veículos elétricos deslocam 5 vezes mais petróleo globalmente do que há 5 anos – análise",
-   "link": "https://cleantechnica.com/2026/11/09/evs-displace-5-times-more-oil-globally-than-they-did-5-years-ago-analysis/",
-   "date": "Mon, 09 Nov 2026 15:03:14 +0000",
-   "desc": "Five years on from Glasgow, EVs have proved the single most effective way to curb oil use, says T&#38;E. Battery electric vehicles (BEVs) make up about 4.2% of ",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "Ford dá dicas sobre a vida útil da bateria do novo Fathom EV",
-   "link": "https://cleantechnica.com/2026/11/09/ford-drops-clue-about-ford-fathom-ev-battery/",
-   "date": "Mon, 09 Nov 2026 14:00:07 +0000",
-   "desc": "Ford is drawing attention to the long lifespan of the 2021 Mustang Mach-E EV battery, setting high expectations for the forthcoming Fathom electric pickup truck",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "Relatório da CCIA destaca o potencial da conectividade via satélite para expandir o acesso à Internet e impulsionar o crescimento econômico",
-   "link": "https://spacenews.com/ccia-report-highlights-satellite-connectivitys-potential-to-expand-internet-access-and-drive-economic-growth/",
-   "date": "Mon, 09 Nov 2026 14:00:00 +0000",
-   "desc": "Washington — The Computer &#38; Communications Industry Association today released Connecting the World: Unlocking the Potential of Satellite Connectivity, a ne",
-   "src": "SpaceNews",
-   "translated": true
-  },
-  {
-   "title": "Astronautas Apollo e Artemis dividem o palco na gala",
-   "link": "https://payloadspace.com/apollo-and-artemis-astronauts-share-the-stage-at-gala/",
-   "date": "Mon, 09 Nov 2026 13:45:00 +0000",
-   "desc": "Twenty-eight astronauts—including two Apollo veterans—and one very large Saturn V shared a room at Kennedy Space Center for the Artemis Celebration Gala. The po",
-   "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "Ambições de foguetes de médio porte do Canadá confirmadas no orçamento",
-   "link": "https://payloadspace.com/canadas-medium-lift-rocket-ambitions-confirmed-in-budget/",
-   "date": "Mon, 09 Nov 2026 13:30:00 +0000",
-   "desc": "Canada will upgrade its rockets as part of its Launch the North initiative, which is aiming to support sovereign rockets flying from at least two new spaceports",
-   "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "Veículos elétricos mais vendidos no mundo – 32% de participação de EV em setembro!",
-   "link": "https://cleantechnica.com/2026/11/08/top-selling-electric-vehicles-in-the-world-32-ev-share-in-september/",
-   "date": "Sun, 08 Nov 2026 18:47:58 +0000",
-   "desc": "BEVs Up, PHEVs Down Plugin vehicle registrations were up 3% year over year (YoY) globally in September, ending the month at around 2.16 million units, pretty da",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "NASA divulga prêmios da Base Lunar na MAX POWER",
-   "link": "https://payloadspace.com/nasa-unveils-moon-base-awards-at-max-power/",
-   "date": "Sun, 08 Nov 2026 16:13:33 +0000",
-   "desc": "NASA rolled out a stack of Moon Base awards Saturday during MAX POWER, ranging from new lander contracts to a recycled Mars rover. The post NASA Unveils Moon Ba",
-   "src": "Payload",
    "translated": true
   }
  ]
