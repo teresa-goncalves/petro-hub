@@ -1,12 +1,60 @@
 {
- "updated": "2026-11-10T17:19:13.366Z",
+ "updated": "2026-11-11T17:28:49.319Z",
  "items": [
   {
-   "title": "Uma empresa de estação espacial processa outra por copiar seu trabalho",
-   "link": "https://arstechnica.com/space/2026/11/one-space-station-company-sues-another-for-copying-its-work/",
-   "date": "Tue, 10 Nov 2026 16:17:51 +0000",
-   "desc": "\"NASA advised that Vast’s submission in some locations substituted 'the PAM Provider' for Axiom\"",
+   "title": "O Google DeepMind apenas verificou matematicamente as principais partes do Signal",
+   "link": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
+   "date": "Wed, 11 Nov 2026 14:08:57 +0000",
+   "desc": "The four-week project hints that AI could make formal verification far more practical.",
    "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Ciência para o povo, certo!",
+   "link": "https://cleantechnica.com/2026/11/11/science-for-the-people-right-on/",
+   "date": "Wed, 11 Nov 2026 13:21:40 +0000",
+   "desc": "Today United for the Future launches at COP31 today with a plan to unite 100 million people in peaceful, non-partisan marches in cities worldwide. Their goal is",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Tesla Robotaxis se estende até San Antonio",
+   "link": "https://cleantechnica.com/2026/11/10/tesla-robotaxis-extend-into-san-antonio/",
+   "date": "Wed, 11 Nov 2026 04:53:25 +0000",
+   "desc": "Tesla's nascent robotaxi service has extended into San Antonio, to some extent. &#8220;Tesla launched its robotaxi service Monday in San Antonio,&#8221; Axios r",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Declaração da indústria solar e de armazenamento sobre projeto de lei de reforma de permissão bipartidária que é aprovado na primeira votação processual",
+   "link": "https://cleantechnica.com/2026/11/10/solar-storage-industry-statement-on-bipartisan-permitting-reform-bill-passing-first-procedural-vote/",
+   "date": "Wed, 11 Nov 2026 00:54:35 +0000",
+   "desc": "WASHINGTON D.C. — Following is a statement from Tim Pawlenty, CEO of the Solar Energy Industries Association (SEIA) on the Bipartisan American Affordability and",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Os militares dos EUA parecem estar nervosos com a crise de abastecimento do lançamento",
+   "link": "https://arstechnica.com/space/2026/11/the-us-military-seems-to-be-getting-nervous-about-the-launch-supply-crunch/",
+   "date": "Tue, 10 Nov 2026 23:02:39 +0000",
+   "desc": "\"Launch is extremely constrained and that is exactly the situation we predicted.\"",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Câmeras circulares tornam-se móveis enquanto a Amazon lança drone e robô de segurança com tecnologia de IA",
+   "link": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/",
+   "date": "Tue, 10 Nov 2026 22:35:01 +0000",
+   "desc": "Amazon's roaming Ring Robotics devices will debut in late 2026 and early 2027.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Deputado Mike Haridopolos sobre o futuro da NASA após a Onda Azul",
+   "link": "https://payloadspace.com/rep-mike-haridopolos-on-nasas-future-after-the-blue-wave/",
+   "date": "Tue, 10 Nov 2026 18:45:00 +0000",
+   "desc": "Rep. Mike Haridopolos survived the Blue Wave—and he’s optimistic bipartisan support for NASA’s Artemis program means the program will survive the political uphe",
+   "src": "Payload",
    "translated": true
   },
   {
@@ -23,54 +71,6 @@
    "date": "Tue, 10 Nov 2026 13:17:39 +0000",
    "desc": "The cost of launch is on the rise. The post Rocket Lab Ups Neutron Launch Price Ahead of ‘27 Debut appeared first on Payload.",
    "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "Os drones de fibra óptica da Ucrânia são pressionados pela demanda de data centers de IA",
-   "link": "https://arstechnica.com/gadgets/2026/11/ukraines-fiber-optic-drones-get-squeezed-by-ai-data-center-demand/",
-   "date": "Tue, 10 Nov 2026 12:15:32 +0000",
-   "desc": "Ukraine competes with Russia and data centers for China’s optical fiber supply.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "Ah, então é quem está comprando todos aqueles novos EVs Subaru Trailseeker…",
-   "link": "https://cleantechnica.com/2026/11/10/subaru-ev-sales-trailseeker-pet-friendly-households/",
-   "date": "Tue, 10 Nov 2026 10:44:52 +0000",
-   "desc": "Subaru has racked up a fairly respectable EV sales record so far this year for its new Trailseeker SUV, with household pets playing a featured role in its overa",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "ESCAPADE a caminho de Marte após sobrevoos pela Terra",
-   "link": "https://spacenews.com/escapade-on-its-way-to-mars-after-earth-flybys/",
-   "date": "Tue, 10 Nov 2026 08:01:39 +0000",
-   "desc": "Two NASA smallsats are headed toward Mars after completing flybys of Earth nearly a year after their launch. The post ESCAPADE on its way to Mars after Earth fl",
-   "src": "SpaceNews",
-   "translated": true
-  },
-  {
-   "title": "Mais de 300 empresas de energia solar e de armazenamento pedem que o Congresso aprove uma reforma bipartidária que permita a reforma para acelerar a implantação de energia limpa e reduzir custos",
-   "link": "https://cleantechnica.com/2026/11/09/more-than-300-solar-storage-companies-urge-congress-to-pass-bipartisan-permitting-reform-to-accelerate-clean-energy-deployment-lower-costs/",
-   "date": "Tue, 10 Nov 2026 04:53:37 +0000",
-   "desc": "WASHINGTON D.C. — More than 300 solar and storage companies are urging Congress to pass the Bipartisan American Affordability and Jobs Act (BAAJA), S. 5653, war",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "5 anos depois, os dados da bateria do Mustang Mach-E mostram como é a durabilidade dos veículos elétricos no mundo real",
-   "link": "https://cleantechnica.com/2026/11/09/5-years-in-mustang-mach-e-battery-data-shows-what-real-world-electric-vehicle-durability-looks-like/",
-   "date": "Tue, 10 Nov 2026 04:50:49 +0000",
-   "desc": "Five years ago, the first Mustang Mach-E customers began adding something important to the Ford electric vehicle battery validation work: real-world ownership a",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "Pentágono pondera colocar frota de satélites militares ao redor da Lua",
-   "link": "https://arstechnica.com/space/2026/11/us-military-notionally-interested-in-satellite-constellation-around-moon/",
-   "date": "Mon, 09 Nov 2026 19:08:37 +0000",
-   "desc": "\"Please jump on my cislunar bandwagon because I need some more friends here.\"",
-   "src": "Ars Technica",
    "translated": true
   }
  ]
