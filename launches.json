@@ -1,28 +1,7 @@
 {
- "updated": "2026-11-11T17:11:42.363Z",
+ "updated": "2026-11-12T17:37:01.064Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
-  {
-   "d": "11",
-   "mo": "NOV",
-   "missao": "Falcon 9 · USSF-627",
-   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 11/11, 23:36 (Brasília) · carga militar/classificada",
-   "net": "2026-11-12T02:36:18Z"
-  },
-  {
-   "d": "12",
-   "mo": "NOV",
-   "missao": "Kuaizhou 11 · carga não divulgada",
-   "sub": "ExPace · Jiuquan (China) · 12/11, 16:50 (Brasília)",
-   "net": "2026-11-12T19:50:00Z"
-  },
-  {
-   "d": "13",
-   "mo": "NOV",
-   "missao": "Mir · Demo Flight",
-   "sub": "Agency for Defense Development · Sea Launch · 13/11, 02:00 (Brasília) · voo de teste",
-   "net": "2026-11-13T05:00:00Z"
-  },
   {
    "d": "13",
    "mo": "NOV",
@@ -36,6 +15,13 @@
    "missao": "Starship · Starlink 31-2 (Starship Flight 15)",
    "sub": "SpaceX · Starbase, Texas (EUA) · 13/11, 19:45 (Brasília) · comunicações",
    "net": "2026-11-13T22:45:00Z"
+  },
+  {
+   "d": "13",
+   "mo": "NOV",
+   "missao": "Soyuz 2.1b/Fregat-M · MKA Kinosputnik, KOEN and others",
+   "sub": "Roscosmos · Vostochny (Rússia) · 13/11, 21:50 (Brasília)",
+   "net": "2026-11-14T00:50:00Z"
   },
   {
    "d": "14",
@@ -57,6 +43,20 @@
    "missao": "Falcon 9 · USSF-266",
    "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 18/11, 13:49 (Brasília) · carga militar/classificada",
    "net": "2026-11-18T16:49:00Z"
+  },
+  {
+   "d": "20",
+   "mo": "NOV",
+   "missao": "Long March 8A · SatNet LEO TBD?",
+   "sub": "CASC · Wenchang (China) · 20/11, 08:00 (Brasília) · comunicações",
+   "net": "2026-11-20T11:00:00Z"
+  },
+  {
+   "d": "22",
+   "mo": "NOV",
+   "missao": "Ariane 64 Block 2 · Amazon Leo (LE-04)",
+   "sub": "Arianespace · Centro Espacial de Kourou (Guiana Francesa) · 22/11, 21:00 (Brasília) · comunicações",
+   "net": "2026-11-23T00:00:00Z"
   }
  ]
 }
