@@ -1,52 +1,68 @@
 {
- "updated": "2026-11-11T17:28:49.319Z",
+ "updated": "2026-11-12T17:45:27.778Z",
  "items": [
   {
-   "title": "O Google DeepMind apenas verificou matematicamente as principais partes do Signal",
-   "link": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
-   "date": "Wed, 11 Nov 2026 14:08:57 +0000",
-   "desc": "The four-week project hints that AI could make formal verification far more practical.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "Ciência para o povo, certo!",
-   "link": "https://cleantechnica.com/2026/11/11/science-for-the-people-right-on/",
-   "date": "Wed, 11 Nov 2026 13:21:40 +0000",
-   "desc": "Today United for the Future launches at COP31 today with a plan to unite 100 million people in peaceful, non-partisan marches in cities worldwide. Their goal is",
+   "title": "Construir Limpo: Acelerando a Energia Acessível e Promovendo a Gestão Ambiental e Comunitária",
+   "link": "https://cleantechnica.com/2026/11/12/build-clean-accelerating-affordable-energy-while-advancing-community-and-environmental-stewardship/",
+   "date": "Thu, 12 Nov 2026 17:28:11 +0000",
+   "desc": "NRDC is pushing to expand clean energy development in ways that strengthen communities, protect nature, and deliver lasting economic benefits. America needs to ",
    "src": "CleanTechnica",
    "translated": true
   },
   {
-   "title": "Tesla Robotaxis se estende até San Antonio",
-   "link": "https://cleantechnica.com/2026/11/10/tesla-robotaxis-extend-into-san-antonio/",
-   "date": "Wed, 11 Nov 2026 04:53:25 +0000",
-   "desc": "Tesla's nascent robotaxi service has extended into San Antonio, to some extent. &#8220;Tesla launched its robotaxi service Monday in San Antonio,&#8221; Axios r",
+   "title": "Exclusivo: Spaceium abre licença para hardware de reabastecimento",
+   "link": "https://payloadspace.com/exclusive-spaceium-opens-license-for-refueling-hardware/",
+   "date": "Thu, 12 Nov 2026 14:00:00 +0000",
+   "desc": "Spaceium’s goal is to launch gas stations into orbit. The first step? Making sure spacecraft builders have access to the pump. The post Exclusive: Spaceium Open",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "O gargalo dos arranha-céus: por que o carregamento de veículos elétricos em apartamentos indianos é um quebra-cabeça de engenharia",
+   "link": "https://cleantechnica.com/2026/11/11/the-high-rise-bottleneck-why-ev-charging-in-indian-apartments-is-an-engineering-puzzle/",
+   "date": "Thu, 12 Nov 2026 04:53:39 +0000",
+   "desc": "By Atharva Shinde Most Western clean-energy reporting takes a very specific picture of home charging for granted. You pull into a private driveway, plug into an",
    "src": "CleanTechnica",
    "translated": true
   },
   {
-   "title": "Declaração da indústria solar e de armazenamento sobre projeto de lei de reforma de permissão bipartidária que é aprovado na primeira votação processual",
-   "link": "https://cleantechnica.com/2026/11/10/solar-storage-industry-statement-on-bipartisan-permitting-reform-bill-passing-first-procedural-vote/",
-   "date": "Wed, 11 Nov 2026 00:54:35 +0000",
-   "desc": "WASHINGTON D.C. — Following is a statement from Tim Pawlenty, CEO of the Solar Energy Industries Association (SEIA) on the Bipartisan American Affordability and",
+   "title": "Comitê do Senado avalia nomeações para diretor financeiro e inspetor geral da NASA",
+   "link": "https://spacenews.com/senate-committee-takes-up-nominees-for-nasa-chief-financial-officer-and-inspector-general/",
+   "date": "Thu, 12 Nov 2026 00:00:18 +0000",
+   "desc": "A Senate committee is set to advance nominations for NASA’s chief financial officer and inspector general. The post Senate committee takes up nominees for NASA ",
+   "src": "SpaceNews",
+   "translated": true
+  },
+  {
+   "title": "Anduril diz que seu primeiro satélite pode ver as manobras dos adversários na noite orbital",
+   "link": "https://arstechnica.com/space/2026/11/anduril-demos-night-vision-sensor-for-tracking-satellites-in-darkness/",
+   "date": "Wed, 11 Nov 2026 20:22:03 +0000",
+   "desc": "\"What's unique is it's got a huge dynamic range. We can see things in full dark.\"",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "A arma secreta da NASA na corrida espacial lunar pode ser... a reforma das aquisições?",
+   "link": "https://arstechnica.com/space/2026/11/nasa-takes-an-all-hands-on-deck-approach-in-its-return-to-the-moon/",
+   "date": "Wed, 11 Nov 2026 19:00:26 +0000",
+   "desc": "\"The pace that's occurring, and the nature of the procurements, is unprecedented.\"",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Gigante fabricante de chips de Taiwan, TSMC, investirá US$ 1 bilhão na Anthropic, OpenAI",
+   "link": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
+   "date": "Wed, 11 Nov 2026 18:16:40 +0000",
+   "desc": "Latest example of the AI boom’s circular financing comes as AI trade wobbles.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "A célula solar de perovskita Kraken foi lançada nos EUA",
+   "link": "https://cleantechnica.com/2026/11/11/perovskite-solar-cells-us-caelux-heliene/",
+   "date": "Wed, 11 Nov 2026 18:08:20 +0000",
+   "desc": "Perovskite is a relatively inexpensive material that has attracted thousands of researchers since 2009, when a team of scientists in Japan first demonstrated it",
    "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "Os militares dos EUA parecem estar nervosos com a crise de abastecimento do lançamento",
-   "link": "https://arstechnica.com/space/2026/11/the-us-military-seems-to-be-getting-nervous-about-the-launch-supply-crunch/",
-   "date": "Tue, 10 Nov 2026 23:02:39 +0000",
-   "desc": "\"Launch is extremely constrained and that is exactly the situation we predicted.\"",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "Câmeras circulares tornam-se móveis enquanto a Amazon lança drone e robô de segurança com tecnologia de IA",
-   "link": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/",
-   "date": "Tue, 10 Nov 2026 22:35:01 +0000",
-   "desc": "Amazon's roaming Ring Robotics devices will debut in late 2026 and early 2027.",
-   "src": "Ars Technica",
    "translated": true
   },
   {
@@ -54,22 +70,6 @@
    "link": "https://payloadspace.com/rep-mike-haridopolos-on-nasas-future-after-the-blue-wave/",
    "date": "Tue, 10 Nov 2026 18:45:00 +0000",
    "desc": "Rep. Mike Haridopolos survived the Blue Wave—and he’s optimistic bipartisan support for NASA’s Artemis program means the program will survive the political uphe",
-   "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "Kratos e Seagate Space fazem parceria para aprimorar capacidades de lançamento offshore móvel para missões de segurança nacional",
-   "link": "https://spacenews.com/kratos-and-seagate-space-partner-to-advance-mobile-offshore-launch-capabilities-for-national-security-missions/",
-   "date": "Tue, 10 Nov 2026 14:00:00 +0000",
-   "desc": "SAN DIEGO, CA, November 10, 2026 - Kratos Defense &#38; Security Solutions, Inc., a technology company in defense, national security, and global markets, today ",
-   "src": "SpaceNews",
-   "translated": true
-  },
-  {
-   "title": "Rocket Lab aumenta o preço de lançamento do Neutron antes da estreia em 27",
-   "link": "https://payloadspace.com/rocket-lab-ups-neutron-launch-price-ahead-of-27-debut/",
-   "date": "Tue, 10 Nov 2026 13:17:39 +0000",
-   "desc": "The cost of launch is on the rise. The post Rocket Lab Ups Neutron Launch Price Ahead of ‘27 Debut appeared first on Payload.",
    "src": "Payload",
    "translated": true
   }
