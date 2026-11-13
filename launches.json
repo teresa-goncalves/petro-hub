@@ -1,14 +1,7 @@
 {
- "updated": "2026-11-12T17:37:01.064Z",
+ "updated": "2026-11-13T17:14:32.658Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
-  {
-   "d": "13",
-   "mo": "NOV",
-   "missao": "Vulcan VC6L · Amazon Leo (LV-01)",
-   "sub": "ULA · Cabo Canaveral, Flórida (EUA) · 13/11, 14:54 (Brasília) · comunicações",
-   "net": "2026-11-13T17:54:00Z"
-  },
   {
    "d": "13",
    "mo": "NOV",
@@ -20,8 +13,8 @@
    "d": "13",
    "mo": "NOV",
    "missao": "Soyuz 2.1b/Fregat-M · MKA Kinosputnik, KOEN and others",
-   "sub": "Roscosmos · Vostochny (Rússia) · 13/11, 21:50 (Brasília)",
-   "net": "2026-11-14T00:50:00Z"
+   "sub": "Roscosmos · Vostochny (Rússia) · 13/11, 22:16 (Brasília)",
+   "net": "2026-11-14T01:16:00Z"
   },
   {
    "d": "14",
@@ -31,11 +24,18 @@
    "net": "2026-11-14T05:30:00Z"
   },
   {
-   "d": "15",
+   "d": "14",
+   "mo": "NOV",
+   "missao": "Vulcan VC6L · Amazon Leo (LV-01)",
+   "sub": "ULA · Cabo Canaveral, Flórida (EUA) · 14/11, 14:32 (Brasília) · comunicações",
+   "net": "2026-11-14T17:32:30Z"
+  },
+  {
+   "d": "18",
    "mo": "NOV",
    "missao": "Falcon 9 · USSF-317",
-   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 15/11, 00:55 (Brasília) · carga militar/classificada",
-   "net": "2026-11-15T03:55:00Z"
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 18/11, 00:14 (Brasília) · carga militar/classificada",
+   "net": "2026-11-18T03:14:00Z"
   },
   {
    "d": "18",
@@ -45,18 +45,18 @@
    "net": "2026-11-18T16:49:00Z"
   },
   {
+   "d": "18",
+   "mo": "NOV",
+   "missao": "Long March 2D · carga não divulgada",
+   "sub": "CASC · Taiyuan (China) · 18/11, 19:50 (Brasília)",
+   "net": "2026-11-18T22:50:00Z"
+  },
+  {
    "d": "20",
    "mo": "NOV",
    "missao": "Long March 8A · SatNet LEO TBD?",
    "sub": "CASC · Wenchang (China) · 20/11, 08:00 (Brasília) · comunicações",
    "net": "2026-11-20T11:00:00Z"
-  },
-  {
-   "d": "22",
-   "mo": "NOV",
-   "missao": "Ariane 64 Block 2 · Amazon Leo (LE-04)",
-   "sub": "Arianespace · Centro Espacial de Kourou (Guiana Francesa) · 22/11, 21:00 (Brasília) · comunicações",
-   "net": "2026-11-23T00:00:00Z"
   }
  ]
 }
