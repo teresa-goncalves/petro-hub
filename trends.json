@@ -1,76 +1,76 @@
 {
- "updated": "2026-11-12T17:45:27.778Z",
+ "updated": "2026-11-13T17:23:53.647Z",
  "items": [
   {
-   "title": "Construir Limpo: Acelerando a Energia Acessível e Promovendo a Gestão Ambiental e Comunitária",
-   "link": "https://cleantechnica.com/2026/11/12/build-clean-accelerating-affordable-energy-while-advancing-community-and-environmental-stewardship/",
-   "date": "Thu, 12 Nov 2026 17:28:11 +0000",
-   "desc": "NRDC is pushing to expand clean energy development in ways that strengthen communities, protect nature, and deliver lasting economic benefits. America needs to ",
+   "title": "A estratégia europeia para o hidrogénio deve começar pelo cliente industrial",
+   "link": "https://cleantechnica.com/2026/11/13/eu-hydrogen-strategy-industrial-demand-pipeline-cost/",
+   "date": "Fri, 13 Nov 2026 15:28:46 +0000",
+   "desc": "Europe is revising hydrogen policy. Industrial products and paying customers should determine hydrogen demand before new pipelines receive support. The post Eur",
    "src": "CleanTechnica",
    "translated": true
   },
   {
-   "title": "Exclusivo: Spaceium abre licença para hardware de reabastecimento",
-   "link": "https://payloadspace.com/exclusive-spaceium-opens-license-for-refueling-hardware/",
-   "date": "Thu, 12 Nov 2026 14:00:00 +0000",
-   "desc": "Spaceium’s goal is to launch gas stations into orbit. The first step? Making sure spacecraft builders have access to the pump. The post Exclusive: Spaceium Open",
+   "title": "Tesla é a maçã da indústria de EV?",
+   "link": "https://cleantechnica.com/2026/11/13/is-tesla-the-apple-of-the-ev-industry/",
+   "date": "Fri, 13 Nov 2026 14:52:34 +0000",
+   "desc": "Tesla is an interesting company at an interesting phase of the electric vehicle transition. Well, it has always been an interesting company in this transition. ",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Exclusivo: Sagittarius Logistics levanta US$ 1,2 milhão para desenvolver capacidade de lançamento no interior",
+   "link": "https://payloadspace.com/exclusive-sagittarius-logistics-raises-1-2m-to-build-inland-launch-capabilities/",
+   "date": "Fri, 13 Nov 2026 14:00:00 +0000",
+   "desc": "There’s a new launcher in town. The post Exclusive: Sagittarius Logistics Raises $1.2M to Build Inland Launch Capabilities appeared first on Payload.",
    "src": "Payload",
    "translated": true
   },
   {
-   "title": "O gargalo dos arranha-céus: por que o carregamento de veículos elétricos em apartamentos indianos é um quebra-cabeça de engenharia",
-   "link": "https://cleantechnica.com/2026/11/11/the-high-rise-bottleneck-why-ev-charging-in-indian-apartments-is-an-engineering-puzzle/",
-   "date": "Thu, 12 Nov 2026 04:53:39 +0000",
-   "desc": "By Atharva Shinde Most Western clean-energy reporting takes a very specific picture of home charging for granted. You pull into a private driveway, plug into an",
-   "src": "CleanTechnica",
+   "title": "Rovers lunares canadenses prontos para a próxima fase – e um lançamento anterior",
+   "link": "https://payloadspace.com/canadian-lunar-rovers-ready-for-next-phase-and-an-earlier-launch/",
+   "date": "Fri, 13 Nov 2026 13:30:00 +0000",
+   "desc": "Canadensys, MDA Space, and Mission Control collectively received a Phase 0 lunar-utility-rover study supporting Artemis. And now, work is almost done. The post ",
+   "src": "Payload",
    "translated": true
   },
   {
-   "title": "Comitê do Senado avalia nomeações para diretor financeiro e inspetor geral da NASA",
-   "link": "https://spacenews.com/senate-committee-takes-up-nominees-for-nasa-chief-financial-officer-and-inspector-general/",
-   "date": "Thu, 12 Nov 2026 00:00:18 +0000",
-   "desc": "A Senate committee is set to advance nominations for NASA’s chief financial officer and inspector general. The post Senate committee takes up nominees for NASA ",
+   "title": "Relatório de foguete: nave estelar preparada para voo de teste histórico; um século de elétron",
+   "link": "https://arstechnica.com/space/2026/11/rocket-report-starship-set-for-historic-test-flight-a-century-of-electron/",
+   "date": "Fri, 13 Nov 2026 12:00:40 +0000",
+   "desc": "\"You can simplify it as a big tank feeding engines.\"",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Impacto intermediário nos orçamentos da NASA",
+   "link": "https://payloadspace.com/midterms-impact-on-nasa-budgets/",
+   "date": "Fri, 13 Nov 2026 10:30:00 +0000",
+   "desc": "Last week, we looked at what 30 years of defense budgets could tell us about the next spending cycle, ya know, with the Blue Wave and all. Today, we are taking ",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "AST SpaceMobile defende o desenvolvimento de seu próprio veículo de lançamento",
+   "link": "https://spacenews.com/ast-spacemobile-presses-case-for-developing-own-launch-vehicle/",
+   "date": "Fri, 13 Nov 2026 01:15:21 +0000",
+   "desc": "AST SpaceMobile executives expressed confidence in the company’s ability to field a new reusable launch vehicle in just two years despite widespread industry sk",
    "src": "SpaceNews",
    "translated": true
   },
   {
-   "title": "Anduril diz que seu primeiro satélite pode ver as manobras dos adversários na noite orbital",
-   "link": "https://arstechnica.com/space/2026/11/anduril-demos-night-vision-sensor-for-tracking-satellites-in-darkness/",
-   "date": "Wed, 11 Nov 2026 20:22:03 +0000",
-   "desc": "\"What's unique is it's got a huge dynamic range. We can see things in full dark.\"",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "A arma secreta da NASA na corrida espacial lunar pode ser... a reforma das aquisições?",
-   "link": "https://arstechnica.com/space/2026/11/nasa-takes-an-all-hands-on-deck-approach-in-its-return-to-the-moon/",
-   "date": "Wed, 11 Nov 2026 19:00:26 +0000",
-   "desc": "\"The pace that's occurring, and the nature of the procurements, is unprecedented.\"",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "Gigante fabricante de chips de Taiwan, TSMC, investirá US$ 1 bilhão na Anthropic, OpenAI",
-   "link": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
-   "date": "Wed, 11 Nov 2026 18:16:40 +0000",
-   "desc": "Latest example of the AI boom’s circular financing comes as AI trade wobbles.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "A célula solar de perovskita Kraken foi lançada nos EUA",
-   "link": "https://cleantechnica.com/2026/11/11/perovskite-solar-cells-us-caelux-heliene/",
-   "date": "Wed, 11 Nov 2026 18:08:20 +0000",
-   "desc": "Perovskite is a relatively inexpensive material that has attracted thousands of researchers since 2009, when a team of scientists in Japan first demonstrated it",
+   "title": "Quatro dos sete projetos holandeses de hidrogênio verde foram cancelados. Os subsídios continuam chegando.",
+   "link": "https://cleantechnica.com/2026/11/12/dutch-green-hydrogen-subsidies-four-projects-cancelled/",
+   "date": "Thu, 12 Nov 2026 22:40:02 +0000",
+   "desc": "The Netherlands awarded €783.5 million to seven major electrolysis projects in 2022. Four have since been cancelled, none operates, and another subsidy round is",
    "src": "CleanTechnica",
    "translated": true
   },
   {
-   "title": "Deputado Mike Haridopolos sobre o futuro da NASA após a Onda Azul",
-   "link": "https://payloadspace.com/rep-mike-haridopolos-on-nasas-future-after-the-blue-wave/",
-   "date": "Tue, 10 Nov 2026 18:45:00 +0000",
-   "desc": "Rep. Mike Haridopolos survived the Blue Wave—and he’s optimistic bipartisan support for NASA’s Artemis program means the program will survive the political uphe",
-   "src": "Payload",
+   "title": "FAA expande consultoria de IA para gerenciar congestionamentos de tráfego aéreo em todo o espaço aéreo dos EUA",
+   "link": "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+   "date": "Thu, 12 Nov 2026 22:28:47 +0000",
+   "desc": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
+   "src": "Ars Technica",
    "translated": true
   }
  ]
