@@ -1,6 +1,38 @@
 {
- "updated": "2026-11-13T17:23:53.647Z",
+ "updated": "2026-11-14T16:09:21.380Z",
  "items": [
+  {
+   "title": "Tesla começa a vender Cybercab – US$ 30.000*",
+   "link": "https://cleantechnica.com/2026/11/13/tesla-starts-selling-cybercab-30000/",
+   "date": "Sat, 14 Nov 2026 04:57:57 +0000",
+   "desc": "Well, it's a big day in Tesla World. The company has officially launched Cybercab sales. You can now order a Cybercab for the starting price of $30,000 (technic",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "O voo 15 da nave estelar entra em órbita – estabelecendo uma possível captura no sábado",
+   "link": "https://arstechnica.com/space/2026/11/starship-flight-15-powers-to-orbit-setting-up-a-possible-catch-on-saturday/",
+   "date": "Sat, 14 Nov 2026 00:49:13 +0000",
+   "desc": "One way or another, the company will get some more data on Saturday.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "FAA expande consultoria de IA para gerenciar congestionamentos de tráfego aéreo em todo o espaço aéreo dos EUA",
+   "link": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+   "date": "Fri, 13 Nov 2026 21:20:47 +0000",
+   "desc": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Membro do conselho da OpenAI teme que uma “aquisição” da sociedade pela IA possa demorar meses",
+   "link": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
+   "date": "Fri, 13 Nov 2026 17:25:45 +0000",
+   "desc": "Researcher traces a path from AI reward hacking to potential human extinction.",
+   "src": "Ars Technica",
+   "translated": true
+  },
   {
    "title": "A estratégia europeia para o hidrogénio deve começar pelo cliente industrial",
    "link": "https://cleantechnica.com/2026/11/13/eu-hydrogen-strategy-industrial-demand-pipeline-cost/",
@@ -34,43 +66,11 @@
    "translated": true
   },
   {
-   "title": "Relatório de foguete: nave estelar preparada para voo de teste histórico; um século de elétron",
-   "link": "https://arstechnica.com/space/2026/11/rocket-report-starship-set-for-historic-test-flight-a-century-of-electron/",
-   "date": "Fri, 13 Nov 2026 12:00:40 +0000",
-   "desc": "\"You can simplify it as a big tank feeding engines.\"",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
    "title": "Impacto intermediário nos orçamentos da NASA",
    "link": "https://payloadspace.com/midterms-impact-on-nasa-budgets/",
    "date": "Fri, 13 Nov 2026 10:30:00 +0000",
    "desc": "Last week, we looked at what 30 years of defense budgets could tell us about the next spending cycle, ya know, with the Blue Wave and all. Today, we are taking ",
    "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "AST SpaceMobile defende o desenvolvimento de seu próprio veículo de lançamento",
-   "link": "https://spacenews.com/ast-spacemobile-presses-case-for-developing-own-launch-vehicle/",
-   "date": "Fri, 13 Nov 2026 01:15:21 +0000",
-   "desc": "AST SpaceMobile executives expressed confidence in the company’s ability to field a new reusable launch vehicle in just two years despite widespread industry sk",
-   "src": "SpaceNews",
-   "translated": true
-  },
-  {
-   "title": "Quatro dos sete projetos holandeses de hidrogênio verde foram cancelados. Os subsídios continuam chegando.",
-   "link": "https://cleantechnica.com/2026/11/12/dutch-green-hydrogen-subsidies-four-projects-cancelled/",
-   "date": "Thu, 12 Nov 2026 22:40:02 +0000",
-   "desc": "The Netherlands awarded €783.5 million to seven major electrolysis projects in 2022. Four have since been cancelled, none operates, and another subsidy round is",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "FAA expande consultoria de IA para gerenciar congestionamentos de tráfego aéreo em todo o espaço aéreo dos EUA",
-   "link": "https://arstechnica.com/ai/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
-   "date": "Thu, 12 Nov 2026 22:28:47 +0000",
-   "desc": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
-   "src": "Ars Technica",
    "translated": true
   }
  ]
