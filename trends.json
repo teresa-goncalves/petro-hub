@@ -1,12 +1,44 @@
 {
- "updated": "2026-11-14T16:09:21.380Z",
+ "updated": "2026-11-15T16:37:55.029Z",
  "items": [
   {
-   "title": "Tesla começa a vender Cybercab – US$ 30.000*",
-   "link": "https://cleantechnica.com/2026/11/13/tesla-starts-selling-cybercab-30000/",
-   "date": "Sat, 14 Nov 2026 04:57:57 +0000",
-   "desc": "Well, it's a big day in Tesla World. The company has officially launched Cybercab sales. You can now order a Cybercab for the starting price of $30,000 (technic",
+   "title": "O primeiro SMR de Darlington está atrasado e acima do orçamento. Ontário precisa repensar os próximos três.",
+   "link": "https://cleantechnica.com/2026/11/15/darlington-smr-cost-overrun-four-reactor-risk/",
+   "date": "Sun, 15 Nov 2026 15:56:31 +0000",
+   "desc": "Darlington's SMR budget and schedule have broken before the design has stabilised. Ontario has cheaper clean energy procurement contracts, but must compare comp",
    "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Acelerar a eletrificação pode desbloquear todos os benefícios da liderança espanhola em energias renováveis",
+   "link": "https://cleantechnica.com/2026/11/15/accelerating-electrification-can-unlock-the-full-benefits-of-spains-renewables-leadership/",
+   "date": "Sun, 15 Nov 2026 14:17:31 +0000",
+   "desc": "A new IEA report finds renewables are already strengthening energy security and competitiveness while cutting fuel import costs—but faster electrification, grid",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Combustível para foguetes: a última fronteira do gás natural",
+   "link": "https://cleantechnica.com/2026/11/14/natural-gas-methane-rocket-fuel-spacex-pipelines/",
+   "date": "Sun, 15 Nov 2026 03:40:32 +0000",
+   "desc": "SpaceX is among the industrial-scale consumers of natural gas adding more pipes to the nation's sprawling network of gas pipelines, which the startup needs to e",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "SpaceX captura com sucesso o estágio superior da nave estelar",
+   "link": "https://payloadspace.com/spacex-successfully-catches-starship-upper-stage/",
+   "date": "Sun, 15 Nov 2026 01:39:11 +0000",
+   "desc": "SpaceX made history on Saturday, recovering a Starship upper stage from orbit for the first time. The post SpaceX Successfully Catches Starship Upper Stage appe",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "A SpaceX devolveu seu foguete Starship no sábado – mas há um problema",
+   "link": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world/",
+   "date": "Sun, 15 Nov 2026 00:40:59 +0000",
+   "desc": "It felt like stepping into the future.",
+   "src": "Ars Technica",
    "translated": true
   },
   {
@@ -26,30 +58,6 @@
    "translated": true
   },
   {
-   "title": "Membro do conselho da OpenAI teme que uma “aquisição” da sociedade pela IA possa demorar meses",
-   "link": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
-   "date": "Fri, 13 Nov 2026 17:25:45 +0000",
-   "desc": "Researcher traces a path from AI reward hacking to potential human extinction.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "A estratégia europeia para o hidrogénio deve começar pelo cliente industrial",
-   "link": "https://cleantechnica.com/2026/11/13/eu-hydrogen-strategy-industrial-demand-pipeline-cost/",
-   "date": "Fri, 13 Nov 2026 15:28:46 +0000",
-   "desc": "Europe is revising hydrogen policy. Industrial products and paying customers should determine hydrogen demand before new pipelines receive support. The post Eur",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "Tesla é a maçã da indústria de EV?",
-   "link": "https://cleantechnica.com/2026/11/13/is-tesla-the-apple-of-the-ev-industry/",
-   "date": "Fri, 13 Nov 2026 14:52:34 +0000",
-   "desc": "Tesla is an interesting company at an interesting phase of the electric vehicle transition. Well, it has always been an interesting company in this transition. ",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
    "title": "Exclusivo: Sagittarius Logistics levanta US$ 1,2 milhão para desenvolver capacidade de lançamento no interior",
    "link": "https://payloadspace.com/exclusive-sagittarius-logistics-raises-1-2m-to-build-inland-launch-capabilities/",
    "date": "Fri, 13 Nov 2026 14:00:00 +0000",
@@ -62,14 +70,6 @@
    "link": "https://payloadspace.com/canadian-lunar-rovers-ready-for-next-phase-and-an-earlier-launch/",
    "date": "Fri, 13 Nov 2026 13:30:00 +0000",
    "desc": "Canadensys, MDA Space, and Mission Control collectively received a Phase 0 lunar-utility-rover study supporting Artemis. And now, work is almost done. The post ",
-   "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "Impacto intermediário nos orçamentos da NASA",
-   "link": "https://payloadspace.com/midterms-impact-on-nasa-budgets/",
-   "date": "Fri, 13 Nov 2026 10:30:00 +0000",
-   "desc": "Last week, we looked at what 30 years of defense budgets could tell us about the next spending cycle, ya know, with the Blue Wave and all. Today, we are taking ",
    "src": "Payload",
    "translated": true
   }
