@@ -1,6 +1,38 @@
 {
- "updated": "2026-11-15T16:37:55.029Z",
+ "updated": "2026-11-16T19:53:13.448Z",
  "items": [
+  {
+   "title": "Quando os humanos realmente voarão na nave estelar?",
+   "link": "https://arstechnica.com/space/2026/11/when-will-humans-actually-fly-on-starship/",
+   "date": "Mon, 16 Nov 2026 19:46:08 +0000",
+   "desc": "All estimates of human spaceflight on Starship should be taken with a gigantic grain of salt.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "NAED lança PV-1 PECVD-V, uma plataforma de deposição vertical projetada nos EUA, construída para fabricação solar em tandem de 96.000 wafers por hora",
+   "link": "https://cleantechnica.com/2026/11/15/naed-unveils-pv-1-pecvd-v-a-u-s-engineered-vertical-deposition-platform-built-for-96000-wafer-per-hour-tandem-solar-manufacturing/",
+   "date": "Mon, 16 Nov 2026 02:50:38 +0000",
+   "desc": "Patent-pending vertical PECVD/PVD architecture doubles wafer throughput over NAED's previous platform and is designed to produce perovskite/HJT tandem cells tar",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Foguete Vulcan falha durante o lançamento, causando grande golpe aos concorrentes da SpaceX",
+   "link": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/",
+   "date": "Sun, 15 Nov 2026 23:11:54 +0000",
+   "desc": "This was the first total mission failure in United Launch Alliance's 20-year history.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Uma abordagem radicalmente diferente para IA",
+   "link": "https://cleantechnica.com/2026/11/15/a-radically-different-approach-to-ai/",
+   "date": "Sun, 15 Nov 2026 22:05:07 +0000",
+   "desc": "About forty years ago, I decided I would develop artificial intelligence in my spare time. I knew about the Turing test, and I believed that a computer tricking",
+   "src": "CleanTechnica",
+   "translated": true
+  },
   {
    "title": "O primeiro SMR de Darlington está atrasado e acima do orçamento. Ontário precisa repensar os próximos três.",
    "link": "https://cleantechnica.com/2026/11/15/darlington-smr-cost-overrun-four-reactor-risk/",
@@ -10,26 +42,10 @@
    "translated": true
   },
   {
-   "title": "Acelerar a eletrificação pode desbloquear todos os benefícios da liderança espanhola em energias renováveis",
-   "link": "https://cleantechnica.com/2026/11/15/accelerating-electrification-can-unlock-the-full-benefits-of-spains-renewables-leadership/",
-   "date": "Sun, 15 Nov 2026 14:17:31 +0000",
-   "desc": "A new IEA report finds renewables are already strengthening energy security and competitiveness while cutting fuel import costs—but faster electrification, grid",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "Combustível para foguetes: a última fronteira do gás natural",
-   "link": "https://cleantechnica.com/2026/11/14/natural-gas-methane-rocket-fuel-spacex-pipelines/",
-   "date": "Sun, 15 Nov 2026 03:40:32 +0000",
-   "desc": "SpaceX is among the industrial-scale consumers of natural gas adding more pipes to the nation's sprawling network of gas pipelines, which the startup needs to e",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "SpaceX captura com sucesso o estágio superior da nave estelar",
+   "title": "SpaceX captura o estágio superior da nave estelar",
    "link": "https://payloadspace.com/spacex-successfully-catches-starship-upper-stage/",
    "date": "Sun, 15 Nov 2026 01:39:11 +0000",
-   "desc": "SpaceX made history on Saturday, recovering a Starship upper stage from orbit for the first time. The post SpaceX Successfully Catches Starship Upper Stage appe",
+   "desc": "SpaceX made history on Saturday, recovering a Starship upper stage from orbit for the first time. The post SpaceX Catches Starship Upper Stage appeared first on",
    "src": "Payload",
    "translated": true
   },
@@ -38,22 +54,6 @@
    "link": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world/",
    "date": "Sun, 15 Nov 2026 00:40:59 +0000",
    "desc": "It felt like stepping into the future.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "O voo 15 da nave estelar entra em órbita – estabelecendo uma possível captura no sábado",
-   "link": "https://arstechnica.com/space/2026/11/starship-flight-15-powers-to-orbit-setting-up-a-possible-catch-on-saturday/",
-   "date": "Sat, 14 Nov 2026 00:49:13 +0000",
-   "desc": "One way or another, the company will get some more data on Saturday.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "FAA expande consultoria de IA para gerenciar congestionamentos de tráfego aéreo em todo o espaço aéreo dos EUA",
-   "link": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
-   "date": "Fri, 13 Nov 2026 21:20:47 +0000",
-   "desc": "Airlines praised the AI tool, but the air traffic controllers’ union wasn’t involved.",
    "src": "Ars Technica",
    "translated": true
   },
