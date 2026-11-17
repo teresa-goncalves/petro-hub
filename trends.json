@@ -1,76 +1,76 @@
 {
- "updated": "2026-11-16T19:53:13.448Z",
+ "updated": "2026-11-17T18:46:02.913Z",
  "items": [
   {
-   "title": "Quando os humanos realmente voarão na nave estelar?",
-   "link": "https://arstechnica.com/space/2026/11/when-will-humans-actually-fly-on-starship/",
-   "date": "Mon, 16 Nov 2026 19:46:08 +0000",
-   "desc": "All estimates of human spaceflight on Starship should be taken with a gigantic grain of salt.",
+   "title": "OpenAI processado pela Califórnia após admitir 80 incidentes de perda de controle",
+   "link": "https://arstechnica.com/tech-policy/2026/11/california-sues-openai-to-stop-public-nuisance-of-out-of-control-ai-agents/",
+   "date": "Tue, 17 Nov 2026 18:13:34 +0000",
+   "desc": "AG: OpenAI tested dangerous AI without proper oversight and misled public about it.",
    "src": "Ars Technica",
    "translated": true
   },
   {
-   "title": "NAED lança PV-1 PECVD-V, uma plataforma de deposição vertical projetada nos EUA, construída para fabricação solar em tandem de 96.000 wafers por hora",
-   "link": "https://cleantechnica.com/2026/11/15/naed-unveils-pv-1-pecvd-v-a-u-s-engineered-vertical-deposition-platform-built-for-96000-wafer-per-hour-tandem-solar-manufacturing/",
-   "date": "Mon, 16 Nov 2026 02:50:38 +0000",
-   "desc": "Patent-pending vertical PECVD/PVD architecture doubles wafer throughput over NAED's previous platform and is designed to produce perovskite/HJT tandem cells tar",
+   "title": "Os caminhões pesados ​​elétricos da China estão obtendo vendas de diesel e GNL",
+   "link": "https://cleantechnica.com/2026/11/17/china-electric-heavy-trucks-diesel-lng-freight-economics/",
+   "date": "Tue, 17 Nov 2026 17:22:37 +0000",
+   "desc": "September battery-electric heavy trucks reached 49.8% of new domestic registrations, while actual freight case studies explain why charging and route design mat",
    "src": "CleanTechnica",
    "translated": true
   },
   {
-   "title": "Foguete Vulcan falha durante o lançamento, causando grande golpe aos concorrentes da SpaceX",
-   "link": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors/",
-   "date": "Sun, 15 Nov 2026 23:11:54 +0000",
-   "desc": "This was the first total mission failure in United Launch Alliance's 20-year history.",
+   "title": "Como a IA está impulsionando os satélites a evoluir",
+   "link": "https://spacenews.com/how-ai-is-pushing-satellites-to-evolve/",
+   "date": "Tue, 17 Nov 2026 17:02:33 +0000",
+   "desc": "During the first day of Space Tech Expo Europe, SpaceNews’ Mike Gruss sits down with Pieter van Duijn, the chief technology officer of Loft Orbital. They discus",
+   "src": "SpaceNews",
+   "translated": true
+  },
+  {
+   "title": "O Google facilita o uso do Gemini sem treinar IA em seus dados",
+   "link": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/",
+   "date": "Tue, 17 Nov 2026 16:50:10 +0000",
+   "desc": "AI training and chat history will now have separate toggles in the Gemini activity settings.",
    "src": "Ars Technica",
    "translated": true
   },
   {
-   "title": "Uma abordagem radicalmente diferente para IA",
-   "link": "https://cleantechnica.com/2026/11/15/a-radically-different-approach-to-ai/",
-   "date": "Sun, 15 Nov 2026 22:05:07 +0000",
-   "desc": "About forty years ago, I decided I would develop artificial intelligence in my spare time. I knew about the Turing test, and I believed that a computer tricking",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "O primeiro SMR de Darlington está atrasado e acima do orçamento. Ontário precisa repensar os próximos três.",
-   "link": "https://cleantechnica.com/2026/11/15/darlington-smr-cost-overrun-four-reactor-risk/",
-   "date": "Sun, 15 Nov 2026 15:56:31 +0000",
-   "desc": "Darlington's SMR budget and schedule have broken before the design has stabilised. Ontario has cheaper clean energy procurement contracts, but must compare comp",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "SpaceX captura o estágio superior da nave estelar",
-   "link": "https://payloadspace.com/spacex-successfully-catches-starship-upper-stage/",
-   "date": "Sun, 15 Nov 2026 01:39:11 +0000",
-   "desc": "SpaceX made history on Saturday, recovering a Starship upper stage from orbit for the first time. The post SpaceX Catches Starship Upper Stage appeared first on",
-   "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "A SpaceX devolveu seu foguete Starship no sábado – mas há um problema",
-   "link": "https://arstechnica.com/space/2026/11/with-starship-catch-spacex-still-shows-it-can-dazzle-the-world/",
-   "date": "Sun, 15 Nov 2026 00:40:59 +0000",
-   "desc": "It felt like stepping into the future.",
+   "title": "Grok Bot tomou medidas não aprovadas, ignorou ordens para parar e depois negou",
+   "link": "https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/",
+   "date": "Tue, 17 Nov 2026 14:00:29 +0000",
+   "desc": "AI agent takes unapproved actions even when laptop lid is closed and told not to.",
    "src": "Ars Technica",
    "translated": true
   },
   {
-   "title": "Exclusivo: Sagittarius Logistics levanta US$ 1,2 milhão para desenvolver capacidade de lançamento no interior",
-   "link": "https://payloadspace.com/exclusive-sagittarius-logistics-raises-1-2m-to-build-inland-launch-capabilities/",
-   "date": "Fri, 13 Nov 2026 14:00:00 +0000",
-   "desc": "There’s a new launcher in town. The post Exclusive: Sagittarius Logistics Raises $1.2M to Build Inland Launch Capabilities appeared first on Payload.",
+   "title": "SEOPS assina acordo de compartilhamento de carona com Stoke",
+   "link": "https://payloadspace.com/seops-signs-rideshare-deal-with-stoke/",
+   "date": "Tue, 17 Nov 2026 06:00:00 +0000",
+   "desc": "The agreement is expected to give those looking for a ride to space another option, as SpaceX prepares to sunset its Falcon 9 rideshare programs around 2029. Th",
    "src": "Payload",
    "translated": true
   },
   {
-   "title": "Rovers lunares canadenses prontos para a próxima fase – e um lançamento anterior",
-   "link": "https://payloadspace.com/canadian-lunar-rovers-ready-for-next-phase-and-an-earlier-launch/",
-   "date": "Fri, 13 Nov 2026 13:30:00 +0000",
-   "desc": "Canadensys, MDA Space, and Mission Control collectively received a Phase 0 lunar-utility-rover study supporting Artemis. And now, work is almost done. The post ",
-   "src": "Payload",
+   "title": "detalha a classificação de sua linha de células tandem PV-1: 16.000 wafers por hora por linha, 4,6 GW de seis linhas",
+   "link": "https://cleantechnica.com/2026/11/16/naed-energy-holding-inc-details-the-rating-of-its-pv-1-tandem-cell-line-16000-wafers-per-hour-per-line-4-6-gw-from-six-lines/",
+   "date": "Tue, 17 Nov 2026 01:57:52 +0000",
+   "desc": "NAED Energy Holding Inc. (NAED) just published the rating of PV-1, its production line for T2X perovskite/silicon heterojunction tandem solar cells. Each PV-1 l",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "A Cummins disse aos clientes do Electrolyser para pararem. Quem mantém as usinas de hidrogênio funcionando?",
+   "link": "https://cleantechnica.com/2026/11/16/cummins-hylyzer-stop-use-hydrogen-equipment-support/",
+   "date": "Mon, 16 Nov 2026 23:07:20 +0000",
+   "desc": "A stop-use recommendation, a shrinking OEM workforce and mixed customer markets reveal the overlooked economics of hydrogen equipment after sales end. The post ",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "SpaceNukes abre instalação de fabricação e materiais em Los Alamos para construir seu reator espacial de próxima geração",
+   "link": "https://spacenews.com/spacenukes-opens-los-alamos-manufacture-and-materials-facility-to-build-its-next-generation-space-reactor/",
+   "date": "Mon, 16 Nov 2026 20:00:00 +0000",
+   "desc": "LOS ALAMOS, N.M., Nov. 16, 2026 — Space Nuclear Power Corp. (SpaceNukes) opened its Manufacture and Materials Development Facility at 150 Central Park Square in",
+   "src": "SpaceNews",
    "translated": true
   }
  ]
