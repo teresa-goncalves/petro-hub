@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T18:36:33.936Z",
+ "updated": "2026-11-18T18:07:26.989Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
   {
@@ -20,8 +20,15 @@
    "d": "20",
    "mo": "NOV",
    "missao": "Long March 8A · SatNet LEO TBD?",
-   "sub": "CASC · Wenchang (China) · 20/11, 08:00 (Brasília) · comunicações",
-   "net": "2026-11-20T11:00:00Z"
+   "sub": "CASC · Wenchang (China) · 20/11, 08:59 (Brasília) · comunicações",
+   "net": "2026-11-20T11:59:00Z"
+  },
+  {
+   "d": "21",
+   "mo": "NOV",
+   "missao": "Long March 6C · carga não divulgada",
+   "sub": "CASC · Taiyuan (China) · 21/11, 00:50 (Brasília)",
+   "net": "2026-11-21T03:50:00Z"
   },
   {
    "d": "21",
@@ -31,11 +38,11 @@
    "net": "2026-11-21T12:30:00Z"
   },
   {
-   "d": "22",
+   "d": "23",
    "mo": "NOV",
    "missao": "Ariane 64 Block 2 · Amazon Leo (LE-04)",
-   "sub": "Arianespace · Centro Espacial de Kourou (Guiana Francesa) · 22/11, 21:00 (Brasília) · comunicações",
-   "net": "2026-11-23T00:00:00Z"
+   "sub": "Arianespace · Centro Espacial de Kourou (Guiana Francesa) · 23/11, 08:09 (Brasília) · comunicações",
+   "net": "2026-11-23T11:09:00Z"
   },
   {
    "d": "23",
@@ -50,13 +57,6 @@
    "missao": "Soyuz 2.1b · Progress MS-36 (97P)",
    "sub": "Roscosmos · Baikonur (Cazaquistão) · 24/11, 02:03 (Brasília) · reabastecimento da estação",
    "net": "2026-11-24T05:03:00Z"
-  },
-  {
-   "d": "24",
-   "mo": "NOV",
-   "missao": "Long March 12 · SatNet LEO TBD?",
-   "sub": "CASC · Wenchang (China) · 24/11, 04:00 (Brasília) · comunicações",
-   "net": "2026-11-24T07:00:00Z"
   }
  ]
 }
