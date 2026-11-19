@@ -1,6 +1,54 @@
 {
- "updated": "2026-11-18T18:25:47.328Z",
+ "updated": "2026-11-19T18:41:54.078Z",
  "items": [
+  {
+   "title": "O Google lançará o requisito de verificação de aplicativos Android globalmente em janeiro de 2027",
+   "link": "https://arstechnica.com/gadgets/2026/11/google-will-launch-android-app-verification-requirement-globally-in-january-2027/",
+   "date": "Thu, 19 Nov 2026 18:00:33 +0000",
+   "desc": "Google says almost all developers have already gotten on board with verification.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "A Europa gastou 16,5 milhões de euros para provar mais uma vez que o hidrogénio queima numa turbina",
+   "link": "https://cleantechnica.com/2026/11/19/hydrogen-turbine-hycoflex-public-grants-industrial-steam/",
+   "date": "Thu, 19 Nov 2026 17:40:22 +0000",
+   "desc": "Hydrogen burns. Turbines spin. Their exhaust can make steam. Kawasaki demonstrated hydrogen-fired electricity and heat production at Kobe Port Island in 2018, b",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "MG U9 EV Ute – é um caminhão monstro",
+   "link": "https://cleantechnica.com/2026/11/19/mg-u9-ev-ute-its-a-monster-truck/",
+   "date": "Thu, 19 Nov 2026 17:24:52 +0000",
+   "desc": "We visit the MG dealership and get to know the MG U9 EV ute up close and personal. As I have said many times to CleanTechnica readers, Australia needs more BEV ",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Última chance de acertar: a Lei do Acelerador Industrial fará ou quebrará a indústria de baterias da Europa",
+   "link": "https://cleantechnica.com/2026/11/19/last-chance-to-get-it-right-the-industrial-accelerator-act-will-make-or-break-europes-battery-industry/",
+   "date": "Thu, 19 Nov 2026 14:53:38 +0000",
+   "desc": "How the Franco-German auto deal, a wide Made-with-EU scope, and carmakers abandon Europe’s battery value chain to foreign competitors. Getting the Industrial Ac",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Os novos planos da NASA para a Lua têm um problema: Orion não foi projetado para voar desta forma",
+   "link": "https://arstechnica.com/space/2026/11/to-make-moon-landings-easier-nasa-is-making-life-harder-for-orion/",
+   "date": "Thu, 19 Nov 2026 13:40:02 +0000",
+   "desc": "\"We also have a responsibility to not go too fast and cut too many corners.\"",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Flexell Space e ALATYR assinam memorando de entendimento para explorar soluções de energia solar para data centers orbitais",
+   "link": "https://spacenews.com/flexell-space-and-alatyr-sign-mou-to-explore-solar-power-solutions-for-orbital-data-centers/",
+   "date": "Wed, 18 Nov 2026 22:02:00 +0000",
+   "desc": "– Collaboration to assess next-generation ultralight solar cells for space-based computing infrastructure – Partnership brings together Korean space energy tech",
+   "src": "SpaceNews",
+   "translated": true
+  },
   {
    "title": "A próxima simulação de Will Wright usará IA para extrair conteúdo de suas memórias",
    "link": "https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories/",
@@ -18,59 +66,11 @@
    "translated": true
   },
   {
-   "title": "Governador da Califórnia fala sobre ação climática e dá um soco nos nazistas em turnê pela Europa",
-   "link": "https://cleantechnica.com/2026/11/18/renewable-energy-ukraine-gavin-newsom-punch-nazis/",
-   "date": "Wed, 18 Nov 2026 15:33:40 +0000",
-   "desc": "The renewable energy transition entwines with the fight against Russian aggression in Europe, where California Governor Gavin Newsom is making a play for attent",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "Solar Insure lança garantia de bateria comercial de 20 anos, expandindo a proteção para projetos solares e de armazenamento",
-   "link": "https://cleantechnica.com/2026/11/18/solar-insure-launches-20-year-commercial-battery-warranty-expanding-protection-for-solar-storage-projects/",
-   "date": "Wed, 18 Nov 2026 14:32:16 +0000",
-   "desc": "Launching at RE+ Las Vegas, November 17–20 &#124; Visit Solar Insure at Booth C4190 Commercial property owners invest in solar and battery storage to manage ene",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
    "title": "Exclusivo: Inflection Space Systems registra a primeira missão orbital",
    "link": "https://payloadspace.com/exclusive-inflection-space-systems-books-first-orbital-mission/",
    "date": "Wed, 18 Nov 2026 14:00:00 +0000",
    "desc": "Inflection Space System's first mission, Pax, will launch NET 2028 on a rideshare booked through Exolaunch. The post Exclusive: Inflection Space Systems Books F",
    "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "Dcubed levanta 27,2 milhões de euros para quadruplicar a sua capacidade de produção",
-   "link": "https://payloadspace.com/dcubed-raises-e27-2m-to-quadruple-its-production-capacity/",
-   "date": "Wed, 18 Nov 2026 13:26:03 +0000",
-   "desc": "German satellite-components manufacturer Dcubed announced the closing of a €27.2M ($30M) Series A extension round today, which comes in addition to an earlier €",
-   "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "Terceiro Pilar Construindo o Maior Complexo Solar Flutuante em Nova York",
-   "link": "https://cleantechnica.com/2026/11/17/third-pillar-constructing-largest-floating-solar-complex-in-new-york/",
-   "date": "Wed, 18 Nov 2026 02:28:59 +0000",
-   "desc": "Crown City Solar will be North America's first floating community solar project. Phases 1 and 2 are under construction, and the three-phase, 22.5 MW DC complex ",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "Mais uma empresa de satélites está disputando um foguete – mas este faz sentido",
-   "link": "https://arstechnica.com/space/2026/11/yet-another-satellite-company-is-jockeying-for-a-rocket-but-this-one-makes-sense/",
-   "date": "Tue, 17 Nov 2026 22:44:46 +0000",
-   "desc": "\"Governments need control of their critical space infrastructure, and Europe needs it most.\"",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "OpenAI processado pela Califórnia após admitir 80 incidentes de perda de controle",
-   "link": "https://arstechnica.com/tech-policy/2026/11/california-sues-openai-to-stop-public-nuisance-of-out-of-control-ai-agents/",
-   "date": "Tue, 17 Nov 2026 18:13:34 +0000",
-   "desc": "AG: OpenAI tested dangerous AI without proper oversight and misled public about it.",
-   "src": "Ars Technica",
    "translated": true
   }
  ]
