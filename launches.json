@@ -1,34 +1,20 @@
 {
- "updated": "2026-11-19T18:19:35.218Z",
+ "updated": "2026-11-20T17:51:08.634Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
   {
-   "d": "20",
+   "d": "21",
    "mo": "NOV",
    "missao": "Falcon 9 · USSF-317",
-   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 20/11, 01:32 (Brasília) · carga militar/classificada",
-   "net": "2026-11-20T04:32:55Z"
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 21/11, 01:20 (Brasília) · carga militar/classificada",
+   "net": "2026-11-21T04:20:35Z"
   },
   {
-   "d": "20",
-   "mo": "NOV",
-   "missao": "Long March 8A · SatNet LEO TBD?",
-   "sub": "CASC · Wenchang (China) · 20/11, 08:59 (Brasília) · comunicações",
-   "net": "2026-11-20T11:59:00Z"
-  },
-  {
-   "d": "21",
-   "mo": "NOV",
-   "missao": "Long March 6C · carga não divulgada",
-   "sub": "CASC · Taiyuan (China) · 21/11, 00:50 (Brasília)",
-   "net": "2026-11-21T03:50:00Z"
-  },
-  {
-   "d": "21",
+   "d": "22",
    "mo": "NOV",
    "missao": "Falcon 9 · NROL-136",
-   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 21/11, 09:30 (Brasília) · carga militar/classificada",
-   "net": "2026-11-21T12:30:00Z"
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 22/11, 09:16 (Brasília) · carga militar/classificada",
+   "net": "2026-11-22T12:16:00Z"
   },
   {
    "d": "23",
@@ -54,9 +40,23 @@
   {
    "d": "24",
    "mo": "NOV",
-   "missao": "Long March 12 · SatNet LEO TBD?",
-   "sub": "CASC · Wenchang (China) · 24/11, 04:00 (Brasília) · comunicações",
-   "net": "2026-11-24T07:00:00Z"
+   "missao": "Long March 2F/G · Shenzhou 24",
+   "sub": "CASC · Jiuquan (China) · 24/11, 21:18 (Brasília) · voo tripulado",
+   "net": "2026-11-25T00:18:00Z"
+  },
+  {
+   "d": "26",
+   "mo": "NOV",
+   "missao": "Long March 2D · carga não divulgada",
+   "sub": "CASC · Xichang (China) · 26/11, 06:35 (Brasília)",
+   "net": "2026-11-26T09:35:00Z"
+  },
+  {
+   "d": "26",
+   "mo": "NOV",
+   "missao": "Spectrum · AT-Astra and Others (Spectrum Flight 3)",
+   "sub": "Isar Aerospace · Andøya (Noruega) · 26/11, 17:00 (Brasília)",
+   "net": "2026-11-26T20:00:00Z"
   }
  ]
 }
