@@ -1,43 +1,59 @@
 {
- "updated": "2026-11-19T18:41:54.078Z",
+ "updated": "2026-11-20T18:02:02.273Z",
  "items": [
   {
-   "title": "O Google lançará o requisito de verificação de aplicativos Android globalmente em janeiro de 2027",
-   "link": "https://arstechnica.com/gadgets/2026/11/google-will-launch-android-app-verification-requirement-globally-in-january-2027/",
-   "date": "Thu, 19 Nov 2026 18:00:33 +0000",
-   "desc": "Google says almost all developers have already gotten on board with verification.",
+   "title": "Vans elétricas – elas são a última fronteira EV? Kia PV5.",
+   "link": "https://cleantechnica.com/2026/11/20/electric-vans-are-they-the-final-ev-frontier-kia-pv5/",
+   "date": "Fri, 20 Nov 2026 17:27:03 +0000",
+   "desc": "We took a trip to see the Kia PV5 electric van. Our brief takeaway: “Kool like a Kia.” Should keep the bean counters happy. Inspired by a comment in the Electri",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "A IA é um ativo público ou privado?",
+   "link": "https://cleantechnica.com/2026/11/20/is-ai-a-public-or-a-private-asset/",
+   "date": "Fri, 20 Nov 2026 16:06:54 +0000",
+   "desc": "Isabelle Ferreras is a professor and research director at the University of Louvain, an Accelerator fellow at the Institute for Ethics in AI at the University o",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "A aquisição do EV está tomando forma, apesar dos esforços heróicos para impedi-la",
+   "link": "https://cleantechnica.com/2026/11/20/aptera-solar-powered-evs-ev1-gm-vehicle-electrification/",
+   "date": "Fri, 20 Nov 2026 14:37:25 +0000",
+   "desc": "The vehicle electrification movement is far from over in the US, with the startup Aptera among the stakeholders betting on an EV sales rebound in the coming yea",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Os credores da SpaceX não querem que Elon Musk lance suas garantias no espaço",
+   "link": "https://arstechnica.com/space/2026/11/spacex-lenders-dont-want-elon-musk-launching-their-collateral-into-space/",
+   "date": "Fri, 20 Nov 2026 14:15:21 +0000",
+   "desc": "Bondholders want SpaceX’s valuable chip collateral kept on Earth and within reach.",
    "src": "Ars Technica",
    "translated": true
   },
   {
-   "title": "A Europa gastou 16,5 milhões de euros para provar mais uma vez que o hidrogénio queima numa turbina",
-   "link": "https://cleantechnica.com/2026/11/19/hydrogen-turbine-hycoflex-public-grants-industrial-steam/",
-   "date": "Thu, 19 Nov 2026 17:40:22 +0000",
-   "desc": "Hydrogen burns. Turbines spin. Their exhaust can make steam. Kawasaki demonstrated hydrogen-fired electricity and heat production at Kobe Port Island in 2018, b",
-   "src": "CleanTechnica",
+   "title": "Atomic-6 quer proteger os astronautas contra detritos indetectáveis",
+   "link": "https://payloadspace.com/atomic-6-wants-to-shield-astronauts-against-untrackable-debris/",
+   "date": "Fri, 20 Nov 2026 14:00:00 +0000",
+   "desc": "Atomic-6 built Space Armor to shield satellites from debris too small to track. Now, it's exploring whether the same tiles could protect astronauts on spacewalk",
+   "src": "Payload",
    "translated": true
   },
   {
-   "title": "MG U9 EV Ute – é um caminhão monstro",
-   "link": "https://cleantechnica.com/2026/11/19/mg-u9-ev-ute-its-a-monster-truck/",
-   "date": "Thu, 19 Nov 2026 17:24:52 +0000",
-   "desc": "We visit the MG dealership and get to know the MG U9 EV ute up close and personal. As I have said many times to CleanTechnica readers, Australia needs more BEV ",
-   "src": "CleanTechnica",
+   "title": "Rocket Report: Um fim de semana de altos e baixos; Stoke comemora marco do motor",
+   "link": "https://arstechnica.com/space/2026/11/rocket-report-a-weekend-of-ups-and-downs-stoke-celebrates-engine-milestone/",
+   "date": "Fri, 20 Nov 2026 13:35:45 +0000",
+   "desc": "Russia launched a Soyuz rocket with satellites to help enable drone attacks over Ukraine.",
+   "src": "Ars Technica",
    "translated": true
   },
   {
-   "title": "Última chance de acertar: a Lei do Acelerador Industrial fará ou quebrará a indústria de baterias da Europa",
-   "link": "https://cleantechnica.com/2026/11/19/last-chance-to-get-it-right-the-industrial-accelerator-act-will-make-or-break-europes-battery-industry/",
-   "date": "Thu, 19 Nov 2026 14:53:38 +0000",
-   "desc": "How the Franco-German auto deal, a wide Made-with-EU scope, and carmakers abandon Europe’s battery value chain to foreign competitors. Getting the Industrial Ac",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "Os novos planos da NASA para a Lua têm um problema: Orion não foi projetado para voar desta forma",
-   "link": "https://arstechnica.com/space/2026/11/to-make-moon-landings-easier-nasa-is-making-life-harder-for-orion/",
-   "date": "Thu, 19 Nov 2026 13:40:02 +0000",
-   "desc": "\"We also have a responsibility to not go too fast and cut too many corners.\"",
+   "title": "Adolescentes traumatizados processam escola e policiais depois que bolsa de Doritos aciona alerta de arma de IA",
+   "link": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
+   "date": "Thu, 19 Nov 2026 20:19:28 +0000",
+   "desc": "Lawsuit: Over 99% of school system’s AI gun alerts were false positives.",
    "src": "Ars Technica",
    "translated": true
   },
@@ -50,27 +66,11 @@
    "translated": true
   },
   {
-   "title": "A próxima simulação de Will Wright usará IA para extrair conteúdo de suas memórias",
-   "link": "https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories/",
-   "date": "Wed, 18 Nov 2026 18:10:33 +0000",
-   "desc": "With MyMems, Wright says he wants to \"turn the simulation inward.\"",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
    "title": "Origami e painéis solares",
    "link": "https://spacenews.com/origami-and-solar-arrays/",
    "date": "Wed, 18 Nov 2026 16:56:05 +0000",
    "desc": "In this episode of SpaceMinds, SpaceNews’ Mike Gruss talks with Thomas Sinn, the CEO of Dcubed, at Space Tech Expo Europe. They discuss the company's new $30 mi",
    "src": "SpaceNews",
-   "translated": true
-  },
-  {
-   "title": "Exclusivo: Inflection Space Systems registra a primeira missão orbital",
-   "link": "https://payloadspace.com/exclusive-inflection-space-systems-books-first-orbital-mission/",
-   "date": "Wed, 18 Nov 2026 14:00:00 +0000",
-   "desc": "Inflection Space System's first mission, Pax, will launch NET 2028 on a rideshare booked through Exolaunch. The post Exclusive: Inflection Space Systems Books F",
-   "src": "Payload",
    "translated": true
   }
  ]
