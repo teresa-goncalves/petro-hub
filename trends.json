@@ -1,35 +1,51 @@
 {
- "updated": "2026-11-20T18:02:02.273Z",
+ "updated": "2026-11-21T16:58:16.206Z",
  "items": [
   {
-   "title": "Vans elétricas – elas são a última fronteira EV? Kia PV5.",
-   "link": "https://cleantechnica.com/2026/11/20/electric-vans-are-they-the-final-ev-frontier-kia-pv5/",
-   "date": "Fri, 20 Nov 2026 17:27:03 +0000",
-   "desc": "We took a trip to see the Kia PV5 electric van. Our brief takeaway: “Kool like a Kia.” Should keep the bean counters happy. Inspired by a comment in the Electri",
+   "title": "Hidrogénio modelado a 5,70 euros/kg na Europa enfrenta compradores industriais que podem pagar muito menos",
+   "link": "https://cleantechnica.com/2026/11/21/europe-hydrogen-cost-industrial-buyers-price-ceilings/",
+   "date": "Sat, 21 Nov 2026 16:49:13 +0000",
+   "desc": "Industrial buyers’ price ceilings challenge Europe’s modelled €5.70/kg hydrogen costs. Heat, ammonia and iron compete with other production routes. The post Eur",
    "src": "CleanTechnica",
    "translated": true
   },
   {
-   "title": "A IA é um ativo público ou privado?",
-   "link": "https://cleantechnica.com/2026/11/20/is-ai-a-public-or-a-private-asset/",
-   "date": "Fri, 20 Nov 2026 16:06:54 +0000",
-   "desc": "Isabelle Ferreras is a professor and research director at the University of Louvain, an Accelerator fellow at the Institute for Ethics in AI at the University o",
+   "title": "NIO lança edição especial Firefly “Pianke Liujin”",
+   "link": "https://cleantechnica.com/2026/11/20/nio-launches-special-edition-firefly-pianke-liujin/",
+   "date": "Sat, 21 Nov 2026 04:55:58 +0000",
+   "desc": "Initially, I was like, &#8220;Wow, I love this car, I have to write about it!&#8221; Then I realized there were only going to be 333 units of the model built, s",
    "src": "CleanTechnica",
    "translated": true
   },
   {
-   "title": "A aquisição do EV está tomando forma, apesar dos esforços heróicos para impedi-la",
-   "link": "https://cleantechnica.com/2026/11/20/aptera-solar-powered-evs-ev1-gm-vehicle-electrification/",
-   "date": "Fri, 20 Nov 2026 14:37:25 +0000",
-   "desc": "The vehicle electrification movement is far from over in the US, with the startup Aptera among the stakeholders betting on an EV sales rebound in the coming yea",
+   "title": "JA Energy Storage lança plataforma interna de passaporte de bateria para facilitar a conformidade com os padrões da UE",
+   "link": "https://cleantechnica.com/2026/11/20/ja-energy-storage-launches-an-internal-battery-passport-platform-to-facilitate-compliance-with-eu-standards/",
+   "date": "Sat, 21 Nov 2026 02:34:38 +0000",
+   "desc": "JJA ESS has launched its own battery passport data platform to support lifecycle information management and help companies prepare for upcoming EU regulations. ",
    "src": "CleanTechnica",
    "translated": true
   },
   {
-   "title": "Os credores da SpaceX não querem que Elon Musk lance suas garantias no espaço",
-   "link": "https://arstechnica.com/space/2026/11/spacex-lenders-dont-want-elon-musk-launching-their-collateral-into-space/",
-   "date": "Fri, 20 Nov 2026 14:15:21 +0000",
-   "desc": "Bondholders want SpaceX’s valuable chip collateral kept on Earth and within reach.",
+   "title": "Os problemas do Starshield da SpaceX na Ucrânia podem ameaçar seus negócios militares mais amplos",
+   "link": "https://arstechnica.com/space/2026/11/incoming-house-chair-threatens-spacex-funding-over-ukraine-controversy/",
+   "date": "Fri, 20 Nov 2026 22:16:51 +0000",
+   "desc": "\"Explain the changes that were made to the Starshield service in October 2026.\"",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Google lança nova página inicial de pesquisa com histórico de bate-papo de IA e sem botão de pesquisa",
+   "link": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
+   "date": "Fri, 20 Nov 2026 21:58:29 +0000",
+   "desc": "Google search is making it even easier to access AI tools on the search page.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "Meta reconsidera meta líquida zero para 2030 em meio a emissões recordes de data centers de IA",
+   "link": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
+   "date": "Fri, 20 Nov 2026 21:47:10 +0000",
+   "desc": "Meta is “re-evaluating” 2030 sustainability goals. Will others follow?",
    "src": "Ars Technica",
    "translated": true
   },
@@ -39,22 +55,6 @@
    "date": "Fri, 20 Nov 2026 14:00:00 +0000",
    "desc": "Atomic-6 built Space Armor to shield satellites from debris too small to track. Now, it's exploring whether the same tiles could protect astronauts on spacewalk",
    "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "Rocket Report: Um fim de semana de altos e baixos; Stoke comemora marco do motor",
-   "link": "https://arstechnica.com/space/2026/11/rocket-report-a-weekend-of-ups-and-downs-stoke-celebrates-engine-milestone/",
-   "date": "Fri, 20 Nov 2026 13:35:45 +0000",
-   "desc": "Russia launched a Soyuz rocket with satellites to help enable drone attacks over Ukraine.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "Adolescentes traumatizados processam escola e policiais depois que bolsa de Doritos aciona alerta de arma de IA",
-   "link": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert/",
-   "date": "Thu, 19 Nov 2026 20:19:28 +0000",
-   "desc": "Lawsuit: Over 99% of school system’s AI gun alerts were false positives.",
-   "src": "Ars Technica",
    "translated": true
   },
   {
