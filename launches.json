@@ -1,14 +1,7 @@
 {
- "updated": "2026-11-21T16:48:39.661Z",
+ "updated": "2026-11-22T17:11:10.162Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
-  {
-   "d": "22",
-   "mo": "NOV",
-   "missao": "Falcon 9 · NROL-136",
-   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 22/11, 09:16 (Brasília) · carga militar/classificada",
-   "net": "2026-11-22T12:16:00Z"
-  },
   {
    "d": "23",
    "mo": "NOV",
@@ -47,16 +40,23 @@
   {
    "d": "26",
    "mo": "NOV",
-   "missao": "Spectrum · AT-Astra and Others (Spectrum Flight 3)",
-   "sub": "Isar Aerospace · Andøya (Noruega) · 26/11, 17:00 (Brasília)",
-   "net": "2026-11-26T20:00:00Z"
-  },
-  {
-   "d": "26",
-   "mo": "NOV",
    "missao": "Electron · Night Owls Never Sleep (StriX Launch 14)",
    "sub": "Rocket Lab · Mahia (Nova Zelândia) · 26/11, 21:05 (Brasília) · observação da Terra",
    "net": "2026-11-27T00:05:00Z"
+  },
+  {
+   "d": "27",
+   "mo": "NOV",
+   "missao": "Long March 6A · carga não divulgada",
+   "sub": "CASC · Taiyuan (China) · 27/11, 10:00 (Brasília)",
+   "net": "2026-11-27T13:00:00Z"
+  },
+  {
+   "d": "28",
+   "mo": "NOV",
+   "missao": "Kinetica 1 · carga não divulgada",
+   "sub": "CAS Space · Haiyang · plataforma marítima (China) · 28/11, 22:00 (Brasília)",
+   "net": "2026-11-29T01:00:00Z"
   }
  ]
 }
