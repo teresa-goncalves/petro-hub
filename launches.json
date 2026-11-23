@@ -1,20 +1,20 @@
 {
- "updated": "2026-11-22T17:11:10.162Z",
+ "updated": "2026-11-23T21:28:18.495Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
-  {
-   "d": "23",
-   "mo": "NOV",
-   "missao": "Ariane 64 Block 2 · Amazon Leo (LE-04)",
-   "sub": "Arianespace · Centro Espacial de Kourou (Guiana Francesa) · 23/11, 08:09 (Brasília) · comunicações",
-   "net": "2026-11-23T11:09:00Z"
-  },
   {
    "d": "24",
    "mo": "NOV",
    "missao": "Soyuz 2.1b · Progress MS-36 (97P)",
-   "sub": "Roscosmos · Baikonur (Cazaquistão) · 24/11, 02:03 (Brasília) · reabastecimento da estação",
-   "net": "2026-11-24T05:03:00Z"
+   "sub": "Roscosmos · Baikonur (Cazaquistão) · 24/11, 07:13 (Brasília) · reabastecimento da estação",
+   "net": "2026-11-24T10:13:00Z"
+  },
+  {
+   "d": "24",
+   "mo": "NOV",
+   "missao": "Ariane 64 Block 2 · Amazon Leo (LE-04)",
+   "sub": "Arianespace · Centro Espacial de Kourou (Guiana Francesa) · 24/11, 07:45 (Brasília) · comunicações",
+   "net": "2026-11-24T10:45:00Z"
   },
   {
    "d": "24",
@@ -52,11 +52,11 @@
    "net": "2026-11-27T13:00:00Z"
   },
   {
-   "d": "28",
+   "d": "29",
    "mo": "NOV",
-   "missao": "Kinetica 1 · carga não divulgada",
-   "sub": "CAS Space · Haiyang · plataforma marítima (China) · 28/11, 22:00 (Brasília)",
-   "net": "2026-11-29T01:00:00Z"
+   "missao": "Long March 6C · carga não divulgada",
+   "sub": "CASC · Taiyuan (China) · 29/11, 00:50 (Brasília)",
+   "net": "2026-11-29T03:50:00Z"
   }
  ]
 }
