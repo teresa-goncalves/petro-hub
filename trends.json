@@ -1,51 +1,67 @@
 {
- "updated": "2026-11-22T17:25:50.283Z",
+ "updated": "2026-11-23T21:43:05.952Z",
  "items": [
   {
-   "title": "Memorando para Musk: a negação é apenas o primeiro passo no longo caminho para a recuperação",
-   "link": "https://cleantechnica.com/2026/11/22/elon-musk-ukraine-spacex-starshield-democrats-government-contracts-risk/",
-   "date": "Sun, 22 Nov 2026 15:20:11 +0000",
-   "desc": "The incoming US Congress plans to call Elon Musk to account for manipulating SpaceX satellite services in Ukraine, crippling that country's ability to defend it",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "Ford começa a produzir suas próprias baterias LFP",
-   "link": "https://cleantechnica.com/2026/11/21/ford-begins-producing-its-own-lfp-batteries/",
-   "date": "Sun, 22 Nov 2026 04:49:26 +0000",
-   "desc": "Ford is now a battery producer. Yes, it's using battery technology licensed from CATL, but it is now producing EV batteries it is going to be using in its own v",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "Participação de EV salta para 68%(!) e pequenos BEVs chegam ao poder – Relatório de vendas de EV na China de outubro",
-   "link": "https://cleantechnica.com/2026/11/21/ev-share-jumps-to-68-and-small-bevs-rise-to-power-china-ev-sales-report-for-october/",
-   "date": "Sat, 21 Nov 2026 19:38:50 +0000",
-   "desc": "High gas prices and a never-ending wave of new BEVs have allowed October to reach 68% EV market share, a new record! This record achievement is thanks to a sign",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "Os problemas do Starshield da SpaceX na Ucrânia podem ameaçar seus negócios militares mais amplos",
-   "link": "https://arstechnica.com/space/2026/11/incoming-house-chair-threatens-spacex-funding-over-ukraine-controversy/",
-   "date": "Fri, 20 Nov 2026 22:16:51 +0000",
-   "desc": "\"Explain the changes that were made to the Starshield service in October 2026.\"",
+   "title": "A Rússia lançará uma missão de abastecimento de rotina à ISS amanhã – aparentemente, é um grande segredo",
+   "link": "https://arstechnica.com/space/2026/11/russia-will-launch-a-routine-iss-supply-mission-tomorrow-apparently-its-a-big-secret/",
+   "date": "Mon, 23 Nov 2026 20:34:51 +0000",
+   "desc": "\"I would ask you to please reach out to Roscosmos directly.\"",
    "src": "Ars Technica",
    "translated": true
   },
   {
-   "title": "Google lança nova página inicial de pesquisa com histórico de bate-papo de IA e sem botão de pesquisa",
-   "link": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
-   "date": "Fri, 20 Nov 2026 21:58:29 +0000",
-   "desc": "Google search is making it even easier to access AI tools on the search page.",
+   "title": "COP 31 dá um grande beijo na tecnologia fracassada de captura de carbono",
+   "link": "https://cleantechnica.com/2026/11/23/cop-31-plants-a-big-wet-kiss-on-failed-carbon-capture-technology/",
+   "date": "Mon, 23 Nov 2026 20:05:11 +0000",
+   "desc": "COP 31, the annual UN climate conference that took place this month, ended on a sour note after negotiators were unable to reach an agreement to include languag",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Relatórios: Rússia pode lançar arma nuclear em órbita já no próximo mês",
+   "link": "https://arstechnica.com/space/2026/11/russia-may-launch-a-nuclear-armed-satellite-far-sooner-than-we-thought/",
+   "date": "Mon, 23 Nov 2026 19:28:30 +0000",
+   "desc": "A nuclear detonation in space \"could cause rapid and sudden loss or degradation of thousands of satellites.\"",
    "src": "Ars Technica",
    "translated": true
   },
   {
-   "title": "Meta reconsidera meta líquida zero para 2030 em meio a emissões recordes de data centers de IA",
-   "link": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
-   "date": "Fri, 20 Nov 2026 21:47:10 +0000",
-   "desc": "Meta is “re-evaluating” 2030 sustainability goals. Will others follow?",
+   "title": "Adani Cement implantará 410 caminhões elétricos, cimento e clínquer",
+   "link": "https://cleantechnica.com/2026/11/23/adani-cement-to-deploy-410-electric-trucks-cement-clinker/",
+   "date": "Mon, 23 Nov 2026 18:43:25 +0000",
+   "desc": "Adani Cement to deploy 410 EV trucks by March 2027 as the 1st Phase plan for cement &#38; clinker movement. Deployment commenced at Sanghi Plant in Gujarat. 410",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Barcelona está sofrendo com a espiral mortal do transporte de hidrogênio",
+   "link": "https://cleantechnica.com/2026/11/23/barcelona-is-suffering-from-the-hydrogen-transport-death-spiral/",
+   "date": "Mon, 23 Nov 2026 17:44:59 +0000",
+   "desc": "Barcelona’s fuel shutdown exposes the financial risk of keeping hydrogen fleets running as support markets contract. The post Barcelona Is Suffering From The Hy",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Exclusivo: Verde Technologies testará células solares de perovskita na ISS em 2027",
+   "link": "https://payloadspace.com/exclusive-verde-technologies-will-test-perovskite-solar-cells-on-the-iss-in-2027/",
+   "date": "Mon, 23 Nov 2026 14:00:00 +0000",
+   "desc": "Solar cell manufacturer Verde Technologies signed a contract to send its lightweight, ultra-thin perovskite solar cells to the ISS. The post Exclusive: Verde Te",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "Plano de ações da indústria para torre de energia da base lunar",
+   "link": "https://payloadspace.com/industry-shares-plan-for-moon-base-power-tower/",
+   "date": "Mon, 23 Nov 2026 13:59:00 +0000",
+   "desc": "NASA tapped three companies—Redwire, Blue Origin's Honeybee Robotics, and Yank Technologies—to build the pieces of a Mini-Communications and Solar Tower. The po",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "Comentário: O Asus ProArt P16 oferece um vislumbre de um futuro alimentado por IA local",
+   "link": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai/",
+   "date": "Mon, 23 Nov 2026 12:00:00 +0000",
+   "desc": "The new Asus ProArt laptop costs up to $7,000, but it can run a gaggle of local AI agents.",
    "src": "Ars Technica",
    "translated": true
   },
@@ -55,22 +71,6 @@
    "date": "Fri, 20 Nov 2026 14:00:00 +0000",
    "desc": "Atomic-6 built Space Armor to shield satellites from debris too small to track. Now, it's exploring whether the same tiles could protect astronauts on spacewalk",
    "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "Flexell Space e ALATYR assinam memorando de entendimento para explorar soluções de energia solar para data centers orbitais",
-   "link": "https://spacenews.com/flexell-space-and-alatyr-sign-mou-to-explore-solar-power-solutions-for-orbital-data-centers/",
-   "date": "Wed, 18 Nov 2026 22:02:00 +0000",
-   "desc": "– Collaboration to assess next-generation ultralight solar cells for space-based computing infrastructure – Partnership brings together Korean space energy tech",
-   "src": "SpaceNews",
-   "translated": true
-  },
-  {
-   "title": "Origami e painéis solares",
-   "link": "https://spacenews.com/origami-and-solar-arrays/",
-   "date": "Wed, 18 Nov 2026 16:56:05 +0000",
-   "desc": "In this episode of SpaceMinds, SpaceNews’ Mike Gruss talks with Thomas Sinn, the CEO of Dcubed, at Space Tech Expo Europe. They discuss the company's new $30 mi",
-   "src": "SpaceNews",
    "translated": true
   }
  ]
