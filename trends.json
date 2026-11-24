@@ -1,43 +1,59 @@
 {
- "updated": "2026-11-23T21:43:05.952Z",
+ "updated": "2026-11-24T20:23:03.322Z",
  "items": [
   {
-   "title": "A Rússia lançará uma missão de abastecimento de rotina à ISS amanhã – aparentemente, é um grande segredo",
-   "link": "https://arstechnica.com/space/2026/11/russia-will-launch-a-routine-iss-supply-mission-tomorrow-apparently-its-a-big-secret/",
-   "date": "Mon, 23 Nov 2026 20:34:51 +0000",
-   "desc": "\"I would ask you to please reach out to Roscosmos directly.\"",
+   "title": "Amazon descobre que Falcon 9 e Ariane 6 podem entregar quando ninguém mais consegue",
+   "link": "https://arstechnica.com/space/2026/11/amazon-surges-launches-with-rival-spacex-after-ula-fails-to-deliver/",
+   "date": "Tue, 24 Nov 2026 18:30:36 +0000",
+   "desc": "Amazon has hundreds of satellites in storage waiting for rides to space.",
    "src": "Ars Technica",
    "translated": true
   },
   {
-   "title": "COP 31 dá um grande beijo na tecnologia fracassada de captura de carbono",
+   "title": "Tidal anuncia proibição de música gerada por IA; 27 milhões de faixas serão excluídas",
+   "link": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+   "date": "Tue, 24 Nov 2026 17:34:34 +0000",
+   "desc": "AI songs account for 6.3 percent of Tidal's catalog, but it's about to be zero.",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "NASA pode receber aumento de US$ 2 bilhões enquanto a Casa Branca busca acelerar Artemis",
+   "link": "https://arstechnica.com/space/2026/11/nasa-may-get-2-billion-boost-as-white-house-seeks-to-accelerate-artemis/",
+   "date": "Tue, 24 Nov 2026 16:12:46 +0000",
+   "desc": "\"Without this funding, activities would be delayed.\"",
+   "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "O espaço quântico torna-se público com o retorno dos SPACs",
+   "link": "https://payloadspace.com/quantum-space-goes-public-as-spacs-return/",
+   "date": "Tue, 24 Nov 2026 13:55:00 +0000",
+   "desc": "Quantum Space is the latest space company to go public this year, closing its merger with SPAC Inflection Point on Monday. The post Quantum Space Goes Public as",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "Se você achou que o Cybertruck era feio, dê uma olhada neste EV On Rails",
+   "link": "https://cleantechnica.com/2026/11/24/autonomou-electric-railcars-federal-grant-us-energy-policy/",
+   "date": "Tue, 24 Nov 2026 13:12:42 +0000",
+   "desc": "The US startup Intramotev has ditched aesethetic appeal in favor of an EV model that gets the job done, namely, replacing diesel-powered locomotives with rail c",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "A indústria solar apoia a BAAJA enquanto organizações ambientais se opõem a ela",
+   "link": "https://cleantechnica.com/2026/11/23/solar-industry-supports-baaja-while-environmental-orgs-oppose-it/",
+   "date": "Tue, 24 Nov 2026 01:50:33 +0000",
+   "desc": "The Bipartisan American Affordability and Jobs Act (BAAJA) is an interesting piece of legislation. It is getting a ton of support from the solar sector, but it ",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "COP31 dá um grande beijo na tecnologia fracassada de captura de carbono",
    "link": "https://cleantechnica.com/2026/11/23/cop-31-plants-a-big-wet-kiss-on-failed-carbon-capture-technology/",
    "date": "Mon, 23 Nov 2026 20:05:11 +0000",
-   "desc": "COP 31, the annual UN climate conference that took place this month, ended on a sour note after negotiators were unable to reach an agreement to include languag",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "Relatórios: Rússia pode lançar arma nuclear em órbita já no próximo mês",
-   "link": "https://arstechnica.com/space/2026/11/russia-may-launch-a-nuclear-armed-satellite-far-sooner-than-we-thought/",
-   "date": "Mon, 23 Nov 2026 19:28:30 +0000",
-   "desc": "A nuclear detonation in space \"could cause rapid and sudden loss or degradation of thousands of satellites.\"",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "Adani Cement implantará 410 caminhões elétricos, cimento e clínquer",
-   "link": "https://cleantechnica.com/2026/11/23/adani-cement-to-deploy-410-electric-trucks-cement-clinker/",
-   "date": "Mon, 23 Nov 2026 18:43:25 +0000",
-   "desc": "Adani Cement to deploy 410 EV trucks by March 2027 as the 1st Phase plan for cement &#38; clinker movement. Deployment commenced at Sanghi Plant in Gujarat. 410",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "Barcelona está sofrendo com a espiral mortal do transporte de hidrogênio",
-   "link": "https://cleantechnica.com/2026/11/23/barcelona-is-suffering-from-the-hydrogen-transport-death-spiral/",
-   "date": "Mon, 23 Nov 2026 17:44:59 +0000",
-   "desc": "Barcelona’s fuel shutdown exposes the financial risk of keeping hydrogen fleets running as support markets contract. The post Barcelona Is Suffering From The Hy",
+   "desc": "COP31, the annual UN climate conference that took place this month, ended on a sour note after negotiators were unable to reach an agreement to include language",
    "src": "CleanTechnica",
    "translated": true
   },
@@ -54,22 +70,6 @@
    "link": "https://payloadspace.com/industry-shares-plan-for-moon-base-power-tower/",
    "date": "Mon, 23 Nov 2026 13:59:00 +0000",
    "desc": "NASA tapped three companies—Redwire, Blue Origin's Honeybee Robotics, and Yank Technologies—to build the pieces of a Mini-Communications and Solar Tower. The po",
-   "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "Comentário: O Asus ProArt P16 oferece um vislumbre de um futuro alimentado por IA local",
-   "link": "https://arstechnica.com/reviews/2026/11/review-the-asus-proart-p16-offers-a-glimpse-of-a-future-powered-by-local-ai/",
-   "date": "Mon, 23 Nov 2026 12:00:00 +0000",
-   "desc": "The new Asus ProArt laptop costs up to $7,000, but it can run a gaggle of local AI agents.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "Atomic-6 quer proteger os astronautas contra detritos indetectáveis",
-   "link": "https://payloadspace.com/atomic-6-wants-to-shield-astronauts-against-untrackable-debris/",
-   "date": "Fri, 20 Nov 2026 14:00:00 +0000",
-   "desc": "Atomic-6 built Space Armor to shield satellites from debris too small to track. Now, it's exploring whether the same tiles could protect astronauts on spacewalk",
    "src": "Payload",
    "translated": true
   }
