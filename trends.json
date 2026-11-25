@@ -1,28 +1,60 @@
 {
- "updated": "2026-11-24T20:23:03.322Z",
+ "updated": "2026-11-25T19:37:09.304Z",
  "items": [
   {
-   "title": "Amazon descobre que Falcon 9 e Ariane 6 podem entregar quando ninguém mais consegue",
-   "link": "https://arstechnica.com/space/2026/11/amazon-surges-launches-with-rival-spacex-after-ula-fails-to-deliver/",
-   "date": "Tue, 24 Nov 2026 18:30:36 +0000",
-   "desc": "Amazon has hundreds of satellites in storage waiting for rides to space.",
+   "title": "A FCC autorizou a SpaceX a implantar 1 milhão de satélites",
+   "link": "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/",
+   "date": "Wed, 25 Nov 2026 18:22:38 +0000",
+   "desc": "This constellation would increase the number of satellites in orbit by roughly 50-fold.",
    "src": "Ars Technica",
    "translated": true
   },
   {
-   "title": "Tidal anuncia proibição de música gerada por IA; 27 milhões de faixas serão excluídas",
-   "link": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
-   "date": "Tue, 24 Nov 2026 17:34:34 +0000",
-   "desc": "AI songs account for 6.3 percent of Tidal's catalog, but it's about to be zero.",
+   "title": "Os modelos de transporte terrestre da Europa subvalorizam os combustíveis verdes. Os preços de mercado favorecem a troca de baterias.",
+   "link": "https://cleantechnica.com/2026/11/25/inland-shipping-hvo-prices-battery-swapping/",
+   "date": "Wed, 25 Nov 2026 17:33:56 +0000",
+   "desc": "Europe's inland-shipping models underprice renewable diesel. For a new 110-meter dry-cargo vessel, PLATINA4Action calculates HVO (hydrotreated vegetable oil) pr",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Identificação VW. Cross R-Line agora disponível para encomenda: lançamento do modelo com 99 kW, modelo principal com 166 kW a seguir",
+   "link": "https://cleantechnica.com/2026/11/25/vw-id-cross-r-line-now-available-to-order-model-launch-with-99-kw-flagship-model-with-166-kw-to-follow/",
+   "date": "Wed, 25 Nov 2026 17:26:14 +0000",
+   "desc": "New equipment line — for a sportier character and with extensive standard equipment Now available to order in Germany — ID. Cross R-Line with 99 kW (135 PS) and",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Etsy esclarece os termos de IA após reação do vendedor",
+   "link": "https://arstechnica.com/tech-policy/2026/11/etsy-clarifies-ai-terms-after-seller-backlash/",
+   "date": "Wed, 25 Nov 2026 17:12:57 +0000",
+   "desc": "One veteran illustrator dismisses revisions as \"sugar coating.\"",
    "src": "Ars Technica",
    "translated": true
   },
   {
-   "title": "NASA pode receber aumento de US$ 2 bilhões enquanto a Casa Branca busca acelerar Artemis",
-   "link": "https://arstechnica.com/space/2026/11/nasa-may-get-2-billion-boost-as-white-house-seeks-to-accelerate-artemis/",
-   "date": "Tue, 24 Nov 2026 16:12:46 +0000",
-   "desc": "\"Without this funding, activities would be delayed.\"",
+   "title": "BlackSky adquire empresa de ciência de dados EpochGeo",
+   "link": "https://payloadspace.com/blacksky-acquires-data-science-firm-epochgeo/",
+   "date": "Wed, 25 Nov 2026 13:30:00 +0000",
+   "desc": "BlackSky ($BKSY) announced its acquisition of geospatial data science firm EpochGeo yesterday, which will merge EpochGeo’s AI/ML capabilities with BlackSky’s ex",
+   "src": "Payload",
+   "translated": true
+  },
+  {
+   "title": "A IA pode em breve mudar o que significa ser um físico teórico",
+   "link": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/",
+   "date": "Wed, 25 Nov 2026 12:00:28 +0000",
+   "desc": "Frontier AI is already solving problems that once took top physicists a full day.",
    "src": "Ars Technica",
+   "translated": true
+  },
+  {
+   "title": "A fusão entre Tesla e SpaceX se aproxima com grandes movimentos dos conselhos",
+   "link": "https://cleantechnica.com/2026/11/24/tesla-spacex-merger-nears-with-big-moves-from-the-boards/",
+   "date": "Wed, 25 Nov 2026 02:57:42 +0000",
+   "desc": "There's been the expectation for months, since SpaceX's IPO at least, that Tesla and SpaceX will merge. The suspicions haven't been built on a lot of evidence, ",
+   "src": "CleanTechnica",
    "translated": true
   },
   {
@@ -34,42 +66,10 @@
    "translated": true
   },
   {
-   "title": "Se você achou que o Cybertruck era feio, dê uma olhada neste EV On Rails",
-   "link": "https://cleantechnica.com/2026/11/24/autonomou-electric-railcars-federal-grant-us-energy-policy/",
-   "date": "Tue, 24 Nov 2026 13:12:42 +0000",
-   "desc": "The US startup Intramotev has ditched aesethetic appeal in favor of an EV model that gets the job done, namely, replacing diesel-powered locomotives with rail c",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "A indústria solar apoia a BAAJA enquanto organizações ambientais se opõem a ela",
-   "link": "https://cleantechnica.com/2026/11/23/solar-industry-supports-baaja-while-environmental-orgs-oppose-it/",
-   "date": "Tue, 24 Nov 2026 01:50:33 +0000",
-   "desc": "The Bipartisan American Affordability and Jobs Act (BAAJA) is an interesting piece of legislation. It is getting a ton of support from the solar sector, but it ",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "COP31 dá um grande beijo na tecnologia fracassada de captura de carbono",
-   "link": "https://cleantechnica.com/2026/11/23/cop-31-plants-a-big-wet-kiss-on-failed-carbon-capture-technology/",
-   "date": "Mon, 23 Nov 2026 20:05:11 +0000",
-   "desc": "COP31, the annual UN climate conference that took place this month, ended on a sour note after negotiators were unable to reach an agreement to include language",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
    "title": "Exclusivo: Verde Technologies testará células solares de perovskita na ISS em 2027",
    "link": "https://payloadspace.com/exclusive-verde-technologies-will-test-perovskite-solar-cells-on-the-iss-in-2027/",
    "date": "Mon, 23 Nov 2026 14:00:00 +0000",
    "desc": "Solar cell manufacturer Verde Technologies signed a contract to send its lightweight, ultra-thin perovskite solar cells to the ISS. The post Exclusive: Verde Te",
-   "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "Plano de ações da indústria para torre de energia da base lunar",
-   "link": "https://payloadspace.com/industry-shares-plan-for-moon-base-power-tower/",
-   "date": "Mon, 23 Nov 2026 13:59:00 +0000",
-   "desc": "NASA tapped three companies—Redwire, Blue Origin's Honeybee Robotics, and Yank Technologies—to build the pieces of a Mini-Communications and Solar Tower. The po",
    "src": "Payload",
    "translated": true
   }
