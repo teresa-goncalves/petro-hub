@@ -1,28 +1,44 @@
 {
- "updated": "2026-11-25T19:37:09.304Z",
+ "updated": "2026-11-26T19:17:59.737Z",
  "items": [
+  {
+   "title": "Certificação Plug-in Solar UL para regulamentos de segurança dos EUA – O que a UL 3700 faz e não diz",
+   "link": "https://cleantechnica.com/2026/11/26/plug-in-solar-ul-certification-for-us-safety-regs-what-ul-3700-does-doesnt-say/",
+   "date": "Thu, 26 Nov 2026 14:49:46 +0000",
+   "desc": "Millions of renters, apartment residents, and condo owners can’t put solar on a roof they don’t control. Plug-in solar, also called balcony solar or plug-in PV,",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "DTE Energy avança novos projetos solares em Michigan para criar empregos e economizar dinheiro dos clientes em custos de combustível",
+   "link": "https://cleantechnica.com/2026/11/25/dte-energy-advances-new-michigan-solar-projects-to-create-jobs-save-customers-money-on-fuel-costs/",
+   "date": "Thu, 26 Nov 2026 00:03:28 +0000",
+   "desc": "The company launches a competitive bidding process for up to 150 megawatts of new Michigan solar energy. DTE Energy has announced plans to add up to 150 megawat",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "O problema solar da Europa não é mais solar",
+   "link": "https://cleantechnica.com/2026/11/25/europes-solar-problem-is-no-longer-solar/",
+   "date": "Wed, 25 Nov 2026 23:51:55 +0000",
+   "desc": "Europe’s solar fleet is delivering. The rules, grids, and investment framework around it are struggling to keep up. By Prof Ray Wills SolarPower Europe’s Septem",
+   "src": "CleanTechnica",
+   "translated": true
+  },
+  {
+   "title": "Alternativa de pesquisa do Google Kagi lança rival do Gmail",
+   "link": "https://arstechnica.com/gadgets/2026/11/google-search-alternative-kagi-launches-gmail-rival/",
+   "date": "Wed, 25 Nov 2026 20:57:09 +0000",
+   "desc": "The pitch is an unusual combination of privacy promises and AI features.",
+   "src": "Ars Technica",
+   "translated": true
+  },
   {
    "title": "A FCC autorizou a SpaceX a implantar 1 milhão de satélites",
    "link": "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/",
    "date": "Wed, 25 Nov 2026 18:22:38 +0000",
    "desc": "This constellation would increase the number of satellites in orbit by roughly 50-fold.",
    "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "Os modelos de transporte terrestre da Europa subvalorizam os combustíveis verdes. Os preços de mercado favorecem a troca de baterias.",
-   "link": "https://cleantechnica.com/2026/11/25/inland-shipping-hvo-prices-battery-swapping/",
-   "date": "Wed, 25 Nov 2026 17:33:56 +0000",
-   "desc": "Europe's inland-shipping models underprice renewable diesel. For a new 110-meter dry-cargo vessel, PLATINA4Action calculates HVO (hydrotreated vegetable oil) pr",
-   "src": "CleanTechnica",
-   "translated": true
-  },
-  {
-   "title": "Identificação VW. Cross R-Line agora disponível para encomenda: lançamento do modelo com 99 kW, modelo principal com 166 kW a seguir",
-   "link": "https://cleantechnica.com/2026/11/25/vw-id-cross-r-line-now-available-to-order-model-launch-with-99-kw-flagship-model-with-166-kw-to-follow/",
-   "date": "Wed, 25 Nov 2026 17:26:14 +0000",
-   "desc": "New equipment line — for a sportier character and with extensive standard equipment Now available to order in Germany — ID. Cross R-Line with 99 kW (135 PS) and",
-   "src": "CleanTechnica",
    "translated": true
   },
   {
@@ -39,22 +55,6 @@
    "date": "Wed, 25 Nov 2026 13:30:00 +0000",
    "desc": "BlackSky ($BKSY) announced its acquisition of geospatial data science firm EpochGeo yesterday, which will merge EpochGeo’s AI/ML capabilities with BlackSky’s ex",
    "src": "Payload",
-   "translated": true
-  },
-  {
-   "title": "A IA pode em breve mudar o que significa ser um físico teórico",
-   "link": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/",
-   "date": "Wed, 25 Nov 2026 12:00:28 +0000",
-   "desc": "Frontier AI is already solving problems that once took top physicists a full day.",
-   "src": "Ars Technica",
-   "translated": true
-  },
-  {
-   "title": "A fusão entre Tesla e SpaceX se aproxima com grandes movimentos dos conselhos",
-   "link": "https://cleantechnica.com/2026/11/24/tesla-spacex-merger-nears-with-big-moves-from-the-boards/",
-   "date": "Wed, 25 Nov 2026 02:57:42 +0000",
-   "desc": "There's been the expectation for months, since SpaceX's IPO at least, that Tesla and SpaceX will merge. The suspicions haven't been built on a lot of evidence, ",
-   "src": "CleanTechnica",
    "translated": true
   },
   {
