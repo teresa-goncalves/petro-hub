@@ -1,21 +1,7 @@
 {
- "updated": "2026-11-26T19:03:34.037Z",
+ "updated": "2026-11-27T19:01:01.195Z",
  "source": "https://ll.thespacedevs.com",
  "items": [
-  {
-   "d": "26",
-   "mo": "NOV",
-   "missao": "Electron · Night Owls Never Sleep (StriX Launch 14)",
-   "sub": "Rocket Lab · Mahia (Nova Zelândia) · 26/11, 21:05 (Brasília) · observação da Terra",
-   "net": "2026-11-27T00:05:00Z"
-  },
-  {
-   "d": "27",
-   "mo": "NOV",
-   "missao": "Long March 6A · carga não divulgada",
-   "sub": "CASC · Taiyuan (China) · 27/11, 10:00 (Brasília)",
-   "net": "2026-11-27T13:00:00Z"
-  },
   {
    "d": "29",
    "mo": "NOV",
@@ -38,13 +24,6 @@
    "net": "2026-11-29T15:47:00Z"
   },
   {
-   "d": "--",
-   "mo": "",
-   "missao": "Mir · Demo Flight",
-   "sub": "Agency for Defense Development · Sea Launch · data a confirmar · voo de teste",
-   "net": "2026-11-30T00:00:00Z"
-  },
-  {
    "d": "30",
    "mo": "NOV",
    "missao": "Kinetica 1 · carga não divulgada",
@@ -52,11 +31,32 @@
    "net": "2026-12-01T01:45:00Z"
   },
   {
-   "d": "01",
+   "d": "02",
    "mo": "DEZ",
    "missao": "Kuaizhou 11 · carga não divulgada",
-   "sub": "ExPace · Jiuquan (China) · 01/12, 05:00 (Brasília)",
-   "net": "2026-12-01T08:00:00Z"
+   "sub": "ExPace · Jiuquan (China) · 02/12, 08:55 (Brasília)",
+   "net": "2026-12-02T11:55:00Z"
+  },
+  {
+   "d": "02",
+   "mo": "DEZ",
+   "missao": "Falcon 9 · NROL-132",
+   "sub": "SpaceX · Vandenberg, Califórnia (EUA) · 02/12, 17:30 (Brasília) · carga militar/classificada",
+   "net": "2026-12-02T20:30:00Z"
+  },
+  {
+   "d": "04",
+   "mo": "DEZ",
+   "missao": "Falcon 9 · CHORUS",
+   "sub": "SpaceX · Cabo Canaveral, Flórida (EUA) · 04/12, 09:55 (Brasília) · observação da Terra",
+   "net": "2026-12-04T12:55:00Z"
+  },
+  {
+   "d": "10",
+   "mo": "DEZ",
+   "missao": "Long March 12 · SatNet LEO TBD?",
+   "sub": "CASC · Wenchang (China) · 10/12, 04:00 (Brasília) · comunicações",
+   "net": "2026-12-10T07:00:00Z"
   }
  ]
 }
